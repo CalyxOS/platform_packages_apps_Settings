@@ -125,6 +125,9 @@ android_library {
         "androidx.appsearch_appsearch-builtin-types",
         "com.android.extensions.appfunctions.impl",
         "device-state-schema",
+
+        // Lineage dependencies
+        "org.lineageos.platform.internal",
     ],
 
     plugins: [
