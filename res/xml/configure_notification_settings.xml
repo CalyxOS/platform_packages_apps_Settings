@@ -188,6 +188,12 @@
             android:title="@string/notification_polite_title"
             settings:controller="com.android.settings.notification.PoliteNotificationsPreferenceController" />
 
+        <!-- Notification lights -->
+        <lineageos.preference.LineagePartsPreference
+            android:key="notification_lights"
+            settings:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
+            settings:replacesKey="notification_pulse" />
+
         <!-- Heads up -->
         <lineageos.preference.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
