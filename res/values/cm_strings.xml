@@ -57,6 +57,10 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
     <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
 
