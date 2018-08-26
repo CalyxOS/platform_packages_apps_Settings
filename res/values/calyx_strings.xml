@@ -29,4 +29,7 @@
     <string name="deny_new_usb_enabled">Deny new USB gadgets</string>
     <string name="deny_new_usb_dynamic">Allow new USB gadgets when unlocked</string>
     <string name="deny_new_usb_disabled">Allow new USB gadgets always</string>
+
+    <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
+    <string name="vendor_security_patch">Vendor security patch level</string>
 </resources>
