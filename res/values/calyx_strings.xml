@@ -16,4 +16,7 @@
 -->
 <resources>
     <string name="calyxos_version">CalyxOS version</string>
+
+    <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
+    <string name="vendor_security_patch">Vendor security patch level</string>
 </resources>
