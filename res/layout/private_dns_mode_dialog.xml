@@ -39,6 +39,14 @@
                 android:minHeight="48dp"/>
 
             <RadioButton
+                android:id="@+id/private_dns_mode_cloudflare"
+                android:text="@string/private_dns_mode_cloudflare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:minHeight="48dp"/>
+
+            <RadioButton
                 android:id="@+id/private_dns_mode_opportunistic"
                 android:text="@string/private_dns_mode_opportunistic"
                 android:layout_width="wrap_content"
