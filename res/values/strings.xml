@@ -10085,4 +10085,6 @@
 
     <!-- Title for Connected device shortcut [CHAR LIMIT=30] -->
     <string name="devices_title">Devices</string>
+
+    <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
 </resources>

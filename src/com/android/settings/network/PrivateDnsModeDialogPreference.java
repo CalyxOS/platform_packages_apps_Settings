@@ -17,6 +17,7 @@ package com.android.settings.network;
 
 import static android.net.ConnectivityManager.PRIVATE_DNS_DEFAULT_MODE_FALLBACK;
 import static android.net.ConnectivityManager.PRIVATE_DNS_MODE_OFF;
+import static android.net.ConnectivityManager.PRIVATE_DNS_MODE_CLOUDFLARE;
 import static android.net.ConnectivityManager.PRIVATE_DNS_MODE_OPPORTUNISTIC;
 import static android.net.ConnectivityManager.PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
 import static android.system.OsConstants.AF_INET;
@@ -68,6 +69,7 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreference imple
     static {
         PRIVATE_DNS_MAP = new HashMap<>();
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_OFF, R.id.private_dns_mode_off);
+        PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_CLOUDFLARE, R.id.private_dns_mode_cloudflare);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_OPPORTUNISTIC, R.id.private_dns_mode_opportunistic);
         PRIVATE_DNS_MAP.put(PRIVATE_DNS_MODE_PROVIDER_HOSTNAME, R.id.private_dns_mode_provider);
     }
@@ -179,6 +181,9 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreference imple
         switch (checkedId) {
             case R.id.private_dns_mode_off:
                 mMode = PRIVATE_DNS_MODE_OFF;
+                break;
+            case R.id.private_dns_mode_cloudflare:
+                mMode = PRIVATE_DNS_MODE_CLOUDFLARE;
                 break;
             case R.id.private_dns_mode_opportunistic:
                 mMode = PRIVATE_DNS_MODE_OPPORTUNISTIC;
