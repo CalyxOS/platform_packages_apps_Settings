@@ -15,4 +15,5 @@
      limitations under the License.
 -->
 <resources>
+    <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
 </resources>
