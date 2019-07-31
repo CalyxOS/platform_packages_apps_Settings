@@ -21,6 +21,7 @@ import android.app.Dialog;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
@@ -32,6 +33,7 @@ import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
 public class FirmwareVersionDialogFragment extends InstrumentedDialogFragment {
 
     private static final String TAG = "firmwareVersionDialog";
+    private static final String CALYXOS_VERSION_PROP = "ro.calyxos.version";
 
     private View mRootView;
 
@@ -58,6 +60,11 @@ public class FirmwareVersionDialogFragment extends InstrumentedDialogFragment {
                 R.layout.dialog_firmware_version, null /* parent */);
 
         initializeControllers();
+
+        // CalyxOS Version
+        final TextView calyxOSValueView = mRootView.findViewById(R.id.calyxos_version_value);
+        calyxOSValueView.setText(SystemProperties.get(CALYXOS_VERSION_PROP,
+            getString(R.string.unknown)));
 
         return builder.setView(mRootView).create();
     }
