@@ -11339,4 +11339,5 @@
     <string name="work_policy_privacy_settings_summary">Settings managed by your IT admin</string>
 
     <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
+    <string name="calyxos_version">CalyxOS Version</string>
 </resources>
