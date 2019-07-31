@@ -16,4 +16,5 @@
 -->
 <resources>
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+    <string name="calyxos_version">CalyxOS version</string>
 </resources>
