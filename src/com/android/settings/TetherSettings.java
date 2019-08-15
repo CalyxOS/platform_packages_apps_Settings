@@ -36,6 +36,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.UserManager;
 import android.provider.SearchIndexableResource;
+import android.provider.Settings;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
@@ -69,6 +70,7 @@ public class TetherSettings extends RestrictedSettingsFragment
     static final String KEY_USB_TETHER_SETTINGS = "usb_tether_settings";
     @VisibleForTesting
     static final String KEY_ENABLE_BLUETOOTH_TETHERING = "enable_bluetooth_tethering";
+    private static final String KEY_TETHERING_ALLOW_VPN_UPSTREAMS = "tethering_allow_vpn_upstreams";
     private static final String KEY_DATA_SAVER_FOOTER = "disabled_on_data_saver";
 
     private static final String TAG = "TetheringSettings";
@@ -76,6 +78,8 @@ public class TetherSettings extends RestrictedSettingsFragment
     private SwitchPreference mUsbTether;
 
     private SwitchPreference mBluetoothTether;
+
+    private SwitchPreference mTetheringAllowVpnUpstreams;
 
     private BroadcastReceiver mTetherChangeReceiver;
 
@@ -143,6 +147,8 @@ public class TetherSettings extends RestrictedSettingsFragment
 
         mUsbTether = (SwitchPreference) findPreference(KEY_USB_TETHER_SETTINGS);
         mBluetoothTether = (SwitchPreference) findPreference(KEY_ENABLE_BLUETOOTH_TETHERING);
+        mTetheringAllowVpnUpstreams =
+                (SwitchPreference) findPreference(KEY_TETHERING_ALLOW_VPN_UPSTREAMS);
 
         mDataSaverBackend.addListener(this);
 
@@ -313,6 +319,7 @@ public class TetherSettings extends RestrictedSettingsFragment
             String[] errored) {
         updateUsbState(available, tethered, errored);
         updateBluetoothState();
+        updateTetheringAllowVpnUpstreamsState();
     }
 
     private void updateUsbState(String[] available, String[] tethered,
@@ -376,6 +383,11 @@ public class TetherSettings extends RestrictedSettingsFragment
         }
     }
 
+    private void updateTetheringAllowVpnUpstreamsState() {
+        mBluetoothTether.setChecked(Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.TETHERING_ALLOW_VPN_UPSTREAMS, 0) == 1 ? true : false);
+    }
+
     public static boolean isProvisioningNeededButUnavailable(Context context) {
         return (TetherUtil.isProvisioningNeeded(context)
                 && !isIntentAvailable(context));
@@ -424,6 +436,10 @@ public class TetherSettings extends RestrictedSettingsFragment
             } else {
                 mCm.stopTethering(TETHERING_BLUETOOTH);
             }
+        } else if (preference == mTetheringAllowVpnUpstreams) {
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.TETHERING_ALLOW_VPN_UPSTREAMS,
+                    mTetheringAllowVpnUpstreams.isChecked() ? 1 : 0);
         }
 
         return super.onPreferenceTreeClick(preference);
