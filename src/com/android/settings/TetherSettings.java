@@ -52,6 +52,7 @@ import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.FeatureFlags;
+import com.android.settings.dashboard.RestrictedDashboardFragment;
 import com.android.settings.datausage.DataSaverBackend;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.wifi.tether.WifiTetherPreferenceController;
@@ -71,7 +72,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * Displays preferences for Tethering.
  */
 @SearchIndexable
-public class TetherSettings extends RestrictedSettingsFragment
+public class TetherSettings extends RestrictedDashboardFragment
         implements DataSaverBackend.Listener {
 
     @VisibleForTesting
@@ -129,6 +130,15 @@ public class TetherSettings extends RestrictedSettingsFragment
     TetheringManager mTm;
 
     @Override
+    protected String getLogTag() {
+        return TetherSettings.class.getSimpleName();
+    }
+
+    @Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.tether_prefs;
+    }
+
     public int getMetricsCategory() {
         return SettingsEnums.TETHER;
     }
@@ -148,7 +158,6 @@ public class TetherSettings extends RestrictedSettingsFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.tether_prefs);
         mContext = getContext();
         mDataSaverBackend = new DataSaverBackend(mContext);
         mDataSaverEnabled = mDataSaverBackend.isDataSaverEnabled();
