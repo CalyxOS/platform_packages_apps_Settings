@@ -17,4 +17,7 @@
 <resources>
     <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
     <string name="calyxos_version">CalyxOS Version</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Close</string>
 </resources>
