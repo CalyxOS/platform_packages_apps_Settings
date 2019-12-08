@@ -24,6 +24,12 @@
     <!-- Text shown for the description of the panic option -->
     <string name="panic_settings_summary">Display power button option that activates an emergency panic trigger.</string>
 
+    <string name="deny_new_usb_title">Restrict USB</string>
+    <string name="deny_new_usb_summary">Control support for USB gadgets such as earphones, storage devices and input (mice, keyboards, joysticks)</string>
+    <string name="deny_new_usb_enabled">Deny new USB gadgets</string>
+    <string name="deny_new_usb_dynamic">Allow new USB gadgets when unlocked</string>
+    <string name="deny_new_usb_disabled">Allow new USB gadgets always</string>
+
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
     <string name="vendor_security_patch">Vendor security patch level</string>
 </resources>
