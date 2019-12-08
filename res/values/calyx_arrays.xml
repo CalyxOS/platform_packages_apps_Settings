@@ -15,4 +15,20 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Security Settings -->
+    <string-array name="deny_new_usb_entries" translatable="false">
+        <item>@string/deny_new_usb_enabled</item>
+        <item>@string/deny_new_usb_dynamic</item>
+        <item>@string/deny_new_usb_disabled</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="deny_new_usb_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>enabled</item>
+        <!-- Do not translate. -->
+        <item>dynamic</item>
+        <!-- Do not translate. -->
+        <item>disabled</item>
+    </string-array>
 </resources>
