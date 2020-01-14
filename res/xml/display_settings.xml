@@ -16,6 +16,7 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lineage="http://schemas.android.com/apk/res/lineageos.platform"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="display_settings_screen"
     android:title="@string/display_settings"
@@ -91,6 +92,10 @@
             android:fragment="com.android.settings.display.NightDisplaySettings"
             settings:controller="com.android.settings.display.NightDisplayPreferenceController"
             settings:keywords="@string/keywords_display_night_display"/>
+
+        <org.lineageos.internal.lineageparts.LineagePartsPreference
+            android:key="livedisplay"
+            lineage:requiresConfig="@*lineageos.platform:bool/config_enableLiveDisplay" />
 
         <Preference
             android:key="color_mode"
