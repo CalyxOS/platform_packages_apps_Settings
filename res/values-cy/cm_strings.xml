@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="zero">Rwyt nawr <xliff:g id="step_count">%1$d</xliff:g> camau i ffwrdd o alluogi gosodiadau datblygu.</item>
+        <item quantity="one">Rwyt nawr <xliff:g id="step_count">%1$d</xliff:g> cam i ffwrdd o alluogi gosodiadau datblygu.</item>
+        <item quantity="two">Rwyt nawr <xliff:g id="step_count">%1$d</xliff:g> gam i ffwrdd o alluogi gosodiadau datblygu.</item>
+        <item quantity="few">Rwyt nawr <xliff:g id="step_count">%1$d</xliff:g> cam i ffwrdd o alluogi gosodiadau datblygu.</item>
+        <item quantity="many">Rwyt nawr <xliff:g id="step_count">%1$d</xliff:g> cham i ffwrdd o alluogi gosodiadau datblygu.</item>
+        <item quantity="other">Rwyt nawr <xliff:g id="step_count">%1$d</xliff:g> cam i ffwrdd o alluogi gosodiadau datblygu.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Rwyt wedi galluogi gosodiadau datblygu!</string>
+    <string name="show_dev_already_cm">Dim angen; rwyt eisoes wedi galluogi gosodiadau datblygu.</string>
+    <string name="suggestion_button_close">Cau</string>
+    <string name="advanced_reboot_title">Ailgychwyn arbennig</string>
+    <string name="advanced_reboot_summary">Pan wedi datgloi, cynnwys opsiynau yn y ddewislen pŵer i ailgychwyn y system neu ailgychwyn i\'r modd adfer</string>
+    <string name="adb_enable">Dadfygio Android</string>
+    <string name="adb_enable_summary">Galluogi\'r rhyngwyneb ADB (Android Debug Bridge)</string>
+    <string name="adb_enable_root">Dadfygio wedi gwreiddio</string>
+    <string name="adb_enable_summary_root">Caniatáu rhedeg dadfygio Android fel gwraidd</string>
+    <string name="adb_notify">Hysbysiad dadfygio</string>
+    <string name="adb_notify_summary">Dangos hysbysiad pan fo dadfygio trwy USB neu rwydwaith wedi\'i alluogi</string>
+    <string name="adb_over_network">ADB dros rwydwaith</string>
+    <string name="adb_over_network_summary">Galluogi dadfygio TCP/IP dros ryngwynebau rhwydwaith (Wi\u2011Fi, rhwydweithiau USB). Mae\'r gosodiad yn cael ei ail-osod wrth ail-gychwyn y ddyfais.</string>
+    <string name="adb_over_network_warning">RHYBUDD: Tra bod ADB dros rwydwaith wedi\'i alluogi, mae dy ffôn ar gael ac yn agor i ymyrraeth ar bob rhwydwaith mae wedi cysylltu â nhw!\n\nDefnyddia\'r nodwedd hon dim ond pan wyt wedi cysylltu â rhwydweithiau rwyt yn ymddiried ynddynt.\n\nWyt ti wir eisiau parhau i alluogi\'r nodwedd hon?</string>
+    <string name="lineagelicense_title">Cyfreithiol LineageOS</string>
+    <string name="kill_app_longpress_back">Lladd ap gyda\'r botwm nôl</string>
+    <string name="kill_app_longpress_back_summary">Lladd yr ap yn y blaendir wrth ddal dy gyffwrdd ar y botwm nôl</string>
+    <string name="device_hostname">Enw gwestai\'r ddyfais</string>
+    <string name="tethering_allow_vpn_upstreams_title">Caniatáu cleientiaid i ddefnyddio VPNau</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Caniatáu cleientiaid llecynnau Wi-Fi i ddefnyddio cysylltiadau VPN y ddyfais hon</string>
+    <string name="increasing_ring_volume_option_title">Uchder sain yn cynyddu</string>
+    <string name="increasing_ring_min_volume_title">Uchder sain i ddechrau</string>
+    <string name="increasing_ring_ramp_up_time_title">Amser i gynyddu</string>
+    <string name="lockscreen_media_art_title">Dangos llun clawr cyfryngau</string>
+    <string name="lockscreen_visualizer_title">Dangos patrymau cerddoriaeth</string>
+    <string name="lock_settings_picker_pattern_size_message">Dewisa faint patrwm</string>
+    <string name="lockpattern_settings_enable_error_path_title">Dangos gwall patrwm</string>
+    <string name="lockpattern_settings_enable_dots_title">Dangos dotiau patrwm</string>
+    <string name="translucent_lockscreen_notifications_bg_title">Hysbysiadau cefndir tryleu</string>
+    <string name="app_notification_sound_timeout_title">Y cyfnod lleiaf o amser rhwng seiniau hysbysiadau</string>
+    <string name="app_notification_sound_timeout_summary_template">Peidio â chaniatáu synau na dirgrynu yn amlach nag unwaith pob <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Dim cyfyngiad</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 eiliad</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 eiliad</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 munud</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 munud</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 munud</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 munud</string>
+    <string name="unlock_scramble_pin_layout_title">Cymysgu\'r cynllun</string>
+    <string name="unlock_scramble_pin_layout_summary">Cymysgu cynllun y PIN wrth ddatgloi\'r ddyfais</string>
+    <string name="volume_link_notification_title">Cysylltu uchder sain caniad ffôn a hysbysiadau</string>
+    <string name="directly_show_lock">Datgloi uniongyrchol</string>
+    <string name="directly_show_lock_summary">Neidio\'r sgrin llithro i ddatgloi a dechrau yn hytrach yn syth gyda\'r sgrin gosod allwedd</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Darganfyddi\'r synhwyrydd ôl bys ar <xliff:g id="sensor_location">%1$s</xliff:g> dy lechen.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Darganfyddi\'r synhwyrydd ôl bys ar <xliff:g id="sensor_location">%1$s</xliff:g> dy ddyfais.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Darganfyddi\'r synhwyrydd ôl bys ar <xliff:g id="sensor_location">%1$s</xliff:g> dy ffôn.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">gefn</string>
+    <string name="security_settings_fingerprint_sensor_location_front">flaen</string>
+    <string name="security_settings_fingerprint_sensor_location_left">ochr chwith</string>
+    <string name="security_settings_fingerprint_sensor_location_right">ochr dde</string>
+    <string name="status_bar_double_tap_to_sleep_title">Tapio i gysgu</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Tapio dwywaith ar y bar statws neu\'r sgrin cloi i droi\'r sgrin i ffwrdd</string>
+    <string name="touchscreen_gesture_settings_title">Ystumiau sgrin gyffwrdd</string>
+    <string name="touchscreen_gesture_settings_summary">Perfformio ystumiau amrywiol ar y sgrin gyffwrdd am weithredoedd cyflym</string>
+    <string name="data_usage_app_restrict_all">Caniatáu mynediad i rwydwaith</string>
+    <string name="data_usage_app_restrict_all_summary">Caniatáu defnydd o rwydwaith</string>
+    <string name="data_usage_app_restrict_data">Data symudol</string>
+    <string name="data_usage_app_restrict_data_summary">Galluogi defnydd data symudol</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Galluogi defnyddio VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Galluogi defnydd data Wi\u2011Fi</string>
+    <string name="proximity_wake_title">Rhwystro deffro ar gam</string>
+    <string name="proximity_wake_summary">Gwirio\'r synhwyrydd agosrwydd cyn deffro\'r sgrin</string>
+    <string name="wake_when_plugged_or_unplugged_title">Deffro wrth gysylltu â phŵer</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Troi\'r sgrin ymlaen wrth gysylltu neu ddatgysylltu â phŵer</string>
+    <string name="high_touch_sensitivity_title">Sensitifrwydd cyffwrdd uchel</string>
+    <string name="high_touch_sensitivity_summary">Cynyddu sensitifrwydd y sgrin gyffwrdd fel y gellir ei defnyddio wrth wisgo menig</string>
+    <string name="touchscreen_hovering_title">Hofran sgrin gyffwrdd</string>
+    <string name="touchscreen_hovering_summary">Mae\'n dy ganiatáu i hofran ar y sgrin fel defnyddio llygoden mewn porwyr, byrddau gwaith pell, ayyb</string>
+    <string name="update_recovery_title">Diweddaru modd adfer</string>
+    <string name="update_recovery_summary">Diweddaru\'r modd adfer rhagosodedig gyda diweddariadau i\'r system</string>
+    <string name="update_recovery_on_warning">NODYN: Pan fydd y nodwedd hon ar waith, caiff y dull adfer (recovery) sydd wedi ei osod ar dy ddyfais ei newid am yr un sy\'n rhan o\'r system sy\'n rhedeg.\n\nCaiff dy ddull adfer ei ddiweddaru pan fydd y system yn cael ei uwchraddio er mwyn sicrhau ei fod yn gydnaws a fersiynau yn y dyfodol.\n\nWyt ti am alluogi\'r nodwedd hon?</string>
+    <string name="update_recovery_off_warning">RHYBUDD: Pan fydd y nodwedd hon wedi\'i analluogi, ni fydd dy ddull adfer (recovery) yn cael ei ddiweddaru wrth i\'r system cael ei uwchraddio.\n\nMae\'n bosib na fydd diweddariadau system yn y dyfodol yn gosod gyda dull adfer hen neu wahanol.\n\nWyt ti wir am analluogi\'r nodwedd hon?</string>
+    <string name="berry_black_theme_title">Du pur</string>
+    <string name="berry_black_theme_summary">Cefndir du pur i thema tywyll</string>
+    <string name="back_sensitivity_title">Sensitifrwydd y cefn</string>
+    <string name="back_sensitivity_message">Gall sensitifrwydd uwch gwrthdaro ag unrhyw ystumiau apiau ar hyd ymylon y sgrin</string>
+    <string name="min_label">Llei.</string>
+    <string name="max_label">Mwy.</string>
+    <string name="show_navbar_hint_title">Awgrymiad llywio</string>
+    <string name="show_navbar_hint_summary">Dangos bar awgrymiadau llywio ar waelod y sgrin</string>
+    <string name="keywords_notification_log">hysbysiadau, log hysbysiadau</string>
+    <string name="heads_up_notifications_enabled_title">Rhagrybudd</string>
+    <string name="heads_up_notifications_enabled_summary">Dangos hysbysiadau blaenoriaeth mewn ffenestr fach sy\'n arnofio</string>
+</resources>

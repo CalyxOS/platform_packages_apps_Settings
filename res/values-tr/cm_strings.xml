@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Geliştirici ayarlarının etkinleştirilmesi için <xliff:g id="step_count">%1$d</xliff:g> adım kaldı.</item>
+        <item quantity="other">Geliştirici ayarlarının etkinleştirilmesi için <xliff:g id="step_count">%1$d</xliff:g> adım kaldı.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Geliştirici ayarlarını etkinleştirdiniz!</string>
+    <string name="show_dev_already_cm">Gerek yok, zaten geliştirme ayarlarını etkinleştirdiniz.</string>
+    <string name="suggestion_button_close">Kapat</string>
+    <string name="advanced_reboot_title">Gelişmiş yeniden başlatma</string>
+    <string name="advanced_reboot_summary">Kilit açıldığında kurtarma veya önyükleme modunda yeniden başlatmak için güç menüsüne seçenekler ekler</string>
+    <string name="adb_enable">Android hata ayıklama</string>
+    <string name="adb_enable_summary">Android Hata Ayıklama (ADB) arabirimini etkinleştir</string>
+    <string name="adb_enable_root">Rootlu hata ayıklama</string>
+    <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
+    <string name="adb_notify">Hata ayıklama bildirimi</string>
+    <string name="adb_notify_summary">USB veya ağ üzerinden hata ayıklama etkin olduğunda bir bildirim görüntüle</string>
+    <string name="adb_over_network">Ağ üzerinden ADB</string>
+    <string name="adb_over_network_summary">Ağ arayüzleri (Wi\u2011Fi, USB ağları) üzerinde TCP/IP hata ayıklamayı etkinleştir. Bu ayar yeniden başlatılmada sıfırlanır</string>
+    <string name="adb_over_network_warning">Uyarı: Ağ üzerinden ADB etkinken, telefonunuz tüm bağlantılı ağlar üzerinde yetkisiz erişimlere açıktır!\n\nBu özelliği sadece güvenli ağlar üzerindeyken kullanın.\n\nGerçekten bu işlevi kullanmak istiyor musunuz?</string>
+    <string name="lineagelicense_title">LineageOS yasal</string>
+    <string name="kill_app_longpress_back">Uygulama sonlandırıcı geri tuşu</string>
+    <string name="kill_app_longpress_back_summary">Geri tuşuna uzun dokunarak ön plandaki uygulamayı sonlandır</string>
+    <string name="device_hostname">Cihaz ağ adı</string>
+    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
+    <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
+    <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
+    <string name="increasing_ring_ramp_up_time_title">Yükselme zamanı</string>
+    <string name="lockscreen_media_art_title">Medya kapak resmini göster</string>
+    <string name="lockscreen_visualizer_title">Müzik görselleştiriciyi görüntüle</string>
+    <string name="lock_settings_picker_pattern_size_message">Bir desen boyutu seçin</string>
+    <string name="lockpattern_settings_enable_error_path_title">Desen hatasını göster</string>
+    <string name="lockpattern_settings_enable_dots_title">Desen noktalarını göster</string>
+    <string name="translucent_lockscreen_notifications_bg_title">Yarı şeffaf bildirim arkaplanı</string>
+    <string name="app_notification_sound_timeout_title">Bildirim sesleri arasında en az zaman</string>
+    <string name="app_notification_sound_timeout_summary_template">Bir defadan fazla olmayacak şekilde her <xliff:g id="duration">%1$s</xliff:g>\'da bir titreme veya sese izin ver</string>
+    <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 saniye</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 Saniye</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 dakika</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 dakika</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
+    <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştırır</string>
+    <string name="volume_link_notification_title">Zil sesi ve bildirim ses düzeyini bağla</string>
+    <string name="directly_show_lock">Doğrudan kilit aç</string>
+    <string name="directly_show_lock_summary">Ekranın kilidini açmak için kaydırmayı atlayın ve hemen tuşlamaya başlayın</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Tabletinizin <xliff:g id="sensor_location">%1$s</xliff:g> parmak izi sensörünü bulun.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Cihazınızın <xliff:g id="sensor_location">%1$s</xliff:g> parmak izi sensörünü bulun.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Telefonunuzun <xliff:g id="sensor_location">%1$s</xliff:g> parmak izi sensörünü bulun.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">arkasındaki</string>
+    <string name="security_settings_fingerprint_sensor_location_front">önündeki</string>
+    <string name="security_settings_fingerprint_sensor_location_left">sol tarafındaki</string>
+    <string name="security_settings_fingerprint_sensor_location_right">sağ tarafındaki</string>
+    <string name="status_bar_double_tap_to_sleep_title">Uyutmak için dokunun</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Ekranı kapatmak için durum çubuğuna veya kilit ekranına çift dokunun</string>
+    <string name="touchscreen_gesture_settings_title">Ekran hareketleri</string>
+    <string name="touchscreen_gesture_settings_summary">Hızlı işlemler için çeşitli dokunmatik ekran hareketleri gerçekleştirin</string>
+    <string name="data_usage_app_restrict_all">Ağ erişimine izin ver</string>
+    <string name="data_usage_app_restrict_all_summary">Ağ kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_data">Hücresel veri</string>
+    <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_vpn">VPN verileri</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
+    <string name="wake_when_plugged_or_unplugged_title">Takıp çıkarmada uyan</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Bir güç kaynağına bağlanırken ya da bağlantısını keserken ekranı aç</string>
+    <string name="high_touch_sensitivity_title">Yüksek dokunma hassasiyeti</string>
+    <string name="high_touch_sensitivity_summary">Dokunmatik ekran hassasiyetini arttırarak eldiven ile kullanıma olanak verir</string>
+    <string name="touchscreen_hovering_title">Dokunmatik ekrana dokunmadan gezinme</string>
+    <string name="touchscreen_hovering_summary">Ekrana dokunmadan parmağınızı yakınlaştırarak bir fare kullanıyormuş gibi web tarayıcılarında, uzak masaüstlerinde, vb. dolaşmanızı sağlar</string>
+    <string name="update_recovery_title">Kurtarma modunu güncelle</string>
+    <string name="update_recovery_summary">Sistem güncellemesi ile kurtarma modunu güncelle</string>
+    <string name="update_recovery_on_warning">DİKKAT: Bu özellik etkinken, yüklü kurtarma modunuz mevcut OS sürümündeki mod ile değiştirilecektir. \n\nKurtarma modunuz sistem güncellemeleri ile birlikte güncellenecektir, böylelikle gelecek sürümler ile uyumluluk sağlanacaktır.\n\nBu özelliği etkinleştirmek ister misiniz?</string>
+    <string name="update_recovery_off_warning">UYARI: Bu özellik devre dışı bırakıldığında, yüklü kurtarma modunuz OS güncellemeleri ile güncellenmeyecektir.\n\nGelecek OS güncellemeleri eskimiş ya da özel kurtarma sürümleri ile yüklenemeyebilir.\n\nBu özelliği gerçekten devre dışı bırakmak istiyor musunuz?</string>
+    <string name="berry_black_theme_title">Saf siyah</string>
+    <string name="berry_black_theme_summary">Karanlık tema için saf siyah arka plan</string>
+    <string name="back_sensitivity_title">Geri hassasiyeti</string>
+    <string name="back_sensitivity_message">Daha yüksek hassasiyet, ekranın kenarlarındaki uygulama hareketleriyle çakışabilir.</string>
+    <string name="back_exclusion_title">Üstte geri hareketini hariç tut</string>
+    <string name="back_exclusion_summary">Ekranın üst kısmının bir kısmını geri hareket alanından hariç tutar</string>
+    <string name="min_label">En az</string>
+    <string name="max_label">En çok</string>
+    <string name="show_navbar_hint_title">Gezinme ipucu</string>
+    <string name="show_navbar_hint_summary">Ekranın altında gezinme ipucu çubuğunu göster</string>
+    <string name="keywords_notification_log">bildirimler, bildirim günlüğü</string>
+    <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
+    <string name="heads_up_notifications_enabled_title">Bildirim pencereleri</string>
+    <string name="heads_up_notifications_enabled_summary">Küçük bir yüzen pencerede öncelikli bildirimleri görüntüle</string>
+</resources>

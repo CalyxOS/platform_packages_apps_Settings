@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Olete <xliff:g id="step_count">%1$d</xliff:g> sammu kaugusel arendussätete lubamisest.</item>
+        <item quantity="other">Olete <xliff:g id="step_count">%1$d</xliff:g> sammu kaugusel arendussätete lubamisest.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Arendussätted aktiveeritud!</string>
+    <string name="show_dev_already_cm">Ei ole vaja, arendussätted juba aktiveeritud.</string>
+    <string name="advanced_reboot_summary">Kui lukustamata, lisa toitemenüüsse valikud taastusrežiimi või käivituslaadurisse taaskäivitamiseks</string>
+    <string name="adb_enable">Androidi silumine</string>
+    <string name="adb_notify">Silumise teavitus</string>
+    <string name="adb_notify_summary">Kuva teavitus, kui USB või võrgu silumine on lubatud</string>
+    <string name="adb_over_network">ADB üle võrgu</string>
+    <string name="adb_over_network_summary">Luba TCP/IP silumine üle võrguliideste (Wi\u2011Fi, USB võrgud). Säte lähtestatakse taaskäivitamisel</string>
+    <string name="adb_over_network_warning">HOIATUS: Kui ADB üle võrgu on lubatud, on Teie telefon avatud sissetungimiseks kõikidest ühendatud võrkudest!\n\nKasuta seda võimalust ainult turvalistes võrkudes.\n\nKas sa soovid tõesti selle funktsiooni sisse lülitada?</string>
+    <string name="lineagelicense_title">LineageOS juriidiline info</string>
+    <string name="kill_app_longpress_back">Välju rakendusest tagasi nupuga</string>
+    <string name="kill_app_longpress_back_summary">Sulge esiplaani rakendus pikalt vajutades tagasi nuppu</string>
+    <string name="device_hostname">Seadme hostname</string>
+    <string name="tethering_allow_vpn_upstreams_title">Luba klientidel kasutada VPN-e</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Luba kuumkoha klientidel kasutada selle seadme VPN-ühendusi ülesvoolu ühenduvuseks</string>
+    <string name="increasing_ring_volume_option_title">Kasvav helisemistugevus</string>
+    <string name="increasing_ring_min_volume_title">Lähtevaljusus</string>
+    <string name="increasing_ring_ramp_up_time_title">Käivitamisetapi aeg</string>
+    <string name="lockscreen_media_art_title">Näita meedia kaanepilti</string>
+    <string name="lockscreen_visualizer_title">Näita muusika visualiseerijat</string>
+    <string name="lockpattern_settings_enable_error_path_title">Näita mustri vigu</string>
+    <string name="lockpattern_settings_enable_dots_title">Näita mustri punkte</string>
+    <string name="translucent_lockscreen_notifications_bg_title">Läbipaistev märguannete taust</string>
+    <string name="unlock_scramble_pin_layout_title">Segatud paigutus</string>
+    <string name="unlock_scramble_pin_layout_summary">Sega PIN paigutust seadme lahtilukustamisel</string>
+    <string name="volume_link_notification_title">Ühenda helina ja teadete helitugevus</string>
+    <string name="directly_show_lock">Vahetu avamine</string>
+    <string name="directly_show_lock_summary">Jäta vahele ekraani lahtilukustamiseks vajalik viibe ning alusta kohe koodi sisestamist</string>
+    <string name="status_bar_double_tap_to_sleep_title">Koputa unerežiimiks</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Topeltkoputa olekuriba või lukustuskuva ekraani väljalülitamiseks</string>
+    <string name="touchscreen_gesture_settings_title">Puuteekraani žestid</string>
+    <string name="touchscreen_gesture_settings_summary">Soorita mitmeid puuteekraani žeste kiirtoimingute teostamiseks</string>
+    <string name="data_usage_app_restrict_all">Luba võrgujuurdepääs</string>
+    <string name="data_usage_app_restrict_all_summary">Luba võrgukasutus</string>
+    <string name="data_usage_app_restrict_data">Mobiilne andmeside</string>
+    <string name="data_usage_app_restrict_data_summary">Luba mobiilse andmeside kasutus</string>
+    <string name="data_usage_app_restrict_vpn">VPNi andmeside</string>
+    <string name="data_usage_app_restrict_vpn_summary">Lubage VPNi andmeside kasutus</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi andmeside</string>
+    <string name="data_usage_app_restrict_wifi_summary">Luba Wi\u2011Fi andmeside kasutus</string>
+    <string name="proximity_wake_title">Väldi juhuslikku ärkamist</string>
+    <string name="proximity_wake_summary">Kontrolli lähedussensorit enne ekraani äratamist</string>
+    <string name="wake_when_plugged_or_unplugged_title">Ärka laadija ühendamisel</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Lülita ekraan sisse kui ühendatakse või eemaldatakse toite allikas</string>
+    <string name="high_touch_sensitivity_title">Kõrge puutetundlikus</string>
+    <string name="high_touch_sensitivity_summary">Suurenda puuteekraani tundlikust, et saaksid seda kasutada kindaid kandes</string>
+    <string name="touchscreen_hovering_title">Puuteekraani hõljumine</string>
+    <string name="touchscreen_hovering_summary">Lubab hõljuda ekraani kohal nagu hiirega veebilehitsejas, kaugtöölaual jne</string>
+    <string name="update_recovery_on_warning">TEADE: Kui see funktsioon on lubatud, siis teie installitud Recovery asendatakse praeguses OS versioonis kaasas olevaga.\n\nSinu Recovery uuendatakse koos süsteemi uuendustega, et tagada ühilduvus tulevaste versioonidega.\n\nKas soovite funktsiooni aktiveerida?</string>
+    <string name="update_recovery_off_warning">HOIATUS: Kui see funktsioon on keelatud, siis teie installitud Recovery ei ajakohastata OS uuendamisel.\n\nTulevased OS ajakohastamised ei pruugi paigalduda vananenud või kohandatud Recovery kasutamisel.\n\nKas soovite funktsiooni keelata?</string>
+    <string name="berry_black_theme_title">Täiesti must</string>
+    <string name="berry_black_theme_summary">Täiesti must taust tumeda teema jaoks</string>
+    <string name="back_sensitivity_title">Tagasinupu tundlikkus</string>
+    <string name="back_sensitivity_message">Suurem tundlikkus võib olla vastuolus mistahes rakenduse žestidega ekraani servas.</string>
+    <string name="back_exclusion_title">Tagasinupu välistamine ülaosas</string>
+    <string name="back_exclusion_summary">Välista osa ekraani ülaservast tagasinupu žesti tegemisel</string>
+    <string name="min_label">Min.</string>
+    <string name="max_label">Maks.</string>
+    <string name="show_navbar_hint_title">Navigeerimise vihje</string>
+    <string name="show_navbar_hint_summary">Kuva navigeerimise vihjeriba ekraani allosas</string>
+    <string name="keywords_notification_log">teated, teadete logi, märguanded, märguannete logi, teatised, teatiste logi</string>
+    <string name="heads_up_notifications_enabled_title">Piiluvad teated</string>
+</resources>

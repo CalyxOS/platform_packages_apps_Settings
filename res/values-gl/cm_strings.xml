@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Está a <xliff:g id="step_count">%1$d</xliff:g> paso de activar a configuración de desenvolvemento.</item>
+        <item quantity="other">Está a <xliff:g id="step_count">%1$d</xliff:g> pasos de activar a configuración de desenvolvemento.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Activou a configuración de desenvolvemento!</string>
+    <string name="show_dev_already_cm">Non fai falla, a configuración de desenvolvemento xa están activa.</string>
+    <string name="suggestion_button_close">Pechar</string>
+    <string name="advanced_reboot_title">Reinicio avanzado</string>
+    <string name="advanced_reboot_summary">Desbloqueado, inclúe opcións no menú de apagado para reiniciar no modo recuperación ou cargador de arranque</string>
+    <string name="adb_enable">Depuración de Android</string>
+    <string name="adb_enable_summary">Activa a interface de depuración Android Debug Bridge (ADB)</string>
+    <string name="adb_enable_root">Depuración como root</string>
+    <string name="adb_enable_summary_root">Permitir executar a depuración de Android como root</string>
+    <string name="adb_notify">Notificar de depuración</string>
+    <string name="adb_notify_summary">Notifica cando está activada a depuración da rede ou o dispositivo USB</string>
+    <string name="adb_over_network">ADB na rede</string>
+    <string name="adb_over_network_summary">Activar a depuración TCP/IP sobre as interfaces de rede (Wi\u2011FI, redes USB). Esta configuración restabelecese ao reiniciar</string>
+    <string name="adb_over_network_warning">AVISO: Cando está habilitado ADB sobre red, o dispositivo está aberto a intrusións en tódalas redes conectadas.\n\nUtilice esta función tan só cando estea conectado a redes de confianza.\n\nDe verdade desexa activar esta función?</string>
+    <string name="lineagelicense_title">Licenza de LineageOS</string>
+    <string name="kill_app_longpress_back">Terminar aplicación co botón Atrás</string>
+    <string name="kill_app_longpress_back_summary">Peche a aplicación en primeiro plano mantendo presionado o botón Atrás</string>
+    <string name="device_hostname">Nome do dispositivo</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permitir aos clientes usar VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permite aos clientes do punto de acceso usar as conexións VPN deste dispositivo como conexión principal</string>
+    <string name="increasing_ring_volume_option_title">Aumentando o volume de chamada</string>
+    <string name="increasing_ring_min_volume_title">Volume inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
+    <string name="lockscreen_media_art_title">Amosar a portada do álbum</string>
+    <string name="lockscreen_visualizer_title">Amosar visualizador de música</string>
+    <string name="lock_settings_picker_pattern_size_message">Escolle un tamaño para o patrón</string>
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar erro do padrón</string>
+    <string name="lockpattern_settings_enable_dots_title">Mostrar puntos do padrón</string>
+    <string name="translucent_lockscreen_notifications_bg_title">Fondo das notificacións translúcido</string>
+    <string name="app_notification_sound_timeout_title">Tempo mínimo entre os sons das notificacións</string>
+    <string name="app_notification_sound_timeout_summary_template">Permitir os sons ou vibración non máis dunha vez cada <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sen restrición</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+    <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
+    <string name="unlock_scramble_pin_layout_summary">Cambiar a disposición dos números do PIN para desbloquear o dispositivo</string>
+    <string name="volume_link_notification_title">Asociar volumes do ton de chamada e notificacións</string>
+    <string name="directly_show_lock">Desbloqueo inmediato</string>
+    <string name="directly_show_lock_summary">Omitir o esvarado para desbloquear a pantalla e iniciar a introdución inmediata da clave</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localiza o sensor de pegadas dixitais na <xliff:g id="sensor_location">%1$s</xliff:g> da túa tableta.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localiza o sensor de pegadas dixitais na <xliff:g id="sensor_location">%1$s</xliff:g> do teu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localiza o sensor de pegadas dixitais na <xliff:g id="sensor_location">%1$s</xliff:g> do teu móbil.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">parte posterior</string>
+    <string name="security_settings_fingerprint_sensor_location_front">parte frontal</string>
+    <string name="security_settings_fingerprint_sensor_location_left">cara esquerda</string>
+    <string name="security_settings_fingerprint_sensor_location_right">cara dereita</string>
+    <string name="status_bar_double_tap_to_sleep_title">Tocar para suspender</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Duplo toque na barra de estado ou na pantalla de bloqueo para apagar a pantalla</string>
+    <string name="touchscreen_gesture_settings_title">Xestos na pantalla táctil</string>
+    <string name="touchscreen_gesture_settings_summary">Realizar varios xestos na pantalla para accións rápidas</string>
+    <string name="data_usage_app_restrict_all">Permitir acceso á rede</string>
+    <string name="data_usage_app_restrict_all_summary">Habilitar uso da rede</string>
+    <string name="data_usage_app_restrict_data">Datos móbiles</string>
+    <string name="data_usage_app_restrict_data_summary">Activar o uso dos datos móbiles</string>
+    <string name="data_usage_app_restrict_vpn">Datos VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Activar o uso de datos por VPN</string>
+    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activar o uso dos datos Wi\u2011Fi</string>
+    <string name="proximity_wake_title">Previr acender de forma accidental</string>
+    <string name="proximity_wake_summary">Comprobar o sensor de proximidade antes de acender a pantalla</string>
+    <string name="wake_when_plugged_or_unplugged_title">Acender ao enchufar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Acende a pantalla ao contectarse e desconectarse dunha fonte de enerxía</string>
+    <string name="high_touch_sensitivity_title">Alta sensibilidade</string>
+    <string name="high_touch_sensitivity_summary">Aumentar a sensibilidade da pantalla para poder utilizalo con luvas</string>
+    <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
+    <string name="touchscreen_hovering_summary">Permítelle utilizar o dedo coma un rato ao deslizalo en navegadores web, escritorios remotos, etc.</string>
+    <string name="update_recovery_title">Actualizar recovery</string>
+    <string name="update_recovery_summary">Actualizar o recovery coas actualizacións do sistema</string>
+    <string name="update_recovery_on_warning">AVISO: Se ten esta funcionalidade activada, a recuperación instalada substituirase por unha incluída na versión actual que se está a utilizar no sistema.\n\nA recuperación actualizarase xunta as actualizacións do sistema, para asegurar a compatibilidade coas versións futuras.\n\nQuere activar esta funcionalidade?</string>
+    <string name="update_recovery_off_warning">AVISO: Con esta funcionalidade desactivada, a recuperación instalada non se actualizará coas actualizacións do sistema.\n\nAs futuras actualizacións do sistema poderían non instalarse con versións de recuperación non actualizadas ou personalizadas.\n\nConfirma a desactivación desta funcionalidade?</string>
+    <string name="berry_black_theme_title">Negro puro</string>
+    <string name="berry_black_theme_summary">Fondo negro puro para o tema escuro</string>
+    <string name="back_sensitivity_title">Sensibilidade trasera</string>
+    <string name="back_sensitivity_message">Unha sensibilidade maior pode entrar en conflito con calquera xesto de aplicación ao longo da marxe da pantalla.</string>
+    <string name="back_exclusion_title">Excluír a parte superior do xesto de volver</string>
+    <string name="back_exclusion_summary">Excluír a parte superior da pantalla da área do xestor de volver</string>
+    <string name="min_label">Mín</string>
+    <string name="max_label">Máx</string>
+    <string name="show_navbar_hint_title">Suxerencia de navegación</string>
+    <string name="show_navbar_hint_summary">Amosar barra de suxestións de navegación na parte inferior da pantalla</string>
+    <string name="keywords_notification_log">notificacións, rexistro de notificacións</string>
+    <string name="connected_tws_device_saved_title">Auriculares gardados</string>
+    <string name="heads_up_notifications_enabled_title">Notificacións emerxentes</string>
+    <string name="heads_up_notifications_enabled_summary">Amosar notificacions de prioridad nunha pequena xanela flotante</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">డెవలప్మెంట్ సెట్టింగులను ప్రారంభించడానికి ఇప్పుడు మీరు <xliff:g id="step_count">%1$d</xliff:g> అడుగు దూరంలో ఉన్నారు.</item>
+        <item quantity="other">డెవలప్మెంట్ సెట్టింగులను ప్రారంభించడానికి ఇప్పుడు మీరు <xliff:g id="step_count">%1$d</xliff:g> అడుగుల దూరంలో ఉన్నారు.</item>
+    </plurals>
+    <string name="show_dev_on_cm">మీరు ఇప్పుడు డెవలప్మెంట్ సెట్టింగులను ప్రారంభించారు!</string>
+    <string name="show_dev_already_cm">అవసరం లేదు, మీరు ఇప్పటికే డెవలప్మెంట్ సెట్టింగులను ప్రారంభించేశారు.</string>
+    <string name="adb_enable">Android డీబగ్గింగ్</string>
+    <string name="adb_notify">డీబగ్గింగ్ తెలియజేయడం</string>
+    <string name="adb_notify_summary">USB లేదా నెట్వర్క్ డీబగ్గింగ్ చేతనపరచబడి ఉన్నప్పుడు ఒక నోటిఫికేషనును ప్రదర్శించు</string>
+    <string name="adb_over_network">ADB ఓవర్ నెట్వర్క్</string>
+    <string name="adb_over_network_summary">నెట్వర్క్ ఇంటర్ ఫేస్ పైన TCP/IP డీబగ్గింగును అమలు చెయ్యి  (Wi\u2011Fi, USB నెట్వర్కులు). ఈ సెట్టింగ్ రీబూటు పైన రీసెట్ చేయబడుతుంది</string>
+    <string name="adb_over_network_warning">హెచ్చ్జరిక: ADB ఓవర్ నెట్వర్క్ చేతనపరచబడి ఉన్నప్పుడు, అనుసంధానం చేయబడి ఉన్న అన్ని నెట్వర్కుల పైన అనధికార చొరబాట్లకు మీ ఫోన్ సిద్ధంగా ఉంటుంది!\\n\nమీరు విశ్వసనీయ నెట్వర్క్లులకు అనుసంధానించబడి ఉన్నప్పుడు మాత్రమే ఈ లక్షణాన్ని ఉపయోగించండి. \n\nమీరు నిజంగా ఈ సౌలభ్యాన్ని చేతనపరచాలని అనుకుంటున్నారా?</string>
+    <string name="lineagelicense_title">సయనోజెన్ మోడ్ లీగల్</string>
+    <string name="kill_app_longpress_back">అనువర్తనాన్ని తొలిగించే బ్యాక్ బటన్</string>
+    <string name="kill_app_longpress_back_summary">బ్యాక్ బటనును ఎక్కువసేపు నొక్కి పట్టుకుని ఉంచడం ద్వారా ఉపయోగిస్తున్న అనువర్తనాన్ని తొలిగించవచ్చు</string>
+    <string name="device_hostname">పరికరం అతిధేయ నామం</string>
+    <string name="increasing_ring_volume_option_title">రింగ్ వాల్యూమును పెంచడం</string>
+    <string name="increasing_ring_min_volume_title">ప్రారంభ వాల్యూమ్</string>
+    <string name="increasing_ring_ramp_up_time_title">రాంప్-అప్ సమయం</string>
+    <string name="lockscreen_visualizer_title">సంగీత వీక్షకాన్ని ప్రదర్శించుము</string>
+    <string name="lockpattern_settings_enable_error_path_title">నమూనా దోషాన్ని చూపుము</string>
+    <string name="lockpattern_settings_enable_dots_title">నమూనా చుక్కలను చూపుము</string>
+    <string name="unlock_scramble_pin_layout_title">క్రమరాహిత్య లేఅవుట్</string>
+    <string name="unlock_scramble_pin_layout_summary">పరికరాన్ని అన్లాక్ చేసేటప్పుడు PIN లేఅవుట్ ను క్రమరాహిత్యం చేయండి</string>
+    <string name="proximity_wake_title">అప్రయత్నంగా మేల్కొల్పబడటాన్ని నివారించండి</string>
+    <string name="wake_when_plugged_or_unplugged_title">మేల్కొలుపు ప్లగ్</string>
+    <string name="wake_when_plugged_or_unplugged_summary">విద్యుత్ ఆధారాన్ని అనుసంధానం చేసేటప్పుడు లేదా తొలిగించేటప్పుడు స్క్రీనును ఆన్ చేయండి</string>
+    <string name="high_touch_sensitivity_title">అధిక స్పర్శ సున్నితత్వం</string>
+    <string name="high_touch_sensitivity_summary">టచ్ స్క్రీన్ సున్నితత్వాన్ని పెంచండి ఎందుకంటే చేతి తొడుగులు వేసుకున్నప్పుడు అది ఉపయోగపడుతుంది</string>
+    <string name="touchscreen_hovering_title">టచ్ స్క్రీన్ యొక్క హోవరింగ్ స్వభావం</string>
+    <string name="touchscreen_hovering_summary">వెబ్ బౌజర్లు, రిమోట్ డెస్క్‌టాప్‌లు, మొదలైన వాటిలో మౌస్ వలే తెరను హోవర్ చేయడానికి అనుమతిస్తుంది</string>
+    <string name="update_recovery_on_warning">గమనిక: ఈ విశేషాంశాన్ని అమలు చేసినప్పుడు, అప్పుడు నడుస్తున్న OS యొక్క ప్రస్తుత సంస్కరణతో పాటుగా చేర్చబడిన దానితో మీ యొక్క ఇన్స్టాల్డ్ మెమరీ భర్తీ చేయబడుతుంది. \n\nభవిష్యత్ సంస్కరణలతో సరితూగేలా ఉండేందుకై మీ పునరుద్ధరణ మీ యొక్క సిస్టమ్ ఆధునీకరణలతో అప్ గ్రేడ్  చేయబడుతుంది.  \n\nమీరు ఈ విశేషాంశం అమలు చేయాలనుకుంటున్నారా?</string>
+    <string name="update_recovery_off_warning">హెచ్చ్జరిక: ఈ లక్షణం నిలిపివేయబడినప్పుడు, మీ యొక్క వ్యవస్థాపించబడిన పునరుద్ధరణ OS ఉన్నతీకరణలతో నవీకరించబడదు.\n\nభవిష్యత్ OS నవీకరణలు కాలంచెల్లిన లేదా అనుకూల పునరుద్దరణ సంస్కరణలతో వ్యవస్థాపించకబడపోవచ్చు.\n\nమీరి నిజంగా ఈ లక్షణాన్ని నిలిపివేయాలని అనుకుంటున్నారా?</string>
+</resources>

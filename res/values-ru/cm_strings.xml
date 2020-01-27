@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Нажмите еще <xliff:g id="step_count">%1$d</xliff:g> раз, чтобы включить настройки для разработчиков.</item>
+        <item quantity="few">Нажмите еще <xliff:g id="step_count">%1$d</xliff:g> раза, чтобы включить настройки для разработчиков.</item>
+        <item quantity="many">Нажмите еще <xliff:g id="step_count">%1$d</xliff:g> раз, чтобы включить настройки для разработчиков.</item>
+        <item quantity="other">Нажмите еще <xliff:g id="step_count">%1$d</xliff:g> раз, чтобы включить настройки для разработчиков.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Настройки для разработчиков включены!</string>
+    <string name="show_dev_already_cm">Нет необходимости, вы уже включили параметры разработки.</string>
+    <string name="suggestion_button_close">Закрыть</string>
+    <string name="advanced_reboot_title">Варианты перезапуска</string>
+    <string name="advanced_reboot_summary">Когда устройство разблокировано, в меню питания доступны опции перезагрузки в режим восстановления и загрузчик</string>
+    <string name="adb_enable">Отладка Android</string>
+    <string name="adb_enable_summary">Включить интерфейс Android Debug Bridge (ADB)</string>
+    <string name="adb_enable_root">Отладка суперпользователем</string>
+    <string name="adb_enable_summary_root">Разрешить запуск отладки Android с правами суперпользователя</string>
+    <string name="adb_notify">Уведомление об отладке</string>
+    <string name="adb_notify_summary">Показывать уведомление о включении отладки по USB или по сети</string>
+    <string name="adb_over_network">ADB по сети</string>
+    <string name="adb_over_network_summary">Включить отладку TCP/IP через сетевые интерфейсы (Wi\u2011Fi и USB-сети). Эта настройка сбрасывается при перезагрузке</string>
+    <string name="adb_over_network_warning">Внимание: при включении отладки по сети, возможен неконтролируемый доступ к вашему устройству.\n\nИспользуйте эту функцию только при подключении к доверенным сетям.\n\nВы действительно хотите включить эту функцию?</string>
+    <string name="lineagelicense_title">Политика конфиденциальности LineageOS</string>
+    <string name="kill_app_longpress_back">Закрытие приложения кнопкой \'Назад\'</string>
+    <string name="kill_app_longpress_back_summary">Завершать работу текущего приложения удерживанием кнопки \'Назад\'</string>
+    <string name="device_hostname">Сетевое имя устройства</string>
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа при подключении использовать VPN-соединения этого устройства</string>
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
+    <string name="lockscreen_media_art_title">Отображать обложку мультимедиа</string>
+    <string name="lockscreen_visualizer_title">Визуализация спектра музыки</string>
+    <string name="lock_settings_picker_pattern_size_message">Выберите размер граф. ключа</string>
+    <string name="lockpattern_settings_enable_error_path_title">Показывать неверный ввод</string>
+    <string name="lockpattern_settings_enable_dots_title">Показывать точки</string>
+    <string name="translucent_lockscreen_notifications_bg_title">Полупрозрачный фон уведомлений</string>
+    <string name="app_notification_sound_timeout_title">Частота звуковых уведомлений</string>
+    <string name="app_notification_sound_timeout_summary_template">Звуки и вибрация не чаще, чем раз в <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Без ограничений</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 минуту</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
+    <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
+    <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
+    <string name="directly_show_lock">Прямая разблокировка</string>
+    <string name="directly_show_lock_summary">Пропускать свайп разблокировки экрана и сразу же переходить ко вводу ключа</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s</xliff:g> вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s</xliff:g> вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">задней панели</string>
+    <string name="security_settings_fingerprint_sensor_location_front">передней панели</string>
+    <string name="security_settings_fingerprint_sensor_location_left">левой стороне</string>
+    <string name="security_settings_fingerprint_sensor_location_right">правой стороне</string>
+    <string name="status_bar_double_tap_to_sleep_title">Коснитесь для сна</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Дважды коснитесь строки состояния или экрана блокировки, чтобы перевести устройство в спящий режим</string>
+    <string name="touchscreen_gesture_settings_title">Жесты сенсорного экрана</string>
+    <string name="touchscreen_gesture_settings_summary">Настройка жестов сенсорного экрана для выполнения действий</string>
+    <string name="data_usage_app_restrict_all">Разрешить доступ к сети</string>
+    <string name="data_usage_app_restrict_all_summary">Отслеживание использование сети</string>
+    <string name="data_usage_app_restrict_data">Мобильные данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
+    <string name="proximity_wake_title">Предотвращать случайное включение</string>
+    <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
+    <string name="wake_when_plugged_or_unplugged_title">Включение при зарядке</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включать экран при подключении или отключении источника питания</string>
+    <string name="high_touch_sensitivity_title">Режим перчаток</string>
+    <string name="high_touch_sensitivity_summary">Увеличить чувствительность экрана для возможности работы в перчатках</string>
+    <string name="touchscreen_hovering_title">Наведение пальца</string>
+    <string name="touchscreen_hovering_summary">Распознавать приближение пальца к экрану для событий наведения курсора в браузере или других приложениях</string>
+    <string name="update_recovery_title">Обновлять режим восстановления</string>
+    <string name="update_recovery_summary">Перезаписывать прошивку режима восстановления при обновлении системы</string>
+    <string name="update_recovery_on_warning">ПРИМЕЧАНИЕ. При включении этой функции установленная прошивка режима восстановления перезапишется в соответствии с текущей версией ОС.\n\nРежим восстановления будет обновляться вместе с обновлениями системы, обеспечивая совместимость с будущими версиями.\n\nВключить использование этой функции?</string>
+    <string name="update_recovery_off_warning">ВНИМАНИЕ! При отключении этой функции прошивка режима восстановления будет оставаться неизменной.\n\nНекоторые обновления ОС могут не устанавливаться при использовании устаревших или пользовательских версий прошивки.\n\nОтключить использование этой функции?</string>
+    <string name="berry_black_theme_title">Натурально черный</string>
+    <string name="berry_black_theme_summary">Натурально черный фон для темной темы</string>
+    <string name="back_sensitivity_title">Чувствительность жеста возврата</string>
+    <string name="back_sensitivity_message">При высокой чувствительности могут не работать жесты по краям экрана в приложении.</string>
+    <string name="back_exclusion_title">Отключить жест возврата сверху</string>
+    <string name="back_exclusion_summary">Исключить часть верхней части экрана из области жестов возврата</string>
+    <string name="min_label">Мин.</string>
+    <string name="max_label">Макс.</string>
+    <string name="show_navbar_hint_title">Подсказки по навигации</string>
+    <string name="show_navbar_hint_summary">Показать подсказку по навигации в нижней части экрана</string>
+    <string name="keywords_notification_log">уведомления, журнал уведомлений</string>
+    <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
+    <string name="heads_up_notifications_enabled_title">Всплывающие уведомления</string>
+    <string name="heads_up_notifications_enabled_summary">Показывать приоритетные уведомления небольшими всплывающими окнами</string>
+</resources>

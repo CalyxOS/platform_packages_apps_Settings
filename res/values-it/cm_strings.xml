@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Ora sei ad <xliff:g id="step_count">%1$d</xliff:g> passo dall\'attivare le impostazioni di sviluppo.</item>
+        <item quantity="other">Ora sei a <xliff:g id="step_count">%1$d</xliff:g> passi dall\'attivare le impostazioni di sviluppo.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Hai attivato le impostazioni di sviluppo!</string>
+    <string name="show_dev_already_cm">Non è necessario, hai già attivato le impostazioni di sviluppo.</string>
+    <string name="suggestion_button_close">Chiudi</string>
+    <string name="advanced_reboot_title">Riavvio avanzato</string>
+    <string name="advanced_reboot_summary">Quando sbloccato, mostra le opzioni per il riavvio in recovery o bootloader nel menù di accensione</string>
+    <string name="adb_enable">Debug Android</string>
+    <string name="adb_enable_summary">Attiva l\'interfaccia di Android Debug Bridge (ADB)</string>
+    <string name="adb_enable_root">Debug con accesso root</string>
+    <string name="adb_enable_summary_root">Consenti l\'utilizzo di funzioni di debug con permessi root</string>
+    <string name="adb_notify">Notifica di debug</string>
+    <string name="adb_notify_summary">Visualizza una notifica quando il debug USB o rete è attivo</string>
+    <string name="adb_over_network">ADB attraverso la rete</string>
+    <string name="adb_over_network_summary">Attiva il debug TCP/IP attraverso interfacce di rete (Wi\u2011Fi, reti USB). Questa impostazione è ripristinata all\'avvio</string>
+    <string name="adb_over_network_warning">ATTENZIONE: Quando ADB in rete è attivata, il telefono è suscettibile di intrusioni su tutte le reti connesse! \n\nUtilizzare questa funzionalità solo quando si è connessi su reti attendibili.\n\nAbilitare questa funzione?</string>
+    <string name="lineagelicense_title">Note legali LineageOS</string>
+    <string name="kill_app_longpress_back">Termina app con tasto indietro</string>
+    <string name="kill_app_longpress_back_summary">Termina l\'applicazione in primo piano tenendo premuto il tasto indietro</string>
+    <string name="device_hostname">Hostname dispositivo</string>
+    <string name="tethering_allow_vpn_upstreams_title">Consenti ai dispositivi connessi di utilizzare le VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai dispositivi connessi all\'hotspot di utilizzare le connessioni VPN di questo dispositivo</string>
+    <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
+    <string name="increasing_ring_min_volume_title">Volume iniziale</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo di aumento</string>
+    <string name="lockscreen_media_art_title">Mostra copertina album</string>
+    <string name="lockscreen_visualizer_title">Mostra visualizzatore musicale</string>
+    <string name="lock_settings_picker_pattern_size_message">Scegli la dimensione della sequenza</string>
+    <string name="lockpattern_settings_enable_error_path_title">Mostra sequenza errata</string>
+    <string name="lockpattern_settings_enable_dots_title">Mostra punti sequenza</string>
+    <string name="translucent_lockscreen_notifications_bg_title">Sfondo notifiche trasparente</string>
+    <string name="app_notification_sound_timeout_title">Tempo minimo tra suoni di notifica</string>
+    <string name="app_notification_sound_timeout_summary_template">Consenti suoni o vibrazioni non più di una volta ogni <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Nessuna restrizione</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondi</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondi</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minuti</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minuti</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuti</string>
+    <string name="unlock_scramble_pin_layout_title">Mescola disposizione</string>
+    <string name="unlock_scramble_pin_layout_summary">Mescola la disposizione del tastierino PIN per lo sblocco del dispositivo</string>
+    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
+    <string name="directly_show_lock">Sblocco diretto</string>
+    <string name="directly_show_lock_summary">Salta lo scorrimento per sbloccare lo schermo e mostra immediatamente l\'immissione del codice</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Individua il sensore d\'impronte nella parte <xliff:g id="sensor_location">%1$s</xliff:g> del tuo tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Individua il sensore d\'impronte nella parte <xliff:g id="sensor_location">%1$s</xliff:g> del tuo telefono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Individua il sensore d\'impronte nella parte <xliff:g id="sensor_location">%1$s</xliff:g> del tuo telefono.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">posteriore</string>
+    <string name="security_settings_fingerprint_sensor_location_front">anteriore</string>
+    <string name="security_settings_fingerprint_sensor_location_left">sinistra</string>
+    <string name="security_settings_fingerprint_sensor_location_right">destra</string>
+    <string name="status_bar_double_tap_to_sleep_title">Tocca per spegnere lo schermo</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Tocca due volte la barra di stato o la schermata di sblocco per spegnere lo schermo</string>
+    <string name="touchscreen_gesture_settings_title">Gesture sullo schermo</string>
+    <string name="touchscreen_gesture_settings_summary">Esegui varie gesture sullo schermo per azioni rapide</string>
+    <string name="data_usage_app_restrict_all">Consenti accesso alla rete</string>
+    <string name="data_usage_app_restrict_all_summary">Abilita l\'utilizzo della rete</string>
+    <string name="data_usage_app_restrict_data">Dati mobili</string>
+    <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
+    <string name="data_usage_app_restrict_vpn">Dati VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Abilita utilizzo dati VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
+    <string name="proximity_wake_title">Previeni risvegli accidentali</string>
+    <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di accendere lo schermo</string>
+    <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando si collega o si scollega l\'alimentazione</string>
+    <string name="high_touch_sensitivity_title">Tocco ad alta sensibilità</string>
+    <string name="high_touch_sensitivity_summary">Aumenta la sensibilità del touchscreen per l\'utilizzo con i guanti</string>
+    <string name="touchscreen_hovering_title">Touch a puntamento</string>
+    <string name="touchscreen_hovering_summary">Consente di utilizzare il tocco come un mouse nei browser e nei desktop remoti</string>
+    <string name="update_recovery_title">Aggiorna recovery</string>
+    <string name="update_recovery_summary">Aggiorna la recovery integrata con gli aggiornamenti del sistema</string>
+    <string name="update_recovery_on_warning">AVVISO: Quando questa funzionalità è attiva, la recovery installata sarà sostituita da una inclusa con la versione corrente del sistema.\n\nLa vostra recovery attuale verrà aggiornata con gli aggiornamenti di sistema, contribuendo a garantire la compatibilità con le future versioni.\n\nAttivare questa funzione?</string>
+    <string name="update_recovery_off_warning">Attenzione: Quando questa funzionalità è disattivata, la recovery installata non verrà aggiornata con il sistema.\n\nFuturi aggiornamenti potrebbero non installarsi con recovery personalizzate o vecchie.\n\nDisattivare questa funzione?</string>
+    <string name="berry_black_theme_title">Nero puro</string>
+    <string name="berry_black_theme_summary">Tema scuro con sfondo nero</string>
+    <string name="back_sensitivity_title">Sensibilità gesto indietro</string>
+    <string name="back_sensitivity_message">Una maggiore sensibilità potrebbe essere in conflitto con qualsiasi gesto delle app lungo i bordi dello schermo.</string>
+    <string name="back_exclusion_title">Esclusione gesto indietro</string>
+    <string name="back_exclusion_summary">Escludi una porzione della parte superiore dello schermo dall\'area del gesto indietro</string>
+    <string name="min_label">Min</string>
+    <string name="max_label">Max</string>
+    <string name="show_navbar_hint_title">Indicatore navigazione</string>
+    <string name="show_navbar_hint_summary">Mostra l\'indicatore di navigazione in fondo allo schermo</string>
+    <string name="keywords_notification_log">notifiche,  log notifiche</string>
+    <string name="connected_tws_device_saved_title">Auricolari salvati</string>
+    <string name="heads_up_notifications_enabled_title">Heads-up</string>
+    <string name="heads_up_notifications_enabled_summary">Visualizza le notifiche prioritarie in una piccola finestra fluttuante</string>
+</resources>
