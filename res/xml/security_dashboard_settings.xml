@@ -21,6 +21,12 @@
     android:key="security_dashboard_page"
     android:title="@string/security_settings_title">
 
+    <SwitchPreference
+        android:key="security_setting_panic_enabled"
+        android:title="@string/panic_settings_title"
+        android:summary="@string/panic_settings_summary"
+        settings:controller="com.android.settings.security.PanicButtonPreferenceController" />
+
     <PreferenceCategory
         android:order="1"
         android:key="dashboard_tile_placeholder" />
