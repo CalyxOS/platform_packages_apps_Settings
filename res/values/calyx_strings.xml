@@ -19,6 +19,11 @@
 
     <string name="calyxos_version">CalyxOS version</string>
 
+    <!-- Text shown for the title of the panic option -->
+    <string name="panic_settings_title">Show Panic option</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="panic_settings_summary">Display power button option that activates an emergency panic trigger.</string>
+
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
     <string name="vendor_security_patch">Vendor security patch level</string>
 </resources>
