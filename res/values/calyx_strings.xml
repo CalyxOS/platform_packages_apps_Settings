@@ -26,4 +26,9 @@
 
     <!-- Under About -> Android Version -->
     <string name="aosp_module_version">Mainline module update</string>
+
+    <!-- Text shown for the title of the panic option -->
+    <string name="panic_settings_title">Show Panic option</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="panic_settings_summary">Display power button option that activates an emergency panic trigger.</string>
 </resources>
