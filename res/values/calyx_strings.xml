@@ -20,4 +20,10 @@
 
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Close</string>
+
+    <!-- Text shown for the title of the panic option -->
+    <string name="panic_settings_title">Show Panic option</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="panic_settings_summary">Display power button option that triggers activates an emergency panic trigger.</string>
+
 </resources>
