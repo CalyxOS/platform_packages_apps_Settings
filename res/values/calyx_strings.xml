@@ -27,4 +27,9 @@
 
     <string name="airplane_mode_radios_title">Airplane mode radios</string>
     <string name="airplane_mode_radios_category_title">Airplane Mode will toggle the selected radios</string>
+
+    <!-- Text shown for the title of the panic option -->
+    <string name="panic_settings_title">Show Panic option</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="panic_settings_summary">Display power button option that activates an emergency panic trigger.</string>
 </resources>
