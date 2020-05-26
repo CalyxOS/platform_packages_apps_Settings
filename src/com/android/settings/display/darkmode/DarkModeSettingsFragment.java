@@ -16,7 +16,12 @@ package com.android.settings.display.darkmode;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.app.settings.SettingsEnums;
+
+import androidx.preference.Preference;
+import androidx.preference.SwitchPreference;
+
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -29,10 +34,12 @@ import com.android.settingslib.search.SearchIndexable;
 public class DarkModeSettingsFragment extends DashboardFragment {
 
     private static final String TAG = "DarkModeSettingsFragment";
+    private static final String KEY_BERRY_BLACK_THEME = "berry_black_theme";
     private DarkModeObserver mContentObserver;
     private Runnable mCallback = () -> {
         updatePreferenceStates();
     };
+    private SwitchPreference mBlackTheme;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -40,6 +47,7 @@ public class DarkModeSettingsFragment extends DashboardFragment {
 
         final Context context = getContext();
         mContentObserver = new DarkModeObserver(context);
+        mBlackTheme = (SwitchPreference) findPreference(KEY_BERRY_BLACK_THEME);
     }
 
     @Override
@@ -47,6 +55,12 @@ public class DarkModeSettingsFragment extends DashboardFragment {
         super.onStart();
         // Listen for changes only while visible.
         mContentObserver.subscribe(mCallback);
+        updateBlackThemeState();
+    }
+
+    private void updateBlackThemeState() {
+        mBlackTheme.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.BERRY_BLACK_THEME, 0) == 1 ? true : false);
     }
 
     @Override
@@ -59,6 +73,17 @@ public class DarkModeSettingsFragment extends DashboardFragment {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.dark_mode_settings;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mBlackTheme) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.BERRY_BLACK_THEME,
+                    mBlackTheme.isChecked() ? 1 : 0);
+        }
+
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override

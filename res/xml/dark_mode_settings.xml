@@ -39,6 +39,11 @@
         settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"
         settings:keywords="@string/keywords_dark_ui_mode"/>
 
+    <SwitchPreference
+        android:key="berry_black_theme"
+        android:title="@string/berry_black_theme_title"
+        android:summary="@string/berry_black_theme_summary"/>
+
     <com.android.settingslib.widget.FooterPreference
             android:key="dark_ui_footer"
             android:title="@string/dark_ui_text"
