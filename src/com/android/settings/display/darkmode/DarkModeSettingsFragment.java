@@ -18,9 +18,17 @@ import android.app.Dialog;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
+<<<<<<< HEAD   (63e9d6 Merge tag 'android-11.0.0_r37' into staging/android11-qpr1_m)
 import android.os.PowerManager;
 
 import androidx.preference.Preference;
+=======
+import android.provider.Settings;
+import android.app.settings.SettingsEnums;
+
+import androidx.preference.Preference;
+import androidx.preference.SwitchPreference;
+>>>>>>> CHANGE (b7a6ae Settings: support black theme for dark mode)
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -37,23 +45,33 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DarkModeSettingsFragment extends DashboardFragment {
 
+<<<<<<< HEAD   (63e9d6 Merge tag 'android-11.0.0_r37' into staging/android11-qpr1_m)
     private static final String TAG = "DarkModeSettingsFrag";
     private static final String DARK_THEME_END_TIME = "dark_theme_end_time";
     private static final String DARK_THEME_START_TIME = "dark_theme_start_time";
+=======
+    private static final String TAG = "DarkModeSettingsFragment";
+    private static final String KEY_BERRY_BLACK_THEME = "berry_black_theme";
+>>>>>>> CHANGE (b7a6ae Settings: support black theme for dark mode)
     private DarkModeObserver mContentObserver;
     private DarkModeCustomPreferenceController mCustomStartController;
     private DarkModeCustomPreferenceController mCustomEndController;
     private Runnable mCallback = () -> {
         updatePreferenceStates();
     };
+<<<<<<< HEAD   (63e9d6 Merge tag 'android-11.0.0_r37' into staging/android11-qpr1_m)
     private static final int DIALOG_START_TIME = 0;
     private static final int DIALOG_END_TIME = 1;
+=======
+    private SwitchPreference mBlackTheme;
+>>>>>>> CHANGE (b7a6ae Settings: support black theme for dark mode)
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         final Context context = getContext();
         mContentObserver = new DarkModeObserver(context);
+        mBlackTheme = (SwitchPreference) findPreference(KEY_BERRY_BLACK_THEME);
     }
 
     @Override
@@ -61,6 +79,12 @@ public class DarkModeSettingsFragment extends DashboardFragment {
         super.onStart();
         // Listen for changes only while visible.
         mContentObserver.subscribe(mCallback);
+        updateBlackThemeState();
+    }
+
+    private void updateBlackThemeState() {
+        mBlackTheme.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.BERRY_BLACK_THEME, 0) == 1 ? true : false);
     }
 
     @Override
@@ -113,6 +137,17 @@ public class DarkModeSettingsFragment extends DashboardFragment {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.dark_mode_settings;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mBlackTheme) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.BERRY_BLACK_THEME,
+                    mBlackTheme.isChecked() ? 1 : 0);
+        }
+
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override
