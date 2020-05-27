@@ -74,4 +74,8 @@
     <string name="theme_customization_font_title">Font</string>
     <!-- [CHAR_LIMIT=NONE] Display Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher icons). -->
     <string name="theme_customization_icon_shape_title">Icon shape</string>
+
+    <!-- Restricted networking mode -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
 </resources>
