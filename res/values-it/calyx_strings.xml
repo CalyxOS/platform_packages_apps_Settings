@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">Permetti sempre nuovi dispositivi USB</string>
+    <string name="security_restrict_usb_keyguard">Permetti nuovi dispositivi USB quando sbloccato</string>
+    <string name="security_restrict_usb_always">Blocca nuovi dispositivi USB</string>
+    <string name="security_restrict_usb_summary">Controlla il supporto per dispositivi USB quali cuffie, memorie e input (mouse, tastiere, joystick)</string>
+    <string name="security_restrict_usb_title">Limita nuovi dispositivi USB</string>
+    <string name="panic_settings_summary">Visualizza l\'opzione nel menu di spegimento che genera un panic d\'emergenza.</string>
+    <string name="panic_settings_title">Mostra l\'opzione Panic</string>
+    <string name="calyxos_version">Versione di CalyxOS</string>
+    <string name="bluetooth_timeout_summary">Il Bluetooth si spegnera\' dopo <xliff:g id="timeout_description">%1$s</xliff:g> se non e\' connesso nessun dispositivo</string>
+    <string name="timeout_summary_8hours">8 ore</string>
+    <string name="timeout_summary_4hours">4 ore</string>
+    <string name="timeout_summary_2hours">2 ore</string>
+    <string name="timeout_summary_1hour">1 ora</string>
+    <string name="timeout_summary_30mins">30 minuti</string>
+    <string name="timeout_summary_10mins">10 minuti</string>
+    <string name="timeout_summary_5mins">5 minuti</string>
+    <string name="timeout_summary_2mins">2 minuti</string>
+    <string name="timeout_summary_1min">1 minuto</string>
+    <string name="timeout_summary_30secs">30 secondi</string>
+    <string name="timeout_summary_15secs">15 secondi</string>
+    <string name="timeout_summary_never">Mai</string>
+    <string name="bluetooth_timeout_summary2">Non spegnere automaticamente il Bluetooth</string>
+    <string name="bluetooth_timeout">timeout Bluetooth</string>
+    <string name="wifi_timeout">Spegni il Wi-Fi automaticamente</string>
+    <string name="cleartext_network_policy_summary">Blocca tutto il traffico di rete non TLS. Richiede la configurazione del DNS privato. Nota: senza esclusioni esplicite, Tor e la maggior parte delle VPN non funzioneranno</string>
+    <string name="wifi_timeout_summary">Il Wi-Fi si spegnerà dopo <xliff:g id="timeout_description">%1$s</xliff:g> se nessuna rete è connessa</string>
+    <string name="show_qs_on_secure_keyguard_title">Impostazioni rapide</string>
+    <string name="data_usage_app_restrict_background_all_summary">Abilita l\'utilizzo della rete in background</string>
+    <string name="wifi_timeout_summary2">Disabilitato</string>
+    <string name="data_usage_app_restrict_background_all">Accesso rete in background</string>
+    <string name="cleartext_network_policy_title">Limita il traffico di rete in chiaro</string>
+    <string name="show_qs_on_secure_keyguard_summary">Consenti di attivare/disattivare le impostazioni rapide sulla schermata di blocco</string>
+    <string name="user_add_managed_profile_item_summary">I profili di lavoro condividono l\'utilità di avvio, le notifiche e le attività recenti con l\'utente</string>
+    <string name="user_add_managed_profile_item_title">Profilo di lavoro</string>
+    <string name="aosp_module_version">Aggiornamento del modulo principale</string>
+</resources>
