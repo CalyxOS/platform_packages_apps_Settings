@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_timeout_summary">Wi-Fi išsijungs po <xliff:g id="timeout_description">%1$s</xliff:g>, jei nėra prisijungta prie tinklo</string>
+    <string name="security_restrict_usb_always">Neleisti naujų USB įtaisų</string>
+    <string name="calyxos_version">CalyxOS versija</string>
+    <string name="bluetooth_timeout_summary2">Automatiškai neišjungti Bluetooth</string>
+    <string name="panic_settings_title">Rodyti panikos parinktį</string>
+    <string name="security_restrict_usb_summary">Valdykite USB įtaisų, tokių kaip ausinės, atminties įrenginiai ir įvestis (pelės, klaviatūros, vairasvirtės), palaikymą</string>
+    <string name="timeout_summary_2hours">2 valandų</string>
+    <string name="timeout_summary_1min">1 minutės</string>
+    <string name="bluetooth_timeout_summary">Bluetooth išsijungs po <xliff:g id="timeout_description">%1$s</xliff:g>, jei nebus prijungti jokie įrenginiai</string>
+    <string name="timeout_summary_5mins">5 minučių</string>
+    <string name="timeout_summary_30secs">30 sekundžių</string>
+    <string name="timeout_summary_2mins">2 minučių</string>
+    <string name="show_qs_on_secure_keyguard_title">Spartieji nustatymai</string>
+    <string name="timeout_summary_1hour">1 valandos</string>
+    <string name="user_add_managed_profile_item_summary">Darbo profiliai dalijasi paleidimo programa, pranešimais ir naujausiomis užduotimis su naudotoju</string>
+    <string name="timeout_summary_never">Niekada</string>
+    <string name="cleartext_network_policy_summary">Blokuoja visą ne TLS tinklo srautą. Reikalinga privataus DNS konfigūracija. Pastaba: be aiškių išimčių „Tor“ ir dauguma VPN neveiks</string>
+    <string name="data_usage_app_restrict_background_all">Foninė tinklo prieiga</string>
+    <string name="wifi_timeout">Automatinis Wi-Fi išjungimas</string>
+    <string name="panic_settings_summary">Ekrano įjungimo mygtuko parinktis, kuria įjungiamas kritinės padėties pavojaus signalas.</string>
+    <string name="bluetooth_timeout">Bluetooth laiko limitas</string>
+    <string name="user_add_managed_profile_item_title">Darbo profilis</string>
+    <string name="show_qs_on_secure_keyguard_summary">Leisti perjungti sparčiuosius nustatymus saugiame užrakinimo ekrane</string>
+    <string name="wifi_timeout_summary2">Išjungta</string>
+    <string name="security_restrict_usb_disabled">Leisti naujus USB įtaisus visada</string>
+    <string name="security_restrict_usb_keyguard">Leisti naujus USB įtaisus, kai įrenginys atrakintas</string>
+    <string name="timeout_summary_30mins">30 minučių</string>
+    <string name="data_usage_app_restrict_background_all_summary">Įgalinti tinklo naudojimą fone</string>
+    <string name="security_restrict_usb_title">Apriboti USB</string>
+    <string name="timeout_summary_10mins">10 minučių</string>
+    <string name="timeout_summary_15secs">15 sekundžių</string>
+    <string name="cleartext_network_policy_title">Apriboti neužšifruoto teksto tinklo duomenų srautą</string>
+    <string name="aosp_module_version">Pagrindinio modulio atnaujinimas</string>
+    <string name="timeout_summary_8hours">8 valandų</string>
+    <string name="timeout_summary_4hours">4 valandų</string>
+    <string name="timeout_summary_72hours">72 valandas</string>
+    <string name="timeout_summary_48hours">48 valandas</string>
+    <string name="timeout_summary_36hours">36 valandas</string>
+    <string name="timeout_summary_24hours">24 valandas</string>
+    <string name="timeout_summary_12hours">12 valandų</string>
+    <string name="device_reboot_timeout_summary2">Įrenginys nebus automatiškai perkraunamas</string>
+    <string name="device_reboot_timeout_summary">Įrenginys bus automatiškai perkrautas, jei jis nebuvo atrakintas per <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">Automatinis perkrovimas</string>
+</resources>
