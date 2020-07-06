@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="panic_settings_summary">Afficher l’option du bouton d’alimentation qui active un bouton d’urgence.</string>
+    <string name="panic_settings_title">Afficher l’option Urgence</string>
+    <string name="suggestion_button_close">Fermer</string>
+    <string name="calyxos_version">Version de CalyxOS</string>
+    <string name="deny_new_usb_disabled">Toujours autoriser les nouveaux gadgets USB</string>
+    <string name="deny_new_usb_dynamic">Autoriser les nouveaux gadgets USB quand ils sont déverrouillés</string>
+    <string name="deny_new_usb_enabled">Refuser les nouveaux gadgets USB</string>
+    <string name="deny_new_usb_summary">Prise en charge des gadgets USB tels que les écouteurs, les dispositifs de stockage et les entrées (souris, claviers, joysticks)</string>
+    <string name="deny_new_usb_title">Restreindre USB</string>
+</resources>

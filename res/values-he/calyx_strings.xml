@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vendor_security_patch">רמת טלאי אבטחה של היצרן</string>
+    <string name="deny_new_usb_disabled">תמיד לאפשרי חפיצי USB חדשים</string>
+    <string name="deny_new_usb_dynamic">לאפשר חפיצי USB חדשים כשהמכשיר לא נעול</string>
+    <string name="deny_new_usb_enabled">דחיית חפיצי USB חדשים</string>
+    <string name="deny_new_usb_summary">שליטה בתמיכה בחפיצי USB כגון אוזניות, התקני אחסון וקלט (עכברים, מקלדות, אביזרי משחק)</string>
+    <string name="deny_new_usb_title">הגבלת USB</string>
+    <string name="panic_settings_summary">הצגת אפשרויות בכפתור הכיבוי שמפעילה את לחצן המצוקה בחירום.</string>
+    <string name="panic_settings_title">הצגת אפשרויות מצוקה</string>
+    <string name="suggestion_button_close">סגירה</string>
+    <string name="calyxos_version">גרסת CalyxOS</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="suggestion_button_close">Закрыть</string>
+    <string name="calyxos_version">Версия CalyxOS</string>
+    <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
+    <string name="deny_new_usb_disabled">Всегда разрешать новые USB устройства</string>
+    <string name="deny_new_usb_dynamic">Разрешить новые USB-гаджеты при разблокировке</string>
+    <string name="deny_new_usb_enabled">Запретить новые USB-гаджеты</string>
+    <string name="deny_new_usb_summary">Поддержка управления для USB-устройств, таких как наушники, устройства хранения данных и устройства ввода (мыши, клавиатуры, джойстики)</string>
+    <string name="deny_new_usb_title">Ограничить USB</string>
+    <string name="panic_settings_summary">Отображение опции кнопки питания, которая активирует аварийный триггер паники.</string>
+    <string name="panic_settings_title">Показать опцию \"Паника\"</string>
+    <string name="vendor_security_patch">Уровень исправления безопасности поставщика</string>
+</resources>
