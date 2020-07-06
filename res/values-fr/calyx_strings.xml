@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="panic_settings_summary">Afficher l’option du bouton d’alimentation qui active un bouton d’urgence.</string>
+    <string name="panic_settings_title">Afficher l’option Urgence</string>
+    <string name="suggestion_button_close">Fermer</string>
+    <string name="calyxos_version">Version de CalyxOS</string>
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+</resources>
