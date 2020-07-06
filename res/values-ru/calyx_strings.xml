@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calyxos_version">Версия CalyxOS</string>
+    <string name="security_restrict_usb_disabled">Всегда разрешать новые USB-устройства</string>
+    <string name="security_restrict_usb_keyguard">Разрешить новые USB-устройства, если телефон разблокирован</string>
+    <string name="security_restrict_usb_always">Запретить новые USB-устройства</string>
+    <string name="security_restrict_usb_summary">Поддержка управления для USB-устройств, таких как наушники, устройства хранения данных и устройства ввода (мыши, клавиатуры, джойстики)</string>
+    <string name="security_restrict_usb_title">Запретить USB</string>
+    <string name="panic_settings_summary">Отображение опции кнопки питания, которая активирует тревожную кнопку.</string>
+    <string name="panic_settings_title">Показать опцию \"Тревожная кнопка\"</string>
+    <string name="bluetooth_timeout_summary">Bluetooth будет отключен по прошествии <xliff:g id="timeout_description">%1$s</xliff:g> если ни одно устройство не подключено</string>
+    <string name="timeout_summary_8hours">8 часов</string>
+    <string name="timeout_summary_4hours">4 часа</string>
+    <string name="timeout_summary_2hours">2 часа</string>
+    <string name="timeout_summary_1hour">1 час</string>
+    <string name="timeout_summary_30mins">30 минут</string>
+    <string name="timeout_summary_10mins">10 минут</string>
+    <string name="timeout_summary_5mins">5 минут</string>
+    <string name="timeout_summary_2mins">2 минуты</string>
+    <string name="timeout_summary_1min">1 минута</string>
+    <string name="timeout_summary_30secs">30 секунд</string>
+    <string name="timeout_summary_15secs">15 секунд</string>
+    <string name="timeout_summary_never">Никогда</string>
+    <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
+    <string name="bluetooth_timeout">Время выключения Bluetooth</string>
+    <string name="aosp_module_version">Обновление основного модуля</string>
+    <string name="data_usage_app_restrict_background_all">Фоновый режим</string>
+    <string name="user_add_managed_profile_item_summary">Рабочие профили совместно с пользователем используют лаунчер, уведомления и последние задачи</string>
+    <string name="wifi_timeout_summary2">Отключено</string>
+    <string name="show_qs_on_secure_keyguard_summary">Разрешить доступ к быстрым настройкам на экране блокировки</string>
+    <string name="cleartext_network_policy_summary">Блокировать весь non-TLS сетевой трафик. Требует настройки приватного DNS. Примечание: Без настройки исключений приложения, использующие открытый трафик, могут не работать</string>
+    <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
+    <string name="user_add_managed_profile_item_title">Рабочий профиль</string>
+    <string name="wifi_timeout_summary">Отключать Wi-Fi через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключения</string>
+    <string name="wifi_timeout">Отключать Wi-Fi автоматически</string>
+    <string name="data_usage_app_restrict_background_all_summary">Включить передачу данных в фоновом режиме</string>
+    <string name="device_reboot_timeout_title">Автоматическая перезагрузка</string>
+    <string name="device_reboot_timeout_summary2">Устройство не будет автоматически перезагружаться</string>
+    <string name="timeout_summary_72hours">72 часа</string>
+    <string name="timeout_summary_12hours">12 часов</string>
+    <string name="timeout_summary_24hours">24 часа</string>
+    <string name="timeout_summary_36hours">36 часов</string>
+    <string name="device_reboot_timeout_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последних <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="timeout_summary_48hours">48 часов</string>
+    <string name="cleartext_network_policy_title">Ограничить сетевой трафик в открытом виде</string>
+    <string name="airplane_mode_radios_title">Радио в режиме самолета</string>
+    <string name="airplane_mode_radios_category_title">Режим самолета будет переключать выбранные радиомодули</string>
+    <string name="global_vpn_title">Глобальный VPN</string>
+    <string name="global_vpn_summary_any_vpn_active">Чтобы включить эту функцию, необходимо сначала отключить все активные VPN-подключения</string>
+    <string name="detailed_security_patch">Платформа: <xliff:g id="platform_level">%1$s</xliff:g>
+\nЯдро: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nВендор: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nПрошивка: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_summary">Принудительно пропускать весь трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей.</string>
+    <string name="global_vpn_summary_on">Принудительно пропускать весь трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей. Примечание: Если включено, вы не сможете использовать отдельный VPN в рабочем профиле и у других пользователей</string>
+    <string name="cross_profile_sharing_title">Межпрофильный общий доступ</string>
+    <string name="cross_profile_sharing_summary">Включить кнопки общего доступа в приложении для работы в вашем личном и рабочем профиле</string>
+    <string name="hide">Скрыть</string>
+    <string name="unhide">Показать</string>
+    <string name="network_dashboard_summary_mobile_calyx">Мобильный интернет, Wi-Fi, точка доступа, VPN, Частный DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, точка доступа, VPN, Частный DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, сопряжение, NFC</string>
+    <string name="security_dashboard_summary_calyx">Блокировка экрана, настройки паники, ограничения USB, безопасность приложений</string>
+    <string name="system_dashboard_summary_calyx">Языки, жесты, время, резервное копирование, пользователи, рабочий профиль</string>
+</resources>
