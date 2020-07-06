@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_timeout_summary">接続されているデバイスがない場合、Bluetoothは<xliff:g id="timeout_description">%1$s</xliff:g>後にオフになります</string>
+    <string name="security_restrict_usb_disabled">常に新規USBデバイスを許可する</string>
+    <string name="security_restrict_usb_keyguard">アンロック中は新規USBデバイスを許可する</string>
+    <string name="security_restrict_usb_always">新規USBデバイスを拒否する</string>
+    <string name="timeout_summary_never">なし</string>
+    <string name="bluetooth_timeout">Bluetooth タイムアウト</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth を自動的に無効化しない</string>
+    <string name="show_qs_on_secure_keyguard_title">簡単な設定</string>
+    <string name="user_add_managed_profile_item_title">ワークプロフィール</string>
+    <string name="cleartext_network_policy_title">平文通信を制御する</string>
+    <string name="wifi_timeout_summary2">無効</string>
+    <string name="wifi_timeout_summary">ネットワーク接続がない場合、 Wi-Fi は<xliff:g id="timeout_description">%1$s</xliff:g>後にオフになります</string>
+    <string name="wifi_timeout">Wi-Fi を自動的に切断する</string>
+    <string name="data_usage_app_restrict_background_all_summary">バックグラウンド通信を有効する</string>
+    <string name="data_usage_app_restrict_background_all">バックグラウンド ネットワークアクセス</string>
+    <string name="timeout_summary_8hours">8時間</string>
+    <string name="timeout_summary_4hours">4時間</string>
+    <string name="timeout_summary_2hours">2時間</string>
+    <string name="timeout_summary_1hour">1時間</string>
+    <string name="timeout_summary_30mins">30分</string>
+    <string name="timeout_summary_10mins">10分</string>
+    <string name="timeout_summary_5mins">5分</string>
+    <string name="timeout_summary_2mins">2分</string>
+    <string name="timeout_summary_1min">1分</string>
+    <string name="timeout_summary_30secs">30秒</string>
+    <string name="timeout_summary_15secs">15秒</string>
+    <string name="security_restrict_usb_title">USB を制御する</string>
+    <string name="panic_settings_title">パニック 設定を表示する</string>
+    <string name="calyxos_version">CalyxOS バージョン</string>
+    <string name="user_add_managed_profile_item_summary">仕事用プロファイルは、ランチャー、通知、および最近のタスクをユーザーと共有します</string>
+    <string name="panic_settings_summary">緊急時のパニックトリガーを作動させる電源ボタンオプションを表示する。</string>
+    <string name="cleartext_network_policy_summary">TLS以外のすべてのネットワークトラフィックをブロックする。プライベートDNS構成が必要です。注：明示的な除外がない場合、Tor とほとんどの VPN は機能しません。</string>
+    <string name="show_qs_on_secure_keyguard_summary">安全なロック画面でクイック設定の切り替えを許可する</string>
+    <string name="security_restrict_usb_summary">イヤホン、ストレージデバイス、入力機器（マウスや、キーボード、ジョイスティック）などのUSBガジェットのサポートをコントロール</string>
+    <string name="aosp_module_version">メインラインモジュールの更新</string>
+    <string name="device_reboot_timeout_title">自動的に再起動</string>
+    <string name="device_reboot_timeout_summary2">デバイスは自動的に再起動しません</string>
+    <string name="device_reboot_timeout_summary">ロック解除されていない場合、<xliff:g id="timeout_description">%1$s</xliff:g>後に自動的に再起動します</string>
+    <string name="timeout_summary_48hours">48時間</string>
+    <string name="timeout_summary_72hours">72時間</string>
+    <string name="timeout_summary_12hours">12時間</string>
+    <string name="timeout_summary_24hours">24時間</string>
+    <string name="timeout_summary_36hours">36時間</string>
+</resources>

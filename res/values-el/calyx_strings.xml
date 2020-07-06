@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_title">Εμφάνιση επιλογής Πανικού</string>
+    <string name="panic_settings_summary">Εμφάνιση επιλογής κουμπιού λειτουργίας που ενεργοποιεί μια ενέργεια πανικού έκτακτης ανάγκης.</string>
+    <string name="calyxos_version">Έκδοση CalyxOS</string>
+    <string name="security_restrict_usb_always">Να μην επιτρέπονται νέες συσκευές USB</string>
+    <string name="security_restrict_usb_disabled">Να επιτρέπονται πάντα νέες συσκευές USB</string>
+    <string name="security_restrict_usb_keyguard">Να επιτρέπονται νέες συσκευές USB όταν η συσκευή είναι ξεκλείδωτη</string>
+    <string name="security_restrict_usb_summary">Ελέγξτε την υποστήριξη για συσκευές USB, όπως ακουστικά, συσκευές αποθήκευσης και εισόδου (ποντίκια, πληκτρολόγια, χειριστήρια)</string>
+    <string name="security_restrict_usb_title">Περιορισμός USB</string>
+    <string name="show_qs_on_secure_keyguard_summary">Να επιτρέπονται οι γρήγορες ρυθμίσεις σε ασφαλή οθόνη κλειδώματος</string>
+    <string name="show_qs_on_secure_keyguard_title">Γρήγορες ρυθμίσεις</string>
+    <string name="user_add_managed_profile_item_summary">Τα προφίλ εργασίας μοιράζονται τον εκκινητή, τις ειδοποιήσεις και τις πρόσφατες εργασίες με τον χρήστη</string>
+    <string name="user_add_managed_profile_item_title">Προφίλ εργασίας</string>
+    <string name="cleartext_network_policy_summary">Αποκλείει όλη την κυκλοφορία δικτύου εκτός TLS. Απαιτεί ρύθμιση παραμέτρων ιδιωτικού DNS. Σημείωση: Χωρίς ρητές εξαιρέσεις, το Tor και τα περισσότερα VPN δεν θα λειτουργούν</string>
+    <string name="cleartext_network_policy_title">Περιορισμός της κυκλοφορίας δικτύου cleartext</string>
+    <string name="wifi_timeout_summary2">Απενεργοποιημένο</string>
+    <string name="wifi_timeout_summary">Το Wi-Fi θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχει συνδεδεμένο δίκτυο</string>
+    <string name="wifi_timeout">Αυτόματη απενεργοποίηση Wi-Fi</string>
+    <string name="data_usage_app_restrict_background_all_summary">Ενεργοποίηση χρήσης δικτύου στο παρασκήνιο</string>
+    <string name="data_usage_app_restrict_background_all">Πρόσβαση δικτύου στο παρασκήνιο</string>
+    <string name="timeout_summary_8hours">8 ώρες</string>
+    <string name="timeout_summary_4hours">4 ώρες</string>
+    <string name="timeout_summary_2hours">2 ώρες</string>
+    <string name="timeout_summary_1hour">1 ώρα</string>
+    <string name="timeout_summary_30mins">30 λεπτά</string>
+    <string name="timeout_summary_10mins">10 λεπτά</string>
+    <string name="timeout_summary_5mins">5 λεπτά</string>
+    <string name="timeout_summary_2mins">2 λεπτά</string>
+    <string name="timeout_summary_1min">1 λεπτό</string>
+    <string name="timeout_summary_30secs">30 δευτερόλεπτα</string>
+    <string name="timeout_summary_15secs">15 δευτερόλεπτα</string>
+    <string name="timeout_summary_never">Ποτέ</string>
+    <string name="bluetooth_timeout_summary2">Να μην απενεργοποιείται αυτόματα το Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Το Bluetooth θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχουν συνδεδεμένες συσκευές</string>
+    <string name="bluetooth_timeout">Χρονικό όριο Bluetooth</string>
+</resources>
