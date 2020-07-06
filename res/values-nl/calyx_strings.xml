@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_30secs">30 Seconden</string>
+    <string name="cleartext_network_policy_title">beperk onbeveiligd netwerkverkeer</string>
+    <string name="user_add_managed_profile_item_summary"/>
+    <string name="timeout_summary_10mins">10 minuten</string>
+    <string name="security_restrict_usb_keyguard">Sta nieuwe USB gadgets toe als het apparaat ontgrendeld is</string>
+    <string name="timeout_summary_1hour">1 uur</string>
+    <string name="data_usage_app_restrict_background_all_summary">Schakel netwerktoegang op de achtergrond in</string>
+    <string name="timeout_summary_4hours">4 uur</string>
+    <string name="data_usage_app_restrict_background_all">Netwerktoegang op de achtergrond</string>
+    <string name="timeout_summary_5mins">5 minuten</string>
+    <string name="wifi_timeout_summary2">uitgeschakeld</string>
+    <string name="show_qs_on_secure_keyguard_title"/>
+    <string name="timeout_summary_2hours">2 uur</string>
+    <string name="security_restrict_usb_disabled">Sta altijd nieuwe USB gadgets toe</string>
+    <string name="security_restrict_usb_summary">Controleer ondersteuning voor USB gadgets zoals koptelefoons, opslagapparaten en invoerapparaten (muizen, toetsenborden, Joysticks).</string>
+    <string name="security_restrict_usb_always">Weiger nieuwe USB gadgets</string>
+    <string name="show_qs_on_secure_keyguard_summary"/>
+    <string name="panic_settings_summary">Laat aan-/uit knop optie zien die de paniek-knop activeerd.</string>
+    <string name="security_restrict_usb_title">USB beperken</string>
+    <string name="wifi_timeout_summary">Wif-Fi schakeld uit na &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt; als geen netwerk verbonden is</string>
+    <string name="cleartext_network_policy_summary">Blokkeerd alle niet-TLS netwerkverkeer. Vereist een Privé-DNS configuratie. NB: zonder expliciete uitzonderingen zullen Tor en de meeste VPN\'s niet werken.</string>
+    <string name="timeout_summary_2mins">2 minuten</string>
+    <string name="timeout_summary_30mins">30 minuten</string>
+    <string name="user_add_managed_profile_item_title">Werk-profiel</string>
+    <string name="wifi_timeout">Zet Wi-Fi automatisch uit</string>
+    <string name="timeout_summary_8hours">8 uur</string>
+    <string name="timeout_summary_1min">1 minuut</string>
+    <string name="timeout_summary_15secs">15 Seconden</string>
+    <string name="timeout_summary_never">Nooit</string>
+    <string name="bluetooth_timeout_summary2">Zet Bluetooth niet automatisch uit</string>
+    <string name="bluetooth_timeout_summary">Bluetooth wordt uitgeschakeld na &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt; als geen apparaten verbonden zijn.</string>
+    <string name="bluetooth_timeout">Bluetooth time-out</string>
+    <string name="panic_settings_title">Laat Paniek-optie zien</string>
+    <string name="calyxos_version">CalyxOS versie</string>
+</resources>
