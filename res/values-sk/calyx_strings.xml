@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_30secs">30 sekúnd</string>
+    <string name="timeout_summary_15secs">15 sekúnd</string>
+    <string name="timeout_summary_never">Nikdy</string>
+    <string name="bluetooth_timeout_summary2">Nevypínať Bluetooth automaticky</string>
+    <string name="bluetooth_timeout_summary">Bluetooth sa vypne po <xliff:g id="timeout_description">%1$s</xliff:g> ak nebude pripojené žiadne zariadenie</string>
+    <string name="bluetooth_timeout">Časový limit Bluetooth</string>
+    <string name="security_restrict_usb_disabled">Vždy povoliť nové USB zariadenia</string>
+    <string name="security_restrict_usb_keyguard">Povoliť nové USB zariadenie pri odomknutí</string>
+    <string name="security_restrict_usb_always">Odmietnuť nové USB zariadenie</string>
+    <string name="security_restrict_usb_summary">Podpora ovládania USB zariadení, ako sú slúchadlá, pamäťové a vstupné zariadenia (myši, klávesnice, joystick)</string>
+    <string name="security_restrict_usb_title">Obmedziť USB</string>
+    <string name="panic_settings_title">Zobraziť možnosti paniky</string>
+    <string name="calyxos_version">Verzia CalyxOS</string>
+    <string name="timeout_summary_2mins">2 minúty</string>
+    <string name="data_usage_app_restrict_background_all_summary">Povoliť používanie pripojenia k internetu na pozadí</string>
+    <string name="panic_settings_summary">Zobraziť tlačidlo napájania, ktoré aktivuje núdzový spúšťač.</string>
+    <string name="wifi_timeout">Automatické vypnutie Wi-Fi</string>
+    <string name="wifi_timeout_summary2">Vypnuté</string>
+    <string name="cleartext_network_policy_summary">Blokuje všetku sieťovú komunikáciu, ktorá nie je TLS. Vyžaduje súkromnú konfiguráciu DNS. Poznámka: Bez explicitných výnimiek nebudú Tor a väčšina sietí VPN fungovať</string>
+    <string name="timeout_summary_2hours">2 hodiny</string>
+    <string name="user_add_managed_profile_item_title">Pracovný profil</string>
+    <string name="show_qs_on_secure_keyguard_title">Rýchle nastavenia</string>
+    <string name="wifi_timeout_summary">Ak nie je pripojená žiadna sieť, Wi-Fi sa vypne po <xliff:g id="timeout_description"> %1$s </xliff:g></string>
+    <string name="cleartext_network_policy_title"/>
+    <string name="user_add_managed_profile_item_summary">Pracovné profily zdieľajú s používateľom spúšťač, oznámenia a posledné úlohy</string>
+    <string name="aosp_module_version">Aktualizácia hlavného modulu</string>
+    <string name="show_qs_on_secure_keyguard_summary">Povoľte prepínanie rýchlych nastavení na zabezpečenej uzamknutej obrazovke</string>
+    <string name="data_usage_app_restrict_background_all">Prístup k sieti na pozadí</string>
+    <string name="timeout_summary_8hours">8 hodín</string>
+    <string name="timeout_summary_4hours">4 hodiny</string>
+    <string name="timeout_summary_1hour">1 hodina</string>
+    <string name="timeout_summary_30mins">30 minút</string>
+    <string name="timeout_summary_10mins">10 minút</string>
+    <string name="timeout_summary_5mins">5 minút</string>
+    <string name="timeout_summary_1min">1 minúta</string>
+</resources>

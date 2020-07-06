@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_summary">Afficher l’option du bouton d’alimentation qui active un bouton d’urgence.</string>
+    <string name="panic_settings_title">Afficher l’option Urgence</string>
+    <string name="calyxos_version">Version de CalyxOS</string>
+    <string name="security_restrict_usb_disabled">Toujours autoriser les nouveaux périphériques USB</string>
+    <string name="security_restrict_usb_keyguard">Autoriser les nouveaux périphériques USB quand ils sont déverrouillés</string>
+    <string name="security_restrict_usb_always">Refuser les nouveaux périphériques USB</string>
+    <string name="security_restrict_usb_summary">Prise en charge des périphériques USB tels que les écouteurs, les dispositifs de stockage et les entrées (souris, claviers, joysticks)</string>
+    <string name="security_restrict_usb_title">Restreindre USB</string>
+    <string name="timeout_summary_8hours">8 heures</string>
+    <string name="timeout_summary_4hours">4 heures</string>
+    <string name="timeout_summary_2hours">2 heures</string>
+    <string name="timeout_summary_1hour">1 heure</string>
+    <string name="timeout_summary_30mins">30 minutes</string>
+    <string name="timeout_summary_10mins">10 minutes</string>
+    <string name="timeout_summary_5mins">5 minutes</string>
+    <string name="timeout_summary_2mins">2 minutes</string>
+    <string name="timeout_summary_1min">1 minute</string>
+    <string name="timeout_summary_30secs">30 secondes</string>
+    <string name="timeout_summary_15secs">15 secondes</string>
+    <string name="timeout_summary_never">Jamais</string>
+    <string name="bluetooth_timeout_summary2">Ne pas désactiver automatiquement le Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Le Bluetooth s\'éteindra après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
+    <string name="bluetooth_timeout">Délai d\'attente Bluetooth</string>
+    <string name="cleartext_network_policy_summary">Bloque tout le trafic réseau non TLS. Nécessite de configurer un DNS privé. Remarque : sans exemptions explicites, Tor et la plupart des VPN ne fonctionneront pas</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permettre de basculer les paramètres rapides sur un écran de verrouillage sécurisé</string>
+    <string name="show_qs_on_secure_keyguard_title">Réglages rapides</string>
+    <string name="user_add_managed_profile_item_summary">Les profils professionnels partagent le lanceur d\'applications, les notifications et les tâches récentes avec l\'utilisateur</string>
+    <string name="user_add_managed_profile_item_title">Profil professionnel</string>
+    <string name="cleartext_network_policy_title">Restreindre le trafic réseau en clair</string>
+    <string name="wifi_timeout_summary2">Désactivé</string>
+    <string name="wifi_timeout_summary">Le Wi-Fi sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun réseau n\'est connecté</string>
+    <string name="wifi_timeout">Désactiver automatiquement le Wi-Fi</string>
+    <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
+    <string name="data_usage_app_restrict_background_all">Accès réseau en arrière plan</string>
+    <string name="aosp_module_version">Mise à jour du module principal</string>
+    <string name="timeout_summary_72hours">72 heures</string>
+    <string name="timeout_summary_48hours">48 heures</string>
+    <string name="timeout_summary_36hours">36 heures</string>
+    <string name="timeout_summary_24hours">24 heures</string>
+    <string name="timeout_summary_12hours">12 heures</string>
+    <string name="device_reboot_timeout_summary2">L\'appareil ne redémarrera pas automatiquement</string>
+    <string name="device_reboot_timeout_summary">L\'appareil redémarrera automatiquement s\'il n\'a pas été déverrouillé au cours des <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">Redémarrage automatique</string>
+</resources>
