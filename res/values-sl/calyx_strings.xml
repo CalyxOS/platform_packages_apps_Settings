@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calyxos_version">Verzija CalyxOS</string>
+    <string name="panic_settings_summary">Prikaži opcijo gumba za prižig, ki aktivira nujno pomoč.</string>
+    <string name="deny_new_usb_dynamic">Dovoli nove USB priključke ko je telefon odklenjen</string>
+    <string name="deny_new_usb_enabled">Zavrni nove USB priključke</string>
+    <string name="deny_new_usb_title">Prepovej USB</string>
+    <string name="deny_new_usb_disabled">Vedno dovoli nove USB priključke</string>
+    <string name="vendor_security_patch">Nivo varnostnega popravka proizvajalca</string>
+    <string name="panic_settings_title">Pokaži opcijo za paniko</string>
+</resources>

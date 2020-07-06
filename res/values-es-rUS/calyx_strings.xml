@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="deny_new_usb_disabled">Permitir nuevos dispositivos USB siempre</string>
+    <string name="deny_new_usb_dynamic">Permitir nuevos dispositivos USB cuando esté desbloqueado</string>
+    <string name="deny_new_usb_enabled">Negar nuevos dispositivos USB</string>
+    <string name="deny_new_usb_title">Restringir USB</string>
+    <string name="panic_settings_title">Mostrar opción de Pánico</string>
+    <string name="calyxos_version">Versión de CalyxOS</string>
+</resources>
