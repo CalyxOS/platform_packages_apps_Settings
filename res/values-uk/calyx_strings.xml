@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_5mins">5 хвилин</string>
+    <string name="timeout_summary_never">Ніколи</string>
+    <string name="user_add_managed_profile_item_summary">Робочі профілі надають користувачеві запускач, сповіщення та останні завдання</string>
+    <string name="bluetooth_timeout">Час вимикання Bluetooth</string>
+    <string name="panic_settings_summary">Відображення опції кнопки живлення, яка задіює тривожну кнопку.</string>
+    <string name="security_restrict_usb_title">Заборонити USB</string>
+    <string name="timeout_summary_10mins">10 хвилин</string>
+    <string name="wifi_timeout_summary">Wi-Fi самовимкнеться через <xliff:g id="timeout_description">%1$s</xliff:g> якщо не під\'єднано до жодної мережі</string>
+    <string name="timeout_summary_2mins">2 хвилини</string>
+    <string name="user_add_managed_profile_item_title">Робочий профіль</string>
+    <string name="aosp_module_version">Оновлення основного модуля</string>
+    <string name="timeout_summary_30secs">30 секунд</string>
+    <string name="wifi_timeout_summary2">Вимкнено</string>
+    <string name="security_restrict_usb_summary">Підтримка управління для USB-пристроїв, таких як навушники, пристрої зберігання даних і пристрої введення (миші, клавіатури, джойстики)</string>
+    <string name="timeout_summary_1hour">1 година</string>
+    <string name="timeout_summary_30mins">30 хвилин</string>
+    <string name="bluetooth_timeout_summary2">Не вимикати Bluetooth автоматично</string>
+    <string name="cleartext_network_policy_summary">Блокує весь мережевий трафік, що не є TLS. Потрібна конфігурація приватного DNS. Примітка: Без явних винятків Tor і більшість VPN не працюватимуть</string>
+    <string name="timeout_summary_8hours">8 годин</string>
+    <string name="timeout_summary_1min">1 хвилина</string>
+    <string name="security_restrict_usb_keyguard">Дозволити нові USB-пристрої під час розблокування</string>
+    <string name="security_restrict_usb_disabled">Завжди дозволяти нові USB-пристрої</string>
+    <string name="show_qs_on_secure_keyguard_title">Швидкі налаштування</string>
+    <string name="bluetooth_timeout_summary">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо жоден пристрій не під\'єднано</string>
+    <string name="security_restrict_usb_always">Заборонити нові USB-пристрої</string>
+    <string name="panic_settings_title">Показати опцію \"Тривожна кнопка\"</string>
+    <string name="timeout_summary_4hours">4 години</string>
+    <string name="timeout_summary_15secs">15 секунд</string>
+    <string name="show_qs_on_secure_keyguard_summary">Дозволити швидке налаштування на захищеному екрані блокування</string>
+    <string name="cleartext_network_policy_title">Обмежити мережевий трафік cleartext</string>
+    <string name="wifi_timeout">Самовимкнення Wi-Fi</string>
+    <string name="data_usage_app_restrict_background_all_summary">Увімкнути використання мережі у тлі</string>
+    <string name="data_usage_app_restrict_background_all">Доступ до мережі у тлі</string>
+    <string name="timeout_summary_2hours">2 години</string>
+    <string name="calyxos_version">Версія CalyxOS</string>
+    <string name="timeout_summary_72hours">72 години</string>
+    <string name="timeout_summary_48hours">48 годин</string>
+    <string name="timeout_summary_36hours">36 годин</string>
+    <string name="timeout_summary_24hours">24 годин</string>
+    <string name="timeout_summary_12hours">12 годин</string>
+    <string name="device_reboot_timeout_summary">Пристрій автоматично перезавантажиться, якщо його не розблоковано протягом останніх/останньої <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">Пристрій не перезавантажиться автоматично</string>
+    <string name="device_reboot_timeout_title">Автоперезавантаження</string>
+</resources>
