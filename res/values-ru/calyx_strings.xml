@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="suggestion_button_close">Закрыть</string>
+    <string name="calyxos_version">Версия CalyxOS</string>
+    <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
+</resources>
