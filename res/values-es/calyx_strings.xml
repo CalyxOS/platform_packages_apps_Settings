@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deny_new_usb_summary">Compatibilidad de control de aparatos USB tales como auriculares y dispositivos de almacenamiento y de entrada (ratones, teclados y mandos de juego)</string>
+    <string name="deny_new_usb_title">Restringir USB</string>
+    <string name="panic_settings_summary">Mostrar una opción de botón de encendido que activa una alerta de emergencia.</string>
+    <string name="panic_settings_title">Mostrar opción de pánico</string>
+    <string name="calyxos_version">Versión de CalyxOS</string>
+    <string name="deny_new_usb_disabled">Permitir siempre nuevos gadgets USB</string>
+    <string name="deny_new_usb_dynamic">Permitir nuevos gadgets USB cuando esté desbloqueado</string>
+    <string name="deny_new_usb_enabled">Denegar nuevos gadgets USB</string>
+    <string name="suggestion_button_close">Cerrar</string>
+    <string name="vendor_security_patch">Nivel de parche de seguridad del proveedor</string>
+</resources>
