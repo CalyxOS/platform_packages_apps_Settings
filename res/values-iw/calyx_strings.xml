@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">תמיד לאפשרי חפיצי USB חדשים</string>
+    <string name="security_restrict_usb_keyguard">לאפשר חפיצי USB חדשים כשהמכשיר לא נעול</string>
+    <string name="security_restrict_usb_always">דחיית חפיצי USB חדשים</string>
+    <string name="security_restrict_usb_summary">שליטה בתמיכה בחפיצי USB כגון אוזניות, התקני אחסון וקלט (עכברים, מקלדות, אביזרי משחק)</string>
+    <string name="security_restrict_usb_title">הגבלת USB</string>
+    <string name="panic_settings_summary">הצגת אפשרויות בכפתור הכיבוי שמפעילה את לחצן המצוקה בחירום.</string>
+    <string name="panic_settings_title">הצגת אפשרויות מצוקה</string>
+    <string name="calyxos_version">גרסת CalyxOS</string>
+    <string name="timeout_summary_2mins">2 דקות</string>
+    <string name="timeout_summary_15secs">15 שניות</string>
+    <string name="wifi_timeout">כיבוי רשת אלחוטית אוטומטית</string>
+    <string name="data_usage_app_restrict_background_all">גישה לרשת ברקע</string>
+    <string name="timeout_summary_10mins">10 דקות</string>
+    <string name="timeout_summary_1min">דקה</string>
+    <string name="aosp_module_version">עדכון מודול עיקרי</string>
+    <string name="cleartext_network_policy_title">הגבלת תעבורת רשת בטקסט פשוט</string>
+    <string name="timeout_summary_4hours">4 שעות</string>
+    <string name="data_usage_app_restrict_background_all_summary">הפעלת שימוש ברשת ברקע</string>
+    <string name="cleartext_network_policy_summary">לחסום את כל התעבורה שאינה TLS. דורש הגדרות DNS פרטי. לתשומת לבך: ללא החרגות מפורשות, Tor ורוב ה־VPNים לא יעבדו</string>
+    <string name="user_add_managed_profile_item_title">פרופיל עבודה</string>
+    <string name="timeout_summary_30mins">חצי שעה</string>
+    <string name="timeout_summary_30secs">חצי דקה</string>
+    <string name="timeout_summary_1hour">שעה</string>
+    <string name="wifi_timeout_summary2">מושבתת</string>
+    <string name="bluetooth_timeout_summary">Bluetooth יכבה לאחר <xliff:g id="timeout_description">%1$s</xliff:g> אם אין התקנים מחוברים</string>
+    <string name="timeout_summary_5mins">5 דקות</string>
+    <string name="wifi_timeout_summary">הרשת האלחוטית תכבה לאחר <xliff:g id="timeout_description">%1$s</xliff:g> אם אין רשת מחוברת</string>
+    <string name="show_qs_on_secure_keyguard_summary">לאפשר החלפת מצב הגדרות מהירות על מסך נעילה מאובטח</string>
+    <string name="bluetooth_timeout">תום זמן המתנה של Bluetooth</string>
+    <string name="show_qs_on_secure_keyguard_title">הגדרות מהירות</string>
+    <string name="timeout_summary_2hours">שעתיים</string>
+    <string name="timeout_summary_8hours">8 שעות</string>
+    <string name="user_add_managed_profile_item_summary">פרופילי העבודה משתפים את המשגר, ההתראות ואת המשימות האחרונות עם המשתמש</string>
+    <string name="bluetooth_timeout_summary2">לא לכבות את ה־Bluetooth אוטומטית</string>
+    <string name="timeout_summary_never">אף פעם לא</string>
+    <string name="device_reboot_timeout_title">הפעלה אוטומטית מחדש</string>
+    <string name="device_reboot_timeout_summary">המכשיר יופעל אוטומטית מחדש אם הנעילה לא שוחררה במשך <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="timeout_summary_36hours">36 שעות</string>
+    <string name="timeout_summary_12hours">12 שעות</string>
+    <string name="timeout_summary_24hours">24 שעות</string>
+    <string name="timeout_summary_48hours">48 שעות</string>
+    <string name="timeout_summary_72hours">72 שעות</string>
+    <string name="device_reboot_timeout_summary2">המכשיר לא יופעל מחדש אוטומטית</string>
+</resources>
