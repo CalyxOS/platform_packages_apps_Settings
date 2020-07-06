@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deny_new_usb_disabled">Leyfa ný USB tæki alltaf</string>
+    <string name="deny_new_usb_dynamic">Leyfa ný USB tæki þegar tækið er ólæst</string>
+    <string name="deny_new_usb_enabled">Hafna nýjum USB tækjum</string>
+    <string name="deny_new_usb_summary">Stjórna stuðningi við USB tengdan búnað, t.d. heyrnartól, geymslumiðla og ílagstæki (mýs, lyklaborð o.s.frv.)</string>
+    <string name="deny_new_usb_title">Hamla USB</string>
+    <string name="panic_settings_summary">Sýna ræsihnappsmöguleika sem virkjar neyðarviðbragð</string>
+    <string name="panic_settings_title">Sýna neyðarvalkost</string>
+    <string name="suggestion_button_close">Loka</string>
+    <string name="calyxos_version">CalyxOS útgáfa</string>
+</resources>
