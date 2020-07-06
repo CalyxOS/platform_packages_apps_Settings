@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="panic_settings_summary">Vis av/på-knapp som aktiverer panikkforetagende i nødsfall.</string>
+    <string name="panic_settings_title">Vis panikk-alternativ</string>
+    <string name="calyxos_version">CalyxOS-versjon</string>
+    <string name="security_restrict_usb_disabled">Alltid tillat nye USB-enheter</string>
+    <string name="security_restrict_usb_keyguard">Tillat nye USB-enheter når opplåst</string>
+    <string name="security_restrict_usb_always">Nekt nye USB-enheter</string>
+    <string name="security_restrict_usb_summary">Kontroller støtte for USB-enheter som hodetelefoner, lagrings- og inndataenheter (mus, tastatur, styrespaker)</string>
+    <string name="security_restrict_usb_title">Begrens USB</string>
+    <string name="timeout_summary_8hours">åtte timer</string>
+    <string name="timeout_summary_4hours">fire timer</string>
+    <string name="timeout_summary_2hours">to timer</string>
+    <string name="timeout_summary_1hour">en time</string>
+    <string name="timeout_summary_30mins">en halvtime</string>
+    <string name="timeout_summary_10mins">ti minutter</string>
+    <string name="timeout_summary_5mins">fem minutter</string>
+    <string name="timeout_summary_1min">ett minutt</string>
+    <string name="timeout_summary_2mins">to minutter</string>
+    <string name="timeout_summary_30secs">30 sekunder</string>
+    <string name="timeout_summary_15secs">15 sekunder</string>
+    <string name="timeout_summary_never">Aldri</string>
+    <string name="bluetooth_timeout_summary2">Ikke skru av Blåtann automatisk</string>
+    <string name="bluetooth_timeout_summary">Blåtann vil bli skrudd av etter <xliff:g id="timeout_description">%1$s</xliff:g> hvis ingen enheter tilknyttes</string>
+    <string name="bluetooth_timeout">Blåtannstidsavbrudd</string>
+</resources>

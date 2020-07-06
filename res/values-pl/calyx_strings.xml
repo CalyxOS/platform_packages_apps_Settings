@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_restrict_usb_disabled">Zawsze zezwalaj na nowe gadżety USB</string>
+    <string name="security_restrict_usb_keyguard">Zezwalaj na nowe gadżety USB po odblokowaniu</string>
+    <string name="calyxos_version">Wersja CalyxOS</string>
+    <string name="bluetooth_timeout">Maksymalny dozwolony czas Bluetooth</string>
+    <string name="security_restrict_usb_title">Ogranicz USB</string>
+    <string name="panic_settings_summary">Wyświetlaj opcje przycisku zasilania, która aktywuje wyzwalacz paniki.</string>
+    <string name="panic_settings_title">Pokaż opcję wyzwalacza paniki</string>
+    <string name="bluetooth_timeout_summary">Bluetooth wyłączy się po upływie <xliff:g id="timeout_description">%1$s</xliff:g> jeżeli żadne urządzenia nie są podłączone</string>
+    <string name="timeout_summary_8hours">8 godzin</string>
+    <string name="timeout_summary_4hours">4 godziny</string>
+    <string name="timeout_summary_2hours">2 godziny</string>
+    <string name="timeout_summary_1hour">1 godzina</string>
+    <string name="timeout_summary_30mins">30 minut</string>
+    <string name="timeout_summary_10mins">10 minut</string>
+    <string name="timeout_summary_5mins">5 minut</string>
+    <string name="timeout_summary_2mins">2 minuty</string>
+    <string name="timeout_summary_1min">1 minuta</string>
+    <string name="timeout_summary_30secs">30 sekund</string>
+    <string name="timeout_summary_15secs">15 sekund</string>
+    <string name="timeout_summary_never">Nigdy</string>
+    <string name="bluetooth_timeout_summary2">Nie wyłączaj Bluetooth automatycznie</string>
+    <string name="security_restrict_usb_always">Zablokuj nowe gadżety USB</string>
+    <string name="security_restrict_usb_summary">Kontroluj wsparcie dla gadżetów USB takich jak słuchawki, nośników danych czy urządzeń wejścia (myszy, klawiatury, joysticki)</string>
+    <string name="user_add_managed_profile_item_summary">Profile służbowe udostępniają użytkownikowi launcher, powiadomienia i ostatnie zadania</string>
+    <string name="show_qs_on_secure_keyguard_summary">Zezwalaj na przełączanie szybkich ustawień na bezpiecznym ekranie blokady</string>
+    <string name="wifi_timeout">Automatycznie wyłącz Wi-Fi</string>
+    <string name="data_usage_app_restrict_background_all">Dostęp do sieci w tle</string>
+    <string name="wifi_timeout_summary2">Wyłączony</string>
+    <string name="user_add_managed_profile_item_title">Profil służbowy</string>
+    <string name="show_qs_on_secure_keyguard_title">Szybkie ustawienia</string>
+    <string name="aosp_module_version">Aktualizacja modułu głównego</string>
+    <string name="wifi_timeout_summary">Sieć Wi-Fi wyłączy się po <xliff:g id="timeout_description">%1$s</xliff:g>, jeśli nie ma połączenia z siecią</string>
+    <string name="cleartext_network_policy_summary">Blokuje cały ruch sieciowy inny niż TLS. Wymaga konfiguracji prywatnego DNS\'a. Uwaga: Bez wyraźnych wyjątków, Tor i większość VPN\'ów nie będzie działać</string>
+    <string name="cleartext_network_policy_title">Ogranicz ruch sieciowy w postaci zwykłego tekstu</string>
+    <string name="data_usage_app_restrict_background_all_summary">Włącz korzystanie z sieci w tle</string>
+    <string name="timeout_summary_72hours">72 godziny</string>
+    <string name="timeout_summary_48hours">48 godzin</string>
+    <string name="timeout_summary_36hours">36 godziny</string>
+    <string name="timeout_summary_24hours">24 godziny</string>
+    <string name="timeout_summary_12hours">12 godzin</string>
+    <string name="device_reboot_timeout_summary2">Urządzenie nie zrestartuje się automatycznie</string>
+    <string name="device_reboot_timeout_summary">Urządzenie automatycznie uruchomi się ponownie, jeśli nie zostało odblokowane w ciągu ostatniego <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">Automatyczny restart</string>
+</resources>

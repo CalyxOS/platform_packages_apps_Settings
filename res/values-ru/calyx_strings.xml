@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calyxos_version">Версия CalyxOS</string>
+    <string name="security_restrict_usb_disabled">Всегда разрешать новые USB-устройства</string>
+    <string name="security_restrict_usb_keyguard">Разрешить новые USB-устройства, если телефон разблокирован</string>
+    <string name="security_restrict_usb_always">Запретить новые USB-устройства</string>
+    <string name="security_restrict_usb_summary">Поддержка управления для USB-устройств, таких как наушники, устройства хранения данных и устройства ввода (мыши, клавиатуры, джойстики)</string>
+    <string name="security_restrict_usb_title">Запретить USB</string>
+    <string name="panic_settings_summary">Отображение опции кнопки питания, которая активирует тревожную кнопку.</string>
+    <string name="panic_settings_title">Показать опцию \"Тревожная кнопка\"</string>
+    <string name="bluetooth_timeout_summary">Bluetooth будет отключен по прошествии <xliff:g id="timeout_description">%1$s</xliff:g> если ни одно устройство не подключено</string>
+    <string name="timeout_summary_8hours">8 часов</string>
+    <string name="timeout_summary_4hours">4 часа</string>
+    <string name="timeout_summary_2hours">2 часа</string>
+    <string name="timeout_summary_1hour">1 час</string>
+    <string name="timeout_summary_30mins">30 минут</string>
+    <string name="timeout_summary_10mins">10 минут</string>
+    <string name="timeout_summary_5mins">5 минут</string>
+    <string name="timeout_summary_2mins">2 минуты</string>
+    <string name="timeout_summary_1min">1 минута</string>
+    <string name="timeout_summary_30secs">30 секунд</string>
+    <string name="timeout_summary_15secs">15 секунд</string>
+    <string name="timeout_summary_never">Никогда</string>
+    <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
+    <string name="bluetooth_timeout">Время выключения Bluetooth</string>
+    <string name="aosp_module_version">Обновление основного модуля</string>
+    <string name="data_usage_app_restrict_background_all">Фоновый режим</string>
+    <string name="user_add_managed_profile_item_summary"/>
+    <string name="wifi_timeout_summary2">Отключено</string>
+    <string name="show_qs_on_secure_keyguard_summary">Разрешить доступ к быстрым настройкам на экране блокировки</string>
+    <string name="cleartext_network_policy_summary">Блокировать весь non-TLS сетевой трафик. Требует настройки Private DNS. Примечание: Без настройки исключений Tor и большинство VPN не будут работать</string>
+    <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
+    <string name="user_add_managed_profile_item_title">Рабочий профиль</string>
+    <string name="wifi_timeout_summary">Отключать Wi-Fi через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключения</string>
+    <string name="wifi_timeout">Отключать Wi-Fi автоматически</string>
+    <string name="data_usage_app_restrict_background_all_summary">Включить передачу данных в фоновом режиме</string>
+    <string name="device_reboot_timeout_title">Автоматическая перезагрузка</string>
+    <string name="device_reboot_timeout_summary2">Устройство не будет автоматически перезагружаться</string>
+    <string name="timeout_summary_72hours">72 часа</string>
+    <string name="timeout_summary_12hours">12 часов</string>
+    <string name="timeout_summary_24hours">24 часа</string>
+    <string name="timeout_summary_36hours">36 часов</string>
+    <string name="device_reboot_timeout_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последних <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="timeout_summary_48hours">48 часов</string>
+</resources>
