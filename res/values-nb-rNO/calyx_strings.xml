@@ -4,4 +4,9 @@
     <string name="panic_settings_title">Vis panikk-alternativ</string>
     <string name="suggestion_button_close">Lukk</string>
     <string name="calyxos_version">CalyxOS-versjon</string>
+    <string name="deny_new_usb_disabled">Alltid tillat nye USB-enheter</string>
+    <string name="deny_new_usb_dynamic">Tillat nye USB-enheter når opplåst</string>
+    <string name="deny_new_usb_enabled">Nekt nye USB-enheter</string>
+    <string name="deny_new_usb_summary">Kontroller støtte for USB-enheter som hodetelefoner, lagrings- og inndataenheter (mus, tastatur, styrespaker)</string>
+    <string name="deny_new_usb_title">Begrens USB</string>
 </resources>

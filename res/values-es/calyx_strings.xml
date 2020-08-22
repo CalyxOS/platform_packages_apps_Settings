@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deny_new_usb_summary">Compatibilidad de control de aparatos USB tales como auriculares y dispositivos de almacenamiento y de entrada (ratones, teclados y mandos de juego)</string>
+    <string name="deny_new_usb_title">Restringir USB</string>
+    <string name="panic_settings_summary">Mostrar una opción de botón de encendido que activa una alerta de emergencia.</string>
+    <string name="panic_settings_title">Mostrar opción de pánico</string>
+    <string name="calyxos_version">Versión de CalyxOS</string>
+</resources>
