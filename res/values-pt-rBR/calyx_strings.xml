@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deny_new_usb_disabled">Sempre permitir novos dispositivos USB</string>
+    <string name="deny_new_usb_enabled">Negar novos dispositivos USB</string>
+    <string name="deny_new_usb_dynamic">Permitir novos dispositivos USB quando desbloqueados</string>
+    <string name="deny_new_usb_summary">Suporte de controle para dispositivos USB, como fones de ouvido, dispositivos de armazenamento e entrada (mouse, teclado, joysticks)</string>
+    <string name="deny_new_usb_title">Restringir USB</string>
+    <string name="panic_settings_summary">Exibir a opção do botão liga/desliga que ativa um gatilho de pânico de emergência.</string>
+    <string name="panic_settings_title">Mostrar opção de pânico</string>
+    <string name="suggestion_button_close">Fechar</string>
+    <string name="calyxos_version">Versão do CalyxOS</string>
+</resources>
