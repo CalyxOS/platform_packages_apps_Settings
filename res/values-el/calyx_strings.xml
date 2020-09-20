@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="panic_settings_title">Εμφάνιση επιλογής Πανικού</string>
-    <string name="panic_settings_summary">Επιλογή κουμπιού λειτουργίας που ενεργοποιεί ενεργοποιεί μια σκανδάλη πανικού έκτακτης ανάγκης.</string>
+    <string name="panic_settings_summary">Εμφάνιση επιλογής κουμπιού λειτουργίας που ενεργοποιεί μια ενέργεια πανικού έκτακτης ανάγκης.</string>
     <string name="suggestion_button_close">Κλείσιμο</string>
     <string name="calyxos_version">Έκδοση CalyxOS</string>
+    <string name="vendor_security_patch">Επίπεδο ενημέρωσης κώδικα ασφαλείας κατασκευαστή</string>
+    <string name="deny_new_usb_enabled">Να μην επιτρέπονται νέες συσκευές USB</string>
+    <string name="deny_new_usb_disabled">Να επιτρέπονται πάντα νέες συσκευές USB</string>
+    <string name="deny_new_usb_dynamic">Να επιτρέπονται νέες συσκευές USB όταν η συσκευή είναι ξεκλείδωτη</string>
+    <string name="deny_new_usb_summary">Ελέγξτε την υποστήριξη για συσκευές USB, όπως ακουστικά, συσκευές αποθήκευσης και εισόδου (ποντίκια, πληκτρολόγια, χειριστήρια)</string>
+    <string name="deny_new_usb_title">Περιορισμός USB</string>
 </resources>
