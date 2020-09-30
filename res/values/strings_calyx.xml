@@ -1,0 +1,5 @@
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Backup Transport selection settings menu and activity title -->
+  <string name="backup_transport_title">Select backup provider</string>
+</resources>
