@@ -35,5 +35,4 @@
         settings:userRestriction="no_config_bluetooth"
         settings:useAdminDisabledSummary="true"
         settings:controller="com.android.settings.connecteddevice.AddDevicePreferenceController"/>
-
 </PreferenceScreen>
