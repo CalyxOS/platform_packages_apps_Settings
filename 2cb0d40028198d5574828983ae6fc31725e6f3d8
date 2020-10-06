@@ -34,6 +34,24 @@
       "revId": "2cb0d40028198d5574828983ae6fc31725e6f3d8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a0a5d42_416930e1",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1507,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-06T15:59:24Z",
+      "side": 1,
+      "message": "It\u0027ll be needed for translation, IIRC this isn\u0027t supported by weblate, and it\u0027s fragile anyway.",
+      "parentUuid": "90b97a01_f4668390",
+      "revId": "2cb0d40028198d5574828983ae6fc31725e6f3d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
     }
   ]
 }
