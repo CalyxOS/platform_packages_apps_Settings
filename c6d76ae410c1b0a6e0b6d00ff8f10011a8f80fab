@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ab88819_4e11671c",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-06T15:49:21Z",
+      "side": 0,
+      "message": "Don\u0027t do this, just causes merge conflicts later.",
+      "revId": "c6d76ae410c1b0a6e0b6d00ff8f10011a8f80fab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
