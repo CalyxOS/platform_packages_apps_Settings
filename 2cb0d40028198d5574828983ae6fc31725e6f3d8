@@ -16,6 +16,24 @@
       "revId": "2cb0d40028198d5574828983ae6fc31725e6f3d8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "90b97a01_f4668390",
+        "filename": "res/values/arrays.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1507,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-10-06T15:53:47Z",
+      "side": 1,
+      "message": "we can do that if you want, this is a copy/paste of other timeouts above, just followed the pattern",
+      "parentUuid": "58f5a630_0b3fb22e",
+      "revId": "2cb0d40028198d5574828983ae6fc31725e6f3d8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
     }
   ]
 }
