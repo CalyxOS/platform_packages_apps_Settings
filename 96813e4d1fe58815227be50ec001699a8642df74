@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5dc6d509_d7f00b0e",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-13T23:17:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "73db23d6_c35ae05b",
+      "revId": "96813e4d1fe58815227be50ec001699a8642df74",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1cc4f489_c4801122",
         "filename": "src/com/android/settings/bluetooth/BluetoothTimeoutPreferenceController.java",
         "patchSetId": 8
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "bf5f21a6_36cede18",
+        "filename": "src/com/android/settings/bluetooth/BluetoothTimeoutPreferenceController.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-13T23:17:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1cc4f489_c4801122",
+      "revId": "96813e4d1fe58815227be50ec001699a8642df74",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a767bad2_b66abbcd",
         "filename": "src/com/android/settings/bluetooth/BluetoothTimeoutPreferenceController.java",
         "patchSetId": 8
@@ -50,6 +86,24 @@
       "revId": "96813e4d1fe58815227be50ec001699a8642df74",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e39a5284_448bc139",
+        "filename": "src/com/android/settings/bluetooth/BluetoothTimeoutPreferenceController.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-13T23:17:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a767bad2_b66abbcd",
+      "revId": "96813e4d1fe58815227be50ec001699a8642df74",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }
