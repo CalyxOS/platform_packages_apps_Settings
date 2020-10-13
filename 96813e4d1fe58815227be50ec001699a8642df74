@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "73db23d6_c35ae05b",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-13T23:12:06Z",
+      "side": 1,
+      "message": "I think we may want to use a different string from this, since this also ends up in the timeout dialog.\n\nJust keep that \"Never\" like before, and then add a new string for this one.",
+      "revId": "96813e4d1fe58815227be50ec001699a8642df74",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1cc4f489_c4801122",
+        "filename": "src/com/android/settings/bluetooth/BluetoothTimeoutPreferenceController.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-13T23:12:06Z",
+      "side": 1,
+      "message": "This doesn\u0027t work, now it says \"Bluetooth with turn off after Do not..\"",
+      "revId": "96813e4d1fe58815227be50ec001699a8642df74",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a767bad2_b66abbcd",
+        "filename": "src/com/android/settings/bluetooth/BluetoothTimeoutPreferenceController.java",
+        "patchSetId": 8
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-13T23:12:06Z",
+      "side": 1,
+      "message": "You removed the string here, that was working, just re-add that, but make a new R.string. instead of changing the existing \"Never\" string.",
+      "revId": "96813e4d1fe58815227be50ec001699a8642df74",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
