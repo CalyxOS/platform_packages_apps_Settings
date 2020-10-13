@@ -16,6 +16,24 @@
       "revId": "b11849d9fd6e613ffc9e03f7241d00e898cab449",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "54e814c9_29be8747",
+        "filename": "src/com/android/settings/bluetooth/BluetoothTimeoutPreferenceController.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-10-13T14:53:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e7da6d08_a4162a5b",
+      "revId": "b11849d9fd6e613ffc9e03f7241d00e898cab449",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }
