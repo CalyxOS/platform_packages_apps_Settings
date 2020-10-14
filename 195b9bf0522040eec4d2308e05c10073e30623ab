@@ -110,6 +110,30 @@
       "revId": "195b9bf0522040eec4d2308e05c10073e30623ab",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e98b2df1_f52a4895",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-10-14T15:47:44Z",
+      "side": 1,
+      "message": "https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/android/content/pm/PackageManager.java;l\u003d4412?q\u003dPackageManager",
+      "parentUuid": "4cc11847_8e763e5c",
+      "range": {
+        "startLine": 454,
+        "startChar": 12,
+        "endLine": 454,
+        "endChar": 42
+      },
+      "revId": "195b9bf0522040eec4d2308e05c10073e30623ab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
     }
   ]
 }
