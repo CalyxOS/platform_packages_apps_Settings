@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "8956edac_961e7591",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-14T12:48:30Z",
+      "side": 1,
+      "message": "Could import static just the INTERNET perm",
+      "revId": "195b9bf0522040eec4d2308e05c10073e30623ab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "0b72a2cd_1ec175a7",
         "filename": "src/com/android/settings/datausage/AppDataUsage.java",
         "patchSetId": 1
@@ -25,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "e5c9db40_1bc8d52b",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-14T12:48:30Z",
+      "side": 1,
+      "message": "Yeah I was going to say that.\n\nAlso it looks like 11 may have changed the granting of internet permission to apps.\n\nIf that\u0027s true, then what we can do is simply check if the app asks for that permission.",
+      "parentUuid": "0b72a2cd_1ec175a7",
+      "range": {
+        "startLine": 452,
+        "startChar": 15,
+        "endLine": 452,
+        "endChar": 115
+      },
+      "revId": "195b9bf0522040eec4d2308e05c10073e30623ab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6ba621fc_8ae911ec",
         "filename": "src/com/android/settings/datausage/AppDataUsage.java",
         "patchSetId": 1
@@ -36,6 +77,30 @@
       "writtenOn": "2020-10-14T01:19:02Z",
       "side": 1,
       "message": "might want clearer error handling",
+      "range": {
+        "startLine": 454,
+        "startChar": 12,
+        "endLine": 454,
+        "endChar": 42
+      },
+      "revId": "195b9bf0522040eec4d2308e05c10073e30623ab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4cc11847_8e763e5c",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-10-14T12:48:30Z",
+      "side": 1,
+      "message": "When would we hit this?",
+      "parentUuid": "6ba621fc_8ae911ec",
       "range": {
         "startLine": 454,
         "startChar": 12,
