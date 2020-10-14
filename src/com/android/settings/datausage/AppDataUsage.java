@@ -20,6 +20,7 @@ import static android.net.NetworkPolicyManager.POLICY_REJECT_ON_DATA;
 import static android.net.NetworkPolicyManager.POLICY_REJECT_ON_VPN;
 import static android.net.NetworkPolicyManager.POLICY_REJECT_ON_WLAN;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
@@ -444,6 +445,14 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
 
     private void setAppRestrictAll(boolean restrict) {
         setAppRestriction(POLICY_NETWORK_ISOLATED, restrict);
+        try {
+            if (restrict)
+                mPackageManager.revokeRuntimePermission(mPackageName, Manifest.permission.INTERNET, UserHandle.ALL);
+            else
+                mPackageManager.grantRuntimePermission(mPackageName, Manifest.permission.INTERNET, UserHandle.ALL);
+        } catch (IllegalArgumentException | SecurityException e) {
+            Log.e(TAG, e.getMessage(), e);
+        }
     }
 
     private void setAppRestrictData(boolean restrict) {
