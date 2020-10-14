@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b72a2cd_1ec175a7",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 452,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-10-14T01:19:02Z",
+      "side": 1,
+      "message": "need to make sure that this cannot gran the internet permission to apps that did not have it in their manifest. couldn\u0027t determine easily based on documentation",
+      "range": {
+        "startLine": 452,
+        "startChar": 15,
+        "endLine": 452,
+        "endChar": 115
+      },
+      "revId": "195b9bf0522040eec4d2308e05c10073e30623ab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6ba621fc_8ae911ec",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-10-14T01:19:02Z",
+      "side": 1,
+      "message": "might want clearer error handling",
+      "range": {
+        "startLine": 454,
+        "startChar": 12,
+        "endLine": 454,
+        "endChar": 42
+      },
+      "revId": "195b9bf0522040eec4d2308e05c10073e30623ab",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
