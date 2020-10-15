@@ -384,7 +384,7 @@ public class TetherSettings extends RestrictedSettingsFragment
     }
 
     private void updateTetheringAllowVpnUpstreamsState() {
-        mBluetoothTether.setChecked(Settings.Secure.getInt(getContentResolver(),
+        mTetheringAllowVpnUpstreams.setChecked(Settings.Secure.getInt(getContentResolver(),
                 Settings.Secure.TETHERING_ALLOW_VPN_UPSTREAMS, 0) == 1 ? true : false);
     }
 
