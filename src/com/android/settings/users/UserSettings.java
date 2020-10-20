@@ -29,6 +29,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.content.pm.UserInfo;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -43,6 +45,7 @@ import android.os.RemoteException;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.provider.ContactsContract;
+import android.util.ArraySet;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.Menu;
@@ -84,6 +87,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
+import java.util.Set;
 
 /**
  * Screen that manages the list of users on the device.
@@ -125,12 +129,14 @@ public class UserSettings extends SettingsPreferenceFragment
     private static final int DIALOG_USER_PROFILE_EDITOR = 9;
     private static final int DIALOG_USER_PROFILE_EDITOR_ADD_USER = 10;
     private static final int DIALOG_USER_PROFILE_EDITOR_ADD_RESTRICTED_PROFILE = 11;
+    private static final int DIALOG_USER_PROFILE_EDITOR_ADD_MANAGED_PROFILE = 12;
 
     private static final int MESSAGE_UPDATE_LIST = 1;
     private static final int MESSAGE_USER_CREATED = 2;
 
     private static final int USER_TYPE_USER = 1;
     private static final int USER_TYPE_RESTRICTED_PROFILE = 2;
+    private static final int USER_TYPE_MANAGED_PROFILE = 3;
 
     private static final int REQUEST_CHOOSE_LOCK = 10;
 
@@ -272,7 +278,7 @@ public class UserSettings extends SettingsPreferenceFragment
         mAddGuest.setOnPreferenceClickListener(this);
 
         mAddUser = findPreference(KEY_ADD_USER);
-        if (!mUserCaps.mCanAddRestrictedProfile) {
+        if (!mUserCaps.mCanAddRestrictedProfile && !mUserCaps.mCanAddManagedProfile) {
             // Label should only mention adding a "user", not a "profile"
             mAddUser.setTitle(R.string.user_add_user_menu);
         }
@@ -456,6 +462,9 @@ public class UserSettings extends SettingsPreferenceFragment
                             showDialog(DIALOG_NEED_LOCKSCREEN);
                         }
                         break;
+                    case USER_TYPE_MANAGED_PROFILE:
+                        showDialog(DIALOG_USER_PROFILE_EDITOR_ADD_MANAGED_PROFILE);
+                        break;
                 }
             }
         }
@@ -552,10 +561,12 @@ public class UserSettings extends SettingsPreferenceFragment
                 addUserItem.put(KEY_SUMMARY, getString(
                         com.android.settingslib.R.string.user_add_user_item_summary));
                 HashMap<String, String> addProfileItem = new HashMap<String, String>();
-                addProfileItem.put(KEY_TITLE, getString(
-                        com.android.settingslib.R.string.user_add_profile_item_title));
-                addProfileItem.put(KEY_SUMMARY, getString(
-                        com.android.settingslib.R.string.user_add_profile_item_summary));
+                addProfileItem.put(KEY_TITLE, getString(!Utils.isVoiceCapable(context) ?
+                        com.android.settingslib.R.string.user_add_profile_item_title :
+                        R.string.user_add_managed_profile_item_title));
+                addProfileItem.put(KEY_SUMMARY, getString(!Utils.isVoiceCapable(context) ?
+                        com.android.settingslib.R.string.user_add_profile_item_summary :
+                        R.string.user_add_managed_profile_item_summary));
                 data.add(addUserItem);
                 data.add(addProfileItem);
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);
@@ -570,7 +581,9 @@ public class UserSettings extends SettingsPreferenceFragment
                             public void onClick(DialogInterface dialog, int which) {
                                 onAddUserClicked(which == 0
                                         ? USER_TYPE_USER
-                                        : USER_TYPE_RESTRICTED_PROFILE);
+                                        : !Utils.isVoiceCapable(context) ?
+                                        USER_TYPE_RESTRICTED_PROFILE :
+                                        USER_TYPE_MANAGED_PROFILE);
                             }
                         });
                 return builder.create();
@@ -652,6 +665,15 @@ public class UserSettings extends SettingsPreferenceFragment
                 }
                 return buildAddUserProfileEditorDialog(USER_TYPE_RESTRICTED_PROFILE);
             }
+            case DIALOG_USER_PROFILE_EDITOR_ADD_MANAGED_PROFILE: {
+                synchronized (mUserLock) {
+                    mPendingUserIcon = UserIcons.getDefaultUserIcon(getPrefContext().getResources(),
+                            new Random(System.currentTimeMillis()).nextInt(8), false);
+                    mPendingUserName = getString(
+                            com.android.settingslib.R.string.user_new_profile_name);
+                }
+                return buildAddUserProfileEditorDialog(USER_TYPE_MANAGED_PROFILE);
+            }
             default:
                 return null;
         }
@@ -715,6 +737,7 @@ public class UserSettings extends SettingsPreferenceFragment
             case DIALOG_USER_PROFILE_EDITOR:
             case DIALOG_USER_PROFILE_EDITOR_ADD_USER:
             case DIALOG_USER_PROFILE_EDITOR_ADD_RESTRICTED_PROFILE:
+            case DIALOG_USER_PROFILE_EDITOR_ADD_MANAGED_PROFILE:
                 return SettingsEnums.DIALOG_USER_EDIT_PROFILE;
             default:
                 return 0;
@@ -772,6 +795,27 @@ public class UserSettings extends SettingsPreferenceFragment
                 // Could take a few seconds
                 if (userType == USER_TYPE_USER) {
                     user = mUserManager.createUser(username, 0);
+                } else if (userType == USER_TYPE_MANAGED_PROFILE) {
+                    final List<ResolveInfo> resolveInfos =
+                            getContext().getPackageManager().queryIntentActivitiesAsUser(
+                                    new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER),
+                                    PackageManager.MATCH_UNINSTALLED_PACKAGES
+                                            | PackageManager.MATCH_DISABLED_COMPONENTS
+                                            | PackageManager.MATCH_DIRECT_BOOT_AWARE
+                                            | PackageManager.MATCH_DIRECT_BOOT_UNAWARE,
+                                    UserHandle.myUserId());
+                    final Set<String> apps = new ArraySet<>();
+                    for (ResolveInfo resolveInfo : resolveInfos) {
+                        apps.add(resolveInfo.activityInfo.packageName);
+                    }
+                    user = mUserManager.createProfileForUser(username,
+                            UserManager.USER_TYPE_PROFILE_MANAGED, 0, UserHandle.myUserId(),
+                            apps.toArray(new String[0]));
+                    try {
+                        ActivityManager.getService().startUserInBackground(user.id);
+                    } catch (RemoteException e) {
+                        Log.w(TAG, e);
+                    }
                 } else {
                     user = mUserManager.createRestrictedProfile(username);
                 }
@@ -917,7 +961,7 @@ public class UserSettings extends SettingsPreferenceFragment
         }
 
         // If profiles are supported, mUserListCategory will have a special title
-        if (mUserCaps.mCanAddRestrictedProfile) {
+        if (mUserCaps.mCanAddRestrictedProfile || mUserCaps.mCanAddManagedProfile) {
             mUserListCategory.setTitle(R.string.user_list_title);
         } else {
             mUserListCategory.setTitle(null);
@@ -1057,7 +1101,7 @@ public class UserSettings extends SettingsPreferenceFragment
         } else if (pref == mAddUser) {
             // If we allow both types, show a picker, otherwise directly go to
             // flow for full user.
-            if (mUserCaps.mCanAddRestrictedProfile) {
+            if (mUserCaps.mCanAddRestrictedProfile || mUserCaps.mCanAddManagedProfile) {
                 showDialog(DIALOG_CHOOSE_USER_TYPE);
             } else {
                 onAddUserClicked(USER_TYPE_USER);
