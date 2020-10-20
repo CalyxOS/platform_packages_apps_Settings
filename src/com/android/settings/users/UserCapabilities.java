@@ -31,6 +31,7 @@ public class UserCapabilities {
     boolean mEnabled = true;
     boolean mCanAddUser = true;
     boolean mCanAddRestrictedProfile = true;
+    boolean mCanAddManagedProfile = true;
     boolean mIsAdmin;
     boolean mIsGuest;
     boolean mUserSwitcherEnabled;
@@ -112,6 +113,7 @@ public class UserCapabilities {
                 "mEnabled=" + mEnabled +
                 ", mCanAddUser=" + mCanAddUser +
                 ", mCanAddRestrictedProfile=" + mCanAddRestrictedProfile +
+                ", mCanAddManagedProfile=" + mCanAddManagedProfile +
                 ", mIsAdmin=" + mIsAdmin +
                 ", mIsGuest=" + mIsGuest +
                 ", mCanAddGuest=" + mCanAddGuest +
