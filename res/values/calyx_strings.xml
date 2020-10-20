@@ -14,5 +14,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button text for adding a managed profile [CHAR LIMIT=25] -->
+    <string name="user_add_managed_profile_item_title">Work profile</string>
+    <!-- Summary for add managed profile entry in the choice dialog [CHAR LIMIT=none] -->
+    <string name="user_add_managed_profile_item_summary">Work profiles share the launcher, notifications, and recent tasks with the user</string>
 </resources>
