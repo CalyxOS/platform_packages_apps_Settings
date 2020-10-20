@@ -12147,4 +12147,9 @@
     <string name="media_controls_no_players">No players available</string>
     <!-- Keywords for the media controls setting [CHAR LIMIT=NONE]-->
     <string name="keywords_media_controls">media</string>
+
+    <!-- Button text for adding a managed profile [CHAR LIMIT=25] -->
+    <string name="user_add_managed_profile_item_title">Managed profile</string>
+    <!-- Summary for add managed profile entry in the choice dialog [CHAR LIMIT=none] -->
+    <string name="user_add_managed_profile_item_summary">Managed profiles share the launcher, notifications, and recent tasks with the user</string>
 </resources>
