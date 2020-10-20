@@ -131,7 +131,10 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 return true;
             }
         } else if (preference == mSwitchUserPref) {
-            if (canSwitchUserNow()) {
+            if (mUserInfo.isManagedProfile()) {
+                startUser();
+                return true;
+            } else if (canSwitchUserNow()) {
                 if (shouldShowSetupPromptDialog()) {
                     showDialog(DIALOG_SETUP_USER);
                 } else {
@@ -254,6 +257,10 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             mSwitchUserPref.setOnPreferenceClickListener(this);
         }
 
+        if (mUserInfo.isManagedProfile() && mUserManager.isUserRunning(userId)) {
+            removePreference(KEY_SWITCH_USER);
+        }
+
         if (!mUserManager.isAdminUser()) { // non admin users can't remove users and allow calls
             removePreference(KEY_ENABLE_TELEPHONY);
             removePreference(KEY_REMOVE_USER);
@@ -263,7 +270,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 removePreference(KEY_ENABLE_TELEPHONY);
             }
 
-            if (mUserInfo.isRestricted()) {
+            if (mUserInfo.isRestricted() || mUserInfo.isManagedProfile()) {
                 removePreference(KEY_ENABLE_TELEPHONY);
                 if (isNewUser) {
                     // for newly created restricted users we should open the apps and content access
@@ -340,6 +347,16 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             ActivityManager.getService().switchUser(mUserInfo.id);
         } catch (RemoteException re) {
             Log.e(TAG, "Error while switching to other user.");
+        } finally {
+            finishFragment();
+        }
+    }
+
+    void startUser() {
+        try {
+            ActivityManager.getService().startUserInBackground(mUserInfo.id);
+        } catch (RemoteException e) {
+            Log.e(TAG, "Error while starting user.");
         } finally {
             finishFragment();
         }
