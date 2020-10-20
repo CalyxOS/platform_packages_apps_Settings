@@ -52,4 +52,8 @@
     <string name="bluetooth_timeout_summary_4hours">4 hours</string>
     <string name="bluetooth_timeout_summary_8hours">8 hours</string>
 
+    <!-- Button text for adding a managed profile [CHAR LIMIT=25] -->
+    <string name="user_add_managed_profile_item_title">Managed profile</string>
+    <!-- Summary for add managed profile entry in the choice dialog [CHAR LIMIT=none] -->
+    <string name="user_add_managed_profile_item_summary">Managed profiles share the launcher, notifications, and recent tasks with the user</string>
 </resources>
