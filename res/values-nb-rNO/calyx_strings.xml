@@ -9,4 +9,5 @@
     <string name="deny_new_usb_enabled">Nekt nye USB-enheter</string>
     <string name="deny_new_usb_summary">Kontroller støtte for USB-enheter som hodetelefoner, lagrings- og inndataenheter (mus, tastatur, styrespaker)</string>
     <string name="deny_new_usb_title">Begrens USB</string>
+    <string name="vendor_security_patch">Sikkerhetsfiks-nivå fra tilbyder</string>
 </resources>

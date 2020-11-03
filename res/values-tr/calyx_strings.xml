@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="vendor_security_patch">Satıcı güvenlik yaması seviyesi</string>
+    <string name="deny_new_usb_disabled">Her zaman yeni USB aygıtlarına izin ver</string>
+    <string name="deny_new_usb_dynamic">Kilit açıldığında yeni USB aygıtlarına izin ver</string>
+    <string name="deny_new_usb_enabled">Yeni USB aygıtlarını reddet</string>
+    <string name="deny_new_usb_summary">Kulaklıklar, depolama aygıtları ve girişler (fareler, klavyeler, oyun çubukları) gibi USB aygıtları için destekleme seçeneklerini denetleyin</string>
+    <string name="deny_new_usb_title">USB\'yi kısıtla</string>
+    <string name="panic_settings_summary">Acil durum panik tetikleyicisini etkinleştiren güç düğmesi seçeneğini görüntüleyin.</string>
+    <string name="panic_settings_title">Panik seçeneğini göster</string>
+    <string name="suggestion_button_close">Kapat</string>
+    <string name="calyxos_version">CalyxOS Sürümü</string>
+</resources>

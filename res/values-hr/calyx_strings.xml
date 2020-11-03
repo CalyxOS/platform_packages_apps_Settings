@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="vendor_security_patch">Razina sigurnosne zakrpe proizvođača</string>
+    <string name="deny_new_usb_disabled">Uvijek dozvoli nove USB uređaje</string>
+    <string name="deny_new_usb_dynamic">Dozvoli nove USB uređaje kad su otključani</string>
+    <string name="deny_new_usb_enabled">Odbij nove USB uređaje</string>
+    <string name="deny_new_usb_summary">Upravljaj podrškom za USB uređaje poput slušalica, uređaja za spremanje i unos podataka (miš, tipkovnica, joystick)</string>
+    <string name="deny_new_usb_title">Ograniči USB</string>
+    <string name="panic_settings_summary">Prikaži opciju gumba za napajanje koja aktivira gumb panike za hitne slučajeve.</string>
+    <string name="panic_settings_title">Prikaži opciju panike</string>
+    <string name="suggestion_button_close">Zatvori</string>
+    <string name="calyxos_version">CalyxOS verzija</string>
+</resources>

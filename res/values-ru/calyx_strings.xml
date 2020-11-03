@@ -10,4 +10,5 @@
     <string name="deny_new_usb_title">Ограничить USB</string>
     <string name="panic_settings_summary">Отображение опции кнопки питания, которая активирует аварийный триггер паники.</string>
     <string name="panic_settings_title">Показать опцию \"Паника\"</string>
+    <string name="vendor_security_patch">Уровень исправления безопасности поставщика</string>
 </resources>
