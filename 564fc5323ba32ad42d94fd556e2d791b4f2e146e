@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "aa998197_223c98f7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-11-10T20:53:36Z",
+      "side": 1,
+      "message": "Let\u0027s get this done this time.",
+      "revId": "564fc5323ba32ad42d94fd556e2d791b4f2e146e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
