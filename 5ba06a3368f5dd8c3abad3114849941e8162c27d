@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4176956_ff199fe2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-06T23:10:57Z",
+      "side": 1,
+      "message": "Should mention the changes you did here, Oliver.",
+      "revId": "5ba06a3368f5dd8c3abad3114849941e8162c27d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
