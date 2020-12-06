@@ -20,6 +20,7 @@ import static android.net.ConnectivityManager.TETHERING_BLUETOOTH;
 import static android.net.ConnectivityManager.TETHERING_USB;
 import static android.net.TetheringManager.TETHERING_ETHERNET;
 
+
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.bluetooth.BluetoothAdapter;
@@ -48,6 +49,7 @@ import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.FeatureFlags;
+import com.android.settings.dashboard.RestrictedDashboardFragment;
 import com.android.settings.datausage.DataSaverBackend;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.wifi.tether.WifiTetherPreferenceController;
@@ -64,7 +66,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * Displays preferences for Tethering.
  */
 @SearchIndexable
-public class TetherSettings extends RestrictedSettingsFragment
+public class TetherSettings extends RestrictedDashboardFragment
         implements DataSaverBackend.Listener {
 
     @VisibleForTesting
@@ -116,6 +118,16 @@ public class TetherSettings extends RestrictedSettingsFragment
     private Preference mDataSaverFooter;
 
     @Override
+    protected String getLogTag() {
+        return TetherSettings.class.getSimpleName();
+    }
+
+    @Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.tether_prefs;
+    }
+
+    @Override
     public int getMetricsCategory() {
         return SettingsEnums.TETHER;
     }
@@ -135,7 +147,6 @@ public class TetherSettings extends RestrictedSettingsFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.tether_prefs);
         mDataSaverBackend = new DataSaverBackend(getContext());
         mDataSaverEnabled = mDataSaverBackend.isDataSaverEnabled();
         mDataSaverFooter = findPreference(KEY_DATA_SAVER_FOOTER);
@@ -222,7 +233,7 @@ public class TetherSettings extends RestrictedSettingsFragment
     }
 
     @Override
-    public void onBlacklistStatusChanged(int uid, boolean isBlacklisted)  {
+    public void onBlacklistStatusChanged(int uid, boolean isBlacklisted) {
     }
 
     @VisibleForTesting
@@ -356,14 +367,14 @@ public class TetherSettings extends RestrictedSettingsFragment
     }
 
     private void updateState(String[] available, String[] tethered,
-            String[] errored) {
+                             String[] errored) {
         updateUsbState(available, tethered, errored);
         updateBluetoothState();
         updateEthernetState(available, tethered);
     }
 
     private void updateUsbState(String[] available, String[] tethered,
-            String[] errored) {
+                                String[] errored) {
         boolean usbAvailable = mUsbConnected && !mMassStorageActive;
         int usbError = ConnectivityManager.TETHER_ERROR_NO_ERROR;
         for (String s : available) {
@@ -382,7 +393,7 @@ public class TetherSettings extends RestrictedSettingsFragment
             }
         }
         boolean usbErrored = false;
-        for (String s: errored) {
+        for (String s : errored) {
             for (String regex : mUsbRegexs) {
                 if (s.matches(regex)) usbErrored = true;
             }
@@ -495,13 +506,14 @@ public class TetherSettings extends RestrictedSettingsFragment
 
     private BluetoothProfile.ServiceListener mProfileServiceListener =
             new BluetoothProfile.ServiceListener() {
-        public void onServiceConnected(int profile, BluetoothProfile proxy) {
-            mBluetoothPan.set((BluetoothPan) proxy);
-        }
-        public void onServiceDisconnected(int profile) {
-            mBluetoothPan.set(null);
-        }
-    };
+                public void onServiceConnected(int profile, BluetoothProfile proxy) {
+                    mBluetoothPan.set((BluetoothPan) proxy);
+                }
+
+                public void onServiceDisconnected(int profile) {
+                    mBluetoothPan.set(null);
+                }
+            };
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider() {
@@ -549,7 +561,7 @@ public class TetherSettings extends RestrictedSettingsFragment
                     }
                     return keys;
                 }
-    };
+            };
 
     private static final class OnStartTetheringCallback extends
             ConnectivityManager.OnStartTetheringCallback {
