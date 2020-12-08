@@ -20,13 +20,13 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="security_dashboard_page"
     android:title="@string/security_settings_title"
-    settings:initialExpandedChildrenCount="9">
+    settings:initialExpandedChildrenCount="10">
 
-    <!-- security_settings_status.xml -->
-    <PreferenceCategory
-        android:order="-10"
-        android:key="security_status"
-        android:title="@string/security_status_title" />
+    <SwitchPreference
+        android:key="security_setting_panic_enabled"
+        android:title="@string/panic_settings_title"
+        android:summary="@string/panic_settings_summary"
+        settings:controller="com.android.settings.security.PanicButtonPreferenceController" />
 
     <PreferenceCategory
         android:order="1"
@@ -55,6 +55,15 @@
             android:title="@string/security_settings_face_preference_title"
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_face_settings" />
+
+        <ListPreference
+            android:key="deny_new_usb"
+            android:title="@string/deny_new_usb_title"
+            android:summary="@string/deny_new_usb_summary"
+            android:persistent="false"
+            android:entries="@array/deny_new_usb_entries"
+            android:entryValues="@array/deny_new_usb_values" />
+
     </PreferenceCategory>
 
     <!-- work profile security section -->
