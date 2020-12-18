@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="panic_settings_summary">Prikažite opciju dugmeta za napajanje koja aktivira okidač za paniku u hitnim slučajevima.</string>
+    <string name="vendor_security_patch">Nivo bezbednosne zakrpe dobavljača</string>
+    <string name="deny_new_usb_disabled">Dozvoli uvek nove USB gadžete</string>
+    <string name="deny_new_usb_dynamic">Dozvoli nove USB gadžete kada je uređaj otključan</string>
+    <string name="deny_new_usb_enabled">Odbij nove USB gadžete</string>
+    <string name="deny_new_usb_summary">Kontroliši podršku za USB gadžete kao što su slušalice, uređaji za skladištenje i ulaz (miševi, tastature, džojstici)</string>
+    <string name="deny_new_usb_title">Ograniči USB</string>
+    <string name="panic_settings_title">Prikaži opciju panike</string>
+    <string name="suggestion_button_close">Zatvori</string>
+    <string name="calyxos_version">CalyxOS verzija</string>
+</resources>

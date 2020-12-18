@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="deny_new_usb_enabled">Tolak gadget USB baru</string>
+    <string name="panic_settings_summary">Tampilkan opsi tombol daya yang mengaktifkan pemicu panik darurat.</string>
+    <string name="vendor_security_patch">Tingkat patch keamanan vendor</string>
+    <string name="deny_new_usb_disabled">Izinkan selalu gadget USB baru</string>
+    <string name="deny_new_usb_dynamic">Izinkan gadget USB baru saat tidak terkunci</string>
+    <string name="deny_new_usb_summary">Kontrol dukungan untuk gadget USB seperti earphone, perangkat penyimpanan dan input (mouse, keyboard, joystick)</string>
+    <string name="deny_new_usb_title">Batasi USB</string>
+    <string name="panic_settings_title">Tampilkan opsi Panik</string>
+    <string name="suggestion_button_close">Tutup</string>
+    <string name="calyxos_version">Versi CalyxOS</string>
+</resources>
