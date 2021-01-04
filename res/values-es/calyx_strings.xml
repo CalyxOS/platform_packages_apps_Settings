@@ -8,6 +8,5 @@
     <string name="deny_new_usb_disabled">Permitir siempre nuevos gadgets USB</string>
     <string name="deny_new_usb_dynamic">Permitir nuevos gadgets USB cuando esté desbloqueado</string>
     <string name="deny_new_usb_enabled">Denegar nuevos gadgets USB</string>
-    <string name="suggestion_button_close">Cerrar</string>
     <string name="vendor_security_patch">Nivel de parche de seguridad del proveedor</string>
 </resources>

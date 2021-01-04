@@ -7,6 +7,5 @@
     <string name="deny_new_usb_title">Hamla USB</string>
     <string name="panic_settings_summary">Sýna ræsihnappsmöguleika sem virkjar neyðarviðbragð</string>
     <string name="panic_settings_title">Sýna neyðarvalkost</string>
-    <string name="suggestion_button_close">Loka</string>
     <string name="calyxos_version">CalyxOS útgáfa</string>
 </resources>

@@ -8,6 +8,5 @@
     <string name="deny_new_usb_title">הגבלת USB</string>
     <string name="panic_settings_summary">הצגת אפשרויות בכפתור הכיבוי שמפעילה את לחצן המצוקה בחירום.</string>
     <string name="panic_settings_title">הצגת אפשרויות מצוקה</string>
-    <string name="suggestion_button_close">סגירה</string>
     <string name="calyxos_version">גרסת CalyxOS</string>
 </resources>

@@ -8,6 +8,5 @@
     <string name="deny_new_usb_summary">Kontrol dukungan untuk gadget USB seperti earphone, perangkat penyimpanan dan input (mouse, keyboard, joystick)</string>
     <string name="deny_new_usb_title">Batasi USB</string>
     <string name="panic_settings_title">Tampilkan opsi Panik</string>
-    <string name="suggestion_button_close">Tutup</string>
     <string name="calyxos_version">Versi CalyxOS</string>
 </resources>

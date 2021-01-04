@@ -8,6 +8,5 @@
     <string name="deny_new_usb_title">Restringir USB</string>
     <string name="panic_settings_summary">Exibir a opção do botão liga/desliga que ativa um gatilho de pânico de emergência.</string>
     <string name="panic_settings_title">Mostrar opção de pânico</string>
-    <string name="suggestion_button_close">Fechar</string>
     <string name="calyxos_version">Versão do CalyxOS</string>
 </resources>

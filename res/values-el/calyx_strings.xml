@@ -2,7 +2,6 @@
 <resources>
     <string name="panic_settings_title">Εμφάνιση επιλογής Πανικού</string>
     <string name="panic_settings_summary">Εμφάνιση επιλογής κουμπιού λειτουργίας που ενεργοποιεί μια ενέργεια πανικού έκτακτης ανάγκης.</string>
-    <string name="suggestion_button_close">Κλείσιμο</string>
     <string name="calyxos_version">Έκδοση CalyxOS</string>
     <string name="vendor_security_patch">Επίπεδο ενημέρωσης κώδικα ασφαλείας κατασκευαστή</string>
     <string name="deny_new_usb_enabled">Να μην επιτρέπονται νέες συσκευές USB</string>

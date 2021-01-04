@@ -9,5 +9,4 @@
     <string name="deny_new_usb_summary">控制对 USB 设备的支持，如耳机、储存设备和输入设备（鼠标、键盘和手柄）</string>
     <string name="panic_settings_summary">显示电源按钮选项，触发警报机制。</string>
     <string name="vendor_security_patch">厂商安全补丁级别</string>
-    <string name="suggestion_button_close">关闭</string>
 </resources>

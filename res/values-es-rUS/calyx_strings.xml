@@ -5,6 +5,5 @@
     <string name="deny_new_usb_enabled">Negar nuevos dispositivos USB</string>
     <string name="deny_new_usb_title">Restringir USB</string>
     <string name="panic_settings_title">Mostrar opción de Pánico</string>
-    <string name="suggestion_button_close">Cerrar</string>
     <string name="calyxos_version">Versión de CalyxOS</string>
 </resources>

@@ -8,6 +8,5 @@
     <string name="deny_new_usb_title">USB\'yi kısıtla</string>
     <string name="panic_settings_summary">Acil durum panik tetikleyicisini etkinleştiren güç düğmesi seçeneğini görüntüleyin.</string>
     <string name="panic_settings_title">Panik seçeneğini göster</string>
-    <string name="suggestion_button_close">Kapat</string>
     <string name="calyxos_version">CalyxOS Sürümü</string>
 </resources>

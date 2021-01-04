@@ -8,6 +8,5 @@
     <string name="deny_new_usb_title">محدود کردن USB</string>
     <string name="panic_settings_summary">گزینه دکمه روشن/خاموش را نشان دهید که باعث ایجاد اضطراب می شود.</string>
     <string name="panic_settings_title">نمایش گزینه مشکوک</string>
-    <string name="suggestion_button_close">بستن</string>
     <string name="calyxos_version">نسخه کالیکس او اس (CalyxOS)</string>
 </resources>

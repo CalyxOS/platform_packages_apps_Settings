@@ -8,6 +8,5 @@
     <string name="deny_new_usb_title">Limita nuovi dispositivi USB</string>
     <string name="panic_settings_summary">Visualizza l\'opzione nel menu di spegimento che genera un panic d\'emergenza.</string>
     <string name="panic_settings_title">Mostra l\'opzione Panic</string>
-    <string name="suggestion_button_close">Chiudi</string>
     <string name="calyxos_version">Versione di CalyxOS</string>
 </resources>

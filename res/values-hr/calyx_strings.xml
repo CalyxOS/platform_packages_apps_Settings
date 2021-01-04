@@ -8,6 +8,5 @@
     <string name="deny_new_usb_title">Ograniči USB</string>
     <string name="panic_settings_summary">Prikaži opciju gumba za napajanje koja aktivira gumb panike za hitne slučajeve.</string>
     <string name="panic_settings_title">Prikaži opciju panike</string>
-    <string name="suggestion_button_close">Zatvori</string>
     <string name="calyxos_version">CalyxOS verzija</string>
 </resources>

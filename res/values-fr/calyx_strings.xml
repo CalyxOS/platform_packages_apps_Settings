@@ -2,7 +2,6 @@
 <resources>
     <string name="panic_settings_summary">Afficher l’option du bouton d’alimentation qui active un bouton d’urgence.</string>
     <string name="panic_settings_title">Afficher l’option Urgence</string>
-    <string name="suggestion_button_close">Fermer</string>
     <string name="calyxos_version">Version de CalyxOS</string>
     <string name="deny_new_usb_disabled">Toujours autoriser les nouveaux gadgets USB</string>
     <string name="deny_new_usb_dynamic">Autoriser les nouveaux gadgets USB quand ils sont déverrouillés</string>

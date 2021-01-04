@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="suggestion_button_close">Stäng</string>
     <string name="calyxos_version">CalyxOS Version</string>
 </resources>

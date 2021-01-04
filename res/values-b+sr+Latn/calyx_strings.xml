@@ -8,6 +8,5 @@
     <string name="deny_new_usb_summary">Kontroliši podršku za USB gadžete kao što su slušalice, uređaji za skladištenje i ulaz (miševi, tastature, džojstici)</string>
     <string name="deny_new_usb_title">Ograniči USB</string>
     <string name="panic_settings_title">Prikaži opciju panike</string>
-    <string name="suggestion_button_close">Zatvori</string>
     <string name="calyxos_version">CalyxOS verzija</string>
 </resources>

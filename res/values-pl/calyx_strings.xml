@@ -3,6 +3,5 @@
     <string name="vendor_security_patch">Poziom poprawek bezpieczeństwa dostawcy</string>
     <string name="deny_new_usb_disabled">Zawsze zezwalaj na nowe gadżety USB</string>
     <string name="deny_new_usb_dynamic">Zezwalaj na nowe gadżety USB po odblokowaniu</string>
-    <string name="suggestion_button_close">Zamknij</string>
     <string name="calyxos_version">Wersja CalyxOS</string>
 </resources>

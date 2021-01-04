@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="panic_settings_title">Panik-Optionen anzeigen</string>
-    <string name="suggestion_button_close">Schließen</string>
     <string name="panic_settings_summary">Anzeige der Ein-/Ausschalttastenoption, die einen Notfall-Panikauslöser aktiviert.</string>
     <string name="deny_new_usb_summary">Unterstützung für USB-Gadgets wie Kopfhörer, Speichergeräte und Eingabegeräte (Mäuse, Tastaturen, Joysticks) kontrollieren</string>
     <string name="vendor_security_patch">Hersteller-Sicherheitspatch-Level</string>

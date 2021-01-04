@@ -2,7 +2,6 @@
 <resources>
     <string name="panic_settings_summary">Vis av/på-knapp som aktiverer panikkforetagende i nødsfall.</string>
     <string name="panic_settings_title">Vis panikk-alternativ</string>
-    <string name="suggestion_button_close">Lukk</string>
     <string name="calyxos_version">CalyxOS-versjon</string>
     <string name="deny_new_usb_disabled">Alltid tillat nye USB-enheter</string>
     <string name="deny_new_usb_dynamic">Tillat nye USB-enheter når opplåst</string>
