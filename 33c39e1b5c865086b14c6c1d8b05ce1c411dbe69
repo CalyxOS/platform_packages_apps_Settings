@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "442a28f3_55fd6c84",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-29T19:53:55Z",
+      "side": 1,
+      "message": "Lots to write here.\nThings to mention\n* Only does TLS traffic detection, which means\n* Most VPNs won\u0027t work\n* Tor won\u0027t work by default\n* Needs Private DNS properly configured (either set to Cloudflare DNS, or add another hostname)",
+      "revId": "33c39e1b5c865086b14c6c1d8b05ce1c411dbe69",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
