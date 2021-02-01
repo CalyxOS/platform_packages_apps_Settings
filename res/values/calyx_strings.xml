@@ -75,4 +75,9 @@
     <string name="user_add_managed_profile_item_title">Work profile</string>
     <!-- Summary for add managed profile entry in the choice dialog [CHAR LIMIT=none] -->
     <string name="user_add_managed_profile_item_summary">Work profiles share the launcher, notifications, and recent tasks with the user</string>
+
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Background network access</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Enable network usage in the background</string>
 </resources>
