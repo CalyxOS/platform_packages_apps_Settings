@@ -52,4 +52,9 @@
     <string name="bluetooth_timeout_summary_4hours">4 hours</string>
     <string name="bluetooth_timeout_summary_8hours">8 hours</string>
 
+    <!-- Checkbox label that restricts background internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background">Background internet access</string>
+    <!-- Summary message for checkbox that restricts background internet access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_summary">Enable usage of internet in the background</string>
+
 </resources>
