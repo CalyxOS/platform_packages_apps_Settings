@@ -72,8 +72,8 @@
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="restrict_background"
-            android:title="@string/data_usage_app_restrict_background"
-            android:summary="@string/data_usage_app_restrict_background_summary"
+            android:title="@string/data_usage_app_restrict_background_all"
+            android:summary="@string/data_usage_app_restrict_background_all_summary"
             settings:useAdditionalSummary="true"
             settings:restrictedSwitchSummary="@string/disabled_by_admin" />
 
