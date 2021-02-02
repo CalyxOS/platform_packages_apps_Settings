@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e9258c67_c4377815",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-02-02T10:23:04Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "13ffe8f5_aed437a7",
+      "range": {
+        "startLine": 56,
+        "startChar": 69,
+        "endLine": 56,
+        "endChar": 84
+      },
+      "revId": "b1a175d75360e889347c83c110b2a2877b691498",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1fcb8741_6fa00d47",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 2
@@ -42,6 +66,47 @@
         "endLine": 58,
         "endChar": 90
       },
+      "revId": "b1a175d75360e889347c83c110b2a2877b691498",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dee15e28_34c29510",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-02-02T10:23:04Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "1fcb8741_6fa00d47",
+      "range": {
+        "startLine": 58,
+        "startChar": 82,
+        "endLine": 58,
+        "endChar": 90
+      },
+      "revId": "b1a175d75360e889347c83c110b2a2877b691498",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "01652167_1eb65339",
+        "filename": "res/xml/app_data_usage.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-02-02T10:23:04Z",
+      "side": 1,
+      "message": "At that point we can also move the preference here, to be below the \"Enable network access\" toggle.",
       "revId": "b1a175d75360e889347c83c110b2a2877b691498",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
