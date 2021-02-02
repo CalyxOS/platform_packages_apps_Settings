@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "13ffe8f5_aed437a7",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-02-02T01:21:48Z",
+      "side": 1,
+      "message": "doesn\u0027t it restrict more than internet? would network access be more appropriate?",
+      "range": {
+        "startLine": 56,
+        "startChar": 69,
+        "endLine": 56,
+        "endChar": 84
+      },
+      "revId": "b1a175d75360e889347c83c110b2a2877b691498",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1fcb8741_6fa00d47",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-02-02T01:21:48Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 58,
+        "startChar": 82,
+        "endLine": 58,
+        "endChar": 90
+      },
+      "revId": "b1a175d75360e889347c83c110b2a2877b691498",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
