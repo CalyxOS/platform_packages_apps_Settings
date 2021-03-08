@@ -21,6 +21,7 @@ import android.net.ConnectivityManager;
 import android.net.LinkProperties;
 import android.net.Network;
 import android.os.StrictMode;
+import android.os.SystemProperties;
 import android.provider.Settings;
 
 import com.android.settings.core.TogglePreferenceController;
@@ -52,6 +53,7 @@ public class CleartextNetworkPolicyPreferenceController extends TogglePreference
 
     @Override
     public boolean setChecked(boolean isChecked) {
+        SystemProperties.set(StrictMode.CLEARTEXT_PROPERTY, Boolean.toString(isChecked));
         return Settings.Global.putInt(mContext.getContentResolver(),
                 Settings.Global.CLEARTEXT_NETWORK_POLICY, isChecked ? StrictMode.NETWORK_POLICY_REJECT : StrictMode.NETWORK_POLICY_ACCEPT);
     }
