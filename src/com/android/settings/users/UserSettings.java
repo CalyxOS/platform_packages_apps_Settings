@@ -478,14 +478,7 @@ public class UserSettings extends SettingsPreferenceFragment
     private void onUserCreated(int userId) {
         mAddingUser = false;
         UserInfo userInfo = mUserManager.getUserInfo(userId);
-        if (!UserManager.USER_TYPE_PROFILE_MANAGED.equals(userInfo.userType))
-            openUserDetails(userInfo, true);
-        else
-            try {
-                ActivityManager.getService().startUserInBackground(userId);
-            } catch (RemoteException e) {
-                Log.w(TAG, e);
-            }
+        openUserDetails(userInfo, true);
     }
 
     private void openUserDetails(UserInfo userInfo, boolean newUser) {
@@ -857,11 +850,6 @@ public class UserSettings extends SettingsPreferenceFragment
         boolean canOpenUserDetails =
                 mUserCaps.mIsAdmin || (canSwitchUserNow() && !mUserCaps.mDisallowSwitchUser);
         for (UserInfo user : users) {
-            if (!user.supportsSwitchToByUser()) {
-                // Only users that can be switched to should show up here.
-                // e.g. Managed profiles appear under Accounts Settings instead
-                continue;
-            }
             UserPreference pref;
             if (user.id == UserHandle.myUserId()) {
                 pref = mMePreference;
