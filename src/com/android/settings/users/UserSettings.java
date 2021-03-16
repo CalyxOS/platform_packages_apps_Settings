@@ -16,8 +16,6 @@
 
 package com.android.settings.users;
 
-import static android.os.Process.myUserHandle;
-
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.Dialog;
@@ -74,7 +72,6 @@ import com.android.settingslib.RestrictedPreference;
 import com.android.settingslib.drawable.CircleFramedDrawable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.utils.ThreadUtils;
-
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import java.io.IOException;
@@ -84,6 +81,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
+
+import static android.os.Process.myUserHandle;
 
 /**
  * Screen that manages the list of users on the device.
@@ -478,14 +477,7 @@ public class UserSettings extends SettingsPreferenceFragment
     private void onUserCreated(int userId) {
         mAddingUser = false;
         UserInfo userInfo = mUserManager.getUserInfo(userId);
-        if (!UserManager.USER_TYPE_PROFILE_MANAGED.equals(userInfo.userType))
-            openUserDetails(userInfo, true);
-        else
-            try {
-                ActivityManager.getService().startUserInBackground(userId);
-            } catch (RemoteException e) {
-                Log.w(TAG, e);
-            }
+        openUserDetails(userInfo, true);
     }
 
     private void openUserDetails(UserInfo userInfo, boolean newUser) {
@@ -857,11 +849,6 @@ public class UserSettings extends SettingsPreferenceFragment
         boolean canOpenUserDetails =
                 mUserCaps.mIsAdmin || (canSwitchUserNow() && !mUserCaps.mDisallowSwitchUser);
         for (UserInfo user : users) {
-            if (!user.supportsSwitchToByUser()) {
-                // Only users that can be switched to should show up here.
-                // e.g. Managed profiles appear under Accounts Settings instead
-                continue;
-            }
             UserPreference pref;
             if (user.id == UserHandle.myUserId()) {
                 pref = mMePreference;
