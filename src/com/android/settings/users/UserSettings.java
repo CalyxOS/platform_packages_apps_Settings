@@ -146,6 +146,9 @@ public class UserSettings extends SettingsPreferenceFragment
     private static final String KEY_TITLE = "title";
     private static final String KEY_SUMMARY = "summary";
 
+    // Must match ManagedProvisioning's ProvisioningParams.TAG_IS_UNMANAGED_PROVISIONING
+    private static final String TAG_IS_UNMANAGED_PROVISIONING = "is-unmanaged-provisioning";
+
     static {
         USER_REMOVED_INTENT_FILTER = new IntentFilter(Intent.ACTION_USER_REMOVED);
         USER_REMOVED_INTENT_FILTER.addAction(Intent.ACTION_USER_INFO_CHANGED);
@@ -785,7 +788,7 @@ public class UserSettings extends SettingsPreferenceFragment
         ThreadUtils.postOnBackgroundThread(new Runnable() {
             @Override
             public void run() {
-                UserInfo user;
+                UserInfo user = null;
                 String username;
 
                 synchronized (mUserLock) {
@@ -796,32 +799,30 @@ public class UserSettings extends SettingsPreferenceFragment
                 if (userType == USER_TYPE_USER) {
                     user = mUserManager.createUser(username, 0);
                 } else if (userType == USER_TYPE_MANAGED_PROFILE) {
-                    final List<ResolveInfo> resolveInfos =
-                            getContext().getPackageManager().queryIntentActivitiesAsUser(
-                                    new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER),
-                                    PackageManager.MATCH_UNINSTALLED_PACKAGES
-                                            | PackageManager.MATCH_DISABLED_COMPONENTS
-                                            | PackageManager.MATCH_DIRECT_BOOT_AWARE
-                                            | PackageManager.MATCH_DIRECT_BOOT_UNAWARE,
-                                    UserHandle.myUserId());
-                    final Set<String> apps = new ArraySet<>();
-                    for (ResolveInfo resolveInfo : resolveInfos) {
-                        apps.add(resolveInfo.activityInfo.packageName);
-                    }
-                    user = mUserManager.createProfileForUser(username,
-                            UserManager.USER_TYPE_PROFILE_MANAGED, 0, UserHandle.myUserId(),
-                            apps.toArray(new String[0]));
-                    Intent intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
-                    intent.putExtra(Intent.EXTRA_USER, new UserHandle(user.id));
-                    intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
-                            Intent.FLAG_RECEIVER_FOREGROUND);
-                    getContext().sendBroadcastAsUser(intent,
-                            new UserHandle(mUserManager.getProfileParent(user.id).id));
-                    try {
-                        ActivityManager.getService().startUserInBackground(user.id);
-                    } catch (RemoteException e) {
-                        Log.w(TAG, e);
-                    }
+                    Intent intent = new Intent(DevicePolicyManager.ACTION_PROVISION_MANAGED_PROFILE);
+                    intent.putExtra(TAG_IS_UNMANAGED_PROVISIONING, true);
+                    startActivityForResult(intent, 0);
+                    IntentFilter intentFilter = new IntentFilter();
+                    intentFilter.addAction(DevicePolicyManager.ACTION_MANAGED_PROFILE_PROVISIONED);
+                    getContext().registerReceiver(new BroadcastReceiver() {
+                        @Override
+                        public void onReceive(Context context, Intent intent) {
+                            UserHandle user = intent.getParcelableExtra(Intent.EXTRA_USER);
+                            int userId = user.getIdentifier();
+                            mUserManager.setUserName(userId, username);
+                            mUserManager.setUserEnabled(userId);
+                            intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
+                            intent.putExtra(Intent.EXTRA_USER, user);
+                            intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
+                                    Intent.FLAG_RECEIVER_FOREGROUND);
+                            context.sendBroadcastAsUser(intent,
+                                    new UserHandle(mUserManager.getProfileParent(userId).id));
+                            mHandler.sendMessage(mHandler.obtainMessage(
+                                    MESSAGE_USER_CREATED, userId,
+                                    mUserManager.getUserSerialNumber(userId)));
+                            context.unregisterReceiver(this);
+                        }
+                    }, intentFilter);
                 } else {
                     user = mUserManager.createRestrictedProfile(username);
                 }
