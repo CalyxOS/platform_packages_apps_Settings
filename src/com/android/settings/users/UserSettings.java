@@ -35,7 +35,9 @@ import android.content.pm.UserInfo;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.PorterDuffColorFilter;
 import android.graphics.drawable.Drawable;
+import android.media.AudioManager;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -785,7 +787,7 @@ public class UserSettings extends SettingsPreferenceFragment
         ThreadUtils.postOnBackgroundThread(new Runnable() {
             @Override
             public void run() {
-                UserInfo user;
+                UserInfo user = null;
                 String username;
 
                 synchronized (mUserLock) {
@@ -796,32 +798,32 @@ public class UserSettings extends SettingsPreferenceFragment
                 if (userType == USER_TYPE_USER) {
                     user = mUserManager.createUser(username, 0);
                 } else if (userType == USER_TYPE_MANAGED_PROFILE) {
-                    final List<ResolveInfo> resolveInfos =
-                            getContext().getPackageManager().queryIntentActivitiesAsUser(
-                                    new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER),
-                                    PackageManager.MATCH_UNINSTALLED_PACKAGES
-                                            | PackageManager.MATCH_DISABLED_COMPONENTS
-                                            | PackageManager.MATCH_DIRECT_BOOT_AWARE
-                                            | PackageManager.MATCH_DIRECT_BOOT_UNAWARE,
-                                    UserHandle.myUserId());
-                    final Set<String> apps = new ArraySet<>();
-                    for (ResolveInfo resolveInfo : resolveInfos) {
-                        apps.add(resolveInfo.activityInfo.packageName);
-                    }
-                    user = mUserManager.createProfileForUser(username,
-                            UserManager.USER_TYPE_PROFILE_MANAGED, 0, UserHandle.myUserId(),
-                            apps.toArray(new String[0]));
-                    Intent intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
-                    intent.putExtra(Intent.EXTRA_USER, new UserHandle(user.id));
-                    intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
-                            Intent.FLAG_RECEIVER_FOREGROUND);
-                    getContext().sendBroadcastAsUser(intent,
-                            new UserHandle(mUserManager.getProfileParent(user.id).id));
-                    try {
-                        ActivityManager.getService().startUserInBackground(user.id);
-                    } catch (RemoteException e) {
-                        Log.w(TAG, e);
-                    }
+                    PorterDuffColorFilter colorFilter = (PorterDuffColorFilter) mPendingUserIcon
+                            .getColorFilter();
+                    Intent intent = new Intent(DevicePolicyManager.ACTION_PROVISION_MANAGED_PROFILE)
+                            .putExtra(DevicePolicyManager.EXTRA_PROVISIONING_MAIN_COLOR,
+                                            colorFilter.getColor())
+                            .putExtra("provisioningUserName", username);
+                    startActivityForResult(intent, 0);
+                    IntentFilter intentFilter = new IntentFilter();
+                    intentFilter.addAction(DevicePolicyManager.ACTION_MANAGED_PROFILE_PROVISIONED);
+                    getContext().registerReceiver(new BroadcastReceiver() {
+                        @Override
+                        public void onReceive(Context context, Intent intent) {
+                            UserHandle user = intent.getParcelableExtra(Intent.EXTRA_USER);
+                            int userId = user.getIdentifier();
+                            mUserManager.setUserEnabled(user.getIdentifier());
+                            intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
+                            intent.putExtra(Intent.EXTRA_USER, new UserHandle(userId));
+                            intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
+                                    Intent.FLAG_RECEIVER_FOREGROUND);
+                            getContext().sendBroadcastAsUser(intent,
+                                    new UserHandle(mUserManager.getProfileParent(userId).id));
+                            mHandler.sendMessage(mHandler.obtainMessage(
+                                    MESSAGE_USER_CREATED, userId,
+                                    mUserManager.getUserSerialNumber(userId)));
+                        }
+                    }, intentFilter);
                 } else {
                     user = mUserManager.createRestrictedProfile(username);
                 }
