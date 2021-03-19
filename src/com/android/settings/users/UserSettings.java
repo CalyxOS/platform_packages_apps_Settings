@@ -785,7 +785,7 @@ public class UserSettings extends SettingsPreferenceFragment
         ThreadUtils.postOnBackgroundThread(new Runnable() {
             @Override
             public void run() {
-                UserInfo user;
+                UserInfo user = null;
                 String username;
 
                 synchronized (mUserLock) {
@@ -796,21 +796,7 @@ public class UserSettings extends SettingsPreferenceFragment
                 if (userType == USER_TYPE_USER) {
                     user = mUserManager.createUser(username, 0);
                 } else if (userType == USER_TYPE_MANAGED_PROFILE) {
-                    final List<ResolveInfo> resolveInfos =
-                            getContext().getPackageManager().queryIntentActivitiesAsUser(
-                                    new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER),
-                                    PackageManager.MATCH_UNINSTALLED_PACKAGES
-                                            | PackageManager.MATCH_DISABLED_COMPONENTS
-                                            | PackageManager.MATCH_DIRECT_BOOT_AWARE
-                                            | PackageManager.MATCH_DIRECT_BOOT_UNAWARE,
-                                    UserHandle.myUserId());
-                    final Set<String> apps = new ArraySet<>();
-                    for (ResolveInfo resolveInfo : resolveInfos) {
-                        apps.add(resolveInfo.activityInfo.packageName);
-                    }
-                    user = mUserManager.createProfileForUser(username,
-                            UserManager.USER_TYPE_PROFILE_MANAGED, 0, UserHandle.myUserId(),
-                            apps.toArray(new String[0]));
+                    startActivityForResult(new Intent(DevicePolicyManager.ACTION_PROVISION_MANAGED_PROFILE), 0);
                 } else {
                     user = mUserManager.createRestrictedProfile(username);
                 }
