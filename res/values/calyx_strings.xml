@@ -19,4 +19,8 @@
 
     <!-- About phone screen, status item label -->
     <string name="detailed_security_patch">Platform: <xliff:g id="platform_level">%1$s</xliff:g>\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>\nVendor: <xliff:g id="kernel_level">%3$s</xliff:g>\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 </resources>
