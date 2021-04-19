@@ -83,4 +83,8 @@
     <string name="user_add_managed_profile_item_title">Work profile</string>
     <!-- Summary for add managed profile entry in the choice dialog [CHAR LIMIT=none] -->
     <string name="user_add_managed_profile_item_summary">Work profiles share the launcher, notifications, and recent tasks with the user</string>
+
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 </resources>
