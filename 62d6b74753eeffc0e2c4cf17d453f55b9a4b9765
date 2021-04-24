@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "03b20233_540feedf",
+        "filename": "src/com/android/settings/development/CleartextNetworkPolicyPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-04-24T01:24:56Z",
+      "side": 1,
+      "message": "Why is this needed?",
+      "revId": "62d6b74753eeffc0e2c4cf17d453f55b9a4b9765",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
