@@ -16,6 +16,24 @@
       "revId": "62d6b74753eeffc0e2c4cf17d453f55b9a4b9765",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "58219e80_eb31e7f7",
+        "filename": "src/com/android/settings/development/CleartextNetworkPolicyPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-04-24T01:33:08Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/2702/8/core/java/android/os/StrictMode.java",
+      "parentUuid": "03b20233_540feedf",
+      "revId": "62d6b74753eeffc0e2c4cf17d453f55b9a4b9765",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
     }
   ]
 }
