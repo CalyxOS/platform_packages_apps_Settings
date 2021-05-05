@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "67afc70b_0f7dd942",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-05T11:59:03Z",
+      "side": 1,
+      "message": "Changed to work profile as that\u0027s what users are familiar with.\n\nDoesn\u0027t match the string name anymore but eh that\u0027s fine, didn\u0027t want to touch everything.",
+      "revId": "ba9dd93181da24d042900d69a4cbb7ec95eabbf0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    }
+  ]
+}
