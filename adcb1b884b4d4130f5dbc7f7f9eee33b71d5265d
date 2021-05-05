@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "88a786a1_a57d8938",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-05T12:06:21Z",
+      "side": 1,
+      "message": "Might not be the best language but still clearer than \u0027show\u0027 I\u0027d say.\n\nAlso now the string name doesn\u0027t match, but the setting / other variables seem fine, so I\"m not bothering touching this as well.",
+      "revId": "adcb1b884b4d4130f5dbc7f7f9eee33b71d5265d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    }
+  ]
+}
