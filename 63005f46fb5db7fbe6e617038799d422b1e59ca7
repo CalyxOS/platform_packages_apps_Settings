@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c15c6fe8_dd9a48f7",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-05T12:10:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3c3dd7db_853e0548",
+      "range": {
+        "startLine": 82,
+        "startChar": 4,
+        "endLine": 84,
+        "endChar": 103
+      },
+      "revId": "63005f46fb5db7fbe6e617038799d422b1e59ca7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "463f6937_6f1f1c9c",
         "filename": "res/xml/screen_lock_settings.xml",
         "patchSetId": 1
@@ -45,6 +69,30 @@
       "revId": "63005f46fb5db7fbe6e617038799d422b1e59ca7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce68b91b_2b1a846e",
+        "filename": "res/xml/screen_lock_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-05T12:10:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "463f6937_6f1f1c9c",
+      "range": {
+        "startLine": 51,
+        "startChar": 8,
+        "endLine": 53,
+        "endChar": 68
+      },
+      "revId": "63005f46fb5db7fbe6e617038799d422b1e59ca7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }
