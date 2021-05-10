@@ -22,6 +22,30 @@
       "revId": "d7bfb99179552de0c464132e7aa3a31205d7f40a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "281f6194_fb3583e2",
+        "filename": "src/com/android/settings/security/PanicButtonPreferenceController.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-10T20:57:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f2699313_afe499fa",
+      "range": {
+        "startLine": 45,
+        "startChar": 12,
+        "endLine": 45,
+        "endChar": 16
+      },
+      "revId": "d7bfb99179552de0c464132e7aa3a31205d7f40a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": false
     }
   ]
 }
