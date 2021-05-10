@@ -796,21 +796,13 @@ public class UserSettings extends SettingsPreferenceFragment
                 if (userType == USER_TYPE_USER) {
                     user = mUserManager.createUser(username, 0);
                 } else if (userType == USER_TYPE_MANAGED_PROFILE) {
-                    final List<ResolveInfo> resolveInfos =
-                            getContext().getPackageManager().queryIntentActivitiesAsUser(
-                                    new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER),
-                                    PackageManager.MATCH_UNINSTALLED_PACKAGES
-                                            | PackageManager.MATCH_DISABLED_COMPONENTS
-                                            | PackageManager.MATCH_DIRECT_BOOT_AWARE
-                                            | PackageManager.MATCH_DIRECT_BOOT_UNAWARE,
-                                    UserHandle.myUserId());
-                    final Set<String> apps = new ArraySet<>();
-                    for (ResolveInfo resolveInfo : resolveInfos) {
-                        apps.add(resolveInfo.activityInfo.packageName);
-                    }
+                    final Set<String> nonRequiredApps =
+                            getContext().getSystemService(DevicePolicyManager.class)
+                            .getDisallowedSystemApps(null, UserHandle.myUserId(),
+                                    DevicePolicyManager.ACTION_PROVISION_MANAGED_PROFILE);
                     user = mUserManager.createProfileForUser(username,
                             UserManager.USER_TYPE_PROFILE_MANAGED, 0, UserHandle.myUserId(),
-                            apps.toArray(new String[0]));
+                            nonRequiredApps.toArray(new String[nonRequiredApps.size()]));
                     Intent intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
                     intent.putExtra(Intent.EXTRA_USER, new UserHandle(user.id));
                     intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
