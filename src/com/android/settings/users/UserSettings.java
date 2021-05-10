@@ -324,6 +324,11 @@ public class UserSettings extends SettingsPreferenceFragment
 
         updateUI();
         mShouldUpdateUserList = false;
+
+        int userId = getIntent().getContentUserHint();
+        if (mUserManager.isManagedProfile(userId)) {
+            openUserDetails(mUserManager.getUserInfo(userId), true);
+        }
     }
 
     @Override
