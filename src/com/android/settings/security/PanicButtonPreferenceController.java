@@ -19,6 +19,7 @@ package com.android.settings.security;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.UserHandle;
 import android.provider.Settings;
 
@@ -40,7 +41,7 @@ public class PanicButtonPreferenceController extends TogglePreferenceController 
             Intent intent = new Intent();
             intent.setComponent(new ComponentName(panicPackage, panicPackage + PANIC_ACTIVITY));
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            if (mContext.getPackageManager().resolveActivity(intent, 0) != null) {
+            if (mContext.getPackageManager().resolveActivity(intent, PackageManager.MATCH_SYSTEM_ONLY) != null) {
                 return AVAILABLE;
             }
         }
