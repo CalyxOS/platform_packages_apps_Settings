@@ -26,8 +26,8 @@ import com.android.settings.core.TogglePreferenceController;
 
 public class PanicButtonPreferenceController extends TogglePreferenceController {
 
-    private static final String PANIC_PACKAGE = "info.guardianproject.ripple";
-    private static final String PANIC_ACTIVITY = "info.guardianproject.ripple.CountDownActivity";
+    private static final String PANIC_PACKAGE = "org.calyxos.ripple";
+    private static final String PANIC_ACTIVITY = "org.calyxos.ripple.CountDownActivity";
 
     public PanicButtonPreferenceController(Context context, String key) {
         super(context, key);
