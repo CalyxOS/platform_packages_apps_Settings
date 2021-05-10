@@ -379,8 +379,12 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 if (isNewUser) {
                     // for newly created restricted users we should open the apps and content access
                     // screen to initialize the default restrictions
-                    openAppAndContentAccessScreen(true);
+                    openAppAndContentAccessScreen(mUserInfo.isRestricted());
                 }
+            } else if (mUserInfo.isManagedProfile()) {
+                removePreference(KEY_ENABLE_TELEPHONY);
+                removePreference(KEY_SWITCH_USER);
+                openAppAndContentAccessScreen(false);
             } else {
                 removePreference(KEY_APP_AND_CONTENT_ACCESS);
             }
