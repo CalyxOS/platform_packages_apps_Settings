@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f2699313_afe499fa",
+        "filename": "src/com/android/settings/security/PanicButtonPreferenceController.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-05-10T17:52:42Z",
+      "side": 1,
+      "message": "Indentation should be 8 spaces (same for fw/base commit)",
+      "range": {
+        "startLine": 45,
+        "startChar": 12,
+        "endLine": 45,
+        "endChar": 16
+      },
+      "revId": "d7bfb99179552de0c464132e7aa3a31205d7f40a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
