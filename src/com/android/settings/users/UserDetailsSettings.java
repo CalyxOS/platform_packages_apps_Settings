@@ -384,7 +384,17 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             }
         }
 
-        if (!mUserManager.isAdminUser()) { // non admin users can't remove users and allow calls
+        final boolean isAdminUser = mUserManager.isAdminUser();
+        final boolean isFullUser = isAdminUser
+                || mUserManager.isUserOfType(UserManager.USER_TYPE_FULL_SECONDARY)
+                || mUserManager.isUserOfType(UserManager.USER_TYPE_FULL_SYSTEM);
+        if (isFullUser && mUserInfo.isManagedProfile()) {
+            removePreference(KEY_ENABLE_TELEPHONY);
+            removePreference(KEY_SWITCH_USER);
+            openAppAndContentAccessScreen(false);
+            finishFragment();
+        }
+        if (!isAdminUser) { // non admin users can't remove users and allow calls
             removePreference(KEY_ENABLE_TELEPHONY);
             removePreference(KEY_REMOVE_USER);
             removePreference(KEY_APP_AND_CONTENT_ACCESS);
