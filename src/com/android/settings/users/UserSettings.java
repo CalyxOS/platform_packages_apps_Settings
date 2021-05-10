@@ -324,6 +324,14 @@ public class UserSettings extends SettingsPreferenceFragment
 
         updateUI();
         mShouldUpdateUserList = false;
+
+        UserHandle userHandle = getIntent().getParcelableExtra(Intent.EXTRA_USER, UserHandle.class);
+        if (userHandle != null) {
+            int userId = userHandle.getIdentifier();
+            if (mUserManager.isManagedProfile(userId)) {
+                openUserDetails(mUserManager.getUserInfo(userId), true);
+            }
+        }
     }
 
     @Override
