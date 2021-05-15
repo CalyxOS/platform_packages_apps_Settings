@@ -22,6 +22,8 @@ import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
+import android.app.backup.BackupManager;
+import android.app.backup.IBackupManager;
 import android.app.settings.SettingsEnums;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -44,6 +46,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.provider.ContactsContract;
@@ -818,6 +821,14 @@ public class UserSettings extends SettingsPreferenceFragment
                             mHandler.sendMessage(mHandler.obtainMessage(
                                     MESSAGE_USER_CREATED, userId,
                                     mUserManager.getUserSerialNumber(userId)));
+                            try {
+                                IBackupManager.Stub.asInterface(
+                                        ServiceManager.getService(Context.BACKUP_SERVICE))
+                                        .setBackupServiceActive(userId, true);
+                            } catch (RemoteException e) {
+                                Log.e(TAG, "Failed to enable backup for user" + userId, e);
+                            }
+                            context.unregisterReceiver(this);
                         }
                     }, intentFilter);
                 } else {
