@@ -22,6 +22,7 @@ import android.app.ActivityManager;
 import android.app.Dialog;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.UserInfo;
 import android.os.Bundle;
 import android.os.RemoteException;
@@ -59,6 +60,11 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
     private static final String KEY_ENABLE_TELEPHONY = "enable_calling";
     private static final String KEY_REMOVE_USER = "remove_user";
     private static final String KEY_APP_AND_CONTENT_ACCESS = "app_and_content_access";
+    private static final String KEY_RESTORE_USER = "restore_user";
+
+    private static final String SEEDVAULT_PACKAGE = "com.stevesoltys.seedvault";
+    private static final String SEEDVAULT_RESTORE_INTENT = ".RESTORE_BACKUP";
+    private static final String SEEDVAULT_RESTORE_CLASS = ".restore.RestoreActivity";
 
     /** Integer extra containing the userId to manage */
     static final String EXTRA_USER_ID = "user_id";
@@ -78,6 +84,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
     Preference mAppAndContentAccessPref;
     @VisibleForTesting
     Preference mRemoveUserPref;
+    private Preference mRestoreUserPref;
 
     @VisibleForTesting
     UserInfo mUserInfo;
@@ -127,6 +134,12 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             }
         } else if (preference == mAppAndContentAccessPref) {
             openAppAndContentAccessScreen(false);
+            return true;
+        } else if (preference == mRestoreUserPref) {
+            Intent intent = new Intent(SEEDVAULT_PACKAGE + SEEDVAULT_RESTORE_INTENT);
+            intent.setClassName(SEEDVAULT_PACKAGE,
+                    SEEDVAULT_PACKAGE + SEEDVAULT_RESTORE_CLASS);
+            getContext().startActivityAsUser(intent, mUserInfo.getUserHandle());
             return true;
         }
         return false;
@@ -206,6 +219,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
         mPhonePref = findPreference(KEY_ENABLE_TELEPHONY);
         mRemoveUserPref = findPreference(KEY_REMOVE_USER);
         mAppAndContentAccessPref = findPreference(KEY_APP_AND_CONTENT_ACCESS);
+        mRestoreUserPref = findPreference(KEY_RESTORE_USER);
 
         mSwitchUserPref.setTitle(
                 context.getString(mUserInfo.isManagedProfile() ?
@@ -222,6 +236,8 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
 
         if (mUserInfo.isManagedProfile() && mUserManager.isUserRunning(userId)) {
             removePreference(KEY_SWITCH_USER);
+        } else {
+            removePreference(KEY_RESTORE_USER);
         }
 
         if (!mUserManager.isAdminUser()) { // non admin users can't remove users and allow calls
@@ -265,6 +281,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             mRemoveUserPref.setOnPreferenceClickListener(this);
             mPhonePref.setOnPreferenceChangeListener(this);
             mAppAndContentAccessPref.setOnPreferenceClickListener(this);
+            mRestoreUserPref.setOnPreferenceClickListener(this);
         }
     }
 
