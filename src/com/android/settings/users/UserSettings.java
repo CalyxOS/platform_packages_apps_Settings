@@ -22,7 +22,9 @@ import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
+import android.app.backup.IBackupManager;
 import android.app.settings.SettingsEnums;
+import android.app.trust.TrustManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -43,6 +45,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.provider.ContactsContract;
@@ -67,6 +70,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
+import com.android.settings.core.OnActivityResultListener;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.password.ChooseLockGeneric;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -101,7 +105,8 @@ import java.util.Set;
 public class UserSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceClickListener,
         MultiUserSwitchBarController.OnMultiUserSwitchChangedListener,
-        DialogInterface.OnDismissListener {
+        DialogInterface.OnDismissListener,
+        OnActivityResultListener {
 
     private static final String TAG = "UserSettings";
 
@@ -140,12 +145,17 @@ public class UserSettings extends SettingsPreferenceFragment
     private static final int USER_TYPE_MANAGED_PROFILE = 3;
 
     private static final int REQUEST_CHOOSE_LOCK = 10;
+    private static final int REQUEST_RESTORE_USER = 11;
 
     private static final String KEY_ADD_USER_LONG_MESSAGE_DISPLAYED =
             "key_add_user_long_message_displayed";
 
     private static final String KEY_TITLE = "title";
     private static final String KEY_SUMMARY = "summary";
+
+    private static final String SEEDVAULT_PACKAGE = "com.stevesoltys.seedvault";
+    private static final String SEEDVAULT_RESTORE_INTENT = ".RESTORE_BACKUP";
+    private static final String SEEDVAULT_RESTORE_CLASS = ".restore.RestoreActivity";
 
     static {
         USER_REMOVED_INTENT_FILTER = new IntentFilter(Intent.ACTION_USER_REMOVED);
@@ -443,6 +453,17 @@ public class UserSettings extends SettingsPreferenceFragment
         if (requestCode == REQUEST_CHOOSE_LOCK) {
             if (resultCode != Activity.RESULT_CANCELED && hasLockscreenSecurity()) {
                 addUserNow(USER_TYPE_RESTRICTED_PROFILE);
+            }
+        } else if (requestCode == REQUEST_RESTORE_USER) {
+            List<UserInfo> profiles = mUserManager.getProfiles(UserHandle.myUserId());
+            Collections.sort(profiles, (UserInfo userInfo, UserInfo userInfo1) ->
+                    Long.compare(userInfo1.creationTime, userInfo.creationTime));
+            for (UserInfo profile : profiles) {
+                if (profile.isManagedProfile()) {
+                    mHandler.sendMessage(mHandler.obtainMessage(MESSAGE_USER_CREATED, profile.id,
+                            profile.serialNumber));
+                    break;
+                }
             }
         } else {
             mEditUserInfoController.onActivityResult(requestCode, resultCode, data);
@@ -809,14 +830,26 @@ public class UserSettings extends SettingsPreferenceFragment
                             mUserManager.setUserName(userId, username);
                             mUserManager.setUserEnabled(userId);
                             intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
-                            intent.putExtra(Intent.EXTRA_USER, new UserHandle(userId));
+                            intent.putExtra(Intent.EXTRA_USER, user);
                             intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
                                     Intent.FLAG_RECEIVER_FOREGROUND);
-                            getContext().sendBroadcastAsUser(intent,
+                            context.sendBroadcastAsUser(intent,
                                     new UserHandle(mUserManager.getProfileParent(userId).id));
-                            mHandler.sendMessage(mHandler.obtainMessage(
-                                    MESSAGE_USER_CREATED, userId,
-                                    mUserManager.getUserSerialNumber(userId)));
+                            try {
+                                IBackupManager backupManager = IBackupManager.Stub.asInterface(
+                                        ServiceManager.getService(Context.BACKUP_SERVICE));
+                                backupManager.setBackupServiceActive(userId, true);
+                                context.getSystemService(TrustManager.class)
+                                        .setDeviceLockedForUser(userId, false);
+                                intent = new Intent(SEEDVAULT_PACKAGE + SEEDVAULT_RESTORE_INTENT);
+                                intent.setClassName(SEEDVAULT_PACKAGE,
+                                        SEEDVAULT_PACKAGE + SEEDVAULT_RESTORE_CLASS);
+                                getActivity().startActivityForResultAsUser(intent,
+                                        REQUEST_RESTORE_USER, user);
+                            } catch (RemoteException e) {
+                                Log.e(TAG, "Failed to setup profile restoration", e);
+                            }
+                            context.unregisterReceiver(this);
                         }
                     }, intentFilter);
                 } else {
