@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="panic_settings_summary">Afficher l’option du bouton d’alimentation qui active un bouton d’urgence.</string>
     <string name="panic_settings_title">Afficher l’option Urgence</string>
     <string name="calyxos_version">Version de CalyxOS</string>
@@ -8,4 +8,20 @@
     <string name="deny_new_usb_enabled">Refuser les nouveaux gadgets USB</string>
     <string name="deny_new_usb_summary">Prise en charge des gadgets USB tels que les écouteurs, les dispositifs de stockage et les entrées (souris, claviers, joysticks)</string>
     <string name="deny_new_usb_title">Restreindre USB</string>
+    <string name="bluetooth_timeout_summary_8hours">8 heures</string>
+    <string name="bluetooth_timeout_summary_4hours">4 heures</string>
+    <string name="bluetooth_timeout_summary_2hours">2 heures</string>
+    <string name="bluetooth_timeout_summary_1hour">1 heure</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
+    <string name="bluetooth_timeout_summary_1min">1 minute</string>
+    <string name="bluetooth_timeout_summary_30secs">30 secondes</string>
+    <string name="bluetooth_timeout_summary_15secs">15 secondes</string>
+    <string name="bluetooth_timeout_summary_never">Jamais</string>
+    <string name="bluetooth_timeout_summary2">Ne pas désactiver automatiquement le Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Le Bluetooth s\'éteindra après &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; si aucun n\'appareil n\'est connecté</string>
+    <string name="bluetooth_timeout">Délai d\'attente Bluetooth</string>
+    <string name="vendor_security_patch">Niveau de patch sécurité fournisseur</string>
 </resources>

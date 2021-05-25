@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_timeout_summary_8hours">8 tunnissa</string>
+    <string name="bluetooth_timeout_summary_4hours">4 tunnissa</string>
+    <string name="bluetooth_timeout_summary_2hours">2 tunnissa</string>
+    <string name="bluetooth_timeout_summary_1hour">Tunnissa</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minuutissa</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minuutissa</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minuutissa</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minuutissa</string>
+    <string name="bluetooth_timeout_summary_1min">Minuutissa</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekunnissa</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekunnissa</string>
+    <string name="bluetooth_timeout_summary_never">Ei koskaan</string>
+    <string name="bluetooth_timeout_summary2">Älä katkaise automaattisesti Bluetooth-yhteyttä</string>
+    <string name="bluetooth_timeout_summary">Bluetooth aikakatkaistaan &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; mikäli laitetta ei yhdistetä</string>
+    <string name="bluetooth_timeout">Bluetoothin aikakatkaisu</string>
+    <string name="vendor_security_patch">Valmistajan tietoturvakorjauksen taso</string>
+    <string name="deny_new_usb_disabled">Salli kaikki USB-laitteet aina</string>
+    <string name="deny_new_usb_dynamic">Salli uudet USB-laitteet kun näyttö avattu</string>
+    <string name="deny_new_usb_enabled">Estä uudet USB-laitteet</string>
+    <string name="deny_new_usb_summary">Hallitse USB-tukea laitteille kuten kuulokkeiden, tallennuslaitteiden ja tulolähteitä (hiiret, näppäimistöt, peliohjaimet)</string>
+    <string name="deny_new_usb_title">Rajoita USB</string>
+    <string name="panic_settings_summary">Näyttää virtapainike-valinnan, joka aktivoi hätäpaniikki-toiminnon.</string>
+    <string name="panic_settings_title">Näytä Paniikki-valinta</string>
+    <string name="calyxos_version">CalyxOS-versio</string>
+</resources>

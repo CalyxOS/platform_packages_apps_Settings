@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="deny_new_usb_enabled">Tolak gadget USB baru</string>
     <string name="panic_settings_summary">Tampilkan opsi tombol daya yang mengaktifkan pemicu panik darurat.</string>
     <string name="vendor_security_patch">Tingkat patch keamanan vendor</string>
@@ -8,5 +8,20 @@
     <string name="deny_new_usb_summary">Kontrol dukungan untuk gadget USB seperti earphone, perangkat penyimpanan dan input (mouse, keyboard, joystick)</string>
     <string name="deny_new_usb_title">Batasi USB</string>
     <string name="panic_settings_title">Tampilkan opsi Panik</string>
-    <string name="calyxos_version">Versi CalyxOS</string>
+    <string name="calyxos_version">versi CalyxOS</string>
+    <string name="bluetooth_timeout_summary_8hours">8 jam</string>
+    <string name="bluetooth_timeout_summary_4hours">4 jam</string>
+    <string name="bluetooth_timeout_summary_2hours">2 jam</string>
+    <string name="bluetooth_timeout_summary_1hour">1 jam</string>
+    <string name="bluetooth_timeout_summary_30mins">30 menit</string>
+    <string name="bluetooth_timeout_summary_10mins">10 menit</string>
+    <string name="bluetooth_timeout_summary_5mins">5 menit</string>
+    <string name="bluetooth_timeout_summary_2mins">2 menit</string>
+    <string name="bluetooth_timeout_summary_1min">1 menit</string>
+    <string name="bluetooth_timeout_summary_30secs">30 detik</string>
+    <string name="bluetooth_timeout_summary_15secs">15 detik</string>
+    <string name="bluetooth_timeout_summary_never">Tidak pernah</string>
+    <string name="bluetooth_timeout_summary2">Jangan matikan Bluetooth secara otomatis</string>
+    <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; jika tidak ada perangkat yang terhubung</string>
+    <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
 </resources>
