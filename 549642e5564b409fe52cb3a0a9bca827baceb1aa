@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4f057907_1b72a212",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-05-25T14:08:16Z",
+      "side": 1,
+      "message": "I would leave it here. I originally was looking into integrating it there but userhandle information was not available from all the necessary places (especially once the provisioning tasks are completed). I also think keeping changes to ManagedProvisioning is desirable especially since this patch is not large.\nInstalling Nextcloud from restore screen worked the one time I tested it but you have a point concerning the index. I could look into having it update in this flow too",
+      "parentUuid": "d7f9e894_bd891a79",
+      "revId": "549642e5564b409fe52cb3a0a9bca827baceb1aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "22b478d8_1065cd20",
         "filename": "src/com/android/settings/users/UserSettings.java",
         "patchSetId": 12
@@ -31,6 +49,24 @@
       "writtenOn": "2021-05-25T11:53:16Z",
       "side": 1,
       "message": "What order does this appear in then wrt the ManagedProvisoning flow?",
+      "revId": "549642e5564b409fe52cb3a0a9bca827baceb1aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a3e2c39_09ffc0e3",
+        "filename": "src/com/android/settings/users/UserSettings.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 848,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-05-25T14:08:16Z",
+      "side": 1,
+      "message": "There\u0027s 3 stages. ACTION_PROVISION_MANAGED_PROFILE starts the profile provisioning flow in ManagedProvisioning. We register a receiver for ACTION_MANAGED_PROFILE_PROVISIONED which is sent when the provisioning wizard completes (user presses the next button on the last animated educational activity) which handles the final steps to start the profile and launches the Seedvault restore activity with REQUEST_RESTORE_USER as a request code. We listen for this request code onActivityResult which tells us the user is done with the Restore activity and it is then safe to launch the App \u0026 Content subsettings activity",
+      "parentUuid": "22b478d8_1065cd20",
       "revId": "549642e5564b409fe52cb3a0a9bca827baceb1aa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
