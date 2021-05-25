@@ -16,6 +16,24 @@
       "message": "Variable! And add a comment saying that this is something we added that only lets us get away with not having a device admin set to make this clearer.",
       "revId": "f790b0c42f261296802c2d19951215525c820959",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8eafb1fe_13f3fee6",
+        "filename": "src/com/android/settings/users/UserSettings.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 800,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-05-25T14:10:16Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b2cce183_c3e685a3",
+      "revId": "f790b0c42f261296802c2d19951215525c820959",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
