@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7f9e894_bd891a79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-25T11:53:16Z",
+      "side": 1,
+      "message": "Is this best left here or could it hook into the ManagedProvisoning flow?\n\nFor the latter we could add yet another extra to make sure it only runs when we want it to.\n\n\nBut if this works this is fine as well.\n\nThe latest builds include nextcloud, and now that F-Droid is also enabled in the profile - are you able to install nextcloud from the restore screen?\n\n\nOne difference here is that we now refresh the f-droid index in suw but in the profile that wouldn\u0027t have happened.",
+      "revId": "549642e5564b409fe52cb3a0a9bca827baceb1aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22b478d8_1065cd20",
+        "filename": "src/com/android/settings/users/UserSettings.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 848,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-25T11:53:16Z",
+      "side": 1,
+      "message": "What order does this appear in then wrt the ManagedProvisoning flow?",
+      "revId": "549642e5564b409fe52cb3a0a9bca827baceb1aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
