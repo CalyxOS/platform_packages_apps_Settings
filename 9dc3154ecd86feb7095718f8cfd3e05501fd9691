@@ -16,6 +16,24 @@
       "message": "In the future, we could put this list somewhere in the system in a xml because this is the second use of the same list, and we\u0027re likely to have more (e.g. if we ever add a proper \u0027enable/disable microG\u0027 toggle somewhere)\n\nWorks for now though.",
       "revId": "9dc3154ecd86feb7095718f8cfd3e05501fd9691",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6288373_cc66b376",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-05-25T14:09:53Z",
+      "side": 1,
+      "message": "Good point. If see increased use of these variables we should do that (maybe in the next port?)",
+      "parentUuid": "b1908327_41622e36",
+      "revId": "9dc3154ecd86feb7095718f8cfd3e05501fd9691",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
