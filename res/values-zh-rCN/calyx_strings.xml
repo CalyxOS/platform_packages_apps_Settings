@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="deny_new_usb_disabled">总是允许新USB配件</string>
     <string name="deny_new_usb_dynamic">解锁时允许新USB配件</string>
     <string name="deny_new_usb_title">限制USB</string>
@@ -9,4 +9,19 @@
     <string name="deny_new_usb_summary">控制对 USB 设备的支持，如耳机、储存设备和输入设备（鼠标、键盘和手柄）</string>
     <string name="panic_settings_summary">显示电源按钮选项，触发警报机制。</string>
     <string name="vendor_security_patch">厂商安全补丁级别</string>
+    <string name="bluetooth_timeout_summary_8hours">8小时</string>
+    <string name="bluetooth_timeout_summary_4hours">4小时</string>
+    <string name="bluetooth_timeout_summary_2hours">2小时</string>
+    <string name="bluetooth_timeout_summary_1hour">1小时</string>
+    <string name="bluetooth_timeout_summary_30mins">30分钟</string>
+    <string name="bluetooth_timeout_summary_10mins">10分钟</string>
+    <string name="bluetooth_timeout_summary_5mins">5分钟</string>
+    <string name="bluetooth_timeout_summary_2mins">2分钟</string>
+    <string name="bluetooth_timeout_summary_1min">1分钟</string>
+    <string name="bluetooth_timeout_summary_30secs">30秒</string>
+    <string name="bluetooth_timeout_summary_15secs">15秒</string>
+    <string name="bluetooth_timeout_summary_never">从不</string>
+    <string name="bluetooth_timeout_summary">蓝牙将关闭于 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; 后，前提是没有连接的设备</string>
+    <string name="bluetooth_timeout_summary2">不自动关闭蓝牙</string>
+    <string name="bluetooth_timeout">蓝牙超时</string>
 </resources>

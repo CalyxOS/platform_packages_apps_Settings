@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="vendor_security_patch">Poziom poprawek bezpieczeństwa dostawcy</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="vendor_security_patch">Poziom poprawek bezpieczeństwa</string>
     <string name="deny_new_usb_disabled">Zawsze zezwalaj na nowe gadżety USB</string>
     <string name="deny_new_usb_dynamic">Zezwalaj na nowe gadżety USB po odblokowaniu</string>
     <string name="calyxos_version">Wersja CalyxOS</string>
+    <string name="bluetooth_timeout">Maksymalny dozwolony czas Bluetooth</string>
+    <string name="deny_new_usb_title">Ogranicz USB</string>
+    <string name="panic_settings_summary">Wyświetlaj opcje przycisku zasilania, która aktywuje wyzwalacz paniki.</string>
+    <string name="panic_settings_title">Pokaż opcję wyzwalacza paniki</string>
+    <string name="bluetooth_timeout_summary">Bluetooth wyłączy się po upływie <xliff:g id="timeout_description">%1$s</xliff:g> jeżeli żadne urządzenia nie są podłączone</string>
+    <string name="bluetooth_timeout_summary_8hours">8 godzin</string>
+    <string name="bluetooth_timeout_summary_4hours">4 godziny</string>
+    <string name="bluetooth_timeout_summary_2hours">2 godziny</string>
+    <string name="bluetooth_timeout_summary_1hour">1 godzina</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minut</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minut</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minut</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minuty</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuta</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekund</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekund</string>
+    <string name="bluetooth_timeout_summary_never">Nigdy</string>
+    <string name="bluetooth_timeout_summary2">Nie wyłączaj Bluetooth automatycznie</string>
+    <string name="deny_new_usb_enabled">Zablokuj nowe gadżety USB</string>
+    <string name="deny_new_usb_summary">Kontroluj wsparcie dla gadżetów USB takich jak słuchawki, nośników danych czy urządzeń wejścia (myszy, klawiatury, joysticki)</string>
 </resources>

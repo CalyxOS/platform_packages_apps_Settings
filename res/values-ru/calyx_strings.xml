@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calyxos_version">Версия CalyxOS</string>
     <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
-    <string name="deny_new_usb_disabled">Всегда разрешать новые USB устройства</string>
-    <string name="deny_new_usb_dynamic">Разрешить новые USB-гаджеты при разблокировке</string>
-    <string name="deny_new_usb_enabled">Запретить новые USB-гаджеты</string>
+    <string name="deny_new_usb_disabled">Всегда разрешать новые USB-устройства</string>
+    <string name="deny_new_usb_dynamic">Разрешить новые USB-устройства при разблокировке</string>
+    <string name="deny_new_usb_enabled">Запретить новые USB-устройства</string>
     <string name="deny_new_usb_summary">Поддержка управления для USB-устройств, таких как наушники, устройства хранения данных и устройства ввода (мыши, клавиатуры, джойстики)</string>
-    <string name="deny_new_usb_title">Ограничить USB</string>
-    <string name="panic_settings_summary">Отображение опции кнопки питания, которая активирует аварийный триггер паники.</string>
-    <string name="panic_settings_title">Показать опцию \"Паника\"</string>
-    <string name="vendor_security_patch">Уровень исправления безопасности поставщика</string>
+    <string name="deny_new_usb_title">Запретить USB</string>
+    <string name="panic_settings_summary">Отображение опции кнопки питания, которая активирует тревожную кнопку.</string>
+    <string name="panic_settings_title">Показать опцию \"Тревожная кнопка\"</string>
+    <string name="vendor_security_patch">Исправления безопасности поставщика</string>
+    <string name="bluetooth_timeout_summary">Bluetooth будет отключен по прошествии &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; если ни одно устройство не подключено</string>
+    <string name="bluetooth_timeout_summary_8hours">8 часов</string>
+    <string name="bluetooth_timeout_summary_4hours">4 часа</string>
+    <string name="bluetooth_timeout_summary_2hours">2 часа</string>
+    <string name="bluetooth_timeout_summary_1hour">1 час</string>
+    <string name="bluetooth_timeout_summary_30mins">30 минут</string>
+    <string name="bluetooth_timeout_summary_10mins">10 минут</string>
+    <string name="bluetooth_timeout_summary_5mins">5 минут</string>
+    <string name="bluetooth_timeout_summary_2mins">2 минуты</string>
+    <string name="bluetooth_timeout_summary_1min">1 минута</string>
+    <string name="bluetooth_timeout_summary_30secs">30 секунд</string>
+    <string name="bluetooth_timeout_summary_15secs">15 секунд</string>
+    <string name="bluetooth_timeout_summary_never">Никогда</string>
+    <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
+    <string name="bluetooth_timeout">Время выключения Bluetooth</string>
 </resources>

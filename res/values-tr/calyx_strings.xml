@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="vendor_security_patch">Satıcı güvenlik yaması seviyesi</string>
     <string name="deny_new_usb_disabled">Her zaman yeni USB aygıtlarına izin ver</string>
     <string name="deny_new_usb_dynamic">Kilit açıldığında yeni USB aygıtlarına izin ver</string>
@@ -8,5 +8,20 @@
     <string name="deny_new_usb_title">USB\'yi kısıtla</string>
     <string name="panic_settings_summary">Acil durum panik tetikleyicisini etkinleştiren güç düğmesi seçeneğini görüntüleyin.</string>
     <string name="panic_settings_title">Panik seçeneğini göster</string>
-    <string name="calyxos_version">CalyxOS Sürümü</string>
+    <string name="calyxos_version">CalyxOS sürümü</string>
+    <string name="bluetooth_timeout_summary_8hours">8 saat</string>
+    <string name="bluetooth_timeout_summary_4hours">4 saat</string>
+    <string name="bluetooth_timeout_summary_2hours">2 saat</string>
+    <string name="bluetooth_timeout_summary_1hour">1 saat</string>
+    <string name="bluetooth_timeout_summary_30mins">30 dakika</string>
+    <string name="bluetooth_timeout_summary_10mins">10 dakika</string>
+    <string name="bluetooth_timeout_summary_5mins">5 dakika</string>
+    <string name="bluetooth_timeout_summary_2mins">2 dakika</string>
+    <string name="bluetooth_timeout_summary_1min">1 dakika</string>
+    <string name="bluetooth_timeout_summary_30secs">30 saniye</string>
+    <string name="bluetooth_timeout_summary_15secs">15 saniye</string>
+    <string name="bluetooth_timeout_summary_never">Asla</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
+    <string name="bluetooth_timeout_summary">Hiçbir aygıt bağlı değilse Bluetooth &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; sonra kapatılacak</string>
+    <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
 </resources>

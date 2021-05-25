@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="panic_settings_title">Panik-Optionen anzeigen</string>
     <string name="panic_settings_summary">Anzeige der Ein-/Ausschalttastenoption, die einen Notfall-Panikauslöser aktiviert.</string>
     <string name="deny_new_usb_summary">Unterstützung für USB-Gadgets wie Kopfhörer, Speichergeräte und Eingabegeräte (Mäuse, Tastaturen, Joysticks) kontrollieren</string>
@@ -9,4 +9,19 @@
     <string name="deny_new_usb_enabled">Neue USB-Gadgets verweigern</string>
     <string name="deny_new_usb_title">USB einschränken</string>
     <string name="calyxos_version">CalyxOS Version</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
+    <string name="bluetooth_timeout_summary">Bluetooth schaltet sich nach &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; aus, wenn keine Geräte verbunden sind</string>
+    <string name="bluetooth_timeout">Bluetooth-Zeitabschaltung</string>
+    <string name="bluetooth_timeout_summary_8hours">8 Stunden</string>
+    <string name="bluetooth_timeout_summary_4hours">4 Stunden</string>
+    <string name="bluetooth_timeout_summary_2hours">2 Stunden</string>
+    <string name="bluetooth_timeout_summary_1hour">1 Stunde</string>
+    <string name="bluetooth_timeout_summary_30mins">30 Minuten</string>
+    <string name="bluetooth_timeout_summary_10mins">10 Minuten</string>
+    <string name="bluetooth_timeout_summary_5mins">5 Minuten</string>
+    <string name="bluetooth_timeout_summary_2mins">2 Minuten</string>
+    <string name="bluetooth_timeout_summary_1min">1 Minute</string>
+    <string name="bluetooth_timeout_summary_30secs">30 Sekunden</string>
+    <string name="bluetooth_timeout_summary_15secs">15 Sekunden</string>
+    <string name="bluetooth_timeout_summary_never">Nie</string>
 </resources>
