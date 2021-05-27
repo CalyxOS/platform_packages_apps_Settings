@@ -34,6 +34,24 @@
       "parentUuid": "8d3d52e0_eeddd8e2",
       "revId": "0036d814a99b3e8b38d6c54f0f2cc14d7679ae8f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b43f5e7_9d8f334e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-27T16:51:25Z",
+      "side": 1,
+      "message": "Alright, fine for now, we can try to come up with better ways in the future.\n\nA local-only refresh would work well, maybe we can submit that to F-Droid later.",
+      "parentUuid": "a65688f6_c05205dd",
+      "revId": "0036d814a99b3e8b38d6c54f0f2cc14d7679ae8f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
