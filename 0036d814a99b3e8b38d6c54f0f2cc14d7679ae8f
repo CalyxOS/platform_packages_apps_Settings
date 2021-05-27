@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d3d52e0_eeddd8e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-05-27T16:36:59Z",
+      "side": 1,
+      "message": "What\u0027s the earliest that an index update can be triggered?",
+      "revId": "0036d814a99b3e8b38d6c54f0f2cc14d7679ae8f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
