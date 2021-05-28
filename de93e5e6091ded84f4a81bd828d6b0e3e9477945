@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc1e53cc_8fa8ac53",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-05-28T20:34:00Z",
+      "side": 1,
+      "message": "This part should be removed once users have migrated off the previous version",
+      "range": {
+        "startLine": 155,
+        "startChar": 16,
+        "endLine": 162,
+        "endChar": 17
+      },
+      "revId": "de93e5e6091ded84f4a81bd828d6b0e3e9477945",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
