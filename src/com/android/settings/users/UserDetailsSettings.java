@@ -19,12 +19,16 @@ package com.android.settings.users;
 import static android.os.UserHandle.USER_NULL;
 
 import android.app.ActivityManager;
+import android.app.AppGlobals;
 import android.app.Dialog;
+import android.app.backup.IBackupManager;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.content.pm.UserInfo;
 import android.os.Bundle;
 import android.os.RemoteException;
+import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.util.Log;
@@ -57,6 +61,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
 
     private static final String KEY_SWITCH_USER = "switch_user";
     private static final String KEY_ENABLE_TELEPHONY = "enable_calling";
+    private static final String KEY_ENABLE_BACKUP = "enable_backup";
     private static final String KEY_REMOVE_USER = "remove_user";
     private static final String KEY_APP_AND_CONTENT_ACCESS = "app_and_content_access";
 
@@ -68,12 +73,14 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
     private static final int DIALOG_CONFIRM_ENABLE_CALLING_AND_SMS = 3;
     private static final int DIALOG_SETUP_USER = 4;
 
+    private IBackupManager mBackupManager;
     private UserManager mUserManager;
     private UserCapabilities mUserCaps;
 
     @VisibleForTesting
     RestrictedPreference mSwitchUserPref;
     private SwitchPreference mPhonePref;
+    private SwitchPreference mBackupPref;
     @VisibleForTesting
     Preference mAppAndContentAccessPref;
     @VisibleForTesting
@@ -93,6 +100,8 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
         super.onCreate(icicle);
 
         final Context context = getActivity();
+        mBackupManager = IBackupManager.Stub.asInterface(
+                ServiceManager.getService(Context.BACKUP_SERVICE));
         mUserManager = (UserManager) context.getSystemService(Context.USER_SERVICE);
         mUserCaps = UserCapabilities.create(context);
         addPreferencesFromResource(R.xml.user_details_settings);
@@ -134,12 +143,28 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (Boolean.TRUE.equals(newValue)) {
-            showDialog(mUserInfo.isGuest() ? DIALOG_CONFIRM_ENABLE_CALLING
-                    : DIALOG_CONFIRM_ENABLE_CALLING_AND_SMS);
-            return false;
+        if (KEY_ENABLE_TELEPHONY.equals(preference.getKey())) {
+            if (Boolean.TRUE.equals(newValue)) {
+                showDialog(mUserInfo.isGuest() ? DIALOG_CONFIRM_ENABLE_CALLING
+                        : DIALOG_CONFIRM_ENABLE_CALLING_AND_SMS);
+                return false;
+            }
+            enableCallsAndSms(false);
+        } else if (KEY_ENABLE_BACKUP.equals(preference.getKey())) {
+            try {
+                PackageManager packageManager = getActivity().getPackageManager();
+                try {
+                    packageManager.getPackageInfoAsUser(getActivity().getPackageName(), 0,
+                            mUserInfo.id);
+                } catch (PackageManager.NameNotFoundException e) {
+                    packageManager.installExistingPackageAsUser(getActivity().getPackageName(),
+                            mUserInfo.id);
+                }
+                mBackupManager.setBackupServiceActive(mUserInfo.id, (Boolean) newValue);
+            } catch (Exception e) {
+                Log.e(TAG, "Failed to activate backup service for user: " + mUserInfo.id, e);
+            }
         }
-        enableCallsAndSms(false);
         return true;
     }
 
@@ -204,6 +229,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
 
         mSwitchUserPref = findPreference(KEY_SWITCH_USER);
         mPhonePref = findPreference(KEY_ENABLE_TELEPHONY);
+        mBackupPref = findPreference(KEY_ENABLE_BACKUP);
         mRemoveUserPref = findPreference(KEY_REMOVE_USER);
         mAppAndContentAccessPref = findPreference(KEY_APP_AND_CONTENT_ACCESS);
 
@@ -226,6 +252,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
 
         if (!mUserManager.isAdminUser()) { // non admin users can't remove users and allow calls
             removePreference(KEY_ENABLE_TELEPHONY);
+            removePreference(KEY_ENABLE_BACKUP);
             removePreference(KEY_REMOVE_USER);
             removePreference(KEY_APP_AND_CONTENT_ACCESS);
         } else {
@@ -242,6 +269,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 }
             } else {
                 removePreference(KEY_APP_AND_CONTENT_ACCESS);
+                removePreference(KEY_ENABLE_BACKUP);
             }
 
             if (mUserInfo.isGuest()) {
@@ -262,8 +290,15 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 removePreference(KEY_REMOVE_USER);
             }
 
+            try {
+                mBackupPref.setChecked(mBackupManager.isBackupServiceActive(userId));
+            } catch (RemoteException e) {
+                Log.e(TAG, "Failed to activate backup service for user: " + userId, e);
+            }
+
             mRemoveUserPref.setOnPreferenceClickListener(this);
             mPhonePref.setOnPreferenceChangeListener(this);
+            mBackupPref.setOnPreferenceChangeListener(this);
             mAppAndContentAccessPref.setOnPreferenceClickListener(this);
         }
     }
