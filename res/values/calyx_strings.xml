@@ -87,4 +87,6 @@
     <!-- Access QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
+
+    <string name="user_enable_backup">Enable backup service</string>
 </resources>
