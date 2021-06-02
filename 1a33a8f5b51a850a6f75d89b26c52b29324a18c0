@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91e3afc5_923ab48b",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-02T21:43:39Z",
+      "side": 1,
+      "message": "Move these to avoid double translation.\n\nCould do a lineageparts_strings.xml or something like that\n\ncm_strings2.xml\ncm2_strings.xml",
+      "revId": "1a33a8f5b51a850a6f75d89b26c52b29324a18c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
