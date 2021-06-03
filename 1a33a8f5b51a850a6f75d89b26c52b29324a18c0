@@ -16,6 +16,24 @@
       "message": "Move these to avoid double translation.\n\nCould do a lineageparts_strings.xml or something like that\n\ncm_strings2.xml\ncm2_strings.xml",
       "revId": "1a33a8f5b51a850a6f75d89b26c52b29324a18c0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a901b62_cef1deca",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-06-03T21:49:47Z",
+      "side": 1,
+      "message": "Not sure I understand what\u0027s meant by double translation?",
+      "parentUuid": "91e3afc5_923ab48b",
+      "revId": "1a33a8f5b51a850a6f75d89b26c52b29324a18c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
