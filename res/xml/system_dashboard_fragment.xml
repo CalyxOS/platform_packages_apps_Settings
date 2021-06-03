@@ -30,6 +30,14 @@
         settings:controller="com.android.settings.language.LanguageAndInputPreferenceController"/>
 
     <Preference
+        android:key="status_bar_settings"
+        android:title="@string/status_bar_title"
+        android:icon="@drawable/ic_settings_statusbar"
+        android:order="-255"
+        android:fragment="com.android.settings.statusbar.StatusBarSettings"
+        settings:controller="com.android.settings.statusbar.StatusBarSettingPreferenceController"/>
+
+    <Preference
         android:key="gesture_settings"
         android:title="@string/gesture_preference_title"
         android:icon="@drawable/ic_settings_gestures"

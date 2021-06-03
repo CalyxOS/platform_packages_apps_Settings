@@ -3427,6 +3427,19 @@
             </intent-filter>/>
         </receiver>
 
+        <activity
+            android:name=".Settings$StatusBarSettingsActivity"
+            android:label="@string/status_bar_title"
+            android:icon="@drawable/ic_settings_statusbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.android.settings.statusbar.StatusBarSettings"/>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
