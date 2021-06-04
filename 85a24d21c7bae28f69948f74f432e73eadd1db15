@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9107025_ef103c88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-06-04T02:12:53Z",
+      "side": 1,
+      "message": "Anyway, not sure if it would work but could consider seeing if the receiver can disable itself",
+      "revId": "85a24d21c7bae28f69948f74f432e73eadd1db15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
