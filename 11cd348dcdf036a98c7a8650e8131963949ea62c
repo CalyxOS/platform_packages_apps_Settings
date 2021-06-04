@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c86eb292_9f64efad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-06-04T03:43:45Z",
+      "side": 1,
+      "message": "If https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/3655/6 is merged, this should be merged in a future update",
+      "revId": "11cd348dcdf036a98c7a8650e8131963949ea62c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
