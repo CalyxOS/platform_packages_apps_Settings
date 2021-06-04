@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a31329a_703f2b40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-06-04T02:06:16Z",
+      "side": 1,
+      "message": "I personally don\u0027t like this much. I\u0027d prefer for users to activate the backup service which will handle adding the settings app if it is missing and migrate to v2 asap that way.",
+      "revId": "2b95489e59272e992c2b1121b9178113829c4c3e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
