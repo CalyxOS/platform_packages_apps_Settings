@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da9c5e87_7f42b9dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-06-04T03:40:44Z",
+      "side": 1,
+      "message": "Working as expected. Tested by clean flashing a build without the unmanaged-profile topic picked, creating a profile and flashing a build with this change cherry-picked.",
+      "revId": "110473ef7fb1c1a9d34c55f2f3963e9ea9f34d66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
