@@ -3428,6 +3428,12 @@
             </intent-filter>/>
         </receiver>
 
+        <receiver android:name=".users.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
