@@ -24,4 +24,27 @@
     <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
     <string name="bluetooth_timeout_summary">Hiçbir aygıt bağlı değilse Bluetooth &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; sonra kapatılacak</string>
     <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
+    <string name="show_qs_on_secure_keyguard_summary">Güvenli kilit ekranında hızlı ayarların değiştirilmesine izin ver</string>
+    <string name="show_qs_on_secure_keyguard_title">Hızlı ayarlar</string>
+    <string name="user_add_managed_profile_item_summary">İş profilleri başlatıcıyı, bildirimleri ve son görevleri kullanıcıyla paylaşır</string>
+    <string name="user_add_managed_profile_item_title">İş profili</string>
+    <string name="cleartext_network_policy_summary">TLS kullanmayan tüm ağ trafiğini engeller. Özel DNS yapılandırması gerektirir. Not: Açık muafiyetler olmadan Tor ve çoğu VPN çalışmayacaktır</string>
+    <string name="cleartext_network_policy_title">Şifreli olmayan ağ trafiğini kısıtla</string>
+    <string name="wifi_timeout_summary_8hours">8 saat</string>
+    <string name="wifi_timeout_summary_4hours">4 saat</string>
+    <string name="wifi_timeout_summary_2hours">2 saat</string>
+    <string name="wifi_timeout_summary_1hour">1 saat</string>
+    <string name="wifi_timeout_summary_30mins">30 dakika</string>
+    <string name="wifi_timeout_summary_10mins">10 dakika</string>
+    <string name="wifi_timeout_summary_5mins">5 dakika</string>
+    <string name="wifi_timeout_summary_2mins">2 dakika</string>
+    <string name="wifi_timeout_summary_1min">1 dakika</string>
+    <string name="wifi_timeout_summary_30secs">30 saniye</string>
+    <string name="wifi_timeout_summary_15secs">15 saniye</string>
+    <string name="wifi_timeout_summary_never">Asla</string>
+    <string name="wifi_timeout_summary2">Devre dışı</string>
+    <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse Wi-Fi <xliff:g id="timeout_description">%1$s</xliff:g> sonra kapatılacak</string>
+    <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
+    <string name="data_usage_app_restrict_background_all_summary">Arka planda ağ kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_background_all">Arka planda ağ erişimi</string>
 </resources>

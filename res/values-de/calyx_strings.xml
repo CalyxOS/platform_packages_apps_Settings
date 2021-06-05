@@ -24,4 +24,27 @@
     <string name="bluetooth_timeout_summary_30secs">30 Sekunden</string>
     <string name="bluetooth_timeout_summary_15secs">15 Sekunden</string>
     <string name="bluetooth_timeout_summary_never">Nie</string>
+    <string name="show_qs_on_secure_keyguard_summary">Umschalten der Schnelleinstellungen auf dem sicheren Sperrbildschirm zulassen</string>
+    <string name="show_qs_on_secure_keyguard_title">Schnelleinstellungen</string>
+    <string name="cleartext_network_policy_title">Klartext-Netzwerkverkehr einschränken</string>
+    <string name="data_usage_app_restrict_background_all">Netzwerkzugriff im Hintergrund</string>
+    <string name="user_add_managed_profile_item_summary">Arbeitsprofile teilen sich den Launcher, die Benachrichtigungen und die letzten Aufgaben mit dem Benutzer</string>
+    <string name="user_add_managed_profile_item_title">Arbeitsprofil</string>
+    <string name="cleartext_network_policy_summary">Blockiert den gesamten Nicht-TLS-Netzwerkverkehr. Erfordert eine private DNS-Konfiguration. Hinweis: Ohne explizite Ausnahmen werden Tor und die meisten VPNs nicht funktionieren</string>
+    <string name="wifi_timeout_summary_8hours">8 Stunden</string>
+    <string name="wifi_timeout_summary_4hours">4 Stunden</string>
+    <string name="wifi_timeout_summary_2hours">2 Stunden</string>
+    <string name="wifi_timeout_summary_1hour">1 Stunde</string>
+    <string name="wifi_timeout_summary_30mins">30 Minuten</string>
+    <string name="wifi_timeout_summary_10mins">10 Minuten</string>
+    <string name="wifi_timeout_summary_5mins">5 Minuten</string>
+    <string name="wifi_timeout_summary_2mins">2 Minuten</string>
+    <string name="wifi_timeout_summary_1min">1 Minute</string>
+    <string name="wifi_timeout_summary_30secs">30 Sekunden</string>
+    <string name="wifi_timeout_summary_15secs">15 Sekunden</string>
+    <string name="wifi_timeout_summary_never">Nie</string>
+    <string name="wifi_timeout_summary2">Deaktiviert</string>
+    <string name="wifi_timeout_summary">WLAN schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn kein Netzwerk verbunden ist</string>
+    <string name="wifi_timeout">WLAN automatisch ausschalten</string>
+    <string name="data_usage_app_restrict_background_all_summary">Aktivieren der Netzwerknutzung im Hintergrund</string>
 </resources>

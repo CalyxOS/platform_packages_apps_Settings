@@ -24,4 +24,27 @@
     <string name="bluetooth_timeout_summary">蓝牙将关闭于 &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; 后，前提是没有连接的设备</string>
     <string name="bluetooth_timeout_summary2">不自动关闭蓝牙</string>
     <string name="bluetooth_timeout">蓝牙超时</string>
+    <string name="show_qs_on_secure_keyguard_summary">允许在安全锁屏上切换快速设置</string>
+    <string name="show_qs_on_secure_keyguard_title">快速设置</string>
+    <string name="user_add_managed_profile_item_summary">工作配置与用户共享启动器、通知和最近的任务</string>
+    <string name="user_add_managed_profile_item_title">工作配置</string>
+    <string name="cleartext_network_policy_summary">锁定所有非TLS网络流量。需要私有DNS配置。注意:没有明确的豁免，Tor和大多数VPN都不能工作</string>
+    <string name="cleartext_network_policy_title">限制明文网络流量</string>
+    <string name="wifi_timeout_summary_8hours">8 小时</string>
+    <string name="wifi_timeout_summary_4hours">4 小时</string>
+    <string name="wifi_timeout_summary_2hours">2 小时</string>
+    <string name="wifi_timeout_summary_1hour">1 小时</string>
+    <string name="wifi_timeout_summary_30mins">30 分钟</string>
+    <string name="wifi_timeout_summary_10mins">10 分钟</string>
+    <string name="wifi_timeout_summary_5mins">5 分钟</string>
+    <string name="wifi_timeout_summary_2mins">2 分钟</string>
+    <string name="wifi_timeout_summary_1min">1 分钟</string>
+    <string name="wifi_timeout_summary_30secs">30 秒</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
+    <string name="wifi_timeout_summary_never">永不</string>
+    <string name="wifi_timeout_summary2">已禁用</string>
+    <string name="wifi_timeout_summary">Wi-Fi 会自动关闭于 <xliff:g id="timeout_description">%1$s</xliff:g> 秒后，如果没有网络连接的话</string>
+    <string name="wifi_timeout">自动关闭 Wi-Fi</string>
+    <string name="data_usage_app_restrict_background_all_summary">允许后台网络使用</string>
+    <string name="data_usage_app_restrict_background_all">后台网络访问</string>
 </resources>
