@@ -1,6 +1,40 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "219c684d_07f635e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T23:15:14Z",
+      "side": 1,
+      "message": "Another thought is that do we need this?\n\nFor v2 we do it on profile creation.\n\nFor v1 this could just be in the boot receiver instead.",
+      "revId": "54f043f8e89b9bf2d47c91e2ee46b099ad19868c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b50ed777_43f792c8",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T23:15:14Z",
+      "side": 1,
+      "message": "I\u0027d drop the service here.\n\nIt could be \"Allow backups\" perhaps as it does not enable backups.\n\nIf we could fit some summary that might help \"Go to Settings -\u003e Backup\" or something like that, but otherwise I guess even this is fine.",
+      "revId": "54f043f8e89b9bf2d47c91e2ee46b099ad19868c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "69a0ba4c_c5eb0eeb",
