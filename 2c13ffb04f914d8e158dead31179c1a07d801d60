@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "109b3278_e8de0c70",
+        "filename": "src/com/android/settings/users/BootReceiver.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T23:17:48Z",
+      "side": 1,
+      "message": "Could just add in a\n`mBackupManager.setBackupServiceActive(profile.getIdentifier(), true);` in here somewhere.",
+      "revId": "2c13ffb04f914d8e158dead31179c1a07d801d60",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
