@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57550b5e_b540d0e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T22:53:22Z",
+      "side": 1,
+      "message": "One note: this directly launches the restore activity, always.\n\nSuW launches it only if the user chooses to restore.\n\nWe could do this by adding an additional screen to ManagedProvisioning which acts like that SuW screen, and then only show the screen here if the user wants to restore.\n\nNot needed right now, just putting it here for the future.",
+      "revId": "9699587a3af07ea2ebe5a88fe2460c06794e164b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef8175a9_d67e2d41",
+        "filename": "src/com/android/settings/users/UserSettings.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 855,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T22:53:22Z",
+      "side": 1,
+      "message": "This could check for an extra in the intent returned and only show backup if so.",
+      "revId": "9699587a3af07ea2ebe5a88fe2460c06794e164b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
