@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69a0ba4c_c5eb0eeb",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T22:47:04Z",
+      "side": 1,
+      "message": "Comment here would be good.\n\nSeems to work even though I don\u0027t have a settings icon in the work profile, Settings -\u003e Backup from the main user works, lets me pick profile and that lets me enable backup too.",
+      "revId": "54f043f8e89b9bf2d47c91e2ee46b099ad19868c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
