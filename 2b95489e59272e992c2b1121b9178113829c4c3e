@@ -16,6 +16,24 @@
       "message": "I personally don\u0027t like this much. I\u0027d prefer for users to activate the backup service which will handle adding the settings app if it is missing and migrate to v2 asap that way.",
       "revId": "2b95489e59272e992c2b1121b9178113829c4c3e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b1387bd_477fa434",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T22:37:32Z",
+      "side": 1,
+      "message": "Yeah but right now backup doesn\u0027t really work, there\u0027s no solid way to restore.",
+      "parentUuid": "3a31329a_703f2b40",
+      "revId": "2b95489e59272e992c2b1121b9178113829c4c3e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

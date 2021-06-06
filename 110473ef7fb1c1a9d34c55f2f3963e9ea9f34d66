@@ -16,6 +16,24 @@
       "message": "Working as expected. Tested by clean flashing a build without the unmanaged-profile topic picked, creating a profile and flashing a build with this change cherry-picked.",
       "revId": "110473ef7fb1c1a9d34c55f2f3963e9ea9f34d66",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b231589a_b54171dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T22:37:32Z",
+      "side": 1,
+      "message": "This bit seems to work.\n\nHowever, I tried it with I tried it with https://calyxos.org/news/2021/05/13/work-profiles/ done on the previous hold and it hid the settings app after I flashed it for some reason.",
+      "parentUuid": "da9c5e87_7f42b9dc",
+      "revId": "110473ef7fb1c1a9d34c55f2f3963e9ea9f34d66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
