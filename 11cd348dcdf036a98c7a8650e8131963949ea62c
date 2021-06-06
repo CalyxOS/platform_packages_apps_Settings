@@ -16,6 +16,23 @@
       "message": "If https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/3655/6 is merged, this should be merged in a future update",
       "revId": "11cd348dcdf036a98c7a8650e8131963949ea62c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f7ee774_10f673e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T22:47:53Z",
+      "side": 1,
+      "message": "Better to do this *after* the change has been merged so you don\u0027t have to keep updating it when the original change gets updated.",
+      "revId": "11cd348dcdf036a98c7a8650e8131963949ea62c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
