@@ -52,6 +52,24 @@
       "parentUuid": "b231589a_b54171dd",
       "revId": "110473ef7fb1c1a9d34c55f2f3963e9ea9f34d66",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fadfec2_06ababa1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-06T23:11:50Z",
+      "side": 1,
+      "message": "\"hid the settings apps\" \u003d settings icon was gone which at this point seems intentional.",
+      "parentUuid": "9b46992e_4ecd4351",
+      "revId": "110473ef7fb1c1a9d34c55f2f3963e9ea9f34d66",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
