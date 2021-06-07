@@ -119,4 +119,42 @@
         <!-- Do not translate. -->
         <item>28800000</item>
     </string-array>
+
+    <!-- Auto reboot settings. The delay in inactivity before wifi is turned off. These are shown in a list dialog. -->
+    <string-array name="auto_reboot_entries">
+        <item>Off</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>8 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>36 hours</item>
+        <item>48 hours</item>
+        <item>72 hours</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="auto_reboot_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+        <!-- Do not translate. -->
+        <item>4</item>
+        <!-- Do not translate. -->
+        <item>8</item>
+        <!-- Do not translate. -->
+        <item>12</item>
+        <!-- Do not translate. -->
+        <item>24</item>
+        <!-- Do not translate. -->
+        <item>36</item>
+        <!-- Do not translate. -->
+        <item>48</item>
+        <!-- Do not translate. -->
+        <item>72</item>
+    </string-array>
 </resources>
