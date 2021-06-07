@@ -51,6 +51,24 @@
       "parentUuid": "ef8175a9_d67e2d41",
       "revId": "9699587a3af07ea2ebe5a88fe2460c06794e164b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d7c7e77a_8eec9ada",
+        "filename": "src/com/android/settings/users/UserSettings.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 855,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-07T15:30:48Z",
+      "side": 1,
+      "message": "Yes.\n\nAdd new screen to ManagedProv, same as SuW restore screen \"Would you like to restore?\"\n\nIn that screen, if user decides to restore, set an extra.\nIf not, it doesn\u0027t do that and proceeds to the next.\n\nThe extra is checked here, as a condition for launching the restore activity instead of just always launching it.",
+      "parentUuid": "4cabf965_3f0ce35b",
+      "revId": "9699587a3af07ea2ebe5a88fe2460c06794e164b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
