@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2581ecdd_e889de68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-07T15:29:20Z",
+      "side": 1,
+      "message": "restore won\u0027t be done in time and we will need to the bootreceiver anyway so this should just be moved into that.",
+      "parentUuid": "2e5d2df4_2b328589",
+      "revId": "54f043f8e89b9bf2d47c91e2ee46b099ad19868c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b50ed777_43f792c8",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 7
