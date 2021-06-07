@@ -51,6 +51,24 @@
       "parentUuid": "3e1d69ad_fbc70f93",
       "revId": "65aa3044fab94991534ad4ad730f14f3506041d6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4a60921_15c2f903",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-07T15:28:42Z",
+      "side": 1,
+      "message": "Of course, but people may not want to use microG in the profile.\n\nI don\u0027t think the eSIM app needs to be in the profile anyway. Not sure what stock does.",
+      "parentUuid": "98dd5b54_5a90029e",
+      "revId": "65aa3044fab94991534ad4ad730f14f3506041d6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
