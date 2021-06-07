@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2e5d2df4_2b328589",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-06-07T13:07:43Z",
+      "side": 1,
+      "message": "This was uploaded before the bootreceiver was made. It allows users to move away from v1 using backup/restore without requiring the boot receiver.",
+      "parentUuid": "219c684d_07f635e6",
+      "revId": "54f043f8e89b9bf2d47c91e2ee46b099ad19868c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b50ed777_43f792c8",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 7
