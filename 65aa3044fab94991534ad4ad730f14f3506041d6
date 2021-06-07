@@ -33,6 +33,24 @@
       "message": "It would also be good to have some comments in the code to see what it\u0027s doing.",
       "revId": "65aa3044fab94991534ad4ad730f14f3506041d6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98dd5b54_5a90029e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-06-07T13:11:21Z",
+      "side": 1,
+      "message": "That should be resolved by enabling microg settings in the profile",
+      "parentUuid": "3e1d69ad_fbc70f93",
+      "revId": "65aa3044fab94991534ad4ad730f14f3506041d6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
