@@ -21,7 +21,7 @@
     <string name="bluetooth_timeout_summary_30secs">30秒</string>
     <string name="bluetooth_timeout_summary_15secs">15秒</string>
     <string name="bluetooth_timeout_summary_never">从不</string>
-    <string name="bluetooth_timeout_summary">蓝牙将关闭于 <xliff:g id="timeout_description">%1$s</xliff:g> 后，前提是没有连接的设备</string>
+    <string name="bluetooth_timeout_summary">蓝牙将于<xliff:g id="timeout_description">%1$s</xliff:g>后关闭，前提是没有连接的设备</string>
     <string name="bluetooth_timeout_summary2">不自动关闭蓝牙</string>
     <string name="bluetooth_timeout">蓝牙超时</string>
     <string name="show_qs_on_secure_keyguard_summary">允许在安全锁屏上切换快速设置</string>

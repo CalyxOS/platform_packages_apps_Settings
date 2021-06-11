@@ -24,4 +24,26 @@
     <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
     <string name="bluetooth_timeout_summary">O Bluetooth será desativado depois de <xliff:g id="timeout_description">%1$s</xliff:g> se não haver dispositivos conectados</string>
     <string name="bluetooth_timeout">Tempo de expiração do Bluetooth</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as configurações rápidas na tela de bloqueio segura</string>
+    <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
+    <string name="user_add_managed_profile_item_summary">Perfis de trabalho compartilham o lançador, notificações e tarefas recentes com o usuário</string>
+    <string name="user_add_managed_profile_item_title">Perfil de trabalho</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, Tor e a maior parte das VPNs não funcionarão</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_30mins">30 minutos</string>
+    <string name="wifi_timeout_summary_10mins">10 minutos</string>
+    <string name="wifi_timeout_summary_5mins">5 minutos</string>
+    <string name="wifi_timeout_summary_2mins">2 minutos</string>
+    <string name="wifi_timeout_summary_1min">1 minuto</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_never">Nunca</string>
+    <string name="wifi_timeout_summary2">Desativada</string>
+    <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
+    <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
+    <string name="data_usage_app_restrict_background_all_summary">Habilitar uso da rede em segundo plano</string>
+    <string name="data_usage_app_restrict_background_all">Acesso a rede em segundo plano</string>
 </resources>

@@ -1,2 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_timeout_summary">接続されているデバイスがない場合、Bluetoothは<xliff:g id="timeout_description">%1$s</xliff:g>秒後に停止します</string>
+    <string name="vendor_security_patch">ベンダーセキュリティパッチレベル</string>
+    <string name="deny_new_usb_disabled">常に新規USBガジェットを許可する</string>
+    <string name="deny_new_usb_dynamic">アンロック中は新規USBガジェットを許可する</string>
+    <string name="deny_new_usb_enabled">新規USBガジェットを拒否する</string>
+    <string name="bluetooth_timeout_summary_never">なし</string>
+    <string name="bluetooth_timeout">Bluetooth タイムアウト</string>
+    <string name="bluetooth_timeout_summary2">Bluetooth を自動的に無効化しない</string>
+    <string name="show_qs_on_secure_keyguard_title">簡単な設定</string>
+    <string name="user_add_managed_profile_item_title">ワークプロフィール</string>
+    <string name="cleartext_network_policy_title">平文通信を制御する</string>
+    <string name="wifi_timeout_summary_8hours">8時間</string>
+    <string name="wifi_timeout_summary_4hours">4時間</string>
+    <string name="wifi_timeout_summary_2hours">2時間</string>
+    <string name="wifi_timeout_summary_1hour">1時間</string>
+    <string name="wifi_timeout_summary_30mins">30分</string>
+    <string name="wifi_timeout_summary_10mins">10分</string>
+    <string name="wifi_timeout_summary_5mins">5分</string>
+    <string name="wifi_timeout_summary_2mins">2分</string>
+    <string name="wifi_timeout_summary_1min">1分</string>
+    <string name="wifi_timeout_summary_30secs">30秒</string>
+    <string name="wifi_timeout_summary_15secs">15秒</string>
+    <string name="wifi_timeout_summary2">無効</string>
+    <string name="wifi_timeout_summary">ネットワーク接続がない場合、 Wi-Fi は<xliff:g id="timeout_description">%1$s</xliff:g>後にオフ状態に切り替わる</string>
+    <string name="wifi_timeout">Wi-Fi を自動的に切断する</string>
+    <string name="data_usage_app_restrict_background_all_summary">バックグラウンド通信を有効する</string>
+    <string name="data_usage_app_restrict_background_all">バックグラウンド通信アクセス</string>
+    <string name="bluetooth_timeout_summary_8hours">8時間</string>
+    <string name="bluetooth_timeout_summary_4hours">4時間</string>
+    <string name="bluetooth_timeout_summary_2hours">2時間</string>
+    <string name="bluetooth_timeout_summary_1hour">1時間</string>
+    <string name="bluetooth_timeout_summary_30mins">30分</string>
+    <string name="bluetooth_timeout_summary_10mins">10分</string>
+    <string name="bluetooth_timeout_summary_5mins">5分</string>
+    <string name="bluetooth_timeout_summary_2mins">2分</string>
+    <string name="bluetooth_timeout_summary_1min">1分</string>
+    <string name="bluetooth_timeout_summary_30secs">30秒</string>
+    <string name="bluetooth_timeout_summary_15secs">15秒</string>
+    <string name="deny_new_usb_title">USB を制御する</string>
+    <string name="panic_settings_title">パニック 設定を表示する</string>
+    <string name="calyxos_version">CalyxOS バージョン</string>
+</resources>
