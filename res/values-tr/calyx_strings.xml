@@ -22,7 +22,7 @@
     <string name="bluetooth_timeout_summary_15secs">15 saniye</string>
     <string name="bluetooth_timeout_summary_never">Asla</string>
     <string name="bluetooth_timeout_summary2">Bluetooth\'u otomatik olarak kapatma</string>
-    <string name="bluetooth_timeout_summary">Hiçbir aygıt bağlı değilse Bluetooth &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; sonra kapatılacak</string>
+    <string name="bluetooth_timeout_summary">Hiçbir aygıt bağlı değilse Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> sonra kapatılacak</string>
     <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
     <string name="show_qs_on_secure_keyguard_summary">Güvenli kilit ekranında hızlı ayarların değiştirilmesine izin ver</string>
     <string name="show_qs_on_secure_keyguard_title">Hızlı ayarlar</string>

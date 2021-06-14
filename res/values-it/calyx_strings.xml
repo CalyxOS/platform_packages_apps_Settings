@@ -9,7 +9,7 @@
     <string name="panic_settings_summary">Visualizza l\'opzione nel menu di spegimento che genera un panic d\'emergenza.</string>
     <string name="panic_settings_title">Mostra l\'opzione Panic</string>
     <string name="calyxos_version">Versione di CalyxOS</string>
-    <string name="bluetooth_timeout_summary">Il Bluetooth si spegnera\' dopo &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; se non e\' connesso nessun dispositivo</string>
+    <string name="bluetooth_timeout_summary">Il Bluetooth si spegnera\' dopo <xliff:g id="timeout_description">%1$s</xliff:g> se non e\' connesso nessun dispositivo</string>
     <string name="bluetooth_timeout_summary_8hours">8 ore</string>
     <string name="bluetooth_timeout_summary_4hours">4 ore</string>
     <string name="bluetooth_timeout_summary_2hours">2 ore</string>

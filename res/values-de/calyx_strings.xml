@@ -10,7 +10,7 @@
     <string name="deny_new_usb_title">USB einschränken</string>
     <string name="calyxos_version">CalyxOS Version</string>
     <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
-    <string name="bluetooth_timeout_summary">Bluetooth schaltet sich nach &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; aus, wenn keine Geräte verbunden sind</string>
+    <string name="bluetooth_timeout_summary">Bluetooth schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn keine Geräte verbunden sind</string>
     <string name="bluetooth_timeout">Bluetooth-Zeitabschaltung</string>
     <string name="bluetooth_timeout_summary_8hours">8 Stunden</string>
     <string name="bluetooth_timeout_summary_4hours">4 Stunden</string>

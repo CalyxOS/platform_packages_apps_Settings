@@ -22,6 +22,6 @@
     <string name="bluetooth_timeout_summary_1hour">1 hora</string>
     <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
     <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
-    <string name="bluetooth_timeout_summary">O Bluetooth será desativado depois de &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; se não haver dispositivos conectados</string>
+    <string name="bluetooth_timeout_summary">O Bluetooth será desativado depois de <xliff:g id="timeout_description">%1$s</xliff:g> se não haver dispositivos conectados</string>
     <string name="bluetooth_timeout">Tempo de expiração do Bluetooth</string>
 </resources>

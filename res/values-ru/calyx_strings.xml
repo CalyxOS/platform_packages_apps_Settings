@@ -10,7 +10,7 @@
     <string name="panic_settings_summary">Отображение опции кнопки питания, которая активирует тревожную кнопку.</string>
     <string name="panic_settings_title">Показать опцию \"Тревожная кнопка\"</string>
     <string name="vendor_security_patch">Исправления безопасности поставщика</string>
-    <string name="bluetooth_timeout_summary">Bluetooth будет отключен по прошествии &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; если ни одно устройство не подключено</string>
+    <string name="bluetooth_timeout_summary">Bluetooth будет отключен по прошествии <xliff:g id="timeout_description">%1$s</xliff:g> если ни одно устройство не подключено</string>
     <string name="bluetooth_timeout_summary_8hours">8 часов</string>
     <string name="bluetooth_timeout_summary_4hours">4 часа</string>
     <string name="bluetooth_timeout_summary_2hours">2 часа</string>

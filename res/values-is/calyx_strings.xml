@@ -21,7 +21,7 @@
     <string name="bluetooth_timeout_summary_15secs">15 sekúndur</string>
     <string name="bluetooth_timeout_summary_never">Aldrei</string>
     <string name="bluetooth_timeout_summary2">Ekki slökkva sjálfvirkt á Bluetooth</string>
-    <string name="bluetooth_timeout_summary">Slökkt verður á Bluetooth eftir &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; ef engin tæki tengjast</string>
+    <string name="bluetooth_timeout_summary">Slökkt verður á Bluetooth eftir <xliff:g id="timeout_description">%1$s</xliff:g> ef engin tæki tengjast</string>
     <string name="bluetooth_timeout">Bluetooth tímamörk</string>
     <string name="vendor_security_patch">Stig öryggislagfæringa framleiðanda</string>
 </resources>

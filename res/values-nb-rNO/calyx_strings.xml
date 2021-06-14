@@ -22,6 +22,6 @@
     <string name="bluetooth_timeout_summary_15secs">15 sekunder</string>
     <string name="bluetooth_timeout_summary_never">Aldri</string>
     <string name="bluetooth_timeout_summary2">Ikke skru av Blåtann automatisk</string>
-    <string name="bluetooth_timeout_summary">Blåtann vil bli skrudd av etter &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; hvis ingen enheter tilknyttes</string>
+    <string name="bluetooth_timeout_summary">Blåtann vil bli skrudd av etter <xliff:g id="timeout_description">%1$s</xliff:g> hvis ingen enheter tilknyttes</string>
     <string name="bluetooth_timeout">Blåtannstidsavbrudd</string>
 </resources>

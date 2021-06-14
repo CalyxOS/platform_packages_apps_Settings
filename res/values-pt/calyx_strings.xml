@@ -22,6 +22,6 @@
     <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
     <string name="bluetooth_timeout_summary_never">Nunca</string>
     <string name="bluetooth_timeout_summary2">Não desligar o Bluetooth automaticamente</string>
-    <string name="bluetooth_timeout_summary">Bluetooth irá desligar após &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; se nenhum aparelho estiver conectado</string>
+    <string name="bluetooth_timeout_summary">Bluetooth irá desligar após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum aparelho estiver conectado</string>
     <string name="bluetooth_timeout">timeout do Bluetooth</string>
 </resources>

@@ -13,7 +13,7 @@
     <string name="bluetooth_timeout_summary_15secs">15 sekunnissa</string>
     <string name="bluetooth_timeout_summary_never">Ei koskaan</string>
     <string name="bluetooth_timeout_summary2">Älä katkaise automaattisesti Bluetooth-yhteyttä</string>
-    <string name="bluetooth_timeout_summary">Bluetooth aikakatkaistaan &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; mikäli laitetta ei yhdistetä</string>
+    <string name="bluetooth_timeout_summary">Bluetooth aikakatkaistaan <xliff:g id="timeout_description">%1$s</xliff:g> mikäli laitetta ei yhdistetä</string>
     <string name="bluetooth_timeout">Bluetoothin aikakatkaisu</string>
     <string name="vendor_security_patch">Valmistajan tietoturvakorjauksen taso</string>
     <string name="deny_new_usb_disabled">Salli kaikki USB-laitteet aina</string>

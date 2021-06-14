@@ -22,6 +22,6 @@
     <string name="bluetooth_timeout_summary_15secs">15 detik</string>
     <string name="bluetooth_timeout_summary_never">Tidak pernah</string>
     <string name="bluetooth_timeout_summary2">Jangan matikan Bluetooth secara otomatis</string>
-    <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt;%1$s&lt;/xliff:g&gt; jika tidak ada perangkat yang terhubung</string>
+    <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat yang terhubung</string>
     <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
 </resources>
