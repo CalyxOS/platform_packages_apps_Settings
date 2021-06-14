@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2576ed74_535ddadd",
+        "filename": "res/values-cs/calyx_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-14T11:02:42Z",
+      "side": 1,
+      "message": "woops",
+      "revId": "8b4572b5fd215f761c3869a1d296fbb3b3bb88ca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
