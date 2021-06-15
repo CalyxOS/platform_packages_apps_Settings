@@ -167,8 +167,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
                     } catch (PackageManager.NameNotFoundException e) {
                     }
                 }
-                mRestrictBackground = findPreference(KEY_RESTRICT_BACKGROUND);
-                mRestrictBackground.setOnPreferenceChangeListener(this);
+                removePreference(KEY_RESTRICT_BACKGROUND);
                 mUnrestrictedData = findPreference(KEY_UNRESTRICTED_DATA);
                 mUnrestrictedData.setOnPreferenceChangeListener(this);
             }
