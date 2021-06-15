@@ -148,11 +148,6 @@ public class UserSettings extends SettingsPreferenceFragment
     // Must match ManagedProvisioning's ProvisioningParams.TAG_IS_UNMANAGED_PROVISIONING
     private static final String TAG_IS_UNMANAGED_PROVISIONING = "is-unmanaged-provisioning";
 
-    private static final String FDROID_PACKAGE = "org.fdroid.fdroid";
-    private static final String FDROID_UPDATEJOBSERVICE_CLASS = ".UpdateJobService";
-    // Must match F-Droid's UpdateService JOB_ID
-    private static final int FDROID_UPDATE_JOB_ID = 0xfedcba;
-
     private static final String SETUPWIZARD_PACKAGE = "org.calyxos.setupwizard";
     private static final String SETUPWIZARD_ACTIVITY_CLASS = ".SetupWizardActivity";
 
