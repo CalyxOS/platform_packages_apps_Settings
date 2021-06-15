@@ -158,11 +158,6 @@ public class UserSettings extends SettingsPreferenceFragment
     // Must match ManagedProvisioning's ProvisioningParams.TAG_IS_UNMANAGED_PROVISIONING
     private static final String TAG_IS_UNMANAGED_PROVISIONING = "is-unmanaged-provisioning";
 
-    private static final String FDROID_PACKAGE = "org.fdroid.fdroid";
-    private static final String FDROID_UPDATEJOBSERVICE_CLASS = ".UpdateJobService";
-    // Must match F-Droid's UpdateService JOB_ID
-    private static final int FDROID_UPDATE_JOB_ID = 0xfedcba;
-
     private static final String SEEDVAULT_PACKAGE = "com.stevesoltys.seedvault";
     private static final String SEEDVAULT_RESTORE_INTENT = ".RESTORE_BACKUP";
     private static final String SEEDVAULT_RESTORE_CLASS = ".restore.RestoreActivity";
@@ -840,12 +835,6 @@ public class UserSettings extends SettingsPreferenceFragment
                             int userId = user.getIdentifier();
                             mUserManager.setUserName(userId, username);
                             mUserManager.setUserEnabled(userId);
-                            context.getSystemService(JobScheduler.class).scheduleAsPackage(
-                                    new JobInfo.Builder(FDROID_UPDATE_JOB_ID,
-                                    new ComponentName(FDROID_PACKAGE, FDROID_PACKAGE +
-                                            FDROID_UPDATEJOBSERVICE_CLASS))
-                                    .setOverrideDeadline(0)
-                                    .build(), FDROID_PACKAGE, userId, TAG);
                             intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
                             intent.putExtra(Intent.EXTRA_USER, user);
                             intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
