@@ -148,4 +148,8 @@
 
     <!-- Biometric category title - ways to use the configured biometric options [CHAR LIMIT=50] -->
     <string name="biometric_settings_category_ways_to_use">Ways to use</string>
+
+    <!-- App data usage Datura Firewall link -->
+    <string name="data_usage_app_datura_firewall">Datura Firewall</string>
+    <string name="data_usage_app_datura_firewall_summary">Network Access, Background data, and Wi-Fi, Mobile data and VPN settings have been moved to Datura Firewall. Tap to open.</string>
 </resources>
