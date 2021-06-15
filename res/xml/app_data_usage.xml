@@ -56,13 +56,6 @@
             android:title="@string/data_usage_app_settings" />
 
         <com.android.settingslib.RestrictedSwitchPreference
-            android:key="restrict_background"
-            android:title="@string/data_usage_app_restrict_background"
-            android:summary="@string/data_usage_app_restrict_background_summary"
-            settings:useAdditionalSummary="true"
-            settings:restrictedSwitchSummary="@string/disabled_by_admin" />
-
-        <com.android.settingslib.RestrictedSwitchPreference
             android:key="unrestricted_data_saver"
             android:title="@string/unrestricted_app_title"
             android:summary="@string/unrestricted_app_summary"
