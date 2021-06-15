@@ -58,6 +58,11 @@
             android:key="app_settings"
             android:title="@string/data_usage_app_settings" />
 
+        <Preference
+            android:key="datura_firewall"
+            android:title="@string/data_usage_app_datura_firewall"
+            android:summary="@string/data_usage_app_datura_firewall_summary" />
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="restrict_background"
             android:title="@string/data_usage_app_restrict_background_all"

@@ -27,6 +27,7 @@ import android.net.NetworkTemplate;
 import android.os.Bundle;
 import android.os.Process;
 import android.os.UserHandle;
+import android.os.UserManager;
 import android.telephony.SubscriptionManager;
 import android.util.ArraySet;
 import android.util.IconDrawableFactory;
@@ -69,6 +70,9 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     static final String ARG_NETWORK_CYCLES = "network_cycles";
     static final String ARG_SELECTED_CYCLE = "selected_cycle";
 
+    private static final String DATURA_PACKAGE_NAME = "org.calyxos.datura";
+    private static final String DATURA_MAIN_ACTIVITY = DATURA_PACKAGE_NAME + ".main.MainActivity";
+
     private static final String KEY_TOTAL_USAGE = "total_usage";
     private static final String KEY_FOREGROUND_USAGE = "foreground_usage";
     private static final String KEY_BACKGROUND_USAGE = "background_usage";
@@ -77,6 +81,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     private static final String KEY_APP_LIST = "app_list";
     private static final String KEY_CYCLE = "cycle";
     private static final String KEY_UNRESTRICTED_DATA = "unrestricted_data_saver";
+    private static final String KEY_DATURA_FIREWALL = "datura_firewall";
 
     private static final int LOADER_APP_USAGE_DATA = 2;
     private static final int LOADER_APP_PREF = 3;
@@ -87,6 +92,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     private Preference mForegroundUsage;
     private Preference mBackgroundUsage;
     private Preference mAppSettings;
+    private Preference mDaturaFirewall;
     private RestrictedSwitchPreference mRestrictBackground;
     private PreferenceCategory mAppList;
 
@@ -102,6 +108,8 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     NetworkTemplate mTemplate;
     private AppItem mAppItem;
     private Intent mAppSettingsIntent;
+    private Intent mDaturaFirewallIntent;
+    private UserHandle mParentUserHandle;
     private SpinnerPreference mCycle;
     private RestrictedSwitchPreference mUnrestrictedData;
     private DataSaverBackend mDataSaverBackend;
@@ -160,6 +168,14 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
         mTotalUsage = findPreference(KEY_TOTAL_USAGE);
         mForegroundUsage = findPreference(KEY_FOREGROUND_USAGE);
         mBackgroundUsage = findPreference(KEY_BACKGROUND_USAGE);
+        mDaturaFirewall = findPreference(KEY_DATURA_FIREWALL);
+
+        mParentUserHandle = getUserOrProfileParent(mContext,
+                UserHandle.getUserHandleForUid(mAppItem.key));
+        mDaturaFirewallIntent = new Intent(Intent.ACTION_MAIN)
+                .setPackage(DATURA_PACKAGE_NAME)
+                .setClassName(DATURA_PACKAGE_NAME, DATURA_MAIN_ACTIVITY)
+                .putExtra(Intent.EXTRA_UID, mAppItem.key);
 
         initCycle();
 
@@ -279,6 +295,9 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
             // TODO: target towards entire UID instead of just first package
             getActivity().startActivityAsUser(mAppSettingsIntent, new UserHandle(
                     UserHandle.getUserId(mAppItem.key)));
+            return true;
+        } else if (preference == mDaturaFirewall) {
+            getActivity().startActivityAsUser(mDaturaFirewallIntent, mParentUserHandle);
             return true;
         }
         return super.onPreferenceTreeClick(preference);
@@ -533,6 +552,18 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     public void onDenylistStatusChanged(int uid, boolean isDenylisted) {
         if (mAppItem.uids.get(uid, false)) {
             updatePrefs(isDenylisted, getUnrestrictData());
+        }
+    }
+
+    /** Return the parent user if this is a profile; otherwise, return the user. */
+    private static UserHandle getUserOrProfileParent(Context context, UserHandle userHandle) {
+        final UserManager um = (UserManager) context.getSystemService(Context.USER_SERVICE);
+        try {
+            final UserHandle parentUserHandle = um.getProfileParent(userHandle);
+            return parentUserHandle != null ? parentUserHandle : userHandle;
+        } catch (Exception e) {
+            Log.w(TAG, "Error retrieving parent user of " + userHandle);
+            return userHandle;
         }
     }
 }
