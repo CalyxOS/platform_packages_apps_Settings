@@ -856,8 +856,8 @@ public class UserSettings extends SettingsPreferenceFragment
                                 IBackupManager backupManager = IBackupManager.Stub.asInterface(
                                         ServiceManager.getService(Context.BACKUP_SERVICE));
                                 backupManager.setBackupServiceActive(userId, true);
-                                context.getSystemService(TrustManager.class)
-                                        .setDeviceLockedForUser(userId, false);
+                                new LockPatternUtils(context).setSeparateProfileChallengeEnabled(
+                                        userId, false, null);
                                 intent = new Intent(SEEDVAULT_PACKAGE + SEEDVAULT_RESTORE_INTENT);
                                 intent.setClassName(SEEDVAULT_PACKAGE,
                                         SEEDVAULT_PACKAGE + SEEDVAULT_RESTORE_CLASS);
