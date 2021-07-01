@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ccc1bf02_8c7a27ec",
+        "filename": "src/com/android/settings/users/UserSettings.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 860,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2021-07-01T19:29:53Z",
+      "side": 1,
+      "message": "This is code only runs once while a new profile is being set up, right?\nSo there\u0027s no danger in reverting any settings the user might have set with regards to work profile lock screen? I recently learned that there is people who really use a separate keyguard secret for their profiles.\n\nOtherwise, I don\u0027t really now this code to judge whether this here is a safe thing to do or not.",
+      "revId": "40b4c95227c97ac11cef425368450331bc3a1501",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
