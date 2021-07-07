@@ -288,11 +288,6 @@
             android:summary="@string/wifi_scan_throttling_summary" />
 
         <SwitchPreference
-            android:key="wifi_enhanced_mac_randomization"
-            android:title="@string/wifi_enhanced_mac_randomization"
-            android:summary="@string/wifi_enhanced_mac_randomization_summary" />
-
-        <SwitchPreference
             android:key="cleartext_network_policy"
             android:title="@string/cleartext_network_policy_title"
             android:summary="@string/cleartext_network_policy_summary"
