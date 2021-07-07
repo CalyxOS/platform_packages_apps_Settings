@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a1225ce_8350761a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-07T15:33:34Z",
+      "side": 1,
+      "message": "While this is fine, it would be better if it were a part of the existing Privacy menu, which has the \"Use randomized MAC\" option, although perhaps that may be more confusing.\n\n\nIn which case we may want to make sure the string here reflects what this actually does and also make sure it works on all our devices.",
+      "revId": "02ef63b497009cfb5a5f6efe2db7085deb71e00a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
