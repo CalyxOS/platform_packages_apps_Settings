@@ -48,6 +48,12 @@
         android:summary="@string/wifi_cellular_data_fallback_summary"
         settings:controller="com.android.settings.wifi.CellularFallbackPreferenceController" />
 
+    <SwitchPreference
+        android:key="wifi_enhanced_mac_randomization"
+        android:title="@string/wifi_enhanced_mac_randomization"
+        android:summary="@string/wifi_enhanced_mac_randomization_summary"
+        settings:controller="com.android.settings.wifi.WifiEnhancedMacRandomizationPreferenceController"/>
+
     <Preference
         android:key="install_credentials"
         android:title="@string/wifi_install_credentials">

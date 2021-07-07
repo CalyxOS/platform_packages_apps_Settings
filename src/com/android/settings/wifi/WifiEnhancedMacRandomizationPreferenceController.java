@@ -14,22 +14,23 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.wifi;
 
 import android.content.Context;
+import android.content.Intent;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.development.DeveloperOptionsPreferenceController;
+import com.android.settings.core.TogglePreferenceController;
 
 /**
- * Developer option controller for enhanced MAC randomization.
+ * Controller for enhanced MAC randomization.
  */
 public class WifiEnhancedMacRandomizationPreferenceController
-        extends DeveloperOptionsPreferenceController
+        extends TogglePreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
     private static final String WIFI_ENHANCED_MAC_RANDOMIZATION_KEY =
             "wifi_enhanced_mac_randomization";
@@ -37,37 +38,23 @@ public class WifiEnhancedMacRandomizationPreferenceController
             "enhanced_mac_randomization_force_enabled";
 
     public WifiEnhancedMacRandomizationPreferenceController(Context context) {
-        super(context);
+        super(context, WIFI_ENHANCED_MAC_RANDOMIZATION_KEY);
     }
 
     @Override
-    public String getPreferenceKey() {
-        return WIFI_ENHANCED_MAC_RANDOMIZATION_KEY;
+    public int getAvailabilityStatus() {
+        return AVAILABLE;
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        int isEnabledInt = ((Boolean) newValue) ? 1 : 0;
-        Settings.Global.putInt(mContext.getContentResolver(),
-                ENHANCED_MAC_RANDOMIZATION_FEATURE_FLAG, isEnabledInt);
-        return true;
+    public boolean isChecked() {
+        return Settings.Global.getInt(mContext.getContentResolver(),
+                ENHANCED_MAC_RANDOMIZATION_FEATURE_FLAG, 0) == 1;
     }
 
     @Override
-    public void updateState(Preference preference) {
-        boolean enabled = false;
-        if (Settings.Global.getInt(mContext.getContentResolver(),
-                ENHANCED_MAC_RANDOMIZATION_FEATURE_FLAG, 0) == 1) {
-            enabled = true;
-        }
-        ((SwitchPreference) mPreference).setChecked(enabled);
-    }
-
-    @Override
-    protected void onDeveloperOptionsSwitchDisabled() {
-        super.onDeveloperOptionsSwitchDisabled();
-        Settings.Global.putInt(mContext.getContentResolver(),
-                ENHANCED_MAC_RANDOMIZATION_FEATURE_FLAG, 0);
-        ((SwitchPreference) mPreference).setChecked(false);
+    public boolean setChecked(boolean isChecked) {
+        return Settings.Global.putInt(mContext.getContentResolver(),
+                ENHANCED_MAC_RANDOMIZATION_FEATURE_FLAG, isChecked ? 1 : 0);
     }
 }
