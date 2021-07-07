@@ -16,26 +16,18 @@
 
 package com.android.settings.users;
 
-import static android.os.Process.myUserHandle;
-
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
 import android.app.backup.IBackupManager;
-import android.app.job.JobInfo;
-import android.app.job.JobScheduler;
 import android.app.settings.SettingsEnums;
-import android.app.trust.TrustManager;
 import android.content.BroadcastReceiver;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.content.pm.UserInfo;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -51,7 +43,6 @@ import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.provider.ContactsContract;
-import android.util.ArraySet;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.Menu;
@@ -84,7 +75,6 @@ import com.android.settingslib.RestrictedPreference;
 import com.android.settingslib.drawable.CircleFramedDrawable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.utils.ThreadUtils;
-
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import java.io.IOException;
@@ -94,7 +84,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
-import java.util.Set;
+
+import static android.os.Process.myUserHandle;
 
 /**
  * Screen that manages the list of users on the device.
@@ -147,7 +138,6 @@ public class UserSettings extends SettingsPreferenceFragment
     private static final int USER_TYPE_MANAGED_PROFILE = 3;
 
     private static final int REQUEST_CHOOSE_LOCK = 10;
-    private static final int REQUEST_RESTORE_USER = 11;
 
     private static final String KEY_ADD_USER_LONG_MESSAGE_DISPLAYED =
             "key_add_user_long_message_displayed";
@@ -163,9 +153,8 @@ public class UserSettings extends SettingsPreferenceFragment
     // Must match F-Droid's UpdateService JOB_ID
     private static final int FDROID_UPDATE_JOB_ID = 0xfedcba;
 
-    private static final String SEEDVAULT_PACKAGE = "com.stevesoltys.seedvault";
-    private static final String SEEDVAULT_RESTORE_INTENT = ".RESTORE_BACKUP";
-    private static final String SEEDVAULT_RESTORE_CLASS = ".restore.RestoreActivity";
+    private static final String SETUPWIZARD_PACKAGE = "org.calyxos.setupwizard";
+    private static final String SETUPWIZARD_ACTIVITY_CLASS = ".SetupWizardActivity";
 
     static {
         USER_REMOVED_INTENT_FILTER = new IntentFilter(Intent.ACTION_USER_REMOVED);
@@ -463,17 +452,6 @@ public class UserSettings extends SettingsPreferenceFragment
         if (requestCode == REQUEST_CHOOSE_LOCK) {
             if (resultCode != Activity.RESULT_CANCELED && hasLockscreenSecurity()) {
                 addUserNow(USER_TYPE_RESTRICTED_PROFILE);
-            }
-        } else if (requestCode == REQUEST_RESTORE_USER) {
-            List<UserInfo> profiles = mUserManager.getProfiles(UserHandle.myUserId());
-            Collections.sort(profiles, (UserInfo userInfo, UserInfo userInfo1) ->
-                    Long.compare(userInfo1.creationTime, userInfo.creationTime));
-            for (UserInfo profile : profiles) {
-                if (profile.isManagedProfile()) {
-                    mHandler.sendMessage(mHandler.obtainMessage(MESSAGE_USER_CREATED, profile.id,
-                            profile.serialNumber));
-                    break;
-                }
             }
         } else {
             mEditUserInfoController.onActivityResult(requestCode, resultCode, data);
@@ -840,12 +818,6 @@ public class UserSettings extends SettingsPreferenceFragment
                             int userId = user.getIdentifier();
                             mUserManager.setUserName(userId, username);
                             mUserManager.setUserEnabled(userId);
-                            context.getSystemService(JobScheduler.class).scheduleAsPackage(
-                                    new JobInfo.Builder(FDROID_UPDATE_JOB_ID,
-                                    new ComponentName(FDROID_PACKAGE, FDROID_PACKAGE +
-                                            FDROID_UPDATEJOBSERVICE_CLASS))
-                                    .setOverrideDeadline(0)
-                                    .build(), FDROID_PACKAGE, userId, TAG);
                             intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
                             intent.putExtra(Intent.EXTRA_USER, user);
                             intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
@@ -856,16 +828,15 @@ public class UserSettings extends SettingsPreferenceFragment
                                 IBackupManager backupManager = IBackupManager.Stub.asInterface(
                                         ServiceManager.getService(Context.BACKUP_SERVICE));
                                 backupManager.setBackupServiceActive(userId, true);
-                                new LockPatternUtils(context).setSeparateProfileChallengeEnabled(
-                                        userId, false, null);
-                                intent = new Intent(SEEDVAULT_PACKAGE + SEEDVAULT_RESTORE_INTENT);
-                                intent.setClassName(SEEDVAULT_PACKAGE,
-                                        SEEDVAULT_PACKAGE + SEEDVAULT_RESTORE_CLASS);
-                                getActivity().startActivityForResultAsUser(intent,
-                                        REQUEST_RESTORE_USER, user);
                             } catch (RemoteException e) {
-                                Log.e(TAG, "Failed to setup profile restoration", e);
+                                Log.e(TAG, "Failed to set backup service active", e);
                             }
+                            new LockPatternUtils(context).setSeparateProfileChallengeEnabled(
+                                    userId, false, null);
+                            intent = new Intent(Intent.ACTION_MAIN);
+                            intent.setClassName(SETUPWIZARD_PACKAGE,
+                                    SETUPWIZARD_PACKAGE + SETUPWIZARD_ACTIVITY_CLASS);
+                            getActivity().startActivityAsUser(intent, user);
                             context.unregisterReceiver(this);
                         }
                     }, intentFilter);
