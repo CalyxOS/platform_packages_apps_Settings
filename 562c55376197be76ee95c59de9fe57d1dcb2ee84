@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0771f24b_45755dec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2021-07-08T20:19:35Z",
+      "side": 1,
+      "message": "FWIW - I like the idea.  Perhaps it would be good to warn that calls and device location tools will not function in the case where a device is not using direct boot (or maybe the feature should be disabled altogether ?)",
+      "revId": "562c55376197be76ee95c59de9fe57d1dcb2ee84",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
