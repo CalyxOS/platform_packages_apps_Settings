@@ -16,6 +16,24 @@
       "message": "FWIW - I like the idea.  Perhaps it would be good to warn that calls and device location tools will not function in the case where a device is not using direct boot (or maybe the feature should be disabled altogether ?)",
       "revId": "562c55376197be76ee95c59de9fe57d1dcb2ee84",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "350c00d7_c61d238a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-08T20:43:26Z",
+      "side": 1,
+      "message": "Good point, I\u0027d be inclined to go with a warning since this can still be useful as a security feature even on those (clear out encryption keys), and it also works for people who just want to reboot their devices once in a while (certainly helps with memory leaks!)",
+      "parentUuid": "0771f24b_45755dec",
+      "revId": "562c55376197be76ee95c59de9fe57d1dcb2ee84",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
