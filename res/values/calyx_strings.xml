@@ -90,4 +90,8 @@
 
     <!-- Under About -> Android Version -->
     <string name="aosp_module_version">Mainline module update</string>
+
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">Force all traffic through this VPN. Requires no active VPN connections in any profile/user to be toggled. Note: While in use, enabling a VPN in another profile/user is not officially supported</string>
 </resources>
