@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9061c219_3aba4901",
+        "filename": "res/values/calyx_arrays.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-08T15:45:37Z",
+      "side": 1,
+      "message": "These should be @string entries",
+      "revId": "1e94c4226012ebd301d120b41ef7e0cf7f3d318a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3a311cf5_98ed43fb",
         "filename": "res/values/cm_strings.xml",
         "patchSetId": 2
