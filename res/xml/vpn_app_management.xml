@@ -23,6 +23,15 @@
                 android:selectable="false"/>
 
         <com.android.settingslib.RestrictedSwitchPreference
+            android:key="global_vpn"
+            android:title="@string/global_vpn_title"
+            android:defaultValue="false"
+            android:summary="@string/global_vpn_summary"
+            settings:userRestriction="no_config_vpn"
+            settings:useAdditionalSummary="true"
+            settings:restrictedSwitchSummary="@string/disabled_by_admin_summary_text" />
+
+        <com.android.settingslib.RestrictedSwitchPreference
                 android:key="always_on_vpn"
                 android:title="@string/vpn_menu_lockdown"
                 android:defaultValue="false"

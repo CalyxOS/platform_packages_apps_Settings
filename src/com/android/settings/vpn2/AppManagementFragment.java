@@ -35,6 +35,7 @@ import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -65,6 +66,7 @@ public class AppManagementFragment extends SettingsPreferenceFragment
     private static final String ARG_PACKAGE_NAME = "package";
 
     private static final String KEY_VERSION = "version";
+    private static final String KEY_GLOBAL_VPN = "global_vpn";
     private static final String KEY_ALWAYS_ON_VPN = "always_on_vpn";
     private static final String KEY_LOCKDOWN_VPN = "lockdown_vpn";
     private static final String KEY_FORGET_VPN = "forget_vpn";
@@ -82,6 +84,7 @@ public class AppManagementFragment extends SettingsPreferenceFragment
 
     // UI preference
     private Preference mPreferenceVersion;
+    private RestrictedSwitchPreference mPreferenceGlobal;
     private RestrictedSwitchPreference mPreferenceAlwaysOn;
     private RestrictedSwitchPreference mPreferenceLockdown;
     private RestrictedPreference mPreferenceForget;
@@ -129,10 +132,12 @@ public class AppManagementFragment extends SettingsPreferenceFragment
                 .asInterface(ServiceManager.getService(Context.CONNECTIVITY_SERVICE));
 
         mPreferenceVersion = findPreference(KEY_VERSION);
+        mPreferenceGlobal = (RestrictedSwitchPreference) findPreference(KEY_GLOBAL_VPN);
         mPreferenceAlwaysOn = (RestrictedSwitchPreference) findPreference(KEY_ALWAYS_ON_VPN);
         mPreferenceLockdown = (RestrictedSwitchPreference) findPreference(KEY_LOCKDOWN_VPN);
         mPreferenceForget = (RestrictedPreference) findPreference(KEY_FORGET_VPN);
 
+        mPreferenceGlobal.setOnPreferenceChangeListener(this);
         mPreferenceAlwaysOn.setOnPreferenceChangeListener(this);
         mPreferenceLockdown.setOnPreferenceChangeListener(this);
         mPreferenceForget.setOnPreferenceClickListener(this);
@@ -167,6 +172,8 @@ public class AppManagementFragment extends SettingsPreferenceFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         switch (preference.getKey()) {
+            case KEY_GLOBAL_VPN:
+                return onGlobalVpnClick((Boolean) newValue);
             case KEY_ALWAYS_ON_VPN:
                 return onAlwaysOnVpnClick((Boolean) newValue, mPreferenceLockdown.isChecked());
             case KEY_LOCKDOWN_VPN:
@@ -206,6 +213,11 @@ public class AppManagementFragment extends SettingsPreferenceFragment
         return setAlwaysOnVpnByUI(alwaysOnSetting, lockdown);
     }
 
+    private boolean onGlobalVpnClick(final boolean global) {
+        return Settings.Global.putString(getContext().getContentResolver(),
+                Settings.Global.GLOBAL_VPN_APP, global ? mPackageName : null);
+    }
+
     @Override
     public void onConfirmLockdown(Bundle options, boolean isEnabled, boolean isLockdown) {
         setAlwaysOnVpnByUI(isEnabled, isLockdown);
@@ -240,6 +252,7 @@ public class AppManagementFragment extends SettingsPreferenceFragment
             final boolean lockdown = alwaysOn
                     && VpnUtils.isAnyLockdownActive(getActivity());
 
+            mPreferenceGlobal.setChecked(isGlobalVpn());
             mPreferenceAlwaysOn.setChecked(alwaysOn);
             mPreferenceLockdown.setChecked(lockdown);
             updateRestrictedViews();
@@ -248,6 +261,8 @@ public class AppManagementFragment extends SettingsPreferenceFragment
 
     private void updateRestrictedViews() {
         if (isAdded()) {
+            mPreferenceGlobal.checkRestrictionAndSetDisabled(UserManager.DISALLOW_CONFIG_VPN,
+                    mUserId);
             mPreferenceAlwaysOn.checkRestrictionAndSetDisabled(UserManager.DISALLOW_CONFIG_VPN,
                     mUserId);
             mPreferenceLockdown.checkRestrictionAndSetDisabled(UserManager.DISALLOW_CONFIG_VPN,
@@ -283,6 +298,10 @@ public class AppManagementFragment extends SettingsPreferenceFragment
 
     private boolean isVpnAlwaysOn() {
         return mPackageName.equals(getAlwaysOnVpnPackage());
+    }
+
+    private boolean isGlobalVpn() {
+        return mPackageName.equals(Settings.Global.getString(getContext().getContentResolver(), Settings.Global.GLOBAL_VPN_APP));
     }
 
     /**
