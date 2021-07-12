@@ -4897,6 +4897,7 @@
             </intent-filter>
         </activity>
 
+<<<<<<< HEAD   (1c9bfa Add toggle for share intents across profiles)
         <activity
             android:name=".spa.SpaActivity"
             android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
@@ -4921,6 +4922,15 @@
             android:name="androidx.startup.InitializationProvider"
             android:authorities="${applicationId}.androidx-startup"
             tools:node="remove" />
+=======
+        <receiver android:name=".users.UserTimeoutReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_TIMEOUT"/>
+            </intent-filter>
+        </receiver>
+>>>>>>> CHANGE (7129de Work profile work hours feature)
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>

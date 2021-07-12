@@ -76,6 +76,14 @@ public class ManagedProfileSettings extends DashboardFragment {
         if (mManagedUser == null) {
             getActivity().finish();
         }
+<<<<<<< HEAD   (1c9bfa Add toggle for share intents across profiles)
+=======
+        use(WorkModePreferenceController.class).setManagedUser(mManagedUser);
+        use(ContactSearchPreferenceController.class).setManagedUser(mManagedUser);
+        use(CrossProfileCalendarPreferenceController.class).setManagedUser(mManagedUser);
+        use(CrossProfileSharingPreferenceController.class).setManagedUser(mManagedUser);
+        use(WorkHoursPreferenceController.class).setManagedUser(mManagedUser);
+>>>>>>> CHANGE (7129de Work profile work hours feature)
     }
 
     @Override

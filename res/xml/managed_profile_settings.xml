@@ -43,9 +43,17 @@
         android:title="@string/cross_profile_sharing_title"
         settings:controller="com.android.settings.accounts.CrossProfileSharingPreferenceController"/>
 
+<<<<<<< HEAD   (1c9bfa Add toggle for share intents across profiles)
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/managed_profile_settings_footer"
         android:key="managed_profile_footer"
         settings:searchable="false"/>
+=======
+    <SwitchPreference
+        android:key="work_hours"
+        android:title="@string/work_hours_title"
+        android:summary="@string/work_hours_summary"
+        settings:controller="com.android.settings.accounts.WorkHoursPreferenceController"/>
+>>>>>>> CHANGE (7129de Work profile work hours feature)
 
 </PreferenceScreen>
