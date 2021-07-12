@@ -3441,9 +3441,9 @@
                        android:value="com.android.settings.statusbar.StatusBarSettings"/>
         </activity>
 
-        <receiver android:name=".users.BootReceiver">
+        <receiver android:name=".users.UserTimeoutReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_TIMEOUT"/>
             </intent-filter>
         </receiver>
 
