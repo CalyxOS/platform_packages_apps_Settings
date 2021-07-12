@@ -19,14 +19,20 @@ package com.android.settings.users;
 import static android.os.UserHandle.USER_NULL;
 
 import android.app.ActivityManager;
+import android.app.AlarmManager;
 import android.app.Dialog;
+import android.app.PendingIntent;
+import android.app.TimePickerDialog;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.UserInfo;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.provider.Settings;
+import android.text.format.DateFormat;
 import android.util.Log;
 
 import androidx.annotation.VisibleForTesting;
@@ -41,12 +47,13 @@ import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.settingslib.RestrictedPreference;
 
+import java.util.Calendar;
 import java.util.List;
 
 /**
  * Settings screen for configuring, deleting or switching to a specific user.
  * It is shown when you tap on a user in the user management (UserSettings) screen.
- *
+ * <p>
  * Arguments to this fragment must include the userId of the user (in EXTRA_USER_ID) for whom
  * to display controls.
  */
@@ -59,15 +66,23 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
     private static final String KEY_ENABLE_TELEPHONY = "enable_calling";
     private static final String KEY_REMOVE_USER = "remove_user";
     private static final String KEY_APP_AND_CONTENT_ACCESS = "app_and_content_access";
+    private static final String KEY_USER_TIMEOUT = "user_timeout";
 
-    /** Integer extra containing the userId to manage */
+    private static final String ACTION_USER_TIMEOUT = "android.intent.action.USER_TIMEOUT";
+
+    /**
+     * Integer extra containing the userId to manage
+     */
     static final String EXTRA_USER_ID = "user_id";
 
     private static final int DIALOG_CONFIRM_REMOVE = 1;
     private static final int DIALOG_CONFIRM_ENABLE_CALLING = 2;
     private static final int DIALOG_CONFIRM_ENABLE_CALLING_AND_SMS = 3;
     private static final int DIALOG_SETUP_USER = 4;
+    private static final int DIALOG_USER_TIMEOUT = 5;
 
+    private AlarmManager mAlarmManager;
+    private PendingIntent mPendingIntent;
     private UserManager mUserManager;
     private UserCapabilities mUserCaps;
 
@@ -78,6 +93,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
     Preference mAppAndContentAccessPref;
     @VisibleForTesting
     Preference mRemoveUserPref;
+    private SwitchPreference mUserTimeoutPref;
 
     @VisibleForTesting
     UserInfo mUserInfo;
@@ -93,6 +109,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
         super.onCreate(icicle);
 
         final Context context = getActivity();
+        mAlarmManager = context.getSystemService(AlarmManager.class);
         mUserManager = (UserManager) context.getSystemService(Context.USER_SERVICE);
         mUserCaps = UserCapabilities.create(context);
         addPreferencesFromResource(R.xml.user_details_settings);
@@ -114,10 +131,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 return true;
             }
         } else if (preference == mSwitchUserPref) {
-            if (mUserInfo.isManagedProfile()) {
-                startUser();
-                return true;
-            } else if (canSwitchUserNow()) {
+            if (canSwitchUserNow()) {
                 if (shouldShowSetupPromptDialog()) {
                     showDialog(DIALOG_SETUP_USER);
                 } else {
@@ -134,12 +148,24 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (Boolean.TRUE.equals(newValue)) {
-            showDialog(mUserInfo.isGuest() ? DIALOG_CONFIRM_ENABLE_CALLING
-                    : DIALOG_CONFIRM_ENABLE_CALLING_AND_SMS);
-            return false;
+        if (preference == mPhonePref) {
+            if (Boolean.TRUE.equals(newValue)) {
+                showDialog(mUserInfo.isGuest() ? DIALOG_CONFIRM_ENABLE_CALLING
+                        : DIALOG_CONFIRM_ENABLE_CALLING_AND_SMS);
+                return false;
+            }
+            enableCallsAndSms(false);
+        } else if (preference == mUserTimeoutPref) {
+            if (Boolean.TRUE.equals(newValue)) {
+                showDialog(DIALOG_USER_TIMEOUT);
+                return false;
+            } else {
+                Settings.Secure.putLongForUser(getActivity().getContentResolver(),
+                        Settings.Secure.USER_ACTIVITY_END_TIME, -1, mUserInfo.id);
+                mAlarmManager.cancel(mPendingIntent);
+                mUserTimeoutPref.setSummary(null);
+            }
         }
-        enableCallsAndSms(false);
         return true;
     }
 
@@ -154,6 +180,8 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 return SettingsEnums.DIALOG_USER_ENABLE_CALLING_AND_SMS;
             case DIALOG_SETUP_USER:
                 return SettingsEnums.DIALOG_USER_SETUP;
+            case DIALOG_USER_TIMEOUT:
+                return 9999;
             default:
                 return 0;
         }
@@ -182,6 +210,25 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                                 switchUser();
                             }
                         });
+            case DIALOG_USER_TIMEOUT:
+                return new TimePickerDialog(getActivity(),
+                        (TimePickerDialog.OnTimeSetListener) (view, hourOfDay, minute) -> {
+                            Calendar calendar = Calendar.getInstance();
+                            calendar.set(Calendar.HOUR_OF_DAY, hourOfDay);
+                            calendar.set(Calendar.MINUTE, minute);
+                            calendar.set(Calendar.SECOND, 0);
+                            mUserTimeoutPref.setSummary(getActivity().getString(
+                                    R.string.user_timeout_summary,
+                                    DateFormat.getTimeFormat(getActivity()).format(
+                                            calendar.getTime())));
+                            mAlarmManager.setRepeating(AlarmManager.RTC_WAKEUP,
+                                    calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY,
+                                    mPendingIntent);
+                            Settings.Secure.putLongForUser(getActivity().getContentResolver(),
+                                    Settings.Secure.USER_ACTIVITY_END_TIME,
+                                    calendar.getTimeInMillis(), mUserInfo.id);
+                            mUserTimeoutPref.setChecked(true);
+                        }, 17, 0, false);
         }
         throw new IllegalArgumentException("Unsupported dialogId " + dialogId);
     }
@@ -202,15 +249,27 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 arguments.getBoolean(AppRestrictionsFragment.EXTRA_NEW_USER, false);
         mUserInfo = mUserManager.getUserInfo(userId);
 
+        mPendingIntent = PendingIntent.getBroadcast(context, mUserInfo.id,
+                new Intent(ACTION_USER_TIMEOUT).setPackage(context.getPackageName())
+                        .putExtra(EXTRA_USER_ID, mUserInfo.id),
+                PendingIntent.FLAG_UPDATE_CURRENT);
+
         mSwitchUserPref = findPreference(KEY_SWITCH_USER);
         mPhonePref = findPreference(KEY_ENABLE_TELEPHONY);
         mRemoveUserPref = findPreference(KEY_REMOVE_USER);
         mAppAndContentAccessPref = findPreference(KEY_APP_AND_CONTENT_ACCESS);
+        mUserTimeoutPref = findPreference(KEY_USER_TIMEOUT);
+
+        long time = Settings.Secure.getLongForUser(context.getContentResolver(),
+                Settings.Secure.USER_ACTIVITY_END_TIME, -1, mUserInfo.id);
+        mUserTimeoutPref.setChecked(time != -1);
+        mUserTimeoutPref.setSummary(time != -1 ? getActivity().getString(
+                R.string.user_timeout_summary,
+                DateFormat.getTimeFormat(getActivity()).format(time)) : null);
 
         mSwitchUserPref.setTitle(
-                context.getString(mUserInfo.isManagedProfile() ?
-                        com.android.settingslib.R.string.user_start_user :
-                        com.android.settingslib.R.string.user_switch_to_user, mUserInfo.name));
+                context.getString(com.android.settingslib.R.string.user_switch_to_user,
+                        mUserInfo.name));
 
         if (mUserCaps.mDisallowSwitchUser) {
             mSwitchUserPref.setDisabledByAdmin(RestrictedLockUtilsInternal.getDeviceOwner(context));
@@ -220,14 +279,17 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             mSwitchUserPref.setOnPreferenceClickListener(this);
         }
 
-        if (mUserInfo.isManagedProfile() && mUserManager.isUserRunning(userId)) {
+        if (mUserInfo.isManagedProfile()) {
             removePreference(KEY_SWITCH_USER);
+        } else {
+            removePreference(KEY_USER_TIMEOUT);
         }
 
         if (!mUserManager.isAdminUser()) { // non admin users can't remove users and allow calls
             removePreference(KEY_ENABLE_TELEPHONY);
             removePreference(KEY_REMOVE_USER);
             removePreference(KEY_APP_AND_CONTENT_ACCESS);
+            removePreference(KEY_USER_TIMEOUT);
         } else {
             if (!Utils.isVoiceCapable(context)) { // no telephony
                 removePreference(KEY_ENABLE_TELEPHONY);
@@ -265,6 +327,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             mRemoveUserPref.setOnPreferenceClickListener(this);
             mPhonePref.setOnPreferenceChangeListener(this);
             mAppAndContentAccessPref.setOnPreferenceClickListener(this);
+            mUserTimeoutPref.setOnPreferenceChangeListener(this);
         }
     }
 
@@ -301,16 +364,6 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             ActivityManager.getService().switchUser(mUserInfo.id);
         } catch (RemoteException re) {
             Log.e(TAG, "Error while switching to other user.");
-        } finally {
-            finishFragment();
-        }
-    }
-
-    void startUser() {
-        try {
-            ActivityManager.getService().startUserInBackground(mUserInfo.id);
-        } catch (RemoteException e) {
-            Log.e(TAG, "Error while starting user.");
         } finally {
             finishFragment();
         }
