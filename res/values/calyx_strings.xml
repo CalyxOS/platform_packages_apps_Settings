@@ -148,4 +148,10 @@
 
     <!-- Biometric category title - ways to use the configured biometric options [CHAR LIMIT=50] -->
     <string name="biometric_settings_category_ways_to_use">Ways to use</string>
+
+    <!-- Work profile settings screen, setting option to change profile timeout -->
+    <string name="work_hours_title">Work hours</string>
+    <string name="work_hours_summary">Show end of day notification to pause work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
+    <string name="work_hours_notification_title">End of work day</string>
+    <string name="work_hours_notification_description">Tap to turn off work apps</string>
 </resources>
