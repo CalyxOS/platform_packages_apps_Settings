@@ -29,6 +29,9 @@
             android:key="app_and_content_access"
             android:icon="@drawable/ic_lock_closed"
             android:title="@string/user_restrictions_title" />
+    <SwitchPreference
+            android:key="user_timeout"
+            android:title="@string/user_timeout" />
     <com.android.settingslib.RestrictedPreference
             android:key="app_copying"
             android:icon="@drawable/ic_apps"
