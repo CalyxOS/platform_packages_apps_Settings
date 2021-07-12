@@ -87,4 +87,8 @@
     <!-- Access QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
+
+    <!-- User details settings screen, setting option to change user timeout -->
+    <string name="user_timeout">User timeout</string>
+    <string name="user_timeout_summary">User will automatically stop at <xliff:g id="end_time">%1$s</xliff:g></string>
 </resources>
