@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ad678e0_b809b3fb",
+        "filename": "src/com/android/settings/users/BootReceiver.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-13T12:36:04Z",
+      "side": 0,
+      "message": "We should keep this in for now.\n\nRemoval should be in a separate commit. But for now it can just stay, we can drop it in 12 given how close it is.",
+      "revId": "4cb2127ff679db77f84cd7139c774b143fabe45c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
