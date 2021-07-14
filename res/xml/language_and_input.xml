@@ -35,6 +35,13 @@
             android:title="@string/virtual_keyboard_category"
             android:fragment="com.android.settings.inputmethod.VirtualKeyboardFragment"
             settings:keywords="@string/keywords_virtual_keyboard"/>
+
+        <SwitchPreference
+            android:key="navigation_bar_menu_arrow_keys"
+            android:title="@string/navigation_bar_arrow_keys_title"
+            android:summary="@string/navigation_bar_arrow_keys_summary"
+            settings:controller="com.android.settings.inputmethod.NavbarArrowsPreferenceController"/>
+
         <Preference
             android:key="physical_keyboard_pref"
             android:title="@string/physical_keyboard_title"
