@@ -68,4 +68,7 @@
     <!-- Access QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
+
+    <!-- Under About -> Android Version -->
+    <string name="aosp_module_version">Mainline module update</string>
 </resources>
