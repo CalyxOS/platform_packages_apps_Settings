@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "faa0cf6e_69fac528",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-15T14:26:38Z",
+      "side": 1,
+      "message": "Those changes should be in a separate commit.",
+      "revId": "5f6b7fb5ffa89ff8953fe9940adc8932acb356b3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc2a32be_14efde3b",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-15T14:26:38Z",
+      "side": 1,
+      "message": "Please don\u0027t make unrelated changes.\n\nMakes future merges / cherry-picking harder.",
+      "revId": "5f6b7fb5ffa89ff8953fe9940adc8932acb356b3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
