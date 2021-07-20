@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06c654cb_ecfc1977",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-07-20T19:15:56Z",
+      "side": 1,
+      "message": "As it stands, when the timeout is reached it will unconditionally stop the work profile. Waiting for feedback on how to proceed with that",
+      "revId": "ad6dc3d9fb9a13928a48c10fe4132cc4c4ba7a6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
