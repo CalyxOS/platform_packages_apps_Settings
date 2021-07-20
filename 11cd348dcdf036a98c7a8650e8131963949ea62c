@@ -50,6 +50,24 @@
       "message": "When should we merge this?",
       "revId": "11cd348dcdf036a98c7a8650e8131963949ea62c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e1921b1_4c24e6f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-07-20T20:14:40Z",
+      "side": 1,
+      "message": "At this point, let\u0027s just wait for twelve, and we can simply avoid picking this commit entirely.",
+      "parentUuid": "25cd8525_2b9d8f89",
+      "revId": "11cd348dcdf036a98c7a8650e8131963949ea62c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
