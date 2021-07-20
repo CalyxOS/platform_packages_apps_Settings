@@ -33,6 +33,23 @@
       "message": "Better to do this *after* the change has been merged so you don\u0027t have to keep updating it when the original change gets updated.",
       "revId": "11cd348dcdf036a98c7a8650e8131963949ea62c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25cd8525_2b9d8f89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-07-20T19:26:44Z",
+      "side": 1,
+      "message": "When should we merge this?",
+      "revId": "11cd348dcdf036a98c7a8650e8131963949ea62c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
