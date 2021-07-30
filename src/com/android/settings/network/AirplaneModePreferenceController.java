@@ -34,6 +34,7 @@ import androidx.preference.SwitchPreference;
 import com.android.settings.AirplaneModeEnabler;
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
+import com.android.settings.widget.MasterSwitchPreference;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
@@ -57,7 +58,7 @@ public class AirplaneModePreferenceController extends TogglePreferenceController
 
     private Fragment mFragment;
     private AirplaneModeEnabler mAirplaneModeEnabler;
-    private SwitchPreference mAirplaneModePreference;
+    private AirplaneModePreference mAirplaneModePreference;
 
     public AirplaneModePreferenceController(Context context, String key) {
         super(context, key);

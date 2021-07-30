@@ -52,7 +52,7 @@
         settings:userRestriction="no_config_mobile_networks"
         settings:useAdminDisabledSummary="true" />
 
-    <com.android.settingslib.RestrictedSwitchPreference
+    <com.android.settings.network.AirplaneModePreference
         android:key="airplane_mode"
         android:title="@string/airplane_mode"
         android:icon="@drawable/ic_airplanemode_active"
