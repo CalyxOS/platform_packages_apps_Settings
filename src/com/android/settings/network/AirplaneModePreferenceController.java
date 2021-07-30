@@ -57,7 +57,7 @@ public class AirplaneModePreferenceController extends TogglePreferenceController
 
     private Fragment mFragment;
     private AirplaneModeEnabler mAirplaneModeEnabler;
-    private SwitchPreference mAirplaneModePreference;
+    private AirplaneModePreference mAirplaneModePreference;
 
     public AirplaneModePreferenceController(Context context, String key) {
         super(context, key);
