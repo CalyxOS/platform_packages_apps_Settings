@@ -33,6 +33,24 @@
       "message": "This is only for LineageOS strings, to avoid duplicate translations since Lineage has that setup.\n\nAnything else goes to calyx_strings.xml",
       "revId": "1e94c4226012ebd301d120b41ef7e0cf7f3d318a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b68afa5_77448d66",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-08-12T17:29:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a311cf5_98ed43fb",
+      "revId": "1e94c4226012ebd301d120b41ef7e0cf7f3d318a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
