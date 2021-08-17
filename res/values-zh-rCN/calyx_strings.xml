@@ -47,4 +47,6 @@
     <string name="wifi_timeout">自动关闭 Wi-Fi</string>
     <string name="data_usage_app_restrict_background_all_summary">允许后台网络使用</string>
     <string name="data_usage_app_restrict_background_all">后台网络访问</string>
+    <string name="private_dns_mode_cloudflare" translatable="false"></string>
+    <string name="aosp_module_version"></string>
 </resources>
