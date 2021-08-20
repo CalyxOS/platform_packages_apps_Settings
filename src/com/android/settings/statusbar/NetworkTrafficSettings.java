@@ -52,6 +52,9 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
 
         mNetTrafficAutohide = findPreference(Settings.Secure.NETWORK_TRAFFIC_AUTOHIDE);
         mNetTrafficAutohide.setOnPreferenceChangeListener(this);
+        boolean autoHide = Settings.Secure.getInt(resolver,
+                Settings.Secure.NETWORK_TRAFFIC_AUTOHIDE, 0) == 1;
+        mNetTrafficAutohide.setChecked(autoHide);
 
         mNetTrafficUnits = findPreference(Settings.Secure.NETWORK_TRAFFIC_UNITS);
         mNetTrafficUnits.setOnPreferenceChangeListener(this);
@@ -61,6 +64,9 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
 
         mNetTrafficShowUnits = findPreference(Settings.Secure.NETWORK_TRAFFIC_SHOW_UNITS);
         mNetTrafficShowUnits.setOnPreferenceChangeListener(this);
+        boolean showUnits = Settings.Secure.getInt(resolver,
+                Settings.Secure.NETWORK_TRAFFIC_SHOW_UNITS, 1) == 1;
+        mNetTrafficShowUnits.setChecked(showUnits);
 
         updateEnabledStates(mode);
     }
