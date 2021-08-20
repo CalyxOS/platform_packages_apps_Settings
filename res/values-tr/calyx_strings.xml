@@ -47,4 +47,6 @@
     <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
     <string name="data_usage_app_restrict_background_all_summary">Arka planda ağ kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_background_all">Arka planda ağ erişimi</string>
+    <string name="aosp_module_version"></string>
+    <string name="private_dns_mode_cloudflare" translatable="false"></string>
 </resources>
