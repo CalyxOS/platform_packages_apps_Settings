@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a363c09f_dbe1e7ca",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-25T19:38:15Z",
+      "side": 1,
+      "message": "3 strings now, PTAL",
+      "revId": "9e85634e8af28d55068e9c077583fa6b9911ff0d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
