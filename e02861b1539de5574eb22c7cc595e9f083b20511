@@ -16,6 +16,23 @@
       "message": "Should be merged alongside https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/4296",
       "revId": "e02861b1539de5574eb22c7cc595e9f083b20511",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09e88363_184e7303",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-26T22:10:14Z",
+      "side": 1,
+      "message": "This is still useful.",
+      "revId": "e02861b1539de5574eb22c7cc595e9f083b20511",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
