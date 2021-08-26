@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_timeout_summary_30secs">30 sekúnd</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekúnd</string>
+    <string name="bluetooth_timeout_summary_never">Nikdy</string>
+    <string name="bluetooth_timeout_summary2">Nevypínať Bluetooth automaticky</string>
+    <string name="bluetooth_timeout_summary">Bluetooth sa vypne po <xliff:g id="timeout_description">%1$s</xliff:g> ak nebude pripojené žiadne zariadenie</string>
+    <string name="bluetooth_timeout">Časový limit Bluetooth</string>
+    <string name="vendor_security_patch">Úroveň bezpečnostnej záplaty výrobcu</string>
+    <string name="deny_new_usb_disabled">Vždy povoliť nové USB zariadenia</string>
+    <string name="deny_new_usb_dynamic">Povoliť nové USB zariadenie pri odomknutí</string>
+    <string name="deny_new_usb_enabled">Odmietnuť nové USB zariadenie</string>
+    <string name="deny_new_usb_summary">Podpora ovládania USB zariadení, ako sú slúchadlá, pamäťové a vstupné zariadenia (myši, klávesnice, joystick)</string>
+    <string name="deny_new_usb_title">Obmedziť USB</string>
+    <string name="panic_settings_title">Zobraziť možnosti paniky</string>
+    <string name="calyxos_version">Verzia CalyxOS</string>
+</resources>
