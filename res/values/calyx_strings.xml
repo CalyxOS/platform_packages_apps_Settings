@@ -24,4 +24,7 @@
 
     <!-- Under About -> Android Version -->
     <string name="aosp_module_version">Mainline module update</string>
+
+    <string name="airplane_mode_radios_title">Airplane mode radios</string>
+    <string name="airplane_mode_radios_category_title">Airplane Mode will toggle the selected radios</string>
 </resources>
