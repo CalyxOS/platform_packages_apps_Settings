@@ -41,4 +41,12 @@
     <string name="deny_new_usb_title">USB を制御する</string>
     <string name="panic_settings_title">パニック 設定を表示する</string>
     <string name="calyxos_version">CalyxOS バージョン</string>
+    <string name="user_add_managed_profile_item_summary"></string>
+    <string name="panic_settings_summary"></string>
+    <string name="cleartext_network_policy_summary"></string>
+    <string name="show_qs_on_secure_keyguard_summary"></string>
+    <string name="deny_new_usb_summary"></string>
+    <string name="wifi_timeout_summary_never"></string>
+    <string name="aosp_module_version"></string>
+    <string name="private_dns_mode_cloudflare" translatable="false"></string>
 </resources>
