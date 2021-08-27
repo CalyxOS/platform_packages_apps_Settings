@@ -107,4 +107,6 @@
     <string name="auto_reboot_timeout_summary_36hours">36 hours</string>
     <string name="auto_reboot_timeout_summary_48hours">48 hours</string>
     <string name="auto_reboot_timeout_summary_72hours">72 hours</string>
+
+    <string name="airplane_mode_radio_title">Airplane Mode radios</string>
 </resources>
