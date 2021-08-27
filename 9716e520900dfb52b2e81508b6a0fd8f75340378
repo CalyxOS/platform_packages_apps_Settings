@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6627ee2_3294dfc3",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-08-27T11:11:04Z",
+      "side": 1,
+      "message": "Maybe:\nYou need to disable all active VPN connections first to enable this.",
+      "range": {
+        "startLine": 115,
+        "startChar": 53,
+        "endLine": 115,
+        "endChar": 126
+      },
+      "revId": "9716e520900dfb52b2e81508b6a0fd8f75340378",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
