@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16b53c2f_53e2a425",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-08-27T13:36:48Z",
+      "side": 1,
+      "message": "All traffic on the device and this part seems repetitive. If keeping it, \"including work profiles and other users\"?",
+      "range": {
+        "startLine": 113,
+        "startChar": 88,
+        "endLine": 113,
+        "endChar": 126
+      },
+      "revId": "09cf084893d89208bca3c11d7bc286181dbc6905",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87320f99_3eb4ddf6",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-08-27T13:36:48Z",
+      "side": 1,
+      "message": "Same",
+      "range": {
+        "startLine": 114,
+        "startChar": 194,
+        "endLine": 114,
+        "endChar": 226
+      },
+      "revId": "09cf084893d89208bca3c11d7bc286181dbc6905",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e60c910_75d3a5d4",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-08-27T13:36:48Z",
+      "side": 1,
+      "message": "Same",
+      "range": {
+        "startLine": 114,
+        "startChar": 91,
+        "endLine": 114,
+        "endChar": 129
+      },
+      "revId": "09cf084893d89208bca3c11d7bc286181dbc6905",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
