@@ -77,4 +77,7 @@
     <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+
+    <string name="airplane_mode_radios_title">Airplane mode radios</string>
+    <string name="airplane_mode_radios_category_title">Airplane Mode will toggle the selected radios</string>
 </resources>
