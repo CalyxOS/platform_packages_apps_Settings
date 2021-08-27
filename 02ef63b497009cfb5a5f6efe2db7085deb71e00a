@@ -84,6 +84,23 @@
       "message": "So the remove the changes made to the 3 files that are pure removals?",
       "revId": "02ef63b497009cfb5a5f6efe2db7085deb71e00a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53f90cf4_ac5fc327",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-08-27T14:28:17Z",
+      "side": 1,
+      "message": "Let\u0027s just skip it for now and re-visit in 12.",
+      "revId": "02ef63b497009cfb5a5f6efe2db7085deb71e00a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
