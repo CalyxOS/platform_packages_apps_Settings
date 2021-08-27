@@ -288,6 +288,11 @@
             android:title="@string/mobile_data_always_on"
             android:summary="@string/mobile_data_always_on_summary" />
 
+        <Preference
+            android:key="airplane_mode_radios"
+            android:title="@string/airplane_mode_radios_title"
+            android:fragment="com.android.settings.development.AirplaneModeRadios" />
+
         <SwitchPreference
             android:key="tethering_hardware_offload"
             android:title="@string/tethering_hardware_offload"
