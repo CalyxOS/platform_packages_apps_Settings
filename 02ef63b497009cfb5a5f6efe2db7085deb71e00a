@@ -67,6 +67,23 @@
       "message": "My suggestion still stands, I would prefer you just leave the dev settings option in place and just add it to wifi prefs. It\u0027s been done for a couple other aosp options",
       "revId": "02ef63b497009cfb5a5f6efe2db7085deb71e00a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c2c7a36_d78c89ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-08-27T14:10:38Z",
+      "side": 1,
+      "message": "So the remove the changes made to the 3 files that are pure removals?",
+      "revId": "02ef63b497009cfb5a5f6efe2db7085deb71e00a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
