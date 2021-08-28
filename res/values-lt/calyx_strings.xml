@@ -49,4 +49,17 @@
     <string name="aosp_module_version">Pagrindinio modulio atnaujinimas</string>
     <string name="bluetooth_timeout_summary_8hours">8 valandų</string>
     <string name="bluetooth_timeout_summary_4hours">4 valandų</string>
+    <string name="auto_reboot_timeout_summary_72hours">72 valandas</string>
+    <string name="auto_reboot_timeout_summary_48hours">48 valandas</string>
+    <string name="auto_reboot_timeout_summary_36hours">36 valandas</string>
+    <string name="auto_reboot_timeout_summary_24hours">24 valandas</string>
+    <string name="auto_reboot_timeout_summary_12hours">12 valandų</string>
+    <string name="auto_reboot_timeout_summary_8hours">8 valandas</string>
+    <string name="auto_reboot_timeout_summary_4hours">4 valandas</string>
+    <string name="auto_reboot_timeout_summary_2hours">2 valandas</string>
+    <string name="auto_reboot_timeout_summary_1hour">1 valandą</string>
+    <string name="auto_reboot_timeout_summary_never">Niekada</string>
+    <string name="auto_reboot_summary2">Įrenginys nebus automatiškai perkraunamas</string>
+    <string name="auto_reboot_summary">Įrenginys bus automatiškai perkrautas, jei jis nebuvo atrakintas per <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="auto_reboot_title">Automatinis perkrovimas</string>
 </resources>
