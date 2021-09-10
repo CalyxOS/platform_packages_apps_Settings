@@ -2,6 +2,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calyxos_version">Версия CalyxOS</string>
     <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <string name="private_dns_mode_adhole" translatable="false">AdHole DNS</string>
     <string name="deny_new_usb_disabled">Всегда разрешать новые USB-устройства</string>
     <string name="deny_new_usb_dynamic">Разрешить новые USB-устройства при разблокировке</string>
     <string name="deny_new_usb_enabled">Запретить новые USB-устройства</string>
