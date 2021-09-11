@@ -16,6 +16,29 @@
       "message": "part 1: https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/5356",
       "revId": "b1af9c96dc89d0df747c0fed4291ba27a9598370",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67f7f05e_6716766e",
+        "filename": "res/values-ru/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000032
+      },
+      "writtenOn": "2021-09-11T07:26:56Z",
+      "side": 1,
+      "message": "you can remove this because you set translatable\u003d\"false\" in values/calyx_strings.xml",
+      "range": {
+        "startLine": 5,
+        "startChar": 2,
+        "endLine": 6,
+        "endChar": 83
+      },
+      "revId": "b1af9c96dc89d0df747c0fed4291ba27a9598370",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
