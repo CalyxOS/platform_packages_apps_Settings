@@ -32,6 +32,8 @@
 
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
     <string name="vendor_security_patch">Vendor security update</string>
+    <string name="firmware_security_patch">Firmware security update</string>
+    <string name="kernel_security_patch">Kernel security update</string>
 
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth timeout</string>
