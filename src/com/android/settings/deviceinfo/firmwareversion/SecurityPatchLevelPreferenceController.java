@@ -1,5 +1,7 @@
 /*
  * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2021 The Calyx Institute
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,27 +22,50 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.SystemProperties;
+import android.text.format.DateFormat;
 import android.text.TextUtils;
 import android.util.Log;
 
 import androidx.preference.Preference;
 
 import com.android.settings.core.BasePreferenceController;
+import com.android.settings.R;
 import com.android.settingslib.DeviceInfoUtils;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class SecurityPatchLevelPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "SecurityPatchCtrl";
     private static final Uri INTENT_URI_DATA = Uri.parse(
-            "https://source.android.com/security/bulletin/");
+            "https://calyxos.org/security/bulletin/");
+    private static final String KEY_VENDOR_SECURITY_PATCH =
+            "ro.vendor.build.security_patch";
+    private static final String KEY_KERNEL_SECURITY_PATCH =
+            "ro.vendor.kernel.security_patch";
+    private static final String KEY_FIRMWARE_SECURITY_PATCH =
+            "ro.vendor.firmware.security_patch";
 
     private final PackageManager mPackageManager;
     private final String mCurrentPatch;
+    private final String mCurrentKernelPatch;
+    private final String mCurrentVendorPatch;
+    private final String mCurrentFirmwarePatch;
 
     public SecurityPatchLevelPreferenceController(Context context, String key) {
         super(context, key);
         mPackageManager = mContext.getPackageManager();
         mCurrentPatch = DeviceInfoUtils.getSecurityPatch();
+        mCurrentVendorPatch = parseDate(SystemProperties.get(KEY_VENDOR_SECURITY_PATCH,
+                mCurrentPatch));
+        mCurrentKernelPatch = parseDate(SystemProperties.get(KEY_KERNEL_SECURITY_PATCH,
+                mCurrentVendorPatch));
+        mCurrentFirmwarePatch = parseDate(SystemProperties.get(KEY_FIRMWARE_SECURITY_PATCH,
+                mCurrentVendorPatch));
     }
 
     @Override
@@ -51,7 +76,17 @@ public class SecurityPatchLevelPreferenceController extends BasePreferenceContro
 
     @Override
     public CharSequence getSummary() {
-        return mCurrentPatch;
+        String patchLevel;
+
+        if (TextUtils.equals(mCurrentPatch, mCurrentVendorPatch)) {
+            patchLevel = mCurrentPatch;
+        } else {
+            patchLevel = mContext.getString(R.string.detailed_security_patch,
+                    mCurrentPatch, mCurrentKernelPatch,
+                    mCurrentVendorPatch, mCurrentFirmwarePatch);
+        }
+
+        return patchLevel;
     }
 
     @Override
@@ -71,5 +106,20 @@ public class SecurityPatchLevelPreferenceController extends BasePreferenceContro
 
         mContext.startActivity(intent);
         return true;
+    }
+
+    private String parseDate(String date) {
+        if (!date.isEmpty()) {
+            try {
+                SimpleDateFormat template = new SimpleDateFormat("yyyy-MM-dd");
+                Date patchLevelDate = template.parse(date);
+                String format = DateFormat.getBestDateTimePattern(Locale.getDefault(), "dMMMMyyyy");
+                date = DateFormat.format(format, patchLevelDate).toString();
+            } catch (ParseException e) {
+                // parsing failed, use raw string
+            }
+        }
+
+        return date;
     }
 }
