@@ -116,4 +116,8 @@
 
     <string name="airplane_mode_radios_title">Airplane mode radios</string>
     <string name="airplane_mode_radios_category_title">Airplane Mode will toggle the selected radios</string>
+
+    <string name="hide">Hide</string>
+    <string name="unhide">Unhide</string>
+
 </resources>

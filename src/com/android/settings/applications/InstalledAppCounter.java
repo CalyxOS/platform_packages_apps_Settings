@@ -64,7 +64,8 @@ public abstract class InstalledAppCounter extends AppCounter {
                 launchIntent,
                 PackageManager.GET_DISABLED_COMPONENTS
                         | PackageManager.MATCH_DIRECT_BOOT_AWARE
-                        | PackageManager.MATCH_DIRECT_BOOT_UNAWARE,
+                        | PackageManager.MATCH_DIRECT_BOOT_UNAWARE
+                        | PackageManager.MATCH_UNINSTALLED_PACKAGES,
                 userId);
         return intents != null && intents.size() != 0;
     }
