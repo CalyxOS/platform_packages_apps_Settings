@@ -694,7 +694,16 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
                 .setButton3Text(R.string.force_stop)
                 .setButton3Icon(R.drawable.ic_settings_force_stop)
                 .setButton3OnClickListener(new ForceStopButtonListener())
-                .setButton3Enabled(false);
+                .setButton3Enabled(false)
+                .setButton4Text(R.string.hide)
+                .setButton4Icon(R.drawable.ic_settings_privacy)
+                .setButton4OnClickListener(v -> {
+                    mPm.setApplicationHiddenSettingAsUser(mPackageName,
+                            !mPm.getApplicationHiddenSettingAsUser(mPackageName,
+                                    new UserHandle(mUserId)),
+                            new UserHandle(mUserId));
+                    refreshUi()
+                });
     }
 
     private void startListeningToPackageRemove() {
