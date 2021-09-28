@@ -67,6 +67,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnDestroy;
 import com.android.settingslib.core.lifecycle.events.OnResume;
+import com.android.settingslib.development.DevelopmentSettingsEnabler;
 import com.android.settingslib.widget.ActionButtonsPreference;
 
 import java.util.ArrayList;
@@ -375,6 +376,8 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
     void updateUninstallButton() {
         final boolean isBundled = (mAppEntry.info.flags & ApplicationInfo.FLAG_SYSTEM) != 0;
         boolean enabled = true;
+        final boolean hidden = mPm.getApplicationHiddenSettingAsUser(mPackageName,
+                new UserHandle(mUserId));
         if (isBundled) {
             enabled = handleDisableable();
         } else {
@@ -468,6 +471,8 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
         }
 
         mButtonsPref.setButton2Enabled(enabled);
+        mButtonsPref.setButton4Enabled(enabled);
+        mButtonsPref.setButton4Text(hidden ? R.string.unhide : R.string.hide);
     }
 
     /**
@@ -672,7 +677,15 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
                 .setButton3Text(R.string.force_stop)
                 .setButton3Icon(R.drawable.ic_settings_force_stop)
                 .setButton3OnClickListener(new ForceStopButtonListener())
-                .setButton3Enabled(false);
+                .setButton3Enabled(false)
+                .setButton4Icon(R.drawable.ic_settings_privacy)
+                .setButton4OnClickListener(v -> {
+                    mPm.setApplicationHiddenSettingAsUser(mPackageName,
+                            !mPm.getApplicationHiddenSettingAsUser(mPackageName,
+                                    new UserHandle(mUserId)),
+                            new UserHandle(mUserId));
+                    refreshUi();
+                });
     }
 
     private void startListeningToPackageRemove() {
