@@ -34,6 +34,24 @@
       "parentUuid": "6bfee745_0340e52a",
       "revId": "f5e9de03603bd513f7e60dd71b368a14c33ebabb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd746815_bfb43fa2",
+        "filename": "src/com/android/settings/deviceinfo/firmwareversion/SecurityPatchLevelPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-28T15:59:33Z",
+      "side": 1,
+      "message": "Will be live once 5562: guide: Move security bulletin info to their own page | https://review.calyxos.org/c/CalyxOS/calyxos.org/+/5562 goes into master.\n\nWe can then keep updating it separately as we want.",
+      "parentUuid": "62a60770_5410204f",
+      "revId": "f5e9de03603bd513f7e60dd71b368a14c33ebabb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
