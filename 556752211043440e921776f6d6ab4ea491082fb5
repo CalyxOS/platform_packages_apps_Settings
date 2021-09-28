@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6a56b91_4f561b3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-09-28T03:33:19Z",
+      "side": 1,
+      "message": "Non-system apps cannot be found in Settings -\u003e Apps \u0026 Notifications after hiding and Settings app can also be hidden xD",
+      "revId": "556752211043440e921776f6d6ab4ea491082fb5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
