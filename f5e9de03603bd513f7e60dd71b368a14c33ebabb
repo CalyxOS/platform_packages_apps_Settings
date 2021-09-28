@@ -16,6 +16,24 @@
       "message": "We should change this.",
       "revId": "f5e9de03603bd513f7e60dd71b368a14c33ebabb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62a60770_5410204f",
+        "filename": "src/com/android/settings/deviceinfo/firmwareversion/SecurityPatchLevelPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-09-28T14:33:33Z",
+      "side": 1,
+      "message": "It can go in a separate commit when we have a page ready.",
+      "parentUuid": "6bfee745_0340e52a",
+      "revId": "f5e9de03603bd513f7e60dd71b368a14c33ebabb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
