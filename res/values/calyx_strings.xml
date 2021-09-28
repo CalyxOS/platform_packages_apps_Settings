@@ -105,4 +105,7 @@
     <string name="cross_profile_sharing_title">Cross-profile sharing</string>
     <!-- [CHAR LIMIT=NONE] Setting description. If the user turns on this setting, they can share content across their personal and work profiles. -->
     <string name="cross_profile_sharing_summary">Enable in-app share buttons to work across your personal and work profile</string>
+
+    <string name="hide">Hide</string>
+    <string name="unhide">Unhide</string>
 </resources>
