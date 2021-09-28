@@ -111,4 +111,7 @@
     <string name="device_reboot_timeout_summary_36hours">36 hours</string>
     <string name="device_reboot_timeout_summary_48hours">48 hours</string>
     <string name="device_reboot_timeout_summary_72hours">72 hours</string>
+
+    <string name="hide">Hide</string>
+    <string name="unhide">Unhide</string>
 </resources>
