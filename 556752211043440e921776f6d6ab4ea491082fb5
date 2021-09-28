@@ -16,6 +16,24 @@
       "message": "Non-system apps cannot be found in Settings -\u003e Apps \u0026 Notifications after hiding and Settings app can also be hidden xD",
       "revId": "556752211043440e921776f6d6ab4ea491082fb5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72249bde_6828a85c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-09-28T10:01:54Z",
+      "side": 1,
+      "message": "Can you not see them anywhere?\n\nFor the latter, we may want to just exclude some apps from being frozen.\n\ncoreApp or platform apps (basically apps that you can\u0027t disable) would work.",
+      "parentUuid": "b6a56b91_4f561b3f",
+      "revId": "556752211043440e921776f6d6ab4ea491082fb5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
