@@ -45,7 +45,7 @@
     <string name="panic_settings_summary"/>
     <string name="cleartext_network_policy_summary"/>
     <string name="show_qs_on_secure_keyguard_summary"/>
-    <string name="deny_new_usb_summary"/>
+    <string name="deny_new_usb_summary">イヤホン、ストレージデバイス、入力機器（マウスや、キーボード、ジョイスティック）などのUSBガジェットのサポートをコントロール</string>
     <string name="wifi_timeout_summary_never"/>
     <string name="aosp_module_version"/>
     <string name="private_dns_mode_cloudflare" translatable="false"/>
