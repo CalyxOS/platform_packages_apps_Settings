@@ -33,6 +33,24 @@
       "message": "init    : Unable to set property \u0027persist.sys.global.cleartext\u0027 from uid:1000 gid:1000\npid:2456: SELinux permission check failed",
       "revId": "214151cc6e98098aeeb352f4c5987b6ae00f5396",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26c548ee_058a4f64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-06T16:46:48Z",
+      "side": 1,
+      "message": "Fixed by 5547: sepolicy: Allow Settings to write persist.sys.global.cleartext | https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/5547",
+      "parentUuid": "a13622e2_f45bf60d",
+      "revId": "214151cc6e98098aeeb352f4c5987b6ae00f5396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
