@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c894f441_13f8227e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-13T16:49:56Z",
+      "side": 1,
+      "message": "Actually, do we still need this code?\n\nSetupWizard should handle the F-Droid part, so we could just get rid of it from Settings.\n\nUnless I\u0027m missing something.",
+      "revId": "ce790192dd7aa4191ed04467aba65631e39a8ecb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
