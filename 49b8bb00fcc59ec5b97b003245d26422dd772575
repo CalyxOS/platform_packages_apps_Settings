@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef46e7ae_c5c3047b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-10-14T19:34:51Z",
+      "side": 1,
+      "message": "Probably should change the title to something restricted networking mode. Suggestions?",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 51
+      },
+      "revId": "49b8bb00fcc59ec5b97b003245d26422dd772575",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
