@@ -22,6 +22,30 @@
       },
       "revId": "49b8bb00fcc59ec5b97b003245d26422dd772575",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1ed4854_2e6215a9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-15T15:13:42Z",
+      "side": 1,
+      "message": "can still call it this and say \u0027based on AOSP restricted networking mode\u0027",
+      "parentUuid": "ef46e7ae_c5c3047b",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 51
+      },
+      "revId": "49b8bb00fcc59ec5b97b003245d26422dd772575",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
