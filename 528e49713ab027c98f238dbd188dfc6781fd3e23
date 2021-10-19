@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "971390b9_bdafbd4a",
+        "filename": "src/com/android/settings/users/AppRestrictionsFragment.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-10-19T20:17:22Z",
+      "side": 1,
+      "message": "need to be renamed?",
+      "range": {
+        "startLine": 105,
+        "startChar": 12,
+        "endLine": 107,
+        "endChar": 46
+      },
+      "revId": "528e49713ab027c98f238dbd188dfc6781fd3e23",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
