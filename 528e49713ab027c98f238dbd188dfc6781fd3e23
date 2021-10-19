@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff20a5fe_7dbc8f85",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-19T23:49:51Z",
+      "side": 1,
+      "message": "Include all original commit messages when you squash commits.",
+      "revId": "528e49713ab027c98f238dbd188dfc6781fd3e23",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "971390b9_bdafbd4a",
@@ -14,6 +31,30 @@
       "writtenOn": "2021-10-19T20:17:22Z",
       "side": 1,
       "message": "need to be renamed?",
+      "range": {
+        "startLine": 105,
+        "startChar": 12,
+        "endLine": 107,
+        "endChar": 46
+      },
+      "revId": "528e49713ab027c98f238dbd188dfc6781fd3e23",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0951bf50_56028945",
+        "filename": "src/com/android/settings/users/AppRestrictionsFragment.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-19T23:49:51Z",
+      "side": 1,
+      "message": "That will be handled separately when the rename is shipped.",
+      "parentUuid": "971390b9_bdafbd4a",
       "range": {
         "startLine": 105,
         "startChar": 12,
