@@ -49,4 +49,17 @@
     <string name="wifi_timeout">Poista käytöstä Wi-Fi automaattisesti</string>
     <string name="data_usage_app_restrict_background_all_summary">Salli verkon käyttö taustalla</string>
     <string name="aosp_module_version">Päälinjan moduulipäivitys</string>
+    <string name="auto_reboot_summary2">Laite ei käynnisty automaattisesti uudelleen</string>
+    <string name="auto_reboot_timeout_summary_never">Ei milloinkaan</string>
+    <string name="auto_reboot_timeout_summary_1hour">1 tunti</string>
+    <string name="auto_reboot_timeout_summary_24hours">24 tuntia</string>
+    <string name="auto_reboot_timeout_summary_72hours">72 tuntia</string>
+    <string name="auto_reboot_title">Automaattinen uudelleenkäynnistys</string>
+    <string name="auto_reboot_summary">Laite käynnistyy automaattisesti uudelleen, jos sitä ei ole avattu viimeisen <xliff:g id="timeout_description">%1$s</xliff:g> aikana</string>
+    <string name="auto_reboot_timeout_summary_2hours">2 tuntia</string>
+    <string name="auto_reboot_timeout_summary_8hours">8 tuntia</string>
+    <string name="auto_reboot_timeout_summary_12hours">12 tuntia</string>
+    <string name="auto_reboot_timeout_summary_48hours">48 tuntia</string>
+    <string name="auto_reboot_timeout_summary_4hours">4 tuntia</string>
+    <string name="auto_reboot_timeout_summary_36hours">36 tuntia</string>
 </resources>
