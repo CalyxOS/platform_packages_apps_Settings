@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fa4b29f_d7a67fb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-04T14:22:07Z",
+      "side": 1,
+      "message": "LineageOS PS4 (commit has included in commit message)",
+      "revId": "a28134788d9f226fbd9674641f383126cae05924",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
