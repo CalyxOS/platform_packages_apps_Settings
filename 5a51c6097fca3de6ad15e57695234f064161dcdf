@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a473c315_db19ee8a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-18T00:19:03Z",
+      "side": 1,
+      "message": "+10,-0 including strings.\n\n10 lines for an entirely new setting. So nice!",
+      "revId": "5a51c6097fca3de6ad15e57695234f064161dcdf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
