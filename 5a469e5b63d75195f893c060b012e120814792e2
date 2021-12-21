@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea2868b7_a92bfefb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-21T19:18:23Z",
+      "side": 1,
+      "message": "Test: Visit 1.1.1.1/help both before and after enabling from Settings, look for \"Using DoT: Yes\"",
+      "revId": "5a469e5b63d75195f893c060b012e120814792e2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7951e00_2cf9f999",
+        "filename": "src/com/android/settings/network/PrivateDnsModeDialogPreference.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-21T19:18:23Z",
+      "side": 1,
+      "message": "import will likely need API update, which would be fine since this is all internal/system-only, but this works.",
+      "revId": "5a469e5b63d75195f893c060b012e120814792e2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
