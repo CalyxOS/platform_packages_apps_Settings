@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b54a4112_53587b24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-23T16:15:47Z",
+      "side": 1,
+      "message": "Added to the feature chain to make picking easier, to avoid conflicts on calyx_strings.xml",
+      "revId": "129b97ba5284f34dc58f964ee490e9ae6a7b224c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
