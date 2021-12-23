@@ -16,6 +16,24 @@
       "message": "SetupWizard works fine now, helps when you account for the package name change.\n\n1. Settings -\u003e System -\u003e Multiple Users -\u003e Add user or profile\n2. Work profile\n3. ManagedProvisioning animation flow\n4. SetupWizard - microG, restore\n5. Back to Settings screen. At this point, \"New profile\" is in the list but greyed out, and the navigation bar (3 button) seems to have blanked (which might be unrelated)\n6. Go home anyway\n7. See work profile in Launcher (no internet, don\u0027t have the latest networking patches)\n8. F-Droid privext not working, likely didn\u0027t get installed?\n9. Open Settings -\u003e System -\u003e Multiple Users again, \"New Profile\" is not listed at all.",
       "revId": "2288cb50de9a9faaf34a5e9dffc8a0215ed41be8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18bbd853_f0edb5ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-23T17:32:00Z",
+      "side": 1,
+      "message": "8. Privext issue unrelated most likely, ignore.",
+      "parentUuid": "2fe39e6d_b4025ff8",
+      "revId": "2288cb50de9a9faaf34a5e9dffc8a0215ed41be8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
