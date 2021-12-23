@@ -16,6 +16,23 @@
       "message": "Added to the feature chain to make picking easier, to avoid conflicts on calyx_strings.xml",
       "revId": "129b97ba5284f34dc58f964ee490e9ae6a7b224c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1287bf8d_e8559df0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-23T16:59:11Z",
+      "side": 1,
+      "message": "Created new work profile, it showed the managed provisioning bits - the animations.\n\nHowever, SetupWizard didn\u0027t show up (I\u0027ve got the open changes)\n\nWork profile is created, but doesn\u0027t show up in the list here (shows up in launcher / pm list users)\n\n\n",
+      "revId": "129b97ba5284f34dc58f964ee490e9ae6a7b224c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
