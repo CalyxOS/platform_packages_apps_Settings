@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdb14d47_1c1a60f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-23T18:09:22Z",
+      "side": 1,
+      "message": "9. Works fine now, work profile is listed. \"Display work profiles in user settings UI\" was missing.",
+      "revId": "b127a47d1bdf1606926fac31cdd3d15bc5a2e2e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
