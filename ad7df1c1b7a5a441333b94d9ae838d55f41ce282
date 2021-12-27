@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a7f03a0_7356a94a",
+        "filename": "src/com/android/settings/security/screenlock/StatusBarPreferenceController.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T19:57:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b8f5be16_39763a63",
+      "revId": "ad7df1c1b7a5a441333b94d9ae838d55f41ce282",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c574eb89_9aeb0af2",
@@ -31,6 +49,24 @@
       "writtenOn": "2021-12-21T19:42:26Z",
       "side": 1,
       "message": "Default 0 means it\u0027s off by default, but summary is \"Allow toggling quick settings on secure lockscreen\", so it should be on by default.",
+      "revId": "ad7df1c1b7a5a441333b94d9ae838d55f41ce282",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3265b4a_376b7ddb",
+        "filename": "src/com/android/settings/security/screenlock/StatusBarPreferenceController.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T19:57:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c574eb89_9aeb0af2",
       "revId": "ad7df1c1b7a5a441333b94d9ae838d55f41ce282",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
