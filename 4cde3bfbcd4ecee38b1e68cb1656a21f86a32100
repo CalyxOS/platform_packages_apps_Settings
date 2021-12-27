@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b64fc26_e9c9128e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T19:55:09Z",
+      "side": 1,
+      "message": "For a moment here I was about to say \"Why is this still using AOSP Settings\"",
+      "revId": "4cde3bfbcd4ecee38b1e68cb1656a21f86a32100",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
