@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e320a7b3_304d0d8d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T19:50:18Z",
+      "side": 1,
+      "message": "1708559: Settings: use framework text colors for SwitchBar | https://android-review.googlesource.com/c/platform/packages/apps/Settings/+/1708559",
+      "revId": "0745501c2dbb52c976c2fd02b82decd763e684a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
