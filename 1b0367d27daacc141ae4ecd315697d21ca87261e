@@ -33,6 +33,24 @@
       "message": "We don\u0027t need to duplicate these strings.\n\nWe should:\n\nCreate a new change, adding timeout_summary_ strings, put that before bluetooth.\n\nThen, in bluetooth and wifi (and in the future auto reboot), we can use the same strings, and avoid duplication.",
       "revId": "1b0367d27daacc141ae4ecd315697d21ca87261e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f4e5370_68c4e928",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T19:27:18Z",
+      "side": 1,
+      "message": "Will do this later. Maybe when we move it to Parts?",
+      "parentUuid": "8e206730_2d72e416",
+      "revId": "1b0367d27daacc141ae4ecd315697d21ca87261e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
