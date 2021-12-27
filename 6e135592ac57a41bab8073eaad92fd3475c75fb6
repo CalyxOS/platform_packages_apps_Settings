@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7847aa7_e973848a",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 2953,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-27T19:57:36Z",
+      "side": 1,
+      "message": "Won\u0027t boot without this, nothing in logs, wasted so much time :(",
+      "revId": "6e135592ac57a41bab8073eaad92fd3475c75fb6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
