@@ -16,6 +16,29 @@
       "message": "PS 17: fixed transient icon",
       "revId": "bde828d78df3c60b12b1efbdb3ba8f10e7acde02",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2618031c_8c0d9e81",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-12-28T14:31:40Z",
+      "side": 1,
+      "message": "Not sure we should do this but matches 11. Call to open app and content access screen while provisioning is not great but additionally, the new user boolean looks like it could have unintended side effects. The telephony toggle could also be kept as a separate feature in a future update assuming tests are successful.",
+      "range": {
+        "startLine": 270,
+        "startChar": 44,
+        "endLine": 270,
+        "endChar": 72
+      },
+      "revId": "bde828d78df3c60b12b1efbdb3ba8f10e7acde02",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
