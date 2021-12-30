@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c719d41a_608c265a",
+        "filename": "src/com/android/settings/security/RestrictUsbPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-30T15:04:08Z",
+      "side": 1,
+      "message": "should be last line in this section.",
+      "revId": "0495f03ba49bf23320be5940c1a72b94c4e052f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
