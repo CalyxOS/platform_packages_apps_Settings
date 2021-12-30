@@ -50,6 +50,11 @@
     <string name="timeout_summary_2hours">2 hours</string>
     <string name="timeout_summary_4hours">4 hours</string>
     <string name="timeout_summary_8hours">8 hours</string>
+    <string name="timeout_summary_12hours">12 hours</string>
+    <string name="timeout_summary_24hours">24 hours</string>
+    <string name="timeout_summary_36hours">36 hours</string>
+    <string name="timeout_summary_48hours">48 hours</string>
+    <string name="timeout_summary_72hours">72 hours</string>
 
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth timeout</string>
@@ -87,4 +92,8 @@
     <string name="security_restrict_usb_always">Deny new USB gadgets</string>
     <string name="security_restrict_usb_keyguard">Allow new USB gadgets when unlocked</string>
     <string name="security_restrict_usb_disabled">Allow new USB gadgets always</string>
+
+    <string name="device_reboot_timeout_title">Auto reboot</string>
+    <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
 </resources>
