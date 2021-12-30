@@ -125,6 +125,15 @@
         android:summary="@string/panic_settings_summary"
         settings:controller="com.android.settings.security.PanicButtonPreferenceController" />
 
+    <ListPreference
+        android:order="230"
+        android:key="trust_restrict_usb"
+        android:entries="@array/security_restrict_usb_entries"
+        android:entryValues="@array/security_restrict_usb_values"
+        android:summary="@string/security_restrict_usb_summary"
+        android:title="@string/security_restrict_usb_title"
+        settings:controller="com.android.settings.security.RestrictUsbPreferenceController" />
+
     <PreferenceCategory
         android:order="240"
         android:key="security_settings_device_admin_category"
