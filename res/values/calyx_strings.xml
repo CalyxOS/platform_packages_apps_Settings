@@ -70,4 +70,11 @@
     <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+
+    <!-- Settings -> Security -->
+    <string name="security_restrict_usb_title">Restrict USB</string>
+    <string name="security_restrict_usb_summary">Control support for USB gadgets such as earphones, storage devices and input (mice, keyboards, joysticks)</string>
+    <string name="security_restrict_usb_always">Deny new USB gadgets</string>
+    <string name="security_restrict_usb_keyguard">Allow new USB gadgets when unlocked</string>
+    <string name="security_restrict_usb_disabled">Allow new USB gadgets always</string>
 </resources>
