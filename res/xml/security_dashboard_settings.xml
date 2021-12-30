@@ -60,6 +60,14 @@
             android:title="@string/security_settings_biometric_preference_title"
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_biometric_settings" />
+
+        <ListPreference
+            android:key="trust_restrict_usb"
+            android:entries="@array/security_restrict_usb_entries"
+            android:entryValues="@array/security_restrict_usb_values"
+            android:summary="@string/security_restrict_usb_summary"
+            android:title="@string/security_restrict_usb_title"
+            settings:controller="com.android.settings.security.RestrictUsbPreferenceController" />
     </PreferenceCategory>
 
     <PreferenceCategory
