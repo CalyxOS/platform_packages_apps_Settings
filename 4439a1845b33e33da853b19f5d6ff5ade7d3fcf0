@@ -16,6 +16,24 @@
       "message": "The point of LineageGlobalSettingListPreference is so we don\u0027t need this class at all, but I don\u0027t know if there\u0027s a way to do this logic from xml.\n\nmaybe admin but not unsupported.\n\nSo ListPreference would work the same, maybe better.",
       "revId": "4439a1845b33e33da853b19f5d6ff5ade7d3fcf0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74373298_afd658ab",
+        "filename": "src/com/android/settings/security/RestrictUsbPreferenceController.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-31T21:16:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a0d10a0d_4bb477be",
+      "revId": "4439a1845b33e33da853b19f5d6ff5ade7d3fcf0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

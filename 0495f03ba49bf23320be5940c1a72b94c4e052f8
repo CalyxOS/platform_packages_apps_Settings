@@ -16,6 +16,24 @@
       "message": "should be last line in this section.",
       "revId": "0495f03ba49bf23320be5940c1a72b94c4e052f8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e999138_6c2f04ff",
+        "filename": "src/com/android/settings/security/RestrictUsbPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-31T21:16:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c719d41a_608c265a",
+      "revId": "0495f03ba49bf23320be5940c1a72b94c4e052f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
