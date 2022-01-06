@@ -25,6 +25,7 @@
     <string name="bluetooth_timeout_summary2">Non spegnere automaticamente il Bluetooth</string>
     <string name="bluetooth_timeout">timeout Bluetooth</string>
     <string name="wifi_timeout">Spegni il Wi-Fi automaticamente</string>
+    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="cleartext_network_policy_summary">Blocca tutto il traffico di rete non TLS. Richiede la configurazione del DNS privato. Nota: senza esclusioni esplicite, Tor e la maggior parte delle VPN non funzioneranno</string>
     <string name="wifi_timeout_summary_2hours">2 ore</string>
     <string name="wifi_timeout_summary">Il Wi-Fi si spegnerà dopo <xliff:g id="timeout_description">%1$s</xliff:g> se nessuna rete è connessa</string>

@@ -24,4 +24,29 @@
     <string name="bluetooth_timeout_summary2">Ikke skru av Blåtann automatisk</string>
     <string name="bluetooth_timeout_summary">Blåtann vil bli skrudd av etter <xliff:g id="timeout_description">%1$s</xliff:g> hvis ingen enheter tilknyttes</string>
     <string name="bluetooth_timeout">Blåtannstidsavbrudd</string>
+    <string name="wifi_timeout_summary_10mins"></string>
+    <string name="cleartext_network_policy_title"></string>
+    <string name="wifi_timeout_summary_30mins"></string>
+    <string name="show_qs_on_secure_keyguard_title"></string>
+    <string name="wifi_timeout_summary_30secs"></string>
+    <string name="wifi_timeout_summary2"></string>
+    <string name="wifi_timeout_summary_5mins"></string>
+    <string name="wifi_timeout_summary_2hours"></string>
+    <string name="show_qs_on_secure_keyguard_summary"></string>
+    <string name="wifi_timeout_summary_never"></string>
+    <string name="wifi_timeout_summary_4hours"></string>
+    <string name="data_usage_app_restrict_background_all_summary"></string>
+    <string name="wifi_timeout_summary_15secs"></string>
+    <string name="wifi_timeout_summary_2mins"></string>
+    <string name="user_add_managed_profile_item_title"></string>
+    <string name="wifi_timeout_summary_8hours"></string>
+    <string name="wifi_timeout"></string>
+    <string name="data_usage_app_restrict_background_all"></string>
+    <string name="aosp_module_version"></string>
+    <string name="wifi_timeout_summary"></string>
+    <string name="cleartext_network_policy_summary"></string>
+    <string name="user_add_managed_profile_item_summary"></string>
+    <string name="wifi_timeout_summary_1hour"></string>
+    <string name="wifi_timeout_summary_1min"></string>
+    <string name="private_dns_mode_cloudflare" translatable="false"></string>
 </resources>

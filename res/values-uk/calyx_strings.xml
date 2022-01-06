@@ -48,4 +48,18 @@
     <string name="data_usage_app_restrict_background_all">Доступ до мережі у тлі</string>
     <string name="bluetooth_timeout_summary_2hours">2 години</string>
     <string name="calyxos_version">Версія CalyxOS</string>
+    <string name="private_dns_mode_cloudflare" translatable="false"/>
+    <string name="auto_reboot_timeout_summary_72hours">72 години</string>
+    <string name="auto_reboot_timeout_summary_48hours">48 годин</string>
+    <string name="auto_reboot_timeout_summary_36hours">36 годин</string>
+    <string name="auto_reboot_timeout_summary_24hours">24 годин</string>
+    <string name="auto_reboot_timeout_summary_12hours">12 годин</string>
+    <string name="auto_reboot_timeout_summary_8hours">8 годин</string>
+    <string name="auto_reboot_timeout_summary_4hours">4 години</string>
+    <string name="auto_reboot_timeout_summary_2hours">2 годин</string>
+    <string name="auto_reboot_timeout_summary_1hour">1 години</string>
+    <string name="auto_reboot_summary">Пристрій автоматично перезавантажиться, якщо його не розблоковано протягом останніх/останньої <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="auto_reboot_timeout_summary_never">Ніколи</string>
+    <string name="auto_reboot_summary2">Пристрій не перезавантажиться автоматично</string>
+    <string name="auto_reboot_title">Автоперезавантаження</string>
 </resources>

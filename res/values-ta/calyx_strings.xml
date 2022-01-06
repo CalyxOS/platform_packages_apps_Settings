@@ -1,2 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_timeout_summary_30secs"/>
+    <string name="calyxos_version">CalyxOS பதிப்பு</string>
+    <string name="bluetooth_timeout_summary_15secs"/>
+    <string name="bluetooth_timeout_summary2"/>
+    <string name="bluetooth_timeout_summary_never"/>
+    <string name="panic_settings_summary">அவசர பீதி தூண்டுதலைச் செயல்படுத்தும் பவர் பட்டன் விருப்பத்தைக் காட்டு.</string>
+    <string name="cleartext_network_policy_summary"/>
+    <string name="wifi_timeout_summary_8hours"/>
+    <string name="bluetooth_timeout_summary_5mins"/>
+    <string name="cleartext_network_policy_title"/>
+    <string name="bluetooth_timeout"/>
+    <string name="bluetooth_timeout_summary_2mins"/>
+    <string name="bluetooth_timeout_summary_1hour"/>
+    <string name="bluetooth_timeout_summary_30mins"/>
+    <string name="bluetooth_timeout_summary_1min"/>
+    <string name="deny_new_usb_disabled"/>
+    <string name="deny_new_usb_title">USB ஐ கட்டுப்படுத்து</string>
+    <string name="bluetooth_timeout_summary"/>
+    <string name="vendor_security_patch"/>
+    <string name="deny_new_usb_dynamic">திறக்கப்படும்போது புதிய USB உபகரணங்களை அனுமதிக்கவும்</string>
+    <string name="deny_new_usb_enabled">புதிய USB உபகரணங்களை மறுக்கவும்</string>
+    <string name="deny_new_usb_summary">இயர்போன்கள், சேமிப்பு சாதனங்கள் மற்றும் உள்ளீடு (எலிகள், விசைப்பலகைகள், ஜாய்ஸ்டிக்ஸ்) போன்ற USB கேஜெட்களுக்கான ஆதரவு கட்டுப்பாடு</string>
+    <string name="bluetooth_timeout_summary_2hours"/>
+    <string name="aosp_module_version"/>
+    <string name="show_qs_on_secure_keyguard_summary"/>
+    <string name="show_qs_on_secure_keyguard_title"/>
+    <string name="user_add_managed_profile_item_summary"/>
+    <string name="user_add_managed_profile_item_title"/>
+    <string name="wifi_timeout_summary_4hours"/>
+    <string name="wifi_timeout_summary_2hours"/>
+    <string name="wifi_timeout_summary_1hour"/>
+    <string name="wifi_timeout_summary_30mins"/>
+    <string name="wifi_timeout_summary_10mins"/>
+    <string name="wifi_timeout_summary_5mins"/>
+    <string name="wifi_timeout_summary_2mins"/>
+    <string name="wifi_timeout_summary_1min"/>
+    <string name="wifi_timeout_summary_30secs"/>
+    <string name="wifi_timeout_summary_15secs"/>
+    <string name="wifi_timeout_summary_never"/>
+    <string name="wifi_timeout_summary2"/>
+    <string name="wifi_timeout_summary"/>
+    <string name="wifi_timeout"/>
+    <string name="data_usage_app_restrict_background_all_summary"/>
+    <string name="data_usage_app_restrict_background_all"/>
+    <string name="bluetooth_timeout_summary_8hours"/>
+    <string name="bluetooth_timeout_summary_4hours"/>
+    <string name="bluetooth_timeout_summary_10mins"/>
+    <string name="panic_settings_title">பீதி விருப்பத்தைக் காட்டு</string>
+    <string name="private_dns_mode_cloudflare" translatable="false"/>
+</resources>

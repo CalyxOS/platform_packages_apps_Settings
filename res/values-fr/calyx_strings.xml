@@ -47,5 +47,19 @@
     <string name="wifi_timeout">Désactiver automatiquement le Wi-Fi</string>
     <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
     <string name="data_usage_app_restrict_background_all">Accès réseau en arrière plan</string>
+    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="aosp_module_version">Mise à jour du module principal</string>
+    <string name="auto_reboot_timeout_summary_72hours">72 heures</string>
+    <string name="auto_reboot_timeout_summary_48hours">48 heures</string>
+    <string name="auto_reboot_timeout_summary_36hours">36 heures</string>
+    <string name="auto_reboot_timeout_summary_24hours">24 heures</string>
+    <string name="auto_reboot_timeout_summary_12hours">12 heures</string>
+    <string name="auto_reboot_timeout_summary_8hours">8 heures</string>
+    <string name="auto_reboot_timeout_summary_4hours">4 heures</string>
+    <string name="auto_reboot_timeout_summary_2hours">2 heures</string>
+    <string name="auto_reboot_timeout_summary_1hour">1 heure</string>
+    <string name="auto_reboot_timeout_summary_never">Jamais</string>
+    <string name="auto_reboot_summary2">L\'appareil ne redémarrera pas automatiquement</string>
+    <string name="auto_reboot_summary">L\'appareil redémarrera automatiquement s\'il n\'a pas été déverrouillé au cours des <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="auto_reboot_title">Redémarrage automatique</string>
 </resources>
