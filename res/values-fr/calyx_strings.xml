@@ -47,7 +47,6 @@
     <string name="wifi_timeout">Désactiver automatiquement le Wi-Fi</string>
     <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
     <string name="data_usage_app_restrict_background_all">Accès réseau en arrière plan</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="aosp_module_version">Mise à jour du module principal</string>
     <string name="auto_reboot_timeout_summary_72hours">72 heures</string>
     <string name="auto_reboot_timeout_summary_48hours">48 heures</string>

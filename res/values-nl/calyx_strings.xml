@@ -47,6 +47,4 @@
     <string name="bluetooth_timeout">Bluetooth time-out</string>
     <string name="panic_settings_title">Laat Paniek-optie zien</string>
     <string name="calyxos_version">CalyxOS versie</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
-    <string name="aosp_module_version"/>
 </resources>

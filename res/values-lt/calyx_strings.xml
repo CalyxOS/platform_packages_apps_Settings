@@ -23,7 +23,6 @@
     <string name="wifi_timeout_summary_15secs">15 sekundžių</string>
     <string name="bluetooth_timeout_summary_never">Niekada</string>
     <string name="wifi_timeout_summary_2hours">2 valandų</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="cleartext_network_policy_summary">Blokuoja visą ne TLS tinklo srautą. Reikalinga privataus DNS konfigūracija. Pastaba: be aiškių išimčių „Tor“ ir dauguma VPN neveiks</string>
     <string name="wifi_timeout_summary_5mins">5 minučių</string>
     <string name="data_usage_app_restrict_background_all">Foninė tinklo prieiga</string>

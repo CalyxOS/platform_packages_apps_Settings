@@ -33,7 +33,6 @@
     <string name="bluetooth_timeout_summary_1hour">שעה</string>
     <string name="wifi_timeout_summary2">מושבתת</string>
     <string name="bluetooth_timeout_summary">Bluetooth יכבה לאחר <xliff:g id="timeout_description">%1$s</xliff:g> אם אין התקנים מחוברים</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="wifi_timeout_summary_10mins">10 דקות</string>
     <string name="wifi_timeout_summary_15secs">15 שניות</string>
     <string name="bluetooth_timeout_summary_5mins">5 דקות</string>

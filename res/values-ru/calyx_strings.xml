@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calyxos_version">Версия CalyxOS</string>
-    <string name="private_dns_mode_cloudflare">Cloudflare DNS</string>
     <string name="deny_new_usb_disabled">Всегда разрешать новые USB-устройства</string>
     <string name="deny_new_usb_dynamic">Разрешить новые USB-устройства, если телефон разблокирован</string>
     <string name="deny_new_usb_enabled">Запретить новые USB-устройства</string>
@@ -35,7 +34,6 @@
     <string name="cleartext_network_policy_summary">Блокировать весь non-TLS сетевой трафик. Требует настройки Private DNS. Примечание: Без настройки исключений Tor и большинство VPN не будут работать</string>
     <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
     <string name="user_add_managed_profile_item_title">Рабочий профиль</string>
-    <string name="cleartext_network_policy_title"/>
     <string name="wifi_timeout_summary_8hours">8 часов</string>
     <string name="wifi_timeout_summary_4hours">4 часа</string>
     <string name="wifi_timeout_summary_2hours">2 часа</string>

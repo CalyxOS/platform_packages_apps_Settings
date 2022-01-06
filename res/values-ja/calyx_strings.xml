@@ -48,7 +48,6 @@
     <string name="deny_new_usb_summary">イヤホン、ストレージデバイス、入力機器（マウスや、キーボード、ジョイスティック）などのUSBガジェットのサポートをコントロール</string>
     <string name="wifi_timeout_summary_never">なし</string>
     <string name="aosp_module_version">メインラインモジュールの更新</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="auto_reboot_timeout_summary_never">しない</string>
     <string name="auto_reboot_title">自動的に再起動</string>
     <string name="auto_reboot_summary2">デバイスは自動的に再起動しません</string>

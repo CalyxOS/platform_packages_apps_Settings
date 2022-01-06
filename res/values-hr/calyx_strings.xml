@@ -24,7 +24,6 @@
     <string name="wifi_timeout_summary_4hours">4 sata</string>
     <string name="user_add_managed_profile_item_title">Radni profil</string>
     <string name="wifi_timeout_summary_30mins">30 minuta</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="wifi_timeout_summary_never">Nikada</string>
     <string name="bluetooth_timeout_summary_4hours">4 sata</string>
     <string name="wifi_timeout_summary_8hours">8 sati</string>

@@ -48,7 +48,6 @@
     <string name="data_usage_app_restrict_background_all_summary">Arka planda ağ kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_background_all">Arka planda ağ erişimi</string>
     <string name="aosp_module_version">Ana hat modül güncellemesi</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="auto_reboot_timeout_summary_72hours">72 saat</string>
     <string name="auto_reboot_timeout_summary_48hours">48 saat</string>
     <string name="auto_reboot_timeout_summary_36hours">36 saat</string>

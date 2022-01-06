@@ -24,7 +24,6 @@
     <string name="wifi_timeout_summary_5mins">5 minút</string>
     <string name="bluetooth_timeout_summary_2hours">2 hodiny</string>
     <string name="user_add_managed_profile_item_title">Pracovný profil</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="show_qs_on_secure_keyguard_title">Rýchle nastavenia</string>
     <string name="wifi_timeout_summary">Ak nie je pripojená žiadna sieť, Wi-Fi sa vypne po <xliff:g id="timeout_description"> %1$s </xliff:g></string>
     <string name="wifi_timeout_summary_never">Nikdy</string>

@@ -32,7 +32,6 @@
     <string name="wifi_timeout_summary_5mins">5 minut</string>
     <string name="show_qs_on_secure_keyguard_summary">Zezwalaj na przełączanie szybkich ustawień na bezpiecznym ekranie blokady</string>
     <string name="wifi_timeout">Automatycznie wyłącz Wi-Fi</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="wifi_timeout_summary_1hour">1 godzina</string>
     <string name="data_usage_app_restrict_background_all">Dostęp do sieci w tle</string>
     <string name="wifi_timeout_summary2">Wyłączony</string>

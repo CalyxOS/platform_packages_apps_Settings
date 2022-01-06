@@ -46,7 +46,6 @@
     <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
     <string name="data_usage_app_restrict_background_all_summary">Habilitar uso da rede em segundo plano</string>
     <string name="data_usage_app_restrict_background_all">Acesso a rede em segundo plano</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="aosp_module_version">Atualização do módulo principal</string>
     <string name="cleartext_network_policy_title">Restringir o tráfego de rede de texto não criptografado</string>
     <string name="auto_reboot_title">Reinicialização automática</string>

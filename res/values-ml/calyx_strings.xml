@@ -48,7 +48,6 @@
     <string name="bluetooth_timeout_summary_30secs">30 സെക്കന്റുകൾ</string>
     <string name="bluetooth_timeout_summary_15secs">15 സെക്കന്റുകൾ</string>
     <string name="bluetooth_timeout_summary_never">ഒരിക്കലും വേണ്ട</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="auto_reboot_timeout_summary_72hours">72 മണിക്കൂറുകൾ</string>
     <string name="auto_reboot_timeout_summary_48hours">48 മണിക്കൂറുകൾ</string>
     <string name="auto_reboot_timeout_summary_36hours">36 മണിക്കൂറുകൾ</string>

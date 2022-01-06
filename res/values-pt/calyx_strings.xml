@@ -41,7 +41,6 @@
     <string name="wifi_timeout_summary_5mins">5 minutos</string>
     <string name="user_add_managed_profile_item_summary">Perfis de trabalho compartilham o lançador, notificações e tarefas recentes com o utilizador</string>
     <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
-    <string name="private_dns_mode_cloudflare" translatable="false"/>
     <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as configurações rápidas no ecrã de bloqueio seguro</string>
     <string name="wifi_timeout_summary_8hours">8 horas</string>
     <string name="wifi_timeout_summary_4hours">4 horas</string>
