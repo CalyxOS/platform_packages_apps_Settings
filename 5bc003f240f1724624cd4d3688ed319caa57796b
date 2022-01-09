@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae594a30_ce00a1f7",
+        "filename": "src/com/android/settings/wifi/WifiTimeoutPreferenceController.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1000034
+      },
+      "writtenOn": "2022-01-09T17:10:55Z",
+      "side": 1,
+      "message": "putString",
+      "range": {
+        "startLine": 76,
+        "startChar": 28,
+        "endLine": 76,
+        "endChar": 34
+      },
+      "revId": "5bc003f240f1724624cd4d3688ed319caa57796b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
