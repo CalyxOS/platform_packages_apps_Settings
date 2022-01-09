@@ -111,4 +111,9 @@
     <string name="device_reboot_timeout_summary_36hours">36 hours</string>
     <string name="device_reboot_timeout_summary_48hours">48 hours</string>
     <string name="device_reboot_timeout_summary_72hours">72 hours</string>
+
+    <!-- Title for toggle if user wants to enable 3G [CHAR LIMIT=40] -->
+    <string name="enable_3g_title">Allow 3G</string>
+    <!-- Title for toggle if user wants to enable 3G [CHAR LIMIT=NONE] -->
+    <string name="enable_3g_summary">Use 3G cellular connections. For emergency calls, 3G is always turned on.</string>
 </resources>
