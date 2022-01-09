@@ -96,4 +96,9 @@
     <string name="device_reboot_timeout_title">Auto reboot</string>
     <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
+
+    <!-- Title for toggle if user wants to enable 3G [CHAR LIMIT=40] -->
+    <string name="enable_3g_title">Allow 3G</string>
+    <!-- Title for toggle if user wants to enable 3G [CHAR LIMIT=NONE] -->
+    <string name="enable_3g_summary">Use 3G cellular connections. For emergency calls, 3G is always turned on.</string>
 </resources>

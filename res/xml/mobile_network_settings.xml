@@ -248,6 +248,12 @@
             settings:controller="com.android.settings.network.telephony.Enable2gPreferenceController" />
 
         <SwitchPreference
+            android:key="enable_3g"
+            android:title="@string/enable_3g_title"
+            android:summary="@string/enable_3g_summary"
+            settings:controller="com.android.settings.network.telephony.Enable3gPreferenceController" />
+
+        <SwitchPreference
             android:key="nr_advanced_calling"
             android:title="@string/nr_advanced_calling_title"
             android:persistent="false"
