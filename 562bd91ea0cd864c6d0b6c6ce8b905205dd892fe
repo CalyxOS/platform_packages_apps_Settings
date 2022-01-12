@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "175bdb77_d58b877c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-12T00:25:07Z",
+      "side": 1,
+      "message": "Untested but it should work.",
+      "revId": "562bd91ea0cd864c6d0b6c6ce8b905205dd892fe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb467e09_c5e4014a",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-12T00:25:07Z",
+      "side": 1,
+      "message": "Need to check if the emergency call part is true.",
+      "revId": "562bd91ea0cd864c6d0b6c6ce8b905205dd892fe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3fef607_cd656829",
+        "filename": "res/xml/mobile_network_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-12T00:25:07Z",
+      "side": 1,
+      "message": "We can add enable_4g and enable_5g similarly here.\n\nNeed to come up with a better way than multiple toggles though.",
+      "revId": "562bd91ea0cd864c6d0b6c6ce8b905205dd892fe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
