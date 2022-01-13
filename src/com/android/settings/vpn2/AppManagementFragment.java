@@ -216,7 +216,7 @@ public class AppManagementFragment extends SettingsPreferenceFragment
 
     private boolean onGlobalVpnClick(final boolean global) {
         return LineageSettings.Global.putString(getContext().getContentResolver(),
-                LineageSettings.Global.GLOBAL_VPN_APP, global ? mPackageName : null);
+                LineageSettings.Global.GLOBAL_VPN_APP, global ? mPackageName : "");
     }
 
     @Override
