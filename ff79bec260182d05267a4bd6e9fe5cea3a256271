@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39539bc0_100455cd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-14T16:44:15Z",
+      "side": 1,
+      "message": "Actually let\u0027s not do this, let\u0027s flip the frameworks code instead.\n\nI don\u0027t see why we must allow individual toggles when the main toggle is off.\n\nIt\u0027ll just cause confusion.",
+      "revId": "ff79bec260182d05267a4bd6e9fe5cea3a256271",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}

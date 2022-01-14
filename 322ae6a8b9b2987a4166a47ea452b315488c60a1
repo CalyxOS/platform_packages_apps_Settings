@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73bec033_6cf9041e",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-14T16:44:15Z",
+      "side": 0,
+      "message": "Actually !restrictAll does make sense here for us. Should do it in a separate change though I\u0027d say.\n\nGood to remove !restrictCellular though.",
+      "revId": "322ae6a8b9b2987a4166a47ea452b315488c60a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
