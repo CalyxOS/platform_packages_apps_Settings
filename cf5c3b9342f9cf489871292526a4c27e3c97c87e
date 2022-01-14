@@ -16,6 +16,23 @@
       "message": "This will just cause confusion for users, when their toggles are gone suddenly.\n\nShould do same as firewall, hiding is ok for system apps, not ok for user apps.",
       "revId": "cf5c3b9342f9cf489871292526a4c27e3c97c87e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb00ee76_1bb676d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-14T14:06:30Z",
+      "side": 1,
+      "message": "Hiding might also be ok if we show some message or something.\n\nBut just removing like this, won\u0027t do.",
+      "revId": "cf5c3b9342f9cf489871292526a4c27e3c97c87e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
