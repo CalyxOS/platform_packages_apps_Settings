@@ -16,6 +16,40 @@
       "message": "Works for both, extensively tested.",
       "revId": "f34246333f0a8e605c7d8f6e80fc237296951c30",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "213bdabc_199da92e",
+        "filename": "src/com/android/settings/users/UserSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-15T20:37:49Z",
+      "side": 1,
+      "message": "calyxos name is first so that it tries to look for that first.\n\nIf found, that means it\u0027s an upgrade from 11, use that.\nIf not found, exception is thrown, at which point lineageos name should exist, which is why we fallback to that.",
+      "revId": "f34246333f0a8e605c7d8f6e80fc237296951c30",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1efb5a0_f8450148",
+        "filename": "src/com/android/settings/users/UserSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 1365,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-15T20:37:49Z",
+      "side": 1,
+      "message": "It won\u0027t get to here, but this is still needed to compile.",
+      "revId": "f34246333f0a8e605c7d8f6e80fc237296951c30",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
