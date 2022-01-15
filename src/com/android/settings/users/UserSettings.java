@@ -24,11 +24,13 @@ import android.app.admin.DevicePolicyManager;
 import android.app.backup.IBackupManager;
 import android.app.settings.SettingsEnums;
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.pm.UserInfo;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -159,7 +161,8 @@ public class UserSettings extends SettingsPreferenceFragment
     // Must match ManagedProvisioning's ProvisioningParams.TAG_IS_UNMANAGED_PROVISIONING
     private static final String TAG_IS_UNMANAGED_PROVISIONING = "is-unmanaged-provisioning";
 
-    private static final String SETUPWIZARD_PACKAGE = "org.lineageos.setupwizard";
+    private static final String[] SETUPWIZARD_PACKAGES =
+            new String[]{"org.lineageos.setupwizard", "org.calyxos.setupwizard"};
     private static final String SETUPWIZARD_ACTIVITY_CLASS = ".SetupWizardActivity";
 
     static {
@@ -880,8 +883,9 @@ public class UserSettings extends SettingsPreferenceFragment
                                 new LockPatternUtils(context).setSeparateProfileChallengeEnabled(
                                         userId, false, null);
                                 intent = new Intent(Intent.ACTION_MAIN);
-                                intent.setClassName(SETUPWIZARD_PACKAGE,
-                                        SETUPWIZARD_PACKAGE + SETUPWIZARD_ACTIVITY_CLASS);
+                                final String setupWizardPackage = getSetupWizardPackage(context);
+                                intent.setClassName(setupWizardPackage,
+                                        setupWizardPackage + SETUPWIZARD_ACTIVITY_CLASS);
                                 getActivity().startActivityAsUser(intent, user);
                                 context.unregisterReceiver(this);
                             }
@@ -1346,6 +1350,19 @@ public class UserSettings extends SettingsPreferenceFragment
             avatarDataStream.close();
         } catch (IOException ioe) {
         }
+    }
+
+    private static String getSetupWizardPackage(Context context) {
+        for (String setupWizardPackage: SETUPWIZARD_PACKAGES) {
+            Intent intent = new Intent();
+            intent.setComponent(new ComponentName(setupWizardPackage, SETUPWIZARD_ACTIVITY_CLASS));
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            if (context.getPackageManager().resolveActivity(intent,
+                    PackageManager.MATCH_SYSTEM_ONLY) != null) {
+                return setupWizardPackage;
+            }
+        }
+        return SETUPWIZARD_PACKAGES[0]; // Fallback to new name
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
