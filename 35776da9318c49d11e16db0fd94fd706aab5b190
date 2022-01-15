@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eed4157d_24165399",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-15T00:45:13Z",
+      "side": 1,
+      "message": "I\u0027d usually prefer\n\n```\na\n\u0026\u0026 b\n```\n\nas I think that\u0027s more readable, but in this case the file had it like this anyway.",
+      "revId": "35776da9318c49d11e16db0fd94fd706aab5b190",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f8511b9_c1c30212",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-15T00:45:13Z",
+      "side": 1,
+      "message": "Shifted the `\u0026\u0026` to match up the rest to make this easier to read.",
+      "revId": "35776da9318c49d11e16db0fd94fd706aab5b190",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29d33a09_49eeeaaf",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-15T00:45:13Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "35776da9318c49d11e16db0fd94fd706aab5b190",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
