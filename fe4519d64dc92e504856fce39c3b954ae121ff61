@@ -34,6 +34,24 @@
       "parentUuid": "efeb51c8_224cc95f",
       "revId": "fe4519d64dc92e504856fce39c3b954ae121ff61",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c48ba55a_d86731f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-01-17T13:03:15Z",
+      "side": 1,
+      "message": "I\u0027m bringing it up because with the background data netd change I think bw_data_saver applies to more than bw_costly_shared\nhttps://review.calyxos.org/c/CalyxOS/platform_system_netd/+/6212/4/server/BandwidthController.cpp",
+      "parentUuid": "6dfb3967_e99af36a",
+      "revId": "fe4519d64dc92e504856fce39c3b954ae121ff61",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
