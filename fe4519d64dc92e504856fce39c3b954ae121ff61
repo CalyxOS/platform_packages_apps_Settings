@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "efeb51c8_224cc95f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-01-17T10:21:54Z",
+      "side": 1,
+      "message": "I\u0027m wondering if we also need to make a similar change for the unrestricted data usage toggle?",
+      "revId": "fe4519d64dc92e504856fce39c3b954ae121ff61",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
