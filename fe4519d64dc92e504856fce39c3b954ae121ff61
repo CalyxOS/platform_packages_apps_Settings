@@ -16,6 +16,24 @@
       "message": "I\u0027m wondering if we also need to make a similar change for the unrestricted data usage toggle?",
       "revId": "fe4519d64dc92e504856fce39c3b954ae121ff61",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6dfb3967_e99af36a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-17T12:58:29Z",
+      "side": 1,
+      "message": "Nope. We don\u0027t touch that, it functions the same as on stock.\n\nThat one also makes sense to keep mobile data only (and it _might_ work for metered networks too which would be perfect)",
+      "parentUuid": "efeb51c8_224cc95f",
+      "revId": "fe4519d64dc92e504856fce39c3b954ae121ff61",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
