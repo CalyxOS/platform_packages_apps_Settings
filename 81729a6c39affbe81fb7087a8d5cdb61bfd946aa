@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44d07d6e_9b27e066",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-01-18T01:12:00Z",
+      "side": 1,
+      "message": "Merged in AOSP https://android-review.googlesource.com/c/platform/packages/apps/Settings/+/1904791",
+      "revId": "81729a6c39affbe81fb7087a8d5cdb61bfd946aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
