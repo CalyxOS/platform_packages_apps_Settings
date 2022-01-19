@@ -111,4 +111,9 @@
     <string name="device_reboot_timeout_summary_36hours">36 hours</string>
     <string name="device_reboot_timeout_summary_48hours">48 hours</string>
     <string name="device_reboot_timeout_summary_72hours">72 hours</string>
+
+    <!-- [CHAR_LIMIT=NONE] Display Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Font</string>
+    <!-- [CHAR_LIMIT=NONE] Display Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
 </resources>
