@@ -16,6 +16,24 @@
       "message": "Merged upstream, move to cm_strings",
       "revId": "4261339190b819ce80aa5df28bbcd52d24b89760",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11679ff5_48e6ab0b",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-31T18:05:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef16bb15_81661c0f",
+      "revId": "4261339190b819ce80aa5df28bbcd52d24b89760",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
