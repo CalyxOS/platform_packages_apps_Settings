@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a01c902_14286ba2",
+        "filename": "res/values-de/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-12T22:49:25Z",
+      "side": 1,
+      "message": "sed s/device_reboot_/device_reboot_timeout_/g",
+      "revId": "1ade0ca76e158a1614e3c4cf54cb895975f0ea70",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
