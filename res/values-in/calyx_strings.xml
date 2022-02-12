@@ -2,7 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="security_restrict_usb_always">Tolak gadget USB baru</string>
     <string name="panic_settings_summary">Tampilkan opsi tombol daya yang mengaktifkan pemicu panik darurat.</string>
-    <string name="vendor_security_patch">Tingkat patch keamanan vendor</string>
     <string name="security_restrict_usb_disabled">Izinkan selalu gadget USB baru</string>
     <string name="security_restrict_usb_keyguard">Izinkan gadget USB baru saat tidak terkunci</string>
     <string name="security_restrict_usb_summary">Kontrol dukungan untuk gadget USB seperti earphone, perangkat penyimpanan dan input (mouse, keyboard, joystick)</string>
@@ -39,9 +38,9 @@
     <string name="timeout_summary_12hours">12 jam</string>
     <string name="timeout_summary_24hours">24 jam</string>
     <string name="timeout_summary_36hours">36 jam</string>
-    <string name="auto_reboot_title">Mulai ulang otomatis</string>
-    <string name="auto_reboot_summary2">Perangkat tidak akan mulai ulang secara otomatis</string>
-    <string name="auto_reboot_summary">Perangkat akan secara otomatis memulai ulang jika belum dibuka dalam<xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_title">Mulai ulang otomatis</string>
+    <string name="device_reboot_summary2">Perangkat tidak akan mulai ulang secara otomatis</string>
+    <string name="device_reboot_summary">Perangkat akan secara otomatis memulai ulang jika belum dibuka dalam<xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="timeout_summary_48hours">48 jam</string>
     <string name="timeout_summary_72hours">72 jam</string>
 </resources>

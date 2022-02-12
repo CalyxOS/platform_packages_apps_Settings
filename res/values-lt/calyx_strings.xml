@@ -9,7 +9,6 @@
     <string name="timeout_summary_2hours">2 valandų</string>
     <string name="timeout_summary_1min">1 minutės</string>
     <string name="bluetooth_timeout_summary">Bluetooth išsijungs po <xliff:g id="timeout_description">%1$s</xliff:g>, jei nebus prijungti jokie įrenginiai</string>
-    <string name="vendor_security_patch">Tiekėjo saugos pataisos lygis</string>
     <string name="timeout_summary_5mins">5 minučių</string>
     <string name="timeout_summary_30secs">30 sekundžių</string>
     <string name="timeout_summary_2mins">2 minučių</string>
@@ -41,7 +40,7 @@
     <string name="timeout_summary_36hours">36 valandas</string>
     <string name="timeout_summary_24hours">24 valandas</string>
     <string name="timeout_summary_12hours">12 valandų</string>
-    <string name="auto_reboot_summary2">Įrenginys nebus automatiškai perkraunamas</string>
-    <string name="auto_reboot_summary">Įrenginys bus automatiškai perkrautas, jei jis nebuvo atrakintas per <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="auto_reboot_title">Automatinis perkrovimas</string>
+    <string name="device_reboot_summary2">Įrenginys nebus automatiškai perkraunamas</string>
+    <string name="device_reboot_summary">Įrenginys bus automatiškai perkrautas, jei jis nebuvo atrakintas per <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_title">Automatinis perkrovimas</string>
 </resources>

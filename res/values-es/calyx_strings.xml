@@ -8,7 +8,6 @@
     <string name="security_restrict_usb_disabled">Permitir siempre nuevos gadgets USB</string>
     <string name="security_restrict_usb_keyguard">Permitir nuevos gadgets USB cuando esté desbloqueado</string>
     <string name="security_restrict_usb_always">Denegar nuevos gadgets USB</string>
-    <string name="vendor_security_patch">Nivel de parche de seguridad del proveedor</string>
     <string name="bluetooth_timeout">Tiempo de espera de Bluetooth</string>
     <string name="timeout_summary_8hours">8 horas</string>
     <string name="timeout_summary_4hours">4 horas</string>
@@ -36,12 +35,12 @@
     <string name="data_usage_app_restrict_background_all_summary">Habilitar el uso de la red en segundo plano</string>
     <string name="data_usage_app_restrict_background_all">Acceso a la red en segundo plano</string>
     <string name="aosp_module_version">Actualización del módulo principal</string>
-    <string name="auto_reboot_title">Reinicio automático</string>
-    <string name="auto_reboot_summary2">El dispositivo no se reiniciará automáticamente</string>
+    <string name="device_reboot_title">Reinicio automático</string>
+    <string name="device_reboot_summary2">El dispositivo no se reiniciará automáticamente</string>
     <string name="timeout_summary_12hours">12 horas</string>
     <string name="timeout_summary_24hours">24 horas</string>
     <string name="timeout_summary_36hours">36 horas</string>
     <string name="timeout_summary_48hours">48 horas</string>
     <string name="timeout_summary_72hours">72 horas</string>
-    <string name="auto_reboot_summary">Este dispositivo se reiniciará automáticamente si no ha sido desbloqueado dentro de los últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_summary">Este dispositivo se reiniciará automáticamente si no ha sido desbloqueado dentro de los últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
 </resources>

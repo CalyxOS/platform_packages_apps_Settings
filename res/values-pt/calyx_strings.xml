@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="vendor_security_patch">Nível do patch de segurança do fornecedor</string>
     <string name="security_restrict_usb_disabled">Sempre permitir novos aparelhos USB</string>
     <string name="security_restrict_usb_keyguard">Permitir novos aparelhos USB quando desbloqueados</string>
     <string name="security_restrict_usb_always">Negar novos aparelhos USB</string>
@@ -41,7 +40,7 @@
     <string name="timeout_summary_36hours">36 horas</string>
     <string name="timeout_summary_24hours">24 horas</string>
     <string name="timeout_summary_12hours">12 horas</string>
-    <string name="auto_reboot_summary2">O aparelho não será reinicializado automaticamente</string>
-    <string name="auto_reboot_summary">O aparelho será automaticamente reinicializado se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="auto_reboot_title">Reinicialização automática</string>
+    <string name="device_reboot_summary2">O aparelho não será reinicializado automaticamente</string>
+    <string name="device_reboot_summary">O aparelho será automaticamente reinicializado se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_title">Reinicialização automática</string>
 </resources>

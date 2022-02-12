@@ -8,7 +8,6 @@
     <string name="security_restrict_usb_always">Nekt nye USB-enheter</string>
     <string name="security_restrict_usb_summary">Kontroller støtte for USB-enheter som hodetelefoner, lagrings- og inndataenheter (mus, tastatur, styrespaker)</string>
     <string name="security_restrict_usb_title">Begrens USB</string>
-    <string name="vendor_security_patch">Sikkerhetsfiks-nivå fra tilbyder</string>
     <string name="timeout_summary_8hours">åtte timer</string>
     <string name="timeout_summary_4hours">fire timer</string>
     <string name="timeout_summary_2hours">to timer</string>

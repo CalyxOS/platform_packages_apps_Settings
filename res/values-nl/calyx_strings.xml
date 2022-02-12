@@ -2,7 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="timeout_summary_30secs">30 Seconden</string>
     <string name="cleartext_network_policy_title">beperk onbeveiligd netwerkverkeer</string>
-    <string name="vendor_security_patch">Veiligheidspatch-niveau van de leverancier</string>
     <string name="user_add_managed_profile_item_summary"/>
     <string name="timeout_summary_10mins">10 minuten</string>
     <string name="security_restrict_usb_keyguard">Sta nieuwe USB gadgets toe als het apparaat ontgrendeld is</string>

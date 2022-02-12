@@ -3,7 +3,6 @@
     <string name="panic_settings_title">Εμφάνιση επιλογής Πανικού</string>
     <string name="panic_settings_summary">Εμφάνιση επιλογής κουμπιού λειτουργίας που ενεργοποιεί μια ενέργεια πανικού έκτακτης ανάγκης.</string>
     <string name="calyxos_version">Έκδοση CalyxOS</string>
-    <string name="vendor_security_patch">Επίπεδο ενημέρωσης κώδικα ασφαλείας κατασκευαστή</string>
     <string name="security_restrict_usb_always">Να μην επιτρέπονται νέες συσκευές USB</string>
     <string name="security_restrict_usb_disabled">Να επιτρέπονται πάντα νέες συσκευές USB</string>
     <string name="security_restrict_usb_keyguard">Να επιτρέπονται νέες συσκευές USB όταν η συσκευή είναι ξεκλείδωτη</string>

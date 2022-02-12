@@ -8,7 +8,6 @@
     <string name="security_restrict_usb_title">Запретить USB</string>
     <string name="panic_settings_summary">Отображение опции кнопки питания, которая активирует тревожную кнопку.</string>
     <string name="panic_settings_title">Показать опцию \"Тревожная кнопка\"</string>
-    <string name="vendor_security_patch">Исправления безопасности поставщика</string>
     <string name="bluetooth_timeout_summary">Bluetooth будет отключен по прошествии <xliff:g id="timeout_description">%1$s</xliff:g> если ни одно устройство не подключено</string>
     <string name="timeout_summary_8hours">8 часов</string>
     <string name="timeout_summary_4hours">4 часа</string>
@@ -35,12 +34,12 @@
     <string name="wifi_timeout_summary">Отключать Wi-Fi через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключения</string>
     <string name="wifi_timeout">Отключать Wi-Fi автоматически</string>
     <string name="data_usage_app_restrict_background_all_summary">Включить передачу данных в фоновом режиме</string>
-    <string name="auto_reboot_title">Автоматическая перезагрузка</string>
-    <string name="auto_reboot_summary2">Устройство не будет автоматически перезагружаться</string>
+    <string name="device_reboot_title">Автоматическая перезагрузка</string>
+    <string name="device_reboot_summary2">Устройство не будет автоматически перезагружаться</string>
     <string name="timeout_summary_72hours">72 часа</string>
     <string name="timeout_summary_12hours">12 часов</string>
     <string name="timeout_summary_24hours">24 часа</string>
     <string name="timeout_summary_36hours">36 часов</string>
-    <string name="auto_reboot_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последних <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последних <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="timeout_summary_48hours">48 часов</string>
 </resources>
