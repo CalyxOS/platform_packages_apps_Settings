@@ -15,7 +15,6 @@
     <string name="bluetooth_timeout_summary2">Nevypínat Bluetooth automaticky</string>
     <string name="bluetooth_timeout_summary">Bluetooth se vypne po <xliff:g id="timeout_description">%1$s</xliff:g> pokud nejsou připojená žádná zařízení</string>
     <string name="bluetooth_timeout">Maximální travní Bluetooth spojení</string>
-    <string name="vendor_security_patch">Úroveň bezpečností záplaty výrobce</string>
     <string name="security_restrict_usb_disabled">Vždy povolit nová USB zařízení</string>
     <string name="security_restrict_usb_keyguard">Povolit nová USB zařízení po odemčení</string>
     <string name="security_restrict_usb_always">Odmítnou nové USB zařízení</string>

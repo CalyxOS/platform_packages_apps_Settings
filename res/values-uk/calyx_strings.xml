@@ -11,7 +11,6 @@
     <string name="timeout_summary_2mins">2 хвилини</string>
     <string name="user_add_managed_profile_item_title">Робочий профіль</string>
     <string name="aosp_module_version">Оновлення основного модуля</string>
-    <string name="vendor_security_patch">Виправлення безпеки постачальника</string>
     <string name="timeout_summary_30secs">30 секунд</string>
     <string name="wifi_timeout_summary2">Вимкнено</string>
     <string name="security_restrict_usb_summary">Підтримка управління для USB-пристроїв, таких як навушники, пристрої зберігання даних і пристрої введення (миші, клавіатури, джойстики)</string>
@@ -41,7 +40,7 @@
     <string name="timeout_summary_36hours">36 годин</string>
     <string name="timeout_summary_24hours">24 годин</string>
     <string name="timeout_summary_12hours">12 годин</string>
-    <string name="auto_reboot_summary">Пристрій автоматично перезавантажиться, якщо його не розблоковано протягом останніх/останньої <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="auto_reboot_summary2">Пристрій не перезавантажиться автоматично</string>
-    <string name="auto_reboot_title">Автоперезавантаження</string>
+    <string name="device_reboot_timeout_summary">Пристрій автоматично перезавантажиться, якщо його не розблоковано протягом останніх/останньої <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">Пристрій не перезавантажиться автоматично</string>
+    <string name="device_reboot_timeout_title">Автоперезавантаження</string>
 </resources>

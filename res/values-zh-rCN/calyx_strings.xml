@@ -8,7 +8,6 @@
     <string name="security_restrict_usb_always">拒绝新的 USB 设备</string>
     <string name="security_restrict_usb_summary">控制对 USB 设备的支持，如耳机、储存设备和输入设备（鼠标、键盘和手柄）</string>
     <string name="panic_settings_summary">显示电源按钮选项，触发警报机制。</string>
-    <string name="vendor_security_patch">厂商安全补丁级别</string>
     <string name="timeout_summary_8hours">8小时</string>
     <string name="timeout_summary_4hours">4小时</string>
     <string name="timeout_summary_2hours">2小时</string>
@@ -41,7 +40,7 @@
     <string name="timeout_summary_36hours">36 小时</string>
     <string name="timeout_summary_24hours">24 小时</string>
     <string name="timeout_summary_12hours">12 小时</string>
-    <string name="auto_reboot_summary2">设备不会自动重启</string>
-    <string name="auto_reboot_summary">设备将自动重启，如果其未在过去 <xliff:g id="timeout_description">%1$s</xliff:g> 内被解锁</string>
-    <string name="auto_reboot_title">自动重启</string>
+    <string name="device_reboot_timeout_summary2">设备不会自动重启</string>
+    <string name="device_reboot_timeout_summary">设备将自动重启，如果其未在过去 <xliff:g id="timeout_description">%1$s</xliff:g> 内被解锁</string>
+    <string name="device_reboot_timeout_title">自动重启</string>
 </resources>

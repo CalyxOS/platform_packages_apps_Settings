@@ -4,7 +4,6 @@
     <string name="bluetooth_timeout_summary2">ബ്ലൂടൂത്ത് യാന്ത്രികമായി ഓഫാക്കരുത്</string>
     <string name="aosp_module_version">മെയിൻലൈൻ മൊഡ്യൂൾ പുതുക്കൽ</string>
     <string name="bluetooth_timeout_summary">ഉപകരണങ്ങളൊന്നും ബന്ധിപ്പിച്ചില്ലെങ്കിൽ <xliff:g id="timeout_description">%1$s</xliff:g> ക്ക് ശേഷം ബ്ലൂടൂത്ത് ഓഫാകും</string>
-    <string name="vendor_security_patch">വെണ്ടർ സുരക്ഷാ പാച്ച് നില</string>
     <string name="timeout_summary_8hours">8 മണിക്കൂർ</string>
     <string name="timeout_summary_10mins">10 മിനിറ്റ്</string>
     <string name="timeout_summary_30mins">30 മിനിറ്റ്</string>
@@ -41,7 +40,7 @@
     <string name="timeout_summary_36hours">36 മണിക്കൂറുകൾ</string>
     <string name="timeout_summary_24hours">24 മണിക്കൂറുകൾ</string>
     <string name="timeout_summary_12hours">12 മണിക്കൂറുകൾ</string>
-    <string name="auto_reboot_summary2">ഉപകരണം തനിയെ റീബൂട്ട് ചെയ്യില്ല</string>
-    <string name="auto_reboot_summary">കഴിഞ്ഞ <xliff:g id="timeout_description">%1$s</xliff:g> നുള്ളിൽ ഉപകരണം അൺലോക്ക് ചെയ്തിട്ടില്ലെങ്കിൽ ഉപകരണം തനിയെ റീബൂട്ട് ചെയ്യും</string>
-    <string name="auto_reboot_title">ഓട്ടോ റീബൂട്ട്</string>
+    <string name="device_reboot_timeout_summary2">ഉപകരണം തനിയെ റീബൂട്ട് ചെയ്യില്ല</string>
+    <string name="device_reboot_timeout_summary">കഴിഞ്ഞ <xliff:g id="timeout_description">%1$s</xliff:g> നുള്ളിൽ ഉപകരണം അൺലോക്ക് ചെയ്തിട്ടില്ലെങ്കിൽ ഉപകരണം തനിയെ റീബൂട്ട് ചെയ്യും</string>
+    <string name="device_reboot_timeout_title">ഓട്ടോ റീബൂട്ട്</string>
 </resources>

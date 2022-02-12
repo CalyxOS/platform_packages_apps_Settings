@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="vendor_security_patch">רמת טלאי אבטחה של היצרן</string>
     <string name="security_restrict_usb_disabled">תמיד לאפשרי חפיצי USB חדשים</string>
     <string name="security_restrict_usb_keyguard">לאפשר חפיצי USB חדשים כשהמכשיר לא נעול</string>
     <string name="security_restrict_usb_always">דחיית חפיצי USB חדשים</string>
@@ -36,12 +35,12 @@
     <string name="user_add_managed_profile_item_summary">פרופילי העבודה משתפים את המשגר, ההתראות ואת המשימות האחרונות עם המשתמש</string>
     <string name="bluetooth_timeout_summary2">לא לכבות את ה־Bluetooth אוטומטית</string>
     <string name="timeout_summary_never">אף פעם לא</string>
-    <string name="auto_reboot_title">הפעלה אוטומטית מחדש</string>
-    <string name="auto_reboot_summary">המכשיר יופעל אוטומטית מחדש אם הנעילה לא שוחררה במשך <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">הפעלה אוטומטית מחדש</string>
+    <string name="device_reboot_timeout_summary">המכשיר יופעל אוטומטית מחדש אם הנעילה לא שוחררה במשך <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="timeout_summary_36hours">36 שעות</string>
     <string name="timeout_summary_12hours">12 שעות</string>
     <string name="timeout_summary_24hours">24 שעות</string>
     <string name="timeout_summary_48hours">48 שעות</string>
     <string name="timeout_summary_72hours">72 שעות</string>
-    <string name="auto_reboot_summary2">המכשיר לא יופעל מחדש אוטומטית</string>
+    <string name="device_reboot_timeout_summary2">המכשיר לא יופעל מחדש אוטומטית</string>
 </resources>

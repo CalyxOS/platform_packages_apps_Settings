@@ -15,7 +15,6 @@
     <string name="bluetooth_timeout_summary2">Älä katkaise automaattisesti Bluetooth-yhteyttä</string>
     <string name="bluetooth_timeout_summary">Bluetooth aikakatkaistaan <xliff:g id="timeout_description">%1$s</xliff:g> mikäli laitetta ei yhdistetä</string>
     <string name="bluetooth_timeout">Bluetoothin aikakatkaisu</string>
-    <string name="vendor_security_patch">Valmistajan tietoturvakorjauksen taso</string>
     <string name="security_restrict_usb_disabled">Salli kaikki USB-laitteet aina</string>
     <string name="security_restrict_usb_keyguard">Salli uudet USB-laitteet kun näyttö avattu</string>
     <string name="security_restrict_usb_always">Estä uudet USB-laitteet</string>
@@ -36,11 +35,11 @@
     <string name="wifi_timeout">Poista käytöstä Wi-Fi automaattisesti</string>
     <string name="data_usage_app_restrict_background_all_summary">Salli verkon käyttö taustalla</string>
     <string name="aosp_module_version">Päälinjan moduulipäivitys</string>
-    <string name="auto_reboot_summary2">Laite ei käynnisty automaattisesti uudelleen</string>
+    <string name="device_reboot_timeout_summary2">Laite ei käynnisty automaattisesti uudelleen</string>
     <string name="timeout_summary_24hours">24 tuntia</string>
     <string name="timeout_summary_72hours">72 tuntia</string>
-    <string name="auto_reboot_title">Automaattinen uudelleenkäynnistys</string>
-    <string name="auto_reboot_summary">Laite käynnistyy automaattisesti uudelleen, jos sitä ei ole avattu viimeisen <xliff:g id="timeout_description">%1$s</xliff:g> aikana</string>
+    <string name="device_reboot_timeout_title">Automaattinen uudelleenkäynnistys</string>
+    <string name="device_reboot_timeout_summary">Laite käynnistyy automaattisesti uudelleen, jos sitä ei ole avattu viimeisen <xliff:g id="timeout_description">%1$s</xliff:g> aikana</string>
     <string name="timeout_summary_12hours">12 tuntia</string>
     <string name="timeout_summary_48hours">48 tuntia</string>
     <string name="timeout_summary_36hours">36 tuntia</string>
