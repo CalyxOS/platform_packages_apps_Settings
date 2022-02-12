@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="bluetooth_timeout_summary">接続されているデバイスがない場合、Bluetoothは<xliff:g id="timeout_description">%1$s</xliff:g>後にオフになります</string>
-    <string name="vendor_security_patch">ベンダーセキュリティパッチレベル</string>
     <string name="security_restrict_usb_disabled">常に新規USBデバイスを許可する</string>
     <string name="security_restrict_usb_keyguard">アンロック中は新規USBデバイスを許可する</string>
     <string name="security_restrict_usb_always">新規USBデバイスを拒否する</string>
@@ -36,9 +35,9 @@
     <string name="show_qs_on_secure_keyguard_summary">安全なロック画面でクイック設定の切り替えを許可する</string>
     <string name="security_restrict_usb_summary">イヤホン、ストレージデバイス、入力機器（マウスや、キーボード、ジョイスティック）などのUSBガジェットのサポートをコントロール</string>
     <string name="aosp_module_version">メインラインモジュールの更新</string>
-    <string name="auto_reboot_title">自動的に再起動</string>
-    <string name="auto_reboot_summary2">デバイスは自動的に再起動しません</string>
-    <string name="auto_reboot_summary">ロック解除されていない場合、<xliff:g id="timeout_description">%1$s</xliff:g>後に自動的に再起動します</string>
+    <string name="device_reboot_timeout_title">自動的に再起動</string>
+    <string name="device_reboot_timeout_summary2">デバイスは自動的に再起動しません</string>
+    <string name="device_reboot_timeout_summary">ロック解除されていない場合、<xliff:g id="timeout_description">%1$s</xliff:g>後に自動的に再起動します</string>
     <string name="timeout_summary_48hours">48時間</string>
     <string name="timeout_summary_72hours">72時間</string>
     <string name="timeout_summary_12hours">12時間</string>

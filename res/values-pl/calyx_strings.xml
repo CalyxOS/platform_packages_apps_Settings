@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="vendor_security_patch">Poziom poprawek bezpieczeństwa</string>
     <string name="security_restrict_usb_disabled">Zawsze zezwalaj na nowe gadżety USB</string>
     <string name="security_restrict_usb_keyguard">Zezwalaj na nowe gadżety USB po odblokowaniu</string>
     <string name="calyxos_version">Wersja CalyxOS</string>
@@ -41,7 +40,7 @@
     <string name="timeout_summary_36hours">36 godziny</string>
     <string name="timeout_summary_24hours">24 godziny</string>
     <string name="timeout_summary_12hours">12 godzin</string>
-    <string name="auto_reboot_summary2">Urządzenie nie zrestartuje się automatycznie</string>
-    <string name="auto_reboot_summary">Urządzenie automatycznie uruchomi się ponownie, jeśli nie zostało odblokowane w ciągu ostatniego <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="auto_reboot_title">Automatyczny restart</string>
+    <string name="device_reboot_timeout_summary2">Urządzenie nie zrestartuje się automatycznie</string>
+    <string name="device_reboot_timeout_summary">Urządzenie automatycznie uruchomi się ponownie, jeśli nie zostało odblokowane w ciągu ostatniego <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_title">Automatyczny restart</string>
 </resources>

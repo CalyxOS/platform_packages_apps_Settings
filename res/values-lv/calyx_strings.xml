@@ -15,7 +15,6 @@
     <string name="bluetooth_timeout_summary2">Neizslēgt Bluetooth automātiski</string>
     <string name="bluetooth_timeout_summary">Bluetooth izslēgsies pēc <xliff:g id="timeout_description">%1$s</xliff:g> ja neviena ierīce nav savienota</string>
     <string name="bluetooth_timeout">Bluetooth taimauts</string>
-    <string name="vendor_security_patch">Pārdevēja drošības ielāpa līmenis</string>
     <string name="security_restrict_usb_disabled">Atļaut jaunus USB gadžetus vienmēr</string>
     <string name="security_restrict_usb_keyguard">Atļaut jaunus USB gadžetus, kad telefons ir atbloķēts</string>
     <string name="security_restrict_usb_always">Aizliegt jaunus USB gadžetus</string>

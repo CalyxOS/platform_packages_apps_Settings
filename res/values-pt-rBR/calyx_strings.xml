@@ -8,7 +8,6 @@
     <string name="panic_settings_summary">Exibir a opção do botão liga/desliga que ativa um gatilho de pânico de emergência.</string>
     <string name="panic_settings_title">Mostrar opção de pânico</string>
     <string name="calyxos_version">Versão do CalyxOS</string>
-    <string name="vendor_security_patch">Nível do patch de segurança do fornecedor</string>
     <string name="timeout_summary_5mins">5 minutos</string>
     <string name="timeout_summary_2mins">2 minutos</string>
     <string name="timeout_summary_1min">1 minuto</string>
@@ -36,12 +35,12 @@
     <string name="data_usage_app_restrict_background_all">Acesso a rede em segundo plano</string>
     <string name="aosp_module_version">Atualização do módulo principal</string>
     <string name="cleartext_network_policy_title">Restringir o tráfego de rede de texto não criptografado</string>
-    <string name="auto_reboot_title">Reinicialização automática</string>
-    <string name="auto_reboot_summary2">O dispositivo não irá reiniciar automaticamente</string>
+    <string name="device_reboot_timeout_title">Reinicialização automática</string>
+    <string name="device_reboot_timeout_summary2">O dispositivo não irá reiniciar automaticamente</string>
     <string name="timeout_summary_12hours">12 horas</string>
     <string name="timeout_summary_24hours">24 horas</string>
     <string name="timeout_summary_36hours">36 horas</string>
     <string name="timeout_summary_48hours">48 horas</string>
     <string name="timeout_summary_72hours">72 horas</string>
-    <string name="auto_reboot_summary">O dispositivo será reiniciado automaticamente se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary">O dispositivo será reiniciado automaticamente se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
 </resources>

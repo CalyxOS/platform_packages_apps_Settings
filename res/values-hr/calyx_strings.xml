@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="vendor_security_patch">Razina sigurnosne zakrpe proizvođača</string>
     <string name="security_restrict_usb_disabled">Uvijek dozvoli nove USB uređaje</string>
     <string name="security_restrict_usb_keyguard">Dozvoli nove USB uređaje kad su otključani</string>
     <string name="security_restrict_usb_always">Odbij nove USB uređaje</string>
@@ -36,12 +35,12 @@
     <string name="timeout_summary_2hours">2 sata</string>
     <string name="timeout_summary_never">Nikada</string>
     <string name="wifi_timeout">Isključi Wi-Fi automatski</string>
-    <string name="auto_reboot_title">Automatsko ponovno pokretanje</string>
-    <string name="auto_reboot_summary2">Uređaj se neće automatski ponovno pokrenuti</string>
+    <string name="device_reboot_timeout_title">Automatsko ponovno pokretanje</string>
+    <string name="device_reboot_timeout_summary2">Uređaj se neće automatski ponovno pokrenuti</string>
     <string name="timeout_summary_12hours">12 sati</string>
     <string name="timeout_summary_24hours">24 sata</string>
     <string name="timeout_summary_36hours">36 sati</string>
     <string name="timeout_summary_48hours">48 sati</string>
     <string name="timeout_summary_72hours">72 sata</string>
-    <string name="auto_reboot_summary">Uređaj će se automatski ponovno pokrenuti ako nije otključan u zadnjih <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary">Uređaj će se automatski ponovno pokrenuti ako nije otključan u zadnjih <xliff:g id="timeout_description">%1$s</xliff:g></string>
 </resources>
