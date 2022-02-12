@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "31b1d2d6_6af2f83f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-12T10:48:31Z",
+      "side": 1,
+      "message": "This might still make sense to have for now to maybe show that it\u0027s the same thing, that the toggles control the same setting.\n\nText would need to be adjusted of course.",
+      "revId": "11c89ddc2d0fb030b03693480ab31c7b513074eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "58c77afe_fc037b10",
