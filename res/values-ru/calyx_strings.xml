@@ -25,7 +25,7 @@
     <string name="bluetooth_timeout">Время выключения Bluetooth</string>
     <string name="aosp_module_version">Обновление основного модуля</string>
     <string name="data_usage_app_restrict_background_all">Фоновый режим</string>
-    <string name="user_add_managed_profile_item_summary"/>
+    <string name="user_add_managed_profile_item_summary">Рабочие профили совместно с пользователем используют лаунчер, уведомления и последние задачи</string>
     <string name="wifi_timeout_summary2">Отключено</string>
     <string name="show_qs_on_secure_keyguard_summary">Разрешить доступ к быстрым настройкам на экране блокировки</string>
     <string name="cleartext_network_policy_summary">Блокировать весь non-TLS сетевой трафик. Требует настройки Private DNS. Примечание: Без настройки исключений Tor и большинство VPN не будут работать</string>
@@ -42,4 +42,15 @@
     <string name="timeout_summary_36hours">36 часов</string>
     <string name="device_reboot_timeout_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последних <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="timeout_summary_48hours">48 часов</string>
+    <string name="cleartext_network_policy_title">Ограничить сетевой трафик в открытом виде</string>
+    <string name="airplane_mode_radios_title">Радио в режиме самолета</string>
+    <string name="airplane_mode_radios_category_title">Режим самолета будет переключать выбранные радио</string>
+    <string name="global_vpn_title">Глобальный VPN</string>
+    <string name="global_vpn_summary_any_vpn_active">Чтобы включить эту функцию, необходимо сначала отключить все активные VPN-подключения</string>
+    <string name="detailed_security_patch">Платформа: <xliff:g id="platform_level">%1$s</xliff:g>
+\nЯдро: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nВендор: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nПрошивка: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_summary">Принудительно пропускать весь трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей.</string>
+    <string name="global_vpn_summary_on">Принудительно пропускать весь трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей. Примечание: Если включено, вы не сможете использовать отдельный VPN в рабочем профиле и у других пользователей</string>
 </resources>

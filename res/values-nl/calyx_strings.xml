@@ -2,7 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="timeout_summary_30secs">30 Seconden</string>
     <string name="cleartext_network_policy_title">beperk onbeveiligd netwerkverkeer</string>
-    <string name="user_add_managed_profile_item_summary"/>
     <string name="timeout_summary_10mins">10 minuten</string>
     <string name="security_restrict_usb_keyguard">Sta nieuwe USB gadgets toe als het apparaat ontgrendeld is</string>
     <string name="timeout_summary_1hour">1 uur</string>
@@ -11,12 +10,10 @@
     <string name="data_usage_app_restrict_background_all">Netwerktoegang op de achtergrond</string>
     <string name="timeout_summary_5mins">5 minuten</string>
     <string name="wifi_timeout_summary2">uitgeschakeld</string>
-    <string name="show_qs_on_secure_keyguard_title"/>
     <string name="timeout_summary_2hours">2 uur</string>
     <string name="security_restrict_usb_disabled">Sta altijd nieuwe USB gadgets toe</string>
     <string name="security_restrict_usb_summary">Controleer ondersteuning voor USB gadgets zoals koptelefoons, opslagapparaten en invoerapparaten (muizen, toetsenborden, Joysticks).</string>
     <string name="security_restrict_usb_always">Weiger nieuwe USB gadgets</string>
-    <string name="show_qs_on_secure_keyguard_summary"/>
     <string name="panic_settings_summary">Laat aan-/uit knop optie zien die de paniek-knop activeerd.</string>
     <string name="security_restrict_usb_title">USB beperken</string>
     <string name="wifi_timeout_summary">Wif-Fi schakeld uit na &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt; als geen netwerk verbonden is</string>
