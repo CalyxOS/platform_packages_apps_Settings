@@ -38,4 +38,10 @@
         android:title="@string/cross_profile_calendar_title"
         settings:controller="com.android.settings.accounts.CrossProfileCalendarPreferenceController"/>
 
+    <SwitchPreference
+        android:key="cross_profile_sharing"
+        android:summary="@string/cross_profile_sharing_summary"
+        android:title="@string/cross_profile_sharing_title"
+        settings:controller="com.android.settings.accounts.CrossProfileSharingPreferenceController"/>
+
 </PreferenceScreen>
