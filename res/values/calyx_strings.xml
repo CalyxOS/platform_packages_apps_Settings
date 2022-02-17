@@ -100,4 +100,9 @@
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
     <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, apps that use cleartext traffic may not work</string>
+
+    <!-- [CHAR LIMIT=NONE] Settings label. This setting lets the user's apps share intents function between their profiles. The adjective 'Cross-profile' is referring to the work and personal profiles a user has on their phone. -->
+    <string name="cross_profile_sharing_title">Cross-profile sharing</string>
+    <!-- [CHAR LIMIT=NONE] Setting description. If the user turns on this setting, they can share content across their personal and work profiles. -->
+    <string name="cross_profile_sharing_summary">Enable in-app share buttons to work across your personal and work profile</string>
 </resources>
