@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9da7827_19af3746",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-02-18T20:13:20Z",
+      "side": 1,
+      "message": "Since we don\u0027t modify the defaults in the latest PS, same as AOSP (no sharing from work profile to personal profile)",
+      "parentUuid": "8924825a_69c5e4a1",
+      "revId": "abb34d81c0a71b64319339655051a475bc1b7e75",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e82556e_4ba1045b",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-02-18T20:07:27Z",
       "side": 1,
       "message": "Why strings.xml ?",
+      "revId": "abb34d81c0a71b64319339655051a475bc1b7e75",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "421e1145_cc8c8c67",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11626,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-02-18T20:13:20Z",
+      "side": 1,
+      "message": "Cause I forgot that calyx_strings is a thing. Feel free to upload that change. Otherwise I\u0027ll get to it later",
+      "parentUuid": "5e82556e_4ba1045b",
       "revId": "abb34d81c0a71b64319339655051a475bc1b7e75",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
