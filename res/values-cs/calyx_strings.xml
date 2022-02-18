@@ -4,7 +4,7 @@
     <string name="timeout_summary_4hours">4 hodiny</string>
     <string name="timeout_summary_2hours">2 hodiny</string>
     <string name="timeout_summary_1hour">1 hodina</string>
-    <string name="timeout_summary_30mins">30 minute</string>
+    <string name="timeout_summary_30mins">30 minut</string>
     <string name="timeout_summary_10mins">10 minut</string>
     <string name="timeout_summary_5mins">5 minut</string>
     <string name="timeout_summary_2mins">2 minuty</string>
@@ -12,15 +12,25 @@
     <string name="timeout_summary_30secs">30 sekund</string>
     <string name="timeout_summary_15secs">15 sekund</string>
     <string name="timeout_summary_never">Nikdy</string>
-    <string name="bluetooth_timeout_summary2">Nevypínat Bluetooth automaticky</string>
+    <string name="bluetooth_timeout_summary2">Nevypínat automaticky Bluetooth</string>
     <string name="bluetooth_timeout_summary">Bluetooth se vypne po <xliff:g id="timeout_description">%1$s</xliff:g> pokud nejsou připojená žádná zařízení</string>
-    <string name="bluetooth_timeout">Maximální travní Bluetooth spojení</string>
+    <string name="bluetooth_timeout">Maximální trvání Bluetooth spojení</string>
     <string name="security_restrict_usb_disabled">Vždy povolit nová USB zařízení</string>
     <string name="security_restrict_usb_keyguard">Povolit nová USB zařízení po odemčení</string>
-    <string name="security_restrict_usb_always">Odmítnou nové USB zařízení</string>
+    <string name="security_restrict_usb_always">Odmítnout nové USB zařízení</string>
     <string name="security_restrict_usb_summary">Kontrolovat možnosti USB zařízení jako sluchátka, paměťová a vstupní (myš, klávesnice, joystick) zařízení</string>
     <string name="security_restrict_usb_title">Omezit USB</string>
     <string name="panic_settings_summary">Zobrazovat v nabídce napájení tlačítko, které aktivuje nouzovou proceduru pro případ paniky.</string>
     <string name="panic_settings_title">Zobrazit možnosti paniky</string>
     <string name="calyxos_version">Verze CalyxOS</string>
+    <string name="timeout_summary_12hours">12 hodin</string>
+    <string name="timeout_summary_36hours">36 hodin</string>
+    <string name="timeout_summary_24hours">24 hodin</string>
+    <string name="timeout_summary_48hours">48 hodin</string>
+    <string name="timeout_summary_72hours">74 hodin</string>
+    <string name="wifi_timeout">Automaticky vypínat Wi-Fi</string>
+    <string name="show_qs_on_secure_keyguard_summary">Umožnit změnu rychlých voleb před odemčením obrazovky</string>
+    <string name="wifi_timeout_summary">Wi-Fi se automaticky vypne po <xliff:g id="timeout_description">%1$s</xliff:g>, pokud nebude připojena k žádné síti</string>
+    <string name="show_qs_on_secure_keyguard_title">Rychlé volby</string>
+    <string name="wifi_timeout_summary2">Vypnuto</string>
 </resources>
