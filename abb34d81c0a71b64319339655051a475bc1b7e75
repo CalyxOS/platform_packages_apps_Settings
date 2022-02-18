@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8924825a_69c5e4a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-18T20:07:27Z",
+      "side": 1,
+      "message": "Awesome! What\u0027s the default? I\u0027d say off by default would make most sense.",
+      "revId": "abb34d81c0a71b64319339655051a475bc1b7e75",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e82556e_4ba1045b",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11626,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-18T20:07:27Z",
+      "side": 1,
+      "message": "Why strings.xml ?",
+      "revId": "abb34d81c0a71b64319339655051a475bc1b7e75",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
