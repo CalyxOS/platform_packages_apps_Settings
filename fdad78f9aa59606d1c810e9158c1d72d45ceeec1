@@ -16,6 +16,24 @@
       "message": "Actually not sure if this makes sense. If someone disables background network access and then disables VPN data for example, I believe it would become impossible for the user to modify its value. It feels like this toggle should be independent of data restrictions",
       "revId": "fdad78f9aa59606d1c810e9158c1d72d45ceeec1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d52334c_ecf09d90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-23T11:01:56Z",
+      "side": 1,
+      "message": "No it would not.\n\nBackground would be greyed out only when all 3 toggles (mobile data, wifi and vpn) are off, meaning you can\u0027t have any network access at all. The moment you turn on one of those, it\u0027ll be toggleable again.",
+      "parentUuid": "5566627b_940025cb",
+      "revId": "fdad78f9aa59606d1c810e9158c1d72d45ceeec1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
