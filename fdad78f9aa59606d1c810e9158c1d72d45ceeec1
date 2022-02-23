@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5566627b_940025cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-02-23T09:35:18Z",
+      "side": 1,
+      "message": "Actually not sure if this makes sense. If someone disables background network access and then disables VPN data for example, I believe it would become impossible for the user to modify its value. It feels like this toggle should be independent of data restrictions",
+      "revId": "fdad78f9aa59606d1c810e9158c1d72d45ceeec1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
