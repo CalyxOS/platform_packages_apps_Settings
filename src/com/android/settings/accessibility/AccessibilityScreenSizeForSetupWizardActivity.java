@@ -70,7 +70,7 @@ public class AccessibilityScreenSizeForSetupWizardActivity extends InstrumentedA
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         final int appliedTheme = ThemeHelper.trySetDynamicColor(this)
-                ? R.style.SudDynamicColorThemeGlifV3_DayNight : R.style.SudThemeGlifV3_DayNight;
+                ? R.style.SudFullDynamicColorThemeGlifV3_DayNight : R.style.SudThemeGlifV3_DayNight;
         setTheme(appliedTheme);
         setContentView(R.layout.accessibility_screen_size_setup_wizard);
         updateHeaderLayout();
