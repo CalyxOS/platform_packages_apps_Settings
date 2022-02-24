@@ -16,6 +16,23 @@
       "message": "Let\u0027s verify on an older Pixel, and Pixel 6.\n\nPixel 6 fingerprint setup is buggy in AOSP anyway 😞",
       "revId": "ed1065577949a0a578a1fc7016c7a0ed9a27e20e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d24c3e73_5b0d9d3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-24T18:13:08Z",
+      "side": 1,
+      "message": "Tested on oriole and sunfish, all good",
+      "revId": "ed1065577949a0a578a1fc7016c7a0ed9a27e20e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
