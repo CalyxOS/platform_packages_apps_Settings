@@ -34,6 +34,24 @@
       "parentUuid": "84add917_b4de91c2",
       "revId": "681992caba4dcdfe67e597deb4a0a255b5ef1730",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f31c9e7_cf26074c",
+        "filename": "src/com/android/settings/applications/appinfo/AppButtonsPreferenceController.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 718,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-28T21:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c5259a52_69cc41d7",
+      "revId": "681992caba4dcdfe67e597deb4a0a255b5ef1730",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
