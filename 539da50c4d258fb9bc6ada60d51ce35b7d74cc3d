@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a9e5f5d_b9595615",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-28T22:07:58Z",
+      "side": 1,
+      "message": "Works as expected, I\u0027m happy with this for now.",
+      "revId": "539da50c4d258fb9bc6ada60d51ce35b7d74cc3d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}

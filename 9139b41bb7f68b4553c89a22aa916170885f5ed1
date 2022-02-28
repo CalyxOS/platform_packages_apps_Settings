@@ -67,6 +67,24 @@
       "message": "Could be freeze / unfreeze perhaps",
       "revId": "9139b41bb7f68b4553c89a22aa916170885f5ed1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41782ff0_83f7dad1",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-28T22:07:58Z",
+      "side": 1,
+      "message": "Nah",
+      "parentUuid": "4834687a_d6c5e7ba",
+      "revId": "9139b41bb7f68b4553c89a22aa916170885f5ed1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
