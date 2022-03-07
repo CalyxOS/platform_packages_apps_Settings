@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="security_restrict_usb_disabled">תמיד לאפשרי חפיצי USB חדשים</string>
-    <string name="security_restrict_usb_keyguard">לאפשר חפיצי USB חדשים כשהמכשיר לא נעול</string>
-    <string name="security_restrict_usb_always">דחיית חפיצי USB חדשים</string>
-    <string name="security_restrict_usb_summary">שליטה בתמיכה בחפיצי USB כגון אוזניות, התקני אחסון וקלט (עכברים, מקלדות, אביזרי משחק)</string>
+    <string name="security_restrict_usb_disabled">תמיד לאפשר אביזרי USB חדשים</string>
+    <string name="security_restrict_usb_keyguard">לאפשר אביזרי USB חדשים כשהמכשיר לא נעול</string>
+    <string name="security_restrict_usb_always">דחיית אביזרי USB חדשים</string>
+    <string name="security_restrict_usb_summary">שליטה בתמיכה באביזרי USB כגון אוזניות, התקני אחסון וקלט (עכברים, מקלדות, בקרי משחק)</string>
     <string name="security_restrict_usb_title">הגבלת USB</string>
     <string name="panic_settings_summary">הצגת אפשרויות בכפתור הכיבוי שמפעילה את לחצן המצוקה בחירום.</string>
     <string name="panic_settings_title">הצגת אפשרויות מצוקה</string>
@@ -18,7 +18,7 @@
     <string name="cleartext_network_policy_title">הגבלת תעבורת רשת בטקסט פשוט</string>
     <string name="timeout_summary_4hours">4 שעות</string>
     <string name="data_usage_app_restrict_background_all_summary">הפעלת שימוש ברשת ברקע</string>
-    <string name="cleartext_network_policy_summary">לחסום את כל התעבורה שאינה TLS. דורש הגדרות DNS פרטי. לתשומת לבך: ללא החרגות מפורשות, Tor ורוב ה־VPNים לא יעבדו</string>
+    <string name="cleartext_network_policy_summary">לחסום את כל התעבורה שאינה TLS. דורש הגדרות DNS פרטי. לתשומת לבך: ללא החרגות מפורשות, יישומונים שמשתמשים בתעבורה בלתי מוצפנת לא יעבדו</string>
     <string name="user_add_managed_profile_item_title">פרופיל עבודה</string>
     <string name="timeout_summary_30mins">חצי שעה</string>
     <string name="timeout_summary_30secs">חצי דקה</string>
@@ -34,7 +34,7 @@
     <string name="timeout_summary_8hours">8 שעות</string>
     <string name="user_add_managed_profile_item_summary">פרופילי העבודה משתפים את המשגר, ההתראות ואת המשימות האחרונות עם המשתמש</string>
     <string name="bluetooth_timeout_summary2">לא לכבות את ה־Bluetooth אוטומטית</string>
-    <string name="timeout_summary_never">אף פעם לא</string>
+    <string name="timeout_summary_never">לעולם לא</string>
     <string name="device_reboot_timeout_title">הפעלה אוטומטית מחדש</string>
     <string name="device_reboot_timeout_summary">המכשיר יופעל אוטומטית מחדש אם הנעילה לא שוחררה במשך <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="timeout_summary_36hours">36 שעות</string>
@@ -43,4 +43,18 @@
     <string name="timeout_summary_48hours">48 שעות</string>
     <string name="timeout_summary_72hours">72 שעות</string>
     <string name="device_reboot_timeout_summary2">המכשיר לא יופעל מחדש אוטומטית</string>
+    <string name="airplane_mode_radios_category_title">מצב טיסה ישבית או יפעיל את המשדרים הבאים</string>
+    <string name="global_vpn_title">VPN גלובלי</string>
+    <string name="global_vpn_summary">לאלץ שכל תעבורת המכשיר תועבר דרך ה־VPN הזה כולל פרופיל עבודה ומשתמשים אחרים.</string>
+    <string name="global_vpn_summary_on">לאלץ שכל תעבורת המכשיר תועבר דרך ה־VPN הזה כולל פרופיל עבודה ומשתמשים אחרים. לתשומת לבך: כאשר האפשרות פעילה, לא תהיה לך אפשרות להשתמש ב־VPN נפרד לפרופיל העבודה או למשתמשים אחרים</string>
+    <string name="global_vpn_summary_any_vpn_active">עליך להשבית את כל חיבורי ה־VPN הפעילים תחילה כדי לאפשר זאת</string>
+    <string name="detailed_security_patch">פלטפורמה: <xliff:g id="platform_level">%1$s</xliff:g>
+\nליבה: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nיצרן: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nקושחה: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="airplane_mode_radios_title">משדרים במצב טיסה</string>
+    <string name="cross_profile_sharing_summary">הפעלת כפתורי שיתוף בתוך היישומון כדי לעבוד על פני הפרופיל הפרטי ופרופיל העבודה שלך</string>
+    <string name="hide">הסתרה</string>
+    <string name="unhide">הצגה</string>
+    <string name="cross_profile_sharing_title">שיתוף חוצה פרופילים</string>
 </resources>

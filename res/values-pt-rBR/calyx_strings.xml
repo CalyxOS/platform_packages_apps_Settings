@@ -43,4 +43,12 @@
     <string name="timeout_summary_48hours">48 horas</string>
     <string name="timeout_summary_72hours">72 horas</string>
     <string name="device_reboot_timeout_summary">O dispositivo será reiniciado automaticamente se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="cross_profile_sharing_summary">Permitir que botões de compartilhamento dentro de aplicativos funcionem entre seu perfil pessoal e de trabalho</string>
+    <string name="cross_profile_sharing_title">Compartilhamento entre perfis</string>
+    <string name="hide">Ocultar</string>
+    <string name="unhide">Mostrar</string>
+    <string name="global_vpn_title">VPN Global</string>
+    <string name="global_vpn_summary">Forçar todo o tráfego no dispositivo a passar por esta VPN, incluindo perfil de trabalho e outros usuários.</string>
+    <string name="global_vpn_summary_on">Forçar todo o tráfego no dispositivo a passar por esta VPN, incluindo perfil de trabalho e outros usuários. Nota: Quando habilitado, você não poderá utilizar uma VPN separada em um perfil de trabalho ou outros usuários</string>
+    <string name="global_vpn_summary_any_vpn_active">Você precisa desabilitar todas as conexões VPN ativas primeiro para habilitar isso</string>
 </resources>
