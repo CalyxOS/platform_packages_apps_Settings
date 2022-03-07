@@ -5,7 +5,7 @@
     <string name="security_restrict_usb_summary">Unterstützung für USB-Gadgets wie Kopfhörer, Speichergeräte und Eingabegeräte (Mäuse, Tastaturen, Joysticks) kontrollieren</string>
     <string name="security_restrict_usb_disabled">Neue USB-Gadgets immer zulassen</string>
     <string name="security_restrict_usb_keyguard">Neue USB-Gadgets zulassen, wenn entsperrt</string>
-    <string name="security_restrict_usb_always">Neue USB-Gadgets verweigern</string>
+    <string name="security_restrict_usb_always">Neue USB-Gadgets ablehnen</string>
     <string name="security_restrict_usb_title">USB einschränken</string>
     <string name="calyxos_version">CalyxOS Version</string>
     <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
@@ -29,7 +29,7 @@
     <string name="data_usage_app_restrict_background_all">Netzwerkzugriff im Hintergrund</string>
     <string name="user_add_managed_profile_item_summary">Arbeitsprofile teilen sich den Launcher, die Benachrichtigungen und die letzten Aufgaben mit dem Benutzer</string>
     <string name="user_add_managed_profile_item_title">Arbeitsprofil</string>
-    <string name="cleartext_network_policy_summary">Blockiert den gesamten Nicht-TLS-Netzwerkverkehr. Erfordert eine private DNS-Konfiguration. Hinweis: Ohne explizite Ausnahmen werden Tor und die meisten VPNs nicht funktionieren</string>
+    <string name="cleartext_network_policy_summary">Blockiert den gesamten Nicht-TLS-Netzwerkverkehr. Erfordert eine private DNS-Konfiguration. Hinweis: Ohne ausdrückliche Ausnahmen funktionieren Apps, die Klartextverkehr verwenden, möglicherweise nicht</string>
     <string name="wifi_timeout_summary2">Deaktiviert</string>
     <string name="wifi_timeout_summary">WLAN schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn kein Netzwerk verbunden ist</string>
     <string name="wifi_timeout">WLAN automatisch ausschalten</string>
@@ -41,6 +41,20 @@
     <string name="timeout_summary_24hours">24 Stunden</string>
     <string name="timeout_summary_12hours">12 Stunden</string>
     <string name="device_reboot_timeout_summary2">Das Gerät wird nicht automatisch neu gestartet</string>
-    <string name="device_reboot_timeout_summary">Das Gerät wird automatisch neu gestartet, wenn es nicht innerhalb der letzten <xliff:g id="timeout_description">%1$s</xliff:g> entsperrt wurde.</string>
+    <string name="device_reboot_timeout_summary">Das Gerät wird automatisch neu gestartet, wenn es nicht innerhalb der letzten <xliff:g id="timeout_description">%1$s</xliff:g> entsperrt wurde</string>
     <string name="device_reboot_timeout_title">Automatischer Neustart</string>
+    <string name="airplane_mode_radios_category_title">Flugzeugmodus schaltet die ausgewählten Funkmodule um</string>
+    <string name="airplane_mode_radios_title">Funkmodule im Flugmodus</string>
+    <string name="global_vpn_title">Globales VPN</string>
+    <string name="global_vpn_summary">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer.</string>
+    <string name="global_vpn_summary_any_vpn_active">Sie müssen zuerst alle aktiven VPN-Verbindungen deaktivieren, um dies zu aktivieren</string>
+    <string name="detailed_security_patch">Plattform: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nHersteller: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_summary_on">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer. Hinweis: Wenn diese Option aktiviert ist, können Sie kein separates VPN in einem Arbeitsprofil oder für andere Benutzer verwenden</string>
+    <string name="cross_profile_sharing_summary">Aktivieren von In-App-Freigabeschaltflächen für Ihr Privat- und Arbeitsprofil</string>
+    <string name="cross_profile_sharing_title">Profilübergreifende Freigabe</string>
+    <string name="hide">Ausblenden</string>
+    <string name="unhide">Einblenden</string>
 </resources>
