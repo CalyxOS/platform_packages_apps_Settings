@@ -12,7 +12,7 @@
     <string name="show_qs_on_secure_keyguard_title">Γρήγορες ρυθμίσεις</string>
     <string name="user_add_managed_profile_item_summary">Τα προφίλ εργασίας μοιράζονται τον εκκινητή, τις ειδοποιήσεις και τις πρόσφατες εργασίες με τον χρήστη</string>
     <string name="user_add_managed_profile_item_title">Προφίλ εργασίας</string>
-    <string name="cleartext_network_policy_summary">Αποκλείει όλη την κυκλοφορία δικτύου εκτός TLS. Απαιτεί ρύθμιση παραμέτρων ιδιωτικού DNS. Σημείωση: Χωρίς ρητές εξαιρέσεις, το Tor και τα περισσότερα VPN δεν θα λειτουργούν</string>
+    <string name="cleartext_network_policy_summary">Αποκλείει όλη την κυκλοφορία δικτύου εκτός TLS. Απαιτεί ρύθμιση παραμέτρων ιδιωτικού DNS. Σημείωση: Χωρίς ρητές εξαιρέσεις, οι εφαρμογές που χρησιμοποιούν κυκλοφορία cleartext ενδέχεται να μην λειτουργούν</string>
     <string name="cleartext_network_policy_title">Περιορισμός της κυκλοφορίας δικτύου cleartext</string>
     <string name="wifi_timeout_summary2">Απενεργοποιημένο</string>
     <string name="wifi_timeout_summary">Το Wi-Fi θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχει συνδεδεμένο δίκτυο</string>
@@ -34,4 +34,27 @@
     <string name="bluetooth_timeout_summary2">Να μην απενεργοποιείται αυτόματα το Bluetooth</string>
     <string name="bluetooth_timeout_summary">Το Bluetooth θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχουν συνδεδεμένες συσκευές</string>
     <string name="bluetooth_timeout">Χρονικό όριο Bluetooth</string>
+    <string name="detailed_security_patch">Πλατφόρμα: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nΚατασκευαστής: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="aosp_module_version">Ενημέρωση μονάδων Mainline</string>
+    <string name="airplane_mode_radios_title">Ασύρματοι πομποί λειτουργίας πτήσης</string>
+    <string name="airplane_mode_radios_category_title">Η λειτουργία πτήσης θα εναλλάσσει τους επιλεγμένους ασύρματους πομπούς</string>
+    <string name="timeout_summary_36hours">36 ώρες</string>
+    <string name="timeout_summary_48hours">48 ώρες</string>
+    <string name="global_vpn_summary">Εξαναγκάστε όλη την κίνηση δικτύου της συσκευής μέσω αυτού του VPN, συμπεριλαμβανομένων των προφίλ εργασίας και άλλων χρηστών.</string>
+    <string name="global_vpn_summary_on">Εξαναγκάστε όλη την κίνηση δικτύου της συσκευής μέσω αυτού του VPN, συμπεριλαμβανομένων των προφίλ εργασίας και άλλων χρηστών. Σημείωση: Όταν είναι ενεργοποιημένο, δεν θα μπορείτε να χρησιμοποιήσετε ένα ξεχωριστό VPN σε ένα προφίλ εργασίας ή σε άλλους χρήστες</string>
+    <string name="global_vpn_summary_any_vpn_active">Πρέπει πρώτα να απενεργοποιήσετε όλες τις ενεργές συνδέσεις VPN για να το ενεργοποιήσετε</string>
+    <string name="device_reboot_timeout_title">Αυτόματη επανεκκίνηση</string>
+    <string name="device_reboot_timeout_summary2">Η συσκευή δεν θα επανεκκινηθεί αυτόματα</string>
+    <string name="global_vpn_title">Καθολικό VPN</string>
+    <string name="timeout_summary_72hours">72 ώρες</string>
+    <string name="timeout_summary_24hours">24 ώρες</string>
+    <string name="timeout_summary_12hours">12 ώρες</string>
+    <string name="device_reboot_timeout_summary">Η συσκευή θα επανεκκινηθεί αυτόματα εάν δεν έχει ξεκλειδωθεί μέσα σε <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="cross_profile_sharing_summary">Επιτρέψτε στα κουμπιά κοινής χρήσης εντός εφαρμογών να λειτουργούν μεταξύ του προσωπικού προφίλ και του προφίλ εργασίας σας</string>
+    <string name="cross_profile_sharing_title">Κοινή χρήση μεταξύ προφίλ</string>
+    <string name="hide">Απόκρυψη</string>
+    <string name="unhide">Επανεμφάνιση</string>
 </resources>
