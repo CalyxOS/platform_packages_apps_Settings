@@ -4,10 +4,10 @@
     <string name="panic_settings_title">Afficher l’option Urgence</string>
     <string name="calyxos_version">Version de CalyxOS</string>
     <string name="security_restrict_usb_disabled">Toujours autoriser les nouveaux périphériques USB</string>
-    <string name="security_restrict_usb_keyguard">Autoriser les nouveaux périphériques USB quand ils sont déverrouillés</string>
+    <string name="security_restrict_usb_keyguard">Autoriser les nouveaux périphériques USB quand déverrouillé</string>
     <string name="security_restrict_usb_always">Refuser les nouveaux périphériques USB</string>
-    <string name="security_restrict_usb_summary">Prise en charge des périphériques USB tels que les écouteurs, les dispositifs de stockage et les entrées (souris, claviers, joysticks)</string>
-    <string name="security_restrict_usb_title">Restreindre USB</string>
+    <string name="security_restrict_usb_summary">Contrôle de la prise en charge des périphériques USB tels que les écouteurs, les dispositifs de stockage et les entrées (souris, claviers, joysticks)</string>
+    <string name="security_restrict_usb_title">Restreindre l\'USB</string>
     <string name="timeout_summary_8hours">8 heures</string>
     <string name="timeout_summary_4hours">4 heures</string>
     <string name="timeout_summary_2hours">2 heures</string>
@@ -23,7 +23,7 @@
     <string name="bluetooth_timeout_summary2">Ne pas désactiver automatiquement le Bluetooth</string>
     <string name="bluetooth_timeout_summary">Le Bluetooth s\'éteindra après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
     <string name="bluetooth_timeout">Délai d\'attente Bluetooth</string>
-    <string name="cleartext_network_policy_summary">Bloque tout le trafic réseau non TLS. Nécessite de configurer un DNS privé. Remarque : sans exemptions explicites, Tor et la plupart des VPN ne fonctionneront pas</string>
+    <string name="cleartext_network_policy_summary">Bloque tout le trafic réseau non TLS. Nécessite de configurer un DNS privé. Remarque : sans exemptions explicites, les applications qui utilisent le trafic en clair peuvent ne pas fonctionner</string>
     <string name="show_qs_on_secure_keyguard_summary">Permettre de basculer les paramètres rapides sur un écran de verrouillage sécurisé</string>
     <string name="show_qs_on_secure_keyguard_title">Réglages rapides</string>
     <string name="user_add_managed_profile_item_summary">Les profils professionnels partagent le lanceur d\'applications, les notifications et les tâches récentes avec l\'utilisateur</string>
@@ -41,6 +41,16 @@
     <string name="timeout_summary_24hours">24 heures</string>
     <string name="timeout_summary_12hours">12 heures</string>
     <string name="device_reboot_timeout_summary2">L\'appareil ne redémarrera pas automatiquement</string>
-    <string name="device_reboot_timeout_summary">L\'appareil redémarrera automatiquement s\'il n\'a pas été déverrouillé au cours des <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary">L\'appareil redémarrera automatiquement s\'il n\'a pas été déverrouillé au cours des dernières <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_title">Redémarrage automatique</string>
+    <string name="detailed_security_patch">Plateforme : <xliff:g id="platform_level">%1$s</xliff:g>
+\nNoyau : <xliff:g id="kernel_level">%2$s</xliff:g>
+\nDistributeur : <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware : <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="airplane_mode_radios_title">Radios en mode avion</string>
+    <string name="airplane_mode_radios_category_title">Le mode avion bascule les radios sélectionnées</string>
+    <string name="global_vpn_title">VPN général</string>
+    <string name="global_vpn_summary">Forcez tout le trafic sur l\'appareil a passer par ce VPN, y compris le profil de travail et les autres utilisateurs.</string>
+    <string name="global_vpn_summary_on">Forcer tout le trafic sur l\'appareil a passer par ce VPN, y compris le profil de travail et les autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne pourrez pas utiliser un VPN distinct dans un profil de travail ou pour d\'autres utilisateurs</string>
+    <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN actives pour activer cette fonction</string>
 </resources>
