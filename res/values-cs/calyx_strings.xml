@@ -43,4 +43,8 @@
     <string name="device_reboot_timeout_summary">Zařízení se automaticky restartuje, pokud nebylo odemčeno během posledních <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">Zařízení se automaticky nerestartuje</string>
     <string name="cleartext_network_policy_title">Zakázat nešifrovanou komunikaci po síti</string>
+    <string name="detailed_security_patch">Platforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nProdejce: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
 </resources>
