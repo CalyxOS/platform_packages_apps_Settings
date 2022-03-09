@@ -43,4 +43,18 @@
     <string name="device_reboot_timeout_summary">Zařízení se automaticky restartuje, pokud nebylo odemčeno během posledních <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">Zařízení se automaticky nerestartuje</string>
     <string name="cleartext_network_policy_title">Zakázat nešifrovanou komunikaci po síti</string>
+    <string name="detailed_security_patch">Platforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nProdejce: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="data_usage_app_restrict_background_all">Přístup k síti na pozadí</string>
+    <string name="cross_profile_sharing_title">Sdílení mezi profily</string>
+    <string name="cross_profile_sharing_summary">Povolit tlačítku sdílení v aplikacích sdílení mezi osobním a pracovním profilem</string>
+    <string name="hide">Skrýt</string>
+    <string name="unhide">Zobrazit</string>
+    <string name="user_add_managed_profile_item_summary">Pracovní profily sdílí domovskou obrazovku, notifikace a přehled spuštěných aplikací s uživatelským profilem</string>
+    <string name="airplane_mode_radios_title">Bezdrátové služby v režimu letadlo</string>
+    <string name="airplane_mode_radios_category_title">Režim letadlo přepne zvolené bezdrátové služby</string>
+    <string name="data_usage_app_restrict_background_all_summary">Povolit přístup k síti na pozadí</string>
+    <string name="aosp_module_version">Číslo aktualizace modulu Mainline</string>
 </resources>
