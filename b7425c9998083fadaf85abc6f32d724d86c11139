@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76e93e98_43fe7fad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-11T01:26:28Z",
+      "side": 1,
+      "message": "fw/b broken. Settings side is fine ",
+      "revId": "b7425c9998083fadaf85abc6f32d724d86c11139",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
