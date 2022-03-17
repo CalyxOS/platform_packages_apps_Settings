@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78133096_4fbeec76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-03-17T14:03:45Z",
+      "side": 1,
+      "message": "Just merge this for now until we figure out what to do with lottie",
+      "revId": "4d1c3e68a9d8f2d0db374322bc54d95c61df30d2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
