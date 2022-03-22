@@ -16,6 +16,24 @@
       "message": "Given that this covers the else",
       "revId": "6ba5bd6306dcc9752b53f0348c87024da0ae7824",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7886f7b3_ee619089",
+        "filename": "src/com/android/settings/display/OverlayCategoryPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-03-22T20:05:07Z",
+      "side": 1,
+      "message": "Default setting doesn\u0027t need an entry in json",
+      "parentUuid": "37066262_5e907fd8",
+      "revId": "6ba5bd6306dcc9752b53f0348c87024da0ae7824",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
