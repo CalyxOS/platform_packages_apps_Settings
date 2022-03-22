@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37066262_5e907fd8",
+        "filename": "src/com/android/settings/display/OverlayCategoryPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-22T19:59:07Z",
+      "side": 1,
+      "message": "Given that this covers the else",
+      "revId": "6ba5bd6306dcc9752b53f0348c87024da0ae7824",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
