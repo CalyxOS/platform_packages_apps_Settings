@@ -41,6 +41,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 
@@ -492,10 +493,6 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
 
         mButtonsPref.setButton2Enabled(enabled);
         mButtonsPref.setButton4Enabled(enabled);
-        // Unhide button always visible
-        // Hide button only visible if developer options are enabled
-        mButtonsPref.setButton4Visible(hidden ? true :
-                DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(mContext));
         mButtonsPref.setButton4Text(hidden ? R.string.unhide : R.string.hide);
     }
 
