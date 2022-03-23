@@ -46,7 +46,7 @@
             android:key="top_level_connected_devices"
             android:order="-10"
             android:title="@string/connected_devices_dashboard_title"
-            android:summary="@string/connected_devices_dashboard_default_summary"
+            android:summary="@string/connected_devices_dashboard_summary_calyx"
             settings:highlightableMenuKey="@string/menu_key_connected_devices"
             settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
     </PreferenceCategory>
@@ -185,7 +185,7 @@
             android:key="top_level_security"
             android:order="-40"
             android:title="@string/security_settings_title"
-            android:summary="@string/security_dashboard_summary"
+            android:summary="@string/security_dashboard_summary_calyx"
             settings:highlightableMenuKey="@string/menu_key_security"
             settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
 
