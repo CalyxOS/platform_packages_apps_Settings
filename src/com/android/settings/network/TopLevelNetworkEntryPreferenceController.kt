@@ -49,9 +49,9 @@ constructor(
     override fun getSummary(): CharSequence {
         val summaryResId =
             if (simRepository.showMobileNetworkPageEntrance()) {
-                R.string.network_dashboard_summary_mobile
+                R.string.network_dashboard_summary_mobile_calyx
             } else {
-                R.string.network_dashboard_summary_no_mobile
+                R.string.network_dashboard_summary_no_mobile_calyx
             }
         return BidiFormatter.getInstance().unicodeWrap(mContext.getString(summaryResId))
     }
