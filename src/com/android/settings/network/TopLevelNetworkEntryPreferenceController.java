@@ -41,10 +41,10 @@ public class TopLevelNetworkEntryPreferenceController extends BasePreferenceCont
     public CharSequence getSummary() {
         if (mMobileNetworkPreferenceController.isAvailable()) {
             return BidiFormatter.getInstance()
-                    .unicodeWrap(mContext.getString(R.string.network_dashboard_summary_mobile));
+                    .unicodeWrap(mContext.getString(R.string.network_dashboard_summary_mobile_calyx));
         } else {
             return BidiFormatter.getInstance()
-                    .unicodeWrap(mContext.getString(R.string.network_dashboard_summary_no_mobile));
+                    .unicodeWrap(mContext.getString(R.string.network_dashboard_summary_no_mobile_calyx));
         }
     }
 }
