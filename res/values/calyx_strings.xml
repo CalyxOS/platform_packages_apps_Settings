@@ -108,4 +108,11 @@
 
     <string name="hide">Hide</string>
     <string name="unhide">Unhide</string>
+
+    <!-- Summary for Connected devices settings, explaining default settings under it [CHAR LIMIT=NONE]-->
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pairing, NFC</string>
+    <!-- Summary for Security settings, explaining a few important settings under it [CHAR LIMIT=NONE] -->
+    <string name="security_dashboard_summary_calyx">Screen lock, panic settings, app security</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_summary_calyx">Languages, gestures, time, users, work profile</string>
 </resources>
