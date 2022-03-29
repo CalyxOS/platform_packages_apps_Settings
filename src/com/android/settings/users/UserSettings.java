@@ -21,7 +21,6 @@ import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
-import android.app.backup.IBackupManager;
 import android.app.settings.SettingsEnums;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -42,7 +41,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.Process;
 import android.os.RemoteException;
-import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.provider.ContactsContract;
@@ -68,7 +66,6 @@ import com.android.settings.R;
 import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
-import com.android.settings.core.OnActivityResultListener;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.password.ChooseLockGeneric;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -82,6 +79,7 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.users.EditUserInfoController;
 import com.android.settingslib.users.UserCreatingDialog;
 import com.android.settingslib.utils.ThreadUtils;
+
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import java.io.IOException;
@@ -93,7 +91,6 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.Random;
 
 /**
  * Screen that manages the list of users on the device.
@@ -106,8 +103,7 @@ import java.util.Random;
 public class UserSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceClickListener,
         MultiUserSwitchBarController.OnMultiUserSwitchChangedListener,
-        DialogInterface.OnDismissListener,
-        OnActivityResultListener {
+        DialogInterface.OnDismissListener {
 
     private static final String TAG = "UserSettings";
 
@@ -137,14 +133,12 @@ public class UserSettings extends SettingsPreferenceFragment
     private static final int DIALOG_USER_PROFILE_EDITOR_ADD_USER = 10;
     private static final int DIALOG_USER_PROFILE_EDITOR_ADD_RESTRICTED_PROFILE = 11;
     private static final int DIALOG_CONFIRM_RESET_GUEST = 12;
-    private static final int DIALOG_USER_PROFILE_EDITOR_ADD_MANAGED_PROFILE = 13;
 
     private static final int MESSAGE_UPDATE_LIST = 1;
     private static final int MESSAGE_USER_CREATED = 2;
 
     private static final int USER_TYPE_USER = 1;
     private static final int USER_TYPE_RESTRICTED_PROFILE = 2;
-    private static final int USER_TYPE_MANAGED_PROFILE = 3;
 
     private static final int REQUEST_CHOOSE_LOCK = 10;
     private static final int REQUEST_EDIT_GUEST = 11;
@@ -156,14 +150,6 @@ public class UserSettings extends SettingsPreferenceFragment
 
     private static final String KEY_TITLE = "title";
     private static final String KEY_SUMMARY = "summary";
-
-    // Must match ManagedProvisioning's ProvisioningParams.TAG_IS_UNMANAGED_PROVISIONING
-    private static final String TAG_IS_UNMANAGED_PROVISIONING = "is-unmanaged-provisioning";
-
-    private static final String[] SETUPWIZARD_PACKAGES =
-            new String[]{"org.calyxos.setupwizard", "org.lineageos.setupwizard"};
-    private static final String SETUPWIZARD_ACTIVITY =
-            "org.lineageos.setupwizard.SetupWizardActivity";
 
     static {
         USER_REMOVED_INTENT_FILTER = new IntentFilter(Intent.ACTION_USER_REMOVED);
@@ -308,7 +294,7 @@ public class UserSettings extends SettingsPreferenceFragment
         mAddGuest.setOnPreferenceClickListener(this);
 
         mAddUser = findPreference(KEY_ADD_USER);
-        if (!mUserCaps.mCanAddRestrictedProfile && !mUserCaps.mCanAddManagedProfile) {
+        if (!mUserCaps.mCanAddRestrictedProfile) {
             // Label should only mention adding a "user", not a "profile"
             mAddUser.setTitle(R.string.user_add_user_menu);
         }
@@ -500,9 +486,6 @@ public class UserSettings extends SettingsPreferenceFragment
                             showDialog(DIALOG_NEED_LOCKSCREEN);
                         }
                         break;
-                    case USER_TYPE_MANAGED_PROFILE:
-                        showDialog(DIALOG_USER_PROFILE_EDITOR_ADD_MANAGED_PROFILE);
-                        break;
                 }
             }
         }
@@ -622,12 +605,10 @@ public class UserSettings extends SettingsPreferenceFragment
                 addUserItem.put(KEY_SUMMARY, getString(
                         com.android.settingslib.R.string.user_add_user_item_summary));
                 HashMap<String, String> addProfileItem = new HashMap<String, String>();
-                addProfileItem.put(KEY_TITLE, getString(!Utils.isVoiceCapable(context) ?
-                        com.android.settingslib.R.string.user_add_profile_item_title :
-                        R.string.user_add_managed_profile_item_title));
-                addProfileItem.put(KEY_SUMMARY, getString(!Utils.isVoiceCapable(context) ?
-                        com.android.settingslib.R.string.user_add_profile_item_summary :
-                        R.string.user_add_managed_profile_item_summary));
+                addProfileItem.put(KEY_TITLE, getString(
+                        com.android.settingslib.R.string.user_add_profile_item_title));
+                addProfileItem.put(KEY_SUMMARY, getString(
+                        com.android.settingslib.R.string.user_add_profile_item_summary));
                 data.add(addUserItem);
                 data.add(addProfileItem);
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);
@@ -642,9 +623,7 @@ public class UserSettings extends SettingsPreferenceFragment
                             public void onClick(DialogInterface dialog, int which) {
                                 onAddUserClicked(which == 0
                                         ? USER_TYPE_USER
-                                        : !Utils.isVoiceCapable(context) ?
-                                        USER_TYPE_RESTRICTED_PROFILE :
-                                        USER_TYPE_MANAGED_PROFILE);
+                                        : USER_TYPE_RESTRICTED_PROFILE);
                             }
                         });
                 return builder.create();
@@ -700,15 +679,6 @@ public class UserSettings extends SettingsPreferenceFragment
             case DIALOG_CONFIRM_RESET_GUEST: {
                 return UserDialogs.createResetGuestDialog(getActivity(),
                         (dialog, which) -> resetGuest());
-            }
-            case DIALOG_USER_PROFILE_EDITOR_ADD_MANAGED_PROFILE: {
-                synchronized (mUserLock) {
-                    mPendingUserIcon = UserIcons.getDefaultUserIcon(getPrefContext().getResources(),
-                            new Random(System.currentTimeMillis()).nextInt(8), false);
-                    mPendingUserName = getString(
-                            com.android.settingslib.R.string.user_new_profile_name);
-                }
-                return buildAddUserDialog(USER_TYPE_MANAGED_PROFILE);
             }
             default:
                 return null;
@@ -791,7 +761,6 @@ public class UserSettings extends SettingsPreferenceFragment
             case DIALOG_USER_PROFILE_EDITOR:
             case DIALOG_USER_PROFILE_EDITOR_ADD_USER:
             case DIALOG_USER_PROFILE_EDITOR_ADD_RESTRICTED_PROFILE:
-            case DIALOG_USER_PROFILE_EDITOR_ADD_MANAGED_PROFILE:
                 return SettingsEnums.DIALOG_USER_EDIT_PROFILE;
             default:
                 return 0;
@@ -839,14 +808,12 @@ public class UserSettings extends SettingsPreferenceFragment
                             : getString(R.string.user_new_profile_name));
         }
 
-        if (userType != USER_TYPE_MANAGED_PROFILE) {
-            mUserCreatingDialog = new UserCreatingDialog(getActivity());
-            mUserCreatingDialog.show();
-        }
+        mUserCreatingDialog = new UserCreatingDialog(getActivity());
+        mUserCreatingDialog.show();
         ThreadUtils.postOnBackgroundThread(new Runnable() {
             @Override
             public void run() {
-                UserInfo user = null;
+                UserInfo user;
                 String username;
 
                 synchronized (mUserLock) {
@@ -856,43 +823,6 @@ public class UserSettings extends SettingsPreferenceFragment
                 // Could take a few seconds
                 if (userType == USER_TYPE_USER) {
                     user = mUserManager.createUser(username, 0);
-                } else if (userType == USER_TYPE_MANAGED_PROFILE) {
-                    IntentFilter intentFilter = new IntentFilter();
-                    intentFilter.addAction(DevicePolicyManager.ACTION_MANAGED_PROFILE_PROVISIONED);
-                    getContext().registerReceiver(new BroadcastReceiver() {
-                        @Override
-                        public void onReceive(Context context, Intent intent) {
-                            if (intent.getPackage() == null) {
-                                UserHandle user = intent.getParcelableExtra(Intent.EXTRA_USER);
-                                int userId = user.getIdentifier();
-                                mUserManager.setUserName(userId, username);
-                                mUserManager.setUserEnabled(userId);
-                                intent = new Intent(Intent.ACTION_MANAGED_PROFILE_ADDED);
-                                intent.putExtra(Intent.EXTRA_USER, user);
-                                intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY |
-                                        Intent.FLAG_RECEIVER_FOREGROUND);
-                                context.sendBroadcastAsUser(intent,
-                                        new UserHandle(mUserManager.getProfileParent(userId).id));
-                                try {
-                                    IBackupManager backupManager = IBackupManager.Stub.asInterface(
-                                            ServiceManager.getService(Context.BACKUP_SERVICE));
-                                    backupManager.setBackupServiceActive(userId, true);
-                                } catch (RemoteException e) {
-                                    Log.e(TAG, "Failed to set backup service active", e);
-                                }
-                                new LockPatternUtils(context).setSeparateProfileChallengeEnabled(
-                                        userId, false, null);
-                                intent = new Intent(Intent.ACTION_MAIN);
-                                final String setupWizardPackage = getSetupWizardPackage(context);
-                                intent.setClassName(setupWizardPackage, SETUPWIZARD_ACTIVITY);
-                                getActivity().startActivityAsUser(intent, user);
-                                context.unregisterReceiver(this);
-                            }
-                        }
-                    }, intentFilter);
-                    Intent intent = new Intent(DevicePolicyManager.ACTION_PROVISION_MANAGED_PROFILE);
-                    intent.putExtra(TAG_IS_UNMANAGED_PROVISIONING, true);
-                    startActivityForResult(intent, 0);
                 } else {
                     user = mUserManager.createRestrictedProfile(username);
                 }
@@ -902,9 +832,7 @@ public class UserSettings extends SettingsPreferenceFragment
                         mAddingUser = false;
                         mPendingUserIcon = null;
                         mPendingUserName = null;
-                        if (userType != USER_TYPE_MANAGED_PROFILE) {
-                            ThreadUtils.postOnMainThread(() -> onUserCreationFailed());
-                        }
+                        ThreadUtils.postOnMainThread(() -> onUserCreationFailed());
                         return;
                     }
 
@@ -1006,6 +934,11 @@ public class UserSettings extends SettingsPreferenceFragment
         boolean canOpenUserDetails =
                 mUserCaps.mIsAdmin || (canSwitchUserNow() && !mUserCaps.mDisallowSwitchUser);
         for (UserInfo user : users) {
+            if (!user.supportsSwitchToByUser()) {
+                // Only users that can be switched to should show up here.
+                // e.g. Managed profiles appear under Accounts Settings instead
+                continue;
+            }
             UserPreference pref;
             if (user.id == UserHandle.myUserId()) {
                 pref = mMePreference;
@@ -1087,7 +1020,7 @@ public class UserSettings extends SettingsPreferenceFragment
         }
 
         // If profiles are supported, mUserListCategory will have a special title
-        if (mUserCaps.mCanAddRestrictedProfile || mUserCaps.mCanAddManagedProfile) {
+        if (mUserCaps.mCanAddRestrictedProfile) {
             mUserListCategory.setTitle(R.string.user_list_title);
         } else {
             mUserListCategory.setTitle(null);
@@ -1246,7 +1179,7 @@ public class UserSettings extends SettingsPreferenceFragment
         } else if (pref == mAddUser) {
             // If we allow both types, show a picker, otherwise directly go to
             // flow for full user.
-            if (mUserCaps.mCanAddRestrictedProfile || mUserCaps.mCanAddManagedProfile) {
+            if (mUserCaps.mCanAddRestrictedProfile) {
                 showDialog(DIALOG_CHOOSE_USER_TYPE);
             } else {
                 onAddUserClicked(USER_TYPE_USER);
@@ -1349,20 +1282,6 @@ public class UserSettings extends SettingsPreferenceFragment
             avatarDataStream.close();
         } catch (IOException ioe) {
         }
-    }
-
-    private static String getSetupWizardPackage(Context context) {
-        for (String setupWizardPackage: SETUPWIZARD_PACKAGES) {
-            try {
-                if (context.getPackageManager().getPackageInfo(setupWizardPackage,
-                        PackageManager.MATCH_SYSTEM_ONLY) != null) {
-                    return setupWizardPackage;
-                }
-            } catch (PackageManager.NameNotFoundException e) {
-                return SETUPWIZARD_PACKAGES[1]; // Fallback to new name
-            }
-        }
-        return SETUPWIZARD_PACKAGES[1]; // Fallback to new name
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
