@@ -99,16 +99,6 @@ public class AppRestrictionsFragment extends SettingsPreferenceFragment implemen
     /** Key for extra passed in from calling fragment to indicate if this is a newly created user */
     public static final String EXTRA_NEW_USER = "new_user";
 
-    private static final String MICROG_PACKAGE = "com.google.android.gms";
-    private static final String[] MICROG_PACKAGES = new String[]{
-            "com.google.android.gms",
-            "com.google.android.gsf",
-            "com.android.vending",
-            "org.fitchfamily.android.dejavu",
-            "org.microg.nlp.backend.ichnaea",
-            "org.microg.nlp.backend.nominatim"
-    };
-
     private boolean mFirstTime = true;
     private boolean mNewUser;
     private boolean mAppListChanged;
@@ -532,11 +522,6 @@ public class AppRestrictionsFragment extends SettingsPreferenceFragment implemen
                 // If it's not a restricted profile, apply the changes immediately
                 if (!mRestrictedProfile) {
                     mHelper.applyUserAppState(packageName, pref.isChecked(), this);
-                    if (packageName.equals(MICROG_PACKAGE)) {
-                        for (String microgPackage : MICROG_PACKAGES) {
-                            mHelper.applyUserAppState(microgPackage, pref.isChecked(), this);
-                        }
-                    }
                 }
                 updateAllEntries(pref.getKey(), pref.isChecked());
             }
