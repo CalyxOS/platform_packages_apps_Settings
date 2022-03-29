@@ -16,6 +16,23 @@
       "message": "Don\u0027t have to ship this for the first build with the managed profile changes.",
       "revId": "b0f850f7c47a2a8d87dd3e6a78e2dfd79431b25a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a713fcd_5d549118",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-29T17:35:41Z",
+      "side": 1,
+      "message": "How will we add a profile now?\n\nEven if we come up with a new mechanism, we should still retain the switch here for compatibility reasons (i.e. some users are already used to this)",
+      "revId": "b0f850f7c47a2a8d87dd3e6a78e2dfd79431b25a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
