@@ -76,11 +76,6 @@
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
 
-    <!-- Button text for adding a managed profile [CHAR LIMIT=25] -->
-    <string name="user_add_managed_profile_item_title">Work profile</string>
-    <!-- Summary for add managed profile entry in the choice dialog [CHAR LIMIT=none] -->
-    <string name="user_add_managed_profile_item_summary">Work profiles share the launcher, notifications, and recent tasks with the user</string>
-
     <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
     <string name="data_usage_app_restrict_background_all">Background network access</string>
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->

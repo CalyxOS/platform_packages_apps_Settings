@@ -263,11 +263,7 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 removePreference(KEY_ENABLE_TELEPHONY);
             }
 
-            if (!mUserInfo.supportsSwitchToByUser()) {
-                removePreference(KEY_SWITCH_USER);
-            }
-
-            if (mUserInfo.isRestricted() || mUserInfo.isManagedProfile()) {
+            if (mUserInfo.isRestricted()) {
                 removePreference(KEY_ENABLE_TELEPHONY);
                 if (isNewUser) {
                     // for newly created restricted users we should open the apps and content access
