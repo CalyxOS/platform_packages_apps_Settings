@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d56b07ed_3cd7af2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-04-07T22:22:14Z",
+      "side": 1,
+      "message": "Are we going to be doing AOSP apps too?\n\nThat part seemed a bit unclear after yesterday.\n\nMaybe let\u0027s just get a screenshot without AOSP apps first (we already have one with them)",
+      "revId": "d1e5ec3effbfcb23038c6fa9a55ccd0c9d7e951f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
