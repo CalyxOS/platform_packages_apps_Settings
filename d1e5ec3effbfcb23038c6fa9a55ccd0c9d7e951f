@@ -16,6 +16,24 @@
       "message": "Are we going to be doing AOSP apps too?\n\nThat part seemed a bit unclear after yesterday.\n\nMaybe let\u0027s just get a screenshot without AOSP apps first (we already have one with them)",
       "revId": "d1e5ec3effbfcb23038c6fa9a55ccd0c9d7e951f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9dfa29c2_81bc1a0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-04-07T22:55:52Z",
+      "side": 1,
+      "message": "I just went with all icons that are visible in launcher and this app seems to be the only one that would be still considered an AOSP app",
+      "parentUuid": "d56b07ed_3cd7af2b",
+      "revId": "d1e5ec3effbfcb23038c6fa9a55ccd0c9d7e951f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
