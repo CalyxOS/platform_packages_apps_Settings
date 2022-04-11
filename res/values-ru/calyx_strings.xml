@@ -53,4 +53,8 @@
 \nПрошивка: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="global_vpn_summary">Принудительно пропускать весь трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей.</string>
     <string name="global_vpn_summary_on">Принудительно пропускать весь трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей. Примечание: Если включено, вы не сможете использовать отдельный VPN в рабочем профиле и у других пользователей</string>
+    <string name="cross_profile_sharing_title">Межпрофильный общий доступ</string>
+    <string name="cross_profile_sharing_summary">Включить кнопки общего доступа в приложении для работы в вашем личном и рабочем профиле</string>
+    <string name="hide">Скрыть</string>
+    <string name="unhide">Показать</string>
 </resources>
