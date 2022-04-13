@@ -43,4 +43,5 @@
     <string name="device_reboot_timeout_summary2">O aparelho não será reinicializado automaticamente</string>
     <string name="device_reboot_timeout_summary">O aparelho será automaticamente reinicializado se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_title">Reinicialização automática</string>
+    <string name="global_vpn_summary_any_vpn_active">Você precisa primeiro desativar todas as conexões VPN para ativar essa</string>
 </resources>
