@@ -27,7 +27,7 @@
     <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
     <string name="user_add_managed_profile_item_summary">Perfis de trabalho compartilham o lançador, notificações e tarefas recentes com o usuário</string>
     <string name="user_add_managed_profile_item_title">Perfil de trabalho</string>
-    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, Tor e a maior parte das VPNs não funcionarão</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, aplicativos que usam tráfego de texto simples podem não funcionar</string>
     <string name="wifi_timeout_summary2">Desativada</string>
     <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
     <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
@@ -51,4 +51,10 @@
     <string name="global_vpn_summary">Forçar todo o tráfego no dispositivo a passar por esta VPN, incluindo perfil de trabalho e outros usuários.</string>
     <string name="global_vpn_summary_on">Forçar todo o tráfego no dispositivo a passar por esta VPN, incluindo perfil de trabalho e outros usuários. Nota: Quando habilitado, você não poderá utilizar uma VPN separada em um perfil de trabalho ou outros usuários</string>
     <string name="global_vpn_summary_any_vpn_active">Você precisa desabilitar todas as conexões VPN ativas primeiro para habilitar isso</string>
+    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nFornecedor: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="airplane_mode_radios_category_title">O Modo Avião vai modificar as antenas selecionadas</string>
+    <string name="airplane_mode_radios_title">Antenas do modo avião</string>
 </resources>
