@@ -65,7 +65,7 @@ public final class VpnTetherPreferenceController extends TetherBasePreferenceCon
     @Override
     public boolean shouldEnable() {
         return Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.TETHERING_ALLOW_VPN_UPSTREAMS, 0) != 0;
+                Settings.Secure.TETHERING_ALLOW_VPN_UPSTREAMS, 1) != 0;
     }
 
     @Override
