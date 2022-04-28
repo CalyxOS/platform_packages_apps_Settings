@@ -43,4 +43,18 @@
     <string name="timeout_summary_48hours">48 horas</string>
     <string name="timeout_summary_72hours">72 horas</string>
     <string name="device_reboot_timeout_summary">Este dispositivo se reiniciará automáticamente si no ha sido desbloqueado dentro de los últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="cross_profile_sharing_title">Intercambio de perfiles cruzados</string>
+    <string name="cross_profile_sharing_summary">Habilite los botones para compartir en la aplicación para que funcionen en su perfil personal y de trabajo</string>
+    <string name="hide">Ocultar</string>
+    <string name="unhide">Mostrar</string>
+    <string name="global_vpn_summary">Forzar todo el tráfico en el dispositivo a través de esta VPN, incluido el perfil de trabajo y otros usuarios.</string>
+    <string name="global_vpn_title">VPN global</string>
+    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nProveedor: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_summary_on">Forzar todo el tráfico en el dispositivo a través de esta VPN, incluido el perfil de trabajo y otros usuarios. Nota: cuando está habilitado, no podrá usar una VPN separada en un perfil de trabajo u otros usuarios</string>
+    <string name="airplane_mode_radios_title">Radios modo avión</string>
+    <string name="airplane_mode_radios_category_title">El modo avión alternará las radios seleccionadas</string>
+    <string name="global_vpn_summary_any_vpn_active">Primero debe deshabilitar todas las conexiones VPN activas para habilitar esto</string>
 </resources>
