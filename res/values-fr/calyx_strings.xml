@@ -53,4 +53,8 @@
     <string name="global_vpn_summary">Forcez tout le trafic sur l\'appareil a passer par ce VPN, y compris le profil de travail et les autres utilisateurs.</string>
     <string name="global_vpn_summary_on">Forcer tout le trafic sur l\'appareil a passer par ce VPN, y compris le profil de travail et les autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne pourrez pas utiliser un VPN distinct dans un profil de travail ou pour d\'autres utilisateurs</string>
     <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN actives pour activer cette fonction</string>
+    <string name="cross_profile_sharing_title">Partage entre les profils</string>
+    <string name="cross_profile_sharing_summary">Activez les boutons de partage dans l\'application pour qu\'ils fonctionnent sur votre profil personnel et professionnel</string>
+    <string name="hide">Cacher</string>
+    <string name="unhide">Montrer</string>
 </resources>
