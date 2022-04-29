@@ -100,6 +100,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
         "androidx.room_room-runtime",
+        "SystemUISharedLib",
         "SystemUIUnfoldLib",
         "org.lineageos.platform.internal",
         "LineagePreferenceLib",
