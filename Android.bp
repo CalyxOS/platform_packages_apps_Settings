@@ -88,6 +88,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
+        "SystemUISharedLib",
         "SystemUIUnfoldLib",
         "org.lineageos.platform.internal",
         "LineagePreferenceLib",
