@@ -66,17 +66,6 @@ public class BluetoothA2dpHwOffloadPreferenceController extends DeveloperOptions
         }
     }
 
-    @Override
-    protected void onDeveloperOptionsSwitchDisabled() {
-        super.onDeveloperOptionsSwitchDisabled();
-        final boolean offloadSupported =
-                SystemProperties.getBoolean(A2DP_OFFLOAD_SUPPORTED_PROPERTY, false);
-        if (offloadSupported) {
-            ((SwitchPreference) mPreference).setChecked(false);
-            SystemProperties.set(A2DP_OFFLOAD_DISABLED_PROPERTY, "false");
-        }
-    }
-
     public boolean isDefaultValue() {
         final boolean offloadSupported =
                 SystemProperties.getBoolean(A2DP_OFFLOAD_SUPPORTED_PROPERTY, false);
