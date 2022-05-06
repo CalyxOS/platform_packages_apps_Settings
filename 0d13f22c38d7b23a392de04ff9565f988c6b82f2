@@ -16,6 +16,24 @@
       "message": "Hold, turning off developer options still shows reboot dialog.\n\nI was testing real quick on sunfish which doesn\u0027t support this, need to double check on FP4",
       "revId": "0d13f22c38d7b23a392de04ff9565f988c6b82f2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "686f6e97_5090e19b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-05-06T18:00:19Z",
+      "side": 1,
+      "message": "https://android.googlesource.com/platform/packages/apps/Settings/+/eda2987b86c97a1c241e7854854d2f2117776cd1",
+      "parentUuid": "52ed7147_d3958d75",
+      "revId": "0d13f22c38d7b23a392de04ff9565f988c6b82f2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
