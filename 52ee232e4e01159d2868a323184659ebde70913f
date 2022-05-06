@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80f1a127_fc60f827",
+        "filename": "src/com/android/settings/development/BluetoothA2dpHwOffloadPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-05-06T18:08:16Z",
+      "side": 1,
+      "message": "Did it this way to have minimal diff to AOSP",
+      "revId": "52ee232e4e01159d2868a323184659ebde70913f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
