@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calyxos_version">إصدار CalyxOS</string>
+    <string name="aosp_module_version">تحديث الوحدة الرئيسية</string>
+    <string name="detailed_security_patch">النظام الأساسي: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"platform_level\"&gt;
+\nنواة: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"kernel_level\"&gt;
+\nبائع: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"kernel_level\"&gt;
+\nالبرامج الثابتة: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"firmware_level\"&gt;</string>
+    <string name="airplane_mode_radios_title">أجهزة الراديو الخاصة بوضع الطياران</string>
+</resources>
