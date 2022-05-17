@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ed32442_cecc096e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-05-17T22:52:51Z",
+      "side": 1,
+      "message": "I think we do want this if we go dark",
+      "revId": "c765b60c1787a6ece9a8d3a35a066d55424d7073",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
