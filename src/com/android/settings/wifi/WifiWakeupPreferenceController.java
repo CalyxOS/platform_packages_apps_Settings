@@ -89,7 +89,7 @@ public class WifiWakeupPreferenceController extends TogglePreferenceController i
 
     @Override
     public int getAvailabilityStatus() {
-        return AVAILABLE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
