@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "285261e7_0c8381ba",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-29T22:07:12Z",
+      "side": 1,
+      "message": "Why? It\u0027s called \"Private DNS\" everywhere.\n\nLike \"Do Not Disturb\", \"Find My Device\"",
+      "parentUuid": "a5c9ef13_7d94050c",
+      "range": {
+        "startLine": 113,
+        "startChar": 92,
+        "endLine": 113,
+        "endChar": 99
+      },
+      "revId": "6ab693559aa6910f0755063721e91e02fed462c3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ae8b73ad_e2ec13fc",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 4
