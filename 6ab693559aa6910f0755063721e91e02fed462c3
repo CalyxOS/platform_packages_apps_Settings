@@ -48,6 +48,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "359d9d9b_0f004087",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-06-29T22:12:18Z",
+      "side": 1,
+      "message": "That\u0027s fine then",
+      "parentUuid": "285261e7_0c8381ba",
+      "range": {
+        "startLine": 113,
+        "startChar": 92,
+        "endLine": 113,
+        "endChar": 99
+      },
+      "revId": "6ab693559aa6910f0755063721e91e02fed462c3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ae8b73ad_e2ec13fc",
