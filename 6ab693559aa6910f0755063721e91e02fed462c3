@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5c9ef13_7d94050c",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-06-29T17:01:56Z",
+      "side": 1,
+      "message": "private",
+      "range": {
+        "startLine": 113,
+        "startChar": 92,
+        "endLine": 113,
+        "endChar": 99
+      },
+      "revId": "6ab693559aa6910f0755063721e91e02fed462c3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae8b73ad_e2ec13fc",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-06-29T17:01:56Z",
+      "side": 1,
+      "message": "private",
+      "range": {
+        "startLine": 115,
+        "startChar": 87,
+        "endLine": 115,
+        "endChar": 94
+      },
+      "revId": "6ab693559aa6910f0755063721e91e02fed462c3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
