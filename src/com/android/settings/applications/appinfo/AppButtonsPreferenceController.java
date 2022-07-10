@@ -23,6 +23,7 @@ import static com.android.settings.core.instrumentation.SettingsStatsLog.AUTO_RE
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.admin.DevicePolicyManager;
+import android.app.Dialog;
 import android.app.settings.SettingsEnums;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -45,6 +46,8 @@ import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceScreen;
 
@@ -56,6 +59,7 @@ import com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminAd
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.InstrumentedPreferenceFragment;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
 import com.android.settings.core.instrumentation.SettingsStatsLog;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.RestrictedLockUtils;
@@ -266,6 +270,65 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
                 uninstallPkg(packageName, false, false);
             }
         }
+    }
+
+    public static class HideAppDialogFragment extends InstrumentedDialogFragment {
+        private static final String TAG = "HideAppDialogFragment";
+        private static final String ARG_PKGNAME = "packageName";
+        private static final String ARG_PKGMGR = "packageManager";
+        private static final String ARG_USRID = "userId";
+
+        public static void show(String packageName, int userId, Fragment parentFragment) {
+
+            Bundle args = new Bundle();
+            args.putString(ARG_PKGNAME, packageName);
+            args.putInt(ARG_USRID, userId);
+
+            if (parentFragment.getFragmentManager().findFragmentByTag(TAG) == null) {
+                final DialogFragment fragment = new HideAppDialogFragment();
+                fragment.setTargetFragment(parentFragment, /* requestCode */ -1);
+                fragment.setArguments(args);
+                fragment.show(parentFragment.getFragmentManager(), TAG);
+            }
+
+        }
+
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            final String mPackageName = getArguments().getString(ARG_PKGNAME);
+            final PackageManager mPm = getContext().getPackageManager();
+            final int mUserId = getArguments().getInt(ARG_USRID);
+
+            final boolean hidden = mPm.getApplicationHiddenSettingAsUser(mPackageName,
+                    new UserHandle(mUserId));
+            final String positiveBTString = getString(hidden ? R.string.unhide_app : R.string.hide_app);
+
+            return new AlertDialog.Builder(requireContext())
+                    .setMessage(getString(hidden ? R.string.unhide_app_desc : R.string.hide_app_desc))
+                    .setPositiveButton(positiveBTString, (dialog, which) -> {
+                        mPm.setApplicationHiddenSettingAsUser(mPackageName,
+                                !mPm.getApplicationHiddenSettingAsUser(mPackageName,
+                                        new UserHandle(mUserId)),
+                                new UserHandle(mUserId));
+
+                        final Fragment parentFragment = getTargetFragment();
+                        if (parentFragment != null) {
+                            ((AppInfoDashboardFragment) parentFragment).refreshUi();
+                        }
+
+                        dialog.dismiss();
+                    } )
+                    .setNegativeButton(getString(R.string.cancel_action), (dialog, which) -> {
+                        dialog.dismiss();
+                    } )
+                    .create();
+        }
+
+        @Override
+        public int getMetricsCategory() {
+            return SettingsEnums.DIALOG_APP_INFO_ACTION;
+        }
+
     }
 
     private class ForceStopButtonListener implements View.OnClickListener {
@@ -492,7 +555,7 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
 
         mButtonsPref.setButton2Enabled(enabled);
         mButtonsPref.setButton4Enabled(enabled);
-        mButtonsPref.setButton4Text(hidden ? R.string.unhide : R.string.hide);
+        mButtonsPref.setButton4Text(hidden ? R.string.unhide_app : R.string.hide_app);
     }
 
     /**
@@ -712,11 +775,7 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
                 .setButton3Enabled(false)
                 .setButton4Icon(R.drawable.ic_settings_privacy)
                 .setButton4OnClickListener(v -> {
-                    mPm.setApplicationHiddenSettingAsUser(mPackageName,
-                            !mPm.getApplicationHiddenSettingAsUser(mPackageName,
-                                    new UserHandle(mUserId)),
-                            new UserHandle(mUserId));
-                    refreshUi();
+                    HideAppDialogFragment.show(mPackageName, mUserId, mFragment);
                 });
     }
 
