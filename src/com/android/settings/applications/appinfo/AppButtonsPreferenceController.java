@@ -20,9 +20,12 @@ import static com.android.settings.core.instrumentation.SettingsStatsLog.AUTO_RE
 import static com.android.settings.core.instrumentation.SettingsStatsLog.AUTO_REVOKED_APP_INTERACTION__ACTION__OPEN_IN_SETTINGS;
 import static com.android.settings.core.instrumentation.SettingsStatsLog.AUTO_REVOKED_APP_INTERACTION__ACTION__REMOVE_IN_SETTINGS;
 
+import androidx.annotation.Nullable;
+import androidx.annotation.NonNull;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.admin.DevicePolicyManager;
+import android.app.Dialog;
 import android.app.settings.SettingsEnums;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -45,6 +48,8 @@ import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceScreen;
 
@@ -266,6 +271,43 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
                 uninstallPkg(packageName, false, false);
             }
         }
+    }
+
+    public static class HideAppDialogFragment extends DialogFragment {
+
+        private final String mPackageName;
+        private final PackageManager mPm;
+        private final int mUserId;
+
+        HideAppDialogFragment(String packageName, PackageManager pm, int userId) {
+            this.mPackageName = packageName;
+            this.mPm = pm;
+            this.mUserId = userId;
+        }
+
+        @NonNull
+        @Override
+        public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
+            final boolean hidden = mPm.getApplicationHiddenSettingAsUser(mPackageName,
+                    new UserHandle(mUserId));
+            final String positiveBTString = getString(hidden ? R.string.unhide_app : R.string.hide_app);
+            return new AlertDialog.Builder(requireContext())
+                    .setMessage(getString(hidden ? R.string.unhide_app_desc : R.string.hide_app_desc))
+                    .setPositiveButton(positiveBTString, (dialog, which) -> {
+                        mPm.setApplicationHiddenSettingAsUser(mPackageName,
+                                !mPm.getApplicationHiddenSettingAsUser(mPackageName,
+                                        new UserHandle(mUserId)),
+                                new UserHandle(mUserId));
+                        dialog.dismiss();
+                    } )
+                    .setNegativeButton(getString(R.string.cancel_action), (dialog, which) -> {
+                        dialog.dismiss();
+                    } )
+                    .create();
+        }
+
+        public static String TAG = "HideAppDialogFragment";
+
     }
 
     private class ForceStopButtonListener implements View.OnClickListener {
@@ -492,7 +534,7 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
 
         mButtonsPref.setButton2Enabled(enabled);
         mButtonsPref.setButton4Enabled(enabled);
-        mButtonsPref.setButton4Text(hidden ? R.string.unhide : R.string.hide);
+        mButtonsPref.setButton4Text(hidden ? R.string.unhide_app : R.string.hide_app);
     }
 
     /**
@@ -712,11 +754,15 @@ public class AppButtonsPreferenceController extends BasePreferenceController imp
                 .setButton3Enabled(false)
                 .setButton4Icon(R.drawable.ic_settings_privacy)
                 .setButton4OnClickListener(v -> {
-                    mPm.setApplicationHiddenSettingAsUser(mPackageName,
-                            !mPm.getApplicationHiddenSettingAsUser(mPackageName,
-                                    new UserHandle(mUserId)),
-                            new UserHandle(mUserId));
-                    refreshUi();
+                    String mHideTag = HideAppDialogFragment.TAG;
+                    Fragment mHideAppDialogFrag = mFragment.getFragmentManager().findFragmentByTag(mHideTag);
+                    if (mHideAppDialogFrag == null) {
+                        new HideAppDialogFragment(mPackageName, mPm, mUserId)
+                        .show(
+                            mFragment.getChildFragmentManager(),
+                            mHideTag
+                        );
+                    }
                 });
     }
 
