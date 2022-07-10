@@ -93,10 +93,15 @@
     <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
     <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, apps that use cleartext traffic may not work</string>
 
+    <!-- Hide apps -->
     <string name="hide">Hide</string>
     <string name="unhide">Unhide</string>
     <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
     <string name="filter_hidden_apps">Hidden apps</string>
+    <string name="hide_app">Hide app</string>
+    <string name="unhide_app">Unhide app</string>
+    <string name="unhide_app_desc">If you unhide this app, it will be visible to Android and other apps again.</string>
+    <string name="hide_app_desc">If you hide this app, it will not be visible to Android and other apps, and they may no longer function as intended. Keep in mind, hiding an app preserves it data. By hiding, you turn this app off and hide it on your device.</string>
 
     <!-- Summary for Network and Internet settings, explaining it contains mobile, wifi setting and data usage settings [CHAR LIMIT=NONE]-->
     <string name="network_dashboard_summary_mobile_calyx">Mobile, Wi\u2011Fi, hotspot, VPN, Private DNS</string>
