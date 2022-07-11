@@ -16,6 +16,40 @@
       "message": "Other than maybe revising the strings and commit message, looks good to me",
       "revId": "826ee825c19fe1a439af0a4bbfec03b72b2daad5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b307a7c7_1ca3bce1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-07-11T12:30:45Z",
+      "side": 1,
+      "message": "Need to think of better strings.",
+      "revId": "826ee825c19fe1a439af0a4bbfec03b72b2daad5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5037d392_0cd15165",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-07-11T12:30:45Z",
+      "side": 1,
+      "message": "\"the Android\" \"Android\" don\u0027t sound right here.",
+      "revId": "826ee825c19fe1a439af0a4bbfec03b72b2daad5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
