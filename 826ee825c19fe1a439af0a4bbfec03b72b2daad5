@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d74f7727_8fa022b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-07-11T12:21:08Z",
+      "side": 1,
+      "message": "Other than maybe revising the strings and commit message, looks good to me",
+      "revId": "826ee825c19fe1a439af0a4bbfec03b72b2daad5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
