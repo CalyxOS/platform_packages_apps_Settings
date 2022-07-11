@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97bd3141_07274187",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-07-11T22:22:19Z",
+      "side": 1,
+      "message": "Still a bit long and too technical I\u0027d say.\n\nCan discuss in the meeting.",
+      "revId": "f3b733ecb82b24c3d4629072c9e3897b1694a672",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
