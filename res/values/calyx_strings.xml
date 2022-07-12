@@ -103,6 +103,8 @@
 
     <string name="hide">Hide</string>
     <string name="unhide">Unhide</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Hidden apps</string>
 
     <!-- Summary for Network and Internet settings, explaining it contains mobile, wifi setting and data usage settings [CHAR LIMIT=NONE]-->
     <string name="network_dashboard_summary_mobile_calyx">Mobile, Wi\u2011Fi, hotspot, VPN, Private DNS</string>
