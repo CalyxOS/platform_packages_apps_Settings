@@ -55,7 +55,11 @@ public class AppFilterRegistry {
             FILTER_APPS_BLOCKED,
             FILTER_ALARMS_AND_REMINDERS,
             FILTER_APPS_MEDIA_MANAGEMENT,
+<<<<<<< HEAD   (9fe6b3 development: Add Airplane Mode radios setting)
             FILTER_APPS_LOCALE,
+=======
+            FILTER_APPS_HIDDEN,
+>>>>>>> CHANGE (6a6562 Improve discoverability of Hidden apps in the Apps list of S)
     })
     @interface FilterType {
     }
@@ -81,7 +85,11 @@ public class AppFilterRegistry {
     public static final int FILTER_MANAGE_EXTERNAL_STORAGE = 17;
     public static final int FILTER_ALARMS_AND_REMINDERS = 18;
     public static final int FILTER_APPS_MEDIA_MANAGEMENT = 19;
+<<<<<<< HEAD   (9fe6b3 development: Add Airplane Mode radios setting)
     public static final int FILTER_APPS_LOCALE = 20;
+=======
+    public static final int FILTER_APPS_HIDDEN = 20;
+>>>>>>> CHANGE (6a6562 Improve discoverability of Hidden apps in the Apps list of S)
     // Next id: 21. If you add an entry here, length of mFilters should be updated
 
     private static AppFilterRegistry sRegistry;
@@ -207,11 +215,19 @@ public class AppFilterRegistry {
                 FILTER_APPS_MEDIA_MANAGEMENT,
                 R.string.media_management_apps_title);
 
+<<<<<<< HEAD   (9fe6b3 development: Add Airplane Mode radios setting)
         // Apps that can configurate appication's locale.
         mFilters[FILTER_APPS_LOCALE] = new AppFilterItem(
                 AppStateLocaleBridge.FILTER_APPS_LOCALE,
                 FILTER_APPS_LOCALE,
                 R.string.app_locale_picker_title);
+=======
+        // Apps that are hidden
+        mFilters[FILTER_APPS_HIDDEN] = new AppFilterItem(
+                ApplicationsState.FILTER_HIDDEN,
+                FILTER_APPS_HIDDEN,
+                R.string.filter_hidden_apps);
+>>>>>>> CHANGE (6a6562 Improve discoverability of Hidden apps in the Apps list of S)
     }
 
 
