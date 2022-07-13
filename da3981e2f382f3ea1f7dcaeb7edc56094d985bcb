@@ -34,6 +34,24 @@
       "parentUuid": "62ddacab_35e80292",
       "revId": "da3981e2f382f3ea1f7dcaeb7edc56094d985bcb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59b796cc_6be51196",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-07-13T17:05:02Z",
+      "side": 1,
+      "message": "\u003e other mechanisms by which an app could be flagged as hidden?\n\nYou can do it via adb.",
+      "parentUuid": "0f5e16d3_916630d7",
+      "revId": "da3981e2f382f3ea1f7dcaeb7edc56094d985bcb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
