@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62ddacab_35e80292",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000032
+      },
+      "writtenOn": "2022-07-13T15:30:34Z",
+      "side": 1,
+      "message": "When you hide system applications, they do not appear in the hidden list until you click on show system applications. It\u0027s very confusing. Is it possible to make the list common for all applications ( system and installed )",
+      "revId": "da3981e2f382f3ea1f7dcaeb7edc56094d985bcb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
