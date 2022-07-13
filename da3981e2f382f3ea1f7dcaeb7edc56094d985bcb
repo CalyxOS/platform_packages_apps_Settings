@@ -16,6 +16,24 @@
       "message": "When you hide system applications, they do not appear in the hidden list until you click on show system applications. It\u0027s very confusing. Is it possible to make the list common for all applications ( system and installed )",
       "revId": "da3981e2f382f3ea1f7dcaeb7edc56094d985bcb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f5e16d3_916630d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-07-13T16:42:06Z",
+      "side": 1,
+      "message": "I\u0027m not sure whether or not it\u0027s out-of-scope for this issue, but it\u0027s a good question. Would this just apply to hidden apps, or to other filtered lists as well?\n\n* Dev question: when an app is hidden, is it safe to assume it was hidden by the user, or are there other mechanisms by which an app could be flagged as hidden?\n\nIt\u0027s AOSP design that system apps remain hidden until activating the 3-dot menu and tapping the Show system entry. The risk of automatically showing system apps is that the user wouldn\u0027t know they\u0027re system apps; there\u0027s currently no indicator of that other than the Show/Hide system toggle state, but the mDisabled text (which current indicates things like \"Disabled\" or \"Hidden\") could potentially be leveraged to show that info as well, I suppose. I\u0027m personally not sure of the best way to localize a list of multiple states (e.g. \"Disabled, System\") for other languages, though.\n\nIf you didn\u0027t catch it, there\u0027s another patch being worked on under the hide-apps topic to prompt the user to confirm before hiding apps, which should help prevent some unintentional hiding and, in some cases, rule out having to even deal with this.",
+      "parentUuid": "62ddacab_35e80292",
+      "revId": "da3981e2f382f3ea1f7dcaeb7edc56094d985bcb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
