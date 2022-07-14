@@ -57,4 +57,9 @@
     <string name="cross_profile_sharing_summary">Включить кнопки общего доступа в приложении для работы в вашем личном и рабочем профиле</string>
     <string name="hide">Скрыть</string>
     <string name="unhide">Показать</string>
+    <string name="network_dashboard_summary_mobile_calyx">Мобильный интернет, Wi-Fi, точка доступа, VPN, Частный DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, точка доступа, VPN, Частный DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, сопряжение, NFC</string>
+    <string name="security_dashboard_summary_calyx">Блокировка экрана, настройки паники, ограничения USB, безопасность приложений</string>
+    <string name="system_dashboard_summary_calyx">Языки, жесты, время, резервное копирование, пользователи, рабочий профиль</string>
 </resources>
