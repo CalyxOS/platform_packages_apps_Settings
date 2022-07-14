@@ -57,4 +57,9 @@
     <string name="hide">הסתרה</string>
     <string name="unhide">הצגה</string>
     <string name="cross_profile_sharing_title">שיתוף חוצה פרופילים</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">אלחוטי, וייפיי, רשת וירטואלית, נקודה חמה, נקודת גישה, מערכת פענוח כתובות פרטית, DNS, VPN</string>
+    <string name="security_dashboard_summary_calyx">נעילת מסך, הגדרות בהלה, הגבלות USB, אבטחת יישומים</string>
+    <string name="network_dashboard_summary_mobile_calyx">סלולרי, נייד, אלחוטי, וייפיי, רשת וירטואלית, נקודה חמה, נקודת גישה, מערכת פענוח כתובות פרטית, DNS, VPN</string>
+    <string name="connected_devices_dashboard_summary_calyx">בלוטות׳, צימוד, תקשורת קרבה</string>
+    <string name="system_dashboard_summary_calyx">שפות, מחוות, שעה, גיבוי, משתמשים, פרופיל עבודה</string>
 </resources>

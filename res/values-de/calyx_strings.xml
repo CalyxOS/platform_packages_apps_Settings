@@ -57,4 +57,9 @@
     <string name="cross_profile_sharing_title">Profilübergreifende Freigabe</string>
     <string name="hide">Ausblenden</string>
     <string name="unhide">Einblenden</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobil, WLAN, Hotspot, VPN, Privates DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">WLAN, Hotspot, VPN, Privates DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, Kopplung, NFC</string>
+    <string name="security_dashboard_summary_calyx">Bildschirmsperre, Panikeinstellungen, USB-Beschränkungen, App-Sicherheit</string>
+    <string name="system_dashboard_summary_calyx">Sprachen, Gesten, Zeit, Backup, Benutzer, Arbeitsprofil</string>
 </resources>
