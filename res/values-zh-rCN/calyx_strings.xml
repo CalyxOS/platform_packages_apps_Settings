@@ -57,4 +57,9 @@
     <string name="global_vpn_summary">强制设备上的所有流量通过该 VPN，包括工作配置文件和其他用户。</string>
     <string name="global_vpn_summary_on">强制设备上的所有流量通过该 VPN，包括工作配置文件和其他用户。注意：启用后，您将不能在工作配置文件或其他用户中使用单独的 VPN</string>
     <string name="global_vpn_summary_any_vpn_active">要开启此功能，您需要先禁用所有活跃的 VPN 连接</string>
+    <string name="network_dashboard_summary_mobile_calyx">移动数据、Wi-Fi、热点、VPN、私人 DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">移动数据、Wi-Fi、热点、VPN、私人 DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">蓝牙、配对、NFC</string>
+    <string name="security_dashboard_summary_calyx">锁屏、紧急情况设置、USB 限制、应用安全</string>
+    <string name="system_dashboard_summary_calyx">语言、手势、时间、备份、用户、工作配置文件</string>
 </resources>
