@@ -57,4 +57,9 @@
     <string name="cross_profile_sharing_summary">Kişisel ve iş profiliniz arasında çalışması için uygulama içi paylaşım düğmelerini etkinleştirin</string>
     <string name="unhide">Göster</string>
     <string name="hide">Gizle</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, ortak erişim noktası, VPN, Gizli DNS</string>
+    <string name="system_dashboard_summary_calyx">Diller, hareketler, zaman, yedekleme, kullanıcılar, iş profili</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobil, Wi‑Fi, ortak erişim noktası, VPN, Gizli DNS</string>
+    <string name="security_dashboard_summary_calyx">Ekran kilidi, acil durum ayarları, USB kısıtlamaları, uygulama güvenliği</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, eşleştirme, NFC</string>
 </resources>
