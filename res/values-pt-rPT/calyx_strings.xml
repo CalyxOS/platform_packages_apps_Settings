@@ -29,10 +29,8 @@
     <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
     <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, Tor e a maior parte das VPNs não funcionarão</string>
     <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
-    <string name="user_add_managed_profile_item_summary">Perfis de trabalho compartilham o lançador, notificações e tarefas recentes com o utilizador</string>
     <string name="aosp_module_version">Atualização do módulo principal</string>
     <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as configurações rápidas no ecrã de bloqueio seguro</string>
-    <string name="user_add_managed_profile_item_title">Perfil de trabalho</string>
     <string name="wifi_timeout_summary2">Desativada</string>
     <string name="data_usage_app_restrict_background_all_summary">Ativar uso da rede em segundo plano</string>
     <string name="timeout_summary_72hours">72 horas</string>
