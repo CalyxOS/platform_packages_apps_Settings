@@ -70,6 +70,24 @@
       "parentUuid": "59b796cc_6be51196",
       "revId": "da3981e2f382f3ea1f7dcaeb7edc56094d985bcb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e1eb22eb_b3644860",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-07-20T22:35:18Z",
+      "side": 1,
+      "message": "Syn, I think I see what you\u0027re saying now: apps like Calculator, which are system apps, appear in the apps lists even without using Show System. If you disable Calculator, it will be under All Apps regardless. But if you hide it, it won\u0027t.\n\nThe code looks like it\u0027s intended to show both downloaded apps and apps that appear in the launcher. There must be more to it than that, though, because disabled system apps don\u0027t appear in the launcher, and they still show up in the list. I\u0027m not sure why at the moment, but I\u0027ll try to figure out how to handle that case.",
+      "parentUuid": "acbfda84_17b6629b",
+      "revId": "da3981e2f382f3ea1f7dcaeb7edc56094d985bcb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
