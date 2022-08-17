@@ -16,6 +16,46 @@
       "message": "Still a bit long and too technical I\u0027d say.\n\nCan discuss in the meeting.",
       "revId": "f3b733ecb82b24c3d4629072c9e3897b1694a672",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2add39e0_b59655fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-08-17T20:48:59Z",
+      "side": 1,
+      "message": "Other than strings, lgtm",
+      "revId": "f3b733ecb82b24c3d4629072c9e3897b1694a672",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43e0d1c3_516a1623",
+        "filename": "src/com/android/settings/applications/appinfo/AppButtonsPreferenceController.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 775,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-08-17T20:48:59Z",
+      "side": 1,
+      "message": "Mind giving a quick explanation of this vs AlertDialog for example?",
+      "range": {
+        "startLine": 775,
+        "startChar": 20,
+        "endLine": 775,
+        "endChar": 41
+      },
+      "revId": "f3b733ecb82b24c3d4629072c9e3897b1694a672",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
