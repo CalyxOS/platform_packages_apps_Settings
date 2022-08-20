@@ -20,7 +20,6 @@
     <string name="cleartext_network_policy_summary">Blokkeerd alle niet-TLS netwerkverkeer. Vereist een Privé-DNS configuratie. NB: zonder expliciete uitzonderingen zullen Tor en de meeste VPN\'s niet werken.</string>
     <string name="timeout_summary_2mins">2 minuten</string>
     <string name="timeout_summary_30mins">30 minuten</string>
-    <string name="user_add_managed_profile_item_title">Werk-profiel</string>
     <string name="wifi_timeout">Zet Wi-Fi automatisch uit</string>
     <string name="timeout_summary_8hours">8 uur</string>
     <string name="timeout_summary_1min">1 minuut</string>

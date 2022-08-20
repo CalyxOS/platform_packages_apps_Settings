@@ -20,10 +20,8 @@
     <string name="wifi_timeout_summary2">Vypnuté</string>
     <string name="cleartext_network_policy_summary">Blokuje všetku sieťovú komunikáciu, ktorá nie je TLS. Vyžaduje súkromnú konfiguráciu DNS. Poznámka: Bez explicitných výnimiek nebudú Tor a väčšina sietí VPN fungovať</string>
     <string name="timeout_summary_2hours">2 hodiny</string>
-    <string name="user_add_managed_profile_item_title">Pracovný profil</string>
     <string name="show_qs_on_secure_keyguard_title">Rýchle nastavenia</string>
     <string name="wifi_timeout_summary">Ak nie je pripojená žiadna sieť, Wi-Fi sa vypne po <xliff:g id="timeout_description"> %1$s </xliff:g></string>
-    <string name="user_add_managed_profile_item_summary">Pracovné profily zdieľajú s používateľom spúšťač, oznámenia a posledné úlohy</string>
     <string name="aosp_module_version">Aktualizácia hlavného modulu</string>
     <string name="show_qs_on_secure_keyguard_summary">Povoľte prepínanie rýchlych nastavení na zabezpečenej uzamknutej obrazovke</string>
     <string name="data_usage_app_restrict_background_all">Prístup k sieti na pozadí</string>

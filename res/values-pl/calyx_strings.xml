@@ -23,12 +23,10 @@
     <string name="bluetooth_timeout_summary2">Nie wyłączaj Bluetooth automatycznie</string>
     <string name="security_restrict_usb_always">Zablokuj nowe gadżety USB</string>
     <string name="security_restrict_usb_summary">Kontroluj wsparcie dla gadżetów USB takich jak słuchawki, nośników danych czy urządzeń wejścia (myszy, klawiatury, joysticki)</string>
-    <string name="user_add_managed_profile_item_summary">Profile służbowe udostępniają użytkownikowi launcher, powiadomienia i ostatnie zadania</string>
     <string name="show_qs_on_secure_keyguard_summary">Zezwalaj na przełączanie szybkich ustawień na bezpiecznym ekranie blokady</string>
     <string name="wifi_timeout">Automatycznie wyłącz Wi-Fi</string>
     <string name="data_usage_app_restrict_background_all">Dostęp do sieci w tle</string>
     <string name="wifi_timeout_summary2">Wyłączony</string>
-    <string name="user_add_managed_profile_item_title">Profil służbowy</string>
     <string name="show_qs_on_secure_keyguard_title">Szybkie ustawienia</string>
     <string name="aosp_module_version">Aktualizacja modułu głównego</string>
     <string name="wifi_timeout_summary">Sieć Wi-Fi wyłączy się po <xliff:g id="timeout_description">%1$s</xliff:g>, jeśli nie ma połączenia z siecią</string>

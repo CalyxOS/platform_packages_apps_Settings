@@ -25,8 +25,6 @@
     <string name="bluetooth_timeout_summary">Bluetooth se apagará después de <xliff:g id="timeout_description">%1$s</xliff:g> si no hay dispositivos conectados</string>
     <string name="show_qs_on_secure_keyguard_summary">Permitir alternar los ajustes rápidos en la pantalla de bloqueo segura</string>
     <string name="show_qs_on_secure_keyguard_title">Ajustes rápidos</string>
-    <string name="user_add_managed_profile_item_summary">Los perfiles de trabajo comparten el lanzador, las notificaciones y las tareas recientes con el usuario</string>
-    <string name="user_add_managed_profile_item_title">Perfil de trabajo</string>
     <string name="cleartext_network_policy_summary">Bloquea todo el tráfico de red que no sea TLS. Requiere una configuración de DNS privado. Nota: Sin exenciones explícitas, Tor y la mayoría de las VPN no funcionarán</string>
     <string name="cleartext_network_policy_title">Restringir el tráfico de red de texto sin formato</string>
     <string name="wifi_timeout_summary2">Deshabilitado</string>

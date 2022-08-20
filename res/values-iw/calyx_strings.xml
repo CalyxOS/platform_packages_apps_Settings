@@ -19,7 +19,6 @@
     <string name="timeout_summary_4hours">4 שעות</string>
     <string name="data_usage_app_restrict_background_all_summary">הפעלת שימוש ברשת ברקע</string>
     <string name="cleartext_network_policy_summary">לחסום את כל התעבורה שאינה TLS. דורש הגדרות DNS פרטי. לתשומת לבך: ללא החרגות מפורשות, יישומונים שמשתמשים בתעבורה בלתי מוצפנת לא יעבדו</string>
-    <string name="user_add_managed_profile_item_title">פרופיל עבודה</string>
     <string name="timeout_summary_30mins">חצי שעה</string>
     <string name="timeout_summary_30secs">חצי דקה</string>
     <string name="timeout_summary_1hour">שעה</string>
@@ -32,7 +31,6 @@
     <string name="show_qs_on_secure_keyguard_title">הגדרות מהירות</string>
     <string name="timeout_summary_2hours">שעתיים</string>
     <string name="timeout_summary_8hours">8 שעות</string>
-    <string name="user_add_managed_profile_item_summary">פרופילי העבודה משתפים את המשגר, ההתראות ואת המשימות האחרונות עם המשתמש</string>
     <string name="bluetooth_timeout_summary2">לא לכבות את ה־Bluetooth אוטומטית</string>
     <string name="timeout_summary_never">לעולם לא</string>
     <string name="device_reboot_timeout_title">הפעלה אוטומטית מחדש</string>

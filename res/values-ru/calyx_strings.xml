@@ -25,12 +25,10 @@
     <string name="bluetooth_timeout">Время выключения Bluetooth</string>
     <string name="aosp_module_version">Обновление основного модуля</string>
     <string name="data_usage_app_restrict_background_all">Фоновый режим</string>
-    <string name="user_add_managed_profile_item_summary">Рабочие профили совместно с пользователем используют лаунчер, уведомления и последние задачи</string>
     <string name="wifi_timeout_summary2">Отключено</string>
     <string name="show_qs_on_secure_keyguard_summary">Разрешить доступ к быстрым настройкам на экране блокировки</string>
     <string name="cleartext_network_policy_summary">Блокировать весь non-TLS сетевой трафик. Требует настройки приватного DNS. Примечание: Без настройки исключений приложения, использующие открытый трафик, могут не работать</string>
     <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
-    <string name="user_add_managed_profile_item_title">Рабочий профиль</string>
     <string name="wifi_timeout_summary">Отключать Wi-Fi через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключения</string>
     <string name="wifi_timeout">Отключать Wi-Fi автоматически</string>
     <string name="data_usage_app_restrict_background_all_summary">Включить передачу данных в фоновом режиме</string>
