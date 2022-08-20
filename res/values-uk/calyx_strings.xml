@@ -2,14 +2,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="timeout_summary_5mins">5 хвилин</string>
     <string name="timeout_summary_never">Ніколи</string>
-    <string name="user_add_managed_profile_item_summary">Робочі профілі надають користувачеві запускач, сповіщення та останні завдання</string>
     <string name="bluetooth_timeout">Час вимикання Bluetooth</string>
     <string name="panic_settings_summary">Відображення опції кнопки живлення, яка задіює тривожну кнопку.</string>
     <string name="security_restrict_usb_title">Заборонити USB</string>
     <string name="timeout_summary_10mins">10 хвилин</string>
     <string name="wifi_timeout_summary">Wi-Fi самовимкнеться через <xliff:g id="timeout_description">%1$s</xliff:g> якщо не під\'єднано до жодної мережі</string>
     <string name="timeout_summary_2mins">2 хвилини</string>
-    <string name="user_add_managed_profile_item_title">Робочий профіль</string>
     <string name="aosp_module_version">Оновлення основного модуля</string>
     <string name="timeout_summary_30secs">30 секунд</string>
     <string name="wifi_timeout_summary2">Вимкнено</string>
