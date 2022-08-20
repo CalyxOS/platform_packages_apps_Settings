@@ -27,8 +27,6 @@
     <string name="show_qs_on_secure_keyguard_title">Schnelleinstellungen</string>
     <string name="cleartext_network_policy_title">Klartext-Netzwerkverkehr einschränken</string>
     <string name="data_usage_app_restrict_background_all">Netzwerkzugriff im Hintergrund</string>
-    <string name="user_add_managed_profile_item_summary">Arbeitsprofile teilen sich den Launcher, die Benachrichtigungen und die letzten Aufgaben mit dem Benutzer</string>
-    <string name="user_add_managed_profile_item_title">Arbeitsprofil</string>
     <string name="cleartext_network_policy_summary">Blockiert den gesamten Nicht-TLS-Netzwerkverkehr. Erfordert eine private DNS-Konfiguration. Hinweis: Ohne ausdrückliche Ausnahmen funktionieren Apps, die Klartextverkehr verwenden, möglicherweise nicht</string>
     <string name="wifi_timeout_summary2">Deaktiviert</string>
     <string name="wifi_timeout_summary">WLAN schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn kein Netzwerk verbunden ist</string>
