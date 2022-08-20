@@ -31,9 +31,7 @@
     <string name="show_qs_on_secure_keyguard_summary">Izinkan beralih pengaturan cepat pada layar kunci aman</string>
     <string name="data_usage_app_restrict_background_all_summary">Aktifkan penggunaan jaringan di latar belakang</string>
     <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
-    <string name="user_add_managed_profile_item_summary">Profil kerja berbagi peluncur, pemberitahuan, dan tugas terbaru dengan pengguna</string>
     <string name="wifi_timeout_summary2">Nonaktif</string>
-    <string name="user_add_managed_profile_item_title">Profil kerja</string>
     <string name="aosp_module_version">Pembaruan modul utama</string>
     <string name="timeout_summary_12hours">12 jam</string>
     <string name="timeout_summary_24hours">24 jam</string>

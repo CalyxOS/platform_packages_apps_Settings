@@ -14,14 +14,12 @@
     <string name="timeout_summary_2mins">2 minučių</string>
     <string name="show_qs_on_secure_keyguard_title">Spartieji nustatymai</string>
     <string name="timeout_summary_1hour">1 valandos</string>
-    <string name="user_add_managed_profile_item_summary">Darbo profiliai dalijasi paleidimo programa, pranešimais ir naujausiomis užduotimis su naudotoju</string>
     <string name="timeout_summary_never">Niekada</string>
     <string name="cleartext_network_policy_summary">Blokuoja visą ne TLS tinklo srautą. Reikalinga privataus DNS konfigūracija. Pastaba: be aiškių išimčių „Tor“ ir dauguma VPN neveiks</string>
     <string name="data_usage_app_restrict_background_all">Foninė tinklo prieiga</string>
     <string name="wifi_timeout">Automatinis Wi-Fi išjungimas</string>
     <string name="panic_settings_summary">Ekrano įjungimo mygtuko parinktis, kuria įjungiamas kritinės padėties pavojaus signalas.</string>
     <string name="bluetooth_timeout">Bluetooth laiko limitas</string>
-    <string name="user_add_managed_profile_item_title">Darbo profilis</string>
     <string name="show_qs_on_secure_keyguard_summary">Leisti perjungti sparčiuosius nustatymus saugiame užrakinimo ekrane</string>
     <string name="wifi_timeout_summary2">Išjungta</string>
     <string name="security_restrict_usb_disabled">Leisti naujus USB įtaisus visada</string>
