@@ -10,8 +10,6 @@
     <string name="security_restrict_usb_title">Περιορισμός USB</string>
     <string name="show_qs_on_secure_keyguard_summary">Να επιτρέπονται οι γρήγορες ρυθμίσεις σε ασφαλή οθόνη κλειδώματος</string>
     <string name="show_qs_on_secure_keyguard_title">Γρήγορες ρυθμίσεις</string>
-    <string name="user_add_managed_profile_item_summary">Τα προφίλ εργασίας μοιράζονται τον εκκινητή, τις ειδοποιήσεις και τις πρόσφατες εργασίες με τον χρήστη</string>
-    <string name="user_add_managed_profile_item_title">Προφίλ εργασίας</string>
     <string name="cleartext_network_policy_summary">Αποκλείει όλη την κυκλοφορία δικτύου εκτός TLS. Απαιτεί ρύθμιση παραμέτρων ιδιωτικού DNS. Σημείωση: Χωρίς ρητές εξαιρέσεις, οι εφαρμογές που χρησιμοποιούν κυκλοφορία cleartext ενδέχεται να μην λειτουργούν</string>
     <string name="cleartext_network_policy_title">Περιορισμός της κυκλοφορίας δικτύου cleartext</string>
     <string name="wifi_timeout_summary2">Απενεργοποιημένο</string>
