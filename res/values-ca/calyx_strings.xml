@@ -36,8 +36,6 @@
     <string name="device_reboot_timeout_title">Reinicia automàticament</string>
     <string name="global_vpn_summary_any_vpn_active">Cal desactivar totes les connexions VPN actives abans d\'activar-ho</string>
     <string name="global_vpn_summary_on">Força tot el trànsit del dispositiu a través d\'aquesta VPN, inclosos el perfil de treball i altres usuaris. Nota: Quan estigui habilitat, no podràs utilitzar una VPN separada en un perfil professional o altres usuaris</string>
-    <string name="user_add_managed_profile_item_title">Perfil de treball</string>
-    <string name="user_add_managed_profile_item_summary">Els perfils de treball comparteixen el llançador, les notificacions i les tasques recents amb l\'usuari</string>
     <string name="security_restrict_usb_always">Denega els nous dispositius USB</string>
     <string name="data_usage_app_restrict_background_all_summary">Habilita l\'ús de la xarxa en segon pla</string>
     <string name="security_restrict_usb_keyguard">Permetre nous dispositius USB quan està desbloquejat</string>
