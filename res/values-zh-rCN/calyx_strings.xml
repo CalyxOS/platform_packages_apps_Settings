@@ -25,8 +25,6 @@
     <string name="bluetooth_timeout">蓝牙超时</string>
     <string name="show_qs_on_secure_keyguard_summary">允许在安全锁屏上切换快速设置</string>
     <string name="show_qs_on_secure_keyguard_title">快速设置</string>
-    <string name="user_add_managed_profile_item_summary">工作配置与用户共享启动器、通知和最近的任务</string>
-    <string name="user_add_managed_profile_item_title">工作配置</string>
     <string name="cleartext_network_policy_summary">锁定所有非 TLS 网络流量。需要私有 DNS 配置。注意：如没有明确的豁免，使用明文传输的应用将无法工作</string>
     <string name="cleartext_network_policy_title">限制明文网络流量</string>
     <string name="wifi_timeout_summary2">已禁用</string>

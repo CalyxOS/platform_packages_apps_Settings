@@ -37,7 +37,6 @@
     <string name="global_vpn_title">Globální síť VPN</string>
     <string name="global_vpn_summary_any_vpn_active">Chcete-li tuto funkci povolit, musíte nejprve vypnout všechna aktivní připojení k VPN</string>
     <string name="global_vpn_summary_on">Vynutí, aby veškerý provoz v zařízení probíhal prostřednictvím této sítě VPN, včetně pracovního profilu a ostatních uživatelů. Upozornění: Pokud je tato funkce povolena, nebude možné používat samostatnou síť VPN v pracovním profilu ani u ostatních uživatelů</string>
-    <string name="user_add_managed_profile_item_title">Pracovní profil</string>
     <string name="cleartext_network_policy_summary">Zablokuje veškerou komunikaci po síti, která nebude šifrována TLS. Je potřeba mít nastavené Soukromé DNS. Pozor: Pokud jim nenastavíte výjimku, Tor a většina VPN nebude fungovat.</string>
     <string name="device_reboot_timeout_title">Automatické restartování</string>
     <string name="device_reboot_timeout_summary">Zařízení se automaticky restartuje, pokud nebylo odemčeno během posledních <xliff:g id="timeout_description">%1$s</xliff:g></string>
@@ -46,7 +45,6 @@
     <string name="cross_profile_sharing_title">Sdílení mezi profily</string>
     <string name="hide">Skrýt</string>
     <string name="unhide">Odhalit</string>
-    <string name="user_add_managed_profile_item_summary">Pracovní profily sdílí domovskou obrazovku, notifikace a přehled spuštěných aplikací s uživatelským profilem</string>
     <string name="data_usage_app_restrict_background_all_summary">Povolit používání sítí na pozadí</string>
     <string name="detailed_security_patch">Platforma: <xliff:g id="platform_level">%1$s</xliff:g>
 \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>

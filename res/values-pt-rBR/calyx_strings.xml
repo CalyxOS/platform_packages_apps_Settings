@@ -25,8 +25,6 @@
     <string name="bluetooth_timeout">Tempo de expiração do Bluetooth</string>
     <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as configurações rápidas na tela de bloqueio segura</string>
     <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
-    <string name="user_add_managed_profile_item_summary">Perfis de trabalho compartilham o lançador, notificações e tarefas recentes com o usuário</string>
-    <string name="user_add_managed_profile_item_title">Perfil de trabalho</string>
     <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, aplicativos que usam tráfego de texto simples podem não funcionar</string>
     <string name="wifi_timeout_summary2">Desativada</string>
     <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>

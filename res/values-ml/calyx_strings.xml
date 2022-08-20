@@ -28,8 +28,6 @@
     <string name="wifi_timeout_summary2">പ്രവർത്തനരഹിതം</string>
     <string name="timeout_summary_5mins">5 മിനിറ്റ്</string>
     <string name="panic_settings_summary">ഒരു അടിയന്തര പാനിക് ട്രിഗർ സജീവമാക്കുന്ന പവർ ബട്ടൺ ഓപ്ഷൻ പ്രദർശിപ്പിക്കുക.</string>
-    <string name="user_add_managed_profile_item_summary">പ്രവർത്തന പ്രൊഫൈലുകൾ ലോഞ്ചറും അറിയിപ്പുകളും സമീപകാല ജോലികളും ഉപയോക്താവുമായി പങ്കിടുന്നു</string>
-    <string name="user_add_managed_profile_item_title">പ്രവർത്തന പ്രൊഫൈൽ</string>
     <string name="timeout_summary_2mins">2 മിനിറ്റ്</string>
     <string name="timeout_summary_1min">1 മിനിറ്റ്</string>
     <string name="timeout_summary_30secs">30 സെക്കന്റുകൾ</string>

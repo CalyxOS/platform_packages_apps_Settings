@@ -25,8 +25,6 @@
     <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
     <string name="show_qs_on_secure_keyguard_summary">Güvenli kilit ekranında hızlı ayarların değiştirilmesine izin ver</string>
     <string name="show_qs_on_secure_keyguard_title">Hızlı ayarlar</string>
-    <string name="user_add_managed_profile_item_summary">İş profilleri başlatıcıyı, bildirimleri ve son görevleri kullanıcıyla paylaşır</string>
-    <string name="user_add_managed_profile_item_title">İş profili</string>
     <string name="cleartext_network_policy_summary">TLS kullanmayan tüm ağ trafiğini engeller. Özel DNS yapılandırması gerektirir. Not: Açık muafiyetler olmadan şifresiz trafik kullanan uygulamalar çalışmayabilir</string>
     <string name="cleartext_network_policy_title">Şifreli olmayan ağ trafiğini kısıtla</string>
     <string name="wifi_timeout_summary2">Devre dışı</string>

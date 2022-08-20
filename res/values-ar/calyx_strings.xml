@@ -14,7 +14,6 @@
     <string name="show_qs_on_secure_keyguard_title">إعدادات السريعة</string>
     <string name="show_qs_on_secure_keyguard_summary">السماح بتبديل الإعدادات السريعة على شاشة القُفْل</string>
     <string name="wifi_timeout_summary2">معطلة</string>
-    <string name="user_add_managed_profile_item_summary">تشارك ملفات تعريف العمل المشغل والإشعارات والمهام الأخيرة مع المستخدم</string>
     <string name="bluetooth_timeout_summary">سيتم إيقاف تشغيل البلوتوث بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم تكن هناك أجهزة متصلة</string>
     <string name="wifi_timeout">قم بإيقاف تشغيل Wi-Fi تلقائيًا</string>
     <string name="data_usage_app_restrict_background_all">الوصول إلى الشبكة في الخلفية</string>
@@ -48,7 +47,6 @@
     <string name="global_vpn_title">شبكة VPN عالمية</string>
     <string name="global_vpn_summary">فرض كل حركات المرور على الجهاز بواسطة VPN، بما في ذلك المِلَفّ الشخصي للعمل والمستخدمين الآخرين.</string>
     <string name="global_vpn_summary_any_vpn_active">تحتاج إلى تعطيل جميع اتصالات VPN النشطة أولاً لتمكين هذا</string>
-    <string name="user_add_managed_profile_item_title">الملف الشخصي للعمل</string>
     <string name="data_usage_app_restrict_background_all_summary">تفعيل استخدام الشبكة في الخلفية</string>
     <string name="security_restrict_usb_title">تقييد USB</string>
     <string name="security_restrict_usb_always">رفض أدوات USB الجديدة</string>
