@@ -24,7 +24,6 @@
     <string name="show_qs_on_secure_keyguard_summary">Gyorsgombokkal való interakciók engedélyezése lezárt képernyőn</string>
     <string name="aosp_module_version">Fő modul frissítése</string>
     <string name="wifi_timeout">Wi-Fi időkorlát</string>
-    <string name="user_add_managed_profile_item_title">Munkahelyi profil</string>
     <string name="bluetooth_timeout_summary2">Ne kapcsolja ki automatikusan a Bluetooth-t</string>
     <string name="bluetooth_timeout_summary">A Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> múlva kikapcsol, ha nincsenek eszközök csatlakoztatva</string>
     <string name="hide">Elrejtés</string>

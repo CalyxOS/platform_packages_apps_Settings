@@ -32,8 +32,6 @@
     <string name="data_usage_app_restrict_background_all">Accesso rete in background</string>
     <string name="cleartext_network_policy_title">Limita il traffico di rete in chiaro</string>
     <string name="show_qs_on_secure_keyguard_summary">Consenti di attivare/disattivare le impostazioni rapide sulla schermata di blocco</string>
-    <string name="user_add_managed_profile_item_summary">I profili di lavoro condividono l\'utilità di avvio, le notifiche e le attività recenti con l\'utente</string>
-    <string name="user_add_managed_profile_item_title">Profilo di lavoro</string>
     <string name="aosp_module_version">Aggiornamento del modulo principale</string>
     <string name="cross_profile_sharing_summary">Abilitate i pulsanti di condivisione nell\'app per funzionare sui vostri profili personale e professionale</string>
     <string name="detailed_security_patch">Piattaforma: <xliff:g id="platform_level">%1$s</xliff:g>
