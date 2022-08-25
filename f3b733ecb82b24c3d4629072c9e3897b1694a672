@@ -56,6 +56,30 @@
       },
       "revId": "f3b733ecb82b24c3d4629072c9e3897b1694a672",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54d84462_f6341d28",
+        "filename": "src/com/android/settings/applications/appinfo/AppButtonsPreferenceController.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 775,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-08-25T06:53:08Z",
+      "side": 1,
+      "message": "DialogFrgament better handles activity lifecycle and configuration changes compared to AlertDialog",
+      "parentUuid": "43e0d1c3_516a1623",
+      "range": {
+        "startLine": 775,
+        "startChar": 20,
+        "endLine": 775,
+        "endChar": 41
+      },
+      "revId": "f3b733ecb82b24c3d4629072c9e3897b1694a672",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
