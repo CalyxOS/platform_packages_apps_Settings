@@ -6,4 +6,6 @@
     <string name="security_restrict_usb_title">Restringir USB</string>
     <string name="panic_settings_title">Mostrar opción de Pánico</string>
     <string name="calyxos_version">Versión de CalyxOS</string>
+    <string name="show_qs_on_secure_keyguard_title">Ajustes rápidos</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permitir alternar configuraciones rápidas en la pantalla de bloqueo segura</string>
 </resources>
