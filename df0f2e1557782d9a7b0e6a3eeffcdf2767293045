@@ -16,6 +16,24 @@
       "message": "So this worked a couple times in the US. Haven\u0027t had it work anywhere else lol",
       "revId": "df0f2e1557782d9a7b0e6a3eeffcdf2767293045",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3227e584_9f238752",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-01T19:32:53Z",
+      "side": 1,
+      "message": "I remembering reading somewhere that it\u0027s how that\u0027s meant to be.\n\nWe can re-visit this later, re-enable it with different summary, or do some kind of country based thing. For now this is fine.",
+      "parentUuid": "d8002c65_cfc74058",
+      "revId": "df0f2e1557782d9a7b0e6a3eeffcdf2767293045",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
