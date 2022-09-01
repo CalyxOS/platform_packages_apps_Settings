@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84e695cd_1d3f59c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-09-01T18:07:03Z",
+      "side": 1,
+      "message": "Mind leaving Code-Review and Verified on the topic since you ported it and mentioned you tested it on emulator and is working?",
+      "revId": "d4f1b46eff6b3018253d5efde597fce9547ca0b4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
