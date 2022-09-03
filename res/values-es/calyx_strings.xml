@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="security_restrict_usb_summary">Compatibilidad de control de aparatos USB tales como auriculares y dispositivos de almacenamiento y de entrada (ratones, teclados y mandos de juego)</string>
+    <string name="security_restrict_usb_summary">Soporte de control para gadgets USB como auriculares, dispositivos de almacenamiento y entrada (ratones, teclados, joysticks)</string>
     <string name="security_restrict_usb_title">Restringir USB</string>
     <string name="panic_settings_summary">Mostrar una opción de botón de encendido que activa una alerta de emergencia.</string>
     <string name="panic_settings_title">Mostrar opción de pánico</string>
     <string name="calyxos_version">Versión de CalyxOS</string>
     <string name="security_restrict_usb_disabled">Permitir siempre nuevos gadgets USB</string>
-    <string name="security_restrict_usb_keyguard">Permitir nuevos gadgets USB cuando esté desbloqueado</string>
-    <string name="security_restrict_usb_always">Denegar nuevos gadgets USB</string>
+    <string name="security_restrict_usb_keyguard">Permitir nuevos gadgets USB cuando se desbloquean</string>
+    <string name="security_restrict_usb_always">Negar los nuevos aparatos USB</string>
     <string name="bluetooth_timeout">Tiempo de espera de Bluetooth</string>
     <string name="timeout_summary_8hours">8 horas</string>
     <string name="timeout_summary_4hours">4 horas</string>
