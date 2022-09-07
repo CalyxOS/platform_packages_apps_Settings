@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "78c7e679_6ca7a8d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-07T18:16:46Z",
+      "side": 1,
+      "message": "Don\u0027t worry about that at all. We\u0027re used to noise, especially around bringup with hundreds of commits :P\n\nCR and V will go away when the code changes.\n\nV is usually used to indicate if things build, so a lot of the times when you rebase CR stays (since the code is the same), but V goes away (since you need to rebuild to confirm)\n\nWe also use it as an indication to see if things work.",
+      "parentUuid": "2750182c_93a2bca5",
+      "revId": "2d50765dfae106a29ad94be38494d3f9ee039b87",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e93fa767_48f625f8",
