@@ -143,4 +143,7 @@
 
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
     <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+
+    <!-- Biometric category title - ways to use the configured biometric options [CHAR LIMIT=50] -->
+    <string name="biometric_settings_category_ways_to_use">Ways to use</string>
 </resources>
