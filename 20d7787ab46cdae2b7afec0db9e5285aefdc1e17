@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e53fc37_5fbb02e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-09-07T17:46:55Z",
+      "side": 1,
+      "message": "This is a lot bigger after adjusting strings to make them more appropriate.\n\nStill untested:\n* Face unlock (hardware/mocked hardware not available)\n* Face unlock + fingerprint both present\n\nKnown issues:\n* Wrong preference title in Safety Center (unified Security \u0026 Privacy); still uses \"Face \u0026 Fingerprint Unlock\" instead of specializing, which likely requires a change to packages/modules/Permission.",
+      "revId": "20d7787ab46cdae2b7afec0db9e5285aefdc1e17",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
