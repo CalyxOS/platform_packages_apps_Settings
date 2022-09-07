@@ -16,6 +16,23 @@
       "message": "This is a lot bigger after adjusting strings to make them more appropriate.\n\nStill untested:\n* Face unlock (hardware/mocked hardware not available)\n* Face unlock + fingerprint both present\n\nKnown issues:\n* Wrong preference title in Safety Center (unified Security \u0026 Privacy); still uses \"Face \u0026 Fingerprint Unlock\" instead of specializing, which likely requires a change to packages/modules/Permission.",
       "revId": "20d7787ab46cdae2b7afec0db9e5285aefdc1e17",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e0b2edc_5997dbd9",
+        "filename": "src/com/android/settings/password/ChooseLockGeneric.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-09-07T17:51:59Z",
+      "side": 1,
+      "message": "Don\u0027t like this wording of these variables. Fixed it in other places, forgot to do so here.",
+      "revId": "20d7787ab46cdae2b7afec0db9e5285aefdc1e17",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
