@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec8408e6_4caae97b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-07T18:24:13Z",
+      "side": 1,
+      "message": "Feature isn\u0027t working but Settings part is fine. _might_ need fixup later, but so will frameworks",
+      "revId": "a456d1a0363fe2eb527cdba696c799ebb54e1233",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
