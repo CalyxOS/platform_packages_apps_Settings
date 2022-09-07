@@ -28,6 +28,7 @@ import com.android.settingslib.search.SearchIndexable;
 @SearchIndexable
 public class CombinedBiometricSettings extends BiometricsSettingsBase {
     private static final String TAG = "BiometricSettings";
+    private static final String KEY_INTRO = "biometric_settings_intro";
     private static final String KEY_FACE_SETTINGS = "biometric_face_settings";
     private static final String KEY_FINGERPRINT_SETTINGS = "biometric_fingerprint_settings";
     private static final String KEY_UNLOCK_PHONE = "biometric_settings_biometric_keyguard";
@@ -43,6 +44,11 @@ public class CombinedBiometricSettings extends BiometricsSettingsBase {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.security_settings_combined_biometric;
+    }
+
+    @Override
+    public String getIntroPreferenceKey() {
+        return KEY_INTRO;
     }
 
     @Override
