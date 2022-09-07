@@ -81,6 +81,9 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
     private boolean mConfirmCredential;
     @Nullable private FaceManager mFaceManager;
     @Nullable private FingerprintManager mFingerprintManager;
+    private CombinedBiometricStatusUtils mCombinedBiometricStatusUtils;
+    @Nullable private Preference mFacePreference;
+    @Nullable private Preference mFingerprintPreference;
     // Do not finish() if choosing/confirming credential, showing fp/face settings, or launching
     // active unlock
     protected boolean mDoNotFinishActivity;
@@ -111,6 +114,9 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
         super.onCreate(savedInstanceState);
         mFaceManager = Utils.getFaceManagerOrNull(getActivity());
         mFingerprintManager = Utils.getFingerprintManagerOrNull(getActivity());
+        mCombinedBiometricStatusUtils = new CombinedBiometricStatusUtils(getActivity(), mUserId);
+        mFacePreference = findPreference(getFacePreferenceKey());
+        mFingerprintPreference = findPreference(getFingerprintPreferenceKey());
 
         if (BiometricUtils.containsGatekeeperPasswordHandle(getIntent())) {
             mGkPwHandle = BiometricUtils.getGatekeeperPasswordHandle(getIntent());
@@ -139,6 +145,16 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
         if (useInAppsPreference != null) {
             useInAppsPreference.setSummary(getUseClass2BiometricSummary());
         }
+
+        if (mCombinedBiometricStatusUtils.isSingleBiometric()) {
+            // Adjust title in case there is only one biometric option available.
+            getActivity().setTitle(mCombinedBiometricStatusUtils.getTitle());
+
+            // Also, set the title of the fingerprint preference to something less redundant.
+            mFingerprintPreference.setTitle(getString(R.string.fingerprint_manage_category_title));
+        }
+
+        updateBiometricPreferenceSummaries();
     }
 
     @Override
@@ -147,6 +163,7 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
         if (!mConfirmCredential) {
             mDoNotFinishActivity = false;
         }
+        updateBiometricPreferenceSummaries();
     }
 
     @Override
@@ -357,7 +374,7 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
         final ChooseLockSettingsHelper.Builder builder =
                 new ChooseLockSettingsHelper.Builder(getActivity(), this)
                         .setRequestCode(CONFIRM_REQUEST)
-                        .setTitle(getString(R.string.security_settings_biometric_preference_title))
+                        .setTitle(getActivity().getTitle())
                         .setRequestGatekeeperPasswordHandle(true)
                         .setForegroundOnly(true)
                         .setReturnCredentials(true);
@@ -450,6 +467,20 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
             return R.string.biometric_settings_use_fingerprint_preference_summary;
         } else {
             return 0;
+        }
+    }
+
+    private void updateBiometricPreferenceSummaries() {
+        // Indicate when face or fingerprint have no enrollments, cueing user to tap to set up.
+        if (mFacePreference != null && !mCombinedBiometricStatusUtils.hasEnrolledFace()) {
+            mFacePreference.setSummary(getString(
+                R.string.security_settings_biometric_preference_summary_none_enrolled));
+        }
+        if (mFingerprintPreference != null) {
+            if (!mCombinedBiometricStatusUtils.hasEnrolledFingerprints()) {
+                mFingerprintPreference.setSummary(getString(
+                        R.string.security_settings_biometric_preference_summary_none_enrolled));
+            }
         }
     }
 }
