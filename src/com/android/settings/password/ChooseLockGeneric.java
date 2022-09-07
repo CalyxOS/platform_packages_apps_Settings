@@ -243,6 +243,17 @@ public class ChooseLockGeneric extends SettingsActivity {
             mForBiometrics = intent.getBooleanExtra(
                     ChooseLockSettingsHelper.EXTRA_KEY_FOR_BIOMETRICS, false);
 
+            if (mForBiometrics) {
+                boolean hasFingerprints = Utils.hasFingerprintHardware(getContext());
+                boolean hasFace = Utils.hasFaceHardware(getContext());
+
+                if (hasFace != hasFingerprints) {
+                    mForFingerprint = hasFingerprints;
+                    mForFace = hasFace;
+                    mForBiometrics = false;
+                }
+            }
+
             mRequestedMinComplexity = intent.getIntExtra(
                     EXTRA_KEY_REQUESTED_MIN_COMPLEXITY, PASSWORD_COMPLEXITY_NONE);
             mOnlyEnforceDevicePasswordRequirement = intent.getBooleanExtra(

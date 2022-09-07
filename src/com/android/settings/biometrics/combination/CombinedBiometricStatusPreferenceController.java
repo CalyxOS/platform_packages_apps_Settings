@@ -25,6 +25,8 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.internal.annotations.VisibleForTesting;
+import com.android.settings.R;
+import com.android.settings.Utils;
 import com.android.settings.biometrics.BiometricStatusPreferenceController;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedPreference;
@@ -72,6 +74,21 @@ public class CombinedBiometricStatusPreferenceController extends
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mPreference = screen.findPreference(mPreferenceKey);
+
+        if (mPreference != null) {
+            boolean hasFingerprints = Utils.hasFingerprintHardware(mContext);
+            boolean hasFace = Utils.hasFaceHardware(mContext);
+
+            if (hasFingerprints != hasFace) {
+                if (hasFingerprints) {
+                    mPreference.setTitle(mContext.getResources().getString(
+                            R.string.security_settings_fingerprint_preference_title));
+                } else {
+                    mPreference.setTitle(mContext.getResources().getString(
+                            R.string.security_settings_face_preference_title));
+                }
+            }
+        }
     }
 
     @Override

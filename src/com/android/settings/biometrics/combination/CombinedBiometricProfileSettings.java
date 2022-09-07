@@ -26,6 +26,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
  */
 public class CombinedBiometricProfileSettings extends BiometricsSettingsBase {
     private static final String TAG = "BiometricProfileSetting";
+    private static final String KEY_INTRO = "biometric_settings_intro";
     private static final String KEY_FACE_SETTINGS = "biometric_face_settings_profile";
     private static final String KEY_FINGERPRINT_SETTINGS = "biometric_fingerprint_settings_profile";
     private static final String KEY_UNLOCK_PHONE = "biometric_settings_biometric_keyguard_profile";
@@ -40,6 +41,11 @@ public class CombinedBiometricProfileSettings extends BiometricsSettingsBase {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.security_settings_combined_biometric_profile;
+    }
+
+    @Override
+    public String getIntroPreferenceKey() {
+        return KEY_INTRO;
     }
 
     @Override

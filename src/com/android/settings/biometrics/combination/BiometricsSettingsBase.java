@@ -105,6 +105,25 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
         if (useInAppsPreference != null) {
             useInAppsPreference.setSummary(getUseClass2BiometricSummary());
         }
+
+        boolean hasFingerprints =
+                mFingerprintManager != null && mFingerprintManager.isHardwareDetected();
+        boolean hasFace = mFaceManager != null && mFaceManager.isHardwareDetected();
+
+        if (hasFingerprints != hasFace) {
+            if (hasFingerprints) {
+                getPreferenceScreen().setTitle(
+                        getString(R.string.security_settings_fingerprint_preference_title));
+            } else {
+                getPreferenceScreen().setTitle(
+                        getString(R.string.security_settings_face_preference_title));
+            }
+
+            final Preference introPreference = findPreference(getIntroPreferenceKey());
+            if (introPreference != null) {
+                introPreference.setVisible(false);
+            }
+        }
     }
 
     @Override
@@ -189,6 +208,11 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
             }
         }
     }
+
+    /**
+     * @return The preference key of the intro text.
+     */
+    public abstract String getIntroPreferenceKey();
 
     /**
      * Get the preference key of face for passing through credential data to face settings.

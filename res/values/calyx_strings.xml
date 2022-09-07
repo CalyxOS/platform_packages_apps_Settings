@@ -27,4 +27,7 @@
 
     <string name="airplane_mode_radios_title">Airplane mode radios</string>
     <string name="airplane_mode_radios_category_title">Airplane Mode will toggle the selected radios</string>
+
+    <!-- Biometric category title - ways to use the configured biometric options [CHAR LIMIT=50] -->
+    <string name="biometric_settings_category_ways_to_use">Ways to use</string>
 </resources>
