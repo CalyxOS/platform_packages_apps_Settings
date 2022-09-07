@@ -33,6 +33,24 @@
       "message": "Don\u0027t like this wording of these variables. Fixed it in other places, forgot to do so here.",
       "revId": "20d7787ab46cdae2b7afec0db9e5285aefdc1e17",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc4d945c_91dd4abf",
+        "filename": "src/com/android/settings/password/ChooseLockGeneric.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 248,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-09-07T17:57:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e0b2edc_5997dbd9",
+      "revId": "20d7787ab46cdae2b7afec0db9e5285aefdc1e17",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
