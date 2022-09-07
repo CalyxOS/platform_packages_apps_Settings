@@ -140,4 +140,7 @@
     <!-- View bug reports -->
     <string name="view_bugreports_title">View bug reports</string>
     <string name="view_bugreports_summary_not_developer">Once viewed, all bug reports will remain accessible until you restart the device</string>
+
+    <!-- Biometric category title - ways to use the configured biometric options [CHAR LIMIT=50] -->
+    <string name="biometric_settings_category_ways_to_use">Ways to use</string>
 </resources>

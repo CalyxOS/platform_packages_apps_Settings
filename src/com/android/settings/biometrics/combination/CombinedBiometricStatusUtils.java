@@ -20,6 +20,7 @@ import android.content.Context;
 import android.hardware.biometrics.BiometricAuthenticator;
 import android.hardware.face.FaceManager;
 import android.hardware.fingerprint.FingerprintManager;
+import android.os.UserManager;
 
 import androidx.annotation.Nullable;
 
@@ -40,19 +41,21 @@ public class CombinedBiometricStatusUtils {
     FingerprintManager mFingerprintManager;
     @Nullable
     FaceManager mFaceManager;
+    private final boolean mIsManagedProfile;
 
     public CombinedBiometricStatusUtils(Context context, int userId) {
         mContext = context;
         mFingerprintManager = Utils.getFingerprintManagerOrNull(context);
         mFaceManager = Utils.getFaceManagerOrNull(context);
         mUserId = userId;
+        mIsManagedProfile = context.getSystemService(UserManager.class).isManagedProfile(userId);
     }
 
     /**
      * Returns whether the combined biometric settings entity should be shown.
      */
     public boolean isAvailable() {
-        return Utils.hasFingerprintHardware(mContext) && Utils.hasFaceHardware(mContext);
+        return Utils.isMultipleBiometricsSupported(mContext);
     }
 
     /**
@@ -86,6 +89,32 @@ public class CombinedBiometricStatusUtils {
     }
 
     /**
+     * Returns the title of the combined biometric settings entity.
+     * If only one biometric auth method is available, use the title for that method.
+     */
+    public String getTitle() {
+        boolean hasFaceHardware = mFaceManager != null && mFaceManager.isHardwareDetected();
+        boolean hasFingerprintHardware = mFingerprintManager != null
+                && mFingerprintManager.isHardwareDetected();
+
+        int resource;
+        if (hasFaceHardware == hasFingerprintHardware) {
+            resource = R.string.security_settings_biometric_preference_title;
+        } else {
+            if (hasFaceHardware) {
+                resource = R.string.security_settings_face_preference_title;
+            } else {
+                if (!mIsManagedProfile) {
+                    resource = R.string.security_settings_fingerprint_preference_title;
+                } else {
+                    resource = R.string.security_settings_work_fingerprint_preference_title;
+                }
+            }
+        }
+        return mContext.getString(resource);
+    }
+
+    /**
      * Returns the summary of combined biometric settings entity.
      */
     public String getSummary() {
@@ -111,11 +140,19 @@ public class CombinedBiometricStatusUtils {
         }
     }
 
-    private boolean hasEnrolledFingerprints() {
+    public boolean isSingleBiometric() {
+        boolean hasFaceHardware = mFaceManager != null && mFaceManager.isHardwareDetected();
+        boolean hasFingerprintHardware = mFingerprintManager != null
+                && mFingerprintManager.isHardwareDetected();
+
+        return hasFaceHardware != hasFingerprintHardware;
+    }
+
+    public boolean hasEnrolledFingerprints() {
         return mFingerprintManager != null && mFingerprintManager.hasEnrolledFingerprints(mUserId);
     }
 
-    private boolean hasEnrolledFace() {
+    public boolean hasEnrolledFace() {
         return mFaceManager != null && mFaceManager.hasEnrolledTemplates(mUserId);
     }
 
