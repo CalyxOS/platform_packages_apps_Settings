@@ -63,7 +63,7 @@ public final class BiometricsSafetySource {
             final RestrictedLockUtils.EnforcedAdmin disablingAdmin =
                     combinedBiometricStatusUtils.getDisablingAdmin();
             setBiometricSafetySourceData(context,
-                    context.getString(R.string.security_settings_biometric_preference_title),
+                    combinedBiometricStatusUtils.getTitle(),
                     combinedBiometricStatusUtils.getSummary(),
                     createPendingIntent(context,
                             biometricNavigationUtils.getBiometricSettingsIntent(context,

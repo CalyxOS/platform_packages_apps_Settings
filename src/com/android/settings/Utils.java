@@ -861,10 +861,11 @@ public final class Utils extends com.android.settingslib.Utils {
     }
 
     /**
-     * Return true if the device supports multiple biometrics authentications.
+     * Return true if the device supports any biometrics authentications.
      */
     public static boolean isMultipleBiometricsSupported(Context context) {
-        return hasFingerprintHardware(context) && hasFaceHardware(context);
+        // Return true even if only one is supported in order to expose combined preference.
+        return hasFingerprintHardware(context) || hasFaceHardware(context);
     }
 
     /**
