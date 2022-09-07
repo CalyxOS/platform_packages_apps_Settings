@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "db7917cf_cae22560",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-09-07T18:12:34Z",
+      "side": 1,
+      "message": "Safety Center preference title is fixed with patchset 9. I was wrong, it was here in settings.",
+      "parentUuid": "3e53fc37_5fbb02e9",
+      "revId": "20d7787ab46cdae2b7afec0db9e5285aefdc1e17",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e0b2edc_5997dbd9",
