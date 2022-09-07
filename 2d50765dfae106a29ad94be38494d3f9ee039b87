@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e65c0d8_f8c038d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-09-07T18:47:50Z",
+      "side": 1,
+      "message": "I rebased for patchset 10 along with removing intro text-related stuff, so now Base -\u003e Patchset 10 looks normal, but Patchset 9 -\u003e Patchset 10 looks pretty wild. More Gerrit good times for me. Any thoughts on how I can do that differently in the future, or is this just how it goes?",
+      "parentUuid": "78c7e679_6ca7a8d4",
+      "revId": "2d50765dfae106a29ad94be38494d3f9ee039b87",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e93fa767_48f625f8",
