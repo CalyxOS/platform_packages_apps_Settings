@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7689f10f_3a4f4641",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-07T18:13:35Z",
+      "side": 1,
+      "message": "I will test face on Pixel 4.\n\nFace + fingerprint does not exist in the real world so we don\u0027t have to care about it until it does.\n\nI\u0027m assuming as long as fingerprint is ok here, face probably will be too, and then this is good to go.",
+      "parentUuid": "db7917cf_cae22560",
+      "revId": "20d7787ab46cdae2b7afec0db9e5285aefdc1e17",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e0b2edc_5997dbd9",
