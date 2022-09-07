@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f9f0f5f_f18199c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-09-07T11:51:45Z",
+      "side": 1,
+      "message": "This does what it says it does, but I\u0027m not a big fan of the user experience. Users will definitely start asking how to enable face unlock even if their device doesn\u0027t support it.",
+      "revId": "c72fdd8c417aa92843fc83eea07ad58c00e3af86",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
