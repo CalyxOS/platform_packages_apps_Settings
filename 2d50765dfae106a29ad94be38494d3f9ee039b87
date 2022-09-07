@@ -16,6 +16,23 @@
       "message": "I don\u0027t mean to make a bunch of noise; still pretty new to Gerrit. Looks like I need to specify CR and Verified each time, I think, or it goes away.",
       "revId": "2d50765dfae106a29ad94be38494d3f9ee039b87",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e93fa767_48f625f8",
+        "filename": "src/com/android/settings/biometrics/combination/BiometricsSettingsBase.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-07T18:15:00Z",
+      "side": 1,
+      "message": "I would\u0027ve just removed it from xml to keep things simpler.\n\nBoth is not something that exists for real right now.\n\nAll Pixels except 4 -\u003e Fingerprint\nPixel 4 only -\u003e Face\nUpcoming Pixel 7 -\u003e Fingerprint only as far as we know",
+      "revId": "2d50765dfae106a29ad94be38494d3f9ee039b87",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
