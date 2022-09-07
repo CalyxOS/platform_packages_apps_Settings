@@ -52,7 +52,7 @@ public class CombinedBiometricStatusUtils {
      * Returns whether the combined biometric settings entity should be shown.
      */
     public boolean isAvailable() {
-        return Utils.hasFingerprintHardware(mContext) && Utils.hasFaceHardware(mContext);
+        return Utils.isMultipleBiometricsSupported(mContext);
     }
 
     /**
