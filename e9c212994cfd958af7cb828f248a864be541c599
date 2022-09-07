@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97befa0c_715e8d59",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-07T18:40:45Z",
+      "side": 1,
+      "message": "microG toggle isn\u0027t working, but that\u0027s the same on 12L so this can go in and we can cherry-pick the fix (which I expect to be similar)",
+      "revId": "e9c212994cfd958af7cb828f248a864be541c599",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
