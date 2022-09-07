@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2750182c_93a2bca5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-09-07T18:13:59Z",
+      "side": 1,
+      "message": "I don\u0027t mean to make a bunch of noise; still pretty new to Gerrit. Looks like I need to specify CR and Verified each time, I think, or it goes away.",
+      "revId": "2d50765dfae106a29ad94be38494d3f9ee039b87",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
