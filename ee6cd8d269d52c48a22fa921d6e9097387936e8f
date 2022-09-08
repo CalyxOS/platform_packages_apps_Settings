@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24682091_026c0c37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-08T11:19:54Z",
+      "side": 1,
+      "message": "Updated strings, waiting for UX feedback.",
+      "revId": "ee6cd8d269d52c48a22fa921d6e9097387936e8f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
