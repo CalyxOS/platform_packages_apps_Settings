@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d61e443d_73c0cc67",
+        "filename": "src/com/android/settings/security/LockUnificationPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-09-15T05:17:03Z",
+      "side": 1,
+      "message": "^ To clarify \"altered Use One Lock behavior\" -- this means the ability to enable/disable Use One Lock for the profile that launched the Security activity of Settings. Without this or other UI changes, it can only be changed for a single profile, no matter where this activity is launched from; no other profile would be able to have a separate challenge.",
+      "parentUuid": "43b233a0_82b90101",
+      "revId": "72cb6c9ce9f21cf9126437888e2668b594c99542",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e8ad57b3_33c7e99f",
         "filename": "src/com/android/settings/security/SecurityAdvancedSettings.java",
         "patchSetId": 1
