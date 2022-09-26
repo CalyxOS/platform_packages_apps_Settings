@@ -16,8 +16,8 @@
 
 package com.android.settings.security;
 
+import android.app.admin.DevicePolicyManager;
 import android.content.Context;
-import android.hardware.usb.V1_3.IUsb;
 import android.os.RemoteException;
 import android.os.UserManager;
 
@@ -28,7 +28,6 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 
 import lineageos.providers.LineageSettings;
-import lineageos.trust.TrustInterface;
 
 import java.util.NoSuchElementException;
 
@@ -41,12 +40,8 @@ public class RestrictUsbPreferenceController extends BasePreferenceController im
 
     @Override
     public int getAvailabilityStatus() {
-        IUsb usb = null;
-        try {
-            usb = IUsb.getService();
-        } catch (NoSuchElementException | RemoteException ignored) {
-        }
-        if (usb == null && !TrustInterface.getInstance(mContext).hasUsbRestrictor()) {
+        DevicePolicyManager policyManager = mContext.getSystemService(DevicePolicyManager.class);
+        if (policyManager != null && !policyManager.canUsbDataSignalingBeDisabled()) {
             return UNSUPPORTED_ON_DEVICE;
         }
         return UserManager.get(mContext).isAdminUser() ? AVAILABLE : DISABLED_FOR_USER;
