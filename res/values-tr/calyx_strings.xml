@@ -60,4 +60,9 @@
     <string name="network_dashboard_summary_mobile_calyx">Mobil, Wi‑Fi, ortak erişim noktası, VPN, Gizli DNS</string>
     <string name="security_dashboard_summary_calyx">Ekran kilidi, acil durum ayarları, USB kısıtlamaları, uygulama güvenliği</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, eşleştirme, NFC</string>
+    <string name="hide_app_desc">Bu uygulamayı gizlerseniz, Android ve diğer uygulamalar tarafından görülemez ve artık amaçlandığı gibi çalışmayabilir. Unutmayın, bir uygulamayı gizlemek o uygulamanın verilerini korur. Gizleyerek, bu uygulamayı kapatır ve aygıtınızda gizlersiniz.</string>
+    <string name="filter_hidden_apps">Gizli uygulamalar</string>
+    <string name="hide_app">Uygulamayı gizle</string>
+    <string name="unhide_app">Uygulamayı göster</string>
+    <string name="unhide_app_desc">Bu uygulamanın gizlenmesini kaldırırsanız, Android ve diğer uygulamalar tarafından tekrar görünür hale gelecektir.</string>
 </resources>
