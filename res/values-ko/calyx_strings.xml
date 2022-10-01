@@ -54,4 +54,17 @@
     <string name="security_restrict_usb_disabled">항상 새 USB 가젯 허용</string>
     <string name="device_reboot_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g>동안 기기가 잠금해제 되지 않을 경우 기기는 자동적으로 재부팅 됨</string>
     <string name="device_reboot_timeout_summary2">자동 재부팅 사용 안함</string>
+    <string name="network_dashboard_summary_mobile_calyx">모바일, 와이파이, 핫스팟, VPN, 비공개 DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">와이파이, 핫스팟, VPN, 비공개 DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">블루투스, 페어링, NFC</string>
+    <string name="security_dashboard_summary_calyx">화면 잠금, 패닉 설정, USB 제한, 앱 보안</string>
+    <string name="system_dashboard_summary_calyx">언어, 제스처, 시간, 백업, 사용자, 직장 프로필</string>
+    <string name="cleartext_network_policy_summary">TLS 이외의 모든 네트워크 트래픽을 차단합니다. 비공개 DNS 구성이 필요합니다. 참고: 명시적 예외가 없으면, 일반 텍스트 트래픽을 사용하는 앱이 작동하지 않을 수 있습니다</string>
+    <string name="cleartext_network_policy_title">일반 텍스트 네트워크 트래픽 제한</string>
+    <string name="cross_profile_sharing_summary">개인 및 회사 프로필에서 작동하도록 앱 내 공유 버튼 활성화</string>
+    <string name="unhide_app_desc">이 앱의 숨김을 해제하면, Android 및 기타 앱에 다시 표시됩니다.</string>
+    <string name="hide_app_desc">이 앱을 숨기면 Android 및 기타 앱에 표시되지 않으며, 더 이상 의도한 대로 작동하지 않을 수 있습니다. 앱을 숨기면 데이터가 보존됩니다. 숨기면 이 앱이 꺼지고 기기에서 숨겨집니다.</string>
+    <string name="hide_app">앱 숨김</string>
+    <string name="filter_hidden_apps">숨겨진 앱</string>
+    <string name="unhide_app">앱 숨김 해제</string>
 </resources>

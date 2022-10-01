@@ -62,4 +62,8 @@
     <string name="network_dashboard_summary_mobile_calyx">סלולרי, נייד, אלחוטי, וייפיי, רשת וירטואלית, נקודה חמה, נקודת גישה, מערכת פענוח כתובות פרטית, DNS, VPN</string>
     <string name="connected_devices_dashboard_summary_calyx">בלוטות׳, צימוד, תקשורת קרבה</string>
     <string name="system_dashboard_summary_calyx">שפות, מחוות, שעה, גיבוי, משתמשים, פרופיל עבודה</string>
+    <string name="filter_hidden_apps">יישומונים נסתרים</string>
+    <string name="unhide_app">ביטול הסתרת יישומונים</string>
+    <string name="hide_app">הסתרת יישומון</string>
+    <string name="unhide_app_desc">ביטול הסתרת היישומון הזה יחשוף אותו ל־Android וליישומונים נוספים שוב.</string>
 </resources>
