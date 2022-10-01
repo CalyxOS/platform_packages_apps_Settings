@@ -60,4 +60,9 @@
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, Kopplung, NFC</string>
     <string name="security_dashboard_summary_calyx">Bildschirmsperre, Panikeinstellungen, USB-Beschränkungen, App-Sicherheit</string>
     <string name="system_dashboard_summary_calyx">Sprachen, Gesten, Zeit, Backup, Benutzer, Arbeitsprofil</string>
+    <string name="unhide_app">App einblenden</string>
+    <string name="hide_app_desc">Wenn du diese App versteckst, ist sie für Android und andere Apps nicht mehr sichtbar, und sie funktioniert möglicherweise nicht mehr wie vorgesehen. Denke daran, dass durch das Verstecken einer App deren Daten erhalten bleiben. Durch Verstecken schaltest du diese App aus und versteckst sie auf deinem Gerät.</string>
+    <string name="unhide_app_desc">Wenn du diese App wieder einblendest, wird sie für Android und andere Apps wieder sichtbar.</string>
+    <string name="hide_app">App verstecken</string>
+    <string name="filter_hidden_apps">Versteckte Apps</string>
 </resources>

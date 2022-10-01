@@ -60,4 +60,9 @@
     <string name="connected_devices_dashboard_summary_calyx">蓝牙、配对、NFC</string>
     <string name="security_dashboard_summary_calyx">锁屏、紧急情况设置、USB 限制、应用安全</string>
     <string name="system_dashboard_summary_calyx">语言、手势、时间、备份、用户、工作配置文件</string>
+    <string name="hide_app">隐藏应用</string>
+    <string name="hide_app_desc">如果你隐藏此应用，它将对 Android 和其他应用不可见，并且它们可能不再按预期运行。 请记住，隐藏应用会保留其数据。 通过隐藏，你可以关闭此应用并将其隐藏在你的设备上。</string>
+    <string name="filter_hidden_apps">隐藏的应用</string>
+    <string name="unhide_app">取消隐藏应用</string>
+    <string name="unhide_app_desc">如果你取消隐藏此应用程序，它将再次对 Android 和其他应用可见。</string>
 </resources>
