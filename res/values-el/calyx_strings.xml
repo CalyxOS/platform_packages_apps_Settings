@@ -55,4 +55,14 @@
     <string name="cross_profile_sharing_title">Κοινή χρήση μεταξύ προφίλ</string>
     <string name="hide">Απόκρυψη</string>
     <string name="unhide">Επανεμφάνιση</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, ιδιωτικό DNS</string>
+    <string name="network_dashboard_summary_mobile_calyx">Κινητό, Wi‑Fi, hotspot, VPN, ιδιωτικό DNS</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, σύζευξη, NFC</string>
+    <string name="security_dashboard_summary_calyx">Κλείδωμα οθόνης, ρυθμίσεις πανικού, περιορισμοί USB, ασφάλεια εφαρμογών</string>
+    <string name="hide_app">Απόκρυψη εφαρμογής</string>
+    <string name="unhide_app">Επανεμφάνιση εφαρμογής</string>
+    <string name="system_dashboard_summary_calyx">Γλώσσες, χειρονομίες, ώρα, αντίγραφα ασφαλείας, χρήστες, προφίλ εργασίας</string>
+    <string name="unhide_app_desc">Εάν επανεμφανίσετε αυτήν την εφαρμογή, θα είναι ξανά ορατή στο Android και σε άλλες εφαρμογές.</string>
+    <string name="hide_app_desc">Εάν αποκρύψετε αυτήν την εφαρμογή, δεν θα είναι ορατή στο Android και σε άλλες εφαρμογές και ενδέχεται να μην λειτουργούν πλέον όπως θα έπρεπε. Λάβετε υπόψη ότι η απόκρυψη μιας εφαρμογής διατηρεί τα δεδομένα της. Με την απόκρυψη, απενεργοποιείτε αυτήν την εφαρμογή και την αποκρύπτετε στη συσκευή σας.</string>
+    <string name="filter_hidden_apps">Κρυφές εφαρμογές</string>
 </resources>
