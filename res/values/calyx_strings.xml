@@ -120,4 +120,8 @@
     <string name="cross_profile_sharing_title">Cross-profile sharing</string>
     <!-- [CHAR LIMIT=NONE] Setting description. If the user turns on this setting, they can share content across their personal and work profiles. -->
     <string name="cross_profile_sharing_summary">Enable in-app share buttons to work across your personal and work profile</string>
+
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Connectivity check</string>
+    <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
 </resources>
