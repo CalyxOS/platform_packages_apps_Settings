@@ -61,6 +61,15 @@
         settings:controller="com.android.settings.network.AirplaneModePreferenceController"
         settings:userRestriction="no_airplane_mode"/>
 
+    <SwitchPreference
+        android:icon="@drawable/ic_network_check"
+        android:key="captive_portal"
+        android:title="@string/captive_portal_title"
+        android:summary="@string/captive_portal_summary"
+        android:order="4"
+        settings:highlightableMenuKey="@string/menu_key_network"
+        settings:controller="com.android.settings.network.CaptivePortalPreferenceController" />
+
     <com.android.settingslib.RestrictedPreference
         android:key="manage_mobile_plan"
         android:title="@string/manage_mobile_plan_title"
