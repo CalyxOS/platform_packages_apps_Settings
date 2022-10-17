@@ -116,4 +116,13 @@
         android:summary="@string/cellular_security_summary"
         android:order="30"
         settings:controller="com.android.settings.network.CellularSecurityPreferenceController"/>
+
+    <SwitchPreferenceCompat
+        android:icon="@drawable/ic_network_check"
+        android:key="captive_portal"
+        android:title="@string/captive_portal_title"
+        android:summary="@string/captive_portal_summary"
+        android:order="35"
+        settings:highlightableMenuKey="@string/menu_key_network"
+        settings:controller="com.android.settings.network.CaptivePortalPreferenceController" />
 </PreferenceScreen>
