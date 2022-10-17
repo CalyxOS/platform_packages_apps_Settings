@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f95bec1_6fe2644e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-10-17T17:32:40Z",
+      "side": 1,
+      "message": "Seems to work. I verified with `adb shell settings get global captive_portal_mode`",
+      "revId": "43d3fb58522a26b87c14fecb4465e1c4661b856c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
