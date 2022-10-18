@@ -16,6 +16,24 @@
       "message": "Same as Private DNS. Unless you made changes to this icon, this is wrong.\n\nAlso, could just use SPDX, but that\u0027s neither here nor there.\n\nFinally, spacing looks off.\n\nhttps://gitlab.com/CalyxOS/platform_packages_apps_Settings/-/blob/b2b6fd0e94a02ae893a42c1e61c41ac1dec81a08/res/drawable/accessibility_button_preview_two_finger.xml",
       "revId": "b2b6fd0e94a02ae893a42c1e61c41ac1dec81a08",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0d98c8c_fb1cd073",
+        "filename": "res/drawable/ic_network_check.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-10-18T16:38:57Z",
+      "side": 1,
+      "message": "Tint and hex color code were the changes done from my side otherwise it looks bad.",
+      "parentUuid": "d9a77eec_49ae5753",
+      "revId": "b2b6fd0e94a02ae893a42c1e61c41ac1dec81a08",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
