@@ -51,6 +51,24 @@
       "parentUuid": "cdb09962_da690b7a",
       "revId": "b38776dd94ce6e18938a8bd9c2a237f134d609d3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0074f58_9f616a07",
+        "filename": "res/drawable/ic_dns.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-18T17:47:15Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "bc43f264_81977c50",
+      "revId": "b38776dd94ce6e18938a8bd9c2a237f134d609d3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
