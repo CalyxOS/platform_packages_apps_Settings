@@ -16,6 +16,23 @@
       "message": "Takes the biometric preferences out of the \"Ways to unlock\" category (which has now been removed entirely, as it wasn\u0027t adding anything except confusion for supported devices). Changes the text for the preference which manages fingerprints from \"Fingerprint\" to \"Manage fingerprints\" (already in AOSP) when the combined section is only handling fingerprints anyway, which clarifies the preference\u0027s behavior and reduces redundancy.",
       "revId": "f43f3d8176cd678d382a12fee976357f84fdbf01",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "004fa059_3de845bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-18T14:45:50Z",
+      "side": 1,
+      "message": "The Pixel 7 is out, which has this on stock, but not AOSP. Still need to look into that.\n\nThe latest Pixel 7 tag has been merged though, let\u0027s see if this thing rebases fine.",
+      "revId": "f43f3d8176cd678d382a12fee976357f84fdbf01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
