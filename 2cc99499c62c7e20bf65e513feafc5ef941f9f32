@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a90a3c42_1e12b907",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-10-18T15:21:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b4279319_bf8f3f19",
+      "revId": "2cc99499c62c7e20bf65e513feafc5ef941f9f32",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3984faf0_8a051363",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-10-18T08:21:18Z",
       "side": 1,
       "message": "Should always add license",
+      "revId": "2cc99499c62c7e20bf65e513feafc5ef941f9f32",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b01acbf_023363f6",
+        "filename": "res/drawable/ic_network_check.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-10-18T15:21:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3984faf0_8a051363",
       "revId": "2cc99499c62c7e20bf65e513feafc5ef941f9f32",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
