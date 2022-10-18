@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4279319_bf8f3f19",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-18T08:21:18Z",
+      "side": 1,
+      "message": "connectivity check*",
+      "revId": "2cc99499c62c7e20bf65e513feafc5ef941f9f32",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3984faf0_8a051363",
+        "filename": "res/drawable/ic_network_check.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-18T08:21:18Z",
+      "side": 1,
+      "message": "Should always add license",
+      "revId": "2cc99499c62c7e20bf65e513feafc5ef941f9f32",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
