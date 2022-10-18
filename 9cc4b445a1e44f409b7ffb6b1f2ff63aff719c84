@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e7feda7_e4da5a16",
+        "filename": "src/com/android/settings/network/CaptivePortalPreferenceController.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-10-18T16:49:15Z",
+      "side": 1,
+      "message": "Missing newline",
+      "revId": "9cc4b445a1e44f409b7ffb6b1f2ff63aff719c84",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
