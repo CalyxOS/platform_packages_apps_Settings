@@ -114,6 +114,7 @@
         settings:useAdminDisabledSummary="true" />
 
     <com.android.settings.network.PrivateDnsModeDialogPreference
+        android:icon="@drawable/ic_dns"
         android:key="private_dns_settings"
         android:title="@string/select_private_dns_configuration_title"
         android:order="20"
