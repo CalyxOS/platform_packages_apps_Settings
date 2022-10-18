@@ -16,6 +16,23 @@
       "message": "Icon taken from https://fonts.google.com/icons?selected\u003dMaterial%20Symbols%20Outlined%3Adns%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4024",
       "revId": "b38776dd94ce6e18938a8bd9c2a237f134d609d3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cdb09962_da690b7a",
+        "filename": "res/drawable/ic_dns.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-18T16:35:58Z",
+      "side": 1,
+      "message": "Did you make any changes to this icon? If not, this is wrong.",
+      "revId": "b38776dd94ce6e18938a8bd9c2a237f134d609d3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
