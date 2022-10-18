@@ -33,6 +33,24 @@
       "message": "The Pixel 7 is out, which has this on stock, but not AOSP. Still need to look into that.\n\nThe latest Pixel 7 tag has been merged though, let\u0027s see if this thing rebases fine.",
       "revId": "f43f3d8176cd678d382a12fee976357f84fdbf01",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4107653c_7d15089c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-10-18T14:48:12Z",
+      "side": 1,
+      "message": "If I recall correctly, Pixel 7 should only require the device config command to enable this merged menu since it has both biometrics (one of the prerequisites). The modifications may be necessary for devices that don\u0027t have both. Need to make sure our custom settings still show up otherwise.",
+      "parentUuid": "004fa059_3de845bd",
+      "revId": "f43f3d8176cd678d382a12fee976357f84fdbf01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
