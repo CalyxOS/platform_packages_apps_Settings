@@ -21,4 +21,17 @@
     android:key="other_settings_screen"
     android:title="@string/other_settings"
     settings:keywords="@string/keywords_other">
+
+    <PreferenceCategory
+        android:title="@string/debug_networking_category">
+
+        <SwitchPreference
+            android:key="wifi_non_persistent_mac_randomization"
+            android:title="@string/wifi_non_persistent_mac_randomization"
+            android:summary="@string/wifi_non_persistent_mac_randomization_summary"
+            settings:highlightableMenuKey="@string/menu_key_system"
+            settings:controller="com.android.settings.other.WifiNonPersistentMacRandomizationPreferenceController" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
