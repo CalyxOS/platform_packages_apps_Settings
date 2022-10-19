@@ -16,6 +16,24 @@
       "message": "Wrong conflict resolution",
       "revId": "7f5d08af6cab6ff68b07aa5131a2f734014a8adc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84f41a05_2fa33647",
+        "filename": "res/xml/development_settings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-10-19T17:46:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e1ffd43b_1553fedf",
+      "revId": "7f5d08af6cab6ff68b07aa5131a2f734014a8adc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
