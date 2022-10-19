@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7645c0ae_66008030",
+        "filename": "src/com/android/settings/other/WifiNonPersistentMacRandomizationPreferenceController.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-19T23:43:07Z",
+      "side": 1,
+      "message": "Maybe mention the class / path it was copied from here?\n\nTo make future updates easier",
+      "revId": "1d4c25bcf0b1a0fa00c3fe0896001d45f2a230b7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
