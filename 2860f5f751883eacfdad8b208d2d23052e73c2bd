@@ -51,6 +51,24 @@
       "parentUuid": "755a4dd2_fbcff870",
       "revId": "2860f5f751883eacfdad8b208d2d23052e73c2bd",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8059b222_8ed719ef",
+        "filename": "src/com/android/settings/network/CaptivePortalPreferenceController.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-10-22T15:29:20Z",
+      "side": 1,
+      "message": "Change: I13cbd5145557eb49b87382b3b24797ef6c6fd562",
+      "parentUuid": "83f4ff07_2a1c60aa",
+      "revId": "2860f5f751883eacfdad8b208d2d23052e73c2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": []
