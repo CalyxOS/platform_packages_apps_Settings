@@ -60,4 +60,9 @@
     <string name="system_dashboard_summary_calyx">Idiomes, gestos, temps, còpia de seguretat, usuaris, perfil de treball</string>
     <string name="security_dashboard_summary_calyx">Bloqueig de pantalla, configuració del pànic, restriccions USB, seguretat d\'aplicacions</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, aparellament, NFC</string>
+    <string name="filter_hidden_apps">Aplicacions ocultes</string>
+    <string name="hide_app">Amaga aplicació</string>
+    <string name="unhide_app">Mostra aplicació</string>
+    <string name="unhide_app_desc">Si nostreu aquesta aplicació, tornarà a ser visible per a Android i altres aplicacions.</string>
+    <string name="hide_app_desc">Si amagueu aquesta aplicació, no serà visible per a Android i altres aplicacions, i és possible que ja no funcionin com s\'espera. Tingueu en compte, amagar una aplicació conserva les dades. En amagar-se, es desactiva aquesta aplicació i s\'amaga del dispositiu.</string>
 </resources>
