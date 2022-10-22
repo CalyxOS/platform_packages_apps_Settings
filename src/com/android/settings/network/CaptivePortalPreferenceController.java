@@ -39,7 +39,7 @@ public class CaptivePortalPreferenceController extends TogglePreferenceControlle
     @Override
     public boolean isChecked() {
         return Settings.Global.getInt(mContext.getContentResolver(),
-                Settings.Global.CAPTIVE_PORTAL_MODE, 0) != 0;
+                Settings.Global.CAPTIVE_PORTAL_MODE, 1) != 0;
     }
 
     @Override
