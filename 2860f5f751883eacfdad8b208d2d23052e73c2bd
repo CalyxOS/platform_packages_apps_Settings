@@ -1,4 +1,39 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04e85b4f_c37d583f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-10-22T11:48:05Z",
+      "side": 1,
+      "message": "(Not sure if commenting on merged changes makes sense... Please correct me if it doesn\u0027t!)",
+      "revId": "2860f5f751883eacfdad8b208d2d23052e73c2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "755a4dd2_fbcff870",
+        "filename": "src/com/android/settings/network/CaptivePortalPreferenceController.java",
+        "patchSetId": 11
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-10-22T11:48:05Z",
+      "side": 1,
+      "message": "Usually this value is unset, but it defaults to 1 in the system, not 0; this toggle will show as Off for any user who hasn\u0027t touched it yet, even though connectivity checks are actually on.",
+      "revId": "2860f5f751883eacfdad8b208d2d23052e73c2bd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ],
   "submitRequirementResults": []
 }
