@@ -45,13 +45,13 @@
     <string name="airplane_mode_radios_title">Funkmodule im Flugmodus</string>
     <string name="global_vpn_title">Globales VPN</string>
     <string name="global_vpn_summary">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer.</string>
-    <string name="global_vpn_summary_any_vpn_active">Sie müssen zuerst alle aktiven VPN-Verbindungen deaktivieren, um dies zu aktivieren</string>
+    <string name="global_vpn_summary_any_vpn_active">Du musst zuerst alle aktiven VPN-Verbindungen deaktivieren, um dies zu aktivieren</string>
     <string name="detailed_security_patch">Plattform: <xliff:g id="platform_level">%1$s</xliff:g>
 \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nHersteller: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
-    <string name="global_vpn_summary_on">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer. Hinweis: Wenn diese Option aktiviert ist, können Sie kein separates VPN in einem Arbeitsprofil oder für andere Benutzer verwenden</string>
-    <string name="cross_profile_sharing_summary">Aktivieren von In-App-Freigabeschaltflächen für Ihr Privat- und Arbeitsprofil</string>
+    <string name="global_vpn_summary_on">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer. Hinweis: Wenn diese Option aktiviert ist, kannst du kein separates VPN in einem Arbeitsprofil oder für andere Benutzer verwenden</string>
+    <string name="cross_profile_sharing_summary">Aktiviere von In-App-Freigabeschaltflächen für dein Privat- und Arbeitsprofil</string>
     <string name="cross_profile_sharing_title">Profilübergreifende Freigabe</string>
     <string name="hide">Ausblenden</string>
     <string name="unhide">Einblenden</string>
@@ -65,4 +65,6 @@
     <string name="unhide_app_desc">Wenn du diese App wieder einblendest, wird sie für Android und andere Apps wieder sichtbar.</string>
     <string name="hide_app">App verstecken</string>
     <string name="filter_hidden_apps">Versteckte Apps</string>
+    <string name="captive_portal_summary">Feststellen, ob das Gerät eine Verbindung zum Internet herstellen kann, indem es Google kontaktiert. Wird auch verwendet, um Captive-Portale zu erkennen.</string>
+    <string name="captive_portal_title">Verbindungsprüfung</string>
 </resources>
