@@ -51,6 +51,24 @@
       "parentUuid": "004fa059_3de845bd",
       "revId": "f43f3d8176cd678d382a12fee976357f84fdbf01",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f2420ef_7d83cb93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-31T18:59:07Z",
+      "side": 1,
+      "message": "Discussed elsewhere, it needs more work.\n\nEven with some configs and SELinux changes (missing in AOSP but can be copied from coral) - face doesn\u0027t work on 7.\n\nShould do that first before we get this in",
+      "parentUuid": "4107653c_7d15089c",
+      "revId": "f43f3d8176cd678d382a12fee976357f84fdbf01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
