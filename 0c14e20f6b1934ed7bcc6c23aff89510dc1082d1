@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dea43989_01c49ad4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-31T19:04:54Z",
+      "side": 1,
+      "message": "Minor nit, LGTM otherwise.",
+      "revId": "0c14e20f6b1934ed7bcc6c23aff89510dc1082d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a727a1f6_0f18bb1e",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-31T19:04:54Z",
+      "side": 1,
+      "message": "That\u0027s quite a mouthful. Maybe let\u0027s keep it to just OEM unlocking for now and we can add more later?",
+      "revId": "0c14e20f6b1934ed7bcc6c23aff89510dc1082d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
