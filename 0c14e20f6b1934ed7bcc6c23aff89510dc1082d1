@@ -33,6 +33,24 @@
       "message": "That\u0027s quite a mouthful. Maybe let\u0027s keep it to just OEM unlocking for now and we can add more later?",
       "revId": "0c14e20f6b1934ed7bcc6c23aff89510dc1082d1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab0adbec_5a86332a",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-31T19:06:55Z",
+      "side": 1,
+      "message": "Not to mention we can\u0027t ship this then without copying that setting because otherwise it\u0027d be confusing.\n\nCould pick another string as well, or leave it empty?",
+      "parentUuid": "a727a1f6_0f18bb1e",
+      "revId": "0c14e20f6b1934ed7bcc6c23aff89510dc1082d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
