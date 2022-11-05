@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2022 The Calyx Institute
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.other;
 
 import static com.android.settings.development.DevelopmentOptionsActivityRequestCodes.REQUEST_CODE_ENABLE_OEM_UNLOCK;
 
@@ -36,12 +37,14 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.dashboard.RestrictedDashboardFragment;
 import com.android.settings.development.OnActivityResultListener;
+import com.android.settings.development.EnableOemUnlockSettingWarningDialog;
+import com.android.settings.development.OemLockInfoDialog;
 import com.android.settings.password.ChooseLockSettingsHelper;
 import com.android.settingslib.RestrictedSwitchPreference;
-import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 
-public class OemUnlockPreferenceController extends DeveloperOptionsPreferenceController implements
+public class OemUnlockPreferenceController extends OtherOptionsPreferenceController implements
         Preference.OnPreferenceChangeListener, PreferenceControllerMixin, OnActivityResultListener {
 
     private static final String PREFERENCE_KEY = "oem_unlock_enable";
@@ -54,11 +57,11 @@ public class OemUnlockPreferenceController extends DeveloperOptionsPreferenceCon
     private final UserManager mUserManager;
     private final TelephonyManager mTelephonyManager;
     private final Activity mActivity;
-    private final DevelopmentSettingsDashboardFragment mFragment;
+    private final RestrictedDashboardFragment mFragment;
     private RestrictedSwitchPreference mPreference;
 
     public OemUnlockPreferenceController(Context context, Activity activity,
-            DevelopmentSettingsDashboardFragment fragment) {
+            RestrictedDashboardFragment fragment) {
         super(context);
 
         if (!TextUtils.equals(SystemProperties.get(OEM_UNLOCK_SUPPORTED_KEY, UNSUPPORTED),
@@ -135,11 +138,6 @@ public class OemUnlockPreferenceController extends DeveloperOptionsPreferenceCon
         return false;
     }
 
-    @Override
-    protected void onDeveloperOptionsSwitchEnabled() {
-        handleDeveloperOptionsToggled();
-    }
-
     public void onOemUnlockConfirmed() {
         mOemLockManager.setOemUnlockAllowedByUser(true);
     }
@@ -149,14 +147,6 @@ public class OemUnlockPreferenceController extends DeveloperOptionsPreferenceCon
             return;
         }
         updateState(mPreference);
-    }
-
-    private void handleDeveloperOptionsToggled() {
-        mPreference.setEnabled(enableOemUnlockPreference());
-        if (mPreference.isEnabled()) {
-            // Check restriction, disable mEnableOemUnlock and apply policy transparency.
-            mPreference.checkRestrictionAndSetDisabled(UserManager.DISALLOW_FACTORY_RESET);
-        }
     }
 
     private void updateOemUnlockSettingDescription() {
