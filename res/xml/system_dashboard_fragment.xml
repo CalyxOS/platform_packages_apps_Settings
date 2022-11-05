@@ -76,7 +76,6 @@
     <Preference
         android:key="other_settings"
         android:title="@string/other_settings"
-        android:summary="@string/keywords_other"
         android:icon="@drawable/ic_settings_other"
         android:order="100"
         android:fragment="com.android.settings.other.OtherFragment"/>

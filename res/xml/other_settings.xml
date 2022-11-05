@@ -23,6 +23,17 @@
     settings:keywords="@string/keywords_other">
 
     <PreferenceCategory
+        android:title="@string/general_category_title">
+
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="oem_unlock_enable"
+            android:title="@string/oem_unlock_enable"
+            android:summary="@string/oem_unlock_enable_summary"
+            settings:useAdditionalSummary="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/debug_networking_category">
 
         <SwitchPreference
