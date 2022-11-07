@@ -16,6 +16,24 @@
       "message": "We have the QS tile, let\u0027s add the setting so it\u0027s less weird.",
       "revId": "1dfd7d59686bc2f86a733505219999f0708c81ed",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff05c6a5_067e43b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-07T17:39:37Z",
+      "side": 1,
+      "message": "In an alternate world we\u0027d have never added this confusing QS tile (nor ambient display)",
+      "parentUuid": "51844b17_d1d101fc",
+      "revId": "1dfd7d59686bc2f86a733505219999f0708c81ed",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
