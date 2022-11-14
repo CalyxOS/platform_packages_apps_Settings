@@ -51,4 +51,18 @@
 \nProdejce: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="data_usage_app_restrict_background_all">Přístup k síti na pozadí</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobil, Wi-Fi, hotspot, VPN, Soukromé DNS</string>
+    <string name="airplane_mode_radios_category_title">Režim letadlo přepne zvolené bezdrátové služby</string>
+    <string name="airplane_mode_radios_title">Bezdrátové služby v režimu letadlo</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, párování, NFC</string>
+    <string name="hide_app">Skrýt aplikaci</string>
+    <string name="filter_hidden_apps">Skryté aplikace</string>
+    <string name="unhide_app">Odhalit aplikaci</string>
+    <string name="unhide_app_desc">Pokud odhalíte tuto aplikaci, bude opět viditelná pro Android a další aplikace.</string>
+    <string name="hide_app_desc">Pokud tuto aplikaci skryjete, nebude pro systém Android a ostatní aplikace viditelná a nemusí fungovat tak, jak má. Mějte na paměti, že skrytí aplikace zachovává její data. Skrytím tuto aplikaci vypnete a skryjete ji ve svém zařízení.</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, hotspot, VPN, Soukromé DNS</string>
+    <string name="security_dashboard_summary_calyx">Zámek obrazovky, nastavení paniky, USB omezení, zabezpečení aplikací</string>
+    <string name="system_dashboard_summary_calyx">Jazyky, gesta, čas, zálohování, uživatelé, pracovní profil</string>
+    <string name="cross_profile_sharing_summary">Povolit tlačítku sdílení v aplikacích sdílení mezi osobním a pracovním profilem</string>
+    <string name="aosp_module_version">Číslo aktualizace modulu Mainline</string>
 </resources>

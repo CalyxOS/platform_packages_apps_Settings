@@ -64,4 +64,7 @@
     <string name="unhide_app">ביטול הסתרת יישומונים</string>
     <string name="hide_app">הסתרת יישומון</string>
     <string name="unhide_app_desc">ביטול הסתרת היישומון הזה יחשוף אותו ל־Android וליישומונים נוספים שוב.</string>
+    <string name="hide_app_desc">הסתרת היישומון הזה לא תחשוף אותו בפני Android ושר היישומונים, ופעילותם עלולה להיפגע. נא לשים לב שהסתרת יישומון משמרת את הנתונים שלו. ההסתרה מכבה את היישומון ומסתירה אותו במכשיר שלך.</string>
+    <string name="captive_portal_title">בדיקת חיבוריות</string>
+    <string name="captive_portal_summary">איתור מצב החיבור לאינטרנט על ידי יצירת קשר עם Google. משמש גם לאיתור שערי לכידה.</string>
 </resources>
