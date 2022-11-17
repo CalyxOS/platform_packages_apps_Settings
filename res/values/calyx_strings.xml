@@ -128,4 +128,5 @@
     <!-- Other Fragment -->
     <string name="other_settings">Other options</string>
     <string name="keywords_other">OEM unlocking, Wi-Fi non-persistent MAC randomization</string>
+    <string name="quick_settings">Quick Settings</string>
 </resources>
