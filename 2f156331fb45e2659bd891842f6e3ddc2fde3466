@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5319aea_5f8b9a3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-11-17T09:19:08Z",
+      "side": 1,
+      "message": "SensorsOffPreferenceController is not copied but mostly written from scratch as Dev* counterpart basically adds every QS Tile pref fragment in loop programmatically.",
+      "revId": "2f156331fb45e2659bd891842f6e3ddc2fde3466",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
