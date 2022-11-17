@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c854354b_aaf5926d",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-17T20:37:04Z",
+      "side": 1,
+      "message": "How about sensors tile and Wi-Fi ... instead",
+      "revId": "2ff2c2e5e04ff113322386243ba451dfb10042f8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
