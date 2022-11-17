@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23a8a241_3e3e70b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2022-11-17T09:16:45Z",
+      "side": 1,
+      "message": "Reminder to self: Class was copied as all Dev* class otherwise requires an implementation of DevelopmentSettingsDashboardFragment that has tons of other implementations we don\u0027t want to use.",
+      "revId": "638f19e018f9c41ce01a9319fa171dbb2c373382",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
