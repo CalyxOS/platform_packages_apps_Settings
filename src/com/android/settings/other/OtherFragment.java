@@ -66,6 +66,8 @@ public class OtherFragment extends RestrictedDashboardFragment
             mPreferenceControllers = new ArrayList<>();
             return null;
         }
+        mPreferenceControllers.add(
+                new ProtectedBugReportPreferenceController(context, getActivity(), this));
         mPreferenceControllers.add(new OemUnlockPreferenceController(context, getActivity(), this));
         return mPreferenceControllers;
     }
