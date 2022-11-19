@@ -24,6 +24,7 @@ import android.os.UserManager;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.development.BugReportPreferenceController;
 import com.android.settings.development.OnActivityResultListener;
 import com.android.settings.development.OemUnlockDialogHost;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -66,6 +67,7 @@ public class OtherFragment extends RestrictedDashboardFragment
             mPreferenceControllers = new ArrayList<>();
             return null;
         }
+        mPreferenceControllers.add(new BugReportPreferenceController(context));
         mPreferenceControllers.add(new OemUnlockPreferenceController(context, getActivity(), this));
         return mPreferenceControllers;
     }
