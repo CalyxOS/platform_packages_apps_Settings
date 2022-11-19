@@ -63,6 +63,8 @@ public class OtherFragment extends DashboardFragment
             return null;
         }
         mPreferenceControllers.add(new OemUnlockPreferenceController(context, getActivity(), this));
+        mPreferenceControllers.add(
+                new ProtectedBugReportPreferenceController(context, getActivity(), this));
         return mPreferenceControllers;
     }
 
