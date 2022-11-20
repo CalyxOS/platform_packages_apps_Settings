@@ -63,4 +63,6 @@
     <string name="filter_hidden_apps">Скрытые приложения</string>
     <string name="hide_app">Скрыть приложение</string>
     <string name="unhide_app">Показать приложение</string>
+    <string name="captive_portal_title">Проверка подключения</string>
+    <string name="hide_app_desc">Если вы скроете это приложение, оно не будет видно Android и другим приложениям, и они могут перестать работать правильно. Помните, что скрытие приложения сохраняет его данные. Скрывая, вы отключаете это приложение и прячете его на своем устройстве.</string>
 </resources>
