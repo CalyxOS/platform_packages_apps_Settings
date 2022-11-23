@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de35d5af_ad3d6d1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-11-23T20:09:40Z",
+      "side": 1,
+      "message": "This was only ever a quick-and-dirty way to be able to change settings via the Settings app from within another profile. Ultimately, I think it would be better to allow such settings to be changed from within the Bellis Work Profile app rather than modify the framework; it should be possible to implement such capabilities within the profile owner app.",
+      "revId": "3b360112342ca70f307b36707dfbb139bf0eb5d3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
