@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "763008a4_a2ee23d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-25T22:09:29Z",
+      "side": 1,
+      "message": "This isn\u0027t working as expected.\n\nWi-Fi MAC doesn\u0027t randomize on every connection, at least on cheetah.\n\nTest: connect to a network, note down mac. turn off wifi, turn it back on, same mac. ",
+      "revId": "d2c517726492f62805495622f09d5b29024fec5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
