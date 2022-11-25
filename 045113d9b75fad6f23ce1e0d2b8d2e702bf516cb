@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "677779bc_df3e160c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-25T21:02:51Z",
+      "side": 1,
+      "message": "Toggle was on by default (yet I had no sensors tile)\n\nToggling off and on fixed it, but we should fix the default.",
+      "revId": "045113d9b75fad6f23ce1e0d2b8d2e702bf516cb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
