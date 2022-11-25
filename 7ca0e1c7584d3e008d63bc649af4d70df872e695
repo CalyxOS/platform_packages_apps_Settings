@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95ceaf22_eb1bb7d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-25T17:07:02Z",
+      "side": 1,
+      "message": "Let\u0027s re-visit this after next month\u0027s update.\n\nDecember is qpr1 which is the first quarterly release, aka big update.\n\nIf that has major changes that cause conflicts here, no point in fixing them twice.\n\nIf it doesn\u0027t, then we just rebase then and re-check.\n\n\nOn the 7 Face unlock sadly still isn\u0027t working but there definitely are some other ROMs with some ways to make it work, that we can at least try to test this out fully.",
+      "revId": "7ca0e1c7584d3e008d63bc649af4d70df872e695",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
