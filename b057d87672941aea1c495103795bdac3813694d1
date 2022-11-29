@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3835d79f_ff389533",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-29T18:12:11Z",
+      "side": 1,
+      "message": "The concern here is that bug reports may contain sensitive info, and now it\u0027s just a button away.\n\nDeveloper options required pin confirmation. OEM unlocking requires it\u0027s own additional pin confirmation, maybe we can duplicate that here?\n\nEither way it\u0027s still reliant on user action, and it just takes a bugreport - the actual sharing also has to be done by the user, apps can\u0027t just access bugreports taken.",
+      "revId": "b057d87672941aea1c495103795bdac3813694d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
