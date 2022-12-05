@@ -50,6 +50,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
+import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 import com.android.settingslib.RestrictedPreference;
@@ -76,6 +77,7 @@ public class AppManagementFragment extends SettingsPreferenceFragment
     private PackageManager mPackageManager;
     private DevicePolicyManager mDevicePolicyManager;
     private VpnManager mVpnManager;
+    private AdvancedVpnFeatureProvider mFeatureProvider;
 
     // VPN app info
     private final int mUserId = UserHandle.myUserId();
@@ -128,6 +130,7 @@ public class AppManagementFragment extends SettingsPreferenceFragment
         mPackageManager = getContext().getPackageManager();
         mDevicePolicyManager = getContext().getSystemService(DevicePolicyManager.class);
         mVpnManager = getContext().getSystemService(VpnManager.class);
+        mFeatureProvider = FeatureFactory.getFactory(getContext()).getAdvancedVpnFeatureProvider();
 
         mPreferenceGlobal = (SwitchPreference) findPreference(KEY_GLOBAL_VPN);
         mPreferenceAlwaysOn = (RestrictedSwitchPreference) findPreference(KEY_ALWAYS_ON_VPN);
@@ -313,7 +316,16 @@ public class AppManagementFragment extends SettingsPreferenceFragment
         }
     }
 
-    private void updateRestrictedViews() {
+    @VisibleForTesting
+    void updateRestrictedViews() {
+        if (mFeatureProvider.isAdvancedVpnSupported(getContext())
+                && !mFeatureProvider.isAdvancedVpnRemovable()
+                && TextUtils.equals(mPackageName, mFeatureProvider.getAdvancedVpnPackageName())) {
+            mPreferenceForget.setVisible(false);
+        } else {
+            mPreferenceForget.setVisible(true);
+        }
+
         if (isAdded()) {
             mPreferenceAlwaysOn.checkRestrictionAndSetDisabled(UserManager.DISALLOW_CONFIG_VPN,
                     mUserId);
@@ -342,6 +354,14 @@ public class AppManagementFragment extends SettingsPreferenceFragment
                 mPreferenceAlwaysOn.setSummary(R.string.vpn_always_on_summary_not_supported);
             }
         }
+    }
+
+    @VisibleForTesting
+    void init(String packageName, AdvancedVpnFeatureProvider featureProvider,
+            RestrictedPreference preference) {
+        mPackageName = packageName;
+        mFeatureProvider = featureProvider;
+        mPreferenceForget = preference;
     }
 
     private String getAlwaysOnVpnPackage() {
