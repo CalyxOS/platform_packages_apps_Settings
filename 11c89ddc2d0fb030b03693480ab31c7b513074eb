@@ -53,6 +53,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e063ced_fae85513",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-05T18:25:33Z",
+      "side": 1,
+      "message": "Oh! I completely misinterpreted this and thought AppDataUsage was some other section; didn\u0027t realize Mobile Data \u0026 Wi-Fi. I understand now. Not sure we\u0027re quite ready for this with the state of the firewall app at the moment.",
+      "parentUuid": "e0ba6421_a66da6bc",
+      "revId": "11c89ddc2d0fb030b03693480ab31c7b513074eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "58c77afe_fc037b10",
