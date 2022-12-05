@@ -34,6 +34,24 @@
       "parentUuid": "763008a4_a2ee23d0",
       "revId": "d2c517726492f62805495622f09d5b29024fec5e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb8f7541_189fc102",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-05T21:14:58Z",
+      "side": 1,
+      "message": "I meant to say, with non-persistent randomization, it will always change when reconnecting, if it hasn\u0027t changed for 24+ hours. (If you stay connected, it will not change.)\n\nI have not yet tested or reviewed this commit though.",
+      "parentUuid": "8de55ec2_86757314",
+      "revId": "d2c517726492f62805495622f09d5b29024fec5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
