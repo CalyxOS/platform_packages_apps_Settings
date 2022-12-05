@@ -16,6 +16,24 @@
       "message": "This isn\u0027t working as expected.\n\nWi-Fi MAC doesn\u0027t randomize on every connection, at least on cheetah.\n\nTest: connect to a network, note down mac. turn off wifi, turn it back on, same mac. ",
       "revId": "d2c517726492f62805495622f09d5b29024fec5e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8de55ec2_86757314",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-05T21:13:10Z",
+      "side": 1,
+      "message": "The rules for MAC address changes with non-persistent randomization are a little more involved than that. It depends on things like lease time and has certain minimums and maximums. One main certainty is that it will always change after 24+ hours, but beyond that, it can vary. https://gitlab.com/CalyxOS/calyxos/-/issues/1141#non-persistent-mac-address-randomization-behavior-for-reference",
+      "parentUuid": "763008a4_a2ee23d0",
+      "revId": "d2c517726492f62805495622f09d5b29024fec5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
