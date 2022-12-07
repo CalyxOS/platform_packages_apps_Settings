@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4247953b_22ee65c5",
+        "filename": "src/com/android/settings/wifi/WifiWakeupPreferenceController.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-07T00:17:58Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "070837a5_56b01b3d",
+      "revId": "7c5e4c41b325fb5e22ea1e7d7503c613756b2953",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b2d0133e_ac9ab814",
@@ -31,6 +49,30 @@
       "writtenOn": "2022-12-06T15:05:38Z",
       "side": 0,
       "message": "UNSUPPORTED_ON_DEVICE",
+      "range": {
+        "startLine": 102,
+        "startChar": 15,
+        "endLine": 102,
+        "endChar": 24
+      },
+      "revId": "7c5e4c41b325fb5e22ea1e7d7503c613756b2953",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "475fc0e2_fa5ab5f3",
+        "filename": "src/com/android/settings/wifi/WifiWakeupPreferenceController.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-07T00:17:58Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "b2d0133e_ac9ab814",
       "range": {
         "startLine": 102,
         "startChar": 15,
