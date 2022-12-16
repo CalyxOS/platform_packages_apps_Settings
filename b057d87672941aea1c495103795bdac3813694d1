@@ -34,6 +34,24 @@
       "parentUuid": "3835d79f_ff389533",
       "revId": "b057d87672941aea1c495103795bdac3813694d1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1020aa7_e02b3156",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-16T19:45:03Z",
+      "side": 1,
+      "message": "If we still have concerns, we could try to remove the checkbox, and make it shown always. Might get annoying though, perhaps.\n\nThe other concern is that this would let anyone with access to an unlocked device could grab it - dev options would need unlocking again to enable if disabled.\n\nLocked device -\u003e no change\nUnlocked, dev options disabled -\u003e Other options lets you take bugreport\nUnlocked, dev options enabled -\u003e no change",
+      "parentUuid": "bdf04f1f_8af02027",
+      "revId": "b057d87672941aea1c495103795bdac3813694d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
