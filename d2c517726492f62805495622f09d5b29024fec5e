@@ -70,6 +70,24 @@
       "parentUuid": "cb8f7541_189fc102",
       "revId": "d2c517726492f62805495622f09d5b29024fec5e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90fb9f50_281e789e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-16T18:54:38Z",
+      "side": 1,
+      "message": "Yep, should be the case! But what do we want to change it to? The same as the minimum (30 minutes)? 1, 2, 4 hours? Less than 30 minutes?",
+      "parentUuid": "3dc9f1e1_a2aea864",
+      "revId": "d2c517726492f62805495622f09d5b29024fec5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
