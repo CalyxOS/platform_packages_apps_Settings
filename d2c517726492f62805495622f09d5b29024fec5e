@@ -88,6 +88,24 @@
       "parentUuid": "3dc9f1e1_a2aea864",
       "revId": "d2c517726492f62805495622f09d5b29024fec5e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3fe18ba_2bcb5492",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-16T19:39:57Z",
+      "side": 1,
+      "message": "30 minutes might be a good start. We could always tweak it - this is in other options (and previously dev options).",
+      "parentUuid": "90fb9f50_281e789e",
+      "revId": "d2c517726492f62805495622f09d5b29024fec5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
