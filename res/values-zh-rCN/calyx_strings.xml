@@ -67,4 +67,6 @@
     <string name="unhide_app_desc">如果你取消隐藏此应用程序，它将再次对 Android 和其他应用可见。</string>
     <string name="captive_portal_title">连接检查</string>
     <string name="captive_portal_summary">通过联系 Google 确定设备是否可以连接到互联网。 也用于检测强制门户。</string>
+    <string name="quick_settings">快速设置</string>
+    <string name="other_settings">其他选项</string>
 </resources>
