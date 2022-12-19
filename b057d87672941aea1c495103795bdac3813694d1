@@ -52,6 +52,24 @@
       "parentUuid": "bdf04f1f_8af02027",
       "revId": "b057d87672941aea1c495103795bdac3813694d1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa13ffc0_b38b6348",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-19T12:05:12Z",
+      "side": 1,
+      "message": "One thing that I forgot is that garlic level safest disallows dev options.",
+      "parentUuid": "d1020aa7_e02b3156",
+      "revId": "b057d87672941aea1c495103795bdac3813694d1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
