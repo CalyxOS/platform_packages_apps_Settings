@@ -16,6 +16,23 @@
       "message": "Happy with this.",
       "revId": "0aa280c09a0f8163d642570cdc6b5000a8c2b522",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22f32a1c_99ddb825",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-19T19:19:28Z",
+      "side": 1,
+      "message": "Test: With Developer Options on, straight to bug report dialog. With no credential configured, straight to bug report dialog. Otherwise, auth prompt first, which must succeed. Backing out of the auth prompt does not show the bug report dialog. (Seems silly but is important lol)",
+      "revId": "0aa280c09a0f8163d642570cdc6b5000a8c2b522",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
