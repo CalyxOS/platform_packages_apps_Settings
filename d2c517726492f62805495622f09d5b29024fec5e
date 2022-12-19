@@ -106,6 +106,24 @@
       "parentUuid": "90fb9f50_281e789e",
       "revId": "d2c517726492f62805495622f09d5b29024fec5e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16384ae4_31e41e4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-19T19:13:22Z",
+      "side": 1,
+      "message": "15031: Reduce refresh time for non-persistent MACs | https://review.calyxos.org/c/CalyxOS/platform_packages_modules_Wifi/+/15031",
+      "parentUuid": "c3fe18ba_2bcb5492",
+      "revId": "d2c517726492f62805495622f09d5b29024fec5e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
