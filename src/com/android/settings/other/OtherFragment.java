@@ -65,6 +65,7 @@ public class OtherFragment extends DashboardFragment
         mPreferenceControllers.add(new OemUnlockPreferenceController(context, getActivity(), this));
         mPreferenceControllers.add(
                 new ProtectedBugReportPreferenceController(context, getActivity(), this));
+        mPreferenceControllers.add(new KeychordsPreferenceController(context, getActivity(), this));
         return mPreferenceControllers;
     }
 
