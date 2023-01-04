@@ -30,6 +30,12 @@
             android:summary="@string/oem_unlock_enable_summary"
             settings:useAdditionalSummary="true" />
 
+        <SwitchPreference
+            android:key="keychords"
+            android:title="@string/keychords_title"
+            android:summary="@string/keychords_summary"
+            settings:controller="com.android.settings.other.KeychordsPreferenceController" />
+
         <com.android.settings.other.ProtectedBugreportPreference
             android:key="bugreport"
             android:title="@*android:string/bugreport_title"
