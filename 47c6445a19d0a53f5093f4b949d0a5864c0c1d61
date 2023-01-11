@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ff667c5_702658ec",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-11T12:17:58Z",
+      "side": 1,
+      "message": "How about Bug report keycombo (or some word that describes holding multiple keys)",
+      "revId": "47c6445a19d0a53f5093f4b949d0a5864c0c1d61",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
