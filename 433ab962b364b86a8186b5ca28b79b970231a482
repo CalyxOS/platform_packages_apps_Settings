@@ -16,6 +16,24 @@
       "message": "The Files app hides the Bug Reports section entirely when Developer Options is not on. I don\u0027t know how I missed this until now. But that means this doesn\u0027t accomplish our goal.\n\nAnyway, this change itself is okay; we just need more. -1 to call attention to that.",
       "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf7f26ce_e95b8b5a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-11T21:01:24Z",
+      "side": 1,
+      "message": "Given we have Bug report in other options now, could we just enable it always?\n\nBut then that comes back to the whole argument about guarding access to bug reports 😭",
+      "parentUuid": "e1e9bd6e_0aeea129",
+      "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
