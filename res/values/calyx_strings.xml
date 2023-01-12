@@ -136,4 +136,8 @@
     <string name="keychords_title">Bug report button combination</string>
     <string name="keychords_summary">Capture a bug report by holding Volume Up, Volume Down, and Power at the same time, even when the device is locked</string>
     <string name="keychords_summary_adb_enabled">Always enabled when debugging is on</string>
+
+    <!-- View bug reports -->
+    <string name="view_bugreports_title">View bug reports</string>
+    <string name="view_bugreports_summary_not_developer">Once viewed, bug reports will remain accessible until you restart the device</string>
 </resources>
