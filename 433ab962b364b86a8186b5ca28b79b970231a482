@@ -92,6 +92,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4279e01a_ddceda3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-12T12:34:28Z",
+      "side": 1,
+      "message": "Right, you did mention that in your comment. Then Perhaps a \"View bug reports\" makes sense then.\n\nWho thought it\u0027d be this complicated 😞",
+      "parentUuid": "7793bffe_6140341f",
+      "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "91bae1cd_9757ef32",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 4
