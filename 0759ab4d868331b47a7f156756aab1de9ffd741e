@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60be5601_7f387617",
+        "filename": "src/com/android/settings/other/ViewBugreportsPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-12T14:59:01Z",
+      "side": 1,
+      "message": "I can\u0027t think of a good way for this atm.",
+      "revId": "0759ab4d868331b47a7f156756aab1de9ffd741e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
