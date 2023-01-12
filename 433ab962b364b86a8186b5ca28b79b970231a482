@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "28fb8460_d4e25588",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-12T12:26:41Z",
+      "side": 1,
+      "message": "Well, I have a couple of thoughts on this.\n\nWe are guarding access to *take* bug reports, so the user is already consenting to that. But it would still be nice to guard access to viewing them in this case as well.\n\nI think we can fairly easily add a \"View bug reports\" preference to Other Options that is guarded. It could enable the Bug Reports component [as is done here](https://cs.android.com/search?q\u003dcom.android.server.am.ContentProviderHelper.DevelopmentSettingsObserver.onChange) and open up DocumentsUI to the Bug Reports section. That section would remain available until a reboot (or until Developer Options was toggled on and off)... but since we\u0027re already guarding access to *take* the bug reports, this might be fine enough? Not sure what you think.\n\nAnother option: we could modify the observer linked above to take the keychord sysprop into account. There is a SystemProperties observer, too. But that seems like kind of a pain and arguably less secure.",
+      "parentUuid": "cf7f26ce_e95b8b5a",
+      "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "328a0709_a400a052",
         "filename": "src/com/android/settings/other/KeychordsPreferenceController.java",
         "patchSetId": 4
