@@ -16,6 +16,24 @@
       "message": "*all bug reports",
       "revId": "a87cc4276ee48b054a05eb45b93526a2860e07fe",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7413884f_0151e0e0",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-12T14:30:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cad26819_d314f6ac",
+      "revId": "a87cc4276ee48b054a05eb45b93526a2860e07fe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
