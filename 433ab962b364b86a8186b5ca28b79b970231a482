@@ -34,6 +34,23 @@
       "parentUuid": "e1e9bd6e_0aeea129",
       "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "328a0709_a400a052",
+        "filename": "src/com/android/settings/other/KeychordsPreferenceController.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-12T11:32:10Z",
+      "side": 1,
+      "message": "Not used, remove",
+      "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
