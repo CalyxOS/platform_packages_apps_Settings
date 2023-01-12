@@ -42,6 +42,11 @@
             android:summary="@string/bugreport_summary"
             android:dialogTitle="@*android:string/bugreport_title" />
 
+        <Preference
+            android:key="view_bugreports"
+            android:title="@string/view_bugreports_title"
+            settings:controller="com.android.settings.other.ViewBugreportsPreferenceController" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
