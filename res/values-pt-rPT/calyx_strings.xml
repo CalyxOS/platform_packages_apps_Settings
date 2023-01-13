@@ -27,7 +27,7 @@
     <string name="data_usage_app_restrict_background_all">Acesso a rede em segundo plano</string>
     <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
     <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
-    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, Tor e a maior parte das VPNs não funcionarão</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, aplicativos que usam tráfego de texto simples podem não funcionar</string>
     <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
     <string name="aosp_module_version">Atualização do módulo principal</string>
     <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as configurações rápidas no ecrã de bloqueio seguro</string>
@@ -38,7 +38,23 @@
     <string name="timeout_summary_36hours">36 horas</string>
     <string name="timeout_summary_24hours">24 horas</string>
     <string name="timeout_summary_12hours">12 horas</string>
-    <string name="device_reboot_timeout_summary2">O aparelho não será reinicializado automaticamente</string>
-    <string name="device_reboot_timeout_summary">O aparelho será automaticamente reinicializado se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">O aparelho não irá reiniciar automaticamente</string>
+    <string name="device_reboot_timeout_summary">O aparelho será reiniciado automaticamente se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_title">Reinicialização automática</string>
+    <string name="global_vpn_summary_any_vpn_active">Você precisa primeiro desativar todas as conexões VPN para ativar essa</string>
+    <string name="cross_profile_sharing_title">Compartilhamento entre perfis</string>
+    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nFornecedor: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="airplane_mode_radios_title">Antenas do modo avião</string>
+    <string name="airplane_mode_radios_category_title">O Modo Avião vai modificar as antenas selecionadas</string>
+    <string name="global_vpn_title">VPN Global</string>
+    <string name="global_vpn_summary">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores.</string>
+    <string name="global_vpn_summary_on">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores. Nota: Quando ativado, não poderá utilizar uma VPN separada num perfil de trabalho ou outros utilizadores</string>
+    <string name="hide">Ocultar</string>
+    <string name="unhide">Mostrar</string>
+    <string name="filter_hidden_apps">Apps ocultas</string>
+    <string name="hide_app">Ocultar apps</string>
+    <string name="cross_profile_sharing_summary">Permitir que botões de compartilhamento dentro de aplicativos funcionem entre seu perfil pessoal e de trabalho</string>
 </resources>
