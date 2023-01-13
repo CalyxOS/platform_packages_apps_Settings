@@ -67,4 +67,6 @@
     <string name="hide_app">Ocultar la aplicación</string>
     <string name="captive_portal_title">Comprobación de la conexión</string>
     <string name="captive_portal_summary">Determina si el dispositivo puede conectarse a Internet, contactando con Google. También se utiliza para detectar portales cautivos.</string>
+    <string name="other_settings">Otras opciones</string>
+    <string name="quick_settings">Ajustes rápidos</string>
 </resources>

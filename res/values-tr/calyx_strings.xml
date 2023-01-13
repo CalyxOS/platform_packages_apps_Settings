@@ -67,4 +67,6 @@
     <string name="unhide_app_desc">Bu uygulamanın gizlenmesini kaldırırsanız, Android ve diğer uygulamalar tarafından tekrar görünür hale gelecektir.</string>
     <string name="captive_portal_title">Bağlantı denetimi</string>
     <string name="captive_portal_summary">Google ile iletişime geçerek aygıtın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca giriş portallarını tespit etmek için de kullanılır.</string>
+    <string name="other_settings">Diğer seçenekler</string>
+    <string name="quick_settings">Hızlı Ayarlar</string>
 </resources>

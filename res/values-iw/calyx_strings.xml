@@ -67,4 +67,6 @@
     <string name="hide_app_desc">הסתרת היישומון הזה לא תחשוף אותו בפני Android ושר היישומונים, ופעילותם עלולה להיפגע. נא לשים לב שהסתרת יישומון משמרת את הנתונים שלו. ההסתרה מכבה את היישומון ומסתירה אותו במכשיר שלך.</string>
     <string name="captive_portal_title">בדיקת חיבוריות</string>
     <string name="captive_portal_summary">איתור מצב החיבור לאינטרנט על ידי יצירת קשר עם Google. משמש גם לאיתור שערי לכידה.</string>
+    <string name="other_settings">אפשרויות אחרות</string>
+    <string name="quick_settings">הגדרות מהירות</string>
 </resources>
