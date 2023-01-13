@@ -55,4 +55,18 @@
     <string name="device_reboot_timeout_summary">Questo dispositivo si riavvierà automaticamente se non è stato sbloccato entro <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="cross_profile_sharing_title">Condivisione tra i profili</string>
     <string name="unhide">Mostra</string>
+    <string name="captive_portal_summary">Determina se il dispositivo può connettersi a internet, contattando Google. Utilizzato anche per rilevare i portali captive.</string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobili, Wi-Fi, hotspot, VPN, DNS Privato</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, hotspot, VPN, DNS Privato</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, accoppiamento, NFC</string>
+    <string name="security_dashboard_summary_calyx">Blocco schermo, impostazioni di panico, restrizioni USB, sicurezza app</string>
+    <string name="system_dashboard_summary_calyx">Lingue, gesti, ora, backup, utenti, profilo di lavoro</string>
+    <string name="other_settings">Altre opzioni</string>
+    <string name="quick_settings">Impostazioni rapide</string>
+    <string name="captive_portal_title">Controllo della connettività</string>
+    <string name="filter_hidden_apps">App nascoste</string>
+    <string name="hide_app">Nascondi app</string>
+    <string name="unhide_app">Mostra app</string>
+    <string name="unhide_app_desc">Se mostri questa app, sarà visibile di nuovo ad Android e a tutte le altre applicazioni.</string>
+    <string name="hide_app_desc">Se si nasconde questa applicazione, non sarà visibile ad Android e altre applicazioni, e potrebbero non funzionare più come previsto. Tieni a mente che nascondere un\'app conserva i suoi dati. Nascondendola, la spegni e la nascondi sul tuo dispositivo.</string>
 </resources>
