@@ -67,4 +67,6 @@
     <string name="filter_hidden_apps">Versteckte Apps</string>
     <string name="captive_portal_summary">Feststellen, ob das Gerät eine Verbindung zum Internet herstellen kann, indem es Google kontaktiert. Wird auch verwendet, um Captive-Portale zu erkennen.</string>
     <string name="captive_portal_title">Verbindungsprüfung</string>
+    <string name="other_settings">Weitere Optionen</string>
+    <string name="quick_settings">Schnelleinstellungen</string>
 </resources>
