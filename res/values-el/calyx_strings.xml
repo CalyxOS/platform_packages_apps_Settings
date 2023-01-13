@@ -67,4 +67,6 @@
     <string name="filter_hidden_apps">Κρυφές εφαρμογές</string>
     <string name="captive_portal_title">Έλεγχος συνδεσιμότητας</string>
     <string name="captive_portal_summary">Προσδιορίστε εάν η συσκευή μπορεί να συνδεθεί στο διαδίκτυο, επικοινωνώντας με την Google. Χρησιμοποιείται επίσης για τον εντοπισμό captive portal.</string>
+    <string name="other_settings">Άλλες επιλογές</string>
+    <string name="quick_settings">Γρήγορες ρυθμίσεις</string>
 </resources>
