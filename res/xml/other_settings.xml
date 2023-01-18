@@ -79,4 +79,9 @@
 
     </PreferenceCategory>
 
+    <!-- Keep empty category at the bottom for injected settings -->
+    <PreferenceCategory
+        android:title="@string/power_unaccounted"> <!-- Miscellaneous -->
+    </PreferenceCategory>
+
 </PreferenceScreen>
