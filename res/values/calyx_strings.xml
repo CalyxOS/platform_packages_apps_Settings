@@ -118,6 +118,7 @@
     <string name="captive_portal_summary">Determine if the device can connect to the internet, by contacting Google. Also used to detect captive portals.</string>
 
     <!-- Other Fragment -->
+    <string name="miscellaneous_settings">Miscellaneous</string>
     <string name="other_settings">Other options</string>
     <string name="quick_settings">Quick Settings</string>
 
