@@ -16,6 +16,23 @@
       "message": "Move to general category after merging OEM unlocking/other-options topic merged",
       "revId": "5562b5944d0f83269e24522d718acb54ff12509c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a9073d6_d26385fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-01-18T16:21:13Z",
+      "side": 1,
+      "message": "I wonder if that\u0027s possible :/",
+      "revId": "5562b5944d0f83269e24522d718acb54ff12509c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
