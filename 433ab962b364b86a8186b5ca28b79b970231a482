@@ -108,6 +108,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9b52195_9d839477",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-18T19:41:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4279e01a_ddceda3f",
+      "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "91bae1cd_9757ef32",
@@ -125,6 +143,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "67786bb9_7e9dce6e",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-18T19:41:09Z",
+      "side": 1,
+      "message": "\"View bug reports\" right below is self explanatory.",
+      "parentUuid": "91bae1cd_9757ef32",
+      "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "328a0709_a400a052",
@@ -138,6 +174,24 @@
       "writtenOn": "2023-01-12T11:32:10Z",
       "side": 1,
       "message": "Not used, remove",
+      "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2126670a_48353e58",
+        "filename": "src/com/android/settings/other/KeychordsPreferenceController.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-18T19:41:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "328a0709_a400a052",
       "revId": "433ab962b364b86a8186b5ca28b79b970231a482",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
