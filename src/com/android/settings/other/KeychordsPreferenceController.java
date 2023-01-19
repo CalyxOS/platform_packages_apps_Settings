@@ -25,7 +25,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
-import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.dashboard.DashboardFragment;
 
 public class KeychordsPreferenceController extends ProtectedPreferenceController {
 
@@ -37,7 +37,7 @@ public class KeychordsPreferenceController extends ProtectedPreferenceController
     private static final String ADB_ENABLED_VALUE = "running";
 
     public KeychordsPreferenceController(Context context, Activity activity,
-            RestrictedDashboardFragment fragment) {
+            DashboardFragment fragment) {
         super(context, activity, fragment, false /* handleClicks */);
     }
 
