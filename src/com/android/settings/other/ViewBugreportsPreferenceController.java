@@ -29,7 +29,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
-import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.dashboard.DashboardFragment;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 
 public class ViewBugreportsPreferenceController extends ProtectedPreferenceController {
@@ -48,7 +48,7 @@ public class ViewBugreportsPreferenceController extends ProtectedPreferenceContr
     private boolean mMustEnableStorageProvider;
 
     public ViewBugreportsPreferenceController(Context context, Activity activity,
-            RestrictedDashboardFragment fragment) {
+            DashboardFragment fragment) {
         super(context, activity, fragment, true /* handleClicks */);
     }
 
