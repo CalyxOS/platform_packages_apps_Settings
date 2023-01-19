@@ -16,6 +16,24 @@
       "message": "Something I am not sure about is whether the OEM unlocking option itself, a RestrictedSwitchPreference, is usable with garlic-level Safest. I can\u0027t easily test it on userdebug builds with bootloader unlocked.",
       "revId": "e53235c1427acb7185fce9019c7887a8311083b4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "176da76f_54109799",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-19T20:25:57Z",
+      "side": 1,
+      "message": "This is working fine on a signed -user build (with If09b5bd4) with Safest. Can enable, reboot, disable, reboot, no hiccups, despite being RestrictedSwitchPreference instead of SwitchPreference. Confirmed that `fastboot flashing unlock` works, or doesn\u0027t work, depending on the setting.\n\nReminder that you do not need to enter a PIN to turn OEM unlocking off, just as is the case in Developer Options. (This is fine/expected)",
+      "parentUuid": "62d3988d_2d15c752",
+      "revId": "e53235c1427acb7185fce9019c7887a8311083b4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
