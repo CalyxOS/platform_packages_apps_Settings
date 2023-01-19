@@ -27,7 +27,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.development.OnActivityResultListener;
 import com.android.settings.password.ChooseLockSettingsHelper;
 
@@ -83,13 +83,13 @@ public abstract class ProtectedPreferenceController extends OtherOptionsPreferen
     private ArrayMap<Integer, Request> mPendingRequests = new ArrayMap<>();
 
     private final Activity mActivity;
-    private final RestrictedDashboardFragment mFragment;
+    private final DashboardFragment mFragment;
 
     protected Preference mPreference;
     protected boolean mHandleClicks;
 
     public ProtectedPreferenceController(Context context, Activity activity,
-            RestrictedDashboardFragment fragment, boolean handleClicks) {
+            DashboardFragment fragment, boolean handleClicks) {
         super(context);
 
         mActivity = activity;
