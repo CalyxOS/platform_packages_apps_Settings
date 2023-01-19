@@ -16,6 +16,24 @@
       "message": "This adds a gap at the bottom. I couldn\u0027t think of an name to use as a title. It also wouldn\u0027t be alphabetical.",
       "revId": "9cfdfbe052011aeeac8e36029eb041a35f681ddb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "919a9d92_a9952668",
+        "filename": "res/xml/other_settings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-01-19T05:49:49Z",
+      "side": 1,
+      "message": "How about \"Miscellaneous\"?",
+      "parentUuid": "88bc5ecf_03c63e00",
+      "revId": "9cfdfbe052011aeeac8e36029eb041a35f681ddb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
