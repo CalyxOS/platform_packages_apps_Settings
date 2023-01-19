@@ -37,7 +37,7 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.development.OnActivityResultListener;
 import com.android.settings.development.EnableOemUnlockSettingWarningDialog;
 import com.android.settings.development.OemLockInfoDialog;
@@ -57,11 +57,11 @@ public class OemUnlockPreferenceController extends OtherOptionsPreferenceControl
     private final UserManager mUserManager;
     private final TelephonyManager mTelephonyManager;
     private final Activity mActivity;
-    private final RestrictedDashboardFragment mFragment;
+    private final DashboardFragment mFragment;
     private RestrictedSwitchPreference mPreference;
 
     public OemUnlockPreferenceController(Context context, Activity activity,
-            RestrictedDashboardFragment fragment) {
+            DashboardFragment fragment) {
         super(context);
 
         if (!TextUtils.equals(SystemProperties.get(OEM_UNLOCK_SUPPORTED_KEY, UNSUPPORTED),
