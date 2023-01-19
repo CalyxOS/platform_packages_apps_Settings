@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62d3988d_2d15c752",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-01-19T17:51:31Z",
+      "side": 1,
+      "message": "Something I am not sure about is whether the OEM unlocking option itself, a RestrictedSwitchPreference, is usable with garlic-level Safest. I can\u0027t easily test it on userdebug builds with bootloader unlocked.",
+      "revId": "e53235c1427acb7185fce9019c7887a8311083b4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
