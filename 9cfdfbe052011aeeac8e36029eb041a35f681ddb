@@ -34,6 +34,24 @@
       "parentUuid": "88bc5ecf_03c63e00",
       "revId": "9cfdfbe052011aeeac8e36029eb041a35f681ddb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb10e0d7_21a0fb48",
+        "filename": "res/xml/other_settings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-19T13:12:53Z",
+      "side": 1,
+      "message": "I did think of that, but then it wouldn\u0027t be alphabetical.\n\nI guess that\u0027s fine, still better than no header, or a blank space.",
+      "parentUuid": "919a9d92_a9952668",
+      "revId": "9cfdfbe052011aeeac8e36029eb041a35f681ddb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
