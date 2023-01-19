@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bf081ab_acd5e57b",
+        "filename": "src/com/android/settings/other/OtherFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-19T22:39:46Z",
+      "side": 0,
+      "message": "What I wonder is should just changing this not have been enough?",
+      "revId": "8aa9939065f35b67fabe4f4d6ae0ae9fcf08e1b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
