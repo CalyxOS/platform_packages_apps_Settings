@@ -20,7 +20,7 @@ package com.android.settings.other;
 import android.app.Activity;
 import android.content.Context;
 
-import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.dashboard.DashboardFragment;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 
 public class ProtectedBugReportPreferenceController extends ProtectedPreferenceController {
@@ -28,7 +28,7 @@ public class ProtectedBugReportPreferenceController extends ProtectedPreferenceC
     private static final String KEY_BUGREPORT = "bugreport";
 
     public ProtectedBugReportPreferenceController(Context context, Activity activity,
-            RestrictedDashboardFragment fragment) {
+            DashboardFragment fragment) {
         super(context, activity, fragment, true /* handleClicks */);
     }
 
