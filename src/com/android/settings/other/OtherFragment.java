@@ -23,7 +23,7 @@ import android.os.UserManager;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
-import com.android.settings.dashboard.RestrictedDashboardFragment;
+import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.development.OnActivityResultListener;
 import com.android.settings.development.OemUnlockDialogHost;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -35,15 +35,11 @@ import java.util.List;
  * Fragment that shows several toggle controls moved outside from
  * development settings
  */
-public class OtherFragment extends RestrictedDashboardFragment
+public class OtherFragment extends DashboardFragment
         implements OemUnlockDialogHost {
 
     private static final String TAG = "OtherFrag";
     private List<AbstractPreferenceController> mPreferenceControllers = new ArrayList<>();
-
-    public OtherFragment() {
-        super(UserManager.DISALLOW_DEBUGGING_FEATURES);
-    }
 
     @Override
     public int getMetricsCategory() {
