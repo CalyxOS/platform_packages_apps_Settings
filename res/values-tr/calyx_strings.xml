@@ -69,4 +69,10 @@
     <string name="captive_portal_summary">Google ile iletişime geçerek aygıtın internete bağlanıp bağlanamayacağını belirleyin. Ayrıca giriş portallarını tespit etmek için de kullanılır.</string>
     <string name="other_settings">Diğer seçenekler</string>
     <string name="quick_settings">Hızlı Ayarlar</string>
+    <string name="keychords_summary">Aygıt kilitli olsa bile Sesi Açma, Sesi Kısma ve Güç düğmelerine aynı anda basılı tutarak bir hata raporu alın</string>
+    <string name="view_bugreports_title">Hata raporlarını görüntüle</string>
+    <string name="bugreport_summary">Şimdi bir hata raporu alın</string>
+    <string name="keychords_title">Hata raporu düğmesi kombinasyonu</string>
+    <string name="keychords_summary_adb_enabled">Hata ayıklama açıkken her zaman etkin</string>
+    <string name="view_bugreports_summary_not_developer">Görüntülendikten sonra, tüm hata raporları siz aygıtı yeniden başlatana kadar erişilebilir kalacaktır</string>
 </resources>
