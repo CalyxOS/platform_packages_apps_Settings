@@ -88,6 +88,24 @@
       "parentUuid": "d711fc44_77a946e3",
       "revId": "8aa9939065f35b67fabe4f4d6ae0ae9fcf08e1b9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcc31a53_1d769b01",
+        "filename": "src/com/android/settings/other/OtherFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-15T18:45:55Z",
+      "side": 0,
+      "message": "We could change it back at that point, though.",
+      "parentUuid": "feb0f6c6_519c00ab",
+      "revId": "8aa9939065f35b67fabe4f4d6ae0ae9fcf08e1b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
