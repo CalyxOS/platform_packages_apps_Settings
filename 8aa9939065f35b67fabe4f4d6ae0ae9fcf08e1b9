@@ -34,6 +34,24 @@
       "parentUuid": "2bf081ab_acd5e57b",
       "revId": "8aa9939065f35b67fabe4f4d6ae0ae9fcf08e1b9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05192490_d5d03965",
+        "filename": "src/com/android/settings/other/OtherFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-02-15T18:07:56Z",
+      "side": 0,
+      "message": "Looked at this with Oliver. I can give this a try with `null` and if it works, we can skip the other fixups.",
+      "parentUuid": "c15961ff_9f027f57",
+      "revId": "8aa9939065f35b67fabe4f4d6ae0ae9fcf08e1b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
