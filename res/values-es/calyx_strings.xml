@@ -69,4 +69,10 @@
     <string name="captive_portal_summary">Determina si el dispositivo puede conectarse a Internet, contactando con Google. También se utiliza para detectar portales cautivos.</string>
     <string name="other_settings">Otras opciones</string>
     <string name="quick_settings">Ajustes rápidos</string>
+    <string name="bugreport_summary">Tome un informe de error ahora</string>
+    <string name="keychords_title">Combinación de los botones del informe de errores</string>
+    <string name="keychords_summary_adb_enabled">Siempre activado cuando la depuración está activada</string>
+    <string name="view_bugreports_title">Ver los informes de errores</string>
+    <string name="view_bugreports_summary_not_developer">Una vez visualizados, todos los informes de errores permanecerán accesibles hasta que reinicies el dispositivo</string>
+    <string name="keychords_summary">Captura un informe de error manteniendo pulsados los botones: Subir volumen, Bajar volumen y Encendido al mismo tiempo, incluso cuando el dispositivo está bloqueado</string>
 </resources>
