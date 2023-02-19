@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4292687a_b5690807",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-02-19T16:30:38Z",
+      "side": 1,
+      "message": "https://cs.android.com/android/platform/superproject/+/android-13.0.0_r30:frameworks/base/services/core/java/com/android/server/location/gnss/GnssLocationProvider.java;l\u003d1104-1107\n\nhttps://cs.android.com/android/platform/superproject/+/android-13.0.0_r30:frameworks/base/services/core/java/com/android/server/location/gnss/GnssLocationProvider.java;l\u003d759-773",
+      "revId": "b3bb27d89503019f6f6ba4e98eaafd4868cca2fa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
