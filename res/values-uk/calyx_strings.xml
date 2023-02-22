@@ -77,4 +77,10 @@
     <string name="hide_app_desc">Якщо приховати цей застосунок, вона не буде видимою для Android та інших застосунків, і вони можуть більше не працювати за призначенням. Пам\'ятайте, що приховування застосунку зберігає його дані. Приховавши, ви вимикаєте цей застосунок та приховуєте його на своєму пристрої.</string>
     <string name="other_settings">Інші параметри</string>
     <string name="quick_settings">Швидке налаштування</string>
+    <string name="bugreport_summary">Зробити звіт про помилку зараз</string>
+    <string name="view_bugreports_summary_not_developer">Після перегляду всі звіти про помилки залишатимуться доступними, доки ви не перезавантажите пристрій</string>
+    <string name="keychords_title">Комбінація кнопок повідомлення про помилку</string>
+    <string name="keychords_summary">Зробити звіт про помилку, утримуючи одночасно кнопки збільшення гучності, зменшення гучності та живлення, навіть якщо пристрій заблоковано</string>
+    <string name="keychords_summary_adb_enabled">Завжди увімкнено, коли ввімкнено налагодження</string>
+    <string name="view_bugreports_title">Перегляд звітів про помилки</string>
 </resources>
