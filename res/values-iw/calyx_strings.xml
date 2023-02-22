@@ -69,4 +69,10 @@
     <string name="captive_portal_summary">איתור מצב החיבור לאינטרנט על ידי יצירת קשר עם Google. משמש גם לאיתור שערי לכידה.</string>
     <string name="other_settings">אפשרויות אחרות</string>
     <string name="quick_settings">הגדרות מהירות</string>
+    <string name="keychords_title">צירוף כפתורים לדיווח תקלות</string>
+    <string name="view_bugreports_title">הצגת דיווחי תקלות</string>
+    <string name="bugreport_summary">דיווח על תקלה כעת</string>
+    <string name="keychords_summary">אפשר ללכוד דיווח על תקלה על ידי החזרת כפתור עצמת שמע למעלה, כפתור עצמת שמע למטה והכיבוי ביחד, אפילו כשהמכשיר נעול</string>
+    <string name="keychords_summary_adb_enabled">תמיד פעיל כשניפוי שגיאות פעיל</string>
+    <string name="view_bugreports_summary_not_developer">לאחר שהוצגו, כל דיווחי התקלות יישארו זמינים עד להפעלת המכשיר מחדש</string>
 </resources>
