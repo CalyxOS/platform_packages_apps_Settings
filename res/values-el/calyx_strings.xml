@@ -69,4 +69,10 @@
     <string name="captive_portal_summary">Προσδιορίστε εάν η συσκευή μπορεί να συνδεθεί στο διαδίκτυο, επικοινωνώντας με την Google. Χρησιμοποιείται επίσης για τον εντοπισμό captive portal.</string>
     <string name="other_settings">Άλλες επιλογές</string>
     <string name="quick_settings">Γρήγορες ρυθμίσεις</string>
+    <string name="bugreport_summary">Δημιουργία μιας αναφοράς σφαλμάτων τώρα</string>
+    <string name="keychords_title">Συνδυασμός πλήκτρων αναφοράς σφαλμάτων</string>
+    <string name="keychords_summary_adb_enabled">Πάντα ενεργοποιημένο όταν ο εντοπισμός σφαλμάτων είναι ενεργοποιημένος</string>
+    <string name="view_bugreports_title">Προβολή αναφορών σφαλμάτων</string>
+    <string name="view_bugreports_summary_not_developer">Μόλις προβληθούν, όλες οι αναφορές σφαλμάτων θα παραμείνουν προσβάσιμες μέχρι να επανεκκινήσετε τη συσκευή</string>
+    <string name="keychords_summary">Καταγράψτε μια αναφορά σφαλμάτων κρατώντας ταυτόχρονα πατημένα τα πλήκτρα αύξησης και μείωσης της έντασης ήχου και του πλήκτρου λειτουργίας, ακόμη και όταν η συσκευή είναι κλειδωμένη</string>
 </resources>
