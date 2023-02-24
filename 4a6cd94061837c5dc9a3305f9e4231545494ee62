@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b443372_1827944d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-24T21:45:08Z",
+      "side": 1,
+      "message": "I wonder if we should make this dependent on the location toggle (i.e. `setEnabled` based on that).",
+      "revId": "4a6cd94061837c5dc9a3305f9e4231545494ee62",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
