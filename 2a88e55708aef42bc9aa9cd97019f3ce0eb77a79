@@ -16,6 +16,24 @@
       "message": "https://gitlab.com/CalyxOS/calyxos/-/issues/1490#note_1278572140 Need to check the frameworks code.",
       "revId": "2a88e55708aef42bc9aa9cd97019f3ce0eb77a79",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e2082f6_51a5a0f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-02-24T21:34:50Z",
+      "side": 1,
+      "message": "Done: 15695: Ignore AGPS toggle during user-initiated emergency calls | https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/15695",
+      "parentUuid": "0bf84186_a31d5d1a",
+      "revId": "2a88e55708aef42bc9aa9cd97019f3ce0eb77a79",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
