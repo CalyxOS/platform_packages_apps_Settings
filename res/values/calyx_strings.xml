@@ -142,5 +142,5 @@
     <string name="view_bugreports_summary_not_developer">Once viewed, all bug reports will remain accessible until you restart the device</string>
 
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance</string>
+    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
 </resources>
