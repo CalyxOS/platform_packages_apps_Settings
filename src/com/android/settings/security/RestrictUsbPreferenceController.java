@@ -27,6 +27,7 @@ import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 
 import lineageos.providers.LineageSettings;
+import lineageos.trust.TrustInterface;
 
 public class RestrictUsbPreferenceController extends BasePreferenceController implements
         PreferenceControllerMixin, Preference.OnPreferenceChangeListener{
@@ -39,7 +40,9 @@ public class RestrictUsbPreferenceController extends BasePreferenceController im
     public int getAvailabilityStatus() {
         DevicePolicyManager policyManager = mContext.getSystemService(DevicePolicyManager.class);
         if (policyManager != null && !policyManager.canUsbDataSignalingBeDisabled()) {
-            return UNSUPPORTED_ON_DEVICE;
+            if (!TrustInterface.getInstance(mContext).hasUsbRestrictor()) {
+                return UNSUPPORTED_ON_DEVICE;
+            }
         }
         return UserManager.get(mContext).isAdminUser() ? AVAILABLE : DISABLED_FOR_USER;
     }
