@@ -55,4 +55,10 @@
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="airplane_mode_radios_category_title">O Modo Avião vai modificar as antenas selecionadas</string>
     <string name="airplane_mode_radios_title">Antenas do modo avião</string>
+    <string name="filter_hidden_apps">Apps ocultos</string>
+    <string name="hide_app">Ocultar app</string>
+    <string name="unhide_app">Revelar app</string>
+    <string name="view_bugreports_title">Ver relatórios de erro</string>
+    <string name="other_settings">Outras opções</string>
+    <string name="quick_settings">Configurações Rápidas</string>
 </resources>
