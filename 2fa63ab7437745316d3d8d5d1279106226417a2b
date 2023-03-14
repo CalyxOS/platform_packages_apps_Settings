@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "583cea3d_70f27db2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-14T18:14:36Z",
+      "side": 1,
+      "message": "This was in Settings -\u003e Security -\u003e Screen lock | (Settings gear icon)\n\nAOSP impl is in Settings -\u003e Security -\u003e Fingerprint -\u003e (confirm credentials)",
+      "revId": "2fa63ab7437745316d3d8d5d1279106226417a2b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
