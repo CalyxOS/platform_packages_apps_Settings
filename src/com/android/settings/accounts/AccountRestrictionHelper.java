@@ -49,12 +49,22 @@ public class AccountRestrictionHelper {
      */
     public void enforceRestrictionOnPreference(RestrictedPreference preference,
         String userRestriction, @UserIdInt int userId) {
+        enforceRestrictionOnPreference(preference, userRestriction, userId, userId /*profileId*/);
+    }
+
+    public void enforceRestrictionOnPreference(RestrictedPreference preference,
+        String userRestriction, @UserIdInt int userId, @UserIdInt int profileId) {
         if (preference == null) {
             return;
         }
-        if (hasBaseUserRestriction(userRestriction, userId)) {
-            if (userRestriction.equals(DISALLOW_REMOVE_MANAGED_PROFILE)
+        final boolean isRemoveProfileRestriction =
+                DISALLOW_REMOVE_MANAGED_PROFILE.equals(userRestriction);
+        if (isRemoveProfileRestriction || hasBaseUserRestriction(userRestriction, userId)) {
+            if (isRemoveProfileRestriction
+                    && userId == UserHandle.USER_SYSTEM
+                    && getManagedUserId(userId) == profileId
                     && isOrganizationOwnedDevice()) {
+                // Only the first profile of the system user is organization-owned.
                 preference.setDisabledByAdmin(getEnforcedAdmin(userRestriction, userId));
             } else {
                 preference.setEnabled(false);
