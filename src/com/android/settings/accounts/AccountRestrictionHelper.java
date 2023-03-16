@@ -49,10 +49,25 @@ public class AccountRestrictionHelper {
      */
     public void enforceRestrictionOnPreference(RestrictedPreference preference,
         String userRestriction, @UserIdInt int userId) {
+        enforceRestrictionOnPreference(preference, userRestriction, userId, userId /*profileId*/);
+    }
+
+    public void enforceRestrictionOnPreference(RestrictedPreference preference,
+        String userRestriction, @UserIdInt int userId, @UserIdInt int profileId) {
         if (preference == null) {
             return;
         }
-        if (hasBaseUserRestriction(userRestriction, userId)) {
+        final boolean bypassRemoveProfileRestriction =
+                DISALLOW_REMOVE_MANAGED_PROFILE.equals(userRestriction)
+                && userId == UserHandle.USER_SYSTEM
+                && isOrganizationOwnedDevice()
+                && getManagedUserId(userId) != profileId;
+        if (bypassRemoveProfileRestriction) {
+            // Bypass the restriction on removing profiles if this is an organization-owned device
+            // and we are not attempting to remove the first managed profile of the system user.
+            return;
+        }
+        if (!bypassRemoveProfileRestriction && hasBaseUserRestriction(userRestriction, userId)) {
             if (userRestriction.equals(DISALLOW_REMOVE_MANAGED_PROFILE)
                     && isOrganizationOwnedDevice()) {
                 preference.setDisabledByAdmin(getEnforcedAdmin(userRestriction, userId));
