@@ -35,10 +35,23 @@
     <string name="data_usage_app_restrict_background_all_summary">Włącz korzystanie z sieci w tle</string>
     <string name="timeout_summary_72hours">72 godziny</string>
     <string name="timeout_summary_48hours">48 godzin</string>
-    <string name="timeout_summary_36hours">36 godziny</string>
+    <string name="timeout_summary_36hours">36 godzin</string>
     <string name="timeout_summary_24hours">24 godziny</string>
     <string name="timeout_summary_12hours">12 godzin</string>
     <string name="device_reboot_timeout_summary2">Urządzenie nie zrestartuje się automatycznie</string>
     <string name="device_reboot_timeout_summary">Urządzenie automatycznie uruchomi się ponownie, jeśli nie zostało odblokowane w ciągu ostatniego <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="device_reboot_timeout_title">Automatyczny restart</string>
+    <string name="device_reboot_timeout_title">Automatyczne uruchomienie ponownie</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, parowanie, NFC</string>
+    <string name="bugreport_summary">Uzyskaj raport o błędach teraz</string>
+    <string name="view_bugreports_title">Zobacz raport o błędach</string>
+    <string name="other_settings">Inne opcje</string>
+    <string name="quick_settings">Szybkie ustawienia</string>
+    <string name="captive_portal_title">Sprawdzanie połączenie</string>
+    <string name="global_vpn_title">Globalny VPN</string>
+    <string name="hide">Ukryj</string>
+    <string name="unhide">Pokaż</string>
+    <string name="filter_hidden_apps">Ukryte aplikacje</string>
+    <string name="hide_app">Ukryj aplikację</string>
+    <string name="unhide_app">Pokaż aplikację</string>
+    <string name="cross_profile_sharing_title">Udostępnianie między profilami</string>
 </resources>
