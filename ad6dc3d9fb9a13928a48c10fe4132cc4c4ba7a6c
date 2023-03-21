@@ -16,6 +16,23 @@
       "message": "As it stands, when the timeout is reached it will unconditionally stop the work profile. Waiting for feedback on how to proceed with that",
       "revId": "ad6dc3d9fb9a13928a48c10fe4132cc4c4ba7a6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36df26f3_adfb27a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-21T18:42:07Z",
+      "side": 1,
+      "message": "This\u0027d be potentially easier in Bellis but then as pointed out it wouldn\u0027t support other work profiles - and for this feature in particular it\u0027d be good to support those, so let\u0027s keep it here.",
+      "revId": "ad6dc3d9fb9a13928a48c10fe4132cc4c4ba7a6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
