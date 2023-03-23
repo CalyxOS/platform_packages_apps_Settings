@@ -69,6 +69,24 @@
       "parentUuid": "4107653c_7d15089c",
       "revId": "f43f3d8176cd678d382a12fee976357f84fdbf01",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9717b678_d120874d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-23T15:42:01Z",
+      "side": 1,
+      "message": "Face unlock on 7 depends on proprietary bits, so that\u0027s put aside for now. There also hasn\u0027t been much demand for it either way. We\u0027ll see if future Pixels also have it and then decide.",
+      "parentUuid": "3f2420ef_7d83cb93",
+      "revId": "f43f3d8176cd678d382a12fee976357f84fdbf01",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
