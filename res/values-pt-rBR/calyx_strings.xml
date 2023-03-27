@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="security_restrict_usb_disabled">Sempre permitir novos dispositivos USB</string>
     <string name="security_restrict_usb_always">Negar novos dispositivos USB</string>
-    <string name="security_restrict_usb_keyguard">Permitir novos dispositivos USB quando forem desbloqueados</string>
+    <string name="security_restrict_usb_keyguard">Permitir novos dispositivos USB quando desbloqueado</string>
     <string name="security_restrict_usb_summary">Suporte de controle para dispositivos USB, como fones de ouvido, dispositivos de armazenamento e entrada (mouse, teclado, joysticks)</string>
     <string name="security_restrict_usb_title">Restringir USB</string>
     <string name="panic_settings_summary">Exibir a opção do botão liga/desliga que ativa um gatilho de pânico de emergência.</string>
@@ -55,4 +55,12 @@
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="airplane_mode_radios_category_title">O Modo Avião vai modificar as antenas selecionadas</string>
     <string name="airplane_mode_radios_title">Antenas do modo avião</string>
+    <string name="filter_hidden_apps">Apps ocultos</string>
+    <string name="hide_app">Ocultar app</string>
+    <string name="unhide_app">Revelar app</string>
+    <string name="view_bugreports_title">Ver relatórios de erro</string>
+    <string name="other_settings">Outras opções</string>
+    <string name="quick_settings">Configurações Rápidas</string>
+    <string name="system_dashboard_summary_calyx">Idiomas, gestos, horas, backup, usuários, perfil de trabalho</string>
+    <string name="keychords_summary_adb_enabled">Sempre habilitado quando depuração estiver ativa</string>
 </resources>
