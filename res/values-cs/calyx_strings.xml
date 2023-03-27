@@ -20,7 +20,7 @@
     <string name="security_restrict_usb_always">Odmítnout nové USB zařízení</string>
     <string name="security_restrict_usb_summary">Kontrolovat možnosti USB zařízení jako jsou sluchátka, paměťová a vstupní (myš, klávesnice, joystick) zařízení</string>
     <string name="security_restrict_usb_title">Omezit USB</string>
-    <string name="panic_settings_summary">Zobrazovat v nabídce napájení tlačítko, které aktivuje nouzovou proceduru pro případ paniky.</string>
+    <string name="panic_settings_summary">Zobrazovat v nabídce tlačítko napájení, které aktivuje nouzovou proceduru pro případ paniky.</string>
     <string name="panic_settings_title">Zobrazit možnosti paniky</string>
     <string name="calyxos_version">Verze CalyxOS</string>
     <string name="timeout_summary_12hours">12 hodin</string>
@@ -37,7 +37,7 @@
     <string name="global_vpn_title">Globální síť VPN</string>
     <string name="global_vpn_summary_any_vpn_active">Chcete-li tuto funkci povolit, musíte nejprve vypnout všechna aktivní připojení k VPN</string>
     <string name="global_vpn_summary_on">Vynutí, aby veškerý provoz v zařízení probíhal prostřednictvím této sítě VPN, včetně pracovního profilu a ostatních uživatelů. Upozornění: Pokud je tato funkce povolena, nebude možné používat samostatnou síť VPN v pracovním profilu ani u ostatních uživatelů</string>
-    <string name="cleartext_network_policy_summary">Zablokuje veškerou komunikaci po síti, která nebude šifrována TLS. Je potřeba mít nastavené Soukromé DNS. Pozor: Pokud jim nenastavíte výjimku, Tor a většina VPN nebude fungovat.</string>
+    <string name="cleartext_network_policy_summary">Zablokuje veškerou komunikaci po síti, která nebude šifrována TLS. Je potřeba mít nastavené Soukromé DNS. Pozor: Pokud jim nenastavíte výjimku, Tor a většina VPN nebude fungovat</string>
     <string name="device_reboot_timeout_title">Automatické restartování</string>
     <string name="device_reboot_timeout_summary">Zařízení se automaticky restartuje, pokud nebylo odemčeno během posledních <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">Zařízení se automaticky nerestartuje</string>
@@ -65,4 +65,15 @@
     <string name="system_dashboard_summary_calyx">Jazyky, gesta, čas, zálohování, uživatelé, pracovní profil</string>
     <string name="cross_profile_sharing_summary">Povolit tlačítku sdílení v aplikacích sdílení mezi osobním a pracovním profilem</string>
     <string name="aosp_module_version">Číslo aktualizace modulu Mainline</string>
+    <string name="keychords_title">Kombinace tlačítek pro hlášení chyb</string>
+    <string name="view_bugreports_title">Zobrazit hlášení chyb</string>
+    <string name="keychords_summary_adb_enabled">Vždy povoleno, když je zapnuto ladění</string>
+    <string name="bugreport_summary">Podáte hlášení o chybě</string>
+    <string name="keychords_summary">Zachytíte hlášení o chybě současným podržením tlačítek Zvýšit hlasitost, Snížit hlasitost a Napájení, i tehdy, kdy je zařízení uzamčeno</string>
+    <string name="view_bugreports_summary_not_developer">Po zobrazení zůstanou všechna hlášení o chybách přístupná, dokud nerestartujete zařízení</string>
+    <string name="captive_portal_title">Kontrola připojení</string>
+    <string name="captive_portal_summary">Zjištění, zda je zařízení schopné se připojit k internetu kontaktováním společnosti Google. Používá se také ke zjištění skrytých portálů.</string>
+    <string name="assisted_gps_summary">Stáhnete data satelitní asistence z internetu, což může výrazně zlepšit výkon spuštění systému GPS. Při tísňových voláních je GPS vždy povoleno.</string>
+    <string name="other_settings">Další možnosti</string>
+    <string name="quick_settings">Rychlá nastavení</string>
 </resources>
