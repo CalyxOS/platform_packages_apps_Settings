@@ -57,4 +57,7 @@
     <string name="global_vpn_summary_on">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores. Nota: Quando ativado, não poderá utilizar uma VPN separada num perfil de trabalho ou outros utilizadores</string>
     <string name="cross_profile_sharing_title">Compartilhamento entre perfis</string>
     <string name="cross_profile_sharing_summary">Permitir que botões de compartilhamento dentro de aplicativos funcionem entre seu perfil pessoal e de trabalho</string>
+    <string name="view_bugreports_title">Ver relatórios de erro</string>
+    <string name="other_settings">Outras opções</string>
+    <string name="quick_settings">Configurações Rápidas</string>
 </resources>
