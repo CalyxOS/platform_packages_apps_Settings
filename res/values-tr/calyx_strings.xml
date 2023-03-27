@@ -75,4 +75,5 @@
     <string name="keychords_title">Hata raporu düğmesi kombinasyonu</string>
     <string name="keychords_summary_adb_enabled">Hata ayıklama açıkken her zaman etkin</string>
     <string name="view_bugreports_summary_not_developer">Görüntülendikten sonra, tüm hata raporları siz aygıtı yeniden başlatana kadar erişilebilir kalacaktır</string>
+    <string name="assisted_gps_summary">GPS başlatma performansını büyük ölçüde iyileştirebilecek uydu yardım verilerini internetten indirin. Acil aramalar için destekli GPS\'e her zaman izin verilir.</string>
 </resources>
