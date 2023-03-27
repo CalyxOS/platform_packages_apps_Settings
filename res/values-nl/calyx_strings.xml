@@ -27,7 +27,8 @@
     <string name="timeout_summary_never">Nooit</string>
     <string name="bluetooth_timeout_summary2">Zet Bluetooth niet automatisch uit</string>
     <string name="bluetooth_timeout_summary">Bluetooth wordt uitgeschakeld na &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"timeout_description\"&gt; als geen apparaten verbonden zijn.</string>
-    <string name="bluetooth_timeout">Bluetooth time-out</string>
+    <string name="bluetooth_timeout">Bluetoothtime-out</string>
     <string name="panic_settings_title">Laat Paniek-optie zien</string>
-    <string name="calyxos_version">CalyxOS versie</string>
+    <string name="calyxos_version">CalyxOS-versie</string>
+    <string name="show_qs_on_secure_keyguard_title">Snelle instellingen</string>
 </resources>

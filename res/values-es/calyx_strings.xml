@@ -75,4 +75,5 @@
     <string name="view_bugreports_title">Ver los informes de errores</string>
     <string name="view_bugreports_summary_not_developer">Una vez visualizados, todos los informes de errores permanecerán accesibles hasta que reinicies el dispositivo</string>
     <string name="keychords_summary">Captura un informe de error manteniendo pulsados los botones: Subir volumen, Bajar volumen y Encendido al mismo tiempo, incluso cuando el dispositivo está bloqueado</string>
+    <string name="assisted_gps_summary">Descargue los datos de asistencia para el satélite de Internet, lo que puede mejorar en gran medida el rendimiento de arranque del GPS. Para llamadas de emergencia, el GPS asistido siempre está permitido.</string>
 </resources>
