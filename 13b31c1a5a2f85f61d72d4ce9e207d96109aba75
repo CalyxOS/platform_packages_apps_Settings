@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "41733f3d_28d47124",
+        "filename": "src/com/android/settings/security/screenlock/QuickSettingsPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-04-10T13:56:24Z",
+      "side": 1,
+      "message": "Should we change the settings name?",
+      "range": {
+        "startLine": 61,
+        "startChar": 39,
+        "endLine": 61,
+        "endChar": 73
+      },
+      "revId": "13b31c1a5a2f85f61d72d4ce9e207d96109aba75",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
