@@ -127,6 +127,15 @@
         android:title="@string/device_reboot_timeout_title"
         settings:controller="com.android.settings.security.DeviceRebootTimeoutPreferenceController" />
 
+    <ListPreference
+        android:order="220"
+        android:key="trust_restrict_usb"
+        android:entries="@array/security_restrict_usb_entries"
+        android:entryValues="@array/security_restrict_usb_values"
+        android:summary="@string/security_restrict_usb_summary"
+        android:title="@string/security_restrict_usb_title"
+        settings:controller="com.android.settings.security.RestrictUsbPreferenceController" />
+
     <PreferenceCategory
         android:order="240"
         android:key="security_settings_device_admin_category"
