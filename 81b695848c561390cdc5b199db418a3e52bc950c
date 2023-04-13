@@ -16,6 +16,23 @@
       "message": "I\u0027d like to test this on:\n\n1) Side FPS devices, e.g. axolotl or FP4, to make sure the menu still looks ok and you can see the wake to unlock setting\n2) Face unlock devices, e.g. coral, to make sure that it\u0027s ok on those too.\n\nThat should cover the various combinations we have.",
       "revId": "81b695848c561390cdc5b199db418a3e52bc950c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "584d557e_6c068fa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-13T18:25:37Z",
+      "side": 1,
+      "message": "This was in 4.7.6 and 4.7.7 beta, no one complained, merging it",
+      "revId": "81b695848c561390cdc5b199db418a3e52bc950c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
