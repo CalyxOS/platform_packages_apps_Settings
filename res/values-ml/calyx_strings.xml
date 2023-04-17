@@ -22,7 +22,7 @@
     <string name="timeout_summary_1hour">1 മണിക്കൂർ</string>
     <string name="security_restrict_usb_disabled">എപ്പോഴും പുതിയ USB ഗാഡ്ജെറ്റുകൾ അനുവദിക്കുക</string>
     <string name="data_usage_app_restrict_background_all_summary">പശ്ചാത്തലത്തിൽ നെറ്റ്‌വർക്ക് ഉപയോഗം സജ്ജമാക്കുക</string>
-    <string name="wifi_timeout">Wi-Fi തനിയെ ഓഫാക്കുക</string>
+    <string name="wifi_timeout">വൈഫൈ തനിയെ ഓഫാക്കുക</string>
     <string name="data_usage_app_restrict_background_all">പശ്ചാത്തല നെറ്റ്‌വർക്ക് ഉപയോഗം</string>
     <string name="show_qs_on_secure_keyguard_title">ദ്രുത ക്രമീകരണങ്ങൾ</string>
     <string name="wifi_timeout_summary2">പ്രവർത്തനരഹിതം</string>
@@ -41,4 +41,7 @@
     <string name="device_reboot_timeout_summary2">ഉപകരണം തനിയെ റീബൂട്ട് ചെയ്യില്ല</string>
     <string name="device_reboot_timeout_summary">കഴിഞ്ഞ <xliff:g id="timeout_description">%1$s</xliff:g> നുള്ളിൽ ഉപകരണം അൺലോക്ക് ചെയ്തിട്ടില്ലെങ്കിൽ ഉപകരണം തനിയെ റീബൂട്ട് ചെയ്യും</string>
     <string name="device_reboot_timeout_title">ഓട്ടോ റീബൂട്ട്</string>
+    <string name="global_vpn_title">ആഗോള വിപിഎൻ</string>
+    <string name="hide">മറയ്ക്കുക</string>
+    <string name="quick_settings">ദ്രുത ക്രമീകരണങ്ങൾ</string>
 </resources>

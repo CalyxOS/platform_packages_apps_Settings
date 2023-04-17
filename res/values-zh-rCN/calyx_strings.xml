@@ -76,4 +76,5 @@
     <string name="view_bugreports_summary_not_developer">一旦查看，所有的故障报告在重启设备前始终可访问</string>
     <string name="keychords_summary">即便当设备锁定时，同时按住上调音量、下调音量和电源键也可以创建一份故障报告</string>
     <string name="assisted_gps_summary">从互联网下载可以大幅改善 GPS 启动性能的卫星辅助数据。对于紧急呼叫，辅助 GPS 始终是允许的。</string>
+    <string name="biometric_settings_category_ways_to_use">使用方法</string>
 </resources>
