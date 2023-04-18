@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd3a3706_4872ebb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-18T16:52:36Z",
+      "side": 1,
+      "message": "Let\u0027s wait till we have APEX updates. Stock has that, and it looks like that\u0027s needed to make things gel.",
+      "revId": "811210d237994a60521f514ca8268deb84941d4e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
