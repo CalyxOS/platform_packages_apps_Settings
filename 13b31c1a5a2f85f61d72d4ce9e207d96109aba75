@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d91594fc_8ad9d25c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-18T16:49:25Z",
+      "side": 1,
+      "message": "This changes the feature entirely, https://gitlab.com/CalyxOS/calyxos/-/issues/1615#note_1355848976\n\nI\u0027m not opposed to this in general, but it needs further discussion - it\u0027ll be very disruptive for users mid cycle to have such a big change happen.",
+      "revId": "13b31c1a5a2f85f61d72d4ce9e207d96109aba75",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "41733f3d_28d47124",
