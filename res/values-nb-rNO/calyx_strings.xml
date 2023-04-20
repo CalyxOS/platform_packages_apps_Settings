@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="panic_settings_summary">Vis av/på-knapp som aktiverer panikkforetagende i nødsfall.</string>
     <string name="panic_settings_title">Vis panikk-alternativ</string>
-    <string name="calyxos_version">CalyxOS-versjon</string>
+    <string name="calyxos_version">CalyxOS versjon</string>
     <string name="security_restrict_usb_disabled">Alltid tillat nye USB-enheter</string>
     <string name="security_restrict_usb_keyguard">Tillat nye USB-enheter når opplåst</string>
     <string name="security_restrict_usb_always">Nekt nye USB-enheter</string>
@@ -27,7 +27,7 @@
     <string name="show_qs_on_secure_keyguard_title">Hurtiginnstillinger</string>
     <string name="cleartext_network_policy_title">Begrens klartekst-nettverkstrafikk</string>
     <string name="show_qs_on_secure_keyguard_summary">Tillat veksling av hurtiginnstillinger på sikker låseskjerm</string>
-    <string name="aosp_module_version">Hovedoppstrøms-moduloppdatering</string>
+    <string name="aosp_module_version">Oppdatering av hovedlinjemodulen</string>
     <string name="cross_profile_sharing_title">Deling på tvers av profiler</string>
     <string name="cross_profile_sharing_summary">Skru på delingsknapp i programmer i din arbeids- og personlige profil</string>
     <string name="hide">Skjul</string>
@@ -35,7 +35,7 @@
     <string name="wifi_timeout">Skru av Wi-Fi automatisk</string>
     <string name="timeout_summary_48hours">48 timer</string>
     <string name="airplane_mode_radios_title">Flymodus-radioer</string>
-    <string name="airplane_mode_radios_category_title">Flymodus vil veksle valgte radioer</string>
+    <string name="airplane_mode_radios_category_title">Flymodus vil veksle mellom de valgte radioene</string>
     <string name="timeout_summary_12hours">12 timer</string>
     <string name="timeout_summary_24hours">24 timer</string>
     <string name="timeout_summary_36hours">36 timer</string>
