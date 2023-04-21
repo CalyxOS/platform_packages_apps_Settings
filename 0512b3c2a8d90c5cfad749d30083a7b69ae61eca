@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0690865_0b6a8ece",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-04-21T19:45:49Z",
+      "side": 1,
+      "message": "See https://issuetracker.google.com/issues/279001779 for details and repro steps.\n\nThe privacy setting that shows up *before* you tap the Pencil icon is correct, so I changed this to do the same thing.\n\nSubmitted to AOSP.",
+      "revId": "0512b3c2a8d90c5cfad749d30083a7b69ae61eca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
