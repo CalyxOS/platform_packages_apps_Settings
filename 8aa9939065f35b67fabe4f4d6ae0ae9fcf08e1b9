@@ -106,6 +106,24 @@
       "parentUuid": "feb0f6c6_519c00ab",
       "revId": "8aa9939065f35b67fabe4f4d6ae0ae9fcf08e1b9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "439fef04_3346d44d",
+        "filename": "src/com/android/settings/other/OtherFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-09T18:10:15Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "bcc31a53_1d769b01",
+      "revId": "8aa9939065f35b67fabe4f4d6ae0ae9fcf08e1b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
