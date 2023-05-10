@@ -16,6 +16,24 @@
       "message": "Why we are doing this?",
       "revId": "7f9993d9bcd955941910e49a3a40dc1e01b6b9c1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10d07621_5485cf4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-10T13:19:40Z",
+      "side": 1,
+      "message": "Why not?\n\nThe plumbing is there thanks to the 2G toggle, and we can easily expand it to safely allow toggling any technology.",
+      "parentUuid": "158961f6_783fd492",
+      "revId": "7f9993d9bcd955941910e49a3a40dc1e01b6b9c1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
