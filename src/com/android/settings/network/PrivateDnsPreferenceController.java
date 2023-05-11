@@ -65,7 +65,7 @@ public class PrivateDnsPreferenceController extends BasePreferenceController
         Settings.Global.getUriFor(PRIVATE_DNS_SPECIFIER),
     };
 
-    // Must match ConnectivitySettingsUtils
+    // Only used in Settings, update on additions to ConnectivitySettingsUtils
     private static final int PRIVATE_DNS_MODE_CLOUDFLARE = 4;
 
     private final Handler mHandler;
