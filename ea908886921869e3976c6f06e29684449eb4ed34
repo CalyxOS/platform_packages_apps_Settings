@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "729b0443_0143e387",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-11T16:15:51Z",
+      "side": 1,
+      "message": "I thought of this and figured might as well throw this up, it took all of 10 minutes.\n\nUntested but it should work the same.",
+      "revId": "ea908886921869e3976c6f06e29684449eb4ed34",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
