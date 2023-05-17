@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8871553_bcfb5a4c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-17T19:28:00Z",
+      "side": 1,
+      "message": "I don\u0027t like this but we took away a working feature from some users, so I spent some minutes to whip this up, have had it in my mind for a while.",
+      "revId": "dbd6aa00b7bad917d349001764e8dd2be4e4fc1f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
