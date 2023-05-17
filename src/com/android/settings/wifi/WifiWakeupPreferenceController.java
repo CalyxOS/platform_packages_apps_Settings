@@ -96,7 +96,7 @@ public class WifiWakeupPreferenceController extends TogglePreferenceController i
         if (mFragment == null && (!getLocationEnabled() || !getWifiScanningEnabled())) {
             return DISABLED_DEPENDENT_SETTING;
         }
-        return UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 
     @Override
