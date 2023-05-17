@@ -35,6 +35,7 @@ import com.android.settings.wifi.utils.wifiManager
 import com.android.settingslib.datastore.AbstractKeyedDataObservable
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.Permissions
+import com.android.settingslib.metadata.PreferenceAvailabilityProvider
 import com.android.settingslib.metadata.PreferenceChangeReason
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.metadata.PreferenceLifecycleProvider
@@ -42,6 +43,7 @@ import com.android.settingslib.metadata.PreferenceSummaryProvider
 import com.android.settingslib.metadata.ReadWritePermit
 import com.android.settingslib.metadata.SensitivityLevel
 import com.android.settingslib.metadata.SwitchPreference
+import com.android.settingslib.metadata.preferencesapi.preconditions.PreconditionStability
 import com.android.settingslib.preference.SwitchPreferenceBinding
 
 @Suppress("DEPRECATION")
@@ -49,6 +51,7 @@ class WifiWakeupSwitchPreference :
     SwitchPreference(KEY, R.string.enable_wifi_wakeup_purpose, R.string.wifi_wakeup),
     SwitchPreferenceBinding,
     PreferenceSummaryProvider,
+    PreferenceAvailabilityProvider,
     PreferenceLifecycleProvider {
 
     override val icon: Int
@@ -190,6 +193,14 @@ class WifiWakeupSwitchPreference :
     }
 
     override fun getEnabledDescription(): String = "Requires Location to be enabled. Requires Wi-Fi scanning to be always available."
+
+    override val availabilityDescription = "Country specific feature."
+
+    override fun getAvailabilityStability() = PreconditionStability.UNSTABLE
+
+    override fun isAvailable(context: Context): Boolean {
+        return context.getResources().getBoolean(R.bool.config_wifi_wakeup)
+    }
 
     companion object {
         const val TAG = "WifiWakeupSwitchPreference"
