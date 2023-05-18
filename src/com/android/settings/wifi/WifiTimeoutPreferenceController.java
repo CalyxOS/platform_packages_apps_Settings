@@ -17,6 +17,7 @@
 package com.android.settings.wifi;
 
 import android.content.Context;
+import android.os.UserManager;
 import android.net.wifi.WifiManager;
 import android.provider.Settings;
 import android.util.Log;
@@ -51,7 +52,8 @@ public class WifiTimeoutPreferenceController extends BasePreferenceController im
 
     @Override
     public int getAvailabilityStatus() {
-        return mWifiManager != null ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return (mWifiManager != null && UserManager.get(mContext).isAdminUser())
+                ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
