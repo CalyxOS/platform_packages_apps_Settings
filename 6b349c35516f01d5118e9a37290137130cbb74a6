@@ -16,6 +16,24 @@
       "message": "UNSUPPORTED_ON_DEVICE isn\u0027t technically accurate, but I don\u0027t think it matters. The result is that the preference is not shown.",
       "revId": "6b349c35516f01d5118e9a37290137130cbb74a6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bda2575b_5bce1def",
+        "filename": "src/com/android/settings/wifi/WifiTimeoutPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-18T22:59:14Z",
+      "side": 1,
+      "message": "DISABLED_FOR_USER would be more appropriate,",
+      "parentUuid": "b2881b38_ad0664c5",
+      "revId": "6b349c35516f01d5118e9a37290137130cbb74a6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
