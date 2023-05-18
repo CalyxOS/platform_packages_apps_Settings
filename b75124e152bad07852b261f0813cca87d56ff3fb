@@ -16,6 +16,24 @@
       "message": "UNSUPPORTED_ON_DEVICE isn\u0027t technically accurate, but I don\u0027t think it matters. The result is that the preference is not shown.",
       "revId": "b75124e152bad07852b261f0813cca87d56ff3fb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28649e2d_94e1714f",
+        "filename": "src/com/android/settings/bluetooth/BluetoothTimeoutPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-18T22:58:41Z",
+      "side": 1,
+      "message": "DISABLED_FOR_USER would be more appropriate,",
+      "parentUuid": "f12203c3_58fd7309",
+      "revId": "b75124e152bad07852b261f0813cca87d56ff3fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
