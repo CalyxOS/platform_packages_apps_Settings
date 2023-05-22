@@ -361,7 +361,7 @@ public class AccountPreferenceController extends AbstractPreferenceController
             }
             profileData.removeWorkProfilePreference = newRemoveWorkProfilePreference();
             mHelper.enforceRestrictionOnPreference(profileData.removeWorkProfilePreference,
-                    DISALLOW_REMOVE_MANAGED_PROFILE, UserHandle.myUserId());
+                    DISALLOW_REMOVE_MANAGED_PROFILE, UserHandle.myUserId(), userInfo.id);
             profileData.managedProfilePreference = newManagedProfileSettings();
         } else {
             if (mType == ProfileSelectFragment.ProfileType.ALL) {
