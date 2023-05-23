@@ -33,6 +33,24 @@
       "message": "Nit-ish: Update this to use the same `if (ConnectivitySettingsManager.getPrivateDnsHostname(context).equals(PRIVATE_DNS_SPECIFIER_CLOUDFLARE))` type of check as is used in PrivateDnsModeDialogPreference.java to instead of PRIVATE_DNS_MODE_CLOUDFLARE\n\nOtherwise the preference summary will be one.one.one.one instead",
       "revId": "1da078ac224c1e4b87de3b79716dd9ba6b7a73ef",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18cac9c0_7cbbea48",
+        "filename": "src/com/android/settings/network/PrivateDnsPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-23T20:09:02Z",
+      "side": 1,
+      "message": "Feel free to update!",
+      "parentUuid": "22f95ec8_f22d62ba",
+      "revId": "1da078ac224c1e4b87de3b79716dd9ba6b7a73ef",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
