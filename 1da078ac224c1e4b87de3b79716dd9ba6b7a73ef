@@ -69,6 +69,24 @@
       "parentUuid": "22f95ec8_f22d62ba",
       "revId": "1da078ac224c1e4b87de3b79716dd9ba6b7a73ef",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af17a5af_81e326ae",
+        "filename": "src/com/android/settings/network/PrivateDnsPreferenceController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-24T12:16:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "18cac9c0_7cbbea48",
+      "revId": "1da078ac224c1e4b87de3b79716dd9ba6b7a73ef",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
