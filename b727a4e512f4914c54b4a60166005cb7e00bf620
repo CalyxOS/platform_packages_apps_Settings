@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bc740c0_a2ba9314",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-05-24T12:14:47Z",
+      "side": 1,
+      "message": "Nit: With our summary strings, this still shows \", Private DNS\" in the summary for the Network \u0026 internet segment on users for which the preference is hidden.\n\nSee https://gitlab.com/CalyxOS/platform_packages_apps_Settings/-/commit/76015790c1e10be3ee247ab8a84751e4ed5d8207#174fa34bba153c237f7684d86234da08276313f3_98_100",
+      "revId": "b727a4e512f4914c54b4a60166005cb7e00bf620",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
