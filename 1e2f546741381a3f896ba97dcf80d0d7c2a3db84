@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d922e2b9_00864115",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-24T23:29:52Z",
+      "side": 1,
+      "message": "Had issues last time, just \n\n14646: Reland \"Private DNS: Switch \"Cloudflare DNS\" to DNS-over-HTTPS\" | https://review.calyxos.org/c/CalyxOS/platform_packages_modules_Connectivity/+/14646",
+      "revId": "1e2f546741381a3f896ba97dcf80d0d7c2a3db84",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
