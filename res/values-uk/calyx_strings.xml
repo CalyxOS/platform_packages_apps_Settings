@@ -84,4 +84,5 @@
     <string name="keychords_summary_adb_enabled">Завжди увімкнено, коли ввімкнено налагодження</string>
     <string name="view_bugreports_title">Перегляд звітів про помилки</string>
     <string name="assisted_gps_summary">Завантажити допоміжні супутникові дані з Інтернету, що може значно покращити продуктивність запуску GPS. Для екстрених викликів завжди дозволено допоміжний GPS.</string>
+    <string name="biometric_settings_category_ways_to_use">Способи використання</string>
 </resources>
