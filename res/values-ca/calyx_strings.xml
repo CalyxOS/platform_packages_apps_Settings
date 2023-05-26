@@ -67,4 +67,13 @@
     <string name="hide_app_desc">Si amagueu aquesta aplicació, no serà visible per a Android i altres aplicacions, i és possible que ja no funcionin com s\'espera. Tingueu en compte, amagar una aplicació conserva les dades. En amagar-se, es desactiva aquesta aplicació i s\'amaga del dispositiu.</string>
     <string name="captive_portal_title">Comprovació de connectivitat</string>
     <string name="captive_portal_summary">Determineu si el dispositiu pot connectar-se a Internet, contactant amb Google. També s\'utilitza per detectar portals captius.</string>
+    <string name="bugreport_summary">Fer un informe d\'error</string>
+    <string name="keychords_title">Combinació de botons d\'informe d\'error</string>
+    <string name="keychords_summary">Captura un informe d\'error mantenint premut Volum amunt, Volum avall i el botó d\'Engegada al mateix temps, fins i tot quan el dispositiu està bloquejat</string>
+    <string name="keychords_summary_adb_enabled">Sempre habilitat quan la depuració està activada</string>
+    <string name="view_bugreports_title">Mostra els informes d\'error</string>
+    <string name="view_bugreports_summary_not_developer">Un cop vist, tots els informes d\'error romandran accessibles fins que reinicieu el dispositiu</string>
+    <string name="assisted_gps_summary">Baixa dades d\'assistència per satèl·lit des d\'Internet que poden millorar molt el rendiment d\'inici del GPS. Per a trucades d\'emergència, el GPS assistit sempre està permès.</string>
+    <string name="other_settings">Altres opcions</string>
+    <string name="quick_settings">Configuració ràpida</string>
 </resources>
