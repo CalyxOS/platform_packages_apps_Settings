@@ -76,4 +76,5 @@
     <string name="assisted_gps_summary">Stáhnete data satelitní asistence z internetu, což může výrazně zlepšit výkon spuštění systému GPS. Při tísňových voláních je GPS vždy povoleno.</string>
     <string name="other_settings">Další možnosti</string>
     <string name="quick_settings">Rychlá nastavení</string>
+    <string name="biometric_settings_category_ways_to_use">Způsoby použití</string>
 </resources>
