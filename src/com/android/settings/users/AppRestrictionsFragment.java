@@ -103,10 +103,7 @@ public class AppRestrictionsFragment extends SettingsPreferenceFragment implemen
     private static final String[] MICROG_PACKAGES = new String[]{
             "com.google.android.gms",
             "com.google.android.gsf",
-            "com.android.vending",
-            "org.fitchfamily.android.dejavu",
-            "org.microg.nlp.backend.ichnaea",
-            "org.microg.nlp.backend.nominatim"
+            "com.android.vending"
     };
 
     private boolean mFirstTime = true;
