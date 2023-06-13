@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2cce29d_4c7896a3",
+        "filename": "src/com/android/settings/Utils.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 1258,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-06-13T21:07:35Z",
+      "side": 1,
+      "message": "nit: unnecessary newline",
+      "revId": "f21a17151c4eb2bb452e60374c62d445c9152e68",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
