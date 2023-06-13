@@ -179,8 +179,8 @@ public class PrivateDnsPreferenceControllerTest {
     }
 
     @Test
-    public void getAvailabilityStatus_disabledForNonAdminUser() {
-        doReturn(false).when(mUserManager).isAdminUser();
+    public void getAvailabilityStatus_disabledForGuestUser() {
+        doReturn(true).when(mUserManager).isGuestUser();
         assertThat(mController.getAvailabilityStatus()).isEqualTo(DISABLED_FOR_USER);
     }
 
