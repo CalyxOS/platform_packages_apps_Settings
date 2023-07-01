@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cb3060e_4076ac4a",
+        "filename": "src/com/android/settings/biometrics/fingerprint/FingerprintSettingsRequireScreenOnToAuthPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-01T23:20:48Z",
+      "side": 1,
+      "message": "In the future, we could think about merging the existing udfps setting which works the same with this.",
+      "revId": "3f98f04d1f88a150f9bce90861cbfcc88ef9d30f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
