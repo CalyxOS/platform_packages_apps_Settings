@@ -16,6 +16,24 @@
       "message": "I see a large margin to the left of this new preference. Is there supposed to be an icon or something there? It looks like this:\n\n```\nForeground\n0B\n\nBackground\n0B\n\n     Datura Firewall\n     [description here]\n    \nAllow network access\nEnable network usage\n\nBackground network access\n[...]\n```\n\nTapping it does launch Datura, though.",
       "revId": "d2a83c95ff54a32323b38d1e32ec2221cda5bda2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f46c544b_42093188",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-03T19:54:51Z",
+      "side": 1,
+      "message": "No, but it\u0027s been a while.\n\nThis is on hold till we have a reliably working Firewall app, though.",
+      "parentUuid": "e0ae900a_bfa0511f",
+      "revId": "d2a83c95ff54a32323b38d1e32ec2221cda5bda2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
