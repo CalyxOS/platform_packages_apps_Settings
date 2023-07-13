@@ -20,10 +20,10 @@
       },
       "applicabilityExpressionResult": {},
       "submittabilityExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Builds=MAX AND -label:Builds=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Builds=MAX","label:Builds=MIN"]}
+        "value": {"expression":{"expressionString":"label:Builds=MAX AND -label:Builds=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Builds=MAX"],"failingAtoms":["label:Builds=MIN"]}
       },
       "overrideExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Builds=0 AND (label:Works=MAX OR label:Bypass-Verification=MAX)"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":["label:Builds=0"],"failingAtoms":["label:Works=MAX","label:Bypass-Verification=MAX"]}
+        "value": {"expression":{"expressionString":"label:Builds=0 AND (label:Works=MAX OR label:Bypass-Verification=MAX)"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":["label:Works=MAX"],"failingAtoms":["label:Bypass-Verification=MAX","label:Builds=0"]}
       },
       "patchSetCommitId": "35bcb33ffd57737a9d8a30740bf35c0461331b9c",
       "legacy": {
@@ -47,7 +47,7 @@
       },
       "applicabilityExpressionResult": {},
       "submittabilityExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Code-Review=MAX AND -label:Code-Review=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Code-Review=MAX","label:Code-Review=MIN"]}
+        "value": {"expression":{"expressionString":"label:Code-Review=MAX AND -label:Code-Review=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Code-Review=MAX"],"failingAtoms":["label:Code-Review=MIN"]}
       },
       "overrideExpressionResult": {},
       "patchSetCommitId": "35bcb33ffd57737a9d8a30740bf35c0461331b9c",
@@ -76,10 +76,10 @@
       },
       "applicabilityExpressionResult": {},
       "submittabilityExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Works=MAX AND -label:Works=MIN"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Works=MAX","label:Works=MIN"]}
+        "value": {"expression":{"expressionString":"label:Works=MAX AND -label:Works=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Works=MAX"],"failingAtoms":["label:Works=MIN"]}
       },
       "overrideExpressionResult": {
-        "value": {"expression":{"expressionString":"label:Works=0 AND label:Bypass-Verification=MAX"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":["label:Works=0"],"failingAtoms":["label:Bypass-Verification=MAX"]}
+        "value": {"expression":{"expressionString":"label:Works=0 AND label:Bypass-Verification=MAX"},"status":"FAIL","errorMessage":{"value":null},"passingAtoms":[],"failingAtoms":["label:Bypass-Verification=MAX","label:Works=0"]}
       },
       "patchSetCommitId": "35bcb33ffd57737a9d8a30740bf35c0461331b9c",
       "legacy": {
