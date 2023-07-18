@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c94bb6e_4695649b",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-18T21:45:20Z",
+      "side": 1,
+      "message": "Undo this, may cause unnecessary conflicts with AOSP.",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0396ec0e_6a123009",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-18T21:45:20Z",
+      "side": 1,
+      "message": "Undo this, may cause unnecessary conflicts with AOSP.",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66aa2254_fcf267f7",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-18T21:45:20Z",
+      "side": 1,
+      "message": "Not strictly needed.",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6769655_9c4b222e",
+        "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-18T21:45:20Z",
+      "side": 1,
+      "message": "Does that mean it won\u0027t work for secondary user work profiles?",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
