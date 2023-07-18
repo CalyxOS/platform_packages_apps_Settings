@@ -33,6 +33,23 @@
       "message": "This\u0027d be potentially easier in Bellis but then as pointed out it wouldn\u0027t support other work profiles - and for this feature in particular it\u0027d be good to support those, so let\u0027s keep it here.",
       "revId": "ad6dc3d9fb9a13928a48c10fe4132cc4c4ba7a6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00cc7a84_beaec78d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-18T14:27:11Z",
+      "side": 1,
+      "message": "Nevermind, won\u0027t be able to use it with non-Bellis profiles. Moving to Work Profile Settings page",
+      "revId": "ad6dc3d9fb9a13928a48c10fe4132cc4c4ba7a6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
