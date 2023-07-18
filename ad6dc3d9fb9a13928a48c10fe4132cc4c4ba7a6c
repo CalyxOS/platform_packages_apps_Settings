@@ -68,6 +68,24 @@
       "parentUuid": "00cc7a84_beaec78d",
       "revId": "ad6dc3d9fb9a13928a48c10fe4132cc4c4ba7a6c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67ad227f_593233b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-18T21:48:28Z",
+      "side": 1,
+      "message": "Nevermind, let\u0027s do this in a way it works for all work profiles, but please keep changes minimal. As a general rule, we never touch / fix AOSP formatting.",
+      "parentUuid": "fb34becc_2f7d3395",
+      "revId": "ad6dc3d9fb9a13928a48c10fe4132cc4c4ba7a6c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ],
   "submitRequirementResults": [
