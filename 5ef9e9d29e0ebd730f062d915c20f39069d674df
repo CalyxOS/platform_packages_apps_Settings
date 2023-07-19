@@ -45,6 +45,30 @@
       },
       "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c3fc1a4_91870f8b",
+        "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-19T19:43:49Z",
+      "side": 1,
+      "message": "Assuming the notification is shown after stopping,\n\nTitle: Work profile stopped\n\nDesc: Your work profile was stopped at \u003cxliff:g id\u003d\"end_time\"\u003e%1$s\u003c/xliff:g\u003e",
+      "parentUuid": "f79c9e5d_4d0f45f8",
+      "range": {
+        "startLine": 66,
+        "startChar": 20,
+        "endLine": 71,
+        "endChar": 37
+      },
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
