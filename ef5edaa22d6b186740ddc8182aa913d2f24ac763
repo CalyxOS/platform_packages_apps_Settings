@@ -139,6 +139,24 @@
       "parentUuid": "f6769655_9c4b222e",
       "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2361317a_ad7d4675",
+        "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-19T19:38:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f902ae59_f535105c",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
