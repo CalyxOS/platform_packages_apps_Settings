@@ -49,6 +49,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5f0d17b7_012570fc",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-19T19:50:16Z",
+      "side": 1,
+      "message": "maybe mention \"work hours\" here but I can\u0027t think of a good way right now.",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f79c9e5d_4d0f45f8",
         "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
         "patchSetId": 16
