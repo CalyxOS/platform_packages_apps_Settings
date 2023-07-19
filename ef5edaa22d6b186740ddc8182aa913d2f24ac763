@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "69a71bd4_c44bcd06",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-19T14:38:37Z",
+      "side": 1,
+      "message": "Will no longer modify this file. No longer applicable.",
+      "parentUuid": "8c94bb6e_4695649b",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0396ec0e_6a123009",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-07-18T21:45:20Z",
       "side": 1,
       "message": "Undo this, may cause unnecessary conflicts with AOSP.",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67e446ad_df9fc057",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-19T14:38:37Z",
+      "side": 1,
+      "message": "Will no longer modify this file. No longer applicable.",
+      "parentUuid": "0396ec0e_6a123009",
       "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -52,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4cc8319d_54b8f3e7",
+        "filename": "src/com/android/settings/users/UserDetailsSettings.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-19T14:38:37Z",
+      "side": 1,
+      "message": "Will no longer modify this file. No longer applicable.",
+      "parentUuid": "66aa2254_fcf267f7",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f6769655_9c4b222e",
@@ -65,6 +119,24 @@
       "writtenOn": "2023-07-18T21:45:20Z",
       "side": 1,
       "message": "Does that mean it won\u0027t work for secondary user work profiles?",
+      "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f902ae59_f535105c",
+        "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
+        "patchSetId": 15
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-19T14:38:37Z",
+      "side": 1,
+      "message": "Next PS will no longer have this. We want each user to check their own Setting and behave accordingly",
+      "parentUuid": "f6769655_9c4b222e",
       "revId": "ef5edaa22d6b186740ddc8182aa913d2f24ac763",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
