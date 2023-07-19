@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6bc8582e_9ce4991a",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 4571,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-19T19:38:44Z",
+      "side": 1,
+      "message": "Would be good to try seeing if this feature still works without this here",
+      "range": {
+        "startLine": 4571,
+        "startChar": 16,
+        "endLine": 4571,
+        "endChar": 75
+      },
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
