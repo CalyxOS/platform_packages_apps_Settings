@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8c4edf06_4fbc94d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-25T14:56:16Z",
+      "side": 1,
+      "message": "So the Settings app isn\u0027t responsible just for the adjusting the feature\u0027s settings, it also provides the feature itself.\n\nIt looks like the work profile is not actually turned off automatically, but a notification appears as a reminder that it\u0027s time to stop using the work profile, and then if the notification is tapped, it\u0027s like a shortcut to turning the profile off. Am I understanding correctly? If the user does not interact with the notification, does the profile ever get turned off?",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6bc8582e_9ce4991a",
         "filename": "AndroidManifest.xml",
         "patchSetId": 16
