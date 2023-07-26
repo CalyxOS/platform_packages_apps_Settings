@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d18680e_9fda12b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-26T22:23:15Z",
+      "side": 1,
+      "message": "Your understanding is correct. If the user does not interact with the notification the profile reamins untouched",
+      "parentUuid": "8c4edf06_4fbc94d1",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6bc8582e_9ce4991a",
