@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d2e41a20_fb720c0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-26T22:37:12Z",
+      "side": 1,
+      "message": "That\u0027d be part 1 from https://gitlab.com/CalyxOS/calyxos/-/issues/436#note_1322834840\n\nPart 2 remains.",
+      "parentUuid": "4d18680e_9fda12b6",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6bc8582e_9ce4991a",
         "filename": "AndroidManifest.xml",
         "patchSetId": 16
