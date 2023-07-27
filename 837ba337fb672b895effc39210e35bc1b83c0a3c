@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2365daff_dbbc092f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-07-27T17:49:26Z",
+      "side": 1,
+      "message": "One thing we noticed is that, currently, if the user\u0027s timezone changes, the trigger will occur in the original timezone. For example, if a user starts out in UTC-4 with an alarm at 17:00, and then they travel such that their timezone changes to UTC-3, the alarm will still occur at 17:00 UTC-4, which is 18:00 UTC-3.\n\nThis may actually be desirable, if a user\u0027s work hours in UTC do not change as they travel and change time zones. But in other cases, it may not be desirable.\n\nThe only way to handle this case would be:\n- decide authoritatively how we want to handle it, or not,\n- add an additional option for respecting the timezone.",
+      "revId": "837ba337fb672b895effc39210e35bc1b83c0a3c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
