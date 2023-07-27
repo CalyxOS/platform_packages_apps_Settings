@@ -56,6 +56,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4c256534_d22e5ea4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-27T16:45:46Z",
+      "side": 1,
+      "message": "Brought up alternative in UX discussion",
+      "parentUuid": "d2e41a20_fb720c0e",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6bc8582e_9ce4991a",
         "filename": "AndroidManifest.xml",
         "patchSetId": 16
@@ -67,6 +85,30 @@
       "writtenOn": "2023-07-19T19:38:44Z",
       "side": 1,
       "message": "Would be good to try seeing if this feature still works without this here",
+      "range": {
+        "startLine": 4571,
+        "startChar": 16,
+        "endLine": 4571,
+        "endChar": 75
+      },
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c13e900d_440e0f8a",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 4571,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-27T16:45:46Z",
+      "side": 1,
+      "message": "Necessary",
+      "parentUuid": "6bc8582e_9ce4991a",
       "range": {
         "startLine": 4571,
         "startChar": 16,
@@ -100,6 +142,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "405ce9aa_8213e10c",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-27T16:45:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2bb5fae2_f779ba07",
+      "range": {
+        "startLine": 153,
+        "startChar": 36,
+        "endLine": 153,
+        "endChar": 56
+      },
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5f0d17b7_012570fc",
@@ -113,6 +179,24 @@
       "writtenOn": "2023-07-19T19:50:16Z",
       "side": 1,
       "message": "maybe mention \"work hours\" here but I can\u0027t think of a good way right now.",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "825adb63_54184ad6",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 16
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-27T16:45:46Z",
+      "side": 1,
+      "message": "I have put end of day and work profile instead",
+      "parentUuid": "5f0d17b7_012570fc",
       "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
@@ -178,6 +262,30 @@
       "side": 1,
       "message": "Maybe no \"Your\"",
       "parentUuid": "5c3fc1a4_91870f8b",
+      "range": {
+        "startLine": 66,
+        "startChar": 20,
+        "endLine": 71,
+        "endChar": 37
+      },
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5361a36b_4e8d9ceb",
+        "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
+        "patchSetId": 16
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-07-27T16:45:46Z",
+      "side": 1,
+      "message": "Currently the notification is shown to remind the user. If tapped, it stops the profile. Added a title and description that matches the current behaviour",
+      "parentUuid": "ecba4890_1ad67e83",
       "range": {
         "startLine": 66,
         "startChar": 20,
