@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bab67e93_0fa932ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-08-29T19:37:05Z",
+      "side": 1,
+      "message": "What we proposed was showing a notification ~5 minutes before the profile actually stops as a warning, *maybe* with an option to cancel? (although not discussed), but otherwise the stopping will happen automatically on schedule. The current patchset just shows a notification that needs to be tapped to stop the profile. We think users may want or need something more automated than that.\n\nAayush also suggested that a Snooze would be nice but might be too much work. I think it would be nice too, but maybe in a follow-up.\n\nChirayu, we are waiting on your input for this.",
+      "parentUuid": "4c256534_d22e5ea4",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6bc8582e_9ce4991a",
         "filename": "AndroidManifest.xml",
         "patchSetId": 16
