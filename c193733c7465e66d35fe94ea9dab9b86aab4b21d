@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f594265_bb0af9ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-04T20:57:27Z",
+      "side": 1,
+      "message": "Not rebased correctly, there\u0027s a diff.",
+      "revId": "c193733c7465e66d35fe94ea9dab9b86aab4b21d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
