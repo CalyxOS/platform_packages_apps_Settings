@@ -86,6 +86,24 @@
       "message": "This is a mouthful, could be shortened.",
       "revId": "11c89ddc2d0fb030b03693480ab31c7b513074eb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "803a3928_8e43f2c3",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-20T16:24:05Z",
+      "side": 1,
+      "message": "Maybe,\n\n\"Firewall settings have been moved to the new Firewall app. Tap to open.\"\n\nI\u0027d like to mention Datura but can\u0027t find a good way to put it in, given the launcher icon says Firewall.",
+      "parentUuid": "58c77afe_fc037b10",
+      "revId": "11c89ddc2d0fb030b03693480ab31c7b513074eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
