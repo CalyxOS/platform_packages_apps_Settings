@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c1fdc15_536d35d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-21T22:20:20Z",
+      "side": 1,
+      "message": "Kept \"Background data\" toggle our string change in given that it\u0027s an AOSP toggle, and the below toggle relies on it. ",
+      "revId": "c014e7dd4374843a6720bc6e1ad02089cf436636",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
