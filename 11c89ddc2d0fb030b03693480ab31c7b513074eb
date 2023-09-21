@@ -104,6 +104,24 @@
       "parentUuid": "58c77afe_fc037b10",
       "revId": "11c89ddc2d0fb030b03693480ab31c7b513074eb",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f20b8ba_54c97608",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-21T21:29:58Z",
+      "side": 1,
+      "message": "Done.\n\nIt mentions Datura above, so that\u0027s fine.",
+      "parentUuid": "803a3928_8e43f2c3",
+      "revId": "11c89ddc2d0fb030b03693480ab31c7b513074eb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
