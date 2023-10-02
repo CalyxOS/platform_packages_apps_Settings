@@ -1112,10 +1112,9 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
                             ? R.string.fingerprint_enroll_touch_dialog_message_front
                             : R.string.fingerprint_enroll_touch_dialog_message_rear);
 
-            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity(),
-                    R.style.Theme_AlertDialog);
-            builder.setTitle(R.string.security_settings_fingerprint_enroll_touch_dialog_title)
-                    .setMessage(fpsLocation)
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+            builder.setTitle(fpsLocation)
+                    .setMessage(R.string.security_settings_fingerprint_enroll_touch_dialog_message)
                     .setPositiveButton(R.string.security_settings_fingerprint_enroll_dialog_ok,
                             new DialogInterface.OnClickListener() {
                                 @Override
