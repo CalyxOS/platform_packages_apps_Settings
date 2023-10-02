@@ -128,7 +128,7 @@ public class FingerprintEnrollIntroduction extends BiometricEnrollIntroduction {
 
         final ScrollView scrollView = findViewById(R.id.sud_scroll_view);
         scrollView.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);
-
+        
         if (TextUtils.isEmpty(footerLink.getText())) {
             findViewById(R.id.layout_footer_learn_more).setVisibility(View.GONE);
         }
