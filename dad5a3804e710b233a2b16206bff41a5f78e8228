@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fb119e1_2b6eb47a",
+        "filename": "src/com/android/settings/biometrics/fingerprint/FingerprintEnrollEnrolling.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 1117,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-02T20:07:51Z",
+      "side": 1,
+      "message": "I think this may not be rebased properly...",
+      "revId": "dad5a3804e710b233a2b16206bff41a5f78e8228",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
