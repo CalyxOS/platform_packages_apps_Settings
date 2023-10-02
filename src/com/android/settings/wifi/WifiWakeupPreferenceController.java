@@ -89,13 +89,6 @@ public class WifiWakeupPreferenceController extends TogglePreferenceController i
 
     @Override
     public int getAvailabilityStatus() {
-        // Since mFragment is set only when entering Network preferences settings. So when
-        // mFragment == null, we can assume that the object is created by Search settings.
-        // When Search settings is called, if the dependent condition is not enabled, then
-        // return DISABLED_DEPENDENT_SETTING to hide the toggle.
-        if (mFragment == null && (!getLocationEnabled() || !getWifiScanningEnabled())) {
-            return DISABLED_DEPENDENT_SETTING;
-        }
         return mContext.getResources().getBoolean(R.bool.config_wifi_wakeup)
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
