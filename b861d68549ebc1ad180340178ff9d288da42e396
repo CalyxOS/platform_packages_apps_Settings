@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3585f49_32bea84d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-03T20:26:18Z",
+      "side": 1,
+      "message": "(I mean the original change is just not part of the rebase)",
+      "revId": "b861d68549ebc1ad180340178ff9d288da42e396",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
