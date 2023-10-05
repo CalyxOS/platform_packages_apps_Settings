@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dab22630_3421098d",
+        "filename": "src/com/android/settings/biometrics/fingerprint/FingerprintEnrollEnrolling.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 1116,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-05T20:32:13Z",
+      "side": 0,
+      "message": "Theme change looks ok, shouldn\u0027t undo that.",
+      "revId": "e8e979f70cedbb86281a2af2c357b9756d86dbfe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05b5852c_e647f0ed",
+        "filename": "src/com/android/settings/biometrics/fingerprint/FingerprintEnrollEnrolling.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 1118,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-05T20:32:13Z",
+      "side": 0,
+      "message": "This was intentional, see https://review.lineageos.org/c/LineageOS/android_packages_apps_Settings/+/336060/12/src/com/android/settings/biometrics/fingerprint/FingerprintEnrollEnrolling.java",
+      "revId": "e8e979f70cedbb86281a2af2c357b9756d86dbfe",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
