@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b08bbd7_5d686eda",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-05T20:19:44Z",
+      "side": 1,
+      "message": "Yep, the mismatch is wrong / definitely bad conflict resolution when merging, and thus what you have in the rebase in the original commit would be right.",
+      "revId": "b3dc81ff917dae15edd8aa7309f567225a6f36ae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
