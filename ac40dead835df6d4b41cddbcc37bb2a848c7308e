@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88b7d3ed_b30fe640",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-11T13:41:27Z",
+      "side": 1,
+      "message": "Crashing. See https://gitlab.com/CalyxOS/calyxos/-/issues/1897",
+      "revId": "ac40dead835df6d4b41cddbcc37bb2a848c7308e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
