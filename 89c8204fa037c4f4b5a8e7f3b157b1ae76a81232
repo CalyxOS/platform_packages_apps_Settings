@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ae90878_601dc82f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-11T17:26:04Z",
+      "side": 1,
+      "message": "Merged upstream, thus the only change being string",
+      "revId": "89c8204fa037c4f4b5a8e7f3b157b1ae76a81232",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
