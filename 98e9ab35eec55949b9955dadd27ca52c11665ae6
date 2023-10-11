@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7cf5421_d714bfad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-11T16:09:34Z",
+      "side": 1,
+      "message": "Actual feature doesn\u0027t work yet but setting should be fine.",
+      "revId": "98e9ab35eec55949b9955dadd27ca52c11665ae6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
