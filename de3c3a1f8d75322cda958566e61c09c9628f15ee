@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e207daa_36202caa",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-11T18:17:05Z",
+      "side": 1,
+      "message": "I don\u0027t see tap to wake there on bluejay",
+      "revId": "de3c3a1f8d75322cda958566e61c09c9628f15ee",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
