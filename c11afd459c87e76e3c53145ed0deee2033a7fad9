@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac304908_3b2a3721",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-11T16:19:06Z",
+      "side": 1,
+      "message": "Some glitches, but mostly ok",
+      "revId": "c11afd459c87e76e3c53145ed0deee2033a7fad9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
