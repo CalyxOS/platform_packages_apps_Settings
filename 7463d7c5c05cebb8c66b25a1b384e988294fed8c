@@ -16,6 +16,24 @@
       "message": "Bad rebase? Only has strings",
       "revId": "7463d7c5c05cebb8c66b25a1b384e988294fed8c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc93205e_ec6c7db4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-10-11T16:43:52Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/21659",
+      "parentUuid": "a320162b_0a3b0ed3",
+      "revId": "7463d7c5c05cebb8c66b25a1b384e988294fed8c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
