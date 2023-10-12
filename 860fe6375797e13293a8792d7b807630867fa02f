@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d34bbd6_915e5ddc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-12T21:13:51Z",
+      "side": 1,
+      "message": "Needs co-authroship / squashed commit info, 21648: Settings: appinfo: Show warning when hiding/unhiding the app | https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/21648",
+      "revId": "860fe6375797e13293a8792d7b807630867fa02f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
