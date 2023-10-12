@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10ce602f_a6590f2e",
+        "filename": "src/com/android/settings/spa/app/AllAppList.kt",
+        "patchSetId": 10
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-10-12T21:28:03Z",
+      "side": 1,
+      "message": "Do we want hidden apps to show under \"Installed apps\"? Not sure what makes sense from user perspective. It is technically still installed but pretending to be uninstalled. Disabled apps don\u0027t show under that section for example (even though they also are technically still installed)",
+      "range": {
+        "startLine": 122,
+        "startChar": 12,
+        "endLine": 122,
+        "endChar": 79
+      },
+      "revId": "8e32ff84396103735063416b95e4b32a242023f6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
