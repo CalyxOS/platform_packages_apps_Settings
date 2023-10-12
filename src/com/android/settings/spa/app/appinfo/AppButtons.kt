@@ -54,6 +54,7 @@ private class AppButtonsPresenter(
     private val appForceStopButton = AppForceStopButton(packageInfoPresenter)
     private val appArchiveButton = AppArchiveButton(packageInfoPresenter)
     private val appRestoreButton = AppRestoreButton(packageInfoPresenter)
+    private val appHideButton = AppHideButton(packageInfoPresenter)
 
     @Composable
     fun getActionButtons() =
@@ -77,5 +78,6 @@ private class AppButtonsPresenter(
         appUninstallButton.getActionButton(app),
         appClearButton.getActionButton(app),
         appForceStopButton.getActionButton(app),
+        appHideButton.getActionButton(app),
     )
 }
