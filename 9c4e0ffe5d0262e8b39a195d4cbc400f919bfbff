@@ -16,6 +16,24 @@
       "message": "Squashed",
       "revId": "9c4e0ffe5d0262e8b39a195d4cbc400f919bfbff",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd3aab02_5959b364",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-12T21:13:54Z",
+      "side": 1,
+      "message": "Please don\u0027t squash changes without having authorship / original commit info.",
+      "parentUuid": "95842b8c_491d1fc3",
+      "revId": "9c4e0ffe5d0262e8b39a195d4cbc400f919bfbff",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
