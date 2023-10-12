@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f0f9daa_21ea9327",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-12T01:30:20Z",
+      "side": 1,
+      "message": "Hold, AOSP has this now apparently.\n\nCan just skip, keep open for now and figure out what to do later.",
+      "revId": "e340d22f4b1bb74f349240800db36e02d573c7db",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
