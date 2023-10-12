@@ -16,6 +16,24 @@
       "message": "I don\u0027t see it",
       "revId": "cb36811ed41b6176e4270dafb984a48c60c974d5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8e838fa_ed9909cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-12T19:35:51Z",
+      "side": 1,
+      "message": "The setting is present, can be toggled, but I don\u0027t see the tile",
+      "parentUuid": "1d00695c_283cdf3d",
+      "revId": "cb36811ed41b6176e4270dafb984a48c60c974d5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
