@@ -63,6 +63,24 @@
       "message": "Doesn\u0027t exist",
       "revId": "8e32ff84396103735063416b95e4b32a242023f6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb9fc5dc_4fdc517a",
+        "filename": "src/com/android/settings/spa/app/AllAppList.kt",
+        "patchSetId": 10
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-13T17:04:27Z",
+      "side": 1,
+      "message": "It was in 21786: Hidden Apps filter for use in the Settings app | https://review.calyxos.org/c/CalyxOS/platform_frameworks_base/+/21786",
+      "parentUuid": "e0b0ae7b_f9f82438",
+      "revId": "8e32ff84396103735063416b95e4b32a242023f6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
