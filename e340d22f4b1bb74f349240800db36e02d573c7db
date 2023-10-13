@@ -16,6 +16,23 @@
       "message": "Hold, AOSP has this now apparently.\n\nCan just skip, keep open for now and figure out what to do later.",
       "revId": "e340d22f4b1bb74f349240800db36e02d573c7db",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cafbc3b_83ec44aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-10-13T20:36:50Z",
+      "side": 1,
+      "message": "In favour of abandoning this for the AOSP implementation. Only thing to consider is migration step to reset to default list",
+      "revId": "e340d22f4b1bb74f349240800db36e02d573c7db",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
