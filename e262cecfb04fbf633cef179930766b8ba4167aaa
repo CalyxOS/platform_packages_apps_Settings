@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a07205d3_625ce193",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 864,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-14T15:44:03Z",
+      "side": 0,
+      "message": "Cannot modify AOSP strings, we\u0027ll have mismatching translations. Copy string, add _calyx, then use that.",
+      "revId": "e262cecfb04fbf633cef179930766b8ba4167aaa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d035978_e832d1b6",
+        "filename": "res/xml/security_settings_combined_biometric.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-14T15:44:03Z",
+      "side": 0,
+      "message": "If the intro just doesn\u0027t show it\u0027s ok to leave it in to avoid unnecessary merge conflicts.",
+      "revId": "e262cecfb04fbf633cef179930766b8ba4167aaa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
