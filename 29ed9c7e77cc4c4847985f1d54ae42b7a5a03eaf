@@ -34,6 +34,24 @@
       "parentUuid": "7db51cf0_de70ad66",
       "revId": "29ed9c7e77cc4c4847985f1d54ae42b7a5a03eaf",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83de22dc_06c227ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-14T16:00:56Z",
+      "side": 1,
+      "message": "On another test, it works fine. I rewrote the commit message.",
+      "parentUuid": "43906382_1c97d5ae",
+      "revId": "29ed9c7e77cc4c4847985f1d54ae42b7a5a03eaf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
