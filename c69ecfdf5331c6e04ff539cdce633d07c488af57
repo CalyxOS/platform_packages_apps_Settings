@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8752997_709f8461",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T15:45:43Z",
+      "side": 1,
+      "message": "Overall looks good and seems to work!",
+      "revId": "c69ecfdf5331c6e04ff539cdce633d07c488af57",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edb3346e_ae250483",
+        "filename": "src/com/android/settings/spa/app/AllAppList.kt",
+        "patchSetId": 15
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T15:45:43Z",
+      "side": 1,
+      "message": "Nit: Let\u0027s group them like this, for clarity if nothing else: `(it.app.privateFlags and ApplicationInfo.PRIVATE_FLAG_HIDDEN) !\u003d 0`\n\nOtherwise, it *looks* like it could be misinterpreted as \"if there are any privateFlags, and if the constant PRIVATE_FLAG_HIDDEN is different than 0\", which is not what we want (and seemingly not what it actually does, but it\u0027s possibly confusing).\n\nIdeally there would be a `hasPrivateFlag` method we could use instead, just like hasFlag here, but there isn\u0027t and it may be overkill to add one: https://cs.android.com/android/platform/superproject/+/android-14.0.0_r1:frameworks/base/packages/SettingsLib/SpaPrivileged/src/com/android/settingslib/spaprivileged/model/app/ApplicationInfos.kt;l\u003d36\n\n^ As you can see there, they use parentheses when grouping `(flags and flag) \u003e 0` (also, yes, oddly, using `\u003e 0`); let\u0027s at least use parentheses though.",
+      "revId": "c69ecfdf5331c6e04ff539cdce633d07c488af57",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
