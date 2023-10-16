@@ -51,6 +51,24 @@
       "parentUuid": "2cafbc3b_83ec44aa",
       "revId": "e340d22f4b1bb74f349240800db36e02d573c7db",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e42a0de_2bda7f40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T16:26:33Z",
+      "side": 1,
+      "message": "Also note that NFC *used* to be part of the default airplane_mode_radios, but it isn\u0027t anymore: https://cs.android.com/android/_/android/platform/frameworks/base/+/96cfda772b126e7ba55ff07d2f98bc91ac6cea77\n\nSo it functions fine in airplane mode out of the box (verified).",
+      "parentUuid": "163aa7ca_9b1db84c",
+      "revId": "e340d22f4b1bb74f349240800db36e02d573c7db",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
