@@ -16,6 +16,24 @@
       "message": "As far as I could tell, there\u0027s no app list sorting equivalent in SPA at this time and I\u0027m unsure it is worth implementing and maintain ourselves",
       "revId": "83fe5df8806a5316435de34ac67e4e4c5d3b2266",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9ed80b5_7406fb91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T16:33:07Z",
+      "side": 1,
+      "message": "I agree; since there\u0027s an alternative (listed in commit message) that still works, and the sorting feature in this section is otherwise removed, let\u0027s skip this.",
+      "parentUuid": "0bda6f48_438a2774",
+      "revId": "83fe5df8806a5316435de34ac67e4e4c5d3b2266",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
