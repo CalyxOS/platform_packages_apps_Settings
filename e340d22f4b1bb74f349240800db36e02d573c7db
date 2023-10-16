@@ -33,6 +33,24 @@
       "message": "In favour of abandoning this for the AOSP implementation. Only thing to consider is migration step to reset to default list",
       "revId": "e340d22f4b1bb74f349240800db36e02d573c7db",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "163aa7ca_9b1db84c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T16:22:53Z",
+      "side": 1,
+      "message": "Does this plan sound good to everybody then? Do we want to add a migration to set airplane_mode_radios to their default values into e.g. calyx-sdk?",
+      "parentUuid": "2cafbc3b_83ec44aa",
+      "revId": "e340d22f4b1bb74f349240800db36e02d573c7db",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
