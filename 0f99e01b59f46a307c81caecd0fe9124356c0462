@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "494808dd_d486e0b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T16:44:10Z",
+      "side": 1,
+      "message": "Not needed with Safety Center (combined Security \u0026 Privacy), so not needed.\n\nSafety Center *can* still be turned off via adb in 14, which causes this to be an issue again, but who\u0027s going to do that?",
+      "revId": "0f99e01b59f46a307c81caecd0fe9124356c0462",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
