@@ -16,6 +16,24 @@
       "message": "Crashing. See https://gitlab.com/CalyxOS/calyxos/-/issues/1897",
       "revId": "ac40dead835df6d4b41cddbcc37bb2a848c7308e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecfef717_27014e58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T17:22:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88b7d3ed_b30fe640",
+      "revId": "ac40dead835df6d4b41cddbcc37bb2a848c7308e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

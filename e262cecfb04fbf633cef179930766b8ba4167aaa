@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7ae65eb_cd1319be",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 864,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T17:22:39Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "a07205d3_625ce193",
+      "revId": "e262cecfb04fbf633cef179930766b8ba4167aaa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2d035978_e832d1b6",
@@ -49,6 +67,24 @@
       "side": 0,
       "message": "The intro does show and contains information that only applies to devices with both face and fingerprint unlock. Easiest solution is to remove this section",
       "parentUuid": "2d035978_e832d1b6",
+      "revId": "e262cecfb04fbf633cef179930766b8ba4167aaa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74703e93_dde40f70",
+        "filename": "res/xml/security_settings_combined_biometric.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-16T17:22:39Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "35fe0bde_c1c16661",
       "revId": "e262cecfb04fbf633cef179930766b8ba4167aaa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
