@@ -33,6 +33,24 @@
       "message": "If the intro just doesn\u0027t show it\u0027s ok to leave it in to avoid unnecessary merge conflicts.",
       "revId": "e262cecfb04fbf633cef179930766b8ba4167aaa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35fe0bde_c1c16661",
+        "filename": "res/xml/security_settings_combined_biometric.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-10-16T15:10:47Z",
+      "side": 0,
+      "message": "The intro does show and contains information that only applies to devices with both face and fingerprint unlock. Easiest solution is to remove this section",
+      "parentUuid": "2d035978_e832d1b6",
+      "revId": "e262cecfb04fbf633cef179930766b8ba4167aaa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
