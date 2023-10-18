@@ -32,7 +32,7 @@
     <string name="wifi_timeout_summary">Отключать Wi-Fi через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключения</string>
     <string name="wifi_timeout">Отключать Wi-Fi автоматически</string>
     <string name="data_usage_app_restrict_background_all_summary">Включить передачу данных в фоновом режиме</string>
-    <string name="device_reboot_timeout_title">Автоматическая перезагрузка</string>
+    <string name="device_reboot_timeout_title">Автоматический перезапуск</string>
     <string name="device_reboot_timeout_summary2">Устройство не будет автоматически перезагружаться</string>
     <string name="timeout_summary_72hours">72 часа</string>
     <string name="timeout_summary_12hours">12 часов</string>
@@ -65,4 +65,16 @@
     <string name="unhide_app">Показать приложение</string>
     <string name="captive_portal_title">Проверка подключения</string>
     <string name="hide_app_desc">Если вы скроете это приложение, оно не будет видно Android и другим приложениям, и они могут перестать работать правильно. Помните, что скрытие приложения сохраняет его данные. Скрывая, вы отключаете это приложение и прячете его на своем устройстве.</string>
+    <string name="bugreport_summary">Создать отчет об ошибке</string>
+    <string name="unhide_app_desc">Если вы откроете это приложение, оно будет снова видно для Android и других приложений.</string>
+    <string name="keychords_summary_adb_enabled">Всегда включен, когда отладка включена</string>
+    <string name="captive_portal_summary">Проверьте, может ли устройство подключиться к Интернету, обратившись к Google. Также используется для обнаружения порталов присоединения.</string>
+    <string name="other_settings">Другие опции</string>
+    <string name="assisted_gps_summary">Загрузите данные спутниковой помощи из Интернета, что может значительно улучшить производительность запуска GPS. Для экстренных вызовов всегда разрешено использование GPS.</string>
+    <string name="biometric_settings_category_ways_to_use">Способы использования</string>
+    <string name="keychords_summary">Сделать отчет об ошибке, удерживая одновременно кнопки увеличения громкости, уменьшения громкости и питания, даже если устройство заблокировано</string>
+    <string name="quick_settings">Быстрая настройка</string>
+    <string name="keychords_title">Комбинация кнопок уведомления об ошибке</string>
+    <string name="view_bugreports_summary_not_developer">После просмотра все отчеты об ошибках будут доступны до перезапуска устройства</string>
+    <string name="view_bugreports_title">Просмотр отчетов об ошибках</string>
 </resources>

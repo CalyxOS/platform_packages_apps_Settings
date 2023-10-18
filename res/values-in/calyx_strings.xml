@@ -41,4 +41,5 @@
     <string name="device_reboot_timeout_summary">Perangkat akan secara otomatis memulai ulang jika belum dibuka dalam<xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="timeout_summary_48hours">48 jam</string>
     <string name="timeout_summary_72hours">72 jam</string>
+    <string name="airplane_mode_radios_title">Radio mode pesawat</string>
 </resources>
