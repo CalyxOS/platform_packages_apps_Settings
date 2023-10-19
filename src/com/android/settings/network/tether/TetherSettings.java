@@ -158,6 +158,8 @@ public class TetherSettings extends RestrictedDashboardFragment
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        // Even when the UI is restricted, addPreferencesFromResource cannot be omitted.
+        addPreferencesFromResource(R.xml.tether_prefs);
         setIfOnlyAvailableForAdmins(true);
         if (isUiRestricted()) {
             return;
