@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92e5cd46_a23d8372",
+        "filename": "src/com/android/settings/accounts/CrossProfileCalendarPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-24T20:56:11Z",
+      "side": 1,
+      "message": "`mManagedProfile` is allowed to be `null` already, so `@NotNull` doesn\u0027t really seem necessary.\n\nApart from that, I don\u0027t think annotations like `@NotNull` actually guarantee anything at runtime, so to throw an exception, we\u0027d still need to wrap assignments in `Objects.requireNonNull()`. The use of `@NotNull` and `@NonNull` is hit or miss across Android, and there\u0027s likely a lot of revisiting to be done by the AOSP team in the future, so we don\u0027t necessarily need to be the ones to break the mold here by using it.",
+      "revId": "549e24757e6493bb936e39fd13475e6227fac812",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
