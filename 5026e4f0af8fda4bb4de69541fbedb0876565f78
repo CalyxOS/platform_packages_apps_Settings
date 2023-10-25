@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1f8e6ad_96de66ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-25T13:31:22Z",
+      "side": 1,
+      "message": "I marked this as a fixup, but to work properly, it would also require the \"Add toggle for share intents across profiles\" change to be moved above \"Fix work profile settings with multiple profiles\" in the relation chain.",
+      "revId": "5026e4f0af8fda4bb4de69541fbedb0876565f78",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
