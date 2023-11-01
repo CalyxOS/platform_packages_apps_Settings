@@ -92,6 +92,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bd3f61d5_a5deaeb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-01T21:42:00Z",
+      "side": 1,
+      "message": "I still stand by what\u0027s in the linked issue comment. Have 2 options\n\n\"1. You can configure it not pause the entire work profile, but show a notification to do so at the end\" -\u003e What I meant earlier when I said \"That\u0027d be part 1 from\"\n\n2. You can configure it to suspend and then show a notification \"hey, profile paused\" -\u003e What I meant when I said \"part 2 remains\"\n\nAny reason not to do it that way? The notification for 2 could be shown before hand too, that should be easy enough. The toggle would just decide if\n\n1. You ask the user to tap to stop the work profile\n2. You let the user know that the system stopped the work profile already.",
+      "parentUuid": "bab67e93_0fa932ac",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6bc8582e_9ce4991a",
         "filename": "AndroidManifest.xml",
         "patchSetId": 16
