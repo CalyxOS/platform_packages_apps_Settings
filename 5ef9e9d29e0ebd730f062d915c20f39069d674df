@@ -110,6 +110,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8d8e5ae7_a4a02318",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-01T22:02:58Z",
+      "side": 1,
+      "message": "In the interest of moving forward and not getting too lost in the sauce, would it be reasonable to use this change, aka part 1, as-is (since it does work) and address option 2 in a separate change? Seems like this might be more manageable for everybody that way. What do you think?",
+      "parentUuid": "bd3f61d5_a5deaeb1",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6bc8582e_9ce4991a",
         "filename": "AndroidManifest.xml",
         "patchSetId": 16
