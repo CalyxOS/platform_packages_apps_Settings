@@ -126,6 +126,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d08db5eb_b4b4deb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T12:24:43Z",
+      "side": 1,
+      "message": "Certainly.\n\nThe default would anyways be the less aggressive option 1 anyways.\n\nFor option 2, a standalone toggle (or whatever other way we figure out) could be added later.",
+      "parentUuid": "8d8e5ae7_a4a02318",
+      "revId": "5ef9e9d29e0ebd730f062d915c20f39069d674df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6bc8582e_9ce4991a",
