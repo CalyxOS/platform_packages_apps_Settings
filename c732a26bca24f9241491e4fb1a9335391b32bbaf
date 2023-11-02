@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35b5d387_6324417d",
+        "filename": "src/com/android/settings/biometrics/fingerprint/FingerprintSettings.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 852,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-11-02T00:39:29Z",
+      "side": 1,
+      "message": "Note: we can\u0027t use mFingerprintWakeAndUnlock since it isn\u0027t initialized when this function is called externally.",
+      "revId": "c732a26bca24f9241491e4fb1a9335391b32bbaf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
