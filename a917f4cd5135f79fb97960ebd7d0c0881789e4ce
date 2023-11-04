@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ae4a04a_c109ff31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-11-04T18:18:23Z",
+      "side": 1,
+      "message": "This is still needed for moto sm6225 that has disabled A2DP offload for now.",
+      "revId": "a917f4cd5135f79fb97960ebd7d0c0881789e4ce",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
