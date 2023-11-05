@@ -203,6 +203,7 @@ public class FingerprintSettings extends SubSettings {
         private PreferenceCategory mFingerprintsEnrolledCategory;
         private PreferenceCategory mFingerprintUnlockCategory;
         private PreferenceCategory mFingerprintUnlockFooter;
+        private boolean mFingerprintWakeAndUnlock;
 
         private FingerprintManager mFingerprintManager;
         private FingerprintUpdater mFingerprintUpdater;
@@ -284,7 +285,7 @@ public class FingerprintSettings extends SubSettings {
                     case MSG_REFRESH_FINGERPRINT_TEMPLATES:
                         removeFingerprintPreference(msg.arg1);
                         updateAddPreference();
-                        if (isSfps()) {
+                        if (!isUdfps() && mFingerprintWakeAndUnlock) {
                             updateFingerprintUnlockCategoryVisibility();
                         }
                         updatePreferences();
@@ -374,6 +375,8 @@ public class FingerprintSettings extends SubSettings {
             mFingerprintManager = Utils.getFingerprintManagerOrNull(activity);
             mFingerprintUpdater = new FingerprintUpdater(activity, mFingerprintManager);
             mSensorProperties = mFingerprintManager.getSensorPropertiesInternal();
+            mFingerprintWakeAndUnlock = getContext().getResources().getBoolean(
+                    org.lineageos.platform.internal.R.bool.config_fingerprintWakeAndUnlock);
 
             mToken = getIntent().getByteArrayExtra(
                     ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN);
@@ -486,9 +489,13 @@ public class FingerprintSettings extends SubSettings {
         }
 
         private boolean isUdfps() {
-            for (FingerprintSensorPropertiesInternal prop : mSensorProperties) {
-                if (prop.isAnyUdfpsType()) {
-                    return true;
+            mFingerprintManager = Utils.getFingerprintManagerOrNull(getActivity());
+            if (mFingerprintManager != null) {
+                mSensorProperties = mFingerprintManager.getSensorPropertiesInternal();
+                for (FingerprintSensorPropertiesInternal prop : mSensorProperties) {
+                    if (prop.isAnyUdfpsType()) {
+                        return true;
+                    }
                 }
             }
             return false;
@@ -534,7 +541,7 @@ public class FingerprintSettings extends SubSettings {
 
         private void addFingerprintPreferences(PreferenceGroup root) {
             final String fpPrefKey = addFingerprintItemPreferences(root);
-            if (isSfps()) {
+            if (!isUdfps() && mFingerprintWakeAndUnlock) {
                 scrollToPreference(fpPrefKey);
                 addFingerprintUnlockCategory();
             }
@@ -843,7 +850,8 @@ public class FingerprintSettings extends SubSettings {
 
         private List<AbstractPreferenceController> buildPreferenceControllers(Context context) {
             final List<AbstractPreferenceController> controllers = new ArrayList<>();
-            if (isSfps()) {
+            if (!isUdfps() && context.getResources().getBoolean(
+                    org.lineageos.platform.internal.R.bool.config_fingerprintWakeAndUnlock)) {
                 mFingerprintUnlockCategoryPreferenceController =
                     new FingerprintUnlockCategoryController(
                         context,
