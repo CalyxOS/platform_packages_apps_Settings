@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5641cf72_55555a3e",
+        "filename": "src/com/android/settings/accounts/ManagedProfileSettings.java",
+        "patchSetId": 21
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-11-09T19:56:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "77d83437_7aa20df2",
+      "revId": "b3fb15a20e98443d9a104b6a2857ffff5ab8e0d7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1014895_61738a89",
@@ -35,6 +53,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6e00525_963e05f5",
+        "filename": "src/com/android/settings/accounts/WorkHoursPreferenceController.java",
+        "patchSetId": 21
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-11-09T19:56:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1014895_61738a89",
+      "revId": "b3fb15a20e98443d9a104b6a2857ffff5ab8e0d7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9b267b6b_5e37553f",
@@ -48,6 +84,24 @@
       "writtenOn": "2023-11-02T12:26:20Z",
       "side": 1,
       "message": "Missing copyright",
+      "revId": "b3fb15a20e98443d9a104b6a2857ffff5ab8e0d7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e24b75b3_648102d7",
+        "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
+        "patchSetId": 21
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2023-11-09T19:56:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b267b6b_5e37553f",
       "revId": "b3fb15a20e98443d9a104b6a2857ffff5ab8e0d7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
