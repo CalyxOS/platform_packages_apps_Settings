@@ -33,6 +33,24 @@
       "message": "Changes weren\u0027t picked on android14, so not applicable",
       "revId": "b83401054e25613a38fc1b89555de36cb6c3ae3d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "521e51a1_878e07d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-11-16T12:37:34Z",
+      "side": 1,
+      "message": "Ignore, still applicable",
+      "parentUuid": "bc00bf47_96e9859b",
+      "revId": "b83401054e25613a38fc1b89555de36cb6c3ae3d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
