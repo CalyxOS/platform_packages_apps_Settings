@@ -16,6 +16,23 @@
       "message": "This is fine either way, but it\u0027d be good to point people to the app given we\u0027ve started making it nicer.",
       "revId": "b83401054e25613a38fc1b89555de36cb6c3ae3d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc00bf47_96e9859b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-11-16T12:28:17Z",
+      "side": 1,
+      "message": "Changes weren\u0027t picked on android14, so not applicable",
+      "revId": "b83401054e25613a38fc1b89555de36cb6c3ae3d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
