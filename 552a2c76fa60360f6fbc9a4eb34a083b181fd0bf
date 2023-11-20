@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9635187b_5ea8531a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-20T16:31:04Z",
+      "side": 1,
+      "message": "In case anyone wonders why I renamed ManagedUser to ManagedProfile in some places, it\u0027s because AOSP has already partially removed ManagedUser from some of these files, and I suspect that unless they decide to support multiple managed profiles upstream (can\u0027t rely on that), they are going to remove the spots they missed in the future anyway. So we may as well use more sensible language now.",
+      "revId": "552a2c76fa60360f6fbc9a4eb34a083b181fd0bf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
