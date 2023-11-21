@@ -16,6 +16,24 @@
       "message": "The Datura link from App info in a work profile crashes Settings, since the work profile doesn\u0027t have its own instance of Datura and this doesn\u0027t attempt to open it in the parent.\n\n`E AndroidRuntime: android.content.ActivityNotFoundException: Unable to find explicit activity class {org.calyxos.datura/org.calyxos.datura.main.MainActivity}; have you declared this activity in your AndroidManifest.xml, or does your intent not match its declared \u003cintent-filter\u003e?`",
       "revId": "283f6eba781e89a350c59795283aae65f2bc44a2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34ea4f27_3009ec25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-21T17:15:10Z",
+      "side": 1,
+      "message": "I don\u0027t know of a quick way to solve that :/",
+      "parentUuid": "355bc74c_ff14d6d8",
+      "revId": "283f6eba781e89a350c59795283aae65f2bc44a2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
