@@ -16,6 +16,23 @@
       "message": "In case anyone wonders why I renamed ManagedUser to ManagedProfile in some places, it\u0027s because AOSP has already partially removed ManagedUser from some of these files, and I suspect that unless they decide to support multiple managed profiles upstream (can\u0027t rely on that), they are going to remove the spots they missed in the future anyway. So we may as well use more sensible language now.",
       "revId": "552a2c76fa60360f6fbc9a4eb34a083b181fd0bf",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9bc1af2_66af5dcf",
+        "filename": "src/com/android/settings/accounts/ManagedProfileSettings.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-21T15:00:30Z",
+      "side": 1,
+      "message": "As Oliver pointed out elsewhere, these `use` statements (and the whole gist of this change) are from pre-14 AOSP, known to work there and shown to work here, too.",
+      "revId": "552a2c76fa60360f6fbc9a4eb34a083b181fd0bf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
