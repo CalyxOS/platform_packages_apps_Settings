@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30d0d577_df40826d",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 27
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-28T22:13:22Z",
+      "side": 1,
+      "message": "s/pause/turn off/",
+      "revId": "fe814675c8d60c213921c88d17bd4577f3416b1e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
