@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "8fbd8822_6dafe06e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-28T22:09:02Z",
+      "side": 1,
+      "message": "I feel like we could drop the AOSP \"Background network access\" toggle too, but that\u0027s a separate change.",
+      "revId": "afa69900d3717ff12af3c8135c6099f06dba83c4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "0b9e30fa_afc443dd",
         "filename": "src/com/android/settings/datausage/AppDataUsage.java",
         "patchSetId": 10
