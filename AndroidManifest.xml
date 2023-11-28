@@ -6294,6 +6294,14 @@
             </intent-filter>
         </service>
 
+        <receiver android:name=".users.UserTimeoutReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_TIMEOUT"/>
+            </intent-filter>
+        </receiver>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
 
     </application>
