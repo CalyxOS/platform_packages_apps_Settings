@@ -16,6 +16,24 @@
       "message": "If handled on the Datura side (currently isn\u0027t), Datura could use the extra Intent.EXTRA_UID value (when present) to scroll to the particular UID\u0027s settings, to make this more convenient for users. But if it\u0027s not handled, it\u0027s just a no-op, which is fine.",
       "revId": "afa69900d3717ff12af3c8135c6099f06dba83c4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a26a189_5a5d6110",
+        "filename": "src/com/android/settings/datausage/AppDataUsage.java",
+        "patchSetId": 10
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-28T19:29:22Z",
+      "side": 1,
+      "message": "😎",
+      "parentUuid": "0b9e30fa_afc443dd",
+      "revId": "afa69900d3717ff12af3c8135c6099f06dba83c4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
