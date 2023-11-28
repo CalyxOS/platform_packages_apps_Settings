@@ -157,4 +157,11 @@
     <!-- App data usage Datura Firewall link -->
     <string name="data_usage_app_datura_firewall">Datura Firewall</string>
     <string name="data_usage_app_datura_firewall_summary">Firewall settings have been moved to the new Firewall app. Tap to open.</string>
+
+    <!-- Work profile settings screen, setting option to change profile timeout -->
+    <string name="work_hours_title">Work hours</string>
+    <string name="work_hours_end_on_summary">Show a notification to turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
+    <string name="work_hours_end_off_summary">Show a daily notification to turn off the work profile</string>
+    <string name="work_hours_end_notification_title">End of work day</string>
+    <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
 </resources>
