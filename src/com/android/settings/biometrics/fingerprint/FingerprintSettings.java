@@ -471,7 +471,7 @@ public class FingerprintSettings extends SubSettings {
                 column2.mTitle = getText(
                         R.string.security_fingerprint_disclaimer_lockscreen_disabled_2
                 );
-                if (isSfps()) {
+                if (isSfps() && mFingerprintWakeAndUnlock) {
                     column2.mLearnMoreOverrideText = getText(
                             R.string.security_settings_fingerprint_settings_footer_learn_more);
                 }
@@ -553,7 +553,7 @@ public class FingerprintSettings extends SubSettings {
             // This needs to be after setting ids, otherwise
             // |mRequireScreenOnToAuthPreferenceController.isChecked| is always checking the primary
             // user instead of the user with |mUserId|.
-            if (isSfps()) {
+            if (isSfps() && mFingerprintWakeAndUnlock) {
                 scrollToPreference(fpPrefKey);
                 addFingerprintUnlockCategory();
             }
