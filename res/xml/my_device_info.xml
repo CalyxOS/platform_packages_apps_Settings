@@ -156,7 +156,7 @@
         <!-- Battery information -->
         <Preference
             android:key="battery_info"
-            android:order="43"
+            android:order="44"
             android:title="@string/battery_info"
             android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
             settings:keywords="@string/keywords_battery_info"/>
