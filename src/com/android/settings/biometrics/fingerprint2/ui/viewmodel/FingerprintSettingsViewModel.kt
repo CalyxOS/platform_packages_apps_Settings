@@ -260,13 +260,15 @@ class FingerprintSettingsViewModel(
     val maxFingerprints = fingerprintManagerInteractor.maxEnrollableFingerprints.last()
     val hasSideFps = fingerprintManagerInteractor.hasSideFps()
     val pressToAuthEnabled = fingerprintManagerInteractor.pressToAuthEnabled()
+    val pressToAuthSupported = fingerprintManagerInteractor.pressToAuthSupported()
     _fingerprintStateViewModel.update {
       FingerprintStateViewModel(
         fingerprints,
         canEnrollFingerprint,
         maxFingerprints,
         hasSideFps,
-        pressToAuthEnabled
+        pressToAuthEnabled,
+        pressToAuthSupported
       )
     }
   }

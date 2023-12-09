@@ -78,6 +78,9 @@ interface FingerprintManagerInteractor {
   /** Indicates if the press to auth feature has been enabled */
   suspend fun pressToAuthEnabled(): Boolean
 
+  /** Indicates if the press to auth feature is supported */
+  suspend fun pressToAuthSupported(): Boolean
+
   /** Retrieves the sensor properties of a device */
   suspend fun sensorPropertiesInternal(): List<FingerprintSensorPropertiesInternal>
 }
@@ -93,6 +96,10 @@ class FingerprintManagerInteractorImpl(
   private val maxFingerprints =
     applicationContext.resources.getInteger(
       com.android.internal.R.integer.config_fingerprintMaxTemplatesPerUser
+    )
+  private val pressToAuthSupported =
+    applicationContext.resources.getBoolean(
+      org.lineageos.platform.internal.R.bool.config_fingerprintWakeAndUnlock
     )
   private val applicationContext = applicationContext.applicationContext
 
@@ -163,6 +170,10 @@ class FingerprintManagerInteractorImpl(
 
   override suspend fun pressToAuthEnabled(): Boolean = suspendCancellableCoroutine {
     it.resume(pressToAuthProvider())
+  }
+
+  override suspend fun pressToAuthSupported(): Boolean = suspendCancellableCoroutine {
+    it.resume(pressToAuthSupported)
   }
 
   override suspend fun sensorPropertiesInternal(): List<FingerprintSensorPropertiesInternal> =

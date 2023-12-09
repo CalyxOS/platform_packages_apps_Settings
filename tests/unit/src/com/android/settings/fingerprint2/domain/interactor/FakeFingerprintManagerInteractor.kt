@@ -33,6 +33,7 @@ class FakeFingerprintManagerInteractor : FingerprintManagerInteractor {
   var challengeToGenerate: Pair<Long, ByteArray> = Pair(-1L, byteArrayOf())
   var authenticateAttempt = FingerprintAuthAttemptViewModel.Success(1)
   var pressToAuthEnabled = true
+  var pressToAuthSupported = true
 
   var sensorProps =
     listOf(
@@ -75,6 +76,10 @@ class FakeFingerprintManagerInteractor : FingerprintManagerInteractor {
 
   override suspend fun pressToAuthEnabled(): Boolean {
     return pressToAuthEnabled
+  }
+
+  override suspend fun pressToAuthSupported(): Boolean {
+    return pressToAuthSupported
   }
 
   override suspend fun sensorPropertiesInternal(): List<FingerprintSensorPropertiesInternal> =

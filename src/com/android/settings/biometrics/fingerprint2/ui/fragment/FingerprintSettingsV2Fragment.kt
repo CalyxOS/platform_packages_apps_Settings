@@ -203,7 +203,9 @@ class FingerprintSettingsV2Fragment :
         if (toReturn == -1) {
           toReturn =
             if (
-              context.resources.getBoolean(com.android.internal.R.bool.config_performantAuthDefault)
+              context.resources.getBoolean(
+                org.lineageos.platform.internal.R.bool.config_fingerprintWakeAndUnlock
+              )
             ) {
               1
             } else {
@@ -329,7 +331,7 @@ class FingerprintSettingsV2Fragment :
         as PreferenceCategory?
     sideFpsPref?.isVisible = false
 
-    if (state.hasSideFps) {
+    if (state.hasSideFps && state.pressToAuthSupported) {
       sideFpsPref?.isVisible = state.fingerprintViewModels.isNotEmpty()
       val otherPref =
         this@FingerprintSettingsV2Fragment.findPreference(
@@ -337,7 +339,7 @@ class FingerprintSettingsV2Fragment :
         ) as Preference?
       otherPref?.isVisible = state.fingerprintViewModels.isNotEmpty()
     }
-    addFooter(state.hasSideFps)
+    addFooter(state.hasSideFps, state.pressToAuthSupported)
   }
   private fun addFooter(hasSideFps: Boolean) {
     val footer =
@@ -378,7 +380,7 @@ class FingerprintSettingsV2Fragment :
       footerColumns.add(column1)
       val column2 = FooterColumn()
       column2.title = getText(R.string.security_fingerprint_disclaimer_lockscreen_disabled_2)
-      if (hasSideFps) {
+      if (hasSideFps && pressToAuthSupported) {
         column2.learnMoreOverrideText =
           getText(R.string.security_settings_fingerprint_settings_footer_learn_more)
       }
@@ -392,7 +394,7 @@ class FingerprintSettingsV2Fragment :
           DeviceHelper.getDeviceName(requireActivity())
         )
       column.learnMoreOnClickListener = learnMoreClickListener
-      if (hasSideFps) {
+      if (hasSideFps && pressToAuthSupported) {
         column.learnMoreOverrideText =
           getText(R.string.security_settings_fingerprint_settings_footer_learn_more)
       }

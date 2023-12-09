@@ -23,6 +23,7 @@ data class FingerprintStateViewModel(
   val maxFingerprints: Int,
   val hasSideFps: Boolean,
   val pressToAuth: Boolean,
+  val pressToAuthSupported: Boolean,
 )
 
 data class FingerprintViewModel(
