@@ -72,8 +72,8 @@ interface FingerprintManagerInteractor {
   /** Renames the given fingerprint if one exists */
   suspend fun renameFingerprint(fp: FingerprintViewModel, newName: String)
 
-  /** Indicates if the device has side fingerprint */
-  suspend fun hasSideFps(): Boolean
+  /** Indicates if the device has under display fingerprint */
+  suspend fun hasUdfps(): Boolean
 
   /** Indicates if the press to auth feature has been enabled */
   suspend fun pressToAuthEnabled(): Boolean
@@ -164,8 +164,8 @@ class FingerprintManagerInteractorImpl(
     }
   }
 
-  override suspend fun hasSideFps(): Boolean = suspendCancellableCoroutine {
-    it.resume(fingerprintManager.isPowerbuttonFps)
+  override suspend fun hasUdfps(): Boolean = suspendCancellableCoroutine {
+    it.resume(fingerprintManager.sensorPropertiesInternal.any { it.isAnyUdfpsType })
   }
 
   override suspend fun pressToAuthEnabled(): Boolean = suspendCancellableCoroutine {

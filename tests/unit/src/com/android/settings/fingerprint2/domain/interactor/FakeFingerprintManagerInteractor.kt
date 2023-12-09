@@ -70,8 +70,8 @@ class FakeFingerprintManagerInteractor : FingerprintManagerInteractor {
 
   override suspend fun renameFingerprint(fp: FingerprintViewModel, newName: String) {}
 
-  override suspend fun hasSideFps(): Boolean {
-    return sensorProps.any { it.isAnySidefpsType }
+  override suspend fun hasUdFps(): Boolean {
+    return sensorProps.any { it.isAnyUdfpsType }
   }
 
   override suspend fun pressToAuthEnabled(): Boolean {
