@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "489404c7_435ba173",
+        "filename": "src/com/android/settings/biometrics/fingerprint/FingerprintSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 451,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-12-09T13:36:26Z",
+      "side": 1,
+      "message": "This check is done similarly to AOSP accessibility settings",
+      "revId": "bda6e73a1a84511ae77adffe2621c67d486abe51",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
