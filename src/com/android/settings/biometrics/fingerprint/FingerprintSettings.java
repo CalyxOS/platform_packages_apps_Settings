@@ -286,7 +286,7 @@ public class FingerprintSettings extends SubSettings {
                     case MSG_REFRESH_FINGERPRINT_TEMPLATES:
                         removeFingerprintPreference(msg.arg1);
                         updateAddPreference();
-                        if (!isUdfps() && mFingerprintWakeAndUnlock) {
+                        if (isSfps() && mFingerprintWakeAndUnlock) {
                             updateFingerprintUnlockCategoryVisibility();
                         }
                         updatePreferences();
@@ -479,7 +479,7 @@ public class FingerprintSettings extends SubSettings {
                         R.string.security_fingerprint_disclaimer_lockscreen_disabled_2
                 );
                 if (helpIntent != null) {
-                    if (!isUdfps() && mFingerprintWakeAndUnlock) {
+                    if (isSfps() && mFingerprintWakeAndUnlock) {
                         column2.mLearnMoreOverrideText = getText(
                                 R.string.security_settings_fingerprint_settings_footer_learn_more);
                     }
@@ -501,13 +501,9 @@ public class FingerprintSettings extends SubSettings {
         }
 
         private boolean isUdfps() {
-            mFingerprintManager = Utils.getFingerprintManagerOrNull(getActivity());
-            if (mFingerprintManager != null) {
-                mSensorProperties = mFingerprintManager.getSensorPropertiesInternal();
-                for (FingerprintSensorPropertiesInternal prop : mSensorProperties) {
-                    if (prop.isAnyUdfpsType()) {
-                        return true;
-                    }
+            for (FingerprintSensorPropertiesInternal prop : mSensorProperties) {
+                if (prop.isAnyUdfpsType()) {
+                    return true;
                 }
             }
             return false;
@@ -564,7 +560,7 @@ public class FingerprintSettings extends SubSettings {
             // This needs to be after setting ids, otherwise
             // |mRequireScreenOnToAuthPreferenceController.isChecked| is always checking the primary
             // user instead of the user with |mUserId|.
-            if (!isUdfps() && mFingerprintWakeAndUnlock) {
+            if (isSfps() && mFingerprintWakeAndUnlock) {
                 scrollToPreference(fpPrefKey);
                 addFingerprintUnlockCategory();
             }
@@ -866,7 +862,7 @@ public class FingerprintSettings extends SubSettings {
 
         private List<AbstractPreferenceController> buildPreferenceControllers(Context context) {
             final List<AbstractPreferenceController> controllers = new ArrayList<>();
-            if (!isUdfps() && context.getResources().getBoolean(
+            if (isSfps() && context.getResources().getBoolean(
                     org.lineageos.platform.internal.R.bool.config_fingerprintWakeAndUnlock)) {
                 mFingerprintUnlockCategoryPreferenceController =
                     new FingerprintUnlockCategoryController(
