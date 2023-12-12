@@ -782,7 +782,13 @@ public class ChooseLockGeneric extends SettingsActivity {
             if (mUnificationProfileId != UserHandle.USER_NULL) {
                 builder.setProfileToUnify(mUnificationProfileId, mUnificationProfileCredential);
             }
-            return builder.build();
+            Intent intent = builder.build();
+            if (getIntent().hasExtra(EXTRA_KEY_REQUESTED_MIN_COMPLEXITY)) {
+                int complexity = getIntent().getIntExtra(EXTRA_KEY_REQUESTED_MIN_COMPLEXITY,
+                        PASSWORD_COMPLEXITY_NONE);
+                intent.putExtra(EXTRA_KEY_REQUESTED_MIN_COMPLEXITY, complexity);
+            }
+            return intent;
         }
 
         protected Intent getLockPatternIntent() {

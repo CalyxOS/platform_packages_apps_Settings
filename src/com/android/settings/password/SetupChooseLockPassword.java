@@ -16,8 +16,11 @@
 
 package com.android.settings.password;
 
+import static android.app.admin.DevicePolicyManager.PASSWORD_COMPLEXITY_NONE;
+
 import static com.android.internal.widget.LockPatternUtils.CREDENTIAL_TYPE_PASSWORD;
 import static com.android.internal.widget.LockPatternUtils.CREDENTIAL_TYPE_PIN;
+import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_REQUESTED_MIN_COMPLEXITY;
 
 import android.app.Activity;
 import android.content.Context;
@@ -88,6 +91,8 @@ public class SetupChooseLockPassword extends ChooseLockPassword {
             ChooseLockGenericController chooseLockGenericController =
                     new ChooseLockGenericController.Builder(activity, mUserId)
                     .setHideInsecureScreenLockTypes(true)
+                    .setAppRequestedMinComplexity(getActivity().getIntent().getIntExtra(
+                            EXTRA_KEY_REQUESTED_MIN_COMPLEXITY, PASSWORD_COMPLEXITY_NONE))
                     .build();
             boolean anyOptionsShown = chooseLockGenericController
                     .getVisibleAndEnabledScreenLockTypes().size() > 0;
@@ -167,7 +172,7 @@ public class SetupChooseLockPassword extends ChooseLockPassword {
         protected void updateUi() {
             super.updateUi();
             // Show the skip button during SUW but not during Settings > Biometric Enrollment
-            if (mUiStage == Stage.Introduction) {
+            if (mUiStage == Stage.Introduction && mMinComplexity == PASSWORD_COMPLEXITY_NONE) {
                 mSkipOrClearButton.setText(getActivity(), R.string.skip_label);
                 mLeftButtonIsSkip = true;
             } else {
