@@ -16,7 +16,10 @@
 
 package com.android.settings.biometrics;
 
+import static android.app.admin.DevicePolicyManager.PASSWORD_COMPLEXITY_NONE;
 import static android.util.FeatureFlagUtils.SETTINGS_BIOMETRICS2_ENROLLMENT;
+
+import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_REQUESTED_MIN_COMPLEXITY;
 
 import android.annotation.IntDef;
 import android.app.Activity;
@@ -215,6 +218,11 @@ public class BiometricUtils {
                         .EXTRA_SHOW_OPTIONS_BUTTON, true);
             }
             WizardManagerHelper.copyWizardManagerExtras(activityIntent, intent);
+            if (activityIntent.hasExtra(EXTRA_KEY_REQUESTED_MIN_COMPLEXITY)) {
+                int complexity = activityIntent.getIntExtra(EXTRA_KEY_REQUESTED_MIN_COMPLEXITY,
+                        PASSWORD_COMPLEXITY_NONE);
+                intent.putExtra(EXTRA_KEY_REQUESTED_MIN_COMPLEXITY, complexity);
+            }
             return intent;
         } else {
             return new Intent(context, ChooseLockGeneric.class);
