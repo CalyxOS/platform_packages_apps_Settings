@@ -242,7 +242,7 @@ public class ChooseLockPassword extends SettingsActivity {
         private PasswordMetrics mMinMetrics;
         private List<PasswordValidationError> mValidationErrors;
 
-        @PasswordComplexity private int mMinComplexity = PASSWORD_COMPLEXITY_NONE;
+        @PasswordComplexity protected int mMinComplexity = PASSWORD_COMPLEXITY_NONE;
         protected int mUserId;
         private byte[] mPasswordHistoryHashFactor;
         private int mUnificationProfileId = UserHandle.USER_NULL;

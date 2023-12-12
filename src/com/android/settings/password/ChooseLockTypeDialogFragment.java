@@ -16,6 +16,10 @@
 
 package com.android.settings.password;
 
+import static android.app.admin.DevicePolicyManager.PASSWORD_COMPLEXITY_NONE;
+
+import static com.android.settings.password.ChooseLockSettingsHelper.EXTRA_KEY_REQUESTED_MIN_COMPLEXITY;
+
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.settings.SettingsEnums;
@@ -101,6 +105,8 @@ public class ChooseLockTypeDialogFragment extends InstrumentedDialogFragment
         final int userId = getArguments().getInt(ARG_USER_ID);
         mController = new ChooseLockGenericController.Builder(getContext(), userId)
                 .setHideInsecureScreenLockTypes(true)
+                .setAppRequestedMinComplexity(getActivity().getIntent().getIntExtra(
+                        EXTRA_KEY_REQUESTED_MIN_COMPLEXITY, PASSWORD_COMPLEXITY_NONE))
                 .build();
     }
 
