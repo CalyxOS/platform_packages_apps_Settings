@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "29957f63_d6dff064",
+        "filename": "res/xml/tether_prefs.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-12-12T09:42:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "91418e53_995f5b99",
+      "revId": "30613197a68a4ee3f82bb2164a55727d14953806",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "35a2180c_7f92eb00",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-12-12T09:37:32Z",
       "side": 1,
       "message": "This shouldn\u0027t be here now, it got moved above with the AOSP commit",
+      "revId": "30613197a68a4ee3f82bb2164a55727d14953806",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "abf1b883_0df7cae8",
+        "filename": "src/com/android/settings/network/tether/TetherSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-12-12T09:42:11Z",
+      "side": 1,
+      "message": "Done, checked out file from r17",
+      "parentUuid": "35a2180c_7f92eb00",
       "revId": "30613197a68a4ee3f82bb2164a55727d14953806",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
