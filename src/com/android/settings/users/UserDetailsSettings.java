@@ -370,8 +370,12 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
             removePreference(KEY_ENABLE_TELEPHONY);
             removePreference(KEY_REMOVE_USER);
             removePreference(KEY_GRANT_ADMIN);
-            removePreference(KEY_APP_AND_CONTENT_ACCESS);
             removePreference(KEY_APP_COPYING);
+        }
+        final boolean isFullUser = mUserManager.isUserOfType(UserManager.USER_TYPE_FULL_SYSTEM)
+                || mUserManager.isUserOfType(UserManager.USER_TYPE_FULL_SECONDARY);
+        if (!isFullUser) {
+            removePreference(KEY_APP_AND_CONTENT_ACCESS);
         } else {
             if (!Utils.isVoiceCapable(context)) { // no telephony
                 removePreference(KEY_ENABLE_TELEPHONY);
