@@ -366,7 +366,17 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 mUserInfo.getUserHandle())) {
             removePreference(KEY_GRANT_ADMIN);
         }
-        if (!mUserManager.isAdminUser()) { // non admin users can't remove users and allow calls
+        final boolean isAdminUser = mUserManager.isAdminUser();
+        final boolean isFullUser = isAdminUser
+                || mUserManager.isUserOfType(UserManager.USER_TYPE_FULL_SECONDARY)
+                || mUserManager.isUserOfType(UserManager.USER_TYPE_FULL_SYSTEM);
+        if (isFullUser && mUserInfo.isManagedProfile()) {
+            removePreference(KEY_ENABLE_TELEPHONY);
+            removePreference(KEY_SWITCH_USER);
+            openAppAndContentAccessScreen(false);
+            finishFragment();
+        }
+        if (!isAdminUser) { // non admin users can't remove users and allow calls
             removePreference(KEY_ENABLE_TELEPHONY);
             removePreference(KEY_REMOVE_USER);
             removePreference(KEY_GRANT_ADMIN);
@@ -382,12 +392,8 @@ public class UserDetailsSettings extends SettingsPreferenceFragment
                 if (isNewUser) {
                     // for newly created restricted users we should open the apps and content access
                     // screen to initialize the default restrictions
-                    openAppAndContentAccessScreen(mUserInfo.isRestricted());
+                    openAppAndContentAccessScreen(true);
                 }
-            } else if (mUserInfo.isManagedProfile()) {
-                removePreference(KEY_ENABLE_TELEPHONY);
-                removePreference(KEY_SWITCH_USER);
-                openAppAndContentAccessScreen(false);
             } else {
                 removePreference(KEY_APP_AND_CONTENT_ACCESS);
             }
