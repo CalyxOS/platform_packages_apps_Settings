@@ -100,7 +100,6 @@ public class AccountPreferenceController extends AbstractPreferenceController
     private SparseArray<ProfileData> mProfiles = new SparseArray<ProfileData>();
     private ManagedProfileBroadcastReceiver mManagedProfileBroadcastReceiver =
             new ManagedProfileBroadcastReceiver();
-    private Preference mProfileNotAvailablePreference;
     private String[] mAuthorities;
     private int mAuthoritiesCount = 0;
     private DashboardFragment mFragment;
@@ -129,6 +128,10 @@ public class AccountPreferenceController extends AbstractPreferenceController
          * The preference that displays managed profile settings.
          */
         public Preference managedProfilePreference;
+        /**
+         * The preference that is used when the profile is not available.
+         */
+        public Preference profileNotAvailablePreference;
         /**
          * The {@link AuthenticatorHelper} that holds accounts data for this profile.
          */
@@ -530,18 +533,18 @@ public class AccountPreferenceController extends AbstractPreferenceController
         } else {
             profileData.preferenceGroup.removeAll();
             // Put a label instead of the accounts list
-            if (mProfileNotAvailablePreference == null) {
-                mProfileNotAvailablePreference =
+            if (profileData.profileNotAvailablePreference == null) {
+                profileData.profileNotAvailablePreference =
                         new Preference(mFragment.getPreferenceManager().getContext());
             }
-            mProfileNotAvailablePreference.setEnabled(false);
-            mProfileNotAvailablePreference.setIcon(R.drawable.empty_icon);
-            mProfileNotAvailablePreference.setTitle(null);
-            mProfileNotAvailablePreference.setSummary(
+            profileData.profileNotAvailablePreference.setEnabled(false);
+            profileData.profileNotAvailablePreference.setIcon(R.drawable.empty_icon);
+            profileData.profileNotAvailablePreference.setTitle(null);
+            profileData.profileNotAvailablePreference.setSummary(
                     mDpm.getResources().getString(
                             WORK_PROFILE_NOT_AVAILABLE, () -> mContext.getString(
                     R.string.managed_profile_not_available_label)));
-            profileData.preferenceGroup.addPreference(mProfileNotAvailablePreference);
+            profileData.preferenceGroup.addPreference(profileData.profileNotAvailablePreference);
         }
         if (profileData.removeWorkProfilePreference != null) {
             profileData.preferenceGroup.addPreference(profileData.removeWorkProfilePreference);
