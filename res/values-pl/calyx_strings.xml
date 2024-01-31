@@ -57,4 +57,20 @@
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-fi, hotspot, VPN, Prywatny DNS</string>
     <string name="network_dashboard_summary_mobile_calyx">Sieć komórkowa, Wi-Fi, hotspot, VPN, Prywatny DNS</string>
     <string name="hide_app_desc">Jeśli ukryjesz tę aplikację, nie będzie ona widoczna dla Androida i pozostałych aplikacji, a te mogą przestać działać poprawnie. Pamiętaj, że ukrywając aplikację zachowujesz jej dane. Ukrywając ją, wyłączasz tę aplikację i ukrywasz ją na swoim urządzeniu.</string>
+    <string name="security_dashboard_summary_calyx">Ekran blokady, ustawienia paniki, ograniczenia USB, zabezpieczenia aplikacji</string>
+    <string name="keychords_summary_adb_enabled">Zawsze włączone gdy tryb debugowania jest aktywny</string>
+    <string name="view_bugreports_summary_not_developer">Po wyświetleniu, wszystkie raporty błędu pozostaną dostępne do następnego uruchomienia urządzenia</string>
+    <string name="cross_profile_sharing_summary">Spraw by przycisk udostępniania w aplikacji działał pomiędzy profilem osobistym i zawodowym</string>
+    <string name="detailed_security_patch">Platforma: <xliff:g id="platform_level">%1$s</xliff:g>
+\nJądro: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nDostawca: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="biometric_settings_category_ways_to_use">Sposoby użycia</string>
+    <string name="airplane_mode_radios_title">Opcje trybu samolotowego</string>
+    <string name="airplane_mode_radios_category_title">Tryb Samolotowy przełączy wybrane opcje</string>
+    <string name="global_vpn_summary">Wymuś aby wszystkie połączenia przechodziły przez ten VPN, dotyczy to również profilu zawodowego i innych użytkowników.</string>
+    <string name="global_vpn_summary_any_vpn_active">Musisz najpierw wyłączyć wszystkie aktywne połączenia VPN aby to włączyć</string>
+    <string name="unhide_app_desc">Jeśli cofniesz ukrycie tej aplikacji, będzie ona widoczna dla systemu Android i innych aplikacji.</string>
+    <string name="system_dashboard_summary_calyx">Języki, gesty, czas, kopia zapasowa, użytkownicy, profil zawodowy</string>
+    <string name="global_vpn_summary_on">Wymuś aby wszystkie połączenia przechodziły przez ten VPN, dotyczy to również profilu zawodowego i innych użytkowników. Uwaga: Kiedy ta opcja jest aktywna, nie będziesz mógł kożystać z innego VPN\'a w profilu zawodowym lub innych użytkowników</string>
 </resources>

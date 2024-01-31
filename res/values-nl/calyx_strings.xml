@@ -39,4 +39,22 @@
 \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nVendor: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="network_dashboard_summary_mobile_calyx">Mobiel, wifi, hotspot, VPN, privé-DNS</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">wifi, hotspot, VPN, privé-DNS</string>
+    <string name="timeout_summary_24hours">24 uur</string>
+    <string name="timeout_summary_36hours">36 uur</string>
+    <string name="timeout_summary_12hours">12 uur</string>
+    <string name="timeout_summary_48hours">48 uur</string>
+    <string name="timeout_summary_72hours">72 uur</string>
+    <string name="global_vpn_title">Globale VPN</string>
+    <string name="global_vpn_summary">Forceer al het verkeer op het apparaat via dit VPN, inclusief werkprofiel en andere gebruikers.</string>
+    <string name="global_vpn_summary_on">Forceer al het verkeer op het apparaat via dit VPN, inclusief werkprofiel en andere gebruikers. Opmerking: Indien ingeschakeld, kunt je geen afzonderlijke VPN gebruiken in een werkprofiel of andere gebruikers</string>
+    <string name="global_vpn_summary_any_vpn_active">Om dit in te schakelen, moet je eerst alle actieve VPN-verbindingen uitschakelen</string>
+    <string name="device_reboot_timeout_title">Automatisch opnieuw opstarten</string>
+    <string name="device_reboot_timeout_summary2">Dit apparaat zal niet automatische opnieuw opstarten</string>
+    <string name="hide">Verbergen</string>
+    <string name="unhide">Tonen</string>
+    <string name="filter_hidden_apps">Verborgen apps</string>
+    <string name="hide_app">Verbergen app</string>
+    <string name="unhide_app">Tonen app</string>
 </resources>
