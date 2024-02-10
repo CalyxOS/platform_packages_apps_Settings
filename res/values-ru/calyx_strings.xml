@@ -70,7 +70,6 @@
     <string name="keychords_summary_adb_enabled">Всегда включен, когда отладка включена</string>
     <string name="captive_portal_summary">Проверьте, может ли устройство подключиться к Интернету, обратившись к Google. Также используется для обнаружения порталов присоединения.</string>
     <string name="other_settings">Другие опции</string>
-    <string name="assisted_gps_summary">Загрузите данные спутниковой помощи из Интернета, что может значительно улучшить производительность запуска GPS. Для экстренных вызовов всегда разрешено использование GPS.</string>
     <string name="biometric_settings_category_ways_to_use">Способы использования</string>
     <string name="keychords_summary">Сделать отчет об ошибке, удерживая одновременно кнопки увеличения громкости, уменьшения громкости и питания, даже если устройство заблокировано</string>
     <string name="quick_settings">Быстрая настройка</string>

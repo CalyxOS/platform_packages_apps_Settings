@@ -73,7 +73,6 @@
     <string name="keychords_summary_adb_enabled">Sempre habilitat quan la depuració està activada</string>
     <string name="view_bugreports_title">Mostra els informes d\'error</string>
     <string name="view_bugreports_summary_not_developer">Un cop vist, tots els informes d\'error romandran accessibles fins que reinicieu el dispositiu</string>
-    <string name="assisted_gps_summary">Baixa dades d\'assistència per satèl·lit des d\'Internet que poden millorar molt el rendiment d\'inici del GPS. Per a trucades d\'emergència, el GPS assistit sempre està permès.</string>
     <string name="other_settings">Altres opcions</string>
     <string name="quick_settings">Configuració ràpida</string>
 </resources>
