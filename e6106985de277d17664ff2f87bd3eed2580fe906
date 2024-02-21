@@ -124,6 +124,24 @@
       "parentUuid": "36931cb5_a11c08e2",
       "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b4a3580_12bbf6d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-02-21T19:02:16Z",
+      "side": 1,
+      "message": "That sounds good to me. But with PS1, it\u0027s the opposite of that: as a side effect of fixing the bug, the behavior of Settings becomes *the same* as Datura, and in my opinion makes a bit more sense.\n\nIn PS1 (unlike pre-patch), if you turn off \"Background data\" in Settings, it does not affect \"Unrestricted data\". Before, turning off \"Background data\" would turn off \"Unrestricted data\" too (and reset every other policy).\n\nI did test and verify that when background data is off, unrestricted data has no effect, so there is no harm either way. The only difference is that, with PS1, apart from fixing the bug, if you turn background data *back on* in Settings, unrestricted data will still be on, if it was on before.\n\nThanks for putting up with my difficulty explaining this...",
+      "parentUuid": "92ca174c_2a5e78be",
+      "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
