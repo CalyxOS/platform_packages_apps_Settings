@@ -160,6 +160,24 @@
       "parentUuid": "4b4a3580_12bbf6d4",
       "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77b22b97_c7e0e160",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-21T19:06:13Z",
+      "side": 1,
+      "message": "Yeah, this is fine, totally ok.\n\n1. Keep AOSP behavior\n2. No crashes / don\u0027t break firewall.\n\nShip it.",
+      "parentUuid": "6858d52c_5f1da6da",
+      "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
