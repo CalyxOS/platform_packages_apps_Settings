@@ -52,6 +52,24 @@
       "parentUuid": "07c8aac9_4e4e9260",
       "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02e051b2_fbb494d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-02-21T15:42:28Z",
+      "side": 1,
+      "message": "Hmm, potentially. Datura doesn\u0027t have an unrestricted data usage flag. I\u0027m not sure if this even matters in practice, it\u0027s just a difference in behavior that I noticed.",
+      "parentUuid": "5bba9c87_fe5adc99",
+      "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
