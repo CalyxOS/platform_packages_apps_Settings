@@ -70,6 +70,24 @@
       "parentUuid": "5bba9c87_fe5adc99",
       "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d17b9aa6_cfe6e80b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-02-21T16:36:52Z",
+      "side": 1,
+      "message": "Resolved this behavior in the latest patchset. (Haven\u0027t touched Datura.)",
+      "parentUuid": "02e051b2_fbb494d1",
+      "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
