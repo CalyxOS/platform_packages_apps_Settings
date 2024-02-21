@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f1151b1_5ddbfb1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-02-21T15:39:30Z",
+      "side": 1,
+      "message": "Background network access is supposed to clobber unrestricted data usage when turned off... just not supposed to clobber anything else.",
+      "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
