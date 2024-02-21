@@ -88,6 +88,24 @@
       "parentUuid": "02e051b2_fbb494d1",
       "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36931cb5_a11c08e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-02-21T18:48:22Z",
+      "side": 1,
+      "message": "I\u0027d personally rather not have Datura quietly turn off unrestricted data when users turn off background data (aka alter Datura to match pre-patch or PS2), because unlike the Settings page, users will have no indication that the unrestricted data toggle changed. I\u0027d be fine with *either* of the Settings behaviors, PS1 or PS2, since the user can at least see what\u0027s happening.\n\nIf we *do* feel the need to change Datura in some way, that\u0027s okay too, but I\u0027m not feeling very decisive about it.",
+      "parentUuid": "d17b9aa6_cfe6e80b",
+      "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
