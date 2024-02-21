@@ -106,6 +106,24 @@
       "parentUuid": "d17b9aa6_cfe6e80b",
       "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92ca174c_2a5e78be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-02-21T18:53:14Z",
+      "side": 1,
+      "message": "Let\u0027s go with PS1 for now then. We can always adjust Datura to match Settings if users request for it.",
+      "parentUuid": "36931cb5_a11c08e2",
+      "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
