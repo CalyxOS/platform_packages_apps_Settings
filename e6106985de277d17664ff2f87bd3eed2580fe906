@@ -16,6 +16,24 @@
       "message": "Background network access is supposed to clobber unrestricted data usage when turned off... just not supposed to clobber anything else.",
       "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07c8aac9_4e4e9260",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-02-21T15:39:53Z",
+      "side": 1,
+      "message": "(In other words, turn off background network access, unrestricted data usage is supposed to turn off too. Not happening with this change yet.)",
+      "parentUuid": "8f1151b1_5ddbfb1b",
+      "revId": "e6106985de277d17664ff2f87bd3eed2580fe906",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
