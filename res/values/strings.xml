@@ -13451,6 +13451,13 @@
 
     <!-- Device Diagnostics -->
 
+    <!-- How device should react to lid events -->
+    <string name="lid_behavior_title">Smart cover</string>
+    <string name="lid_behavior_summary">Control device behavior when cover is opened/closed</string>
+    <string name="lid_behavior_none">None</string>
+    <string name="lid_behavior_lock">Lock/Unlock</string>
+    <string name="lid_behavior_sleep">Sleep/Wake</string>
+
     <!-- Title for System dashboard fragment -->
     <string name="device_diagnostics_title">Device diagnostics</string>
 
