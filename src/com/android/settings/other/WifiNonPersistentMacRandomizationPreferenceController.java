@@ -20,9 +20,6 @@ package com.android.settings.other;
 import android.content.Context;
 import android.provider.Settings;
 
-import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
-
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 
