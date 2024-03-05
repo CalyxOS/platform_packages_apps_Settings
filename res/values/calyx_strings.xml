@@ -159,4 +159,5 @@
     <string name="work_hours_end_off_summary">Show a daily notification to turn off the work profile</string>
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
+
 </resources>

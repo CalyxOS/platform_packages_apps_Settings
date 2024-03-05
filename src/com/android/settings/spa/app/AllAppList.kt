@@ -140,7 +140,7 @@ class AllAppListModel(
             val summaryList = mutableListOf(storageSummary.value)
             when {
                 isHidden(record) -> {
-                    summaryList + context.getString(R.string.hidden)
+                    summaryList += context.getString(R.string.hidden)
                 }
 
                 !record.app.installed && !record.app.isArchived -> {
