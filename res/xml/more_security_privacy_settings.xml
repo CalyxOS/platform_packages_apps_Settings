@@ -119,7 +119,7 @@
         android:key="security_category"
         android:title="@string/security_header" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:order="210"
         android:key="security_setting_panic_enabled"
         android:title="@string/panic_settings_title"
