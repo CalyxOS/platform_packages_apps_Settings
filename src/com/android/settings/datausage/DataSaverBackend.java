@@ -23,6 +23,7 @@ import android.content.Context;
 import android.net.NetworkPolicyManager;
 import android.util.SparseIntArray;
 
+import com.android.settings.fuelgauge.datasaver.DynamicDenylistManager;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.utils.ThreadUtils;
@@ -40,6 +41,7 @@ public class DataSaverBackend {
     private final MetricsFeatureProvider mMetricsFeatureProvider;
 
     private final NetworkPolicyManager mPolicyManager;
+    private final DynamicDenylistManager mDynamicDenylistManager;
     private final ArrayList<Listener> mListeners = new ArrayList<>();
     private SparseIntArray mUidPolicies = new SparseIntArray();
     private boolean mAllowlistInitialized;
@@ -49,8 +51,9 @@ public class DataSaverBackend {
     public DataSaverBackend(@NotNull Context context) {
         // TODO(b/246537614):Use fragment context to DataSaverBackend class will caused memory leak
         mContext = context.getApplicationContext();
-        mMetricsFeatureProvider = FeatureFactory.getFactory(mContext).getMetricsFeatureProvider();
+        mMetricsFeatureProvider = FeatureFactory.getFeatureFactory().getMetricsFeatureProvider();
         mPolicyManager = NetworkPolicyManager.from(mContext);
+        mDynamicDenylistManager = DynamicDenylistManager.getInstance(mContext);
     }
 
     public void addListener(Listener listener) {
@@ -137,9 +140,9 @@ public class DataSaverBackend {
 
     private int setUidPolicyFlag(int uid, int policy, boolean add) {
         if (add) {
-            mPolicyManager.addUidPolicy(uid, policy);
+            mDynamicDenylistManager.addUidPolicy(uid, policy);
         } else {
-            mPolicyManager.removeUidPolicy(uid, policy);
+            mDynamicDenylistManager.removeUidPolicy(uid, policy);
         }
         return setCachedUidPolicyFlag(uid, policy, add);
     }
@@ -150,7 +153,8 @@ public class DataSaverBackend {
 
     public boolean isDenylisted(int uid) {
         loadDenylist();
-        return isUidPolicyFlagSet(uid, POLICY_REJECT_METERED_BACKGROUND);
+        return isUidPolicyFlagSet(uid, POLICY_REJECT_METERED_BACKGROUND)
+                && mDynamicDenylistManager.isInManualDenylist(uid);
     }
 
     private void loadDenylist() {
