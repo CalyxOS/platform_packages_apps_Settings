@@ -150,4 +150,7 @@
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
 
+    <!-- setting Checkbox summary whether to enable OEM unlock [CHAR_LIMIT=50] -->
+    <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
+
 </resources>
