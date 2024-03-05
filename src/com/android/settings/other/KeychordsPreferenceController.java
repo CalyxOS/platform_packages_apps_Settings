@@ -22,7 +22,7 @@ import android.os.SystemProperties;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -83,7 +83,7 @@ public class KeychordsPreferenceController extends ProtectedPreferenceController
     }
 
     private void updateStateInternal() {
-        SwitchPreference pref = (SwitchPreference) mPreference;
+        SwitchPreferenceCompat pref = (SwitchPreferenceCompat) mPreference;
         if (isAdbEnabled()) {
             pref.setChecked(true);
             pref.setEnabled(false);

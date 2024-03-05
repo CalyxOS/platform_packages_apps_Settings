@@ -30,7 +30,7 @@
             android:summary="@string/oem_unlock_enable_summary"
             settings:useAdditionalSummary="true" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="keychords"
             android:title="@string/keychords_title"
             android:summary="@string/keychords_summary"
