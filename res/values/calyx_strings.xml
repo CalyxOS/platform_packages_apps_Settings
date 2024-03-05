@@ -148,4 +148,13 @@
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
 
+    <!-- setting Checkbox title whether to enable OEM unlock [CHAR_LIMIT=35] -->
+    <string name="oem_unlock_enable">OEM unlocking</string>
+    <!-- setting Checkbox summary whether to enable OEM unlock [CHAR_LIMIT=50] -->
+    <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
+    <!-- Confirmation dialog title to ensure user wishes to enable OEM unlock and disable theft protection features -->
+    <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
+    <!-- Warning dialog message to confirm user wishes to enable OEM unlock and disable theft protection features -->
+    <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
+
 </resources>
