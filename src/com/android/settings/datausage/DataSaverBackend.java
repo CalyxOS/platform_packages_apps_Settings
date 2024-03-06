@@ -140,9 +140,9 @@ public class DataSaverBackend {
 
     private int setUidPolicyFlag(int uid, int policy, boolean add) {
         if (add) {
-            mDynamicDenylistManager.addUidPolicy(uid, policy);
+            mDynamicDenylistManager.addUidPolicyLocked(uid, policy);
         } else {
-            mDynamicDenylistManager.removeUidPolicy(uid, policy);
+            mDynamicDenylistManager.removeUidPolicyLocked(uid, policy);
         }
         return setCachedUidPolicyFlag(uid, policy, add);
     }
