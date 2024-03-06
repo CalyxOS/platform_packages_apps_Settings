@@ -34,6 +34,24 @@
       "parentUuid": "a4bb837c_33c30455",
       "revId": "dec1ae93e434041a0e7a186f3d22019f6058c53c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "729ada57_0c6c318a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-06T20:08:58Z",
+      "side": 1,
+      "message": "I like the idea of removing it from Settings, but then we need to add the Unrestricted data toggle to Datura.\n\nAnother idea is to use the pre-QPR2 behavior in DataSaverBackend.java - perhaps literally just check it out from pre-QPR2 - and not even use the new DynamicDenylistManager at all, whose purpose I\u0027m struggling to understand. It has a method to reset the denylist on boot (seemingly to undo user changes to the background network access setting?). That looks like its main purpose, but 1) I don\u0027t think we want that, and 2) it doesn\u0027t seem like it\u0027s working.",
+      "parentUuid": "3aedfa97_700bfe44",
+      "revId": "dec1ae93e434041a0e7a186f3d22019f6058c53c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
