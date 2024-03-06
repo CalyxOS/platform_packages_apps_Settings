@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4bb837c_33c30455",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-06T19:56:58Z",
+      "side": 1,
+      "message": "If you turn off background network access in Firewall app, it\u0027s still toggled on in Settings, even if you restart Settings. I missed this before you made this into a fixup. Can\u0027t replicate pre-qpr2, so it\u0027s a new problem.",
+      "revId": "dec1ae93e434041a0e7a186f3d22019f6058c53c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
