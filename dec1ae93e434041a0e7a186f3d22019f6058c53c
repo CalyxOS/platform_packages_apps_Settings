@@ -52,6 +52,24 @@
       "parentUuid": "3aedfa97_700bfe44",
       "revId": "dec1ae93e434041a0e7a186f3d22019f6058c53c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da960be2_d4cb58c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-06T20:13:55Z",
+      "side": 1,
+      "message": "It\u0027s referenced in other places, like ResetAppsHelper.java and AppStorageSettings.java, and some commits suggest it is also supposed to clear out the policy if the app\u0027s storage is cleared (which doesn\u0027t seem to be working either).\n\nThis may take some time. Let\u0027s maybe figure it out and fix it in a follow-up build. Impact should be low keeping it as-is imo.",
+      "parentUuid": "729ada57_0c6c318a",
+      "revId": "dec1ae93e434041a0e7a186f3d22019f6058c53c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
