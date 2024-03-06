@@ -93,6 +93,22 @@ public final class DynamicDenylistManager {
         updateDenylistPref(uid, policy);
     }
 
+    /** Add policy flags for specific UID. */
+    public void addUidPolicyLocked(int uid, int policy) {
+        synchronized (mLock) {
+            mNetworkPolicyManager.addUidPolicy(uid, policy);
+        }
+        updateDenylistPref(uid, policy);
+    }
+
+    /** Remove policy flags for specific UID. */
+    public void removeUidPolicyLocked(int uid, int policy) {
+        synchronized (mLock) {
+            mNetworkPolicyManager.removeUidPolicy(uid, policy);
+        }
+        updateDenylistPref(uid, policy);
+    }
+
     /** Suggest a list of package to set as POLICY_REJECT. */
     public void setDenylist(Set<Integer> denylistTargetUids) {
         if (denylistTargetUids == null) {
