@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d608abf0_e320cb78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-06T15:17:09Z",
+      "side": 1,
+      "message": "I noticed that hiding an app no longer forces you out of the settings page for the app, which is fine with me.",
+      "revId": "e138bb94da654ec61e8766eb0151d336dbd035f3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
