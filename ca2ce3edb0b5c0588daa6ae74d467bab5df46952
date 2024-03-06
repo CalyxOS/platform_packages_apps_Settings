@@ -16,6 +16,24 @@
       "message": "Works, but I don\u0027t know if duplicating strings is the best way.\n\nThey moved these strings to SettingsLib, haven\u0027t seen what changes they did to the code",
       "revId": "ca2ce3edb0b5c0588daa6ae74d467bab5df46952",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66be5d37_db547235",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-06T18:54:28Z",
+      "side": 1,
+      "message": "I don\u0027t see a quick way. The java code can refer to settingslib strings fine.\n\nWe error out here because of the xml layout referring to this.",
+      "parentUuid": "cdfcd0d2_a1a25830",
+      "revId": "ca2ce3edb0b5c0588daa6ae74d467bab5df46952",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
