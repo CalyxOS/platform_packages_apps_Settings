@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdfcd0d2_a1a25830",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-06T18:39:17Z",
+      "side": 1,
+      "message": "Works, but I don\u0027t know if duplicating strings is the best way.\n\nThey moved these strings to SettingsLib, haven\u0027t seen what changes they did to the code",
+      "revId": "ca2ce3edb0b5c0588daa6ae74d467bab5df46952",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
