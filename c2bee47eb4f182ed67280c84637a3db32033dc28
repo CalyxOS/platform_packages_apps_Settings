@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c60e80a_16157a5f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-06T15:19:46Z",
+      "side": 1,
+      "message": "(This really just checks out the android-14.0.0_r29 variant of the file, which should have the same desired effect.)",
+      "revId": "c2bee47eb4f182ed67280c84637a3db32033dc28",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
