@@ -23,7 +23,6 @@ import android.content.Context;
 import android.net.NetworkPolicyManager;
 import android.util.SparseIntArray;
 
-import com.android.settings.fuelgauge.datasaver.DynamicDenylistManager;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.utils.ThreadUtils;
@@ -41,7 +40,6 @@ public class DataSaverBackend {
     private final MetricsFeatureProvider mMetricsFeatureProvider;
 
     private final NetworkPolicyManager mPolicyManager;
-    private final DynamicDenylistManager mDynamicDenylistManager;
     private final ArrayList<Listener> mListeners = new ArrayList<>();
     private SparseIntArray mUidPolicies = new SparseIntArray();
     private boolean mAllowlistInitialized;
@@ -53,7 +51,6 @@ public class DataSaverBackend {
         mContext = context.getApplicationContext();
         mMetricsFeatureProvider = FeatureFactory.getFeatureFactory().getMetricsFeatureProvider();
         mPolicyManager = NetworkPolicyManager.from(mContext);
-        mDynamicDenylistManager = DynamicDenylistManager.getInstance(mContext);
     }
 
     public void addListener(Listener listener) {
@@ -140,9 +137,9 @@ public class DataSaverBackend {
 
     private int setUidPolicyFlag(int uid, int policy, boolean add) {
         if (add) {
-            mDynamicDenylistManager.addUidPolicy(uid, policy);
+            mPolicyManager.addUidPolicy(uid, policy);
         } else {
-            mDynamicDenylistManager.removeUidPolicy(uid, policy);
+            mPolicyManager.removeUidPolicy(uid, policy);
         }
         return setCachedUidPolicyFlag(uid, policy, add);
     }
@@ -153,8 +150,7 @@ public class DataSaverBackend {
 
     public boolean isDenylisted(int uid) {
         loadDenylist();
-        return isUidPolicyFlagSet(uid, POLICY_REJECT_METERED_BACKGROUND)
-                && mDynamicDenylistManager.isInManualDenylist(uid);
+        return isUidPolicyFlagSet(uid, POLICY_REJECT_METERED_BACKGROUND);
     }
 
     private void loadDenylist() {
