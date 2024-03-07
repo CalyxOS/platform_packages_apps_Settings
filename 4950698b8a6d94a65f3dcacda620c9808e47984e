@@ -16,6 +16,24 @@
       "message": "I see the earlier comments, and I see the build fails without this change, but I don\u0027t fully understand it all / what\u0027s happening. Do these added strings even get used?\n\nIf we set a non-English system language, OEM Unlocking in Other Options shows up correctly in that language. To me, this change implies that shouldn\u0027t happen.\n\nRegardless, since it seems like this workaround works, sounds good to me to go with it for now.",
       "revId": "4950698b8a6d94a65f3dcacda620c9808e47984e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cd334a2_07921d71",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-07T21:47:03Z",
+      "side": 1,
+      "message": "So it might just be a build-time failure.\n\nSince the IDs are the same as SettingsLib which does get included, the code may end up using that. Just a guess.",
+      "parentUuid": "0a550daa_d3ac1cd0",
+      "revId": "4950698b8a6d94a65f3dcacda620c9808e47984e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
