@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed11075e_46cdef44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-07T13:57:06Z",
+      "side": 1,
+      "message": "This is already part of https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/25010/6 - can we abandon or do you want the other one to be changed so they can be separate?",
+      "revId": "830dd4794a49e422e9fe59e89b24bd20dfd1edeb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
