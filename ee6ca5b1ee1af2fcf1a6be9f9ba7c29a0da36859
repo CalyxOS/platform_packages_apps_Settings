@@ -34,6 +34,24 @@
       "parentUuid": "f7069cf0_242b68dd",
       "revId": "ee6ca5b1ee1af2fcf1a6be9f9ba7c29a0da36859",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5a0d5d5_4ffa004c",
+        "filename": "src/com/android/settings/other/KeychordsPreferenceController.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-07T18:39:53Z",
+      "side": 1,
+      "message": "Not pointless, but needed. mPreference is declared as Preference.",
+      "parentUuid": "f7069cf0_242b68dd",
+      "revId": "ee6ca5b1ee1af2fcf1a6be9f9ba7c29a0da36859",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
