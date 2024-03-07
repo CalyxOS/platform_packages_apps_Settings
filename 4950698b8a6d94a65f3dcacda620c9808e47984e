@@ -34,6 +34,24 @@
       "parentUuid": "0a550daa_d3ac1cd0",
       "revId": "4950698b8a6d94a65f3dcacda620c9808e47984e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7287c04c_557cb6dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-07T22:13:17Z",
+      "side": 1,
+      "message": "I was curious so tried changing the strings. They *are* used, but I guess just for English. (This means we can\u0027t just make the strings placeholders or something.)",
+      "parentUuid": "0cd334a2_07921d71",
+      "revId": "4950698b8a6d94a65f3dcacda620c9808e47984e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
