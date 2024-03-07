@@ -16,6 +16,24 @@
       "message": "Should be in d18cf69ddae2d4a198413b0f7c9e40c299a068b4 fixup! Add standalone preference for SensorsOff tile",
       "revId": "ce1108e981cb128071bf4deb325dfc2d621cd653",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1716ee13_8c27f195",
+        "filename": "src/com/android/settings/other/SensorsOffPreferenceController.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-07T18:08:06Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "74db30c7_b95c46f4",
+      "revId": "ce1108e981cb128071bf4deb325dfc2d621cd653",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
