@@ -37,7 +37,7 @@ public class BatterySettingsFeatureProviderImpl implements BatterySettingsFeatur
 
     @Override
     public boolean isBatteryInfoEnabled(Context context) {
-        return false;
+        return context.getResources().getBoolean(R.bool.config_show_battery_info);
     }
 
     @Override
