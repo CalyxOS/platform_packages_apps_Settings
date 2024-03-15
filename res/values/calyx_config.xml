@@ -17,4 +17,7 @@
 <resources>
      <!-- Turn on Wi-Fi automatically -->
      <bool name="config_wifi_wakeup" translatable="false">false</bool>
+
+     <!-- Show battery information -->
+     <bool name="config_show_battery_info" translatable="false">true</bool>
 </resources>
