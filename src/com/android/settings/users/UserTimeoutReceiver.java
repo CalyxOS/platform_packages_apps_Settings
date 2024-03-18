@@ -92,6 +92,7 @@ public class UserTimeoutReceiver extends BroadcastReceiver {
                                             R.string.work_hours_end_notification_description))
                             .setContentIntent(pendingIntent)
                             .setAutoCancel(true)
+                            .setVisibility(Notification.VISIBILITY_PUBLIC)
                             .build();
                     notificationManager.notify(R.drawable.ic_settings_multiuser, notification);
                 } else if (userManager.isManagedProfile()) {
