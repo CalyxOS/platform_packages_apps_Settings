@@ -16,6 +16,24 @@
       "message": "Might as well still clearSharedPreferences I guess",
       "revId": "173332092f1d8ff7aa8f5d90424b05a07a8f54a5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0ab444b_8aa0203c",
+        "filename": "src/com/android/settings/fuelgauge/datasaver/DynamicDenylistManager.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-21T14:59:41Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "41e88019_abc5ceeb",
+      "revId": "173332092f1d8ff7aa8f5d90424b05a07a8f54a5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
