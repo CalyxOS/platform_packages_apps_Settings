@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c74018b_191b08a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-21T15:20:36Z",
+      "side": 1,
+      "message": "We got by fine (better even) without it before, we\u0027ll be fine without it now.",
+      "revId": "e61617a33a2fc72c5fecd9141e79d3e27add2e1b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
