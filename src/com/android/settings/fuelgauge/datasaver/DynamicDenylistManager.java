@@ -151,21 +151,7 @@ public final class DynamicDenylistManager {
 
     /** Reset the UIDs in the denylist if needed. */
     public void resetDenylistIfNeeded(String packageName, boolean force) {
-        if (!force && !SETTINGS_PACKAGE_NAME.equals(packageName)) {
-            return;
-        }
-        synchronized (mLock) {
-            final int[] uids = mNetworkPolicyManager
-                    .getUidsWithPolicy(POLICY_REJECT_METERED_BACKGROUND);
-            if (uids != null && uids.length != 0) {
-                for (int uid : uids) {
-                    if (!getDenylistAllUids(getManualDenylistPref()).contains(uid)) {
-                        mNetworkPolicyManager.setUidPolicy(uid, POLICY_NONE);
-                    }
-                }
-            }
-        }
-        clearSharedPreferences();
+        // Intentionally do nothing.
     }
 
     /** Reset the POLICY_REJECT_METERED uids when device is boot completed. */
