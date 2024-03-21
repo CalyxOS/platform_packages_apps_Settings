@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36df0077_2f1789c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-21T15:23:18Z",
+      "side": 1,
+      "message": "AOSP claims they already have a private fix for this (cool), but until then it would be nice to have our own.",
+      "revId": "f894c82510be089b33ea74451633597d1bcfcac0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
