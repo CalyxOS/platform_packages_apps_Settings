@@ -52,8 +52,6 @@
 \nProveedor: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="global_vpn_summary_on">Forzar todo el tráfico en el dispositivo a través de esta VPN, incluido el perfil de trabajo y otros usuarios. Nota: cuando está habilitado, no podrá usar una VPN separada en un perfil de trabajo u otros usuarios</string>
-    <string name="airplane_mode_radios_title">Radios modo avión</string>
-    <string name="airplane_mode_radios_category_title">El modo avión alternará las radios seleccionadas</string>
     <string name="global_vpn_summary_any_vpn_active">Primero debe deshabilitar todas las conexiones VPN activas para habilitar esto</string>
     <string name="network_dashboard_summary_mobile_calyx">Móvil, Wi‑Fi, punto de acceso, VPN, DNS privado</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, punto de acceso, VPN, DNS privado</string>
@@ -75,6 +73,10 @@
     <string name="view_bugreports_title">Ver los informes de errores</string>
     <string name="view_bugreports_summary_not_developer">Una vez visualizados, todos los informes de errores permanecerán accesibles hasta que reinicies el dispositivo</string>
     <string name="keychords_summary">Captura un informe de error manteniendo pulsados los botones: Subir volumen, Bajar volumen y Encendido al mismo tiempo, incluso cuando el dispositivo está bloqueado</string>
-    <string name="assisted_gps_summary">Descargue los datos de asistencia para el satélite de Internet, lo que puede mejorar en gran medida el rendimiento de arranque del GPS. Para llamadas de emergencia, el GPS asistido siempre está permitido.</string>
-    <string name="biometric_settings_category_ways_to_use">Formas de utilizarlo</string>
+    <string name="hidden">Oculto</string>
+    <string name="security_settings_biometric_preference_title_calyx">Desbloqueo biométrico</string>
+    <string name="data_usage_app_datura_firewall">Cortafuegos de datos</string>
+    <string name="data_usage_app_datura_firewall_summary">Los ajustes del cortafuegos se han trasladado a la nueva aplicación Cortafuegos. Toca para abrirla.</string>
+    <string name="miscellaneous_settings">Varios</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueo biométrico para funcionar</string>
 </resources>

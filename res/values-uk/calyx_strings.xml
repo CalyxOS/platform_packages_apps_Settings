@@ -50,8 +50,6 @@
     <string name="unhide">Показати</string>
     <string name="captive_portal_title">Перевірка підключення</string>
     <string name="captive_portal_summary">Перевірте, чи може пристрій підключитися до інтернету, звернувшись до Google. Також використовується для виявлення порталів приєднання.</string>
-    <string name="airplane_mode_radios_title">Радіо в режимі польоту</string>
-    <string name="airplane_mode_radios_category_title">Режим польоту перемикає вибрані радіоприймачі</string>
     <string name="global_vpn_title">Глобальний VPN</string>
     <string name="global_vpn_summary_on">Примусово завантажувати весь трафік на пристрої через цю VPN-службу, в тому числі робочий профіль та інших користувачів. Примітка: Якщо ввімкнено, ви не зможете використовувати окрему VPN-службу в робочому профілі або інших користувачах</string>
     <string name="global_vpn_summary">Примусово пропускати весь трафік на пристрій через цей VPN, в тому числі робочий профіль та інших користувачах.</string>
@@ -83,6 +81,4 @@
     <string name="keychords_summary">Зробити звіт про помилку, утримуючи одночасно кнопки збільшення гучності, зменшення гучності та живлення, навіть якщо пристрій заблоковано</string>
     <string name="keychords_summary_adb_enabled">Завжди увімкнено, коли ввімкнено налагодження</string>
     <string name="view_bugreports_title">Перегляд звітів про помилки</string>
-    <string name="assisted_gps_summary">Завантажити допоміжні супутникові дані з Інтернету, що може значно покращити продуктивність запуску GPS. Для екстрених викликів завжди дозволено допоміжний GPS.</string>
-    <string name="biometric_settings_category_ways_to_use">Способи використання</string>
 </resources>

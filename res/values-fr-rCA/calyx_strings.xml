@@ -10,8 +10,6 @@
     <string name="unhide">Afficher</string>
     <string name="captive_portal_title">Vérification de la connectivité</string>
     <string name="captive_portal_summary">Déterminez si l\'appareil peut se connecter à Internet en contactant Google. Également utilisé pour détecter les portails captifs.</string>
-    <string name="airplane_mode_radios_title">Radios mode avion</string>
-    <string name="airplane_mode_radios_category_title">Le mode avion basculera vers les radios sélectionnées</string>
     <string name="panic_settings_title">Afficher l\'option Panique</string>
     <string name="panic_settings_summary">Afficher l\'option du bouton d\'alimentation qui active un déclencheur de panique d\'urgence.</string>
     <string name="show_qs_on_secure_keyguard_title">Réglages rapides</string>

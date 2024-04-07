@@ -43,8 +43,6 @@
     <string name="cross_profile_sharing_summary">Activa els botons de compartició de les aplicacions per treballar a través dels teus perfils personal i professional</string>
     <string name="calyxos_version">Versió de CalyxOS</string>
     <string name="aosp_module_version">Actualització del mòdul principal</string>
-    <string name="airplane_mode_radios_title">Ràdios en mode avió</string>
-    <string name="airplane_mode_radios_category_title">El mode avió commutarà les ràdios seleccionades</string>
     <string name="show_qs_on_secure_keyguard_title">Configuració ràpida</string>
     <string name="wifi_timeout">Apaga el Wi-Fi automàticament</string>
     <string name="wifi_timeout_summary">El Wi-Fi s\'apagarà després de <xliff:g id="timeout_description">%1$s</xliff:g> si no hi ha cap xarxa connectada</string>
@@ -73,7 +71,6 @@
     <string name="keychords_summary_adb_enabled">Sempre habilitat quan la depuració està activada</string>
     <string name="view_bugreports_title">Mostra els informes d\'error</string>
     <string name="view_bugreports_summary_not_developer">Un cop vist, tots els informes d\'error romandran accessibles fins que reinicieu el dispositiu</string>
-    <string name="assisted_gps_summary">Baixa dades d\'assistència per satèl·lit des d\'Internet que poden millorar molt el rendiment d\'inici del GPS. Per a trucades d\'emergència, el GPS assistit sempre està permès.</string>
     <string name="other_settings">Altres opcions</string>
     <string name="quick_settings">Configuració ràpida</string>
 </resources>
