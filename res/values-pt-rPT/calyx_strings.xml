@@ -47,8 +47,6 @@
 \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nFornecedor: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
-    <string name="airplane_mode_radios_title">Antenas do modo avião</string>
-    <string name="airplane_mode_radios_category_title">O Modo Avião vai modificar as antenas selecionadas</string>
     <string name="global_vpn_title">VPN Global</string>
     <string name="global_vpn_summary">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores.</string>
     <string name="global_vpn_summary_on">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores. Nota: Quando ativado, não poderá utilizar uma VPN separada num perfil de trabalho ou outros utilizadores</string>

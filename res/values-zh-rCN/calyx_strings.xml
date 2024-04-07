@@ -41,8 +41,6 @@
     <string name="device_reboot_timeout_summary2">设备不会自动重启</string>
     <string name="device_reboot_timeout_summary">设备将自动重启，如果其在过去 <xliff:g id="timeout_description">%1$s</xliff:g> 内未被解锁</string>
     <string name="device_reboot_timeout_title">自动重启</string>
-    <string name="airplane_mode_radios_title">飞行模式广播</string>
-    <string name="airplane_mode_radios_category_title">飞行模式将切换选定的无线电</string>
     <string name="detailed_security_patch">平台: <xliff:g id="platform_level">%1$s</xliff:g>
 \n内核: <xliff:g id="kernel_level">%2$s</xliff:g>
 \n厂商: <xliff:g id="kernel_level">%3$s</xliff:g>
@@ -75,6 +73,10 @@
     <string name="bugreport_summary">立即生成一份故障报告</string>
     <string name="view_bugreports_summary_not_developer">一旦查看，所有的故障报告在重启设备前始终可访问</string>
     <string name="keychords_summary">即便当设备锁定时，同时按住上调音量、下调音量和电源键也可以创建一份故障报告</string>
-    <string name="assisted_gps_summary">从互联网下载可以大幅改善 GPS 启动性能的卫星辅助数据。对于紧急呼叫，辅助 GPS 始终是允许的。</string>
-    <string name="biometric_settings_category_ways_to_use">使用方法</string>
+    <string name="hidden">隐藏的</string>
+    <string name="security_settings_biometric_preference_title_calyx">生物特征解锁</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">工作配置生物特征解锁</string>
+    <string name="data_usage_app_datura_firewall">Datura 防火墙</string>
+    <string name="data_usage_app_datura_firewall_summary">防火墙设置已移动到新的防火墙应用。轻按打开。</string>
+    <string name="miscellaneous_settings">杂项</string>
 </resources>

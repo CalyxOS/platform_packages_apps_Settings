@@ -30,8 +30,6 @@
     <string name="timeout_summary_never">Soha</string>
     <string name="timeout_summary_15secs">15 másodperc</string>
     <string name="timeout_summary_30secs">30 másodperc</string>
-    <string name="airplane_mode_radios_category_title">A repülési üzemmód a következő rádiókat fogja állítani</string>
-    <string name="airplane_mode_radios_title">Vezeték nélküli kapcsolatok repülési üzemmódban</string>
     <string name="timeout_summary_30mins">30 perc</string>
     <string name="timeout_summary_1hour">1 óra</string>
     <string name="timeout_summary_48hours">48 óra</string>

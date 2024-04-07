@@ -63,8 +63,6 @@
     <string name="global_vpn_title">Globalus VPN</string>
     <string name="global_vpn_summary">Priversti visą srautą įrenginyje perduoti per šį VPN, įskaitant darbo profilį ir kitus naudotojus.</string>
     <string name="global_vpn_summary_on">Priversti visą srautą įrenginyje perduoti per šį VPN, įskaitant darbo profilį ir kitus naudotojus. Pastaba: Kai ši funkcija įjungta, negalėsite naudoti atskiro VPN darbo profilyje ar kituose naudotojuose</string>
-    <string name="airplane_mode_radios_title">Lėktuvo režimo radijo imtuvai</string>
-    <string name="airplane_mode_radios_category_title">Lėktuvo režimas perjungs pasirinktus radijo imtuvus</string>
     <string name="unhide_app_desc">Jei panaikinsite šios programėlės slėpimą, ji vėl bus matoma Android ir kitoms programėlėms.</string>
     <string name="hide_app_desc">Jei paslėpsite šią programėlę, ji nebus matoma Android ir kitoms programėlėms ir jos gali nebeveikti taip, kaip numatyta. Atminkite, kad paslėpus programėlę yra išsaugomi jos duomenys. Paslėpdami išjungiate šią programėlę ir paslepiate ją savo įrenginyje.</string>
 </resources>

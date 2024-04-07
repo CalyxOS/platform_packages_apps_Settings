@@ -45,8 +45,6 @@
 \nNoyau : <xliff:g id="kernel_level">%2$s</xliff:g>
 \nDistributeur : <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware : <xliff:g id="firmware_level">%4$s</xliff:g></string>
-    <string name="airplane_mode_radios_title">Radios en mode avion</string>
-    <string name="airplane_mode_radios_category_title">Le mode avion bascule les radios sélectionnées</string>
     <string name="global_vpn_title">VPN général</string>
     <string name="global_vpn_summary">Forcez tout le trafic sur l\'appareil a passer par ce VPN, y compris le profil de travail et les autres utilisateurs.</string>
     <string name="global_vpn_summary_on">Forcer tout le trafic sur l\'appareil a passer par ce VPN, y compris le profil de travail et les autres utilisateurs. Remarque : Lorsque cette option est activée, vous ne pourrez pas utiliser un VPN distinct dans un profil de travail ou pour d\'autres utilisateurs</string>
