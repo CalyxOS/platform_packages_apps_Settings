@@ -11,7 +11,6 @@
     <string name="hide">숨기기</string>
     <string name="unhide">보이기</string>
     <string name="cross_profile_sharing_title">프로필간의 공유</string>
-    <string name="airplane_mode_radios_category_title">비행기 모드가 활성화 되면 선택된 통신을 끕니다</string>
     <string name="detailed_security_patch">플랫폼: <xliff:g id="platform_level">%1$s</xliff:g>
 \n커널: <xliff:g id="kernel_level">%2$s</xliff:g>
 \n벤더: <xliff:g id="kernel_level">%3$s</xliff:g>
@@ -24,7 +23,6 @@
     <string name="timeout_summary_30secs">30초</string>
     <string name="timeout_summary_1min">1분</string>
     <string name="timeout_summary_2mins">2분</string>
-    <string name="airplane_mode_radios_title">비행기 모드 통신</string>
     <string name="timeout_summary_5mins">5분</string>
     <string name="timeout_summary_10mins">10분</string>
     <string name="timeout_summary_30mins">30분</string>

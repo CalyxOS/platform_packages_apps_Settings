@@ -32,8 +32,6 @@
 \nბირთვი: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nმომწოდებელი: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nმიკროკოდი: <xliff:g id="firmware_level">%4$s</xliff:g></string>
-    <string name="airplane_mode_radios_title">გადამცემების თვითმფრინავის რეჟიმი</string>
-    <string name="airplane_mode_radios_category_title">თვითმფრინავის რეჟიმი გადართავს არჩეულ გადამცემებს</string>
     <string name="timeout_summary_30mins">30 წუთი</string>
     <string name="timeout_summary_1hour">1 საათი</string>
     <string name="timeout_summary_2hours">2 საათი</string>

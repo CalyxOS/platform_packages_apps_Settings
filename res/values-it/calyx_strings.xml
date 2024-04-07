@@ -38,8 +38,6 @@
 \nNocciolo: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nDistributore: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
-    <string name="airplane_mode_radios_title">Radio in modalità aereo</string>
-    <string name="airplane_mode_radios_category_title">La modalità aereo cambierà la selezione delle radio</string>
     <string name="timeout_summary_12hours">12 ore</string>
     <string name="timeout_summary_24hours">24 ore</string>
     <string name="timeout_summary_36hours">36 ore</string>

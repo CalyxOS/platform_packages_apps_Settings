@@ -33,8 +33,6 @@
     <string name="show_qs_on_secure_keyguard_title">Snelle instellingen</string>
     <string name="show_qs_on_secure_keyguard_summary">Sta snel omzetten van instelling toe op vergrendeld scherm</string>
     <string name="aosp_module_version">Mainline module update</string>
-    <string name="airplane_mode_radios_category_title">Airplane-modus zal de geselecteerde radioknoppen omzetten</string>
-    <string name="airplane_mode_radios_title">Airplaine-modusradioknoppen</string>
     <string name="detailed_security_patch">Platform: <xliff:g id="platform_level">%1$s</xliff:g>
 \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nVendor: <xliff:g id="kernel_level">%3$s</xliff:g>

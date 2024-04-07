@@ -45,12 +45,10 @@
     <string name="global_vpn_summary">İş profili ve diğer kullanıcılar dahil olmak üzere aygıttaki tüm trafiği bu VPN üzerinden gitmeye zorla.</string>
     <string name="global_vpn_summary_on">İş profili ve diğer kullanıcılar dahil olmak üzere aygıttaki tüm trafiği bu VPN üzerinden gitmeye zorla. Not: Etkinleştirildiğinde, bir iş profilinde veya diğer kullanıcılarda ayrı bir VPN kullanamazsınız</string>
     <string name="global_vpn_summary_any_vpn_active">Bunu etkinleştirmek için önce tüm etkin VPN bağlantılarını devre dışı bırakmanız gerekir</string>
-    <string name="airplane_mode_radios_title">Uçak modu radyoları</string>
     <string name="detailed_security_patch">Platform: <xliff:g id="platform_level">%1$s</xliff:g>
 \nÇekirdek: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nSatıcı: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nÜrün yazılımı: <xliff:g id="firmware_level">%4$s</xliff:g></string>
-    <string name="airplane_mode_radios_category_title">Uçak Modu, seçilen radyoları değiştirecek</string>
     <string name="cross_profile_sharing_title">Profiller arası paylaşım</string>
     <string name="cross_profile_sharing_summary">Kişisel ve iş profiliniz arasında çalışması için uygulama içi paylaşım düğmelerini etkinleştirin</string>
     <string name="unhide">Göster</string>
@@ -75,6 +73,10 @@
     <string name="keychords_title">Hata raporu düğmesi kombinasyonu</string>
     <string name="keychords_summary_adb_enabled">Hata ayıklama açıkken her zaman etkin</string>
     <string name="view_bugreports_summary_not_developer">Görüntülendikten sonra, tüm hata raporları siz aygıtı yeniden başlatana kadar erişilebilir kalacaktır</string>
-    <string name="assisted_gps_summary">GPS başlatma performansını büyük ölçüde iyileştirebilecek uydu yardım verilerini internetten indirin. Acil aramalar için destekli GPS\'e her zaman izin verilir.</string>
-    <string name="biometric_settings_category_ways_to_use">Kullanım yolları</string>
+    <string name="miscellaneous_settings">Çeşitli</string>
+    <string name="hidden">Gizli</string>
+    <string name="security_settings_biometric_preference_title_calyx">Biyometrik Kilit Açma</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">İş için Biyometrik Kilit Açma</string>
+    <string name="data_usage_app_datura_firewall">Datura Güvenlik Duvarı</string>
+    <string name="data_usage_app_datura_firewall_summary">Güvenlik duvarı ayarları yeni Güvenlik Duvarı uygulamasına taşındı. Açmak için dokunun.</string>
 </resources>
