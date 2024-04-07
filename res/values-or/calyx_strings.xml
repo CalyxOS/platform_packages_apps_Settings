@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="calyxos_version">କେଲିକ୍ସ୍ ଓ‌ଏସ୍ ଭରଜନ୍</string>
+    <string name="aosp_module_version">ମେନ୍ ଲାଇନ୍ ମୋଡ୍ୟୁଲ୍ ଅପଡେଟ୍</string>
+    <string name="detailed_security_patch">ପ୍ଲାଟଫର୍ମ: <xliff:g id="platform_level">%1$s</xliff:g>
+\nକର୍ନେଲ୍: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nଭେଣ୍ଡର୍: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nଫାର୍ମୱେର୍: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="panic_settings_title">ପେନିକ୍ ବଟନ୍ ଦେଖ</string>
+    <string name="bluetooth_timeout_summary">ବ୍ଲୁତୁଥ୍ <xliff:g id="timeout_description">%1$s</xliff:g> ଗଲେ ବନ୍ଦ୍ ହେଇଯିବା, ଯଦି କେହେନି ଡିଭାଇସ୍ ଯୁଡ଼ି ନି ହେଇଥିବା</string>
+    <string name="show_qs_on_secure_keyguard_summary">ସୁରକ୍ଷିତ୍ ଲକ୍ ସ୍କ୍ରିନ୍ ନୁ କ୍ୱିକ୍ ସେଟିଂ ମାନେ ଅନ୍ କରିହେବା</string>
+    <string name="bluetooth_timeout_summary2">ବ୍ଲୁତୁଥ୍ ତାର୍ ସୁକେ ବନ୍ଦ୍ ନି ହେଉ</string>
+    <string name="wifi_timeout">ୱାଇଫାଇ ତାର୍ ସୁକେ ବନ୍ଦ୍ ହେଉ</string>
+    <string name="wifi_timeout_summary2">ବନ୍ଦ୍</string>
+    <string name="bluetooth_timeout">ବ୍ଲୁତୁଥ୍ ଟାଇମ୍ ଆଉଟ୍</string>
+    <string name="security_restrict_usb_summary">ଇଅର୍- ଫୋନ୍, ଷ୍ଟୋରେଜ୍ ଡିଭାଇସ୍ ଆରୁ ଇନପୁଟ୍ (ମାଇକ୍ରୋଫୋନ୍, କିବୋର୍ଡ଼, ଜଏଷ୍ଟିକ୍) ଏନ୍ତା ୟୁ ଏସ୍ ବି ଯନ୍ତ୍ରପାତି ର ନିୟନ୍ତ୍ରଣ</string>
+    <string name="security_restrict_usb_always">ନୂଆ ୟୁ ଏସ୍ ବି ଯନ୍ତ୍ରପାତି ମନା</string>
+    <string name="timeout_summary_5mins">୫ ମିନିଟ୍</string>
+    <string name="timeout_summary_10mins">୧୦ ମିନିଟ୍</string>
+    <string name="timeout_summary_12hours">୧୨ ଘଣ୍ଟା</string>
+    <string name="security_restrict_usb_title">ୟୁ ଏସ୍ ବି କଟକଣା</string>
+    <string name="timeout_summary_never">କେଭେନୁହେଁ</string>
+    <string name="timeout_summary_15secs">୧୫ ସେକେଣ୍ଡ୍</string>
+    <string name="timeout_summary_30secs">୩୦ ସେକେଣ୍ଡ୍</string>
+    <string name="timeout_summary_1min">୧ ମିନିଟ୍</string>
+    <string name="timeout_summary_2mins">୨ ମିନିଟ୍</string>
+    <string name="timeout_summary_30mins">୩୦ ମିନିଟ୍</string>
+    <string name="timeout_summary_1hour">୧ ଘଣ୍ଟା</string>
+    <string name="timeout_summary_2hours">୨ ଘଣ୍ଟା</string>
+    <string name="timeout_summary_4hours">୪ ଘଣ୍ଟା</string>
+    <string name="timeout_summary_8hours">୮ ଘଣ୍ଟା</string>
+    <string name="timeout_summary_24hours">୨୪ ଘଣ୍ଟା</string>
+    <string name="timeout_summary_36hours">୩୬ ଘଣ୍ଟା</string>
+    <string name="timeout_summary_48hours">୪୮ ଘଣ୍ଟା</string>
+    <string name="timeout_summary_72hours">୭୨ ଘଣ୍ଟା</string>
+    <string name="wifi_timeout_summary">ୱାଇଫାଇ <xliff:g id="timeout_description">%1$s</xliff:g> ଗଲେ ବନ୍ଦ୍ ହେଇଯିବା, ଯଦି କେହେନି ନେଟୱର୍କ ସାଙ୍ଗେ ଯୁଡ଼ି ନି ହେଇଥିବା</string>
+    <string name="show_qs_on_secure_keyguard_title">କ୍ୱିକ୍ ସେଟିଂ ମାନେ</string>
+    <string name="global_vpn_title">ଗ୍ଲୋବାଲ୍ ଭିପିଏନ୍</string>
+    <string name="global_vpn_summary_any_vpn_active">ଇଟା ଅନ୍ କରବାର୍ ଲାଗି, ପହେଲା ସବୁ ଭିପିଏନ୍ ବନ୍ଦ୍ କରବାର୍ କେ ହେବା</string>
+    <string name="security_restrict_usb_keyguard">ଅନଲକ୍ କଲେ ଜାଏକ୍ ନୂଆ ୟୁ ଏସ୍ ବି ଯନ୍ତ୍ରପାତି ଚଲ୍-ବା</string>
+    <string name="global_vpn_summary">ୱାର୍କ୍ ପ୍ରୋଫାଇଲ୍ ଆରୁ ଅଲଗା ୟୁଜର୍ ବାଲେକୁ ଧରି କରି, ସବୁ କାରବାର୍ ଇ ଭିପିଏନ୍ ବ୍ୟବହାର୍ ହେବା ।</string>
+    <string name="global_vpn_summary_on">ୱାର୍କ୍ ପ୍ରୋଫାଇଲ୍ ଆରୁ ଅଲଗା ୟୁଜର୍ ବାଲେକୁ ଧରି କରି, ସବୁ କାରବାର୍ ଇ ଭିପିଏନ୍ ବ୍ୟବହାର୍ ହେବା । ସୋର ରଖିଥ: ଯେତେବେଳେ ଏଟା ଅନ୍ ଥିବା, ତୁମେ ସେତେବେଲ୍ ଯାଏକ୍ ୱାର୍କ୍ ପ୍ରୋଫାଇଲ୍ ଆରୁ ଅଲଗା ୟୁଜର୍ ବାଲକର୍ ଲାଗି ଅଲଗା ଭିପିଏନ୍ ବ୍ୟବହାର୍ କରିନିପାର</string>
+</resources>

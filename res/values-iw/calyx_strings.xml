@@ -14,7 +14,7 @@
     <string name="data_usage_app_restrict_background_all">גישה לרשת ברקע</string>
     <string name="timeout_summary_10mins">10 דקות</string>
     <string name="timeout_summary_1min">דקה</string>
-    <string name="aosp_module_version">עדכון מודול עיקרי</string>
+    <string name="aosp_module_version">עדכון גרסאות של מודולים עיקריים</string>
     <string name="cleartext_network_policy_title">הגבלת תעבורת רשת בטקסט פשוט</string>
     <string name="timeout_summary_4hours">4 שעות</string>
     <string name="data_usage_app_restrict_background_all_summary">הפעלת שימוש ברשת ברקע</string>
@@ -41,7 +41,6 @@
     <string name="timeout_summary_48hours">48 שעות</string>
     <string name="timeout_summary_72hours">72 שעות</string>
     <string name="device_reboot_timeout_summary2">המכשיר לא יופעל מחדש אוטומטית</string>
-    <string name="airplane_mode_radios_category_title">מצב טיסה ישבית או יפעיל את המשדרים הבאים</string>
     <string name="global_vpn_title">VPN גלובלי</string>
     <string name="global_vpn_summary">לאלץ שכל תעבורת המכשיר תועבר דרך ה־VPN הזה כולל פרופיל עבודה ומשתמשים אחרים.</string>
     <string name="global_vpn_summary_on">לאלץ שכל תעבורת המכשיר תועבר דרך ה־VPN הזה כולל פרופיל עבודה ומשתמשים אחרים. לתשומת לבך: כאשר האפשרות פעילה, לא תהיה לך אפשרות להשתמש ב־VPN נפרד לפרופיל העבודה או למשתמשים אחרים</string>
@@ -50,7 +49,6 @@
 \nליבה: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nיצרן: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nקושחה: <xliff:g id="firmware_level">%4$s</xliff:g></string>
-    <string name="airplane_mode_radios_title">משדרים במצב טיסה</string>
     <string name="cross_profile_sharing_summary">הפעלת כפתורי שיתוף בתוך היישומון כדי לעבוד על פני הפרופיל הפרטי ופרופיל העבודה שלך</string>
     <string name="hide">הסתרה</string>
     <string name="unhide">הצגה</string>
@@ -75,6 +73,10 @@
     <string name="keychords_summary">אפשר ללכוד דיווח על תקלה על ידי החזרת כפתור עצמת שמע למעלה, כפתור עצמת שמע למטה והכיבוי ביחד, אפילו כשהמכשיר נעול</string>
     <string name="keychords_summary_adb_enabled">תמיד פעיל כשניפוי שגיאות פעיל</string>
     <string name="view_bugreports_summary_not_developer">לאחר שהוצגו, כל דיווחי התקלות יישארו זמינים עד להפעלת המכשיר מחדש</string>
-    <string name="assisted_gps_summary">הורדת נתוני סיוע לווייני מהאינטרנט שיכולים לשפר משמעותית את הפעילות הראשונית. לשיחות חירום, תמיד מותר להשתמש ב־GPS מסויע.</string>
-    <string name="biometric_settings_category_ways_to_use">דרכי שימוש</string>
+    <string name="miscellaneous_settings">שונות</string>
+    <string name="hidden">מוסתר</string>
+    <string name="security_settings_biometric_preference_title_calyx">שחרור נעילה ביומטרי</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">שחרור נעילה ביומטרי לעבודה</string>
+    <string name="data_usage_app_datura_firewall">חומת אש של Datura</string>
+    <string name="data_usage_app_datura_firewall_summary">הגדרות חומת האש הועברו ליישומון חומת האש החדש. נגיעה כאן תפתח אותו.</string>
 </resources>

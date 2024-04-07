@@ -45,8 +45,6 @@
     <string name="cross_profile_sharing_summary">アプリ内共有ボタンを有効にすると、個人用と仕事用のプロファイルを横断して作業することができます。</string>
     <string name="hide">隠す</string>
     <string name="unhide">表示する</string>
-    <string name="airplane_mode_radios_title">機内モード時のワイヤレス接続</string>
-    <string name="airplane_mode_radios_category_title">機内モード時には、選択したワイヤレス接続に切り替わります</string>
     <string name="global_vpn_summary">仕事用プロファイルや他のユーザーを含め、デバイス上のすべてのトラフィックは、この VPN を経由するようになります。</string>
     <string name="global_vpn_summary_any_vpn_active">これを有効にするには、最初にすべてのアクティブなVPN接続を無効にする必要があります</string>
     <string name="global_vpn_title">グローバル VPN</string>

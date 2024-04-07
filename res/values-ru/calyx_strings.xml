@@ -41,8 +41,6 @@
     <string name="device_reboot_timeout_summary">Устройство автоматически перезагрузится, если оно не было разблокировано в течение последних <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="timeout_summary_48hours">48 часов</string>
     <string name="cleartext_network_policy_title">Ограничить сетевой трафик в открытом виде</string>
-    <string name="airplane_mode_radios_title">Радио в режиме полёта</string>
-    <string name="airplane_mode_radios_category_title">Режим полёта переключит выбранные радиомодули</string>
     <string name="global_vpn_title">Глобальный VPN</string>
     <string name="global_vpn_summary_any_vpn_active">Чтобы включить эту функцию, необходимо сначала отключить все активные VPN-подключения</string>
     <string name="detailed_security_patch">Платформа: <xliff:g id="platform_level">%1$s</xliff:g>
@@ -70,11 +68,13 @@
     <string name="keychords_summary_adb_enabled">Всегда включен, когда отладка включена</string>
     <string name="captive_portal_summary">Проверьте, может ли устройство подключиться к Интернету, обратившись к Google. Также используется для обнаружения порталов присоединения.</string>
     <string name="other_settings">Другие опции</string>
-    <string name="assisted_gps_summary">Загрузите данные спутниковой помощи из Интернета, что может значительно улучшить производительность запуска GPS. Для экстренных вызовов всегда разрешено использование GPS.</string>
-    <string name="biometric_settings_category_ways_to_use">Способы использования</string>
     <string name="keychords_summary">Сделать отчет об ошибке, удерживая одновременно кнопки увеличения громкости, уменьшения громкости и питания, даже если устройство заблокировано</string>
     <string name="quick_settings">Быстрая настройка</string>
     <string name="keychords_title">Комбинация кнопок уведомления об ошибке</string>
     <string name="view_bugreports_summary_not_developer">После просмотра все отчеты об ошибках будут доступны до перезапуска устройства</string>
     <string name="view_bugreports_title">Просмотр отчетов об ошибках</string>
+    <string name="miscellaneous_settings">Прочее</string>
+    <string name="hidden">Скрытое</string>
+    <string name="security_settings_biometric_preference_title_calyx">Разблокировка по биометрии</string>
+    <string name="data_usage_app_datura_firewall_summary">Настройки брандмауэра были перенесены в новое приложение Firewall. Нажмите, чтобы открыть.</string>
 </resources>

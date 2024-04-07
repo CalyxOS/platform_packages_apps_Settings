@@ -34,8 +34,6 @@
     <string name="unhide">Vis</string>
     <string name="wifi_timeout">Skru av Wi-Fi automatisk</string>
     <string name="timeout_summary_48hours">48 timer</string>
-    <string name="airplane_mode_radios_title">Flymodus-radioer</string>
-    <string name="airplane_mode_radios_category_title">Flymodus vil veksle mellom de valgte radioene</string>
     <string name="timeout_summary_12hours">12 timer</string>
     <string name="timeout_summary_24hours">24 timer</string>
     <string name="timeout_summary_36hours">36 timer</string>
