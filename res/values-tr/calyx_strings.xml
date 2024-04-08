@@ -79,4 +79,9 @@
     <string name="security_settings_work_biometric_preference_title_calyx">İş için Biyometrik Kilit Açma</string>
     <string name="data_usage_app_datura_firewall">Datura Güvenlik Duvarı</string>
     <string name="data_usage_app_datura_firewall_summary">Güvenlik duvarı ayarları yeni Güvenlik Duvarı uygulamasına taşındı. Açmak için dokunun.</string>
+    <string name="work_hours_end_off_summary">Çalışma profilini kapatmak için günlük bir bildirim göster</string>
+    <string name="work_hours_end_notification_title">Çalışma gününün sonu</string>
+    <string name="work_hours_end_notification_description">İş uygulamalarını kapatmak için dokunun</string>
+    <string name="work_hours_title">Çalışma saatleri</string>
+    <string name="work_hours_end_on_summary">Çalışma profilini <xliff:g id="end_time">%1$s</xliff:g>\'de kapatmak için günlük bir bildirim göster</string>
 </resources>
