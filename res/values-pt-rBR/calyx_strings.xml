@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="security_restrict_usb_disabled">Sempre permitir dispositivos USB novos</string>
-    <string name="security_restrict_usb_always">Negar dispositivos USB novos</string>
-    <string name="security_restrict_usb_keyguard">Permitir dispositivos USB novos quando desbloqueado</string>
-    <string name="security_restrict_usb_summary">Controla o suporte para dispositivos USB, como fones de ouvido, dispositivos de armazenamento e entrada (mouse, teclado, joysticks)</string>
+    <string name="security_restrict_usb_disabled">Sempre permitir novos dispositivos USB</string>
+    <string name="security_restrict_usb_always">Negar novos dispositivos USB</string>
+    <string name="security_restrict_usb_keyguard">Permitir novos dispositivos USB quando desbloqueado</string>
+    <string name="security_restrict_usb_summary">Controlar o suporte à dispositivos USB, como fones de ouvido, dispositivos de armazenamento e entrada (mouse, teclado, joysticks)</string>
     <string name="security_restrict_usb_title">Restringir USB</string>
-    <string name="panic_settings_summary">Exibir uma opção no menu do botão liga/desliga que ativa um gatilho de pânico de emergência.</string>
+    <string name="panic_settings_summary">Exibir uma opção no menu liga/desliga que ativa um gatilho de pânico de emergência.</string>
     <string name="panic_settings_title">Mostrar opção de pânico</string>
     <string name="calyxos_version">Versão do CalyxOS</string>
     <string name="timeout_summary_5mins">5 minutos</string>
@@ -21,11 +21,11 @@
     <string name="timeout_summary_1hour">1 hora</string>
     <string name="timeout_summary_30mins">30 minutos</string>
     <string name="timeout_summary_10mins">10 minutos</string>
-    <string name="bluetooth_timeout_summary">O Bluetooth será desativado depois de <xliff:g id="timeout_description">%1$s</xliff:g> se não haver dispositivos conectados</string>
+    <string name="bluetooth_timeout_summary">O Bluetooth será desativado depois de <xliff:g id="timeout_description">%1$s</xliff:g> se não houver dispositivos conectados</string>
     <string name="bluetooth_timeout">Desligar o Bluetooth automaticamente</string>
     <string name="show_qs_on_secure_keyguard_summary">Permitir modificar as configurações rápidas na tela de bloqueio segura</string>
     <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
-    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede que não usa TLS. Requer a configuração do DNS privado. Nota: Sem isenções explícitas, aplicativos que usam tráfego de texto simples podem não funcionar</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede que não usa TLS. Precisa da configuração do DNS privado. Nota: Sem isenções explícitas, aplicativos que usam tráfego de texto simples podem não funcionar</string>
     <string name="wifi_timeout_summary2">Desativado</string>
     <string name="wifi_timeout_summary">O Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
     <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
@@ -34,21 +34,21 @@
     <string name="aosp_module_version">Atualização dos módulos Mainline</string>
     <string name="cleartext_network_policy_title">Restringir o tráfego de rede de texto simples</string>
     <string name="device_reboot_timeout_title">Reinicialização automática</string>
-    <string name="device_reboot_timeout_summary2">O dispositivo não irá reiniciar automaticamente</string>
+    <string name="device_reboot_timeout_summary2">O dispositivo não reiniciará automaticamente</string>
     <string name="timeout_summary_12hours">12 horas</string>
     <string name="timeout_summary_24hours">24 horas</string>
     <string name="timeout_summary_36hours">36 horas</string>
     <string name="timeout_summary_48hours">48 horas</string>
     <string name="timeout_summary_72hours">72 horas</string>
-    <string name="device_reboot_timeout_summary">O dispositivo será reiniciado automaticamente se não tiver sido desbloqueado na(s) última(s) <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary">O dispositivo será reiniciado automaticamente se não tiver sido desbloqueado por <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="cross_profile_sharing_summary">Permite que botões de compartilhamento dentro de aplicativos funcionem entre seu perfil pessoal e de trabalho</string>
     <string name="cross_profile_sharing_title">Compartilhamento entre perfis</string>
     <string name="hide">Ocultar</string>
     <string name="unhide">Revelar</string>
     <string name="global_vpn_title">VPN Global</string>
-    <string name="global_vpn_summary">Fazer com que todo tráfego do dispositivo passe por essa VPN, incluindo do perfil de trabalho e de outros usuários.</string>
-    <string name="global_vpn_summary_on">Fazer com que todo tráfego do dispositivo passe por essa VPN, incluindo do perfil de trabalho e de outros usuários. Nota: Quando ativado, você não poderá utilizar uma VPN separada em um perfil de trabalho ou em outros usuários</string>
-    <string name="global_vpn_summary_any_vpn_active">Você precisa desabilitar todas as conexões VPN ativas primeiro para ativar isso</string>
+    <string name="global_vpn_summary">Fazer com que todo o tráfego do dispositivo passe por essa VPN, incluindo do perfil de trabalho e de outros usuários.</string>
+    <string name="global_vpn_summary_on">Fazer com que todo o tráfego do dispositivo passe por essa VPN, incluindo do perfil de trabalho e de outros usuários. Nota: Quando ativado, você não poderá utilizar uma VPN separada no perfil de trabalho ou em outros usuários</string>
+    <string name="global_vpn_summary_any_vpn_active">Você precisa desativar todas as conexões VPN ativas antes de ativar isso</string>
     <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g>
 \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nFornecedor: <xliff:g id="kernel_level">%3$s</xliff:g>
@@ -56,7 +56,7 @@
     <string name="filter_hidden_apps">Aplicativos ocultos</string>
     <string name="hide_app">Ocultar aplicativo</string>
     <string name="unhide_app">Revelar aplicativo</string>
-    <string name="view_bugreports_title">Ver relatórios de bugs</string>
+    <string name="view_bugreports_title">Ver relatórios de bug</string>
     <string name="other_settings">Outras opções</string>
     <string name="quick_settings">Configurações rápidas</string>
     <string name="system_dashboard_summary_calyx">Idiomas, gestos, horário, backup, usuários, perfil de trabalho</string>
@@ -64,11 +64,11 @@
     <string name="network_dashboard_summary_mobile_calyx">Redes móveis, Wi-Fi, ponto de acesso, VPN, DNS privado</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ponto de acesso, VPN, DNS privado</string>
     <string name="unhide_app_desc">Se você revelar este aplicativo, ele ficará visível para o Android e outros aplicativos novamente.</string>
-    <string name="bugreport_summary">Fazer um relatório de bugs agora</string>
-    <string name="hide_app_desc">Se você ocultar este aplicativo, ele não será visível para o Android e outros aplicativos, e eles podem não funcionar mais como deveriam. Lembrando que, ocultar um aplicativo preserva seus dados. Escondendo o aplicativo, você desativa o aplicativo e esconde ele do seu dispositivo.</string>
+    <string name="bugreport_summary">Fazer um relatório de bug agora</string>
+    <string name="hide_app_desc">Se você ocultar este aplicativo, ele não será visível para o Android e outros aplicativos, e eles podem não funcionar mais como deveriam. Lembrando que, ocultar um aplicativo preserva seus dados. Escondendo o aplicativo, você desliga o aplicativo e esconde ele do seu dispositivo.</string>
     <string name="captive_portal_title">Verificação de conectividade</string>
-    <string name="captive_portal_summary">Determine se o dispositivo consegue se conectar à internet, contatando ao Google. Também é usado para detectar redes com páginas de login.</string>
-    <string name="keychords_title">Combinação de botões para relatório de bugs</string>
+    <string name="captive_portal_summary">Determina se o dispositivo consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detectar redes com páginas de login.</string>
+    <string name="keychords_title">Combinação de botões para relatório de bug</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pareamento, NFC</string>
     <string name="miscellaneous_settings">Miscelâneas</string>
     <string name="view_bugreports_summary_not_developer">Quando visualizado, todos os relatórios de bug continuarão acessíveis até o dispositivo ser reiniciado</string>
@@ -78,5 +78,10 @@
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
     <string name="data_usage_app_datura_firewall_summary">Configurações de firewall foram movidas para o novo aplicativo Firewall. Toque para abrir ele.</string>
     <string name="security_dashboard_summary_calyx">Bloqueio de tela, configurações de pânico, restrições USB, segurança de aplicativos</string>
-    <string name="keychords_summary">Capture um relatório de bugs segurando os botões de volume, e Power ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
+    <string name="keychords_summary">Capture um relatório de bug segurando os botões de volume, e Power ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
+    <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente ás <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
+    <string name="work_hours_end_off_summary">Mostrar uma notificação diária para desativar o perfil de trabalho</string>
+    <string name="work_hours_end_notification_description">Toque para desativar apps de trabalho</string>
+    <string name="work_hours_title">Horas de trabalho</string>
+    <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
 </resources>
