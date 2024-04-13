@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e85dc1a_8fc0cdcc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-04-13T16:37:58Z",
+      "side": 1,
+      "message": "Question about a few strings on the CalyxOS/Settings component;\nthe words \"USB devices\" are used, when I go to LineageOS\u0027 Crowdin, they have a similar (or the same) feature just in different locations, but it uses the word \"USB connections\" instead. There\u0027s also no \"Allow *new* devices\" just \"Allow USB connections when unlocked\". They also reference ADB.\n\nWas this perhaps intended? The wording used in CalyxOS, I feel as it can be a bit confusing. To be fair this entire thing is confusing because these settings of course wouldn\u0027t apply outside the booted OS environment, but really, I think these descriptions don\u0027t exactly tell you what this is supposed to help protect against. (Which I believe is to prevent any attacks using USB in an AFU environment, security overall)\n\nI\u0027ve decided to adapt these to use the same meanings as in LineageOS, as I feel it works better in my language and makes more sense overall. Let me know if I shouldn\u0027t. (These haven\u0027t applied here yet, still needs to be pulled from Weblate)",
+      "revId": "5a24c0023977e5a830ee841f91845b21e7f2ec4e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
