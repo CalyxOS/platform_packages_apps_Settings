@@ -79,4 +79,9 @@
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
     <string name="data_usage_app_datura_firewall_summary">Nastavení firewallu byla přesunuta do nové aplikace Firewall. Klepněte pro její otevření.</string>
     <string name="miscellaneous_settings">Různé</string>
+    <string name="work_hours_title">Pracovní hodiny</string>
+    <string name="work_hours_end_on_summary">Zobrazit oznámení na vypnutí pracovního profilu každý den v <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="work_hours_end_off_summary">Zobrazit denní oznámení na vypnutí pracovního profilu</string>
+    <string name="work_hours_end_notification_title">Konec pracovního dne</string>
+    <string name="work_hours_end_notification_description">Klepněte pro vypnutí pracovních aplikací</string>
 </resources>
