@@ -16,6 +16,24 @@
       "message": "Question about a few strings on the CalyxOS/Settings component;\nthe words \"USB devices\" are used, when I go to LineageOS\u0027 Crowdin, they have a similar (or the same) feature just in different locations, but it uses the word \"USB connections\" instead. There\u0027s also no \"Allow *new* devices\" just \"Allow USB connections when unlocked\". They also reference ADB.\n\nWas this perhaps intended? The wording used in CalyxOS, I feel as it can be a bit confusing. To be fair this entire thing is confusing because these settings of course wouldn\u0027t apply outside the booted OS environment, but really, I think these descriptions don\u0027t exactly tell you what this is supposed to help protect against. (Which I believe is to prevent any attacks using USB in an AFU environment, security overall)\n\nI\u0027ve decided to adapt these to use the same meanings as in LineageOS, as I feel it works better in my language and makes more sense overall. Let me know if I shouldn\u0027t. (These haven\u0027t applied here yet, still needs to be pulled from Weblate)",
       "revId": "5a24c0023977e5a830ee841f91845b21e7f2ec4e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40057b98_9e77bfca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-18T22:07:12Z",
+      "side": 1,
+      "message": "The LineageOS and CalyxOS Restrict USB functionality has some differences, but the basics are shared and the same.\n\nhttps://github.com/CalyxOS/platform_packages_apps_Settings/blob/820177bca36a805cd7c1c1331b784d3aab037203/res/values/calyx_strings.xml#L78\n\n```\n    \u003cstring name\u003d\"security_restrict_usb_title\"\u003eRestrict USB\u003c/string\u003e\n    \u003cstring name\u003d\"security_restrict_usb_summary\"\u003eControl support for USB gadgets such as earphones, storage devices and input (mice, keyboards, joysticks)\u003c/string\u003e\n    \u003cstring name\u003d\"security_restrict_usb_always\"\u003eDeny new USB gadgets\u003c/string\u003e\n    \u003cstring name\u003d\"security_restrict_usb_keyguard\"\u003eAllow new USB gadgets when unlocked\u003c/string\u003e\n    \u003cstring name\u003d\"security_restrict_usb_disabled\"\u003eAllow new USB gadgets always\u003c/string\u003e\n```\n\nhttps://github.com/LineageOS/android_packages_apps_LineageParts/blob/158d243e73983a5066ea67aac6704f7576d3a3bd/res/values/strings.xml#L673\n\n```\n    \u003cstring name\u003d\"trust_restrict_usb_title\"\u003eRestrict USB\u003c/string\u003e\n    \u003cstring name\u003d\"trust_restrict_usb_summary\"\u003eControl support for USB connections such as earphones, storage devices, input (mice, keyboards, joysticks) and ADB\u003c/string\u003e\n    \u003cstring name\u003d\"trust_restrict_usb_always\"\u003eDeny USB connections\u003c/string\u003e\n    \u003cstring name\u003d\"trust_restrict_usb_keyguard\"\u003eAllow USB connections when unlocked\u003c/string\u003e\n    \u003cstring name\u003d\"trust_restrict_usb_disabled\"\u003eAlways allow USB connections\u003c/string\u003e\n```\n\nI see the difference, connections vs gadgets. It\u0027s the same otherwise.\n\nI\u0027ll bring it up internally.\n\nOne of the differences in CalyxOS is that these do apply early on in the booting process - around when Android starts to load and not in bootloader mode, but still.",
+      "parentUuid": "7e85dc1a_8fc0cdcc",
+      "revId": "5a24c0023977e5a830ee841f91845b21e7f2ec4e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
