@@ -34,6 +34,24 @@
       "parentUuid": "7e85dc1a_8fc0cdcc",
       "revId": "5a24c0023977e5a830ee841f91845b21e7f2ec4e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2703970a_b34881ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-04-20T01:25:37Z",
+      "side": 1,
+      "message": "Oh ok then. No need to bring it up I think; mostly was wondering if in Calyx it would be wrong to translate it as connections; personally found their translation nicer; translating gadgets was a bit of a weird thing that I felt like left a bit to interpretation. I don\u0027t think we have a word for gadgets, it feels a bit more broad than devices. My understanding is that having USB debugging makes these settings ignored, (IIRC from some conversations with tmw about the USB issue on the Motos a while back) *that* might be something to bring up to maybe include in the description.",
+      "parentUuid": "40057b98_9e77bfca",
+      "revId": "5a24c0023977e5a830ee841f91845b21e7f2ec4e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
