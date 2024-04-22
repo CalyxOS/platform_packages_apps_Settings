@@ -58,4 +58,23 @@
     <string name="network_dashboard_summary_mobile_calyx">Données mobiles, Wi‑Fi, point d\'accès, VPN, DNS privé</string>
     <string name="security_dashboard_summary_calyx">Écran de verrouillage, paramètres de panique, restrictions USB, sécurité d\'application</string>
     <string name="system_dashboard_summary_calyx">Langues, gestes, temps, sauvegarde, utilisateurs, profil professionnel</string>
+    <string name="hide_app">Masquer l\'application</string>
+    <string name="other_settings">Autres options</string>
+    <string name="view_bugreports_title">Afficher le rapport de bug</string>
+    <string name="view_bugreports_summary_not_developer">Une fois afficher, tous les rapports de bugs resteront accessible jusqu\'au redémarrage de l\'appareil</string>
+    <string name="keychords_summary_adb_enabled">Toujours activé lorsque le débogage est allumé</string>
+    <string name="filter_hidden_apps">Applications masquées</string>
+    <string name="unhide_app">Montrer l\'application</string>
+    <string name="work_hours_title">Heures de travail</string>
+    <string name="work_hours_end_notification_description">Appuyer pour désactiver les applications professionnelles</string>
+    <string name="work_hours_end_off_summary">Afficher une notification journalière pour désactiver le profil professionnel</string>
+    <string name="data_usage_app_datura_firewall">Pare-feu Datura</string>
+    <string name="work_hours_end_on_summary">Afficher une notification journalière pour désactiver le profil professionnel à <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="quick_settings">Paramètres rapides</string>
+    <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à internet, en contactant Google. Aussi utilisé pour détecter des portails captifs.</string>
+    <string name="miscellaneous_settings">Divers</string>
+    <string name="hidden">Masquer</string>
+    <string name="security_settings_biometric_preference_title_calyx">Déverrouillage biométrique</string>
+    <string name="unhide_app_desc">Si vous montrez cette application, elle sera visible à Android et aux autres applications.</string>
+    <string name="work_hours_end_notification_title">Fin de la journée de travail</string>
 </resources>

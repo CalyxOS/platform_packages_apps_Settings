@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="security_restrict_usb_disabled">Sempre permitir novos aparelhos USB</string>
-    <string name="security_restrict_usb_keyguard">Permitir novos aparelhos USB quando desbloqueados</string>
+    <string name="security_restrict_usb_keyguard">Permitir conexões USB quando desbloqueado</string>
     <string name="security_restrict_usb_always">Negar novos aparelhos USB</string>
-    <string name="security_restrict_usb_summary">Suporte de controle para aparelhos USB, como fones de ouvido, aparelhos de armazenamento e entrada (rato, teclado, joysticks)</string>
+    <string name="security_restrict_usb_summary">Controle o suporte às conexões USB como fones, armazenamento portátil, e de entrada (mouses, teclados, joysticks)</string>
     <string name="security_restrict_usb_title">Restringir USB</string>
     <string name="panic_settings_summary">Exibir a opção do botão liga/desliga que ativa um gatilho de pânico de emergência.</string>
     <string name="panic_settings_title">Mostrar opção de pânico</string>
@@ -58,4 +58,30 @@
     <string name="view_bugreports_title">Ver relatórios de erro</string>
     <string name="other_settings">Outras opções</string>
     <string name="quick_settings">Configurações Rápidas</string>
+    <string name="network_dashboard_summary_mobile_calyx">Redes móveis, Wi-Fi, ponto de acesso, VPN, DNS particular</string>
+    <string name="captive_portal_title">Verificação de conectividade</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pareamento, NFC</string>
+    <string name="system_dashboard_summary_calyx">Idiomas, gestos, horário, backup, usuários, perfil de trabalho</string>
+    <string name="captive_portal_summary">Determina se o dispositivo consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detectar redes com páginas de login.</string>
+    <string name="miscellaneous_settings">Miscelâneas</string>
+    <string name="bugreport_summary">Fazer um relatório de bug agora</string>
+    <string name="keychords_title">Combinação de botões para relatório de bug</string>
+    <string name="keychords_summary">Capture um relatório de bug segurando os botões de volume, e Power ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
+    <string name="keychords_summary_adb_enabled">Sempre ativado quando a depuração está ativa</string>
+    <string name="view_bugreports_summary_not_developer">Quando visualizado, todos os relatórios de bug continuarão acessíveis até o dispositivo ser reiniciado</string>
+    <string name="security_settings_biometric_preference_title_calyx">Desbloqueio biométrico</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueio biométrico para trabalho</string>
+    <string name="data_usage_app_datura_firewall">Firewall Datura</string>
+    <string name="data_usage_app_datura_firewall_summary">Configurações de firewall foram movidas para o novo aplicativo Firewall. Toque para abrir ele.</string>
+    <string name="work_hours_title">Horas de trabalho</string>
+    <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente ás <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
+    <string name="work_hours_end_off_summary">Mostrar uma notificação diária para desativar o perfil de trabalho</string>
+    <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
+    <string name="work_hours_end_notification_description">Toque para desativar apps de trabalho</string>
+    <string name="security_dashboard_summary_calyx">Bloqueio de tela, configurações de pânico, restrições USB, segurança de aplicativos</string>
+    <string name="hide_app_desc">Se você ocultar este aplicativo, ele não será visível para o Android e outros aplicativos, e eles podem não funcionar mais como deveriam. Lembrando que, ocultar um aplicativo preserva seus dados. Escondendo o aplicativo, você desliga o aplicativo e esconde ele do seu dispositivo.</string>
+    <string name="unhide_app">Revelar aplicativo</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ponto de acesso, VPN, DNS particular</string>
+    <string name="unhide_app_desc">Se você revelar este aplicativo, ele ficará visível para o Android e outros aplicativos novamente.</string>
+    <string name="hidden">Oculto</string>
 </resources>
