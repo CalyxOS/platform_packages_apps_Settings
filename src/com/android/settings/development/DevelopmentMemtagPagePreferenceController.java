@@ -19,6 +19,7 @@ package com.android.settings.development;
 import android.content.Context;
 
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.security.MemtagHelper;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 
@@ -27,7 +28,7 @@ public class DevelopmentMemtagPagePreferenceController extends DeveloperOptionsP
     private static final String KEY_DEVELOPMENT_MEMTAG_PAGE = "development_memtag_page";
 
     public DevelopmentMemtagPagePreferenceController(
-            Context context, DevelopmentSettingsDashboardFragment fragment) {
+            Context context, DashboardFragment fragment) {
         super(context);
     }
 
