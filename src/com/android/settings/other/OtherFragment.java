@@ -24,6 +24,7 @@ import android.os.UserManager;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.development.DevelopmentMemtagPagePreferenceController;
 import com.android.settings.development.OnActivityResultListener;
 import com.android.settings.development.OemUnlockDialogHost;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -68,6 +69,7 @@ public class OtherFragment extends DashboardFragment
         mPreferenceControllers.add(new KeychordsPreferenceController(context, getActivity(), this));
         mPreferenceControllers.add(
                 new ViewBugreportsPreferenceController(context, getActivity(), this));
+        mPreferenceControllers.add(new DevelopmentMemtagPagePreferenceController(context, this));
         return mPreferenceControllers;
     }
 
