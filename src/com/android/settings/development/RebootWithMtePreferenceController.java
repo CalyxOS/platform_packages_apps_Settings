@@ -42,8 +42,7 @@ public class RebootWithMtePreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        return DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(mContext)
-                        && SystemProperties.getBoolean("ro.arm64.memtag.bootctl_supported", false)
+        return SystemProperties.getBoolean("ro.arm64.memtag.bootctl_supported", false)
                 ? BasePreferenceController.AVAILABLE
                 : BasePreferenceController.UNSUPPORTED_ON_DEVICE;
     }

@@ -24,6 +24,11 @@
     <PreferenceCategory
         android:title="@string/general_category_title">
 
+        <Preference
+            android:key="development_memtag_page"
+            android:title="@string/development_memtag_page_title"
+            android:fragment="com.android.settings.development.DevelopmentMemtagPage" />
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="oem_unlock_enable"
             android:title="@string/oem_unlock_enable"
