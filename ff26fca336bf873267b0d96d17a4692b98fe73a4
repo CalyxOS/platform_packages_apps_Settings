@@ -16,6 +16,23 @@
       "message": "Works as expected on bluejay (tested by setting `ro.arm64.memtag.bootctl_supported` to true, by default it\u0027s not set on bluejay and no longer shows)",
       "revId": "ff26fca336bf873267b0d96d17a4692b98fe73a4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad2ac748_8646abb3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-04-26T16:28:39Z",
+      "side": 1,
+      "message": "Altenative https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/26025 and https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/26026",
+      "revId": "ff26fca336bf873267b0d96d17a4692b98fe73a4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
