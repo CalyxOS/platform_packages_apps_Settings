@@ -51,8 +51,7 @@ public class DevelopmentMemtagPreferenceController extends TogglePreferenceContr
         if (MemtagHelper.isForcedOff() || MemtagHelper.isForcedOn()) {
             return BasePreferenceController.DISABLED_DEPENDENT_SETTING;
         }
-        return DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(mContext)
-                        && SystemProperties.getBoolean("ro.arm64.memtag.bootctl_supported", false)
+        return SystemProperties.getBoolean("ro.arm64.memtag.bootctl_supported", false)
                 ? BasePreferenceController.AVAILABLE
                 : BasePreferenceController.UNSUPPORTED_ON_DEVICE;
     }
