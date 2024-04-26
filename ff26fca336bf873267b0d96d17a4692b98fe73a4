@@ -33,6 +33,42 @@
       "message": "Altenative https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/26025 and https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/26026",
       "revId": "ff26fca336bf873267b0d96d17a4692b98fe73a4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "067a168a_6281a397",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-26T16:54:05Z",
+      "side": 1,
+      "message": "Thanks!",
+      "parentUuid": "c9868d69_a5a73e8b",
+      "revId": "ff26fca336bf873267b0d96d17a4692b98fe73a4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83052f34_e38a16b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-04-26T16:54:05Z",
+      "side": 1,
+      "message": "Not really.",
+      "parentUuid": "ad2ac748_8646abb3",
+      "revId": "ff26fca336bf873267b0d96d17a4692b98fe73a4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
