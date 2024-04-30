@@ -29,6 +29,7 @@ import android.database.ContentObserver;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Process;
+import android.os.UserHandle;
 import android.os.UserManager;
 
 import com.android.settings.R;
@@ -68,26 +69,11 @@ public class UserTimeoutReceiver extends BroadcastReceiver {
                         });
                 setTimeout(context);
             } else if (ACTION_USER_TIMEOUT.equals(intent.getAction())) {
-                if (!intent.getBooleanExtra(EXTRA_NOTIFICATION, false)) {
-                    NotificationManager notificationManager = NotificationManager.from(context);
-                    NotificationChannel notificationChannel = new NotificationChannel(
-                            USER_TIMEOUT_CHANNEL, context.getString(R.string.work_hours_title),
-                            NotificationManager.IMPORTANCE_DEFAULT);
-                    notificationManager.createNotificationChannel(notificationChannel);
-                    PendingIntent pendingIntent = PendingIntent.getBroadcast(context,
-                            Process.myUid() + 1, new Intent(ACTION_USER_TIMEOUT).setPackage(
-                                    context.getPackageName()).putExtra(EXTRA_NOTIFICATION, true),
-                            PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
-                    Notification notification = new Notification.Builder(context,
-                            USER_TIMEOUT_CHANNEL).setSmallIcon(
-                            R.drawable.ic_settings_multiuser).setContentTitle(context.getString(
-                            R.string.work_hours_end_notification_title)).setContentText(
-                            context.getString(
-                                    R.string.work_hours_end_notification_description)).setContentIntent(
-                            pendingIntent).setAutoCancel(true).setVisibility(
-                            Notification.VISIBILITY_PUBLIC).build();
-                    notificationManager.notify(R.drawable.ic_settings_multiuser, notification);
-                } else if (userManager.isManagedProfile()) {
+                if (!intent.getBooleanExtra(EXTRA_NOTIFICATION, false)
+                        && notifyAndReturn(context)) {
+                    return;
+                }
+                if (userManager.isManagedProfile()) {
                     userManager.requestQuietModeEnabled(true, context.getUser());
                 } else {
                     context.getSystemService(ActivityManager.class).stopUser(context.getUserId());
@@ -114,5 +100,44 @@ public class UserTimeoutReceiver extends BroadcastReceiver {
         } else {
             mAlarmManager.cancel(mPendingIntent);
         }
+    }
+
+    private boolean notifyAndReturn(Context context) {
+        NotificationManager notificationManager = NotificationManager.from(
+                context);
+        NotificationChannel notificationChannel = new NotificationChannel(
+                USER_TIMEOUT_CHANNEL,
+                context.getString(R.string.work_hours_title),
+                NotificationManager.IMPORTANCE_DEFAULT);
+        notificationManager.createNotificationChannel(notificationChannel);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(context,
+                Process.myUid() + 1,
+                new Intent(ACTION_USER_TIMEOUT).setPackage(
+                        context.getPackageName()).putExtra(
+                        EXTRA_NOTIFICATION, true),
+                PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+        Notification.Builder notificationBuilder = new Notification.Builder(context,
+                USER_TIMEOUT_CHANNEL)
+                .setSmallIcon(R.drawable.ic_settings_multiuser)
+                .setContentTitle(
+                        context.getString(R.string.work_hours_end_notification_title))
+                .setAutoCancel(true)
+                .setVisibility(Notification.VISIBILITY_PUBLIC);
+        int userActivityEndTimeMode = LineageSettings.Secure.getInt(context.getContentResolver(),
+                LineageSettings.Secure.USER_ACTIVITY_END_TIME_MODE, 0);
+        if (userActivityEndTimeMode == 0) {
+            notificationBuilder
+                    .setContentText(
+                            context.getString(R.string.work_hours_end_notification_description))
+                    .setContentIntent(pendingIntent);
+        }
+        Notification notification = notificationBuilder.build();
+        if (userActivityEndTimeMode == 0) {
+            notificationManager.notify(R.drawable.ic_settings_multiuser, notification);
+        } else {
+            notificationManager.notifyAsUser(UserTimeoutReceiver.class.getSimpleName(),
+                    R.drawable.ic_settings_multiuser, notification, UserHandle.SYSTEM);
+        }
+        return userActivityEndTimeMode == 0;
     }
 }
