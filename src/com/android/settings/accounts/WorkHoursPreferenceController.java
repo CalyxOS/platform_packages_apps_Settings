@@ -17,6 +17,7 @@
 
 package com.android.settings.accounts;
 
+import android.app.AlertDialog;
 import android.app.TimePickerDialog;
 import android.content.Context;
 import android.os.UserHandle;
@@ -66,9 +67,14 @@ public class WorkHoursPreferenceController extends TogglePreferenceController {
     public CharSequence getSummary() {
         long time = LineageSettings.Secure.getLongForUser(mContext.getContentResolver(),
                 LineageSettings.Secure.USER_ACTIVITY_END_TIME, 0, mManagedProfile.getIdentifier());
-        return time != 0 ? mContext.getString(R.string.work_hours_end_on_summary,
+        int mode = LineageSettings.Secure.getIntForUser(mContext.getContentResolver(),
+                LineageSettings.Secure.USER_ACTIVITY_END_TIME_MODE, 0,
+                mManagedProfile.getIdentifier());
+        return time != 0 ? mode == 0 ? mContext.getString(R.string.work_hours_end_on_summary,
+                DateFormat.getTimeFormat(mContext).format(time)) : mContext.getString(
+                R.string.work_hours_end_on_summary2,
                 DateFormat.getTimeFormat(mContext).format(time))
-                        : mContext.getString(R.string.work_hours_end_off_summary);
+                : mContext.getString(R.string.work_hours_end_off_summary);
     }
 
     @Override
@@ -82,7 +88,7 @@ public class WorkHoursPreferenceController extends TogglePreferenceController {
     public boolean setChecked(boolean isChecked) {
         if (isChecked) {
             new TimePickerDialog(mContext,
-                    (TimePickerDialog.OnTimeSetListener) (view, hourOfDay, minute) -> {
+                    (view, hourOfDay, minute) -> {
                         Calendar calendar = Calendar.getInstance();
                         calendar.set(Calendar.HOUR_OF_DAY, hourOfDay);
                         calendar.set(Calendar.MINUTE, minute);
@@ -90,7 +96,25 @@ public class WorkHoursPreferenceController extends TogglePreferenceController {
                         LineageSettings.Secure.putLongForUser(mContext.getContentResolver(),
                                 LineageSettings.Secure.USER_ACTIVITY_END_TIME,
                                 calendar.getTimeInMillis(), mManagedProfile.getIdentifier());
-                        updateState(mPreference);
+                        new AlertDialog.Builder(mContext)
+                                .setTitle(R.string.work_hours_title)
+                                .setMessage(mContext.getString(R.string.work_hours_end_off_summary)
+                                        + "?")
+                                .setNegativeButton(R.string.turn_off, (dialog, which) -> {
+                                    LineageSettings.Secure.putIntForUser(
+                                            mContext.getContentResolver(),
+                                            LineageSettings.Secure.USER_ACTIVITY_END_TIME_MODE, 1,
+                                            mManagedProfile.getIdentifier());
+                                    updateState(mPreference);
+                                })
+                                .setPositiveButton(R.string.notify, (dialog, which) -> {
+                                    LineageSettings.Secure.putIntForUser(
+                                            mContext.getContentResolver(),
+                                            LineageSettings.Secure.USER_ACTIVITY_END_TIME_MODE, 0,
+                                            mManagedProfile.getIdentifier());
+                                    updateState(mPreference);
+                                })
+                                .show();
                     }, 17, 0,
                     DateFormat.is24HourFormat(mContext, mManagedProfile.getIdentifier())).show();
         } else {
