@@ -156,9 +156,12 @@
     <!-- Work profile settings screen, setting option to change profile timeout -->
     <string name="work_hours_title">Work hours</string>
     <string name="work_hours_end_on_summary">Show a notification to turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
-    <string name="work_hours_end_off_summary">Show a daily notification to turn off the work profile</string>
+    <string name="work_hours_end_on_summary2">Turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
+    <string name="work_hours_end_off_summary">Automatically turn off the work profile or receive a notification to do so</string>
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
+    <string name="turn_off">Turn off</string>
+    <string name="notify">Notify</string>
 
     <!-- Strict location redaction setting -->
     <string name="strict_location_redaction_title">Redact location data when sharing media</string>
