@@ -13,7 +13,7 @@
     <string name="timeout_summary_15secs">15 sekund</string>
     <string name="timeout_summary_never">Nikdy</string>
     <string name="bluetooth_timeout_summary2">Nevypínat automaticky Bluetooth</string>
-    <string name="bluetooth_timeout_summary">Bluetooth se vypne po <xliff:g id="timeout_description">%1$s</xliff:g>, pokud nejsou připojená žádná zařízení</string>
+    <string name="bluetooth_timeout_summary">Bluetooth se vypne za <xliff:g id="timeout_description">%1$s</xliff:g>, pokud nejsou připojená žádná zařízení</string>
     <string name="bluetooth_timeout">Maximální trvání Bluetooth spojení</string>
     <string name="security_restrict_usb_disabled">Vždy povolit nová USB zařízení</string>
     <string name="security_restrict_usb_keyguard">Povolit nová USB zařízení po odemčení</string>

@@ -81,4 +81,15 @@
     <string name="keychords_summary">Зробити звіт про помилку, утримуючи одночасно кнопки збільшення гучності, зменшення гучності та живлення, навіть якщо пристрій заблоковано</string>
     <string name="keychords_summary_adb_enabled">Завжди увімкнено, коли ввімкнено налагодження</string>
     <string name="view_bugreports_title">Перегляд звітів про помилки</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Біометричне розблокування для роботи</string>
+    <string name="work_hours_end_on_summary">Показувати сповіщення про вимкнення робочого профілю о <xliff:g id="end_time">%1$s</xliff:g> годині щодня</string>
+    <string name="miscellaneous_settings">Різне</string>
+    <string name="hidden">Приховане</string>
+    <string name="security_settings_biometric_preference_title_calyx">Біометричне розблокування</string>
+    <string name="data_usage_app_datura_firewall_summary">Налаштування брандмауера було перенесено до нового застосунку Firewall. Натисніть, щоби відкрити.</string>
+    <string name="data_usage_app_datura_firewall">Брандмауер Datura</string>
+    <string name="work_hours_title">Час роботи</string>
+    <string name="work_hours_end_off_summary">Показувати щоденне сповіщення про вимкнення робочого профілю</string>
+    <string name="work_hours_end_notification_title">Кінець робочого дня</string>
+    <string name="work_hours_end_notification_description">Натисніть, щоби вимкнути робочі зачтосунки</string>
 </resources>

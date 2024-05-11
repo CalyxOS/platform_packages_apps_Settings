@@ -79,4 +79,9 @@
     <string name="hidden">Ausgeblendet</string>
     <string name="data_usage_app_datura_firewall">Datura Firewall</string>
     <string name="data_usage_app_datura_firewall_summary">Firewall-Einstellungen wurden in die neue Firewall-App verschoben. Zum Öffnen antippen.</string>
+    <string name="work_hours_end_on_summary">Anzeige einer Benachrichtigung zum Ausschalten des Arbeitsprofils um <xliff:g id="end_time">%1$s</xliff:g> täglich</string>
+    <string name="work_hours_title">Arbeitszeiten</string>
+    <string name="work_hours_end_off_summary">Täglich eine Benachrichtigung zum Ausschalten des Arbeitsprofils anzeigen</string>
+    <string name="work_hours_end_notification_title">Arbeitstagende</string>
+    <string name="work_hours_end_notification_description">Antippen, um geschäftliche Apps zu deaktivieren</string>
 </resources>
