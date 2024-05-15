@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "435f3daa_f34d328b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-05-15T20:07:33Z",
+      "side": 1,
+      "message": "Needs UI modifications for user to select between the modes",
+      "revId": "f42851076ed13c865d6e26ba41a1d095ea39edca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
