@@ -42,11 +42,11 @@
     <string name="preview_pager_content_description" msgid="3762247188224576303">"プレビュー"</string>
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"縮小"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"拡大"</string>
-    <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"常に ON"</string>
+    <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"常時"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"デバイスを折りたたむとフロント ディスプレイが ON になります"</string>
-    <string name="selective_stay_awake_title" msgid="7887645333447645168">"ゲーム、動画などのみ"</string>
-    <string name="selective_stay_awake_summary" msgid="9055967322921984543">"フロント ディスプレイが ON になり、アプリによって画面がアイドル状態から復帰します"</string>
-    <string name="sleep_on_fold_title" msgid="7626123024330501411">"ON にしない"</string>
+    <string name="selective_stay_awake_title" msgid="7887645333447645168">"ゲームや動画などの場合のみ"</string>
+    <string name="selective_stay_awake_summary" msgid="9055967322921984543">"画面がアイドル状態にならないアプリを使用している場合にフロント ディスプレイが ON になります"</string>
+    <string name="sleep_on_fold_title" msgid="7626123024330501411">"継続しない"</string>
     <string name="sleep_on_fold_summary" msgid="7737992842459588846">"デバイスを折りたたむとフロント ディスプレイがロックされます"</string>
     <string name="auto_rotate_settings_primary_switch_title" msgid="3440951924928594520">"画面を自動で回転させる"</string>
     <string name="smart_rotate_text_headline" msgid="5878008933992951904">"顔検出は、前面カメラを使用して自動回転の精度を高めます。画像が Google に保存されたり送信されたりすることはありません。"</string>
@@ -521,7 +521,7 @@
     <string name="setup_lock_settings_options_dialog_title" msgid="7985107300517468569">"画面ロックの方法"</string>
     <string name="lock_screen_auto_pin_confirm_title" msgid="3012128112186088375">"ロック解除を自動で確認する"</string>
     <string name="lock_screen_auto_pin_confirm_summary" msgid="9050818870806580819">"6 桁以上の正しい PIN が入力されると自動的にロック解除します。[入力] をタップして確認するよりも、安全面でやや劣ります。"</string>
-    <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"正しい PIN を自動で確認します"</string>
+    <string name="auto_pin_confirm_user_message" msgid="6194556173488939314">"正しい PIN を自動で確認する"</string>
     <string name="auto_pin_confirm_opt_in_security_message" msgid="580773976736184893">"[入力] をタップして PIN を確認するほうが、自動確認を使うよりも安全です"</string>
     <string name="auto_confirm_on_pin_verify_description" msgid="2052240431173223502">"自動確認を有効にするには、デバイスの PIN を入力してください"</string>
     <string name="auto_confirm_off_pin_verify_description" msgid="4256219155659760047">"自動確認を無効にするには、デバイスの PIN を入力してください"</string>
@@ -1007,7 +1007,7 @@
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"OFF"</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"ディスプレイのホワイト バランス"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
-    <string name="fold_lock_behavior_title" msgid="786228803694268449">"折りたたみ時もアプリを使い続けられます"</string>
+    <string name="fold_lock_behavior_title" msgid="786228803694268449">"折りたたみ時もアプリの使用を継続"</string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"スムーズ ディスプレイ"</string>
     <string name="peak_refresh_rate_summary" msgid="3627278682437562787">"コンテンツに応じて、リフレッシュ レートを自動的に 60 Hz から <xliff:g id="ID_1">%1$s</xliff:g> Hz に変更します。バッテリー使用量が増えます。"</string>
     <string name="force_high_refresh_rate_toggle" msgid="3325789621928312050">"ピーク時のリフレッシュ レートの適用"</string>
@@ -1283,7 +1283,7 @@
     <string name="menu_restore" msgid="4310539620115151551">"初期設定にリセット"</string>
     <string name="restore_default_apn_completed" msgid="5167505087078340256">"APN設定をリセットしました。"</string>
     <string name="reset_dashboard_title" msgid="7423200250697886918">"リセット オプション"</string>
-    <string name="reset_mobile_network_settings_title" msgid="5616713931258506842">"モバイル ネットワークの設定をリセットする"</string>
+    <string name="reset_mobile_network_settings_title" msgid="5616713931258506842">"モバイルネットワークの設定をリセット"</string>
     <string name="reset_mobile_network_settings_desc" msgid="7292636387692165727">"モバイル ネットワークのすべての設定をリセットします"</string>
     <string name="reset_mobile_network_settings_confirm_title" msgid="7510965634669511241">"モバイル ネットワークの設定をリセットしますか？"</string>
     <string name="reset_bluetooth_wifi_title" msgid="4113071322344697317">"Bluetooth と Wi-Fi のリセット"</string>
@@ -4744,8 +4744,8 @@
     <string name="aspect_ratio_title" msgid="2451826875939676101">"アスペクト比"</string>
     <string name="aspect_ratio_summary" msgid="4056406351663726494">"このアプリがお使いの <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 用に設計されていない場合は、新しいアスペクト比で表示してみてください"</string>
     <string name="aspect_ratio_main_summary" msgid="4141964559612756940">"このアプリがお使いの <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 用に設計されていない場合は、新しいアスペクト比で表示してみてください。アプリによっては特定のアスペクト比で最適化できない場合があります。"</string>
-    <string name="aspect_ratio_summary_text" msgid="4737461467467220325">"このアプリがお使いの <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 用に設計されていない場合は、新しいアスペクト比で表示してみてください"</string>
-    <string name="aspect_ratio_main_summary_text" msgid="5544816872094235840">"このアプリがお使いの <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 用に設計されていない場合は、新しいアスペクト比で表示してみてください。アプリによっては特定のアスペクト比で最適化できない場合があります。"</string>
+    <string name="aspect_ratio_summary_text" msgid="4737461467467220325">"アプリがお使いの <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 用に設計されていない場合は、新しいアスペクト比で表示してみてください"</string>
+    <string name="aspect_ratio_main_summary_text" msgid="5544816872094235840">"アプリがお使いの <xliff:g id="DEVICE_NAME">%1$s</xliff:g> 用に設計されていない場合は、新しいアスペクト比で表示してみてください。アプリによっては特定のアスペクト比で最適化できない場合があります。"</string>
     <string name="user_aspect_ratio_suggested_apps_label" msgid="8085934042329632039">"候補アプリ"</string>
     <string name="user_aspect_ratio_changed_apps_label" msgid="2096614916172567672">"変更したアプリ"</string>
     <string name="user_aspect_ratio_app_default" msgid="270065763307617837">"アプリのデフォルト"</string>

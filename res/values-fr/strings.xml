@@ -43,11 +43,11 @@
     <string name="font_size_make_smaller_desc" msgid="4978038055549590140">"Réduire"</string>
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Agrandir"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Toujours"</string>
-    <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"L\'écran avant s\'allume lorsque vous pliez votre appareil"</string>
-    <string name="selective_stay_awake_title" msgid="7887645333447645168">"Seulement des jeux, des vidéos et plus encore"</string>
-    <string name="selective_stay_awake_summary" msgid="9055967322921984543">"L\'écran avant s\'allume pour les applis qui empêchent la mise en veille de l\'écran."</string>
+    <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"L\'écran frontal s\'allume lorsque vous pliez votre appareil"</string>
+    <string name="selective_stay_awake_title" msgid="7887645333447645168">"Seulement pour les jeux, les vidéos et autres"</string>
+    <string name="selective_stay_awake_summary" msgid="9055967322921984543">"L\'écran frontal s\'allume pour les applis qui empêchent la mise en veille de l\'écran"</string>
     <string name="sleep_on_fold_title" msgid="7626123024330501411">"Jamais"</string>
-    <string name="sleep_on_fold_summary" msgid="7737992842459588846">"L\'écran avant se verrouille lorsque vous pliez votre appareil"</string>
+    <string name="sleep_on_fold_summary" msgid="7737992842459588846">"L\'écran frontal se verrouille lorsque vous pliez votre appareil"</string>
     <string name="auto_rotate_settings_primary_switch_title" msgid="3440951924928594520">"Utiliser la rotation automatique"</string>
     <string name="smart_rotate_text_headline" msgid="5878008933992951904">"La détection de visages utilise la caméra avant pour améliorer la précision de la rotation automatique. Les images ne sont jamais stockées ni envoyées à Google."</string>
     <string name="bluetooth" msgid="8898478620943459654">"Bluetooth"</string>
@@ -647,7 +647,7 @@
     <string name="bluetooth_enter_pin_other_device" msgid="6737778699899780717">"Vous devrez peut-être également saisir ce code sur l\'autre appareil."</string>
     <string name="bluetooth_enter_passkey_other_device" msgid="8270426446247344709">"Vous devrez peut-être également saisir ce mot de passe sur l\'autre appareil."</string>
     <string name="bluetooth_paring_group_msg" msgid="4609515924670823316">"Confirmez pour associer à l\'ensemble coordonné"</string>
-    <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Autoriser l\'accès à vos contacts et à l\'historique des appels"</string>
+    <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Autoriser l\'accès à vos contacts et à l\'historique de vos appels"</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Impossible de se connecter à <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_found_media_devices" msgid="830061195998352840">"Appareils disponibles"</string>
@@ -661,12 +661,12 @@
     <string name="bluetooth_device_keyboard_settings_preference_title" msgid="3411693160917620519">"Paramètres du clavier"</string>
     <string name="bluetooth_device_mac_address" msgid="4873325074786732703">"Adresse Bluetooth de l\'appareil : <xliff:g id="ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_multuple_devices_mac_address" msgid="4974301550897923376">"Adresse Bluetooth de l\'appareil :\n<xliff:g id="ADDRESS">%1$s</xliff:g>"</string>
-    <string name="bluetooth_unpair_dialog_title" msgid="6943633443716052995">"Oublier l\'appareil ?"</string>
+    <string name="bluetooth_unpair_dialog_title" msgid="6943633443716052995">"Dissocier l\'appareil ?"</string>
     <string name="remove_association_button" msgid="5004208145998061135">"Supprimer l\'association"</string>
     <string name="bluetooth_companion_app_remove_association_dialog_title" msgid="1344518601377991897">"Dissocier l\'appli ?"</string>
     <string name="bluetooth_companion_app_body" msgid="8442643629075687761">"L\'appli <xliff:g id="APP_NAME">%1$s</xliff:g> ne s\'associera plus à votre <xliff:g id="DEVICE_NAME">%2$s</xliff:g>"</string>
     <string name="device_details_leaudio_toggle_summary" msgid="7684848254433230809">"Expérimental. Améliore la qualité audio."</string>
-    <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Oublier l\'appareil"</string>
+    <string name="bluetooth_unpair_dialog_forget_confirm_button" msgid="9184489424930549015">"Dissocier l\'appareil"</string>
     <string name="bluetooth_companion_app_remove_association_confirm_button" msgid="76323555527926915">"Dissocier l\'appli"</string>
     <string name="bluetooth_max_connected_audio_devices_string" msgid="3114156958598821615">"Nombre maximal d\'appareils audio Bluetooth connectés"</string>
     <string name="bluetooth_max_connected_audio_devices_dialog_title" msgid="4056811727247312473">"Sélectionner le nombre maximal d\'appareils audio Bluetooth connectés"</string>
@@ -1007,7 +1007,7 @@
     <string name="auto_brightness_summary_off" msgid="8077066192887677956">"Désactivé"</string>
     <string name="display_white_balance_title" msgid="2624544323029364713">"Balance des blancs de l\'écran"</string>
     <string name="display_white_balance_summary" msgid="7625456704950209050"></string>
-    <string name="fold_lock_behavior_title" msgid="786228803694268449">"Continuer à utiliser les applis sur Fold"</string>
+    <string name="fold_lock_behavior_title" msgid="786228803694268449">"Continuer à utiliser les applis quand l’appareil est plié"</string>
     <string name="peak_refresh_rate_title" msgid="1878771412897140903">"Affichage fluide"</string>
     <string name="peak_refresh_rate_summary" msgid="3627278682437562787">"Augmente automatiquement la fréquence d\'actualisation de 60 à <xliff:g id="ID_1">%1$s</xliff:g> Hz pour certains contenus. Sollicite davantage la batterie."</string>
     <string name="force_high_refresh_rate_toggle" msgid="3325789621928312050">"Forcer la fréquence d\'actualisation crête"</string>
@@ -1545,7 +1545,7 @@
     <string name="screen_compatibility_label" msgid="7549658546078613431">"Compatibilité de l\'écran"</string>
     <string name="permissions_label" msgid="1708927634370314404">"Autorisations"</string>
     <string name="cache_header_label" msgid="2441967971921741047">"Cache"</string>
-    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Effacer du cache"</string>
+    <string name="clear_cache_btn_text" msgid="8597272828928143723">"Vider le cache"</string>
     <string name="cache_size_label" msgid="313456088966822757">"Cache"</string>
     <string name="uri_permissions_text" msgid="8406345863117405105">"{count,plural, =1{1 élément}one{# élément}other{# éléments}}"</string>
     <string name="clear_uri_btn_text" msgid="4828117421162495134">"Supprimer l\'accès"</string>
@@ -1560,7 +1560,7 @@
     <string name="install_text" msgid="4558333621516996473">"Installer"</string>
     <string name="disable_text" msgid="5146002260857428005">"Désactiver"</string>
     <string name="enable_text" msgid="8570798764647110430">"Activer"</string>
-    <string name="clear_user_data_text" msgid="6773186434260397947">"Effacer du stockage"</string>
+    <string name="clear_user_data_text" msgid="6773186434260397947">"Vider l\'espace de stockage"</string>
     <string name="app_factory_reset" msgid="8974044931667015201">"Désinstaller les mises à jour"</string>
     <string name="app_restricted_settings_lockscreen_title" msgid="5993061278264872648">"Autoriser les paramètres restreints"</string>
     <string name="auto_launch_enable_text" msgid="8912714475823807798">"Certaines activités que vous avez sélectionnées s\'ouvrent dans cette appli par défaut."</string>
@@ -4671,7 +4671,7 @@
     <string name="tare_job_min_running" msgid="6167128996320622604">"Exécution de la tâche à priorité min."</string>
     <string name="tare_job_timeout_penalty" msgid="7644332836795492506">"Pénalité pour expiration du délai"</string>
     <string name="tare_min_balance_exempted" msgid="6693710075762973485">"Solde minimal à pleine charge (exemptions)"</string>
-    <string name="tare_min_balance_headless_app" msgid="6906353766678577244">"Solde minimal à pleine charge (appli système sans interface graphique)"</string>
+    <string name="tare_min_balance_headless_app" msgid="6906353766678577244">"Solde minimal à pleine charge (appli système headless)"</string>
     <string name="tare_min_balance_other_app" msgid="3404774196832506476">"Solde minimal à pleine charge (applis restantes)"</string>
     <string name="tare_min_balance_addition_app_updater" msgid="5391956072471201269">"Addition au solde minimal à pleine charge (sites de mise à jour d\'applis)"</string>
   <string-array name="tare_modifiers_subfactors">

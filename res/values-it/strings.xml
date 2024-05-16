@@ -44,7 +44,7 @@
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Ingrandisci"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Sempre"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"Il display frontale si attiva quando chiudi il dispositivo"</string>
-    <string name="selective_stay_awake_title" msgid="7887645333447645168">"Soltanto giochi, video e altro ancora"</string>
+    <string name="selective_stay_awake_title" msgid="7887645333447645168">"Soltanto giochi, video e altre app"</string>
     <string name="selective_stay_awake_summary" msgid="9055967322921984543">"Il display frontale si attiva per le app che impediscono allo schermo di diventare inattivo"</string>
     <string name="sleep_on_fold_title" msgid="7626123024330501411">"Mai"</string>
     <string name="sleep_on_fold_summary" msgid="7737992842459588846">"Il display frontale si blocca quando chiudi il dispositivo"</string>
@@ -1144,7 +1144,7 @@
     <string name="device_info_not_available" msgid="4804474466616712326">"Non disponibile"</string>
     <string name="storage_settings" msgid="7472188817781592677">"Spazio di archiviazione"</string>
     <string name="storage_settings_for_app" msgid="229425418984637483">"Spazio di archiviazione e cache"</string>
-    <string name="storage_settings_title" msgid="486118156723194815">"Impostazioni memoria"</string>
+    <string name="storage_settings_title" msgid="486118156723194815">"Impostazioni spazio di archiviazione"</string>
     <string name="status_eid" msgid="7532406028683438634">"EID"</string>
     <string name="eid_multi_sim" msgid="9087924808336397804">"EID (slot per la SIM <xliff:g id="EID_SLOT_ID">%1$d</xliff:g>)"</string>
     <string name="imei_multi_sim" msgid="9001570420423929507">"IMEI (slot SIM <xliff:g id="IMEI_SLOT_ID">%1$d</xliff:g>)"</string>
@@ -1406,7 +1406,7 @@
     <string name="about_settings_summary" msgid="4831942939227432513">"Visualizza informazioni legali, stato, versione del software"</string>
     <string name="legal_information" msgid="7509900979811934843">"Informazioni legali"</string>
     <string name="manual" msgid="3651593989906084868">"Manuale"</string>
-    <string name="regulatory_labels" msgid="5960251403367154270">"Etichette normative"</string>
+    <string name="regulatory_labels" msgid="5960251403367154270">"Etichette di conformità"</string>
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Manuale su normative e sicurezza"</string>
     <string name="copyright_title" msgid="83245306827757857">"Copyright"</string>
     <string name="license_title" msgid="8745742085916617540">"Licenza"</string>
@@ -1481,7 +1481,7 @@
     <string name="lockpassword_confirm_repair_mode_pattern_header" msgid="6669435143987988314">"Verifica sequenza"</string>
     <string name="lockpassword_confirm_repair_mode_pin_header" msgid="2585263648322879131">"Verifica PIN"</string>
     <string name="lockpassword_confirm_repair_mode_password_header" msgid="3064676176428495228">"Verifica password"</string>
-    <string name="lockpassword_confirm_repair_mode_pattern_details" msgid="6187536224419477465">"Per continuare devi inserire la sequenza del dispositivo"</string>
+    <string name="lockpassword_confirm_repair_mode_pattern_details" msgid="6187536224419477465">"Inserisci la sequenza del dispositivo per continuare"</string>
     <string name="lockpassword_confirm_repair_mode_pin_details" msgid="203022189107305807">"Per continuare devi inserire il PIN del dispositivo"</string>
     <string name="lockpassword_confirm_repair_mode_password_details" msgid="4860219600771003873">"Per continuare devi inserire la password del dispositivo"</string>
     <string name="lockpassword_invalid_pin" msgid="7530854476819820600">"PIN errato"</string>
@@ -3034,8 +3034,8 @@
     <string name="boot_sounds_title" msgid="5033062848948884111">"Attiva suoni"</string>
     <string name="live_caption_title" msgid="8617086825712756983">"Sottotitoli in tempo reale"</string>
     <string name="live_caption_summary" msgid="2898451867595161809">"Sottotitoli codificati automatici"</string>
-    <string name="spatial_audio_speaker" product="default" msgid="3956755613908467186">"Speaker smartphone"</string>
-    <string name="spatial_audio_speaker" product="tablet" msgid="2261196916411018248">"Speaker tablet"</string>
+    <string name="spatial_audio_speaker" product="default" msgid="3956755613908467186">"Altoparlanti smartphone"</string>
+    <string name="spatial_audio_speaker" product="tablet" msgid="2261196916411018248">"Altoparlanti tablet"</string>
     <string name="spatial_audio_speaker" product="device" msgid="3012868526054155189">"Speaker dispositivo"</string>
     <string name="spatial_audio_wired_headphones" msgid="2237355789145828648">"Cuffie con cavo"</string>
     <string name="spatial_audio_text" msgid="8201387855375146000">"L\'audio dei dispositivi multimediali compatibili diventa più immersivo"</string>
@@ -3953,7 +3953,7 @@
     <string name="system_navigation_title" msgid="4890381153527184636">"Modalità di navigazione"</string>
     <string name="swipe_up_to_switch_apps_title" msgid="6677266952021118342">"Navigazione con due pulsanti"</string>
     <string name="swipe_up_to_switch_apps_summary" msgid="1415457307836359560">"Per cambiare app, scorri verso l\'alto sul pulsante Home. Scorri ancora verso l\'alto per visualizzare tutte le app. Per tornare indietro, tocca il pulsante Indietro."</string>
-    <string name="emergency_settings_preference_title" msgid="6183455153241187148">"Sicurezza ed emergenza"</string>
+    <string name="emergency_settings_preference_title" msgid="6183455153241187148">"Sicurezza ed emergenze"</string>
     <string name="emergency_dashboard_summary" msgid="401033951074039302">"SOS emergenze, informazioni mediche, avvisi"</string>
     <string name="edge_to_edge_navigation_title" msgid="714427081306043819">"Navigazione tramite gesti"</string>
     <string name="edge_to_edge_navigation_summary" msgid="818109176611921504">"Per andare alla schermata Home, scorri verso l\'alto dalla parte inferiore dello schermo. Per cambiare app, scorri verso l\'alto dalla parte inferiore dello schermo, tieni premuto e rilascia. Per tornare indietro, scorri dal bordo sinistro o destro."</string>

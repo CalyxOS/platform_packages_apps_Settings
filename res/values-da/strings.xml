@@ -893,7 +893,7 @@
     <string name="wifi_p2p_remembered_groups" msgid="5497007770930525695">"Gemte grupper"</string>
     <string name="wifi_p2p_failed_connect_message" msgid="6767831720507440027">"Der kunne ikke oprettes forbindelse."</string>
     <string name="wifi_p2p_failed_rename_message" msgid="1317434386267376606">"Enheden kunne ikke omdøbes."</string>
-    <string name="wifi_p2p_disconnect_title" msgid="96361896458072463">"Vil du afbryde?"</string>
+    <string name="wifi_p2p_disconnect_title" msgid="96361896458072463">"Vil du afbryde forbindelsen?"</string>
     <string name="wifi_p2p_disconnect_message" msgid="1208761239498807208">"Hvis du afbryder, stoppes forbindelsen til <xliff:g id="PEER_NAME">%1$s</xliff:g>."</string>
     <string name="wifi_p2p_disconnect_multiple_message" msgid="4490648217799144078">"Hvis du afbryder, stoppes forbindelsen til <xliff:g id="PEER_NAME">%1$s</xliff:g> og <xliff:g id="PEER_COUNT">%2$s</xliff:g> andre enheder."</string>
     <string name="wifi_p2p_cancel_connect_title" msgid="8476985132989357041">"Vil du annullere invitationen?"</string>
@@ -2140,7 +2140,7 @@
     <string name="keywords_accessibility" msgid="4263443239404659143">"Brugervenlighed, nem at bruge, nem adgang, hjælp, hjælpsom"</string>
     <string name="keywords_magnification" msgid="3908145308269840862">"Forstørrelse af vindue, zoom, forstørrelse, nedsat syn, forstør, gør større"</string>
     <string name="keywords_talkback" msgid="2816435437095102527"></string>
-    <string name="keywords_live_caption" msgid="1667203998080567556">"Tekster, undertekster for hørehæmmede, undertekster, Live transskribering, hørehæmmet, hørelsestab, CART, indtaling, undertekst"</string>
+    <string name="keywords_live_caption" msgid="1667203998080567556">"Tekster, undertekster for hørehæmmede, undertekster, Livetransskribering, hørehæmmet, hørelsestab, CART, indtaling, undertekst"</string>
     <string name="keywords_live_transcribe" msgid="3226990195174890997"></string>
     <string name="keywords_sound_notifications" msgid="8183107485754075413"></string>
     <string name="keywords_sound_amplifier" msgid="939404835256246663"></string>
@@ -2631,7 +2631,7 @@
     <string name="vpn_forget" msgid="2913950864877236737">"Glem"</string>
     <string name="vpn_connect_to" msgid="216709261691085594">"Opret forbindelse til <xliff:g id="PROFILE">%s</xliff:g>"</string>
     <string name="vpn_disconnect_confirm" msgid="6356789348816854539">"Vil du afbryde dette VPN?"</string>
-    <string name="vpn_disconnect" msgid="7753808961085867345">"Afbryd"</string>
+    <string name="vpn_disconnect" msgid="7753808961085867345">"Afbryd forbindelse"</string>
     <string name="vpn_version" msgid="6344167191984400976">"Version"</string>
     <string name="vpn_forget_long" msgid="729132269203870205">"Glem VPN"</string>
     <string name="vpn_replace_vpn_title" msgid="3994226561866340280">"Erstat det eksisterende VPN-netværk?"</string>
@@ -4040,7 +4040,7 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Installerede apps"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Antallet af apps er et skøn. Apps, der er blevet installeret uden for Play Butik, er muligvis ikke medregnet."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="5317634640873658149">"{count,plural, =1{Mindst # app}one{Mindst # app}other{Mindst # apps}}"</string>
-    <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Adgangstilladelser til lokation"</string>
+    <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Lokationstilladelser"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Adgangstilladelser til mikrofon"</string>
     <string name="enterprise_privacy_camera_access" msgid="7685460535880069016">"Adgangstilladelser til kamera"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="7498546659083996300">"Standardapps"</string>
@@ -4759,10 +4759,10 @@
     <string name="app_aspect_ratio_footer" msgid="4029509301182067475">"Denne app genstartes, når du ændrer billedformatet. Du mister muligvis ændringer, der ikke er gemt. Visse apps er muligvis ikke optimeret til bestemte billedformater."</string>
     <string name="aspect_ratio_experimental_title" msgid="9088785421062044831">"Billedformat (eksperimentel)"</string>
     <string name="aspect_ratio_experiment_title" msgid="128614319422121040">"Billedformat (eksperiment)"</string>
-    <string name="aspect_ratio_labs_title" msgid="6733893837442759383">"Billedformat (prøvefunktioner)"</string>
+    <string name="aspect_ratio_labs_title" msgid="6733893837442759383">"Billedformat (labs)"</string>
     <string name="aspect_ratio_experimental_label" msgid="6319009297672567578">"Eksperimentel"</string>
     <string name="aspect_ratio_experiment_label" msgid="7861871612376167784">"Eksperiment"</string>
-    <string name="aspect_ratio_labs_label" msgid="7008498116297651342">"Prøvefunktioner"</string>
+    <string name="aspect_ratio_labs_label" msgid="7008498116297651342">"Labs"</string>
     <string name="accessibility_fingerprint_label" msgid="5017431423168191733">"Fingeraftrykssensor"</string>
     <string name="flash_notifications_title" msgid="4490438861180492311">"Lysnotifikationer"</string>
     <string name="flash_notifications_about_title" msgid="9004351252928121214">"Om lysnotifikationer"</string>

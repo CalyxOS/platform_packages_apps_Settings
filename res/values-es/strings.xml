@@ -44,7 +44,7 @@
     <string name="font_size_make_larger_desc" msgid="5583046033381722247">"Aumentar el tamaño"</string>
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Siempre"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"La pantalla frontal se enciende cuando pliegas el dispositivo"</string>
-    <string name="selective_stay_awake_title" msgid="7887645333447645168">"Solo juegos, vídeos y más"</string>
+    <string name="selective_stay_awake_title" msgid="7887645333447645168">"Solo juegos, vídeos y otras"</string>
     <string name="selective_stay_awake_summary" msgid="9055967322921984543">"La pantalla frontal se enciende para las aplicaciones que evitan que la pantalla quede inactiva"</string>
     <string name="sleep_on_fold_title" msgid="7626123024330501411">"Nunca"</string>
     <string name="sleep_on_fold_summary" msgid="7737992842459588846">"La pantalla frontal se bloquea cuando pliegas el dispositivo"</string>
@@ -1406,7 +1406,7 @@
     <string name="about_settings_summary" msgid="4831942939227432513">"Ver información legal, estado, versión del software"</string>
     <string name="legal_information" msgid="7509900979811934843">"Información legal"</string>
     <string name="manual" msgid="3651593989906084868">"Manual"</string>
-    <string name="regulatory_labels" msgid="5960251403367154270">"Etiquetas normativas"</string>
+    <string name="regulatory_labels" msgid="5960251403367154270">"Etiquetas regulatorias"</string>
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Manual de seguridad y normativas"</string>
     <string name="copyright_title" msgid="83245306827757857">"Derechos de autor"</string>
     <string name="license_title" msgid="8745742085916617540">"Licencia"</string>
@@ -4748,7 +4748,7 @@
     <string name="aspect_ratio_main_summary_text" msgid="5544816872094235840">"Prueba una nueva relación de aspecto para ver una aplicación si no se ha diseñado para adaptarse a tu <xliff:g id="DEVICE_NAME">%1$s</xliff:g>. Puede que algunas aplicaciones no estén optimizadas para determinadas relaciones de aspecto."</string>
     <string name="user_aspect_ratio_suggested_apps_label" msgid="8085934042329632039">"Aplicaciones sugeridas"</string>
     <string name="user_aspect_ratio_changed_apps_label" msgid="2096614916172567672">"Aplicaciones cambiadas"</string>
-    <string name="user_aspect_ratio_app_default" msgid="270065763307617837">"Predeterminado de la aplicación"</string>
+    <string name="user_aspect_ratio_app_default" msgid="270065763307617837">"Predeterminada de la aplicación"</string>
     <string name="user_aspect_ratio_fullscreen" msgid="1843427242540081996">"Pantalla completa"</string>
     <string name="user_aspect_ratio_half_screen" msgid="1015852057094310209">"Media pantalla"</string>
     <string name="user_aspect_ratio_device_size" msgid="2339820985120881199">"Relación de aspecto del dispositivo"</string>

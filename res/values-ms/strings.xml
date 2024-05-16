@@ -45,7 +45,7 @@
     <string name="stay_awake_on_fold_title" msgid="6590454679898134221">"Sentiasa"</string>
     <string name="stay_awake_on_fold_summary" msgid="1939963751585954262">"Paparan depan dihidupkan semasa anda melipatkan peranti anda"</string>
     <string name="selective_stay_awake_title" msgid="7887645333447645168">"Hanya permainan, video dan pelbagai lagi"</string>
-    <string name="selective_stay_awake_summary" msgid="9055967322921984543">"Paparan hadapan dihidupkan untuk apl yang menghentikan skrin anda daripada melahu"</string>
+    <string name="selective_stay_awake_summary" msgid="9055967322921984543">"Paparan depan dihidupkan untuk apl yang menghentikan skrin anda daripada melahu"</string>
     <string name="sleep_on_fold_title" msgid="7626123024330501411">"Jangan sekali-kali"</string>
     <string name="sleep_on_fold_summary" msgid="7737992842459588846">"Paparan depan dikunci semasa anda melipatkan peranti anda"</string>
     <string name="auto_rotate_settings_primary_switch_title" msgid="3440951924928594520">"Gunakan autoputar"</string>
@@ -3737,7 +3737,7 @@
     <string name="memory_summary" msgid="8221954450951651735">"Purata <xliff:g id="USED_MEMORY">%1$s</xliff:g> daripada <xliff:g id="TOTAL_MEMORY">%2$s</xliff:g> memori digunakan"</string>
     <string name="users_summary" msgid="8473589474976307510">"Dilog masuk sebagai <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="android_version_summary" msgid="7818952662015042768">"Dikemaskinikan kepada Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
-    <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Kemas kini tersedia"</string>
+    <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Kemaskinian tersedia"</string>
     <string name="disabled_by_policy_title" msgid="6852347040813204503">"Disekat oleh dasar kerja"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Kelantangan tidak boleh ditukar"</string>
     <string name="disabled_by_policy_title_outgoing_calls" msgid="400089720689494562">"Tidak dapat membuat panggilan"</string>
