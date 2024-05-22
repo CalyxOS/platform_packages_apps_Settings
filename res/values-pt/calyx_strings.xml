@@ -79,9 +79,9 @@
     <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
     <string name="work_hours_end_notification_description">Toque para desativar apps de trabalho</string>
     <string name="security_dashboard_summary_calyx">Bloqueio de tela, configurações de pânico, restrições USB, segurança de aplicativos</string>
-    <string name="hide_app_desc">Se você ocultar este aplicativo, ele não será visível para o Android e outros aplicativos, e eles podem não funcionar mais como deveriam. Lembrando que, ocultar um aplicativo preserva seus dados. Escondendo o aplicativo, você desliga o aplicativo e esconde ele do seu dispositivo.</string>
+    <string name="hide_app_desc">Se você ocultar esta aplicação, ela não será visível para o Android e outras aplicações, e elas podem não funcionar mais como deveriam. Lembrando que, ocultar uma aplicação preserva seus dados. Escondendo a aplicação, você a desliga e esconde do seu dispositivo.</string>
     <string name="unhide_app">Revelar aplicativo</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ponto de acesso, VPN, DNS particular</string>
-    <string name="unhide_app_desc">Se você revelar este aplicativo, ele ficará visível para o Android e outros aplicativos novamente.</string>
+    <string name="unhide_app_desc">Se você revelar esta aplicação, ela ficará visível para o Android e outras aplicações novamente.</string>
     <string name="hidden">Oculto</string>
 </resources>
