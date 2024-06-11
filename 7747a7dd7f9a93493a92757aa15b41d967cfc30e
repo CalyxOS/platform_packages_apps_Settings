@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6dc67c4_d64b7d9d",
+        "filename": "src/com/android/settings/fuelgauge/BatterySettingsFeatureProviderImpl.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-06-11T18:46:16Z",
+      "side": 1,
+      "message": "Not resolved",
+      "revId": "7747a7dd7f9a93493a92757aa15b41d967cfc30e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
