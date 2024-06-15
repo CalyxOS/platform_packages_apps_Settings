@@ -660,7 +660,9 @@ public class FingerprintSettings extends SubSettings {
 
         private void addFingerprintUnlockCategory() {
             mFingerprintUnlockCategory = findPreference(KEY_FINGERPRINT_UNLOCK_CATEGORY);
-            setupFingerprintUnlockCategoryPreferences();
+            if (mRequireScreenOnToAuthPreferenceController != null) {
+                setupFingerprintUnlockCategoryPreferences();
+            }
             final Preference restToUnlockPreference = FeatureFactory.getFeatureFactory()
                     .getFingerprintFeatureProvider()
                     .getSfpsRestToUnlockFeature(getContext())
@@ -673,9 +675,6 @@ public class FingerprintSettings extends SubSettings {
                         ((TwoStatePreference) restToUnlockPreference).isChecked());
                 mRequireScreenOnToAuthPreference.setOnPreferenceChangeListener(
                         restToUnlockPreference.getOnPreferenceChangeListener());
-            }
-            if (mRequireScreenOnToAuthPreferenceController != null) {
-                setupFingerprintUnlockCategoryPreferences();
             }
             if (mFingerprintUnlockCategoryPreferenceController != null) {
                 updateFingerprintUnlockCategoryVisibility();
