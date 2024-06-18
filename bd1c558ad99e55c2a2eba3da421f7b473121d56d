@@ -22,6 +22,30 @@
       },
       "revId": "bd1c558ad99e55c2a2eba3da421f7b473121d56d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "937052e9_f10501f9",
+        "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-18T15:21:54Z",
+      "side": 1,
+      "message": "I\u0027m uncertain that the pending intents distinguish between users. I suspect that they may not have that concept and therefore from a system perspective could be overriden the request code and all other parts match. In this case, I\u0027m using UID since user number isn\u0027t unique in the same way (especially for the + 1 instance below)",
+      "parentUuid": "4df6220b_d01f5fef",
+      "range": {
+        "startLine": 56,
+        "startChar": 69,
+        "endLine": 56,
+        "endChar": 84
+      },
+      "revId": "bd1c558ad99e55c2a2eba3da421f7b473121d56d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
