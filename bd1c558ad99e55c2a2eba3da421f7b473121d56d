@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4df6220b_d01f5fef",
+        "filename": "src/com/android/settings/users/UserTimeoutReceiver.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-18T15:19:04Z",
+      "side": 1,
+      "message": "General commentary: Currently, if I\u0027m understanding all this correctly, I think the broadcast will stay within the affected user/profile (right?), just like the notification does (right?). Here and elsewhere, it looks like we\u0027re setting the request code like this to differentiate between users, but they should be segmented already, meaning we don\u0027t need to use it for that. That means we should be able to use the typical pattern of constants for the request code if we want, which might be clearer.\n\nIt should work as-is too, though.",
+      "range": {
+        "startLine": 56,
+        "startChar": 69,
+        "endLine": 56,
+        "endChar": 84
+      },
+      "revId": "bd1c558ad99e55c2a2eba3da421f7b473121d56d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
