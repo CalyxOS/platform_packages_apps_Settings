@@ -52,9 +52,8 @@ public class UserTimeoutReceiver extends BroadcastReceiver {
         if (intent != null) {
             if (Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction())) {
                 mAlarmManager = context.getSystemService(AlarmManager.class);
-                mPendingIntent = PendingIntent.getBroadcast(context, context.getUserId(),
-                        new Intent(ACTION_USER_TIMEOUT)
-                                .setPackage(context.getPackageName()),
+                mPendingIntent = PendingIntent.getBroadcast(context, 0,
+                        new Intent(ACTION_USER_TIMEOUT).setPackage(context.getPackageName()),
                         PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
                 context.getContentResolver().registerContentObserver(
                         LineageSettings.Secure.getUriFor(
@@ -69,31 +68,22 @@ public class UserTimeoutReceiver extends BroadcastReceiver {
                 setTimeout(context);
             } else if (ACTION_USER_TIMEOUT.equals(intent.getAction())) {
                 if (!intent.getBooleanExtra(EXTRA_NOTIFICATION, false)) {
-                    NotificationManager notificationManager = NotificationManager.from(
-                            context);
+                    NotificationManager notificationManager = NotificationManager.from(context);
                     NotificationChannel notificationChannel = new NotificationChannel(
-                            USER_TIMEOUT_CHANNEL,
-                            context.getString(R.string.work_hours_title),
+                            USER_TIMEOUT_CHANNEL, context.getString(R.string.work_hours_title),
                             NotificationManager.IMPORTANCE_DEFAULT);
                     notificationManager.createNotificationChannel(notificationChannel);
-                    PendingIntent pendingIntent = PendingIntent.getBroadcast(context,
-                            context.getUserId(),
-                            new Intent(ACTION_USER_TIMEOUT).setPackage(
-                                    context.getPackageName()).putExtra(
-                                    EXTRA_NOTIFICATION, true),
-                            PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+                    PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 1, new Intent(
+                            ACTION_USER_TIMEOUT).setPackage(context.getPackageName()).putExtra(
+                            EXTRA_NOTIFICATION, true), PendingIntent.FLAG_IMMUTABLE);
                     Notification notification = new Notification.Builder(context,
-                            USER_TIMEOUT_CHANNEL)
-                            .setSmallIcon(R.drawable.ic_settings_multiuser)
-                            .setContentTitle(
-                                    context.getString(R.string.work_hours_end_notification_title))
-                            .setContentText(
-                                    context.getString(
-                                            R.string.work_hours_end_notification_description))
-                            .setContentIntent(pendingIntent)
-                            .setAutoCancel(true)
-                            .setVisibility(Notification.VISIBILITY_PUBLIC)
-                            .build();
+                            USER_TIMEOUT_CHANNEL).setSmallIcon(
+                            R.drawable.ic_settings_multiuser).setContentTitle(context.getString(
+                            R.string.work_hours_end_notification_title)).setContentText(
+                            context.getString(
+                                    R.string.work_hours_end_notification_description)).setContentIntent(
+                            pendingIntent).setAutoCancel(true).setVisibility(
+                            Notification.VISIBILITY_PUBLIC).build();
                     notificationManager.notify(R.drawable.ic_settings_multiuser, notification);
                 } else if (userManager.isManagedProfile()) {
                     userManager.requestQuietModeEnabled(true, context.getUser());
@@ -118,8 +108,7 @@ public class UserTimeoutReceiver extends BroadcastReceiver {
                 timeout.add(Calendar.DATE, 1);
             }
             time = timeout.getTimeInMillis();
-            mAlarmManager.set(
-                    AlarmManager.RTC_WAKEUP, time, AlarmManager.WINDOW_EXACT,
+            mAlarmManager.set(AlarmManager.RTC_WAKEUP, time, AlarmManager.WINDOW_EXACT,
                     AlarmManager.INTERVAL_DAY, mPendingIntent, null);
         } else {
             mAlarmManager.cancel(mPendingIntent);
