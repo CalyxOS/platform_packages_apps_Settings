@@ -100,4 +100,10 @@
         android:fragment="com.android.settings.users.TimeoutToDockUserSettings"
         settings:controller="com.android.settings.users.TimeoutToDockUserPreferenceController"/>
 
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="enable_calling"
+        android:title="@string/user_enable_calling_sms"
+        android:singleLineTitle="false"
+        android:order="107"/>
+
 </PreferenceScreen>
