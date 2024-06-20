@@ -87,6 +87,12 @@
         android:order="65"/>
 
     <com.android.settingslib.RestrictedSwitchPreference
+        android:key="enable_calling"
+        android:title="@string/user_enable_calling_sms"
+        android:singleLineTitle="false"
+        android:order="104"/>
+
+    <com.android.settingslib.RestrictedSwitchPreference
         android:key="user_settings_add_users_when_locked"
         android:title="@string/user_add_on_lockscreen_menu"
         android:singleLineTitle="false"
