@@ -16,6 +16,24 @@
       "message": "A question that comes to mind - what happens to emergency calls with telephony off? Do they bypass this toggle?\n\nhttps://source.android.com/docs/core/connect/emergency-affordance#validation could try with this by setting one of our numbers as an emergency number.",
       "revId": "8871b72512ce5b427ba930290b1ebdc0eaca43d5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e032aac_3d731d88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-21T14:12:09Z",
+      "side": 1,
+      "message": "Emergency calls are allowed https://developer.android.com/reference/android/os/UserManager#DISALLOW_OUTGOING_CALLS. System dialogs also show the same",
+      "parentUuid": "ddcee3d3_048de2f6",
+      "revId": "8871b72512ce5b427ba930290b1ebdc0eaca43d5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
