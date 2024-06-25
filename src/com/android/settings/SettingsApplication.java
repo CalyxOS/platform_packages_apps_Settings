@@ -36,6 +36,7 @@ import com.android.settings.homepage.SettingsHomepageActivity;
 import com.android.settings.localepicker.LocaleNotificationDataManager;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.overlay.FeatureFactoryImpl;
+import com.android.settings.privacy.StrictLocationRedactionReceiver;
 import com.android.settings.spa.SettingsSpaEnvironment;
 import com.android.settingslib.applications.AppIconCacheManager;
 import com.android.settingslib.datastore.BackupRestoreStorageManager;
@@ -86,6 +87,8 @@ public class SettingsApplication extends Application {
         }
 
         registerActivityLifecycleCallbacks(new DeveloperOptionsActivityLifecycle());
+
+        new StrictLocationRedactionReceiver().register(this);
     }
 
     @Override

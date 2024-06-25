@@ -99,6 +99,14 @@
             settings:controller=
                 "com.android.settings.privacy.CameraExtensionsFallbackPreferenceController" />
 
+        <!-- Strict location redaction -->
+        <SwitchPreference
+            android:key="privacy_strict_location_redaction"
+            android:title="@string/strict_location_redaction_title"
+            android:summary="@string/strict_location_redaction_description"
+            settings:controller=
+                "com.android.settings.privacy.StrictLocationRedactionPreferenceController" />
+
         <!-- Content Capture -->
         <!-- NOTE: content capture has a different preference, depending whether or not the
              ContentCaptureService implementations defines a custom settings activitiy on its manifest.
