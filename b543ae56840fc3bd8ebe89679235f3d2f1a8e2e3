@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "431d33f4_ffdfe8cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-25T15:58:50Z",
+      "side": 1,
+      "message": "Ultimately I would prefer the receivers and such to be somewhere that\u0027s guaranteed to be running, like calyx-sdk, but this should be okay for now. (If you force-stop Settings, indeed newly-created profiles do not inherit the setting, just stay at null, which is the same as the setting being on, so it\u0027s not so bad.)",
+      "revId": "b543ae56840fc3bd8ebe89679235f3d2f1a8e2e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1be6f07a_886823dc",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-25T15:58:50Z",
+      "side": 1,
+      "message": "A more user-friendly string for this could be nice if anyone has ideas...",
+      "revId": "b543ae56840fc3bd8ebe89679235f3d2f1a8e2e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74735bb0_84317ad4",
+        "filename": "src/com/android/settings/privacy/StrictLocationRedactionPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-25T15:58:50Z",
+      "side": 1,
+      "message": "Copied from one of our other controllers, not sure if we need it but I guess it\u0027s not hurting anything.",
+      "revId": "b543ae56840fc3bd8ebe89679235f3d2f1a8e2e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
