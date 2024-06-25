@@ -54,6 +54,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "a99ebfd7_d96c2a51",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-25T16:03:49Z",
+      "side": 1,
+      "message": "Better at least.",
+      "parentUuid": "eb450152_f7a05b94",
+      "revId": "b543ae56840fc3bd8ebe89679235f3d2f1a8e2e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "74735bb0_84317ad4",
         "filename": "src/com/android/settings/privacy/StrictLocationRedactionPreferenceController.java",
         "patchSetId": 1
