@@ -1432,6 +1432,30 @@ public final class Utils extends com.android.settingslib.Utils {
                 });
     }
 
+    /**
+     * Sync a parent user's secure setting value to its child profiles.
+     *
+     * @param context application context.
+     * @param setting the secure setting whose parent value will be assigned to profiles.
+     * @param childProfile particular child profile to assign the value to, or {@code null} for all.
+     */
+    public static void syncSecureSettingWithProfiles(final Context context, final String setting,
+            final UserHandle childProfile) {
+        final UserManager userManager = context.getSystemService(UserManager.class);
+        final UserHandle parentUser = userManager.getProfileParent(context.getUser());
+        final int parentUserId = parentUser == null
+                ? context.getUserId() : parentUser.getIdentifier();
+        final ContentResolver cr = context.getContentResolver();
+        final String parentValue = android.provider.Settings.Secure.getStringForUser(cr, setting,
+                parentUserId);
+        final int childProfileId = childProfile == null ? -1 : childProfile.getIdentifier();
+        for (final int id : userManager.getProfileIdsWithDisabled(parentUserId)) {
+            if (id != parentUserId && (childProfile == null || childProfileId == id)) {
+                android.provider.Settings.Secure.putStringForUser(cr, setting, parentValue, id);
+            }
+        }
+    }
+
     private static FaceManager.RemovalCallback faceManagerRemovalCallback(int userId) {
         return new FaceManager.RemovalCallback() {
             @Override
