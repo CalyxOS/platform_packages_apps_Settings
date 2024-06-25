@@ -103,6 +103,24 @@
       "message": "Copied from one of our other controllers, not sure if we need it but I guess it\u0027s not hurting anything.",
       "revId": "b543ae56840fc3bd8ebe89679235f3d2f1a8e2e3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1972cd30_c731c294",
+        "filename": "src/com/android/settings/privacy/StrictLocationRedactionPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-25T23:01:01Z",
+      "side": 1,
+      "message": "Ack, no idea what this is for. There was something called \"App Slices\", maybe that somehow.",
+      "parentUuid": "74735bb0_84317ad4",
+      "revId": "b543ae56840fc3bd8ebe89679235f3d2f1a8e2e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
