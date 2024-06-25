@@ -35,6 +35,23 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb450152_f7a05b94",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-25T16:02:09Z",
+      "side": 1,
+      "message": "This wording is somewhat clumsy - \"Apps cannot see the location your photos or videos\" looks like it\u0027s missing the word \"of\" until you get to \"were taken\", which is distracting.",
+      "revId": "b543ae56840fc3bd8ebe89679235f3d2f1a8e2e3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "74735bb0_84317ad4",
