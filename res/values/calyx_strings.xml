@@ -159,4 +159,8 @@
     <string name="work_hours_end_off_summary">Show a daily notification to turn off the work profile</string>
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
+
+    <!-- Strict location redaction setting -->
+    <string name="strict_location_redaction_title">Redact location data when sharing media</string>
+    <string name="strict_location_redaction_description">Only galleries and file managers may read location metadata from your photos and media. (Third-party apps must have All Files Access or Media Management permissions.)</string>
 </resources>
