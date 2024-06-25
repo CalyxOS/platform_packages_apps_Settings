@@ -159,4 +159,8 @@
     <string name="work_hours_end_off_summary">Show a daily notification to turn off the work profile</string>
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
+
+    <!-- Strict location redaction setting -->
+    <string name="strict_location_redaction_title">Strict location redaction</string>
+    <string name="strict_location_redaction_description">Apps cannot see the location metadata of your photos or videos unless they have the All Files Access or Media Management permissions.</string>
 </resources>
