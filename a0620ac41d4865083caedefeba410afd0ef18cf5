@@ -16,6 +16,23 @@
       "message": "Great find! Haven\u0027t tested but concept looks good to me.",
       "revId": "a0620ac41d4865083caedefeba410afd0ef18cf5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4a238d6_379c63a7",
+        "filename": "src/com/android/settings/password/ChooseLockPassword.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 245,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-26T20:05:13Z",
+      "side": 1,
+      "message": "Only small nit code-wise would be that maybe the subclass was probably not intended to be able to change mMinComplexity, and all we need to do is read it anyway. Guess that would require a `get` method. But it probably doesn\u0027t really matter enough to care, to be honest, so I\u0027ll keep this resolved.",
+      "revId": "a0620ac41d4865083caedefeba410afd0ef18cf5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
