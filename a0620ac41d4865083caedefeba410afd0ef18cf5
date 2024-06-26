@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "18582495_a0c668ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-26T20:16:33Z",
+      "side": 1,
+      "message": "Hmm, complexity doesn\u0027t seem to apply to pattern? So can\u0027t read that value to conditionally hide the skip button?",
+      "parentUuid": "cabdbe32_918c4af4",
+      "revId": "a0620ac41d4865083caedefeba410afd0ef18cf5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "a4a238d6_379c63a7",
