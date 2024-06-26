@@ -54,6 +54,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "3aa4ad19_7e34a265",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-06-26T20:18:47Z",
+      "side": 1,
+      "message": "According to the docs, `PASSWORD_COMPLEXITY_LOW` may be a pattern. `MEDIUM` and `HIGH` can\u0027t be.\n\nCan we read the complexity from somewhere?\n\nBut now this makes me wonder if \"pattern\" is even properly prevented as an option for Safest. Not sure currently.",
+      "parentUuid": "18582495_a0c668ec",
+      "revId": "a0620ac41d4865083caedefeba410afd0ef18cf5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "a4a238d6_379c63a7",
