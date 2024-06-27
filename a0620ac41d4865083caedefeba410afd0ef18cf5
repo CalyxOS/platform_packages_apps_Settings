@@ -128,6 +128,41 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "5315363a_dacaa656",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-27T15:04:31Z",
+      "side": 1,
+      "message": "Squashed into previous commit",
+      "revId": "a0620ac41d4865083caedefeba410afd0ef18cf5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21386ebd_4584aa04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-27T15:04:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c50cdfb5_aae1fb9a",
+      "revId": "a0620ac41d4865083caedefeba410afd0ef18cf5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "a4a238d6_379c63a7",
         "filename": "src/com/android/settings/password/ChooseLockPassword.java",
         "patchSetId": 1
