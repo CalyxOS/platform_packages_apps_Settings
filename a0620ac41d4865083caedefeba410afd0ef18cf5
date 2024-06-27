@@ -108,6 +108,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "c50cdfb5_aae1fb9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-27T00:01:56Z",
+      "side": 1,
+      "message": "Let\u0027s prevent pattern as an option for safest (and even safer, potentially)",
+      "parentUuid": "d9aa6178_9497f997",
+      "revId": "a0620ac41d4865083caedefeba410afd0ef18cf5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "a4a238d6_379c63a7",
