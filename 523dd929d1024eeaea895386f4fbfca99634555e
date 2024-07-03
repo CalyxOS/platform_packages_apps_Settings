@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15f6b95a_1962e49c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000109
+      },
+      "writtenOn": "2024-07-03T06:19:15Z",
+      "side": 1,
+      "message": "A benefit here is it possibly using HTTP/3 (QUIC, UDP/443 here) instead of TCP+TLS. Not sure if Android implements HTTP/3 here though.\n\nThough it using being DoH can introduce some inefficiencies compared to DoQ/DoT, but minor thing. DoQ isn\u0027t implemented basically anywhere, only Adguard DNS seems to do it which is unfortunate.",
+      "revId": "523dd929d1024eeaea895386f4fbfca99634555e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
