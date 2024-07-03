@@ -16,6 +16,24 @@
       "message": "Not holding up the merge since it\u0027s just cosmetic\n\nTest:\n1. Settings -\u003e Apps -\u003e $app -\u003e Mobile data usage\n2. Background network access -\u003e toggle off\n3. Tap Datura Firewall, notice that it\u0027s off\n4. Go back, notice that it\u0027s on\n5. Tap Datura Firewall again, turn it on\n\nIt\u0027s ok functionality wise",
       "revId": "5e66b066e65aefd12454ab4af32d4ef5f7bbd754",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f52df7b1_e7ca34b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-03T12:32:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c47486c_b79cc483",
+      "revId": "5e66b066e65aefd12454ab4af32d4ef5f7bbd754",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
