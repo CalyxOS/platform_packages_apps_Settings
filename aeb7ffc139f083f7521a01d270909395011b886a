@@ -16,6 +16,24 @@
       "message": "With this patch, this is working, but Settings has changed a lot, so I am not sure if it already would have worked without this patch at this stage.",
       "revId": "aeb7ffc139f083f7521a01d270909395011b886a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9c806be_6311e599",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-07-10T20:18:38Z",
+      "side": 1,
+      "message": "Yes, the same issue exists without it, where the \"Remove work profile\" item is grayed out even for additional work profiles beyond the first.\n\nSo this is still useful and works.",
+      "parentUuid": "b023a5c1_f1664ba0",
+      "revId": "aeb7ffc139f083f7521a01d270909395011b886a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
