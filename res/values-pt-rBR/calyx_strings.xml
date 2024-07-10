@@ -84,4 +84,6 @@
     <string name="work_hours_end_notification_description">Toque para desativar apps de trabalho</string>
     <string name="work_hours_title">Horas de trabalho</string>
     <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
+    <string name="strict_location_redaction_title">Omitir dados de localização ao compartilhar mídia</string>
+    <string name="strict_location_redaction_description">Somente galerias e gerenciadores de arquivos devem poder ler metadados das suas fotos e mídia. (Apps de terceiros devem ter o acesso à todos os arquivos, ou permissões de mídia.)</string>
 </resources>
