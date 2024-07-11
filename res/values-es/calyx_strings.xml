@@ -84,4 +84,6 @@
     <string name="work_hours_end_notification_description">Toque para desactivar las aplicaciones de trabajo</string>
     <string name="work_hours_end_notification_title">Fin de la jornada laboral</string>
     <string name="work_hours_title">Horas laborales</string>
+    <string name="strict_location_redaction_title">Eliminar datos de ubicación al compartir contenido multimedia</string>
+    <string name="strict_location_redaction_description">Solo las galerías y los administradores de archivos pueden leer los metadatos de ubicación de tus fotos y archivos multimedia. (Las aplicaciones de terceros deben tener permisos de acceso a todos los archivos o de administración de archivos multimedia)</string>
 </resources>
