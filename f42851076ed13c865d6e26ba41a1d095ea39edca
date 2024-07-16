@@ -16,6 +16,24 @@
       "message": "Needs UI modifications for user to select between the modes",
       "revId": "f42851076ed13c865d6e26ba41a1d095ea39edca",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55711396_8243d0af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T22:45:47Z",
+      "side": 1,
+      "message": "Let\u0027s start with a toggle in Settings at the existing location",
+      "parentUuid": "435f3daa_f34d328b",
+      "revId": "f42851076ed13c865d6e26ba41a1d095ea39edca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }

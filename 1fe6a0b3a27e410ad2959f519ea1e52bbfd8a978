@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a17a1e1_b0515b99",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-16T22:45:47Z",
+      "side": 1,
+      "message": "Nit: missing issue link",
+      "revId": "1fe6a0b3a27e410ad2959f519ea1e52bbfd8a978",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
