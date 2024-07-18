@@ -60,6 +60,8 @@ import com.google.common.net.InternetDomainName;
 import java.util.HashMap;
 import java.util.Map;
 
+import lineageos.providers.LineageSettings;
+
 /**
  * Dialog to set the Private DNS
  */
@@ -166,9 +168,13 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         mRadioGroup.setOnCheckedChangeListener(this);
         mRadioGroup.check(PRIVATE_DNS_MAP.getOrDefault(mMode, R.id.private_dns_mode_opportunistic));
 
+        boolean cleartextPermitted = LineageSettings.Global.getInt(contentResolver,
+                LineageSettings.Global.CLEARTEXT_NETWORK_POLICY, -1) < 2;
+
         // Initial radio button text
         final RadioButton offRadioButton = view.findViewById(R.id.private_dns_mode_off);
         offRadioButton.setText(com.android.settingslib.R.string.private_dns_mode_off);
+        offRadioButton.setEnabled(cleartextPermitted);
         final RadioButton cloudflareRadioButton =
                 view.findViewById(R.id.private_dns_mode_cloudflare);
         cloudflareRadioButton.setText(R.string.private_dns_mode_cloudflare);
@@ -176,6 +182,7 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
                 view.findViewById(R.id.private_dns_mode_opportunistic);
         opportunisticRadioButton.setText(
                 com.android.settingslib.R.string.private_dns_mode_opportunistic);
+        opportunisticRadioButton.setEnabled(cleartextPermitted);
         final RadioButton providerRadioButton = view.findViewById(R.id.private_dns_mode_provider);
         providerRadioButton.setText(com.android.settingslib.R.string.private_dns_mode_provider);
 
