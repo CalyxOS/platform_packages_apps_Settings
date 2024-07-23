@@ -81,7 +81,9 @@
     <string name="keychords_summary">Capture um relatório de bugs segurando os botões de volume, e Power ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
     <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente ás <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
     <string name="work_hours_end_off_summary">Mostrar uma notificação diária para desativar o perfil de trabalho</string>
-    <string name="work_hours_end_notification_description">Toque para desativar apps de trabalho</string>
+    <string name="work_hours_end_notification_description">Toque para desligar apps de trabalho</string>
     <string name="work_hours_title">Horas de trabalho</string>
     <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
+    <string name="strict_location_redaction_title">Omitir dados de localização ao compartilhar mídia</string>
+    <string name="strict_location_redaction_description">Somente galerias e gerenciadores de arquivos devem poder ler metadados das suas fotos e mídia. (Apps de terceiros devem ter o acesso à todos os arquivos, ou permissões de mídia.)</string>
 </resources>
