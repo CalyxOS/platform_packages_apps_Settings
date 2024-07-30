@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e791fea_c0b8bddc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-07-30T19:39:31Z",
+      "side": 1,
+      "message": "Works! Still needs UI. Currently, testing involves the following:\n- Set work hours in Settings \u003e Passwords, ... \u003e Work \u003e Work profile settings as usual.\n- Change the mode with `adb shell settings --lineage --user 10 put user_activity_end_time_mode 1`\n- Wait until the appointed hour.\n\nWhen that time is reached, the profile stops, and a notification appears - still associated with the stopped profile (has briefcase) - that says \"End of work day\". The notification does nothing when tapped.\n\nApart from putting in a mode selector, the above also needs adjustments / string change / something.",
+      "revId": "8edd05ada45dc8d2b9b899fbbbd6cada038fafcd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
