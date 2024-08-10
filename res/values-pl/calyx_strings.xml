@@ -84,4 +84,6 @@
     <string name="work_hours_end_notification_description">Dotknij, aby wyłączyć aplikacje służbowe</string>
     <string name="work_hours_end_off_summary">Wyświetla codzienne powiadomienia o wyłączeniu profilu zawodowego</string>
     <string name="work_hours_end_notification_title">Koniec dnia pracy</string>
+    <string name="strict_location_redaction_description">Tylko galerie i menedżery plików mogą odczytywać metadane lokalizacji ze zdjęć i multimediów. (Aplikacje innych firm muszą mieć uprawnienia typu \"dostęp do wszystkich plików\" lub \"zarządzanie multimediami\").</string>
+    <string name="strict_location_redaction_title">Redagowanie danych o lokalizacji podczas udostępniania multimediów</string>
 </resources>
