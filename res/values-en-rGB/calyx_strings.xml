@@ -1,2 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
+    <string name="detailed_security_patch">Platform: <xliff:g id="platform_level">%1$s</xliff:g>
+\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
+\nVendor: <xliff:g id="kernel_level">%3$s</xliff:g>
+\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="timeout_summary_never">Never</string>
+    <string name="timeout_summary_15secs">15 seconds</string>
+    <string name="timeout_summary_10mins">10 minutes</string>
+    <string name="timeout_summary_1hour">1 hour</string>
+    <string name="timeout_summary_8hours">8 hours</string>
+    <string name="timeout_summary_12hours">12 hours</string>
+    <string name="timeout_summary_24hours">24 hours</string>
+    <string name="timeout_summary_36hours">36 hours</string>
+    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Disabled</string>
+    <string name="security_restrict_usb_always">Deny new USB gadgets</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, apps that use cleartext traffic may not work</string>
+    <string name="calyxos_version">CalyxOS version</string>
+    <string name="aosp_module_version">Mainline module update</string>
+    <string name="panic_settings_title">Show Panic option</string>
+    <string name="security_restrict_usb_title">Restrict USB</string>
+    <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
+    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
+    <string name="security_restrict_usb_keyguard">Allow new USB gadgets when unlocked</string>
+    <string name="security_restrict_usb_summary">Control support for USB gadgets such as earphones, storage devices and input (mice, keyboards, joysticks)</string>
+    <string name="security_restrict_usb_disabled">Allow new USB gadgets always</string>
+    <string name="device_reboot_timeout_title">Auto reboot</string>
+    <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="panic_settings_summary">Display power button option that activates an emergency panic trigger.</string>
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="timeout_summary_30secs">30 seconds</string>
+    <string name="timeout_summary_1min">1 minute</string>
+    <string name="timeout_summary_2mins">2 minutes</string>
+    <string name="timeout_summary_5mins">5 minutes</string>
+    <string name="timeout_summary_30mins">30 minutes</string>
+    <string name="timeout_summary_2hours">2 hours</string>
+    <string name="timeout_summary_4hours">4 hours</string>
+    <string name="timeout_summary_48hours">48 hours</string>
+    <string name="timeout_summary_72hours">72 hours</string>
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
+    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
+    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+</resources>

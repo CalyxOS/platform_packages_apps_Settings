@@ -51,7 +51,7 @@
     <string name="global_vpn_summary_any_vpn_active">Vous devez d\'abord désactiver toutes les connexions VPN actives pour activer cette fonction</string>
     <string name="cross_profile_sharing_title">Partage entre les profils</string>
     <string name="cross_profile_sharing_summary">Activez les boutons de partage dans l\'application pour qu\'ils fonctionnent sur vos profils personnel et professionnel</string>
-    <string name="hide">Cacher</string>
+    <string name="hide">Masquer</string>
     <string name="unhide">Montrer</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, point d\'accès, VPN, DNS privé</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, appairage, NFC</string>
@@ -73,7 +73,7 @@
     <string name="quick_settings">Paramètres rapides</string>
     <string name="captive_portal_summary">Détermine si l\'appareil peut se connecter à internet, en contactant Google. Aussi utilisé pour détecter des portails captifs.</string>
     <string name="miscellaneous_settings">Divers</string>
-    <string name="hidden">Masquer</string>
+    <string name="hidden">Masqué</string>
     <string name="security_settings_biometric_preference_title_calyx">Déverrouillage biométrique</string>
     <string name="unhide_app_desc">Si vous montrez cette application, elle sera visible à Android et aux autres applications.</string>
     <string name="work_hours_end_notification_title">Fin de la journée de travail</string>
