@@ -84,4 +84,6 @@
     <string name="work_hours_end_off_summary">显示关闭工作配置文件的每日通知</string>
     <string name="work_hours_end_notification_description">轻按关闭工作应用</string>
     <string name="work_hours_end_notification_title">工作日结束</string>
+    <string name="strict_location_redaction_description">仅图库和文件管理器可以从你的相片和媒体文件读取位置元数据。（第三方应用必须有“访问所有文件”或“媒体管理”权限才做得到。）</string>
+    <string name="strict_location_redaction_title">分享媒体文件时删除位置信息</string>
 </resources>
