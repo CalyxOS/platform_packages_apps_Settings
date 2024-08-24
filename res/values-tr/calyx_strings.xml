@@ -84,4 +84,6 @@
     <string name="work_hours_end_notification_description">İş uygulamalarını kapatmak için dokunun</string>
     <string name="work_hours_title">Çalışma saatleri</string>
     <string name="work_hours_end_on_summary">Çalışma profilini <xliff:g id="end_time">%1$s</xliff:g>\'de kapatmak için günlük bir bildirim göster</string>
+    <string name="strict_location_redaction_title">Medya paylaşırken konum verilerini gizle</string>
+    <string name="strict_location_redaction_description">Yalnızca galeriler ve dosya yöneticileri fotoğraflarınızdan ve medyanızdan konum üst verilerini okuyabilir. (Üçüncü taraf uygulamaların Tüm Dosyalara Erişim veya Medya Yönetimi izinlerine sahip olması gerekir.)</string>
 </resources>

@@ -25,7 +25,7 @@
     <string name="bluetooth_timeout">Desativar o Bluetooth automaticamente</string>
     <string name="show_qs_on_secure_keyguard_summary">Permitir modificar as configurações rápidas na tela de bloqueio segura</string>
     <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
-    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede que não usa TLS. Precisa da configuração do DNS particular. Nota: Sem isenções explícitas, apps que usam tráfego de texto simples podem não funcionar</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede que não usa TLS. A configuração do DNS particular é obrigatória. Nota: Sem isenções explícitas, apps que usam tráfego de texto simples podem não funcionar</string>
     <string name="wifi_timeout_summary2">Desativado</string>
     <string name="wifi_timeout_summary">O Wi-Fi será desativado depois de <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado à nenhuma rede</string>
     <string name="wifi_timeout">Desativar o Wi-Fi automaticamente</string>
@@ -81,7 +81,9 @@
     <string name="keychords_summary">Capture um relatório de bugs segurando os botões de volume, e Power ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
     <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente ás <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
     <string name="work_hours_end_off_summary">Mostrar uma notificação diária para desativar o perfil de trabalho</string>
-    <string name="work_hours_end_notification_description">Toque para desativar apps de trabalho</string>
+    <string name="work_hours_end_notification_description">Toque para desligar apps de trabalho</string>
     <string name="work_hours_title">Horas de trabalho</string>
     <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
+    <string name="strict_location_redaction_title">Omitir dados de localização ao compartilhar mídia</string>
+    <string name="strict_location_redaction_description">Somente galerias e gerenciadores de arquivos devem poder ler metadados das suas fotos e mídia. (Apps de terceiros devem ter o acesso à todos os arquivos, ou permissões de mídia.)</string>
 </resources>
