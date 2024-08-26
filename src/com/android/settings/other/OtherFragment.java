@@ -27,7 +27,9 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.development.DevelopmentMemtagPagePreferenceController;
 import com.android.settings.development.OnActivityResultListener;
 import com.android.settings.development.OemUnlockDialogHost;
+import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.search.SearchIndexable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +38,7 @@ import java.util.List;
  * Fragment that shows several toggle controls moved outside from
  * development settings
  */
+@SearchIndexable
 public class OtherFragment extends DashboardFragment
         implements OemUnlockDialogHost {
 
@@ -103,4 +106,7 @@ public class OtherFragment extends DashboardFragment
             super.onActivityResult(requestCode, resultCode, data);
         }
     }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.other_settings);
 }
