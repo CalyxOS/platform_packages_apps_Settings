@@ -190,4 +190,10 @@
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Erase all data after 5 failed unlock attempts</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Erase all data after 10 failed unlock attempts</string>
+
+    <!-- Back gesture -->
+    <string name="back_gesture_inset_scale_left_title">Left back gesture</string>
+    <string name="back_gesture_inset_scale_left_summary">Disable back gesture from left side of the screen</string>
+    <string name="back_gesture_inset_scale_right_title">Right back gesture</string>
+    <string name="back_gesture_inset_scale_right_summary">Disable back gesture from right side of the screen</string>
 </resources>

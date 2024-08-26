@@ -29,6 +29,18 @@
         android:summary="@string/show_navbar_hint_summary"
         android:defaultValue="true" />
 
+    <lineageos.preference.SecureSettingSwitchPreference
+        android:key="back_gesture_inset_scale_left"
+        android:title="@string/back_gesture_inset_scale_left_title"
+        android:summary="@string/back_gesture_inset_scale_left_summary"
+        android:defaultValue="true" />
+
+    <lineageos.preference.SecureSettingSwitchPreference
+        android:key="back_gesture_inset_scale_right"
+        android:title="@string/back_gesture_inset_scale_right_title"
+        android:summary="@string/back_gesture_inset_scale_right_summary"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
