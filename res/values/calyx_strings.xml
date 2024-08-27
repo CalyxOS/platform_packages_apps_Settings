@@ -190,4 +190,9 @@
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Erase all data after 5 failed unlock attempts</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Erase all data after 10 failed unlock attempts</string>
+
+    <!-- Settings -> Privacy -->
+    <string name="clipboard_auto_clear_timeout_title">Clipboard auto clear</string>
+    <string name="clipboard_auto_clear_timeout_summary">Clipboard will be automatically cleared after <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="clipboard_auto_clear_timeout_summary2">Clipboard will not automatically clear</string>
 </resources>
