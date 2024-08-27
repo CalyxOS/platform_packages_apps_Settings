@@ -126,6 +126,14 @@
             android:summary="@string/content_capture_summary"
             settings:controller="com.android.settings.privacy.EnableContentCaptureWithServiceSettingsPreferenceController"/>
 
+        <ListPreference
+            android:key="clipboard_auto_clear_timeout"
+            android:entries="@array/clipboard_auto_clear_timeout_entries"
+            android:entryValues="@array/clipboard_auto_clear_timeout_values"
+            android:summary="@string/clipboard_auto_clear_timeout_summary"
+            android:title="@string/clipboard_auto_clear_timeout_title"
+            settings:controller="com.android.settings.privacy.ClipboardAutoClearTimeoutPreferenceController" />
+
     </PreferenceCategory>
 
     <!-- Security section. -->
