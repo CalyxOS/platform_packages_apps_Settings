@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd163efb_b25b7e05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-27T14:31:54Z",
+      "side": 1,
+      "message": "I know this is how we\u0027ve added new Settings. It\u0027s also caused conflicts with AOSP from time to time, although this one is easier to manage.\n\nCould this be in lineage parts / sdk instead? Then the only thing we\u0027d have in settings is the xml.",
+      "revId": "e8be0bfd7bf9304d66708473e5cace2e8c5c434e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
