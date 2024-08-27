@@ -137,6 +137,14 @@
             android:fragment="com.android.settings.network.telephony.CellularSecuritySettingsFragment"
             settings:controller="com.android.settings.network.CellularSecurityPreferenceController"
             settings:searchable="false"/>
+
+        <lineageos.preference.LineageSecureSettingListPreference
+            android:key="clipboard_auto_clear_timeout"
+            android:title="@string/clipboard_auto_clear_timeout_title"
+            android:summary="@string/clipboard_auto_clear_timeout_summary"
+            android:entries="@array/clipboard_auto_clear_timeout_entries"
+            android:entryValues="@array/clipboard_auto_clear_timeout_values"
+            android:defaultValue="3600000"/>
     </PreferenceCategory>
 
     <!-- Security section. -->
