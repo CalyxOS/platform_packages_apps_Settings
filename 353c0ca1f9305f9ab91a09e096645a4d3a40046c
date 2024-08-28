@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "121edf85_6086c655",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-08-28T12:47:50Z",
+      "side": 1,
+      "message": "Most lines seems to be changed just for formatting. is that intentional?",
+      "revId": "353c0ca1f9305f9ab91a09e096645a4d3a40046c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
