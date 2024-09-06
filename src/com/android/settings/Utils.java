@@ -84,7 +84,6 @@ import android.provider.ContactsContract.Contacts;
 import android.provider.ContactsContract.Data;
 import android.provider.ContactsContract.Profile;
 import android.provider.ContactsContract.RawContacts;
-import android.provider.Settings;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.text.Spannable;
@@ -1447,11 +1446,12 @@ public final class Utils extends com.android.settingslib.Utils {
         final int parentUserId = parentUser == null
                 ? context.getUserId() : parentUser.getIdentifier();
         final ContentResolver cr = context.getContentResolver();
-        final String parentValue = Settings.Secure.getStringForUser(cr, setting, parentUserId);
+        final String parentValue = android.provider.Settings.Secure.getStringForUser(cr, setting,
+                parentUserId);
         final int childProfileId = childProfile == null ? -1 : childProfile.getIdentifier();
         for (final int id : userManager.getProfileIdsWithDisabled(parentUserId)) {
             if (id != parentUserId && (childProfile == null || childProfileId == id)) {
-                Settings.Secure.putStringForUser(cr, setting, parentValue, id);
+                android.provider.Settings.Secure.putStringForUser(cr, setting, parentValue, id);
             }
         }
     }
