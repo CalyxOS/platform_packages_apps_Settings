@@ -88,6 +88,16 @@
             settings:controller="com.android.settings.privacy.MicToggleController"
             android:order="50" />
 
+        <!-- Microphone timeout -->
+        <ListPreference
+            android:key="privacy_mic_timeout"
+            android:title="@string/mic_timeout_title"
+            android:summary="@string/summary_placeholder"
+            android:entries="@array/timeout_entries"
+            android:entryValues="@array/timeout_values"
+            settings:controller="com.android.settings.privacy.MicTimeoutPreferenceController"
+            android:order="51" />
+
         <!-- Clipboard access notifications -->
         <SwitchPreferenceCompat
             android:key="show_clip_access_notification"

@@ -159,4 +159,10 @@
     <!-- Describes the camera timeout [CHAR LIMIT=NONE] -->
     <string name="camera_timeout_description">Camera access will turn off after %1$s if not in use</string>
     <string name="camera_timeout_description2">Camera access will not turn off automatically</string>
+
+    <!-- Label for the mic timeout list [CHAR LIMIT=40] -->
+    <string name="mic_timeout_title">Microphone timeout</string>
+    <!-- Describes the mic timeout [CHAR LIMIT=NONE] -->
+    <string name="mic_timeout_description">Microphone access will turn off after %1$s if not in use</string>
+    <string name="mic_timeout_description2">Microphone access will not turn off automatically</string>
 </resources>
