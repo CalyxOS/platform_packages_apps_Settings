@@ -70,6 +70,16 @@
             settings:controller="com.android.settings.privacy.CameraToggleController"
             android:order="45" />
 
+        <!-- Camera timeout -->
+        <ListPreference
+            android:key="privacy_camera_timeout"
+            android:title="@string/camera_timeout_title"
+            android:summary="@string/summary_placeholder"
+            android:entries="@array/timeout_entries"
+            android:entryValues="@array/timeout_values"
+            settings:controller="com.android.settings.privacy.CameraTimeoutPreferenceController"
+            android:order="46" />
+
         <!-- Microphone toggle -->
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="privacy_mic_toggle"

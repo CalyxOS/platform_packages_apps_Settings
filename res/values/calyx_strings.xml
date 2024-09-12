@@ -153,4 +153,10 @@
 
     <!-- Summary of disabled preference - when user switcher is off - for allow adding users from lock screen [CHAR LIMIT=NONE] -->
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">User switcher is needed to add users from lock screen</string>
+
+    <!-- Label for the camera timeout list [CHAR LIMIT=40] -->
+    <string name="camera_timeout_title">Camera timeout</string>
+    <!-- Describes the camera timeout [CHAR LIMIT=NONE] -->
+    <string name="camera_timeout_description">Camera access will turn off after %1$s if not in use</string>
+    <string name="camera_timeout_description2">Camera access will not turn off automatically</string>
 </resources>
