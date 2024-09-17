@@ -176,4 +176,10 @@
 
     <!-- Summary of disabled preference - when user switcher is off - for allow adding users from lock screen [CHAR LIMIT=NONE] -->
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">User switcher is needed to add users from lock screen</string>
+
+    <!-- Screen lock settings -->
+    <string name="maximum_failed_passwords_for_wipe_title">Wipe on failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Erase all data after 5 failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Erase all data after 10 failed unlock attempts</string>
 </resources>
