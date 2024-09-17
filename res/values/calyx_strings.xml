@@ -180,4 +180,8 @@
 
     <!-- Summary of disabled preference - when user switcher is off - for allow adding users from lock screen [CHAR LIMIT=NONE] -->
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">User switcher is needed to add users from lock screen</string>
+
+    <!-- Screen lock settings -->
+    <string name="maximum_failed_passwords_for_wipe_title">Wipe on failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary">Erase all data after <xliff:g id="failed_passwords_description">%1$s</xliff:g> failed unlock attempts</string>
 </resources>
