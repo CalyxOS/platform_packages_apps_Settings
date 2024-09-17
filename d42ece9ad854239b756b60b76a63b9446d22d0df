@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c84ead7_e9f7fcb3",
+        "filename": "res/xml/screen_lock_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-09-17T15:15:46Z",
+      "side": 1,
+      "message": "Should probably remove this",
+      "range": {
+        "startLine": 55,
+        "startChar": 44,
+        "endLine": 55,
+        "endChar": 67
+      },
+      "revId": "d42ece9ad854239b756b60b76a63b9446d22d0df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
