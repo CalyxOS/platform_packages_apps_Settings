@@ -152,4 +152,24 @@
         <!-- Do not translate. -->
         <item>259200000</item>
     </string-array>
+
+    <!-- Screen lock settings. The maximum failed attempts before a device is wiped. These are shown in a list dialog. -->
+    <string-array name="maximum_failed_passwords_for_wipe_entries">
+        <item>@string/never</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="maximum_failed_passwords_for_wipe_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>3</item>
+        <!-- Do not translate. -->
+        <item>5</item>
+        <!-- Do not translate. -->
+        <item>10</item>
+    </string-array>
 </resources>
