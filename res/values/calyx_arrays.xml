@@ -17,7 +17,7 @@
 <resources>
     <!-- Bluetooth settings.  The delay in inactivity before bluetooth is turned off. These are shown in a list dialog. -->
     <string-array name="bluetooth_timeout_entries">
-        <item>@string/timeout_summary_never</item>
+        <item>@string/never</item>
         <item>@string/timeout_summary_15secs</item>
         <item>@string/timeout_summary_30secs</item>
         <item>@string/timeout_summary_1min</item>
@@ -61,7 +61,7 @@
 
     <!-- Wifi settings.  The delay in inactivity before wifi is turned off. These are shown in a list dialog. -->
     <string-array name="wifi_timeout_entries">
-        <item>@string/timeout_summary_never</item>
+        <item>@string/never</item>
         <item>@string/timeout_summary_15secs</item>
         <item>@string/timeout_summary_30secs</item>
         <item>@string/timeout_summary_1min</item>
@@ -117,7 +117,7 @@
 
     <!-- Auto reboot settings. The delay in activity before a locked device is rebooted. These are shown in a list dialog. -->
     <string-array name="device_reboot_timeout_entries">
-        <item>@string/timeout_summary_never</item>
+        <item>@string/never</item>
         <item>@string/timeout_summary_1hour</item>
         <item>@string/timeout_summary_2hours</item>
         <item>@string/timeout_summary_4hours</item>
@@ -151,5 +151,25 @@
         <item>172800000</item>
         <!-- Do not translate. -->
         <item>259200000</item>
+    </string-array>
+
+    <!-- Screen lock settings. The maximum failed attempts before a device is wiped. These are shown in a list dialog. -->
+    <string-array name="maximum_failed_passwords_for_wipe_entries">
+        <item>@string/never</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="maximum_failed_passwords_for_wipe_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>3</item>
+        <!-- Do not translate. -->
+        <item>5</item>
+        <!-- Do not translate. -->
+        <item>10</item>
     </string-array>
 </resources>

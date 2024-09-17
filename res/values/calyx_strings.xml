@@ -37,7 +37,6 @@
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 
     <!-- Timeout entries -->
-    <string name="timeout_summary_never">Never</string>
     <string name="timeout_summary_15secs">15 seconds</string>
     <string name="timeout_summary_30secs">30 seconds</string>
     <string name="timeout_summary_1min">1 minute</string>
@@ -163,4 +162,10 @@
     <!-- Strict location redaction setting -->
     <string name="strict_location_redaction_title">Redact location data when sharing media</string>
     <string name="strict_location_redaction_description">Only galleries and file managers may read location metadata from your photos and media. (Third-party apps must have All Files Access or Media Management permissions.)</string>
+
+    <!-- Screen lock settings -->
+    <string name="maximum_failed_passwords_for_wipe_title">Wipe on failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary">Erase all data after <xliff:g id="failed_passwords_description">%1$s</xliff:g> failed unlock attempts</string>
+
+    <string name="never">Never</string>
 </resources>
