@@ -64,4 +64,11 @@
         android:title="@string/show_qs_on_secure_keyguard_title"
         android:summary="@string/show_qs_on_secure_keyguard_summary" />
 
+    <lineageos.preference.LineageSecureSettingListPreference
+        android:key="maximum_failed_passwords_for_wipe"
+        android:title="@string/maximum_failed_passwords_for_wipe_title"
+        android:summary="@string/maximum_failed_passwords_for_wipe_summary"
+        android:entries="@array/maximum_failed_passwords_for_wipe_entries"
+        android:entryValues="@array/maximum_failed_passwords_for_wipe_values" />
+
 </PreferenceScreen>
