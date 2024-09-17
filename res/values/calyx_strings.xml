@@ -166,6 +166,8 @@
     <!-- Screen lock settings -->
     <string name="maximum_failed_passwords_for_wipe_title">Wipe on failed unlock attempts</string>
     <string name="maximum_failed_passwords_for_wipe_summary">Erase all data after <xliff:g id="failed_passwords_description">%1$s</xliff:g> failed unlock attempts</string>
+    <string name="strong_auth_timeout_ms_title">Strong authentication timeout</string>
+    <string name="strong_auth_timeout_ms_summary">Require strong authentication during next unlock <xliff:g id="strong_auth_timeout_description">%1$s</xliff:g> after last unlock</string>
 
     <string name="never">Never</string>
 </resources>

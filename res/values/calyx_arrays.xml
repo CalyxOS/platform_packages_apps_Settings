@@ -172,4 +172,42 @@
         <!-- Do not translate. -->
         <item>10</item>
     </string-array>
+
+    <!-- Screen lock settings. The maximum failed attempts before a device is wiped. These are shown in a list dialog. -->
+    <string-array name="strong_auth_timeout_ms_entries">
+        <item>@string/never</item>
+        <item>@string/timeout_summary_1hour</item>
+        <item>@string/timeout_summary_2hours</item>
+        <item>@string/timeout_summary_4hours</item>
+        <item>@string/timeout_summary_8hours</item>
+        <item>@string/timeout_summary_12hours</item>
+        <item>@string/timeout_summary_24hours</item>
+        <item>@string/timeout_summary_36hours</item>
+        <item>@string/timeout_summary_48hours</item>
+        <item>@string/timeout_summary_72hours</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="strong_auth_timeout_ms_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>3600000</item>
+        <!-- Do not translate. -->
+        <item>7200000</item>
+        <!-- Do not translate. -->
+        <item>14400000</item>
+        <!-- Do not translate. -->
+        <item>28800000</item>
+        <!-- Do not translate. -->
+        <item>43200000</item>
+        <!-- Do not translate. -->
+        <item>86400000</item>
+        <!-- Do not translate. -->
+        <item>129600000</item>
+        <!-- Do not translate. -->
+        <item>172800000</item>
+        <!-- Do not translate. -->
+        <item>259200000</item>
+    </string-array>
 </resources>
