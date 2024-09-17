@@ -139,4 +139,10 @@
 
     <!-- Summary for the private space setup education screen. [CHAR LIMIT=NONE] -->
     <string name="private_space_hide_apps_summary_calyx">Hide or lock private apps in a separate space.</string>
+
+    <!-- Screen lock settings -->
+    <string name="maximum_failed_passwords_for_wipe_title">Wipe on failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Erase all data after 5 failed unlock attempts</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Erase all data after 10 failed unlock attempts</string>
 </resources>
