@@ -64,4 +64,10 @@
         android:title="@string/show_qs_on_secure_keyguard_title"
         android:summary="@string/show_qs_on_secure_keyguard_summary" />
 
+    <lineageos.preference.LineageSecureSettingListPreference
+        android:key="strong_auth_timeout_ms"
+        android:title="@string/strong_auth_timeout_ms_title"
+        android:summary="@string/strong_auth_timeout_ms_summary"
+        android:entries="@array/strong_auth_timeout_ms_entries"
+        android:entryValues="@array/strong_auth_timeout_ms_values" />
 </PreferenceScreen>
