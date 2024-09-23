@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "44e110c2_852b6aee",
+        "filename": "res/values/cm_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-09-23T20:51:16Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "d9cbc5f7_d8c5c01f",
+      "revId": "f660f9b51cdbdb449cdf5fe4fd25ea31dcca9305",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "046da960_3019882e",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-09-23T20:27:23Z",
       "side": 0,
       "message": "Unrelated change.",
+      "revId": "f660f9b51cdbdb449cdf5fe4fd25ea31dcca9305",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ac1ba24_4694a6b9",
+        "filename": "src/com/android/settings/other/OtherFragment.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-09-23T20:51:16Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "046da960_3019882e",
       "revId": "f660f9b51cdbdb449cdf5fe4fd25ea31dcca9305",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
