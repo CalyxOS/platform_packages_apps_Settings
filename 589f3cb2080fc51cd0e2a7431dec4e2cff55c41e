@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdedc23e_02c617a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-23T20:09:00Z",
+      "side": 1,
+      "message": "Unfortunately may get reset on reboot since it\u0027s device config.",
+      "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
