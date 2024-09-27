@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46c0379b_53204f7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-09-27T17:03:13Z",
+      "side": 1,
+      "message": "Tested on GSI on 4a 5G",
+      "revId": "ffce0c57452d0cdb6a61cf858728da1f0d6d5d44",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
