@@ -84,4 +84,6 @@
     <string name="work_hours_end_off_summary">Zobraziť denné oznámenia na vypnutie pracovného profilu</string>
     <string name="work_hours_end_notification_title">Koniec pracovného dňa</string>
     <string name="work_hours_end_notification_description">Kliknite pre vypnutie pracovných aplikácií</string>
+    <string name="strict_location_redaction_description">Metadáta o polohe z vašich fotografií a médií môžu čítať iba galérie a správcovia súborov. (Aplikácie tretích strán musia mať povolenia na prístup k všetkým súborom alebo na správu médií.)</string>
+    <string name="strict_location_redaction_title">Odstraniť údaje o polohe pri zdieľaní médií</string>
 </resources>
