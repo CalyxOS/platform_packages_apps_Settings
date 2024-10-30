@@ -69,12 +69,12 @@ public class AccessibilitySettingsForSetupWizard extends DashboardFragment
 
     // Package names and service names used to identify screen reader and SelectToSpeak services.
     @VisibleForTesting
-    static final String SCREEN_READER_PACKAGE_NAME = "com.google.android.marvin.talkback";
+    static final String SCREEN_READER_PACKAGE_NAME = "org.calyxos.talkback";
     @VisibleForTesting
     static final String SCREEN_READER_SERVICE_NAME =
             "com.google.android.marvin.talkback.TalkBackService";
     @VisibleForTesting
-    static final String SELECT_TO_SPEAK_PACKAGE_NAME = "com.google.android.marvin.talkback";
+    static final String SELECT_TO_SPEAK_PACKAGE_NAME = "org.calyxos.talkback";
     @VisibleForTesting
     static final String SELECT_TO_SPEAK_SERVICE_NAME =
             "com.google.android.accessibility.selecttospeak.SelectToSpeakService";
