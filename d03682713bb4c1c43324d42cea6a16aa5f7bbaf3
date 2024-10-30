@@ -16,6 +16,24 @@
       "message": "Works with https://github.com/google/talkback. In my local fork I have added the gradle wrapper",
       "revId": "d03682713bb4c1c43324d42cea6a16aa5f7bbaf3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f032aaff_41922064",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-10-30T16:33:23Z",
+      "side": 1,
+      "message": "Ideally could live in external/google-talkback. It currently causes issues with build system due to some Android.mk entries. Guessing it\u0027s usually built out of tree?",
+      "parentUuid": "e4dbe013_0a21d058",
+      "revId": "d03682713bb4c1c43324d42cea6a16aa5f7bbaf3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
