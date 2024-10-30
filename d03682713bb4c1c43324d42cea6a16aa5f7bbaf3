@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4dbe013_0a21d058",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-10-30T16:31:55Z",
+      "side": 1,
+      "message": "Works with https://github.com/google/talkback. In my local fork I have added the gradle wrapper",
+      "revId": "d03682713bb4c1c43324d42cea6a16aa5f7bbaf3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
