@@ -163,4 +163,9 @@
     <!-- Strict location redaction setting -->
     <string name="strict_location_redaction_title">Redact location data when sharing media</string>
     <string name="strict_location_redaction_description">Only galleries and file managers may read location metadata from your photos and media. (Third-party apps must have All Files Access or Media Management permissions.)</string>
+
+    <!-- User settings item to allow switching users from lock screen [CHAR LIMIT=50] -->
+    <string name="user_switch_on_lockscreen">Switch users from lock screen</string>
+    <!-- Summary of preference to allow switching users from lock screen [CHAR LIMIT=NONE] -->
+    <string name="user_switch_on_lockscreen_summary">Show user switcher on lock screen for this user (<xliff:g id="name" example="Owner">%s</xliff:g>)</string>
 </resources>

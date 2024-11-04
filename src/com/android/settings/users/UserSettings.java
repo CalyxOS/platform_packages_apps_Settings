@@ -128,6 +128,7 @@ public class UserSettings extends SettingsPreferenceFragment
     private static final String KEY_ADD_GUEST = "guest_add";
     private static final String KEY_ADD_USER = "user_add";
     private static final String KEY_ADD_SUPERVISED_USER = "supervised_user_add";
+    private static final String KEY_SWITCH_USER_WHEN_LOCKED = "user_settings_switch_users_when_locked";
     private static final String KEY_ADD_USER_WHEN_LOCKED = "user_settings_add_users_when_locked";
     private static final String KEY_ENABLE_GUEST_TELEPHONY = "enable_guest_calling";
     private static final String KEY_MULTIUSER_TOP_INTRO = "multiuser_top_intro";
@@ -224,6 +225,7 @@ public class UserSettings extends SettingsPreferenceFragment
             new EditUserInfoController(Utils.FILE_PROVIDER_AUTHORITY);
     private CreateUserDialogController mCreateUserDialogController =
             new CreateUserDialogController(Utils.FILE_PROVIDER_AUTHORITY);
+    private SwitchUserWhenLockedPreferenceController mSwitchUserWhenLockedPreferenceController;
     private AddUserWhenLockedPreferenceController mAddUserWhenLockedPreferenceController;
     private GuestTelephonyPreferenceController mGuestTelephonyPreferenceController;
     private RemoveGuestOnExitPreferenceController mRemoveGuestOnExitPreferenceController;
@@ -315,6 +317,9 @@ public class UserSettings extends SettingsPreferenceFragment
         mGuestUserAutoCreated = getPrefContext().getResources().getBoolean(
                 com.android.internal.R.bool.config_guestUserAutoCreated);
 
+        mSwitchUserWhenLockedPreferenceController = new SwitchUserWhenLockedPreferenceController(
+                activity, KEY_SWITCH_USER_WHEN_LOCKED);
+
         mAddUserWhenLockedPreferenceController = new AddUserWhenLockedPreferenceController(
                 activity, KEY_ADD_USER_WHEN_LOCKED);
 
@@ -331,11 +336,15 @@ public class UserSettings extends SettingsPreferenceFragment
                 activity, KEY_TIMEOUT_TO_DOCK_USER);
 
         final PreferenceScreen screen = getPreferenceScreen();
+        mSwitchUserWhenLockedPreferenceController.displayPreference(screen);
         mAddUserWhenLockedPreferenceController.displayPreference(screen);
         mGuestTelephonyPreferenceController.displayPreference(screen);
         mRemoveGuestOnExitPreferenceController.displayPreference(screen);
         mMultiUserTopIntroPreferenceController.displayPreference(screen);
         mTimeoutToDockUserPreferenceController.displayPreference(screen);
+
+        screen.findPreference(mSwitchUserWhenLockedPreferenceController.getPreferenceKey())
+                .setOnPreferenceChangeListener(mSwitchUserWhenLockedPreferenceController);
 
         screen.findPreference(mAddUserWhenLockedPreferenceController.getPreferenceKey())
                 .setOnPreferenceChangeListener(mAddUserWhenLockedPreferenceController);
@@ -419,6 +428,8 @@ public class UserSettings extends SettingsPreferenceFragment
         }
         final PreferenceScreen screen = getPreferenceScreen();
 
+        mSwitchUserWhenLockedPreferenceController.updateState(screen.findPreference(
+                mSwitchUserWhenLockedPreferenceController.getPreferenceKey()));
         mAddUserWhenLockedPreferenceController.updateState(screen.findPreference(
                 mAddUserWhenLockedPreferenceController.getPreferenceKey()));
         mGuestTelephonyPreferenceController.updateState(screen.findPreference(
@@ -1315,6 +1326,10 @@ public class UserSettings extends SettingsPreferenceFragment
 
         // Remove everything from mUserListCategory and add new users.
         mUserListCategory.removeAll();
+
+        final Preference switchUserOnLockScreen = getPreferenceScreen().findPreference(
+                mSwitchUserWhenLockedPreferenceController.getPreferenceKey());
+        mSwitchUserWhenLockedPreferenceController.updateState(switchUserOnLockScreen);
 
         final Preference addUserOnLockScreen = getPreferenceScreen().findPreference(
                 mAddUserWhenLockedPreferenceController.getPreferenceKey());
