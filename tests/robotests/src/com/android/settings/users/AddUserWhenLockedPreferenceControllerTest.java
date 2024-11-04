@@ -41,6 +41,8 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.annotation.Config;
 
+import androidx.lifecycle.Lifecycle;
+
 @RunWith(RobolectricTestRunner.class)
 @Config(shadows = {ShadowUserManager.class, SettingsShadowResources.class})
 public class AddUserWhenLockedPreferenceControllerTest {
@@ -59,7 +61,8 @@ public class AddUserWhenLockedPreferenceControllerTest {
         MockitoAnnotations.initMocks(this);
         mContext = RuntimeEnvironment.application;
         mUserManager = ShadowUserManager.getShadow();
-        mController = new AddUserWhenLockedPreferenceController(mContext, "fake_key");
+        mController = new AddUserWhenLockedPreferenceController(mContext, "fake_key",
+                mock(Lifecycle.class));
         mUserManager.setSupportsMultipleUsers(true);
     }
 
@@ -97,7 +100,8 @@ public class AddUserWhenLockedPreferenceControllerTest {
         mUserManager.setUserSwitcherEnabled(true);
         mUserManager.setSupportsMultipleUsers(true);
         final AddUserWhenLockedPreferenceController controller =
-                new AddUserWhenLockedPreferenceController(mContext, "fake_key");
+                new AddUserWhenLockedPreferenceController(mContext, "fake_key",
+                        mock(Lifecycle.class));
         final RestrictedSwitchPreference preference = mock(RestrictedSwitchPreference.class);
 
         controller.updateState(preference);
