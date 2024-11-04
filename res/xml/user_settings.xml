@@ -100,4 +100,11 @@
         android:fragment="com.android.settings.users.TimeoutToDockUserSettings"
         settings:controller="com.android.settings.users.TimeoutToDockUserPreferenceController"/>
 
+    <com.android.settingslib.RestrictedSwitchPreference
+        android:key="user_settings_switch_users_when_locked"
+        android:title="@string/user_switch_on_lockscreen"
+        android:summary="@string/user_switch_on_lockscreen_summary"
+        android:singleLineTitle="false"
+        android:order="108"
+        settings:controller="com.android.settings.users.SwitchUserWhenLockedPreferenceController"/>
 </PreferenceScreen>
