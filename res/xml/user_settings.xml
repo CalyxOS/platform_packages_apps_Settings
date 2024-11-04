@@ -99,16 +99,24 @@
         android:order="65"/>
 
     <com.android.settingslib.RestrictedSwitchPreference
+        android:key="user_settings_switch_users_when_locked"
+        android:title="@string/user_switch_on_lockscreen"
+        android:summary="@string/user_switch_on_lockscreen_summary"
+        android:singleLineTitle="false"
+        android:order="105"
+        settings:allowDividerAbove="true"
+        settings:controller="com.android.settings.users.SwitchUserWhenLockedPreferenceController"/>
+
+    <com.android.settingslib.RestrictedSwitchPreference
         android:key="user_settings_add_users_when_locked"
         android:title="@string/user_add_on_lockscreen_menu"
         android:singleLineTitle="false"
-        android:order="105"
-        settings:allowDividerAbove="true"/>
+        android:order="106"/>
 
     <com.android.settingslib.RestrictedPreference
         android:key="timeout_to_dock_user_preference"
         android:title="@string/switch_to_dock_user_when_docked"
-        android:order="106"
+        android:order="107"
         android:fragment="com.android.settings.users.TimeoutToDockUserSettings"
         settings:controller="com.android.settings.users.TimeoutToDockUserPreferenceController"/>
 
