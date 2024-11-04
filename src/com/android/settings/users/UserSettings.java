@@ -140,6 +140,8 @@ public class UserSettings extends SettingsPreferenceFragment
     private static final String KEY_ADD_GUEST = "guest_add";
     private static final String KEY_ADD_USER = "user_add";
     private static final String KEY_ADD_SUPERVISED_USER = "supervised_user_add";
+    private static final String KEY_SWITCH_USER_WHEN_LOCKED =
+            "user_settings_switch_users_when_locked";
     private static final String KEY_ADD_USER_WHEN_LOCKED = "user_settings_add_users_when_locked";
     private static final String KEY_ADD_USER_FROM_SIGNIN = "add_users_from_signin";
     private static final String KEY_ADD_GUEST_FROM_SIGNIN = "add_guests_from_signin";
@@ -257,6 +259,7 @@ public class UserSettings extends SettingsPreferenceFragment
     private RemoveGuestOnExitPreferenceController mRemoveGuestOnExitPreferenceController;
     private MultiUserTopIntroPreferenceController mMultiUserTopIntroPreferenceController;
     private TimeoutToDockUserPreferenceController mTimeoutToDockUserPreferenceController;
+    private SwitchUserWhenLockedPreferenceController mSwitchUserWhenLockedPreferenceController;
     private UserCreatingDialog mUserCreatingDialog;
     private final AtomicBoolean mGuestCreationScheduled = new AtomicBoolean();
     private final ExecutorService mExecutor = Executors.newSingleThreadExecutor();
@@ -336,7 +339,7 @@ public class UserSettings extends SettingsPreferenceFragment
                 com.android.internal.R.bool.config_guestUserAutoCreated);
 
         mAddUserWhenLockedPreferenceController = new AddUserWhenLockedPreferenceController(
-                activity, KEY_ADD_USER_WHEN_LOCKED);
+                activity, KEY_ADD_USER_WHEN_LOCKED, getSettingsLifecycle());
 
         mAddUserFromSignInPreferenceController = new AddUserFromSignInPreferenceController(
                 activity, KEY_ADD_USER_FROM_SIGNIN);
@@ -359,6 +362,9 @@ public class UserSettings extends SettingsPreferenceFragment
         mMainSwitchController = new MultiUserMainSwitchPreferenceController(
                 activity, KEY_USER_SWITCH_TOGGLE);
 
+        mSwitchUserWhenLockedPreferenceController = new SwitchUserWhenLockedPreferenceController(
+                activity, KEY_SWITCH_USER_WHEN_LOCKED);
+
         final PreferenceScreen screen = getPreferenceScreen();
         mAddUserWhenLockedPreferenceController.displayPreference(screen);
         mAddUserFromSignInPreferenceController.displayPreference(screen);
@@ -369,6 +375,7 @@ public class UserSettings extends SettingsPreferenceFragment
         mTimeoutToDockUserPreferenceController.displayPreference(screen);
         mMainSwitchController.displayPreference(screen);
 
+        mSwitchUserWhenLockedPreferenceController.displayPreference(screen);
 
         screen.findPreference(mAddUserWhenLockedPreferenceController.getPreferenceKey())
                 .setOnPreferenceChangeListener(mAddUserWhenLockedPreferenceController);
@@ -476,6 +483,8 @@ public class UserSettings extends SettingsPreferenceFragment
         mRemoveGuestOnExitPreferenceController.updateState(screen.findPreference(
                 mRemoveGuestOnExitPreferenceController.getPreferenceKey()));
         mMainSwitchController.updateState();
+        mSwitchUserWhenLockedPreferenceController.updateState(screen.findPreference(
+                mSwitchUserWhenLockedPreferenceController.getPreferenceKey()));
         if (mShouldUpdateUserList) {
             updateUI();
         }
@@ -2046,7 +2055,7 @@ public class UserSettings extends SettingsPreferenceFragment
                     }
                     AddUserWhenLockedPreferenceController controller =
                             new AddUserWhenLockedPreferenceController(
-                                    context, KEY_ADD_USER_WHEN_LOCKED);
+                                    context, KEY_ADD_USER_WHEN_LOCKED, null /* lifecycle */);
                     controller.updateNonIndexableKeys(niks);
                     new AutoSyncDataPreferenceController(context, null /* parent */)
                             .updateNonIndexableKeys(niks);
