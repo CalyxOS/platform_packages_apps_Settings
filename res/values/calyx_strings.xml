@@ -169,4 +169,12 @@
 
     <!-- Summary for the private space setup education screen. [CHAR LIMIT=NONE] -->
     <string name="private_space_hide_apps_summary_calyx">Hide or lock private apps in a separate space.</string>
+
+    <!-- User settings item to allow switching users from lock screen [CHAR LIMIT=50] -->
+    <string name="user_switch_on_lockscreen">Switch users from lock screen</string>
+    <!-- Summary of preference to allow switching users from lock screen [CHAR LIMIT=NONE] -->
+    <string name="user_switch_on_lockscreen_summary">Allow switching when this user is locked</string>
+
+    <!-- Summary of disabled preference - when user switcher is off - for allow adding users from lock screen [CHAR LIMIT=NONE] -->
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">User switcher is needed to add users from lock screen</string>
 </resources>
