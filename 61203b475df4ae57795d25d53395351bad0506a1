@@ -3,6 +3,57 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2fddced0_396e526b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-11-14T18:37:46Z",
+      "side": 1,
+      "message": "The toggle state for \"Switch users from lock screen\" is showing up as turned off for new users, even though user-switching from the lock screen is working. It may not be handling the default value correctly.",
+      "revId": "61203b475df4ae57795d25d53395351bad0506a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fd830f3_43008904",
+        "filename": "src/com/android/settings/users/SwitchUserWhenLockedPreferenceController.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-11-14T18:37:46Z",
+      "side": 1,
+      "message": "nit: please remove space before comma",
+      "revId": "61203b475df4ae57795d25d53395351bad0506a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4761d8d_5639cfc6",
+        "filename": "src/com/android/settings/users/SwitchUserWhenLockedPreferenceController.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-11-14T18:37:46Z",
+      "side": 1,
+      "message": "nit: please remove space before comma",
+      "revId": "61203b475df4ae57795d25d53395351bad0506a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "93fe6354_9b25cfa5",
         "filename": "src/com/android/settings/users/UserSettings.java",
         "patchSetId": 3
