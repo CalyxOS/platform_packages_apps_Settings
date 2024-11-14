@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "aceb761b_3cb761d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-11-14T18:39:02Z",
+      "side": 1,
+      "message": "`LineageSettings.Secure.USER_SWITCHER_HIDDEN_WHEN_LOCKED , 1)`\n\nThe `1` should be `0` I think, because the default state is for it *not* to be hidden when locked.",
+      "parentUuid": "2fddced0_396e526b",
+      "revId": "61203b475df4ae57795d25d53395351bad0506a1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1fd830f3_43008904",
         "filename": "src/com/android/settings/users/SwitchUserWhenLockedPreferenceController.java",
         "patchSetId": 3
