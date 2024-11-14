@@ -34,7 +34,7 @@
 
     <!-- Access QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
-    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
+    <string name="show_qs_on_secure_keyguard_summary">Show quick settings on secure lockscreen</string>
 
     <!-- Timeout entries -->
     <string name="timeout_summary_never">Never</string>
@@ -163,4 +163,5 @@
     <!-- Strict location redaction setting -->
     <string name="strict_location_redaction_title">Redact location data when sharing media</string>
     <string name="strict_location_redaction_description">Only galleries and file managers may read location metadata from your photos and media. (Third-party apps must have All Files Access or Media Management permissions.)</string>
+
 </resources>

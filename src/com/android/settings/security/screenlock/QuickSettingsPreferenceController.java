@@ -16,9 +16,9 @@
 
 package com.android.settings.security.screenlock;
 
-import android.app.admin.DevicePolicyManager;
 import android.content.Context;
 
+import androidx.annotation.NonNull;
 import androidx.preference.Preference;
 import androidx.preference.TwoStatePreference;
 
@@ -28,7 +28,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 
 import lineageos.providers.LineageSettings;
 
-public class StatusBarPreferenceController extends AbstractPreferenceController
+public class QuickSettingsPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
     static final String KEY_STATUS_BAR_SHOWN_ON_SECURE_KEYGUARD =
@@ -37,7 +37,7 @@ public class StatusBarPreferenceController extends AbstractPreferenceController
     private final int mUserId;
     private final LockPatternUtils mLockPatternUtils;
 
-    public StatusBarPreferenceController(Context context, int userId,
+    public QuickSettingsPreferenceController(Context context, int userId,
             LockPatternUtils lockPatternUtils) {
         super(context);
         mUserId = userId;
@@ -46,21 +46,8 @@ public class StatusBarPreferenceController extends AbstractPreferenceController
 
     @Override
     public boolean isAvailable() {
-        if (!mLockPatternUtils.isSecure(mUserId)) {
-            return false;
-        }
-        switch (mLockPatternUtils.getKeyguardStoredPasswordQuality(mUserId)) {
-            case DevicePolicyManager.PASSWORD_QUALITY_SOMETHING:
-            case DevicePolicyManager.PASSWORD_QUALITY_NUMERIC:
-            case DevicePolicyManager.PASSWORD_QUALITY_NUMERIC_COMPLEX:
-            case DevicePolicyManager.PASSWORD_QUALITY_ALPHABETIC:
-            case DevicePolicyManager.PASSWORD_QUALITY_ALPHANUMERIC:
-            case DevicePolicyManager.PASSWORD_QUALITY_COMPLEX:
-            case DevicePolicyManager.PASSWORD_QUALITY_MANAGED:
-                return true;
-            default:
-                return false;
-        }
+        return mLockPatternUtils.getCredentialTypeForUser(mUserId)
+                != LockPatternUtils.CREDENTIAL_TYPE_NONE;
     }
 
     @Override
@@ -72,16 +59,16 @@ public class StatusBarPreferenceController extends AbstractPreferenceController
     public void updateState(Preference preference) {
         ((TwoStatePreference) preference).setChecked(LineageSettings.Secure.getInt(
                 mContext.getContentResolver(),
-                LineageSettings.Secure.QS_TILES_TOGGLEABLE_ON_LOCK_SCREEN,
-                1) == 1);
+                LineageSettings.Secure.DISABLE_QUICK_SETTINGS_ON_LOCK_SCREEN,
+                0) == 0);
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
+    public boolean onPreferenceChange(@NonNull Preference preference, Object newValue) {
         LineageSettings.Secure.putInt(
                 mContext.getContentResolver(),
-                LineageSettings.Secure.QS_TILES_TOGGLEABLE_ON_LOCK_SCREEN,
-                (Boolean) newValue ? 1 : 0);
+                LineageSettings.Secure.DISABLE_QUICK_SETTINGS_ON_LOCK_SCREEN,
+                (Boolean) newValue ? 0 : 1);
         return true;
     }
 }
