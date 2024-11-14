@@ -139,6 +139,8 @@ public class UserSettings extends SettingsPreferenceFragment
     private static final String KEY_GUEST_USER_CATEGORY = "guest_user_category";
     private static final String KEY_ALLOW_MULTIPLE_USERS = "allow_multiple_users";
     private static final String KEY_USER_SETTINGS_SCREEN = "user_settings_screen";
+    private static final String KEY_ENABLE_QUICK_SETTINGS_WHEN_LOCKED =
+            "enable_quick_settings_when_locked";
 
     private static final String SETTING_GUEST_HAS_LOGGED_IN = "systemui.guest_has_logged_in";
 
@@ -229,6 +231,8 @@ public class UserSettings extends SettingsPreferenceFragment
     private RemoveGuestOnExitPreferenceController mRemoveGuestOnExitPreferenceController;
     private MultiUserTopIntroPreferenceController mMultiUserTopIntroPreferenceController;
     private TimeoutToDockUserPreferenceController mTimeoutToDockUserPreferenceController;
+    private EnableQuickSettingsWhenLockedPreferenceController
+            mEnableQuickSettingsWhenLockedPreferenceController;
     private UserCreatingDialog mUserCreatingDialog;
     private final AtomicBoolean mGuestCreationScheduled = new AtomicBoolean();
     private final ExecutorService mExecutor = Executors.newSingleThreadExecutor();
@@ -330,12 +334,17 @@ public class UserSettings extends SettingsPreferenceFragment
         mTimeoutToDockUserPreferenceController = new TimeoutToDockUserPreferenceController(
                 activity, KEY_TIMEOUT_TO_DOCK_USER);
 
+        mEnableQuickSettingsWhenLockedPreferenceController =
+                new EnableQuickSettingsWhenLockedPreferenceController(activity,
+                        KEY_ENABLE_QUICK_SETTINGS_WHEN_LOCKED);
+
         final PreferenceScreen screen = getPreferenceScreen();
         mAddUserWhenLockedPreferenceController.displayPreference(screen);
         mGuestTelephonyPreferenceController.displayPreference(screen);
         mRemoveGuestOnExitPreferenceController.displayPreference(screen);
         mMultiUserTopIntroPreferenceController.displayPreference(screen);
         mTimeoutToDockUserPreferenceController.displayPreference(screen);
+        mEnableQuickSettingsWhenLockedPreferenceController.displayPreference(screen);
 
         screen.findPreference(mAddUserWhenLockedPreferenceController.getPreferenceKey())
                 .setOnPreferenceChangeListener(mAddUserWhenLockedPreferenceController);
@@ -427,6 +436,8 @@ public class UserSettings extends SettingsPreferenceFragment
                 mTimeoutToDockUserPreferenceController.getPreferenceKey()));
         mRemoveGuestOnExitPreferenceController.updateState(screen.findPreference(
                 mRemoveGuestOnExitPreferenceController.getPreferenceKey()));
+        mEnableQuickSettingsWhenLockedPreferenceController.updateState(screen.findPreference(
+                mEnableQuickSettingsWhenLockedPreferenceController.getPreferenceKey()));
         if (mShouldUpdateUserList) {
             updateUI();
         }
