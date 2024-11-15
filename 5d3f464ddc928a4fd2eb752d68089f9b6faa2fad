@@ -52,6 +52,24 @@
       "parentUuid": "d6416999_9c892526",
       "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "213d379b_276404aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-11-15T19:39:03Z",
+      "side": 1,
+      "message": "In this case I think some code would be required. We want it to be conditionally shown based on whether the user switcher is enabled or not. Additionally, the defaults are inverted in this case",
+      "parentUuid": "02da5faa_fdff7de3",
+      "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
