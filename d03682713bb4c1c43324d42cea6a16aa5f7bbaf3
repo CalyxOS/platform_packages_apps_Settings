@@ -34,6 +34,24 @@
       "parentUuid": "e4dbe013_0a21d058",
       "revId": "d03682713bb4c1c43324d42cea6a16aa5f7bbaf3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ca3a2a9_04bd183e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-15T14:10:21Z",
+      "side": 1,
+      "message": "I see a couple jni Android.mk, which are for the NDK.\n\nBut putting in tree would result in the AOSP build system picking that up.\n\nThat can be solved by putting an empty Android.mk at the top-level, which will stop processing and not implicitly include any Android.mk below it.\n\nWe\u0027d build the app using gradle, yes. \n\nCan you open a ticket (or just comment on an existing ticket if there\u0027s one) with what this does, and also create a manifest change with the `external/google-talkback` repo name and I\u0027ll fork and push.",
+      "parentUuid": "f032aaff_41922064",
+      "revId": "d03682713bb4c1c43324d42cea6a16aa5f7bbaf3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
