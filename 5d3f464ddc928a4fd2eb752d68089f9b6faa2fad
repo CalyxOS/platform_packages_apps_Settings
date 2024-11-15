@@ -34,6 +34,24 @@
       "parentUuid": "3d6b79dc_2cca8974",
       "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02da5faa_fdff7de3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-15T14:14:14Z",
+      "side": 1,
+      "message": "Another example: https://review.calyxos.org/q/topic:%22wipe-max-failed-attempts%22\n\n(Yes that\u0027s all that\u0027s needed, no code for the setting)",
+      "parentUuid": "d6416999_9c892526",
+      "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
