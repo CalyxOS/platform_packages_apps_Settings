@@ -16,6 +16,24 @@
       "message": "I had mentioned this in a chat before, and I think for any new things we add going forward this\u0027d be a good place to start\n\nGiven that this is a Lineage Setting, could we put it in Parts instead, and that way the only addition here is a one-liner in `user-settings.xml` which makes it show in the right place.\n\nThat will make maintenance easier, because we won\u0027t be modifying the repo as much.\n\nOf course if it\u0027s not possible for some reason, whatever that may be, then this is fine. But Parts should be the first preference.",
       "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6416999_9c892526",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-15T13:56:31Z",
+      "side": 1,
+      "message": "An example: 29728: Settings: Add double tap to sleep preference | https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/29728",
+      "parentUuid": "3d6b79dc_2cca8974",
+      "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
