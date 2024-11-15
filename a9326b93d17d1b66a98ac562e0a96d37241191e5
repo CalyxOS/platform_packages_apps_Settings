@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f20a2a3_08f87325",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-15T13:51:02Z",
+      "side": 1,
+      "message": "As mentioned in other commits, can\u0027t replace settings like that without\n\n1. Migration\n2. UX Feedback / discussion given how it works has changed entirely.",
+      "revId": "a9326b93d17d1b66a98ac562e0a96d37241191e5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
