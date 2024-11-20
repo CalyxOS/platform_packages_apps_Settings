@@ -17,6 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calyxos_version">CalyxOS version</string>
 
+    <string name="never">Never</string>
+
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
     <string name="private_dns_hostname_cloudflare" translatable="false">one.one.one.one</string>
@@ -37,7 +39,6 @@
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 
     <!-- Timeout entries -->
-    <string name="timeout_summary_never">Never</string>
     <string name="timeout_summary_15secs">15 seconds</string>
     <string name="timeout_summary_30secs">30 seconds</string>
     <string name="timeout_summary_1min">1 minute</string>
