@@ -16,6 +16,24 @@
       "message": "Unfortunately may get reset on reboot since it\u0027s device config.",
       "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cdc6bcda_13e7ba39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-11-22T00:28:56Z",
+      "side": 1,
+      "message": "Related: https://review.calyxos.org/c/CalyxOS/platform_packages_apps_SimpleDeviceConfig/+/29050",
+      "parentUuid": "fdedc23e_02c617a2",
+      "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
