@@ -131,6 +131,7 @@ public class PrivateSpaceMaintainer {
             setUserSetupComplete();
             setSkipFirstUseHints();
             disableComponentsToHidePrivateSpaceSettings();
+            installAppStore();
         }
         return true;
     }
@@ -379,6 +380,15 @@ public class PrivateSpaceMaintainer {
         Log.d(TAG, "setting SKIP_FIRST_USE_HINTS = 1 for private profile");
         Settings.Secure.putIntForUser(mContext.getContentResolver(), SKIP_FIRST_USE_HINTS,
                 1, mUserHandle.getIdentifier());
+    }
+
+    private void installAppStore() {
+        Context privateSpaceUserContext = mContext.createContextAsUser(mUserHandle, /* flags */ 0);
+        PackageManager packageManager = privateSpaceUserContext.getPackageManager();
+
+        Log.d(TAG, "Installing app store for " + mUserHandle);
+        packageManager.getPackageInstaller().installExistingPackage("org.fdroid.basic",
+                PackageManager.INSTALL_REASON_USER, null);
     }
 
     /**
