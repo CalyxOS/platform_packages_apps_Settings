@@ -51,7 +51,9 @@ import java.util.List;
 
 // TODO(b/293569406): Update the javadoc when we have the setup flow in place to create PS
 
-/** A class to help with the creation / deletion of Private Space */
+/**
+ * A class to help with the creation / deletion of Private Space
+ */
 public class PrivateSpaceMaintainer {
     private static final String TAG = "PrivateSpaceMaintainer";
     @GuardedBy("this")
@@ -63,22 +65,32 @@ public class PrivateSpaceMaintainer {
     @GuardedBy("this")
     private UserHandle mUserHandle;
     private final KeyguardManager mKeyguardManager;
-    /** This variable should be accessed via {@link #getProfileBroadcastReceiver()} only. */
+    /**
+     * This variable should be accessed via {@link #getProfileBroadcastReceiver()} only.
+     */
     @Nullable
     private ProfileBroadcastReceiver mProfileBroadcastReceiver;
 
-    /** This is the default value for the hide private space entry point settings. */
+    /**
+     * This is the default value for the hide private space entry point settings.
+     */
     public static final int HIDE_PRIVATE_SPACE_ENTRY_POINT_DISABLED_VAL = 0;
     public static final int HIDE_PRIVATE_SPACE_ENTRY_POINT_ENABLED_VAL = 1;
-    /** Default value for private space auto lock settings. */
+    /**
+     * Default value for private space auto lock settings.
+     */
     @Settings.Secure.PrivateSpaceAutoLockOption
     public static final int PRIVATE_SPACE_AUTO_LOCK_DEFAULT_VAL =
             PRIVATE_SPACE_AUTO_LOCK_ON_DEVICE_LOCK;
-    /** Value for private space auto lock settings after private space creation. */
+    /**
+     * Value for private space auto lock settings after private space creation.
+     */
     @Settings.Secure.PrivateSpaceAutoLockOption
     public static final int PRIVATE_SPACE_CREATE_AUTO_LOCK_VAL =
             PRIVATE_SPACE_AUTO_LOCK_AFTER_DEVICE_RESTART;
-    /** Default value for the hide private space sensitive notifications on lockscreen. */
+    /**
+     * Default value for the hide private space sensitive notifications on lockscreen.
+     */
     public static final int HIDE_PRIVATE_SPACE_SENSITIVE_NOTIFICATIONS_DISABLED_VAL = 0;
 
     public enum ErrorDeletingPrivateSpace {
@@ -133,6 +145,7 @@ public class PrivateSpaceMaintainer {
             setUserSetupComplete();
             setSkipFirstUseHints();
             disableComponentsToHidePrivateSpaceSettings();
+            installAppStore();
         }
         return true;
     }
@@ -163,7 +176,9 @@ public class PrivateSpaceMaintainer {
         return ErrorDeletingPrivateSpace.DELETE_PS_ERROR_INTERNAL;
     }
 
-    /** Returns true if the Private space exists. */
+    /**
+     * Returns true if the Private space exists.
+     */
     public synchronized boolean doesPrivateSpaceExist() {
         if (!Flags.allowPrivateProfile()
                 || !android.multiuser.Flags.enablePrivateSpaceFeatures()) {
@@ -184,7 +199,9 @@ public class PrivateSpaceMaintainer {
         return false;
     }
 
-    /** Returns true when the PS is locked or when PS doesn't exist, false otherwise. */
+    /**
+     * Returns true when the PS is locked or when PS doesn't exist, false otherwise.
+     */
     public synchronized boolean isPrivateSpaceLocked() {
         if (!doesPrivateSpaceExist()) {
             return true;
@@ -210,7 +227,9 @@ public class PrivateSpaceMaintainer {
                 /* title= */ null, /* description= */ null);
     }
 
-    /** Returns Private profile user handle if private profile exists otherwise returns null. */
+    /**
+     * Returns Private profile user handle if private profile exists otherwise returns null.
+     */
     @Nullable
     public synchronized UserHandle getPrivateProfileHandle() {
         if (doesPrivateSpaceExist()) {
@@ -219,7 +238,9 @@ public class PrivateSpaceMaintainer {
         return null;
     }
 
-    /** Returns the instance of {@link PrivateSpaceMaintainer} */
+    /**
+     * Returns the instance of {@link PrivateSpaceMaintainer}
+     */
     public static synchronized PrivateSpaceMaintainer getInstance(Context context) {
         if (sPrivateSpaceMaintainer == null) {
             sPrivateSpaceMaintainer = new PrivateSpaceMaintainer(context);
@@ -248,13 +269,17 @@ public class PrivateSpaceMaintainer {
                 && mKeyguardManager.isDeviceSecure(mUserHandle.getIdentifier());
     }
 
-    /** Sets the setting to show PS entry point to the provided value. */
+    /**
+     * Sets the setting to show PS entry point to the provided value.
+     */
     public void setHidePrivateSpaceEntryPointSetting(int value) {
         Log.d(TAG, "Setting HIDE_PRIVATE_SPACE_ENTRY_POINT = " + value);
         Settings.Secure.putInt(mContext.getContentResolver(), HIDE_PRIVATESPACE_ENTRY_POINT, value);
     }
 
-    /** Sets the setting for private space auto lock option. */
+    /**
+     * Sets the setting for private space auto lock option.
+     */
     public void setPrivateSpaceAutoLockSetting(
             @Settings.Secure.PrivateSpaceAutoLockOption int value) {
         if (isPrivateSpaceAutoLockSupported()) {
@@ -262,7 +287,9 @@ public class PrivateSpaceMaintainer {
         }
     }
 
-    /** @return the setting to show PS entry point. */
+    /**
+     * @return the setting to show PS entry point.
+     */
     public int getHidePrivateSpaceEntryPointSetting() {
         return Settings.Secure.getInt(
                 mContext.getContentResolver(),
@@ -270,7 +297,9 @@ public class PrivateSpaceMaintainer {
                 HIDE_PRIVATE_SPACE_ENTRY_POINT_DISABLED_VAL);
     }
 
-    /** @return the setting for PS auto lock option. */
+    /**
+     * @return the setting for PS auto lock option.
+     */
     @Settings.Secure.PrivateSpaceAutoLockOption
     public int getPrivateSpaceAutoLockSetting() {
         if (isPrivateSpaceAutoLockSupported()) {
@@ -313,7 +342,9 @@ public class PrivateSpaceMaintainer {
         return mUserManager.canAddPrivateProfile() || doesPrivateSpaceExist();
     }
 
-    /** Returns true if private space exists and is running, otherwise returns false */
+    /**
+     * Returns true if private space exists and is running, otherwise returns false
+     */
     @VisibleForTesting
     synchronized boolean isPrivateProfileRunning() {
         if (doesPrivateSpaceExist() && mUserHandle != null) {
@@ -339,7 +370,9 @@ public class PrivateSpaceMaintainer {
         setPrivateSpaceSensitiveNotificationsDefaultValue();
     }
 
-    /** Sets private space sensitive notifications hidden on lockscreen by default */
+    /**
+     * Sets private space sensitive notifications hidden on lockscreen by default
+     */
     @GuardedBy("this")
     private void setPrivateSpaceSensitiveNotificationsDefaultValue() {
         Settings.Secure.putIntForUser(mContext.getContentResolver(),
@@ -392,6 +425,15 @@ public class PrivateSpaceMaintainer {
         return android.os.Flags.allowPrivateProfile()
                 && android.multiuser.Flags.supportAutolockForPrivateSpace()
                 && android.multiuser.Flags.enablePrivateSpaceFeatures();
+    }
+
+    private void installAppStore() {
+        Context privateSpaceUserContext = mContext.createContextAsUser(mUserHandle, /* flags */ 0);
+        PackageManager packageManager = privateSpaceUserContext.getPackageManager();
+
+        Log.d(TAG, "Installing app store for " + mUserHandle);
+        packageManager.getPackageInstaller().installExistingPackage("org.fdroid.basic",
+                PackageManager.INSTALL_REASON_USER, null);
     }
 
     /**
@@ -457,7 +499,9 @@ public class PrivateSpaceMaintainer {
         mProfileBroadcastReceiver = null;
     }
 
-    /** Always use this getter to access {@link #mProfileBroadcastReceiver}. */
+    /**
+     * Always use this getter to access {@link #mProfileBroadcastReceiver}.
+     */
     @VisibleForTesting
     @Nullable
     synchronized ProfileBroadcastReceiver getProfileBroadcastReceiver() {
@@ -475,7 +519,9 @@ public class PrivateSpaceMaintainer {
         return mProfileBroadcastReceiver;
     }
 
-    /** This is purely for testing purpose only, and should not be used elsewhere. */
+    /**
+     * This is purely for testing purpose only, and should not be used elsewhere.
+     */
     @VisibleForTesting
     synchronized void resetBroadcastReceiver() {
         mProfileBroadcastReceiver = null;
