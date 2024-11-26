@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7cc2c4c4_0ee9f22b",
+        "filename": "res/values/calyx_arrays.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-26T12:24:47Z",
+      "side": 1,
+      "message": "It\u0027s ok to just use `timeout_summary_never` here",
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e2f6b6c6_ab6a0598",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 4
