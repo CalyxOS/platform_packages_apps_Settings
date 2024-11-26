@@ -16,6 +16,24 @@
       "message": "Why?\n\nIt\u0027ll invalidate all existing translations and create more work for translators.",
       "revId": "c5306a7b57431d0faa794ecb8ef3736b556c6e3b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9466d23b_91839c6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-11-26T17:10:51Z",
+      "side": 1,
+      "message": "For code legibility and acknowledging it applies to more scenarios than timeouts and could be used in other places. That said, I suppose the new string could be added while the old string is kept even though it means duplication",
+      "parentUuid": "79c1ca5b_fb505738",
+      "revId": "c5306a7b57431d0faa794ecb8ef3736b556c6e3b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
