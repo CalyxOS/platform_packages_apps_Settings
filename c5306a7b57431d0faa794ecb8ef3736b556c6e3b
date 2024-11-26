@@ -34,6 +34,24 @@
       "parentUuid": "79c1ca5b_fb505738",
       "revId": "c5306a7b57431d0faa794ecb8ef3736b556c6e3b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e09c025b_8e73acf0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-26T19:49:34Z",
+      "side": 1,
+      "message": "I agree with you on that, it is a generic thing.\n\nHowever, only because this has already been translated, and the only change here is the \"name\" of the string but not in behavior, we should keep it as.\n\nThe last time we changed this was 8663: Deduplicate timeout strings | https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/8663 - which in hindsight could\u0027ve used even more generic names.\n\nThe difference is that the above was a de-duplication, reducing translation effort, whereas here either a rename or duplicate would increase it.",
+      "parentUuid": "9466d23b_91839c6f",
+      "revId": "c5306a7b57431d0faa794ecb8ef3736b556c6e3b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
