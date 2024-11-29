@@ -34,6 +34,24 @@
       "parentUuid": "fdedc23e_02c617a2",
       "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ebf8145_29e42905",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-29T20:53:37Z",
+      "side": 1,
+      "message": "If this feature is desired, we can try to figure out another way to implement it.\n\nThat\u0027s still going to be easier than re-working device config entirely for one feature.",
+      "parentUuid": "cdc6bcda_13e7ba39",
+      "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
