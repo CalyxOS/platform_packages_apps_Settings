@@ -70,6 +70,24 @@
       "parentUuid": "02da5faa_fdff7de3",
       "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb635260_0cc65b08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-12-02T22:26:28Z",
+      "side": 1,
+      "message": "Just to clarify, is using lineage parts the technical blockage, or is it something else I\u0027m forgetting? If the former, then the above are reasons why I\u0027m unsure if lineage parts would work given those constraints?",
+      "parentUuid": "213d379b_276404aa",
+      "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
