@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e7836cb_ad565224",
+        "filename": "res/values-ta/calyx_strings.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-03T15:05:24Z",
+      "side": 1,
+      "message": "packages/apps/Settings/res/values-ta/calyx_strings.xml:77: error: multiple substitutions specified in non-positional format; did you mean to add the formatted\u003d\"false\" attribute?.\npackages/apps/Settings/res/values-ta/calyx_strings.xml: error: file failed to compile.",
+      "revId": "cbc094c09c3e90c2c3d8cc355189fd6bcebe26ef",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
