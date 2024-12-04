@@ -88,6 +88,24 @@
       "parentUuid": "213d379b_276404aa",
       "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dcf696b_53c43a39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-04T16:20:32Z",
+      "side": 1,
+      "message": "Yes, that\u0027s the technical blockage.\n\nWhy won\u0027t it work? You can still make it conditional.",
+      "parentUuid": "fb635260_0cc65b08",
+      "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
