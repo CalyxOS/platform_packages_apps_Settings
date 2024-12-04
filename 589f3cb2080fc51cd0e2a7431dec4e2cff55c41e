@@ -70,6 +70,24 @@
       "parentUuid": "3ebf8145_29e42905",
       "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a6da0b5_c0d11187",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-04T16:17:13Z",
+      "side": 1,
+      "message": "Which existing features would it apply to? I don\u0027t see it on the linked issue.",
+      "parentUuid": "c7a7e299_2f1f42f3",
+      "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
