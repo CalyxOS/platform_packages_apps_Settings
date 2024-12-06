@@ -88,6 +88,24 @@
       "parentUuid": "c7a7e299_2f1f42f3",
       "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6b04e17_e25e47f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-12-06T20:09:56Z",
+      "side": 1,
+      "message": "It applies to the feature described in the linked issue in the patch linked above https://gitlab.com/CalyxOS/calyxos/-/issues/2652",
+      "parentUuid": "3a6da0b5_c0d11187",
+      "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
