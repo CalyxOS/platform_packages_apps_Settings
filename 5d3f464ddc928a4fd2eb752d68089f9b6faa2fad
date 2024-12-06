@@ -106,6 +106,24 @@
       "parentUuid": "fb635260_0cc65b08",
       "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9240a92c_f3ad9d52",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-12-06T21:38:19Z",
+      "side": 1,
+      "message": "Since they\u0027re XML only, there\u0027s no logic to customize when to be shown. They\u0027re too generic. Additionally, I don\u0027t think they support restricted preference (UI is disabled based on user restrictions) and the values of the toggle are flipped",
+      "parentUuid": "5dcf696b_53c43a39",
+      "revId": "5d3f464ddc928a4fd2eb752d68089f9b6faa2fad",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
