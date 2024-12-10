@@ -106,6 +106,24 @@
       "parentUuid": "3a6da0b5_c0d11187",
       "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d77b8f5_b07dbb61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-10T22:11:50Z",
+      "side": 1,
+      "message": "I see, but the comments in there stand.",
+      "parentUuid": "e6b04e17_e25e47f9",
+      "revId": "589f3cb2080fc51cd0e2a7431dec4e2cff55c41e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
