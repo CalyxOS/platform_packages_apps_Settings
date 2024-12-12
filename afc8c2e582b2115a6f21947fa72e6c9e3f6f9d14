@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "71062ff4_4aa7d8f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-12T19:09:10Z",
+      "side": 1,
+      "message": "Another thought via some more discussion: \"Add users from lock screen\" requires the user switcher to add a user; it\u0027s useless when the user switcher is hidden.\n\nPerhaps we could move the existing \"Add users...\" setting below this new \"Show user switcher\" setting, then, and disable it when \"Show user switcher\" is off. Could also add some descriptive text to the \"Add users\" setting when it\u0027s off that says, \"User switcher is needed to add users from lock screen\".",
+      "revId": "afc8c2e582b2115a6f21947fa72e6c9e3f6f9d14",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "79c625c6_7e6ec753",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 11
