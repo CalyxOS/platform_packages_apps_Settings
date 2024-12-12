@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "badf74f6_fdbb67e6",
+        "filename": "src/com/android/settings/users/AddUserWhenLockedPreferenceController.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-12T22:44:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aee8979a_26e0b47f",
+      "revId": "9d527c93e41baa0814277e201f4b2b5101a87401",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "67589a1b_504567e8",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-12-12T22:03:12Z",
       "side": 1,
       "message": "Remove debug lines when done",
+      "revId": "9d527c93e41baa0814277e201f4b2b5101a87401",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62a4a3f5_c6639717",
+        "filename": "src/com/android/settings/users/AddUserWhenLockedPreferenceController.java",
+        "patchSetId": 12
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-12T22:44:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "67589a1b_504567e8",
       "revId": "9d527c93e41baa0814277e201f4b2b5101a87401",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
