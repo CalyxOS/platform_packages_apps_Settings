@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3b9ef6dc_3a241d81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-12T22:03:12Z",
+      "side": 1,
+      "message": "This has a broken implementation in patchset 12. It doesn\u0027t actually react to changes in the \"Switch users from lock screen\" toggle for some reason. Leaving and coming back to the page works, but that\u0027s not enough.",
+      "parentUuid": "71062ff4_4aa7d8f1",
+      "revId": "afc8c2e582b2115a6f21947fa72e6c9e3f6f9d14",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "79c625c6_7e6ec753",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 11
@@ -49,6 +67,24 @@
       "side": 1,
       "message": "Actually, since this is a per-user setting - after some discussion, I think \"Allow switching when this user is locked\" would be better for that whole text.",
       "parentUuid": "79c625c6_7e6ec753",
+      "revId": "afc8c2e582b2115a6f21947fa72e6c9e3f6f9d14",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91889300_a08ba030",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-12T22:03:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4899e260_dd652af9",
       "revId": "afc8c2e582b2115a6f21947fa72e6c9e3f6f9d14",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
