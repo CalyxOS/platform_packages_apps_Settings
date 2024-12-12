@@ -16,6 +16,24 @@
       "message": "Minor: Let\u0027s say \"on secure lock screen\" since this doesn\u0027t affect insecure ones like Swipe, which are still technically lock screens.",
       "revId": "afc8c2e582b2115a6f21947fa72e6c9e3f6f9d14",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4899e260_dd652af9",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-12T19:03:39Z",
+      "side": 1,
+      "message": "Actually, since this is a per-user setting - after some discussion, I think \"Allow switching when this user is locked\" would be better for that whole text.",
+      "parentUuid": "79c625c6_7e6ec753",
+      "revId": "afc8c2e582b2115a6f21947fa72e6c9e3f6f9d14",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
