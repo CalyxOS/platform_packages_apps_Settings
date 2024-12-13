@@ -16,6 +16,23 @@
       "message": "Check this screen with at least a handful of different system languages.",
       "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50399e01_872a78a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-13T23:24:45Z",
+      "side": 1,
+      "message": "Do we know how weblate will behave with us modifying the various `calyx_strings.xml`?\n\nThe 14-15 sync / switchover notwithstanding.",
+      "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
