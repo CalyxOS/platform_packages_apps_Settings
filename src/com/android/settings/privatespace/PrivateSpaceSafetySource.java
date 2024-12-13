@@ -58,13 +58,6 @@ public final class PrivateSpaceSafetySource {
             }
         }
 
-        // Check the profile type - we don't want to show this for anything other than primary
-        // user.
-        if (userManager != null && !userManager.isMainUser()) {
-            Log.i(TAG, "setSafetySourceData not main user");
-            return;
-        }
-
         if (!Flags.allowPrivateProfile()
                 || !android.multiuser.Flags.enablePrivateSpaceFeatures()) {
             // Setting null safetySourceData so that an old entry gets cleared out and this way
