@@ -16,6 +16,24 @@
       "message": "Why not implement that?",
       "revId": "9e86be2198bccb0c88e29cc9398851aff9912bb1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bfe8b576_58294d05",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-12-13T19:01:28Z",
+      "side": 1,
+      "message": "No idea how to do it. Haven\u0027t seen a UI element similar to it in AOSP. Seems like it\u0027d be much more code too. We remove one step from the process but achieve the same as stock (e.g. someone typing private space wouldn\u0027t know if there\u0027s an existing hidden private space or if they\u0027re being asked for the PIN to create a private space)",
+      "parentUuid": "52d67938_699441b5",
+      "revId": "9e86be2198bccb0c88e29cc9398851aff9912bb1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
