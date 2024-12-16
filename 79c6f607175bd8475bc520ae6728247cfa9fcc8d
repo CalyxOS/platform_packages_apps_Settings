@@ -33,6 +33,24 @@
       "message": "Do we know how weblate will behave with us modifying the various `calyx_strings.xml`?\n\nThe 14-15 sync / switchover notwithstanding.",
       "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49ebe53a_44f0a859",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-16T15:03:25Z",
+      "side": 1,
+      "message": "What can we do to test that?",
+      "parentUuid": "50399e01_872a78a1",
+      "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
