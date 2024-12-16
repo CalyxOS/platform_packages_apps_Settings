@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "625942c6_f0ccffe6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-16T20:21:29Z",
+      "side": 1,
+      "message": "Note that the step is still demonstrated in the animation, but it\u0027s removed from the written steps. Modifying the animation would obviously be a whole other endeavor.",
+      "revId": "321cebebce1bd3098f03258b557723e0429ec5ec",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
