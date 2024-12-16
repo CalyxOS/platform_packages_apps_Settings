@@ -52,6 +52,24 @@
       "parentUuid": "2fa8170e_7d1c56e7",
       "revId": "1a301dffc53ea416a24a4c816d85633045e90821",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "becd9766_5f1c6bc2",
+        "filename": "src/com/android/settings/users/SwitchUserWhenLockedPreferenceController.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-16T22:59:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "07e2e813_4cb01306",
+      "revId": "1a301dffc53ea416a24a4c816d85633045e90821",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
