@@ -51,6 +51,24 @@
       "parentUuid": "50399e01_872a78a1",
       "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d84ac383_96133f8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-16T20:35:29Z",
+      "side": 1,
+      "message": "Looks okay to me + removes Google references with:\n- English (United States)\n- German (Germany) / Deutsch (Deutschland)\n- 繁體中文（台灣） / Traditional Chinese (Taiwan)\n- Français (Canada) / French (Canada)\n- Português (Brasil) / Portuguese (Brazil)\n- Español (Estados Unidos) / Spanish (United States)",
+      "parentUuid": "d0f68220_fd9a7469",
+      "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
