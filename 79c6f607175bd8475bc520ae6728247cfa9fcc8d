@@ -69,6 +69,24 @@
       "parentUuid": "d0f68220_fd9a7469",
       "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "308617c7_51ca047a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-12-16T20:47:24Z",
+      "side": 1,
+      "message": "It should be able to pick up translation changes, but can\u0027t be 100% sure until this change is merged and weblate is switched to android15. I can handle potential issues once we decide when we want to switch.",
+      "parentUuid": "49ebe53a_44f0a859",
+      "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
