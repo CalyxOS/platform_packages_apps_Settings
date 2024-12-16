@@ -16,6 +16,24 @@
       "message": "There is a problem here.\n\nIf the user switcher isn\u0027t enabled when the preference screen loads (so, for example, the first time visiting the Users page, when the \"Allow user switch\" toggle is off), this preference will remain hidden even, when \"Allow user switch\" is turned on. To make it appear, you have to leave the screen and come back.\n\nMeanwhile, the \"Add users from lock screen\" toggle is visible either way... so maybe we don\u0027t need to check this?",
       "revId": "1a301dffc53ea416a24a4c816d85633045e90821",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fa8170e_7d1c56e7",
+        "filename": "src/com/android/settings/users/SwitchUserWhenLockedPreferenceController.java",
+        "patchSetId": 14
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-16T14:08:01Z",
+      "side": 1,
+      "message": "Compared to the relevant parts of AddUserWhenLockedPreferenceController\u0027s getAvailabilityStatus, we are missing this (with our existing behavior as an `else`):\n```\n        if (android.multiuser.Flags.newMultiuserSettingsUx()) {\n            return AVAILABLE;\n```",
+      "parentUuid": "0dfeb1a4_4dacb847",
+      "revId": "1a301dffc53ea416a24a4c816d85633045e90821",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
