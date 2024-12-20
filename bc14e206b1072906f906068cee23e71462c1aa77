@@ -34,6 +34,24 @@
       "parentUuid": "cde2d715_093e6b4d",
       "revId": "bc14e206b1072906f906068cee23e71462c1aa77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec3f94fb_f1358ccf",
+        "filename": "src/com/android/settings/privatespace/PrivateSpaceMaintainer.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 411,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-12-20T17:40:31Z",
+      "side": 1,
+      "message": "To expand on the above, we\u0027ve run into this in a variety of locations and it\u0027s verbose to do verification in every one of them. That\u0027s what would motivate a centralized location that would handle all existing and new usecases",
+      "parentUuid": "829f9cf0_7b6ceb4b",
+      "revId": "bc14e206b1072906f906068cee23e71462c1aa77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
