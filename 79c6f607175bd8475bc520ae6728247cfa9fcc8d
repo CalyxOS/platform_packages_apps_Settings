@@ -105,6 +105,24 @@
       "parentUuid": "308617c7_51ca047a",
       "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b01e071_f1af3b53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-12-24T15:32:05Z",
+      "side": 1,
+      "message": "Yes let\u0027s do it given we don\u0027t have weblate switched atm.",
+      "parentUuid": "7631572f_42d5c25a",
+      "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
