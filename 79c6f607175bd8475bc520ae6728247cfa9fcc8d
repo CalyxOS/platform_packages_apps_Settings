@@ -87,6 +87,24 @@
       "parentUuid": "49ebe53a_44f0a859",
       "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7631572f_42d5c25a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-24T15:21:56Z",
+      "side": 1,
+      "message": "@chirayu@calyxinstitute.org Any chance we can include this to benefit users who don\u0027t speak English, and if something goes wrong we revert / go from there?",
+      "parentUuid": "308617c7_51ca047a",
+      "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
