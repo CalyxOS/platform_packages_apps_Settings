@@ -123,6 +123,24 @@
       "parentUuid": "7631572f_42d5c25a",
       "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cdc3c558_ad628b64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-12-24T15:51:18Z",
+      "side": 1,
+      "message": "Okay thanks, I added hashtag:next-feature-build.",
+      "parentUuid": "0b01e071_f1af3b53",
+      "revId": "79c6f607175bd8475bc520ae6728247cfa9fcc8d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
