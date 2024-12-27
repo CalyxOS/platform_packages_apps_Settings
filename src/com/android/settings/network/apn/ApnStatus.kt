@@ -175,7 +175,7 @@ fun validateApnData(apnData: ApnData, context: Context): String? {
         apnData.name.isEmpty() -> context.resources.getString(R.string.error_name_empty)
         apnData.apn.isEmpty() -> context.resources.getString(R.string.error_apn_empty)
         apnData.apnType.isEmpty() -> context.resources.getString(R.string.error_apn_type_empty)
-        else -> validateMMSC(true, apnData.mmsc, context) ?: isItemExist(apnData, context)
+        else -> validateMMSC(true, apnData.mmsc, context)
     }
     return errorMsg?.also { Log.d(TAG, "APN data not valid, reason: $it") }
 }
@@ -204,12 +204,8 @@ fun getCarrierCustomizedConfig(
         CarrierConfigManager.KEY_ALLOW_ADDING_APNS_BOOL
     )
     val customizedConfig = CustomizedConfig(
-        readOnlyApnTypes = b.getStringArray(
-            CarrierConfigManager.KEY_READ_ONLY_APN_TYPES_STRING_ARRAY
-        )?.toList() ?: emptyList(),
-        readOnlyApnFields = b.getStringArray(
-            CarrierConfigManager.KEY_READ_ONLY_APN_FIELDS_STRING_ARRAY
-        )?.toList() ?: emptyList(),
+        readOnlyApnTypes = emptyList(),
+        readOnlyApnFields = emptyList(),
         defaultApnTypes = b.getStringArray(
             CarrierConfigManager.KEY_APN_SETTINGS_DEFAULT_APN_TYPES_STRING_ARRAY
         )?.toList(),
@@ -219,7 +215,7 @@ fun getCarrierCustomizedConfig(
         defaultApnRoamingProtocol = b.getString(
             CarrierConfigManager.Apn.KEY_SETTINGS_DEFAULT_ROAMING_PROTOCOL_STRING
         ) ?: "",
-        isAddApnAllowed = b.getBoolean(CarrierConfigManager.KEY_ALLOW_ADDING_APNS_BOOL),
+        isAddApnAllowed = true,
     )
     if (customizedConfig.readOnlyApnTypes.isNotEmpty()) {
         log("read only APN type: " + customizedConfig.readOnlyApnTypes)
@@ -243,8 +239,7 @@ private fun ApnData.isReadOnly(): Boolean {
     Log.d(TAG, "isReadOnly: edited $edited")
     if (edited == Telephony.Carriers.USER_EDITED) return false
     // if it's not a USER_EDITED apn, check if it's read-only
-    return userEditable == 0 ||
-        ApnTypes.isApnTypeReadOnly(apnType, customizedConfig.readOnlyApnTypes)
+    return false
 }
 
 fun disableInit(apnDataInit: ApnData): ApnData {
