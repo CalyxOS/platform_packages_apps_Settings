@@ -31,7 +31,7 @@ fun ApnEditCarrierEnabled(apnData: ApnData, onCarrierEnabledChanged: (Boolean) -
             override val title = stringResource(R.string.carrier_enabled)
             val allowEdit = booleanResource(R.bool.config_allow_edit_carrier_enabled)
             override val changeable = {
-                allowEdit && apnData.isFieldEnabled(Telephony.Carriers.CARRIER_ENABLED)
+                allowEdit
             }
             override val checked = { apnData.carrierEnabled }
             override val onCheckedChange = onCarrierEnabledChanged

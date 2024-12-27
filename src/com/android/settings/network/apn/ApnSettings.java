@@ -133,16 +133,7 @@ public class ApnSettings extends RestrictedSettingsFragment
                 getSystemService(Context.CARRIER_CONFIG_SERVICE);
         final PersistableBundle b = configManager.getConfigForSubId(mSubId);
         mHideImsApn = b.getBoolean(CarrierConfigManager.KEY_HIDE_IMS_APN_BOOL);
-        mAllowAddingApns = b.getBoolean(CarrierConfigManager.KEY_ALLOW_ADDING_APNS_BOOL);
-        if (mAllowAddingApns) {
-            final String[] readOnlyApnTypes = b.getStringArray(
-                    CarrierConfigManager.KEY_READ_ONLY_APN_TYPES_STRING_ARRAY);
-            // if no apn type can be edited, do not allow adding APNs
-            if (ApnEditor.hasAllApns(readOnlyApnTypes)) {
-                Log.d(TAG, "not allowing adding APN because all APN types are read only");
-                mAllowAddingApns = false;
-            }
-        }
+        mAllowAddingApns = true;
         mHidePresetApnDetails = b.getBoolean(CarrierConfigManager.KEY_HIDE_PRESET_APN_DETAILS_BOOL);
         mUserManager = UserManager.get(activity);
     }
