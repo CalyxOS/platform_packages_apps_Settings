@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc7f773e_e012ed82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-12-27T19:18:12Z",
+      "side": 1,
+      "message": "I think this should be fixed in carriersettings for each device instead",
+      "revId": "e586c232c7ed7f55f6692f135e036dbe3608b227",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
