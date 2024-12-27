@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "56bbe548_9232c661",
+        "filename": "src/com/android/settings/network/apn/ApnStatus.kt",
+        "patchSetId": 3
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-12-27T19:29:16Z",
+      "side": 0,
+      "message": "We might still need this change",
+      "range": {
+        "startLine": 178,
+        "startChar": 61,
+        "endLine": 178,
+        "endChar": 90
+      },
+      "revId": "f1f8f783536b96444d422d877905e19fd19fccec",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
