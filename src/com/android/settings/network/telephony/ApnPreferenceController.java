@@ -66,9 +66,7 @@ public class ApnPreferenceController extends TelephonyBasePreferenceController i
         final boolean isGsmApn = MobileNetworkUtils.isGsmOptions(mContext, subId)
                 && carrierConfig != null
                 && carrierConfig.getBoolean(CarrierConfigManager.KEY_APN_EXPAND_BOOL);
-        final boolean hideCarrierNetwork = carrierConfig == null
-                || carrierConfig.getBoolean(
-                CarrierConfigManager.KEY_HIDE_CARRIER_NETWORK_SETTINGS_BOOL);
+        final boolean hideCarrierNetwork = carrierConfig == null;
 
         return !hideCarrierNetwork && (isCdmaApn || isGsmApn)
                 ? AVAILABLE
