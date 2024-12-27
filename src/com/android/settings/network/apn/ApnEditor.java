@@ -341,19 +341,6 @@ public class ApnEditor extends SettingsPreferenceFragment
                 Telephony.Carriers.USER_EDITED) == Telephony.Carriers.USER_EDITED;
 
         Log.d(TAG, "onCreate: EDITED " + isUserEdited);
-        // if it's not a USER_EDITED apn, check if it's read-only
-        if (!isUserEdited && (mApnData.getInteger(USER_EDITABLE_INDEX, 1) == 0
-                || apnTypesMatch(mReadOnlyApnTypes, mApnData.getString(TYPE_INDEX)))) {
-            Log.d(TAG, "onCreate: apnTypesMatch; read-only APN");
-            mReadOnlyApn = true;
-            disableAllFields();
-        } else if (!ArrayUtils.isEmpty(mReadOnlyApnFields)) {
-            disableFields(mReadOnlyApnFields);
-        }
-        // Make sure that a user cannot break carrier id APN matching
-        if (mIsCarrierIdApn) {
-            disableFieldsForCarrieridApn();
-        }
 
         for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
             getPreferenceScreen().getPreference(i).setOnPreferenceChangeListener(this);
@@ -1355,15 +1342,6 @@ public class ApnEditor extends SettingsPreferenceFragment
         if (configManager != null) {
             final PersistableBundle b = configManager.getConfigForSubId(mSubId);
             if (b != null) {
-                mReadOnlyApnTypes = b.getStringArray(
-                        CarrierConfigManager.KEY_READ_ONLY_APN_TYPES_STRING_ARRAY);
-                if (!ArrayUtils.isEmpty(mReadOnlyApnTypes)) {
-                    Log.d(TAG,
-                            "onCreate: read only APN type: " + Arrays.toString(mReadOnlyApnTypes));
-                }
-                mReadOnlyApnFields = b.getStringArray(
-                        CarrierConfigManager.KEY_READ_ONLY_APN_FIELDS_STRING_ARRAY);
-
                 mDefaultApnTypes = b.getStringArray(
                         CarrierConfigManager.KEY_APN_SETTINGS_DEFAULT_APN_TYPES_STRING_ARRAY);
 
@@ -1382,11 +1360,6 @@ public class ApnEditor extends SettingsPreferenceFragment
                 if (!TextUtils.isEmpty(mDefaultApnRoamingProtocol)) {
                     Log.d(TAG, "onCreate: default apn roaming protocol: "
                             + mDefaultApnRoamingProtocol);
-                }
-
-                mIsAddApnAllowed = b.getBoolean(CarrierConfigManager.KEY_ALLOW_ADDING_APNS_BOOL);
-                if (!mIsAddApnAllowed) {
-                    Log.d(TAG, "onCreate: not allow to add new APN");
                 }
             }
         }
