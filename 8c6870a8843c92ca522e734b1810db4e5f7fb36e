@@ -16,6 +16,24 @@
       "message": "Not yet, but should be fine eventually, right?",
       "revId": "8c6870a8843c92ca522e734b1810db4e5f7fb36e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a677421_102db25b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-01-02T19:52:46Z",
+      "side": 1,
+      "message": "This is separate. The package has to be present in the private space by default to support the private space\u0027s install button. The play store is one of the packages that is always installed in any new user. We don\u0027t have the same mechanism for our stores",
+      "parentUuid": "39e6bd21_b10e69f9",
+      "revId": "8c6870a8843c92ca522e734b1810db4e5f7fb36e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
