@@ -176,6 +176,24 @@
       "message": "Needs to be adapted for https://review.calyxos.org/c/CalyxOS/platform_external_google_talkback/+/33737/2",
       "revId": "d03682713bb4c1c43324d42cea6a16aa5f7bbaf3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d84d3d4_13dccb45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-03T20:27:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6b5564ee_37afadec",
+      "revId": "d03682713bb4c1c43324d42cea6a16aa5f7bbaf3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
