@@ -389,6 +389,8 @@ public class PrivateSpaceMaintainer {
         Log.d(TAG, "Installing app store for " + mUserHandle);
         packageManager.getPackageInstaller().installExistingPackage("org.fdroid.basic",
                 PackageManager.INSTALL_REASON_USER, null);
+        packageManager.getPackageInstaller().installExistingPackage("org.fdroid.fdroid",
+                PackageManager.INSTALL_REASON_USER, null);
     }
 
     /**
