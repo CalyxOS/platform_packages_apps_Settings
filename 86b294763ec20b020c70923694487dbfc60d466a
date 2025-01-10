@@ -16,6 +16,24 @@
       "message": "We could make this conditional, but:\n\n1. I didn\u0027t know of a quick way to do that, especially given this method _might_ be async.\n2. It\u0027s unlikely that many users have both F-Droid Basic and F-Droid installed. As such, only one of these would work, which should be fine.\n\nThoughts?",
       "revId": "86b294763ec20b020c70923694487dbfc60d466a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8803eacc_afc94a9c",
+        "filename": "src/com/android/settings/privatespace/PrivateSpaceMaintainer.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-01-10T19:06:42Z",
+      "side": 1,
+      "message": "I think it\u0027s fine too. Think they can be uninstalled anyway",
+      "parentUuid": "7d64e9fd_a98f9034",
+      "revId": "86b294763ec20b020c70923694487dbfc60d466a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
