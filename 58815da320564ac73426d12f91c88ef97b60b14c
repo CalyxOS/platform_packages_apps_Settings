@@ -37,6 +37,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fcd0ab75_3880eff1",
+        "filename": "res/values/calyx_arrays.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-14T20:45:01Z",
+      "side": 1,
+      "message": "```suggestion\n        \u003citem\u003e@string/maximum_failed_passwords_for_wipe_5_attempts\u003c/item\u003e\n        \u003citem\u003e@string/maximum_failed_passwords_for_wipe_10_attempts\u003c/item\u003e\n```\n\nNot ideal :(",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 161,
+        "endChar": 23
+      },
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e2f6b6c6_ab6a0598",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 4
@@ -72,6 +95,30 @@
       "side": 1,
       "message": "Ah, good point :/\n\nWe could reword the string as a workaround.",
       "parentUuid": "e2f6b6c6_ab6a0598",
+      "range": {
+        "startLine": 170,
+        "startChar": 82,
+        "endLine": 170,
+        "endChar": 139
+      },
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28237f37_be6007b9",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-14T20:45:01Z",
+      "side": 1,
+      "message": "```suggestion\n    \u003cstring name\u003d\"maximum_failed_passwords_for_wipe_summary\"\u003eErase all data: \u003cxliff:g id\u003d\"failed_passwords_description\"\u003e%1$s\u003c/xliff:g\u003e\u003c/string\u003e\n    \u003cstring name\u003d\"maximum_failed_passwords_for_wipe_5_attempts\"\u003eafter 5 failed unlock attempts\u003c/string\u003e\n    \u003cstring name\u003d\"maximum_failed_passwords_for_wipe_10_attempts\"\u003eafter 10 failed unlock attempts\u003c/string\u003e\n```\n\nNot ideal, but best I can think of atm.\n\n@mikeioannina@gmail.com thoughts?",
+      "parentUuid": "54cf9141_b70f3a3d",
       "range": {
         "startLine": 170,
         "startChar": 82,
