@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ec5874a0_8614d040",
+        "filename": "res/values/calyx_arrays.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-14T20:38:58Z",
+      "side": 1,
+      "message": "Remove 3 per UX feedback",
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e2f6b6c6_ab6a0598",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 4
@@ -31,6 +48,30 @@
       "writtenOn": "2024-11-20T22:11:21Z",
       "side": 1,
       "message": "When the setting is off, the value never is shown which doesn\u0027t work with this sentence. That said, there is little customization we can do here if using LineageOS preferences as far as I know. Other than that, patch works as intended (shows list selection, sets the value)",
+      "range": {
+        "startLine": 170,
+        "startChar": 82,
+        "endLine": 170,
+        "endChar": 139
+      },
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54cf9141_b70f3a3d",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-14T20:38:58Z",
+      "side": 1,
+      "message": "Ah, good point :/\n\nWe could reword the string as a workaround.",
+      "parentUuid": "e2f6b6c6_ab6a0598",
       "range": {
         "startLine": 170,
         "startChar": 82,
