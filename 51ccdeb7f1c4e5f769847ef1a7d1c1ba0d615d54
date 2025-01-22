@@ -16,6 +16,24 @@
       "message": "Was this removed code totally extraneous? The comment says \"Check the profile type\". The `isMainUser()` check does this indirectly, because the main user profile type is always a full user rather than a child profile or restricted profile. Could it still be important to confirm this is happening in a full user? For example, could a restricted user gain unexpected privileges (within a private space) by creating a private space?",
       "revId": "51ccdeb7f1c4e5f769847ef1a7d1c1ba0d615d54",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2298a87a_5aa7f84f",
+        "filename": "src/com/android/settings/privatespace/PrivateSpaceSafetySource.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-01-22T22:08:04Z",
+      "side": 0,
+      "message": "Do you mind confirming this? It was not showing the option on secondary users till I removed it but you may be right that if this exposes for user types where we don\u0027t want it to appear then we may have to modify the checks rather than remove outright",
+      "parentUuid": "938c6190_854a8234",
+      "revId": "51ccdeb7f1c4e5f769847ef1a7d1c1ba0d615d54",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
