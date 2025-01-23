@@ -127,6 +127,30 @@
       },
       "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1f76b6f_36fa0e05",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-01-23T21:14:33Z",
+      "side": 1,
+      "message": "I don\u0027t think LineagePreference that\u0027s being used can handle multiple entires?",
+      "parentUuid": "28237f37_be6007b9",
+      "range": {
+        "startLine": 170,
+        "startChar": 82,
+        "endLine": 170,
+        "endChar": 139
+      },
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
