@@ -196,6 +196,6 @@ public class SettingsDumpService extends Service {
     }
 
     private void dumpMobileNetworkSettings(IndentingPrintWriter writer) {
-        MobileNetworkRepository.getInstance(this).dump(writer);
+        // Do nothing.
     }
 }
