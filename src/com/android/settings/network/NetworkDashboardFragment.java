@@ -18,6 +18,7 @@ package com.android.settings.network;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 
 import androidx.annotation.Nullable;
 
@@ -89,11 +90,13 @@ public class NetworkDashboardFragment extends DashboardFragment implements
         controllers.add(vpnPreferenceController);
         controllers.add(privateDnsPreferenceController);
 
-        // Start SettingsDumpService after the MobileNetworkRepository is created.
-        Intent intent = new Intent(context, SettingsDumpService.class);
-        intent.putExtra(SettingsDumpService.EXTRA_KEY_SHOW_NETWORK_DUMP, true);
-        context.startService(intent);
-        return controllers;
+        if (Build.IS_ENG) { 
+            // Start SettingsDumpService after the MobileNetworkRepository is created.
+            Intent intent = new Intent(context, SettingsDumpService.class);
+            intent.putExtra(SettingsDumpService.EXTRA_KEY_SHOW_NETWORK_DUMP, true);
+            context.startService(intent);
+            return controllers;
+        }
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {

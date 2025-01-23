@@ -25,6 +25,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.NetworkTemplate;
 import android.net.Uri;
+import android.os.Build;
 import android.os.IBinder;
 import android.os.storage.StorageManager;
 import android.os.storage.VolumeInfo;
@@ -196,6 +197,8 @@ public class SettingsDumpService extends Service {
     }
 
     private void dumpMobileNetworkSettings(IndentingPrintWriter writer) {
-        MobileNetworkRepository.getInstance(this).dump(writer);
+        if (Build.IS_ENG) { 
+            MobileNetworkRepository.getInstance(this).dump(writer);
+        }
     }
 }
