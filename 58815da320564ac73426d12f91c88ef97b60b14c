@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7cae172_a872acc8",
+        "filename": "res/values/calyx_arrays.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-01-24T19:10:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec5874a0_8614d040",
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fcd0ab75_3880eff1",
