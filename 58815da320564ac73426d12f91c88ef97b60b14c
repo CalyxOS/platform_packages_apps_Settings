@@ -151,6 +151,30 @@
       },
       "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa915e35_212dd9d8",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-01-24T18:45:38Z",
+      "side": 1,
+      "message": "If we\u0027re going to require java to dynamically set these values, we lose the point of using LineagePreference",
+      "parentUuid": "c1f76b6f_36fa0e05",
+      "range": {
+        "startLine": 170,
+        "startChar": 82,
+        "endLine": 170,
+        "endChar": 139
+      },
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
