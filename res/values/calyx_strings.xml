@@ -85,6 +85,8 @@
     <string name="device_reboot_timeout_title">Auto reboot</string>
     <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
+<<<<<<< PATCH SET (fbf83a Revert "Settings: Add support for global cleartext penalties)
+=======
 
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
@@ -180,4 +182,5 @@
 
     <!-- Summary of disabled preference - when user switcher is off - for allow adding users from lock screen [CHAR LIMIT=NONE] -->
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">User switcher is needed to add users from lock screen</string>
+>>>>>>> BASE      (577041 Automatic translation import)
 </resources>
