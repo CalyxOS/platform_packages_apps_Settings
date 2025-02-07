@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "467fc108_ed20fcc6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-07T16:48:36Z",
+      "side": 1,
+      "message": "Resolved according to the 15 security patch which is closer to this codebase.",
+      "revId": "8729dd0956e2e5d153e85061ea0f241e198c5cb4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
