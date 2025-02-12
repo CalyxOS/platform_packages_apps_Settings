@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e32adfac_02cfece8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-12T18:44:10Z",
+      "side": 1,
+      "message": "Trimmed just to avoid AOSP conflicts.\n\nhttps://x.com/BootingPixel/status/1889725807926419577",
+      "revId": "75cfd058ee9ea2691b9934f7147a2e0b575af987",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
