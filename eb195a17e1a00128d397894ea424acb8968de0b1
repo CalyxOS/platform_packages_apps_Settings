@@ -16,6 +16,23 @@
       "message": "Bump",
       "revId": "eb195a17e1a00128d397894ea424acb8968de0b1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9e77bda_5dbccb31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-02-12T20:19:34Z",
+      "side": 1,
+      "message": "This fix helps, but there is another problem: https://gitlab.com/CalyxOS/calyxos/-/issues/2547#note_2345044341\n\nHowever, I would prefer we merge this, as it is an improvement, and then fix the other problem after.",
+      "revId": "eb195a17e1a00128d397894ea424acb8968de0b1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
