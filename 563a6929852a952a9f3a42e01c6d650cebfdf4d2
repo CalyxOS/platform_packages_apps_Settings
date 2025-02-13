@@ -16,6 +16,24 @@
       "message": "First shot at updating strings",
       "revId": "563a6929852a952a9f3a42e01c6d650cebfdf4d2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4cc87dfb_2eec183f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-13T17:49:16Z",
+      "side": 1,
+      "message": "Second update per UX",
+      "parentUuid": "bbaccdac_a1658574",
+      "revId": "563a6929852a952a9f3a42e01c6d650cebfdf4d2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
