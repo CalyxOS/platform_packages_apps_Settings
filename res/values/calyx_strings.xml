@@ -89,6 +89,11 @@
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
     <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, apps that use cleartext traffic may not work</string>
+    <string name="update_info_channel_title">Update information</string>
+    <string name="update_info_channel_desc">Notifications with important details about upcoming updates</string>
+    <string name="update_info_title">CalyxOS Update information</string>
+    <string name="update_info_desc">Global cleartext restriction removal</string>
+    <string name="update_info_desc_long">March Feature update - CalyxOS 6.5 will be available in the second week of March. However, global cleartext restriction will no longer be available. Tap for more information.</string>
 
     <!-- Summary for Network and Internet settings, explaining it contains mobile, wifi setting and data usage settings [CHAR LIMIT=NONE]-->
     <string name="network_dashboard_summary_mobile_calyx">Mobile, Wi\u2011Fi, hotspot, VPN, Private DNS</string>
