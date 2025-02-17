@@ -32,10 +32,7 @@
     <string name="bluetooth_timeout_summary2">Να μην απενεργοποιείται αυτόματα το Bluetooth</string>
     <string name="bluetooth_timeout_summary">Το Bluetooth θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχουν συνδεδεμένες συσκευές</string>
     <string name="bluetooth_timeout">Χρονικό όριο Bluetooth</string>
-    <string name="detailed_security_patch">Πλατφόρμα: <xliff:g id="platform_level">%1$s</xliff:g>
-\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
-\nΚατασκευαστής: <xliff:g id="kernel_level">%3$s</xliff:g>
-\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="detailed_security_patch">Πλατφόρμα: <xliff:g id="platform_level">%1$s</xliff:g> \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g> \nΚατασκευαστής: <xliff:g id="kernel_level">%3$s</xliff:g> \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="aosp_module_version">Ενημέρωση μονάδων Mainline</string>
     <string name="timeout_summary_36hours">36 ώρες</string>
     <string name="timeout_summary_48hours">48 ώρες</string>
