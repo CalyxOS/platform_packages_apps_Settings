@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a89e6429_eda7dcef",
+        "filename": "res/values/calyx_arrays.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-02-19T20:37:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7cc2c4c4_0ee9f22b",
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ec5874a0_8614d040",
@@ -66,6 +84,30 @@
       "writtenOn": "2025-01-14T20:45:01Z",
       "side": 1,
       "message": "```suggestion\n        \u003citem\u003e@string/maximum_failed_passwords_for_wipe_5_attempts\u003c/item\u003e\n        \u003citem\u003e@string/maximum_failed_passwords_for_wipe_10_attempts\u003c/item\u003e\n```\n\nNot ideal :(",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 161,
+        "endChar": 23
+      },
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bc9c39c_4a828d7b",
+        "filename": "res/values/calyx_arrays.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-02-19T20:37:39Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "fcd0ab75_3880eff1",
       "range": {
         "startLine": 160,
         "startChar": 0,
@@ -185,6 +227,30 @@
       "side": 1,
       "message": "If we\u0027re going to require java to dynamically set these values, we lose the point of using LineagePreference",
       "parentUuid": "c1f76b6f_36fa0e05",
+      "range": {
+        "startLine": 170,
+        "startChar": 82,
+        "endLine": 170,
+        "endChar": 139
+      },
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aabefeb7_bd4b3eb4",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-02-19T20:37:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa915e35_212dd9d8",
       "range": {
         "startLine": 170,
         "startChar": 82,
