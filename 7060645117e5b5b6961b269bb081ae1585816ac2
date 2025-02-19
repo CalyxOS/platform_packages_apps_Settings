@@ -68,6 +68,78 @@
       },
       "revId": "7060645117e5b5b6961b269bb081ae1585816ac2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5deb7a2e_c49e1266",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-19T14:21:56Z",
+      "side": 1,
+      "message": "Good point, maybe third week would be better. Or latter half, even.",
+      "parentUuid": "eecb4ab7_779c37fa",
+      "range": {
+        "startLine": 96,
+        "startChar": 78,
+        "endLine": 96,
+        "endChar": 98
+      },
+      "revId": "7060645117e5b5b6961b269bb081ae1585816ac2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d95048b7_b835dd09",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-19T14:21:56Z",
+      "side": 1,
+      "message": "Yes because we can\u0027t predict if it\u0027ll be .1 or .2 or .3",
+      "parentUuid": "fff5ed7c_b7647207",
+      "range": {
+        "startLine": 96,
+        "startChar": 49,
+        "endLine": 96,
+        "endChar": 52
+      },
+      "revId": "7060645117e5b5b6961b269bb081ae1585816ac2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44cbcd78_0a654002",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-19T14:21:56Z",
+      "side": 1,
+      "message": "Feature.",
+      "parentUuid": "7bcecc78_3bd03bcd",
+      "range": {
+        "startLine": 96,
+        "startChar": 108,
+        "endLine": 96,
+        "endChar": 122
+      },
+      "revId": "7060645117e5b5b6961b269bb081ae1585816ac2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
