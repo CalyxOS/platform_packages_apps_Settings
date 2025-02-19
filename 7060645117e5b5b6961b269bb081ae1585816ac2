@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eecb4ab7_779c37fa",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-19T02:24:39Z",
+      "side": 1,
+      "message": "and is this the right date?",
+      "range": {
+        "startLine": 96,
+        "startChar": 78,
+        "endLine": 96,
+        "endChar": 98
+      },
+      "revId": "7060645117e5b5b6961b269bb081ae1585816ac2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fff5ed7c_b7647207",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-19T02:24:39Z",
+      "side": 1,
+      "message": "Is this the right version?",
+      "range": {
+        "startLine": 96,
+        "startChar": 49,
+        "endLine": 96,
+        "endChar": 52
+      },
+      "revId": "7060645117e5b5b6961b269bb081ae1585816ac2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7bcecc78_3bd03bcd",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-02-19T02:24:39Z",
+      "side": 1,
+      "message": "Are we doing it in the March feature update, or the security/QPR update?",
+      "range": {
+        "startLine": 96,
+        "startChar": 108,
+        "endLine": 96,
+        "endChar": 122
+      },
+      "revId": "7060645117e5b5b6961b269bb081ae1585816ac2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
