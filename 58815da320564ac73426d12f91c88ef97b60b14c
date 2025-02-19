@@ -259,6 +259,30 @@
       },
       "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7a4c321_c99da804",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-19T20:59:28Z",
+      "side": 1,
+      "message": "It did work out after all :)",
+      "parentUuid": "aabefeb7_bd4b3eb4",
+      "range": {
+        "startLine": 170,
+        "startChar": 82,
+        "endLine": 170,
+        "endChar": 139
+      },
+      "revId": "58815da320564ac73426d12f91c88ef97b60b14c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
