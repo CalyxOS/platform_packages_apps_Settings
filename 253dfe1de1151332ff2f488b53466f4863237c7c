@@ -33,6 +33,23 @@
       "message": "Looks like this addresses [this problem](https://gitlab.com/CalyxOS/calyxos/-/issues/2547#note_2345044341). I will test a little more thoroughly later, since I am eager to put this issue to bed for the long term.",
       "revId": "253dfe1de1151332ff2f488b53466f4863237c7c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87e12654_2838ac83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-02-20T21:51:39Z",
+      "side": 1,
+      "message": "I want to solve the mystery, not just solve the problem: why were some apps affected and others not? Should look at the UID policies to figure that out.",
+      "revId": "253dfe1de1151332ff2f488b53466f4863237c7c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
