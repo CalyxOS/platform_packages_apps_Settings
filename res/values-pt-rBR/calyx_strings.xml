@@ -80,11 +80,18 @@
     <string name="security_dashboard_summary_calyx">Bloqueio de tela, configurações de pânico, restrições USB, segurança de apps</string>
     <string name="keychords_summary">Capture um relatório de bugs segurando os botões de volume, e Power ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
     <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente ás <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
-    <string name="work_hours_end_off_summary">Mostrar uma notificação diária para desativar o perfil de trabalho</string>
+    <string name="work_hours_end_off_summary">Automaticamente desativar o perfil de trabalho ou receber uma notificação para isso</string>
     <string name="work_hours_end_notification_description">Toque para desligar apps de trabalho</string>
     <string name="work_hours_title">Horas de trabalho</string>
     <string name="work_hours_end_notification_title">Fim do dia de trabalho</string>
     <string name="strict_location_redaction_title">Omitir dados de localização ao compartilhar mídia</string>
     <string name="strict_location_redaction_description">Somente galerias e gerenciadores de arquivos devem poder ler metadados das suas fotos e mídia. (Apps de terceiros devem ter o acesso à todos os arquivos, ou permissões de mídia.)</string>
     <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie espaços privados em um espaço separado.</string>
+    <string name="private_space_separate_vpn_text"><b>Apps não usam a sua VPN existente</b>\nPara que seus apps privados usem uma VPN, você precisará configurar uma no seu espaço também. Você também pode ativar a VPN Global</string>
+    <string name="work_hours_end_on_summary2">Desligar o perfil de trabalho diariamente ás <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="turn_off">Desligar</string>
+    <string name="notify">Notificar</string>
+    <string name="user_switch_on_lockscreen">Alternar usuários pela tela de bloqueio</string>
+    <string name="user_switch_on_lockscreen_summary">Permitir alternar mesmo quando o usuário está bloqueado</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">O alternador de usuários é necessário para adicionar usuários da tela de bloqueio</string>
 </resources>
