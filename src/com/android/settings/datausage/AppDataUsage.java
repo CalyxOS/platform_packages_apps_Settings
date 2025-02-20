@@ -229,11 +229,11 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
         if (preference == mRestrictBackground) {
             mDataSaverBackend.setIsDenylisted(mAppItem.key, mPackageName, !(Boolean) newValue);
             updatePrefs();
-            return true;
         } else if (preference == mUnrestrictedData) {
             mDataSaverBackend.setIsAllowlisted(mAppItem.key, mPackageName, (Boolean) newValue);
-            return true;
+            updatePrefs();
         }
+        // updatePrefs() will alter toggle states based on the actual underlying value.
         return false;
     }
 
@@ -300,6 +300,8 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     }
 
     private void updatePrefs(boolean restrictBackground, boolean unrestrictData) {
+        Log.d(TAG, "updatePrefs: " + restrictBackground + ", " + unrestrictData,
+                new Exception("FakeExceptionForStackTrace"));
         setBackPreferenceListAnimatorIfLoaded();
         final EnforcedAdmin admin = RestrictedLockUtilsInternal
                 .checkIfMeteredDataUsageUserControlDisabled(mContext, mPackageName,
@@ -380,6 +382,8 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
 
     @Override
     public void onAllowlistStatusChanged(int uid, boolean isAllowlisted) {
+        Log.d(TAG, "onAllowlistStatusChanged: " + uid + ", " + isAllowlisted,
+                new Exception("FakeExceptionForStackTrace"));
         if (mAppItem.uids.get(uid, false)) {
             updatePrefs(getAppRestrictBackground(), isAllowlisted);
         }
@@ -387,6 +391,8 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
 
     @Override
     public void onDenylistStatusChanged(int uid, boolean isDenylisted) {
+        Log.d(TAG, "onDenylistStatusChanged: " + uid + ", " + isDenylisted,
+                new Exception("FakeExceptionForStackTrace"));
         if (mAppItem.uids.get(uid, false)) {
             updatePrefs(isDenylisted, getUnrestrictData());
         }
