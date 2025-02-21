@@ -80,11 +80,18 @@
     <string name="data_usage_app_datura_firewall_summary">Οι ρυθμίσεις του τείχους προστασίας έχουν μετακινηθεί στη νέα εφαρμογή Τείχος προστασίας. Πατήστε για άνοιγμα.</string>
     <string name="hidden">Κρυφή</string>
     <string name="work_hours_end_on_summary">Εμφάνιση ειδοποίησης για απενεργοποίηση του προφίλ εργασίας στις <xliff:g id="end_time">%1$s</xliff:g> καθημερινά</string>
-    <string name="work_hours_end_off_summary">Εμφάνιση καθημερινής ειδοποίησης για απενεργοποίηση του προφίλ εργασίας</string>
+    <string name="work_hours_end_off_summary">Απενεργοποιήστε αυτόματα το προφίλ εργασίας ή λάβετε μια ειδοποίηση για να το κάνετε</string>
     <string name="work_hours_end_notification_title">Τέλος της εργάσιμης ημέρας</string>
     <string name="work_hours_end_notification_description">Πατήστε για να απενεργοποιήσετε τις εφαρμογές εργασίας</string>
     <string name="work_hours_title">Ώρες εργασίας</string>
     <string name="strict_location_redaction_title">Αφαίρεση των δεδομένων τοποθεσίας κατά την κοινή χρήση πολυμέσων</string>
     <string name="strict_location_redaction_description">Μόνο οι συλλογές και οι διαχειριστές αρχείων μπορούν να διαβάζουν μεταδεδομένα τοποθεσίας από τις φωτογραφίες και τα πολυμέσα σας. (Οι εφαρμογές τρίτων πρέπει να έχουν δικαιώματα πρόσβασης σε όλα τα αρχεία ή δικαιώματα διαχείρισης πολυμέσων.)</string>
     <string name="private_space_hide_apps_summary_calyx">Απόκρυψη ή κλείδωμα ιδιωτικών εφαρμογών σε ξεχωριστό χώρο.</string>
+    <string name="user_switch_on_lockscreen_summary">Να επιτρέπεται η εναλλαγή όταν αυτός ο χρήστης είναι κλειδωμένος</string>
+    <string name="work_hours_end_on_summary2">Απενεργοποίηση του προφίλ εργασίας στις <xliff:g id="end_time">%1$s</xliff:g> καθημερινά</string>
+    <string name="notify">Ειδοποίηση</string>
+    <string name="private_space_separate_vpn_text"><b>Οι εφαρμογές δεν χρησιμοποιούν το υπάρχον VPN σας</b>\nΓια να μπορούν οι ιδιωτικές εφαρμογές σας να χρησιμοποιούν VPN, πρέπει να ρυθμίσετε ένα και στον προσωπικό χώρο σας. Εναλλακτικά, μπορείτε να ενεργοποιήσετε το Global VPN</string>
+    <string name="user_switch_on_lockscreen">Εναλλαγή χρηστών από την οθόνη κλειδώματος</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Απαιτείται εναλλαγή χρήστη για την προσθήκη χρηστών από την οθόνη κλειδώματος</string>
+    <string name="turn_off">Απενεργοποίηση</string>
 </resources>
