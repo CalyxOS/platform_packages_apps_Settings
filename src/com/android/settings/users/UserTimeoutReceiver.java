@@ -40,7 +40,7 @@ import lineageos.providers.LineageSettings;
 
 public class UserTimeoutReceiver extends BroadcastReceiver {
 
-    private static final String ACTION_USER_TIMEOUT = "android.intent.action.USER_TIMEOUT";
+    private static final String ACTION_USER_TIMEOUT = "android.users.intent.USER_TIMEOUT";
     private static final String USER_TIMEOUT_CHANNEL = "user_timeout_channel";
     private static final String EXTRA_NOTIFICATION = "notification";
 
