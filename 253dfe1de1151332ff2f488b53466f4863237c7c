@@ -50,6 +50,24 @@
       "message": "I want to solve the mystery, not just solve the problem: why were some apps affected and others not? Should look at the UID policies to figure that out.",
       "revId": "253dfe1de1151332ff2f488b53466f4863237c7c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9188441_cac62997",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-02-24T16:27:40Z",
+      "side": 1,
+      "message": "Apps without internet permission, like `me.tsukanov.counter` and `exe.bbllw8.anemo`, are automatically given a policy flag of `REJECT_ALL`. The presence of this policy flag is what causes their difference in behavior. See the commit message for more information.",
+      "parentUuid": "87e12654_2838ac83",
+      "revId": "253dfe1de1151332ff2f488b53466f4863237c7c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
