@@ -551,7 +551,7 @@ public class FingerprintSettings extends SubSettings {
             final Intent helpIntent;
             final View.OnClickListener learnMoreClickListener;
             if (getHelpResource() != 0) {
-                final Intent helpIntent = HelpUtils.getHelpIntent(
+                helpIntent = HelpUtils.getHelpIntent(
                         activity, getString(getHelpResource()), activity.getClass().getName());
                 learnMoreClickListener = (v) -> {
                     activity.startActivityForResult(helpIntent, 0);
