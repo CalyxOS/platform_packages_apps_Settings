@@ -49,6 +49,11 @@ public class PrivateSpaceBroadcastReceiver extends BroadcastReceiver {
                     privateSpaceAuth,
                     enableState,
                     PackageManager.DONT_KILL_APP);
+            if (Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction())
+                    && context.getSystemService(UserManager.class).isPrivateProfile()) {
+                context.sendBroadcast(intent.setPackage("org.calyxos.gearheadsupport")
+                        .setComponent(null));
+            }
         }
     }
 }
