@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1cc6783_76888393",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-03-19T15:09:07Z",
+      "side": 1,
+      "message": "Silly question but if org.calyxos.gearheadsupport is disabled or hidden, this intent will simply not be received (making this a no-op), right? That\u0027s my understanding, in which case this change seems fine enough to me given the circumstances.",
+      "revId": "236a6797d5aa67e9f0af5dddfe94182b09bf7229",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
