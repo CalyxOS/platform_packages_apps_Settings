@@ -16,6 +16,24 @@
       "message": "We talked about moving this to give time for the blog.\n\n```suggestion\n    \u003cstring name\u003d\"update_info_desc_long\"\u003eCalyxOS 6.6 will be available in the third week of April. In this feature update, global cleartext restriction will be removed. Tap to learn why we are doing this.\u003c/string\u003e\n```",
       "revId": "54692ab06ceb919594982c5944368f6294844c23",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0df32fa3_38551f80",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-24T20:08:31Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8463b3ae_88566bc9",
+      "revId": "54692ab06ceb919594982c5944368f6294844c23",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
