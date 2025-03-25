@@ -77,7 +77,6 @@ android_library {
 
         // Android internal dependencies
         "BiometricsSharedLib",
-        "SystemUISharedLib",
         "SystemUIUnfoldLib",
         "WifiTrackerLib",
         "android.hardware.biometrics.flags-aconfig-java",
