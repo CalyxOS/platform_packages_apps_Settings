@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1ebd1fe_ef171c0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2025-03-27T17:59:04Z",
+      "side": 1,
+      "message": "When the setting is off, the value never is shown which doesn\u0027t work with this sentence. That said, there is little customization we can do here if using LineageOS preferences as far as I know. Other than that, patch works as intended (shows list selection, sets the value)",
+      "revId": "1cd683dcd7940544e822c03949628ce81e759a99",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
