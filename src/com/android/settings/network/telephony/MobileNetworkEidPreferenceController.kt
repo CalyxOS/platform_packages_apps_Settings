@@ -119,7 +119,6 @@ open class MobileNetworkEidPreferenceController(context: Context, key: String) :
             }
             title = getTitle()
         }
-        refreshUi()
     }
 
     fun refreshUi() {
@@ -133,6 +132,7 @@ open class MobileNetworkEidPreferenceController(context: Context, key: String) :
         this.preference.setOnShowListener {
             coroutineScope?.launch { updateDialog() }
         }
+        refreshUi()
         return true
     }
 

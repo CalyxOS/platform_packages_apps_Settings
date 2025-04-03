@@ -60,7 +60,6 @@
             android:key="phone_number"
             android:title="@string/status_number"
             android:summary="@string/summary_placeholder"
-            android:selectable="false"
             settings:controller="com.android.settings.network.telephony.MobileNetworkPhoneNumberPreferenceController"
             settings:allowDividerBelow="true"
             settings:enableCopying="true"/>
