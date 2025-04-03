@@ -38,6 +38,7 @@ constructor(
 ) : TelephonyBasePreferenceController(context, key) {
 
     private lateinit var preference: Preference
+    private var phoneNumber = String()
 
     fun init(subId: Int) {
         mSubId = subId
@@ -62,8 +63,18 @@ constructor(
         subscriptionRepository.phoneNumberFlow(mSubId).collectLatestWithLifecycle(
             viewLifecycleOwner
         ) { phoneNumber ->
-            preference.summary = phoneNumber ?: getStringUnknown()
+            this.phoneNumber = phoneNumber ?: getStringUnknown()
         }
+    }
+
+    override fun getSummary(): CharSequence {
+        return mContext.getString(R.string.device_info_protected_single_press)
+    }
+
+    override fun handlePreferenceTreeClick(preference: Preference): Boolean {
+        if (preference.key != preferenceKey) return false
+        preference.summary = phoneNumber
+        return true
     }
 
     private fun getStringUnknown(): String {
