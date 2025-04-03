@@ -104,7 +104,6 @@ class MobileNetworkImeiPreferenceController(context: Context, key: String) :
             imei = getImei()
             simSlot = subscription.simSlotIndex
         }
-        refreshUi()
     }
 
     private fun refreshUi(){
@@ -117,6 +116,7 @@ class MobileNetworkImeiPreferenceController(context: Context, key: String) :
 
         Log.d(TAG, "handlePreferenceTreeClick:")
         ImeiInfoDialogFragment.show(fragment, simSlot, preference.title.toString())
+        refreshUi()
         return true
     }
 
@@ -140,6 +140,10 @@ class MobileNetworkImeiPreferenceController(context: Context, key: String) :
         val phoneType = getPhoneType()
         return if (phoneType == TelephonyManager.PHONE_TYPE_CDMA) getTitleForCdmaPhone()
                 else getTitleForGsmPhone()
+    }
+
+    override fun getSummary(): CharSequence {
+        return mContext.getString(R.string.device_info_protected_single_press)
     }
 
     /**
