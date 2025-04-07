@@ -70,6 +70,24 @@
       "parentUuid": "8045aca7_c240e37b",
       "revId": "8871b72512ce5b427ba930290b1ebdc0eaca43d5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c23f790_b36149a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-04-07T16:45:24Z",
+      "side": 1,
+      "message": "With cuttlefish, if I try to dial a normal number, it pops up \"Only emergency calls are allowed\" and prevents the call. If I try to dial 911, it works and acts like an emergency call.",
+      "parentUuid": "9c817b15_009c4c8a",
+      "revId": "8871b72512ce5b427ba930290b1ebdc0eaca43d5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
