@@ -16,6 +16,24 @@
       "message": "What happens if someone calls you or sends you an SMS?",
       "revId": "e6ab6b560ac783fd9c3033c6f7ad4dbf1b202168",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f1682d9_de0d35b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-04-08T16:23:08Z",
+      "side": 1,
+      "message": "[Answered](https://gitlab.com/CalyxOS/calyxos/-/issues/60#note_2440429776); calls come through, SMS do not.\n\nI think the toggle doesn\u0027t quite do what it says it will do, and the commit title is not quite accurate either.",
+      "parentUuid": "39c5b442_415edb04",
+      "revId": "e6ab6b560ac783fd9c3033c6f7ad4dbf1b202168",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
