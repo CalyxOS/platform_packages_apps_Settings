@@ -412,6 +412,8 @@ public class PrivateSpaceMaintainer {
                 PackageManager.INSTALL_REASON_USER, null);
         packageManager.getPackageInstaller().installExistingPackage("org.fdroid.fdroid",
                 PackageManager.INSTALL_REASON_USER, null);
+        packageManager.getPackageInstaller().installExistingPackage("com.aurora.store",
+                PackageManager.INSTALL_REASON_USER, null);
     }
 
     /**
