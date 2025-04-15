@@ -89,8 +89,8 @@
     <string name="update_info_channel_title">Update information</string>
     <string name="update_info_channel_desc">Notifications with important details about upcoming updates</string>
     <string name="update_info_title">CalyxOS Update information</string>
-    <string name="update_info_desc">Removing the global cleartext restriction</string>
-    <string name="update_info_desc_long">CalyxOS 6.6 will be available in the third week of April. In this feature update, global cleartext restriction will be removed. Tap to learn why we are doing this.</string>
+    <string name="update_info_desc">Removal of global cleartext restriction</string>
+    <string name="update_info_desc_long">In the April 2025 feature update, global cleartext restriction has been removed. Tap to learn more.</string>
 
     <!-- Summary for Network and Internet settings, explaining it contains mobile, wifi setting and data usage settings [CHAR LIMIT=NONE]-->
     <string name="network_dashboard_summary_mobile_calyx">Mobile, Wi\u2011Fi, hotspot, VPN, Private DNS</string>

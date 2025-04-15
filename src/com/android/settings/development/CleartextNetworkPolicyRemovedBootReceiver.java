@@ -15,16 +15,17 @@ import com.android.settings.R;
 
 import lineageos.providers.LineageSettings;
 
-public class CleartextNetworkPolicyBootReceiver extends BroadcastReceiver {
+public class CleartextNetworkPolicyRemovedBootReceiver extends BroadcastReceiver {
 
     private static final int oneShotUpdateInfoNotificationID = 100;
     private static final String UPDATE_INFO_URL = "https://calyxos.org/global-no-cleartext";
     private static final String updateInfoChannelID = "updateInfo";
+    private static final String CLEARTEXT_NETWORK_POLICY = "cleartext_network_policy";
 
     @Override
     public void onReceive(Context context, Intent intent) {
         if (LineageSettings.Global.getInt(context.getContentResolver(),
-                LineageSettings.Global.CLEARTEXT_NETWORK_POLICY, -1) != -1) {
+                CLEARTEXT_NETWORK_POLICY, -1) != -1) {
             intent = new Intent(Intent.ACTION_VIEW, Uri.parse(UPDATE_INFO_URL));
 
             PendingIntent contentIntent = PendingIntent.getActivity(context, 0, intent,
@@ -55,7 +56,7 @@ public class CleartextNetworkPolicyBootReceiver extends BroadcastReceiver {
             notificationManager.createNotificationChannel(notificationChannel);
             notificationManager.notify(oneShotUpdateInfoNotificationID, notification);
             context.getPackageManager().setComponentEnabledSetting(
-                    new ComponentName(context, CleartextNetworkPolicyBootReceiver.class),
+                    new ComponentName(context, CleartextNetworkPolicyRemovedBootReceiver.class),
                     PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
         }
     }
