@@ -5482,7 +5482,7 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".development.CleartextNetworkPolicyBootReceiver"
+        <receiver android:name=".development.CleartextNetworkPolicyRemovedBootReceiver"
             android:exported="false">
         <intent-filter>
             <action android:name="android.intent.action.BOOT_COMPLETED" />
