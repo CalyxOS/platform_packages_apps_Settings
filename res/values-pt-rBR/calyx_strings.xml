@@ -98,5 +98,5 @@
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Apagar todos os dados após 10 tentativas de desbloqueio falhas</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_title">Apagar ao errar a senha da tela de bloqueio</string>
-    <string name="update_info_desc_long">O CalyxOS 6.5 estará disponível na terceira semana de Março. Nessa atualização de recursos, a restrição global de redes sem-criptografia será removida. Toque para saber o porquê estamos fazendo isso.</string>
+    <string name="update_info_desc_long">O CalyxOS 6.6 estará disponível na terceira semana de Abril. Nessa atualização de recursos, a restrição global de redes sem-criptografia será removida. Toque para saber o porquê estamos fazendo isso.</string>
 </resources>

@@ -97,7 +97,7 @@
     <string name="update_info_channel_desc">Oznámení s důležitými podrobnostmi ohledně nadcházejících aktualizací</string>
     <string name="update_info_title">Informace o aktualizaci CalyxOS</string>
     <string name="update_info_desc">Odstraňování globálního omezení prostého textu</string>
-    <string name="update_info_desc_long">Systém CalyxOS 6.5 bude k dispozici ve třetím březnovém týdnu. V této aktualizaci funkcí bude odstraněno globální omezení prostého textu (cleartext). Klepnutím se dozvíte, proč to děláme.</string>
+    <string name="update_info_desc_long">Systém CalyxOS 6.6 bude k dispozici ve třetím dubnovém týdnu. V této aktualizaci funkcí bude odstraněno globální omezení prostého textu (cleartext). Klepnutím se dozvíte, proč to děláme.</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Vymazat všechna data po 5 neúspěšných pokusech o odemknutí</string>
     <string name="maximum_failed_passwords_for_wipe_title">Vymazat po neúspěšných pokusech o odemknutí</string>
