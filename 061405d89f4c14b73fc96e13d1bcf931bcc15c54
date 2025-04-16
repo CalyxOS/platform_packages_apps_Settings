@@ -16,6 +16,23 @@
       "message": "This shows for every new user created, including guests.\n\nPerhaps we just show it for the owner user then.",
       "revId": "061405d89f4c14b73fc96e13d1bcf931bcc15c54",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c74f2f18_a6dba656",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-04-16T19:51:11Z",
+      "side": 1,
+      "message": "Use different string names because we already have translations for the old ones",
+      "revId": "061405d89f4c14b73fc96e13d1bcf931bcc15c54",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
