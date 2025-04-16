@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fa36b9d_fddb1747",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-04-16T18:51:14Z",
+      "side": 1,
+      "message": "We discussed that we should keep this and adapt the wording.",
+      "revId": "f99e430646e4b21cd1f7e24e4223b0ed3f64d9de",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
