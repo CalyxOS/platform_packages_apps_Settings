@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3835358_080bb174",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-04-16T19:58:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0900f0df_73da116b",
+      "revId": "061405d89f4c14b73fc96e13d1bcf931bcc15c54",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c74f2f18_a6dba656",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-04-16T19:51:11Z",
       "side": 1,
       "message": "Use different string names because we already have translations for the old ones",
+      "revId": "061405d89f4c14b73fc96e13d1bcf931bcc15c54",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2026ff7c_d003ecdd",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-04-16T19:58:30Z",
+      "side": 1,
+      "message": "Thanks, I thought of that briefly and then forgot.",
+      "parentUuid": "c74f2f18_a6dba656",
       "revId": "061405d89f4c14b73fc96e13d1bcf931bcc15c54",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
