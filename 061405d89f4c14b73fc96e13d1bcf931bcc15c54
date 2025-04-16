@@ -69,6 +69,24 @@
       "parentUuid": "c74f2f18_a6dba656",
       "revId": "061405d89f4c14b73fc96e13d1bcf931bcc15c54",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "207f0ed9_2a105da9",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-04-16T20:07:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2026ff7c_d003ecdd",
+      "revId": "061405d89f4c14b73fc96e13d1bcf931bcc15c54",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
