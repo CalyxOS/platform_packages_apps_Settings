@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3259b4e9_111aa660",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-04-16T19:31:36Z",
+      "side": 1,
+      "message": "Showing in work profiles too which is confusing / spammy even if only once. Looks glitchy.",
+      "revId": "dd0d8018120b0ecc6e48e762f5692ecec9746b41",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
