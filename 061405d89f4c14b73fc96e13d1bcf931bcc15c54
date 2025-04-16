@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0900f0df_73da116b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-04-16T19:46:17Z",
+      "side": 1,
+      "message": "This shows for every new user created, including guests.\n\nPerhaps we just show it for the owner user then.",
+      "revId": "061405d89f4c14b73fc96e13d1bcf931bcc15c54",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
