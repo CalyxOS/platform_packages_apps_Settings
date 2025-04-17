@@ -11,9 +11,7 @@
     <string name="panic_settings_title">പരിഭ്രാന്തി ഓപ്ഷൻ കാണിക്കുക</string>
     <string name="bluetooth_timeout">ബ്ലൂടൂത്ത് സമയപരിധി</string>
     <string name="security_restrict_usb_title">USB നിയന്ത്രിക്കുക</string>
-    <string name="cleartext_network_policy_title">ക്ലിയർ ടെക്സ്റ്റ് നെറ്റ്‌വർക്ക് ട്രാഫിക് നിയന്ത്രിക്കുക</string>
     <string name="security_restrict_usb_keyguard">അൺലോക്ക് ചെയ്താൽ പുതിയ USB ഗാഡ്ജെറ്റുകൾ അനുവദിക്കുക</string>
-    <string name="cleartext_network_policy_summary">TLS അല്ലാത്ത എല്ലാ നെറ്റ്‌വർക്ക് ട്രാഫിക്കും തടയുന്നു. സ്വകാര്യ DNS കോൺഫിഗറേഷൻ ആവശ്യമാണ്. കുറിപ്പ്: വ്യക്തമായ ഇളവുകളില്ലാതെ, ടോറും മിക്ക VPN- കളും പ്രവർത്തിക്കില്ല</string>
     <string name="calyxos_version">CalyxOS പതിപ്പ്</string>
     <string name="wifi_timeout_summary">നെറ്റ്‌വർക്ക് ബന്ധിപ്പിച്ചില്ലെങ്കിൽ <xliff:g id="timeout_description">%1$s</xliff:g> ന് ശേഷം വൈഫൈ ഓഫാകും</string>
     <string name="security_restrict_usb_always">പുതിയ USB ഗാഡ്ജറ്റുകൾ നിരസിക്കുക</string>
