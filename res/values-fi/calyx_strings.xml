@@ -23,11 +23,9 @@
     <string name="panic_settings_summary">Näyttää virtapainike-valinnan, joka aktivoi hätäpaniikki-toiminnon.</string>
     <string name="panic_settings_title">Näytä Paniikki-valinta</string>
     <string name="calyxos_version">CalyxOS-versio</string>
-    <string name="cleartext_network_policy_title">Rajoita selkokielistä verkkoliikennettä</string>
     <string name="wifi_timeout_summary2">Pois päältä</string>
     <string name="show_qs_on_secure_keyguard_summary">Salli turvatussa lukitusnäytössä pika-asetuksiin vaihtaminen</string>
     <string name="show_qs_on_secure_keyguard_title">Pika-asetukset</string>
-    <string name="cleartext_network_policy_summary">Estää kaiken ei-TLS -muotoisen verkkoliikenteen. Vaatii yksityisen DNS-asetuksen. Huomioi: Ilman selkeitä erivapauksia Tor ja suurin osa VPN:sta ei toimi</string>
     <string name="data_usage_app_restrict_background_all">Taustalla toimiva verkkoyhteys</string>
     <string name="wifi_timeout_summary">Wi-Fi sammuu <xliff:g id="timeout_description">%1$s</xliff:g> jälkeen, jos verkkoon ei ole yhdistetty</string>
     <string name="wifi_timeout">Poista käytöstä Wi-Fi automaattisesti</string>

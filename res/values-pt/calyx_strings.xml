@@ -28,8 +28,6 @@
     <string name="data_usage_app_restrict_background_all">Acesso a rede em segundo plano</string>
     <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
     <string name="aosp_module_version">Atualização do módulo principal</string>
-    <string name="cleartext_network_policy_title">Restringir o tráfego de texto claro na rede</string>
-    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, aplicativos que usam tráfego de texto simples podem não funcionar</string>
     <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
     <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as configurações rápidas no ecrã de bloqueio seguro</string>
     <string name="data_usage_app_restrict_background_all_summary">Ativar uso da rede em segundo plano</string>
@@ -85,10 +83,7 @@
     <string name="hidden">Oculto</string>
     <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie apps privados num espaço separado.</string>
     <string name="update_info_channel_title">Informações de atualização</string>
-    <string name="update_info_channel_desc">Notificações com pormenores importantes sobre atualizações futuras</string>
     <string name="update_info_title">Informações de atualização do CalyxOS</string>
-    <string name="update_info_desc">A remover a restrição global de redes sem-criptografia</string>
-    <string name="update_info_desc_long">O CalyxOS 6.5 estará disponível na terceira semana de Março. Nessa atualização de recursos, a restrição global de redes sem-criptografia será removida. Toque para saber o porquê estamos fazendo isto.</string>
     <string name="user_switch_on_lockscreen_summary">Permitir alternar mesmo quando o utilizador está bloqueado</string>
     <string name="maximum_failed_passwords_for_wipe_title">Apagar ao errar a palavra-passe da ecrã de bloqueio</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>

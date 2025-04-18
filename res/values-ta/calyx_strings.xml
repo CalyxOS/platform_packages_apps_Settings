@@ -32,8 +32,6 @@
     <string name="wifi_timeout_summary2">முடக்கப்பட்டது</string>
     <string name="global_vpn_title">உலகளாவிய வி.பி.என்</string>
     <string name="device_reboot_timeout_summary">கடைசி <xliff:g id="timeout_description">%1$s</xliff:g> க்குள் திறக்கப்படாவிட்டால் சாதனம் தானாகவே மறுதொடக்கம் செய்யும்</string>
-    <string name="cleartext_network_policy_title">தெளிவான பிணையம் போக்குவரத்தை கட்டுப்படுத்தவும்</string>
-    <string name="cleartext_network_policy_summary">அனைத்து டி.எல்.எச் அல்லாத பிணையம் போக்குவரத்தையும் தடுக்கிறது. தனியார் டிஎன்எச் உள்ளமைவு தேவை. குறிப்பு: வெளிப்படையான விலக்குகள் இல்லாமல், கிளியர் டெக்ச்ட் போக்குவரத்தைப் பயன்படுத்தும் பயன்பாடுகள் செயல்படாது</string>
     <string name="unhide_app_desc">இந்த பயன்பாட்டை நீங்கள் மறந்துவிட்டால், அது மீண்டும் ஆண்ட்ராய்டு மற்றும் பிற பயன்பாடுகளுக்கு தெரியும்.</string>
     <string name="captive_portal_title">இணைப்பு சோதனை</string>
     <string name="keychords_title">பிழை அறிக்கை பொத்தான் சேர்க்கை</string>
