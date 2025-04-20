@@ -15,10 +15,8 @@
     <string name="timeout_summary_10mins">10 דקות</string>
     <string name="timeout_summary_1min">דקה</string>
     <string name="aosp_module_version">עדכון גרסאות של מודולים עיקריים</string>
-    <string name="cleartext_network_policy_title">הגבלת תעבורת רשת בטקסט פשוט</string>
     <string name="timeout_summary_4hours">4 שעות</string>
     <string name="data_usage_app_restrict_background_all_summary">הפעלת שימוש ברשת ברקע</string>
-    <string name="cleartext_network_policy_summary">לחסום את כל התעבורה שאינה TLS. דורש הגדרות DNS פרטי. לתשומת לבך: ללא החרגות מפורשות, יישומונים שמשתמשים בתעבורה בלתי מוצפנת לא יעבדו</string>
     <string name="timeout_summary_30mins">חצי שעה</string>
     <string name="timeout_summary_30secs">חצי דקה</string>
     <string name="timeout_summary_1hour">שעה</string>
@@ -87,6 +85,5 @@
     <string name="strict_location_redaction_title">לשנות את מקום הנתונים כשמדיה משותפת</string>
     <string name="private_space_hide_apps_summary_calyx">‏אפשר להסתיר או לנעול אפליקציות פרטיות במרחב נפרד.</string>
     <string name="update_info_channel_title">עדכון הפרטים</string>
-    <string name="update_info_channel_desc">התראות עם פרטים חשובים על עדכונים שיגיעו בקרוב</string>
     <string name="update_info_title">פרטי עדכון CalyxOS</string>
 </resources>

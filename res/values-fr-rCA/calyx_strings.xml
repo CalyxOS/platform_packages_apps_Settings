@@ -4,7 +4,6 @@
     <string name="security_dashboard_summary_calyx">Verrouillage de l\'écran, paramètres de panique, restrictions USB, sécurité des applications</string>
     <string name="show_qs_on_secure_keyguard_summary">Autoriser le basculement des paramètres rapides sur l\'écran de verrouillage sécurisé</string>
     <string name="aosp_module_version">Mise à jour du module principal</string>
-    <string name="cleartext_network_policy_title">Restreindre le trafic réseau en texte clair</string>
     <string name="calyxos_version">Version CalyxOS</string>
     <string name="hide">Cacher</string>
     <string name="unhide">Afficher</string>
@@ -39,7 +38,6 @@
     <string name="device_reboot_timeout_title">Redémarrage automatique</string>
     <string name="device_reboot_timeout_summary2">L\'appareil ne redémarrera pas automatiquement</string>
     <string name="device_reboot_timeout_summary">L\'appareil redémarrera automatiquement s\'il n\'a pas été déverrouillé au cours des dernières<xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="cleartext_network_policy_summary">Bloque tout le trafic réseau non-TLS. Nécessite une configuration DNS privé. Remarque : Sans exemptions explicites, les applications qui utilisent le trafic en cleartext peuvent ne pas fonctionner</string>
     <string name="filter_hidden_apps">Applications cachées</string>
     <string name="hide_app">Cacher l\'application</string>
     <string name="unhide_app">Afficher l\'application</string>
