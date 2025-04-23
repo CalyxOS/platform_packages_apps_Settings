@@ -25,8 +25,6 @@
     <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
     <string name="show_qs_on_secure_keyguard_summary">Güvenli kilit ekranında hızlı ayarların değiştirilmesine izin ver</string>
     <string name="show_qs_on_secure_keyguard_title">Hızlı ayarlar</string>
-    <string name="cleartext_network_policy_summary">TLS kullanmayan tüm ağ trafiğini engeller. Özel DNS yapılandırması gerektirir. Not: Açık muafiyetler olmadan şifresiz trafik kullanan uygulamalar çalışmayabilir</string>
-    <string name="cleartext_network_policy_title">Şifreli olmayan ağ trafiğini kısıtla</string>
     <string name="wifi_timeout_summary2">Devre dışı</string>
     <string name="wifi_timeout_summary">Hiçbir ağ bağlı değilse Wi-Fi <xliff:g id="timeout_description">%1$s</xliff:g> sonra kapatılacak</string>
     <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
@@ -87,8 +85,6 @@
     <string name="strict_location_redaction_description">Yalnızca galeriler ve dosya yöneticileri fotoğraflarınızdan ve medyanızdan konum üst verilerini okuyabilir. (Üçüncü taraf uygulamaların Tüm Dosyalara Erişim veya Medya Yönetimi izinlerine sahip olması gerekir.)</string>
     <string name="private_space_hide_apps_summary_calyx">Özel uygulamaları ayrı bir alanda gizleyin veya kilitleyin.</string>
     <string name="update_info_channel_title">Güncelleme bilgisi</string>
-    <string name="update_info_channel_desc">Gelecek güncellemelerin önemli detayları hakkında bildirimler</string>
-    <string name="update_info_desc_long">CalyxOS 6.5 Martın üçüncü haftasında kullanılabilir olacaktır. Bu özellik güncellemesinde global cleartext kısıtlaması kaldırılacaktır. Bunu neden yaptığımızı öğrenmek için dokunun.</string>
     <string name="work_hours_end_on_summary2">İş profilini her gün <xliff:g id="end_time">%1$s</xliff:g> zamanında kapat</string>
     <string name="notify">Bildir</string>
     <string name="private_space_separate_vpn_text"><b>Uygulamalar varolan VPN\'nizi kullanmıyor</b>\nÖzel uygulamalarınızın VPN kullanması için, boşluğunuzda da kurmanız gerekli. Alternatif olarak, Küresel VPN\'i açabilirsiniz</string>
@@ -101,5 +97,4 @@
     <string name="user_switch_on_lockscreen">Kilit ekranından kullanıcı değiştirin</string>
     <string name="user_switch_on_lockscreen_summary">Bu kullanıcı kilitliyken kullanıcı değiştirmeye izin ver</string>
     <string name="update_info_title">CalyxOS Güncelleme bilgisi</string>
-    <string name="update_info_desc">Global cleartext kısıtlaması kaldırılıyor</string>
 </resources>
