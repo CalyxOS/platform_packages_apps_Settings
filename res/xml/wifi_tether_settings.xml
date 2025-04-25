@@ -65,4 +65,10 @@
         android:title="@string/wifi_hotspot_instant_title"
         android:summary="@string/summary_placeholder"
         settings:isPreferenceVisible="false"/>
+
+    <lineageos.preference.SecureSettingSwitchPreference
+        android:key="tethering_allow_vpn_upstreams"
+        android:title="@string/tethering_allow_vpn_upstreams_title"
+        android:summary="@string/tethering_allow_vpn_upstreams_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>

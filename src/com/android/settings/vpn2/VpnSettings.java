@@ -93,6 +93,7 @@ public class VpnSettings extends RestrictedDashboardFragment implements
     private static final int RESCAN_INTERVAL_MS = 1000;
     private static final String ADVANCED_VPN_GROUP_KEY = "advanced_vpn_group";
     private static final String VPN_GROUP_KEY = "vpn_group";
+    private static final String VPN_TETHER_SETTINGS_GROUP_KEY = "vpn_tether_settings_group";
 
     private static final NetworkRequest VPN_REQUEST = new NetworkRequest.Builder()
             .removeCapability(NetworkCapabilities.NET_CAPABILITY_NOT_VPN)
@@ -120,6 +121,9 @@ public class VpnSettings extends RestrictedDashboardFragment implements
     private boolean mUnavailable;
     private AdvancedVpnFeatureProvider mFeatureProvider;
     private PreferenceScreen mPreferenceScreen;
+    private PreferenceGroup mAdvancedVpnGroup;
+    private PreferenceGroup mVpnGroup;
+    private PreferenceGroup mVpnTetherSettingsGroup;
     private boolean mIsAdvancedVpnSupported;
 
     public VpnSettings() {
@@ -145,6 +149,13 @@ public class VpnSettings extends RestrictedDashboardFragment implements
         setHasOptionsMenu(!mUnavailable);
 
         mPreferenceScreen = getPreferenceScreen();
+        mAdvancedVpnGroup = mPreferenceScreen.findPreference(ADVANCED_VPN_GROUP_KEY);
+        mVpnGroup = mPreferenceScreen.findPreference(VPN_GROUP_KEY);
+        mVpnTetherSettingsGroup = mPreferenceScreen.findPreference(VPN_TETHER_SETTINGS_GROUP_KEY);
+        if (!mIsAdvancedVpnSupported && mAdvancedVpnGroup != null) {
+            mPreferenceScreen.removePreference(mAdvancedVpnGroup);
+        }
+        maybeAdaptForEmpty();
     }
 
     @Override
@@ -223,6 +234,34 @@ public class VpnSettings extends RestrictedDashboardFragment implements
         mUpdaterThread.start();
         mUpdater = new Handler(mUpdaterThread.getLooper(), this);
         mUpdater.sendEmptyMessage(RESCAN_MESSAGE);
+    }
+
+    private void maybeAdaptForEmpty() {
+        if (mVpnTetherSettingsGroup == null || mAdvancedVpnGroup == null || mVpnGroup == null) {
+            Log.e(LOG_TAG, "Inexplicably cannot find one or more preference categories");
+            return;
+        }
+        final boolean shouldShowPreferences =
+                !mLegacyVpnPreferences.isEmpty() || !mAppPreferences.isEmpty();
+        final boolean showingTetherPreferences = mPreferenceScreen.findPreference(
+                VPN_TETHER_SETTINGS_GROUP_KEY
+        ) != null;
+        if (showingTetherPreferences != shouldShowPreferences) {
+            mVpnTetherSettingsGroup.setVisible(shouldShowPreferences);
+            if (shouldShowPreferences) {
+                mPreferenceScreen.addPreference(mVpnTetherSettingsGroup);
+                if (mIsAdvancedVpnSupported) {
+                    mPreferenceScreen.addPreference(mAdvancedVpnGroup);
+                }
+                mPreferenceScreen.addPreference(mVpnGroup);
+            } else {
+                mPreferenceScreen.removePreference(mVpnTetherSettingsGroup);
+                if (mIsAdvancedVpnSupported) {
+                    mPreferenceScreen.removePreference(mAdvancedVpnGroup);
+                }
+                mPreferenceScreen.removePreference(mVpnGroup);
+            }
+        }
     }
 
     @Override
@@ -378,6 +417,8 @@ public class VpnSettings extends RestrictedDashboardFragment implements
             } else {
                 mSettings.setShownPreferences(updates);
             }
+
+            mSettings.maybeAdaptForEmpty();
         }
     }
 
@@ -390,7 +431,7 @@ public class VpnSettings extends RestrictedDashboardFragment implements
     public void setShownPreferences(final Collection<Preference> updates) {
         retainAllPreference(updates);
 
-        final PreferenceGroup vpnGroup = mPreferenceScreen;
+        final PreferenceGroup vpnGroup = mVpnGroup;
         updatePreferenceGroup(vpnGroup, updates);
 
         // Show all new preferences on the screen
@@ -403,8 +444,8 @@ public class VpnSettings extends RestrictedDashboardFragment implements
     void setShownAdvancedPreferences(final Collection<Preference> updates) {
         retainAllPreference(updates);
 
-        PreferenceGroup advancedVpnGroup = mPreferenceScreen.findPreference(ADVANCED_VPN_GROUP_KEY);
-        PreferenceGroup vpnGroup = mPreferenceScreen.findPreference(VPN_GROUP_KEY);
+        final PreferenceGroup advancedVpnGroup = mAdvancedVpnGroup;
+        final PreferenceGroup vpnGroup = mVpnGroup;
         advancedVpnGroup.setTitle(
                 mFeatureProvider.getAdvancedVpnPreferenceGroupTitle(getContext()));
         vpnGroup.setTitle(mFeatureProvider.getVpnPreferenceGroupTitle(getContext()));
