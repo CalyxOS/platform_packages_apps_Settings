@@ -439,7 +439,7 @@ public class VpnSettings extends RestrictedDashboardFragment implements
             Preference p = vpnGroup.getPreference(i);
             if (updates.contains(p)) {
                 updates.remove(p);
-            } else {
+            } else if ((p instanceof LegacyVpnPreference) || (p instanceof AppPreference)) {
                 vpnGroup.removePreference(p);
             }
         }
