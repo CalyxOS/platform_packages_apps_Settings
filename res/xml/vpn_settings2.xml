@@ -15,10 +15,24 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/vpn_title">
     <PreferenceCategory
         android:key="advanced_vpn_group"/>
 
     <PreferenceCategory
         android:key="vpn_group"/>
+
+    <PreferenceCategory
+        android:key="vpn_tether_settings_group"
+        android:title="@string/tether_settings_title_all"
+        settings:isPreferenceVisible="false">
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="tethering_allow_vpn_upstreams"
+            android:title="@string/tethering_allow_vpn_upstreams_title"
+            android:summary="@string/tethering_allow_vpn_upstreams_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
