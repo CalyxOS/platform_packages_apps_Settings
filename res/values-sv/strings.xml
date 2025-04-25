@@ -297,7 +297,7 @@
     <string name="security_status_title" msgid="6958004275337618656">"Säkerhetsstatus"</string>
     <string name="security_dashboard_summary" msgid="7571035662779425918">"Skärmlås, Hitta min enhet, appsäkerhet"</string>
     <string name="safety_center_title" msgid="7732397372178774777">"Säkerhet och integritet"</string>
-    <string name="safety_center_summary" msgid="3554867379951053869">"Appsäkerhet, enhetslås, behörigheter"</string>
+    <string name="safety_center_summary" msgid="3554867379951053869">"Appsäkerhet, enhetslås och behörigheter"</string>
     <string name="security_settings_face_preference_summary" msgid="6675126437396914838">"Ansikte har lagts till"</string>
     <string name="security_settings_face_preference_summary_none" msgid="523320857738436024">"Konfigurering krävs"</string>
     <string name="security_settings_face_preference_title" msgid="2126625155005348417">"Ansiktslås"</string>
@@ -2072,7 +2072,7 @@
     <string name="usage_time_label" msgid="9105343335151559883">"Användningstid"</string>
     <string name="accessibility_settings" msgid="4713215774904704682">"Tillgänglighet"</string>
     <string name="accessibility_settings_title" msgid="6739115703615065716">"Tillgänglighetsinställningar"</string>
-    <string name="accessibility_settings_summary" msgid="2366627644570558503">"Skärm, interaktion, ljud"</string>
+    <string name="accessibility_settings_summary" msgid="2366627644570558503">"Skärm, interaktion och ljud"</string>
     <string name="vision_settings_title" msgid="8919983801864103069">"Syninställningar"</string>
     <string name="vision_settings_description" msgid="7614894785054441991">"Du kan anpassa enheten efter dina behov. Tillgänglighetsfunktionerna kan ändras senare under Inställningar."</string>
     <string name="vision_settings_suggestion_title" msgid="4689275412658803919">"Ändra teckenstorlek"</string>
@@ -3189,10 +3189,10 @@
     <string name="sim_selection_channel_title" msgid="3193666315607572484">"Val av SIM"</string>
     <string name="dashboard_title" msgid="5660733037244683387">"Inställningar"</string>
     <string name="network_dashboard_title" msgid="788543070557731240">"Nätverk och internet"</string>
-    <string name="network_dashboard_summary_mobile" msgid="7750924671970583670">"Mobil, wifi, surfzon"</string>
+    <string name="network_dashboard_summary_mobile" msgid="7750924671970583670">"Mobil, wifi och surfzon"</string>
     <string name="network_dashboard_summary_no_mobile" msgid="4022575916334910790">"Wifi, surfzon"</string>
     <string name="connected_devices_dashboard_title" msgid="19868275519754895">"Anslutna enheter"</string>
-    <string name="connected_devices_dashboard_default_summary" msgid="7211769956193710397">"Bluetooth, parkoppling"</string>
+    <string name="connected_devices_dashboard_default_summary" msgid="7211769956193710397">"Bluetooth och parkoppling"</string>
     <string name="connected_devices_dashboard_summary" msgid="6927727617078296491">"Bluetooth, körläge, NFC"</string>
     <string name="connected_devices_dashboard_no_nfc_summary" msgid="8424794257586524040">"Bluetooth, körläge"</string>
     <string name="connected_devices_dashboard_no_driving_mode_summary" msgid="7155882619333726331">"Bluetooth, NFC"</string>
@@ -3529,7 +3529,7 @@
     <string name="work_sync_dialog_yes" msgid="5785488304957707534">"Bekräfta"</string>
     <string name="work_sync_dialog_message" msgid="5066178064994040223">"Samma ljud används för både jobbprofilen och den privata profilen"</string>
     <string name="configure_notification_settings" msgid="1492820231694314376">"Aviseringar"</string>
-    <string name="notification_dashboard_summary" msgid="7530169251902320652">"Aviseringshistorik, konversationer"</string>
+    <string name="notification_dashboard_summary" msgid="7530169251902320652">"Aviseringshistorik och konversationer"</string>
     <string name="conversation_notifs_category" msgid="2549844862379963273">"Konversation"</string>
     <string name="general_notification_header" msgid="3669031068980713359">"Hantera"</string>
     <string name="app_notification_field" msgid="3208079070539894909">"Appaviseringar"</string>

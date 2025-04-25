@@ -132,7 +132,7 @@
     <string name="connected_device_add_device_summary" msgid="8671009879957120802">"Se activará el Bluetooth para vincular"</string>
     <string name="connected_device_connections_title" msgid="4164120115341579170">"Preferencias de conexión"</string>
     <string name="connected_device_previously_connected_screen_title" msgid="8823331744788100605">"Conectados anteriormente"</string>
-    <string name="connected_device_bluetooth_turned_on_toast" msgid="144664089794199928">"Se activó el Bluetooth"</string>
+    <string name="connected_device_bluetooth_turned_on_toast" msgid="144664089794199928">"Bluetooth activado"</string>
     <string name="previous_connected_see_all" msgid="7759413145713251328">"Ver todos"</string>
     <string name="connected_device_fast_pair_device_see_all" msgid="4898279230458128620">"Ver todos"</string>
     <string name="stylus_device_details_title" msgid="7618295136015480864">"Pluma stylus"</string>
@@ -1643,7 +1643,7 @@
     <string name="legal_information" msgid="7509900979811934843">"Información legal"</string>
     <string name="manual" msgid="3651593989906084868">"Manual"</string>
     <string name="regulatory_labels" msgid="5960251403367154270">"Etiquetas sobre reglamentaciones"</string>
-    <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Manual sobre reglamentación y seguridad"</string>
+    <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Manual sobre seguridad y reglamentaciones"</string>
     <string name="copyright_title" msgid="83245306827757857">"Derechos de autor"</string>
     <string name="license_title" msgid="8745742085916617540">"Licencia"</string>
     <string name="module_license_title" msgid="8705484239826702828">"Licencias de actualización del sistema de Play"</string>
@@ -2201,7 +2201,7 @@
     <string name="accessibility_tutorial_dialog_button" msgid="2031773187678948436">"Entendido"</string>
     <string name="accessibility_tutorial_dialog_link_button" msgid="13364319079385020">"Personalizar botón"</string>
     <string name="accessibility_tutorial_dialog_configure_software_shortcut_type" msgid="8041105223988170653">"Más opciones"</string>
-    <string name="accessibility_shortcut_title" msgid="8125867833704517463">"Combinación para <xliff:g id="SERVICE">%1$s</xliff:g>"</string>
+    <string name="accessibility_shortcut_title" msgid="8125867833704517463">"Atajo para <xliff:g id="SERVICE">%1$s</xliff:g>"</string>
     <string name="accessibility_shortcut_edit_summary_software" msgid="48978719406821294">"botón de accesibilidad"</string>
     <string name="accessibility_shortcut_edit_summary_software_gesture" msgid="7346399253904683940">"gesto de accesibilidad"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture" msgid="8078659880723370597">"Deslizar dos dedos hacia arriba"</string>
@@ -3367,7 +3367,7 @@
     <string name="spatial_summary_on_one" msgid="6239933399496282994">"Sí (<xliff:g id="OUTPUT_DEVICE">%1$s</xliff:g>)"</string>
     <string name="spatial_summary_on_two" msgid="4526919818832483883">"Sí (<xliff:g id="OUTPUT_DEVICE_0">%1$s</xliff:g> y <xliff:g id="OUTPUT_DEVICE_1">%2$s</xliff:g>)"</string>
     <string name="spatial_audio_footer_title" msgid="8775010547623606088">"También puedes activar el audio espacial para dispositivos Bluetooth."</string>
-    <string name="spatial_audio_footer_learn_more_text" msgid="3826811708094366301">"Parámetros de configuración de dispositivos conectados"</string>
+    <string name="spatial_audio_footer_learn_more_text" msgid="3826811708094366301">"Configuración de dispositivos conectados"</string>
     <string name="spatial_audio_multi_toggle_title" msgid="6175786400035541273">"Audio espacial"</string>
     <string name="spatial_audio_multi_toggle_off" msgid="2086359413991193164">"Desactivado"</string>
     <string name="spatial_audio_multi_toggle_on" msgid="4204808183659033003">"Fijo"</string>
@@ -5019,9 +5019,9 @@
     <string name="lockscreen_privacy_wallet_summary" msgid="3984851951621168573">"Permite el acceso a la billetera desde la pantalla de bloqueo"</string>
     <string name="lockscreen_privacy_qr_code_scanner_setting_toggle" msgid="1856477548806618829">"Mostrar escáner de código QR"</string>
     <string name="lockscreen_privacy_qr_code_scanner_summary" msgid="4577409244972250235">"Permitir el acceso al escáner de código QR desde la pantalla de bloqueo"</string>
-    <string name="lockscreen_privacy_controls_setting_toggle" msgid="7445725343949588613">"Mostrar controles del dispositivo"</string>
+    <string name="lockscreen_privacy_controls_setting_toggle" msgid="7445725343949588613">"Mostrar controles de dispositivos"</string>
     <string name="lockscreen_privacy_controls_summary" msgid="7522918441738915364">"Desde la pantalla de bloqueo"</string>
-    <string name="lockscreen_trivial_controls_setting_toggle" msgid="2174300719855112358">"Usar controles del dispositivo"</string>
+    <string name="lockscreen_trivial_controls_setting_toggle" msgid="2174300719855112358">"Usar controles de dispositivos"</string>
     <string name="lockscreen_trivial_disabled_controls_summary" msgid="7593626010580689155">"Para usar, primero activa \"Mostrar controles del dispositivo\""</string>
     <string name="lockscreen_double_line_clock_summary" msgid="4109235686687860393">"El tamaño del reloj cambia según el contenido de la pantalla de bloqueo"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="802271087416091548">"Reloj dinámico"</string>
@@ -5198,7 +5198,7 @@
     <string name="reboot_dialog_reboot_later" msgid="4261717094186904568">"Reiniciar más adelante"</string>
     <string name="bluetooth_details_spatial_audio_title" msgid="1368071116994002707">"Audio espacial"</string>
     <string name="bluetooth_details_spatial_audio_summary" msgid="5026859623681482668">"El audio de contenido multimedia compatible se hace más envolvente"</string>
-    <string name="bluetooth_details_head_tracking_title" msgid="5416972521040337799">"Seguimiento de cabeza"</string>
+    <string name="bluetooth_details_head_tracking_title" msgid="5416972521040337799">"Monitoreo de cabeza"</string>
     <string name="bluetooth_details_head_tracking_summary" msgid="3942238746595985395">"El audio cambia a medida que mueves la cabeza para sonar más natural"</string>
     <string name="bluetooth_details_permissions_sync_title" msgid="7277580382321003521">"Sincronización de permisos desde el teléfono"</string>
     <string name="bluetooth_details_permissions_sync_summary" msgid="8125037984381432059">"Otórgale al reloj los mismos permisos de la app de este teléfono"</string>

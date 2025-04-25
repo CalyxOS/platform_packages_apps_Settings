@@ -919,7 +919,7 @@
     <string name="show_hdr_sdr_ratio" msgid="4188007289024955585">"Tampilkan rasio HDR/SDR"</string>
     <string name="show_hdr_sdr_ratio_summary" msgid="986292785096013733">"Tampilkan rasio HDR/SDR saat ini"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
-    <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Wajib buka kunci perangkat untuk NFC"</string>
+    <string name="nfc_secure_settings_title" msgid="4906958426927741485">"Wajibkan kunci perangkat dibuka untuk menggunakan NFC"</string>
     <string name="android_beam_settings_title" msgid="2797963824490671295">"Android Beam"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"Siap mentransmisikan konten apl melalui NFC"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"Mati"</string>
@@ -2311,7 +2311,7 @@
     <string name="accessibility_vibration_setting_disabled_for_silent_mode_summary" msgid="3982701772953323190">"Setelan dinonaktifkan karena perangkat disetel ke senyap"</string>
     <string name="accessibility_call_vibration_category_title" msgid="2545607568768192318">"Panggilan telepon"</string>
     <string name="accessibility_notification_alarm_vibration_category_title" msgid="2683635252414849417">"Notifikasi dan alarm"</string>
-    <string name="accessibility_interactive_haptics_category_title" msgid="3162855291184592021">"Interaksi sentuhan"</string>
+    <string name="accessibility_interactive_haptics_category_title" msgid="3162855291184592021">"Haptik interaksi"</string>
     <string name="accessibility_vibration_primary_switch_title" msgid="6162579254864450592">"Gunakan getaran &amp; sentuhan"</string>
     <string name="accessibility_alarm_vibration_title" msgid="4661294337828522745">"Getaran alarm"</string>
     <string name="accessibility_media_vibration_title" msgid="1372073715403945428">"Getaran media"</string>

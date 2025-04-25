@@ -1328,7 +1328,7 @@
     <string name="lift_to_wake_title" msgid="8994218158737714046">"Soulever pour activer"</string>
     <string name="ambient_display_screen_title" msgid="8615947016991429325">"Affichage en mode Veille"</string>
     <string name="ambient_display_category_triggers" msgid="1216640141609270011">"Activation du mode Veille"</string>
-    <string name="doze_title" msgid="1523090408230862316">"Réactiv. écran pour notifications"</string>
+    <string name="doze_title" msgid="1523090408230862316">"Activer écran si notifications"</string>
     <string name="doze_summary" msgid="8252867381522942804">"Lorsque l\'écran est sombre, il s\'allume en cas de nouvelles notifications"</string>
     <string name="doze_always_on_title" msgid="7326245192352868477">"Toujours affich. heure et données"</string>
     <string name="doze_always_on_summary" msgid="509097829739647852">"Utilisation accrue de la pile"</string>
@@ -2219,7 +2219,7 @@
     <string name="accessibility_feature_shortcut_setting_summary_quick_settings" msgid="7006526933552889373">"Paramètres rapides"</string>
     <string name="accessibility_shortcut_edit_dialog_title_hardware" msgid="844089763968552142">"Touches de volume"</string>
     <string name="accessibility_shortcut_hardware_keyword" msgid="2483152542320987022">"touches de volume"</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_hardware" msgid="2503134386397991634">"Maintenez enfoncées les deux touches de volume"</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_hardware" msgid="2503134386397991634">"Maintenez les deux touches de volume enfoncées"</string>
     <string name="accessibility_shortcut_edit_screen_title_two_finger_double_tap" msgid="8952595692906527694">"Toucher deux fois avec %1$d doigts"</string>
     <string name="accessibility_shortcut_edit_screen_summary_two_finger_double_tap" msgid="385404127425496362">"Touchez rapidement l\'écran deux fois avec %1$d doigts"</string>
     <string name="accessibility_shortcut_edit_screen_title_triple_tap" msgid="3314488747597058942">"Toucher trois fois"</string>
@@ -3375,7 +3375,7 @@
     <string name="zen_mode_settings_schedules_summary" msgid="2047688589286811617">"{count,plural, =0{Aucun}=1{1 horaire programmé}one{# horaire programmé}other{# horaires programmés}}"</string>
     <string name="zen_mode_settings_title" msgid="682676757791334259">"Ne pas déranger"</string>
     <string name="zen_modes_list_title" msgid="4796033710444068729">"Modes"</string>
-    <string name="zen_modes_list_intro" msgid="1795379595115088972">"Réduisez les distractions et prenez le contrôle de votre attention à l\'aide des modes pour le sommeil, le travail, la conduite et tout ce qu\'il y a entre les deux."</string>
+    <string name="zen_modes_list_intro" msgid="1795379595115088972">"Réduisez les distractions et prenez le contrôle de votre attention à l\'aide des modes pour le sommeil, le travail, la conduite et tout le reste."</string>
     <string name="zen_modes_add_mode" msgid="5926457160307593664">"Créer votre propre mode"</string>
     <string name="zen_mode_settings_summary" msgid="6040862775514495191">"Recevez uniquement les notifications des personnes et des applis importantes"</string>
     <string name="zen_mode_select_schedule" msgid="663163931596092952">"Définir un horaire"</string>
@@ -3831,10 +3831,10 @@
     <string name="zen_mode_alarms" msgid="5989343060100771099">"Alarmes"</string>
     <string name="zen_mode_alarms_summary" msgid="3388679177457223967">"Des minuteries, des alarmes, des systèmes de sécurité et d\'autres applis"</string>
     <string name="zen_mode_alarms_list" msgid="334782233067365405">"alarmes"</string>
-    <string name="zen_mode_alarms_list_first" msgid="2780418316613576610">"Alarmes"</string>
+    <string name="zen_mode_alarms_list_first" msgid="2780418316613576610">"Les alarmes"</string>
     <string name="zen_mode_media" msgid="885017672250984735">"Sons des éléments multimédias"</string>
     <string name="zen_mode_media_summary" msgid="7174081803853351461">"Sons des vidéos, des jeux et d\'autres éléments multimédias"</string>
-    <string name="zen_mode_media_list" msgid="2006413476596092020">"média"</string>
+    <string name="zen_mode_media_list" msgid="2006413476596092020">"le contenu multimédia"</string>
     <string name="zen_mode_media_list_first" msgid="7824427062528618442">"Éléments multimédias"</string>
     <string name="zen_mode_system" msgid="7301665021634204942">"Sons des touches"</string>
     <string name="zen_mode_system_summary" msgid="7225581762792177522">"Sons du clavier et des autres boutons"</string>
@@ -5021,7 +5021,7 @@
     <string name="lockscreen_privacy_qr_code_scanner_summary" msgid="4577409244972250235">"Autorisez l\'accès au lecteur de code QR à partir de l\'écran verrouillé"</string>
     <string name="lockscreen_privacy_controls_setting_toggle" msgid="7445725343949588613">"Afficher les commandes des appareils"</string>
     <string name="lockscreen_privacy_controls_summary" msgid="7522918441738915364">"À partir de l\'écran de verrouillage"</string>
-    <string name="lockscreen_trivial_controls_setting_toggle" msgid="2174300719855112358">"Utiliser les Commandes de l\'appareil"</string>
+    <string name="lockscreen_trivial_controls_setting_toggle" msgid="2174300719855112358">"Utiliser les commandes de l\'appareil"</string>
     <string name="lockscreen_trivial_disabled_controls_summary" msgid="7593626010580689155">"Pour les utiliser, activez d\'abord « Afficher les commandes de l\'appareil »"</string>
     <string name="lockscreen_double_line_clock_summary" msgid="4109235686687860393">"La taille de l\'horloge varie en fonction du contenu de l\'écran de verrouillage"</string>
     <string name="lockscreen_double_line_clock_setting_toggle" msgid="802271087416091548">"Horloge dynamique"</string>

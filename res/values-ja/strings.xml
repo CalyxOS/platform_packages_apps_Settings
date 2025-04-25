@@ -5435,5 +5435,5 @@
     <string name="audio_streams_main_page_password_dialog_cannot_edit" msgid="9020898619297520153">"共有中はパスワードを編集できません。パスワードを変更するには、まず音声の共有を OFF にしてください。"</string>
     <string name="audio_streams_qr_code_scanner_label" msgid="8799703301071378034">"QR コードスキャナ"</string>
     <string name="audio_streams_qr_code_help_with_link" msgid="5542328067190486479"><annotation id="link">"ご不明な点がある場合"</annotation></string>
-    <string name="homepage_search" msgid="6759334912284663559">"検索設定"</string>
+    <string name="homepage_search" msgid="6759334912284663559">"設定を検索"</string>
 </resources>

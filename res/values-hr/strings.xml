@@ -3691,7 +3691,7 @@
     <string name="notif_listener_more_settings" msgid="1348409392307208921">"Više postavki"</string>
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"Više postavki dostupno je unutar aplikacije"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Postupno stišavanje obavijesti"</string>
-    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Postupno stišavanje obavijesti"</string>
+    <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Postupno stišaj obavijesti"</string>
     <string name="notification_polite_description" msgid="5497748284893832854">"Ako u kratkom vremenskom razdoblju primite velik broj obavijesti, uređaj će smanjiti glasnoću i minimizirati upozorenja u trajanju do dvije minute. To ne utječe na pozive, alarme i prioritetne razgovore. \n\nObavijesti primljene tijekom stišavanja mogu se pronaći tako da povučete prstom prema dolje s vrha zaslona."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Primijeni na poslovne profile"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Primjenjuje se na aplikacije poslovnog profila"</string>
@@ -4379,7 +4379,7 @@
     <string name="dark_theme_slice_title" msgid="4684222119481114062">"Isprobajte Tamnu temu"</string>
     <string name="dark_theme_slice_subtitle" msgid="5555724345330434268">"Pomaže produljiti trajanje baterije"</string>
     <string name="quick_settings_developer_tiles" msgid="7336007844525766623">"Pločice brzih postavki za razvojne programere"</string>
-    <string name="adb_authorization_timeout_title" msgid="6996844506783749754">"Onemogući vrijeme čekanja za autorizacije za adb"</string>
+    <string name="adb_authorization_timeout_title" msgid="6996844506783749754">"Onemogući istek vremena za autorizaciju ADB-a"</string>
     <string name="adb_authorization_timeout_summary" msgid="409931540424019778">"Onemogućite automatski opoziv autorizacija za adb za sustave koji se ne povežu u zadanom razdoblju (sedam dana) ili korisnički konfiguriranom razdoblju (najmanje jedan dan)."</string>
     <string name="sensors_off_quick_settings_title" msgid="8472151847125917167">"Senzori su isključeni"</string>
     <string name="managed_profile_settings_title" msgid="3400923723423564217">"Postavke poslovnog profila"</string>
@@ -4908,7 +4908,7 @@
     <string name="network_connection_errorstate_dialog_message" msgid="3360714322047603239">"Došlo je do pogreške. Aplikacija je otkazala zahtjev za odabir uređaja."</string>
     <string name="network_connection_connect_successful" msgid="2587314077675642476">"Povezivanje je uspjelo"</string>
     <string name="network_connection_connect_failure" msgid="6803313816657494319">"Povezivanje nije uspjelo"</string>
-    <string name="network_connection_request_dialog_showall" msgid="6392059758456994944">"Pokaži sve"</string>
+    <string name="network_connection_request_dialog_showall" msgid="6392059758456994944">"Prikaži sve"</string>
     <string name="network_connection_searching_message" msgid="8521819623516926482">"Traženje uređaja…"</string>
     <string name="network_connection_connecting_message" msgid="433189540877274889">"Povezivanje s uređajem…"</string>
     <string name="bluetooth_left_name" msgid="7440064067910080502">"Lijevo"</string>
@@ -5429,7 +5429,7 @@
     <string name="audio_streams_main_page_device_title" msgid="2635744035523908253">"Vaš audiouređaj"</string>
     <string name="audio_streams_main_page_no_device_summary" msgid="2936000845397406389">"Poveži kompatibilne slušalice"</string>
     <string name="audio_streams_main_page_scan_section_title" msgid="2778235929304061163">"Audiostreamovi u blizini"</string>
-    <string name="audio_streams_main_page_scan_qr_code_title" msgid="8337270277392468895">"Skeniranje QR koda"</string>
+    <string name="audio_streams_main_page_scan_qr_code_title" msgid="8337270277392468895">"Skenirajte QR kod"</string>
     <string name="audio_streams_main_page_scan_qr_code_summary" msgid="1991792283368249499">"Skenirajte QR kôd streama i počnite slušati"</string>
     <string name="audio_streams_main_page_password_dialog_join_button" msgid="2967747276379153408">"Slušajte stream"</string>
     <string name="audio_streams_main_page_qr_code_scanner_summary" msgid="5312980105735143360">"Skenirajte QR kôd audiostreama da biste slušali s uređajem <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>

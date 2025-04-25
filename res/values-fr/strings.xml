@@ -181,8 +181,8 @@
     <string name="desc_app_locale_disclaimer" msgid="5295933110644789052">"La langue peut différer de celles disponibles dans l\'appli. Certaines applis ne sont pas compatibles avec ce paramètre."</string>
     <string name="desc_app_locale_selection_supported" msgid="6744909281573556379">"Définissez la langue pour chaque appli."</string>
     <string name="desc_introduction_of_language_picker" msgid="4012265379885200083">"Votre appareil, les applis et les sites Web utilisent la première langue prise en charge de votre liste de langues préférées.\n\nDe nombreuses applis se baseront également sur la région de votre langue préférée pour mettre en forme les dates, les nombres et les unités. Pour modifier votre région, ajoutez une langue, puis sélectionnez votre région préférée."</string>
-    <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"Pour sélectionner une langue pour chaque appli, accédez aux paramètres de langue de cette appli."</string>
-    <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"En savoir plus sur les langues des applis"</string>
+    <string name="desc_notice_of_language_picker" msgid="3449290526457925447">"Pour sélectionner une langue pour chaque application, accédez aux paramètres de langue de cette application."</string>
+    <string name="desc_locale_helper_footer_general" msgid="6112153921151780303">"En savoir plus sur les langues des applications"</string>
     <string name="title_change_system_locale" msgid="8589844586256566951">"Sélectionner %s comme langue du système ?"</string>
     <string name="title_system_locale_addition" msgid="8218683660751479466">"Ajouter %s aux langues préférées ?"</string>
     <string name="desc_system_locale_addition" msgid="3409917362651596070">"Cela permet aux applis et sites Web de savoir que vous préférez aussi cette langue."</string>
@@ -3692,7 +3692,7 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"D\'autres paramètres sont disponibles dans l\'appli"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"Limitation des notifications"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Utiliser la limitation des notifications"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"Si vous recevez de nombreuses notifications en peu de temps, votre appareil baisse le volume et minimise les alertes pendant 2 minutes maximum. Les appels, les alarmes et les conversations prioritaires ne sont pas affectés. \n\nLes notifications reçues pendant la limitation sont accessibles en faisant glisser votre doigt du haut de l\'écran vers le bas."</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"Si vous recevez beaucoup de notifications en peu de temps, votre appareil réduit le volume et les alertes pendant 2 minutes maximum. Les appels, les alarmes et les conversations prioritaires ne sont pas affectés. \n\nLes notifications reçues pendant la limitation sont accessibles en faisant glisser votre doigt du haut de l\'écran vers le bas."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Appliquer aux profils professionnels"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"Appliquer aux applis des profils professionnels"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Services d\'assistance RV"</string>

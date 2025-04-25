@@ -559,7 +559,7 @@
     <string name="privacy_header" msgid="5526002421324257007">"निजता"</string>
     <string name="work_profile_category_header" msgid="85707750968948517">"वर्क प्रोफ़ाइल"</string>
     <string name="private_space_title" msgid="1752064212078238723">"प्राइवेट स्पेस"</string>
-    <string name="private_space_summary" msgid="2274405892301976238">"निजी ऐप्लिकेशन को लॉक करके और छिपाकर रखें"</string>
+    <string name="private_space_summary" msgid="2274405892301976238">"यहां निजी ऐप्लिकेशन को लॉक करके और छिपाकर रखा जाता है"</string>
     <string name="private_space_description" msgid="4059594203775816136">"निजी ऐप्लिकेशन ऐसी जगह पर रखें जहां आप उन्हें लॉक कर सकें या छिपा सकें"</string>
     <string name="private_space_lock_title" msgid="7230836881433350526">"प्राइवेट स्पेस के लिए लॉक"</string>
     <string name="private_space_one_lock_summary" msgid="2106513606571219068">"डिवाइस की तरह ही, प्राइवेट स्पेस को अनलॉक किया जा सकता है या कोई दूसरा लॉक सेट किया जा सकता है"</string>
@@ -2858,7 +2858,7 @@
     <string name="background_data_summary" msgid="6572245922513522466">"ऐप्लिकेशन किसी भी समय डेटा सिंक कर सकते हैं, भेज और पा सकते हैं"</string>
     <string name="background_data_dialog_title" msgid="1692005302993229867">"पृष्ठभू. डेटा अक्षम करें?"</string>
     <string name="background_data_dialog_message" msgid="7760280837612824670">"बैकग्राउंड डेटा को बंद करने से बैटरी ज़्यादा चलती है और डेटा कम खर्च होता है. हो सकता है कि कुछ ऐप अब भी बैकग्राउंड में डेटा इस्तेमाल कर रहे हों."</string>
-    <string name="sync_enabled" msgid="5794103781356455043">"समन्वयन चालू है"</string>
+    <string name="sync_enabled" msgid="5794103781356455043">"सिंक करने की सेटिंग चालू है"</string>
     <string name="sync_disabled" msgid="1636223106968593391">"सिंक बंद है"</string>
     <string name="sync_error" msgid="846923369794727644">"समन्वयन गड़बड़ी"</string>
     <string name="last_synced" msgid="1527008461298110443">"पिछली बार सिंक करने का समय: <xliff:g id="LAST_SYNC_TIME">%1$s</xliff:g>"</string>

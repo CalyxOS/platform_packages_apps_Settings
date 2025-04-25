@@ -2187,7 +2187,7 @@
     <string name="accessibility_tutorial_dialog_title_gesture_settings" msgid="6800684770875867559">"Usar gesto de accesibilidad"</string>
     <string name="accessibility_tutorial_dialog_message_button" msgid="8977286776192770246">"En la parte inferior de la pantalla, toca el botón de accesibilidad <xliff:g id="ACCESSIBILITY_ICON">%s</xliff:g> para usar esta función.\n\nPara cambiar de una función a otra, mantén pulsado ese botón."</string>
     <string name="accessibility_tutorial_dialog_message_floating_button" msgid="6631371483819355514">"Para usar esta función, toca el botón de accesibilidad de la pantalla"</string>
-    <string name="accessibility_tutorial_dialog_message_volume" msgid="3785791536286606664">"Para usar esta función, mantén pulsadas las dos teclas de volumen"</string>
+    <string name="accessibility_tutorial_dialog_message_volume" msgid="3785791536286606664">"Para usar esta función, mantén pulsadas las 2 teclas de volumen"</string>
     <string name="accessibility_tutorial_dialog_message_triple" msgid="5219991116201165146">"Para iniciar o detener la ampliación, toca tres veces en cualquier parte de la pantalla."</string>
     <string name="accessibility_tutorial_dialog_tripletap_instruction" msgid="7549293553589934">"Para iniciar o detener la ampliación, toca rápidamente la pantalla %1$d veces"</string>
     <string name="accessibility_tutorial_dialog_twofinger_doubletap_instruction" msgid="1007756360115974649">"Para iniciar o detener la ampliación, toca rápidamente la pantalla dos veces con %1$d dedos"</string>
@@ -3916,7 +3916,7 @@
     <string name="zen_mode_blurb_immersive" msgid="5884004861848687869">"Bloquea las distracciones o interrupciones de tu dispositivo para concentrarte"</string>
     <string name="zen_mode_blurb_theater" msgid="2999237960059524225">"Elimina todas las distracciones para un ambiente silencioso"</string>
     <string name="zen_mode_blurb_managed" msgid="5473921634985032149">"Personaliza las experiencias y los ajustes del dispositivo para diferentes usuarios"</string>
-    <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"Reduce las interrupciones al permitir que solo se pongan en contacto contigo las personas y aplicaciones importantes"</string>
+    <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"Reduce interrupciones al solo permitir que ciertas personas y aplicaciones importantes se pongan en contacto contigo."</string>
     <string name="zen_mode_inspiration_schedule_time" msgid="5596540503159096153">"Configura un modo que siga un horario regular"</string>
     <string name="zen_mode_inspiration_schedule_calendar" msgid="3678727180860212700">"Mantén tu dispositivo sincronizado con los eventos del día"</string>
     <string name="zen_mode_inspiration_bedtime" msgid="6294822414181670666">"Empieza el día con energía"</string>

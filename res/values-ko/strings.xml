@@ -416,7 +416,7 @@
     <string name="identity_check_lockout_error_title" msgid="7486409651908283892">"신원 확인이 사용 설정되어 있으며 본인 인증을 할 수 없습니다"</string>
     <string name="identity_check_lockout_error_description_1" msgid="4882147327291296884">"생체 인식 실패 횟수가 너무 많습니다. 기기를 잠갔다가 잠금 해제한 후 다시 시도하세요."</string>
     <string name="identity_check_lockout_error_two_factor_auth_description_1" msgid="8369894114882274736">"생체 인식 실패 횟수가 너무 많습니다. 다시 시도해 보세요."</string>
-    <string name="identity_check_lockout_error_description_2" msgid="5512321457771307067">"도난 방지 설정에서 신원 확인을 관리할 수 있습니다. 설정으로 이동하세요."</string>
+    <string name="identity_check_lockout_error_description_2" msgid="5512321457771307067">"도난 방지 설정에서 신원 확인을 관리할 수 있습니다. 설정으로 이동"</string>
     <string name="identity_check_general_error_title" msgid="5073929400896102674">"계속하려면 생체 인식 필요"</string>
     <string name="identity_check_general_error_description_1" msgid="5260846996256699095">"신원 확인이 사용 설정되어 있으며 생체 인식이 필요하지만 얼굴 또는 지문 센서를 사용할 수 없습니다.\n"<ul><li>"카메라가 켜져 있는지 확인한 후 다시 시도해 주세요."</li>\n<li>"Google 계정을 사용하여 신원 확인을 사용 중지할 수 있습니다."</li></ul></string>
     <string name="identity_check_biometric_error_cancel" msgid="3353689146211669291">"취소"</string>
@@ -567,7 +567,7 @@
     <string name="private_space_biometric_title" msgid="3934339826674553174">"얼굴 및 지문 잠금 해제"</string>
     <string name="private_space_fingerprint_title" msgid="5989254643211889931">"지문 잠금 해제"</string>
     <string name="private_space_face_title" msgid="3290402865367663079">"얼굴 인식 잠금 해제"</string>
-    <string name="private_space_biometric_summary" msgid="4403837276018724581">"탭하여 설정"</string>
+    <string name="private_space_biometric_summary" msgid="4403837276018724581">"설정하려면 탭하세요."</string>
     <string name="private_space_fingerprint_unlock_title" msgid="3614016453395789051">"비공개 스페이스용 지문 잠금 해제"</string>
     <string name="private_space_face_unlock_title" msgid="462248384776453613">"비공개 스페이스용 얼굴 인식 잠금 해제"</string>
     <string name="private_space_biometric_unlock_title" msgid="1978145237698659673">"비공개 스페이스용 얼굴 인식 및 지문 잠금 해제"</string>
@@ -1642,7 +1642,7 @@
     <string name="about_settings_summary" msgid="4831942939227432513">"법률 정보, 상태, 소프트웨어 버전 보기"</string>
     <string name="legal_information" msgid="7509900979811934843">"법률 정보"</string>
     <string name="manual" msgid="3651593989906084868">"수동"</string>
-    <string name="regulatory_labels" msgid="5960251403367154270">"규정 라벨"</string>
+    <string name="regulatory_labels" msgid="5960251403367154270">"규제 라벨"</string>
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"안전 및 규제 설명서"</string>
     <string name="copyright_title" msgid="83245306827757857">"저작권"</string>
     <string name="license_title" msgid="8745742085916617540">"라이선스"</string>
@@ -3804,7 +3804,7 @@
     <string name="zen_mode_from_no_conversations" msgid="3924593219855567165">"없음"</string>
     <string name="zen_mode_conversations_count" msgid="3199310723073707153">"{count,plural, =0{없음}=1{대화 1개}other{대화 #개}}"</string>
     <string name="zen_mode_people_calls_messages_section_title" msgid="6815202112413762206">"예외 대상"</string>
-    <string name="zen_mode_people_footer" msgid="7710707353004137431">"메시지 또는 전화 앱에서 나에게 알림을 전송할 수 없을 때에도 여기에서 선택한 사용자는 앱을 통해 나에게 연락할 수 있습니다."</string>
+    <string name="zen_mode_people_footer" msgid="7710707353004137431">"메시지 또는 전화 앱에서 나에게 알림을 전송할 수 없을 때에도 여기에서 선택한 사람은 이러한 앱을 통해 나에게 연락할 수 있습니다."</string>
     <string name="zen_mode_calls_title" msgid="2078578043677037740">"전화"</string>
     <string name="zen_mode_calls" msgid="7653245854493631095">"전화"</string>
     <string name="zen_mode_calls_list" msgid="5044730950895749093">"전화"</string>
@@ -5156,7 +5156,7 @@
     <string name="all_apps" msgid="3054120149509114789">"모든 앱"</string>
     <string name="request_manage_bluetooth_permission_dont_allow" msgid="8798061333407581300">"허용 안함"</string>
     <string name="uwb_settings_title" msgid="8578498712312002231">"초광대역(UWB)"</string>
-    <string name="uwb_settings_summary" msgid="3074271396764672268">"UWB를 지원하는 근처 기기의 상대적인 위치를 파악할 수 있도록 돕습니다."</string>
+    <string name="uwb_settings_summary" msgid="3074271396764672268">"UWB를 지원하는 주변 기기의 상대적인 위치를 파악하도록 돕습니다."</string>
     <string name="uwb_settings_summary_airplane_mode" msgid="1328864888135086484">"UWB를 사용하려면 비행기 모드를 사용 중지하세요."</string>
     <string name="uwb_settings_summary_no_uwb_regulatory" msgid="3465456428217979428">"현재 위치에서는 UWB를 사용할 수 없습니다."</string>
     <string name="thread_network_settings_title" msgid="4212301030523859220">"스레드"</string>

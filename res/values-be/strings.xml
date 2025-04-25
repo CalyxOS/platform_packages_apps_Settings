@@ -3965,7 +3965,7 @@
     <string name="opening_paragraph_delete_profile_unknown_company" msgid="2951348192319498135">"Гэты працоўны профіль знаходзіцца пад кіраваннем:"</string>
     <string name="managing_admin" msgid="2633920317425356619">"Пад кіраваннем <xliff:g id="ADMIN_APP_LABEL">%s</xliff:g>"</string>
     <string name="launch_by_default" msgid="892824422067985734">"Адкрываць стандартна"</string>
-    <string name="app_launch_open_domain_urls_title" msgid="4805388403977096285">"Адкрыць спасылкі, якія падтрымліваюцца"</string>
+    <string name="app_launch_open_domain_urls_title" msgid="4805388403977096285">"Адкрываць спасылкі, якія падтрымліваюцца"</string>
     <string name="app_launch_open_in_app" msgid="2208182888681699512">"У праграме"</string>
     <string name="app_launch_open_in_browser" msgid="766170191853009756">"У браўзеры"</string>
     <string name="app_launch_top_intro_message" msgid="9037324384325518290">"Выберыце, як гэта праграма будзе адкрываць вэб-спасылкі"</string>

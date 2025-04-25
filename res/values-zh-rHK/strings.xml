@@ -3118,7 +3118,7 @@
     <string name="extreme_threats_summary" msgid="3560742429496902008">"接收極嚴重的生命財產威脅警示"</string>
     <string name="severe_threats_title" msgid="8962959394373974324">"嚴重威脅"</string>
     <string name="severe_threats_summary" msgid="4982256198071601484">"接收嚴重的生命財產威脅警示"</string>
-    <string name="amber_alerts_title" msgid="5238275758191804575">"AMBER 安珀警報"</string>
+    <string name="amber_alerts_title" msgid="5238275758191804575">"安珀警示"</string>
     <string name="amber_alerts_summary" msgid="5755221775246075883">"接收兒童綁架相關公告"</string>
     <string name="repeat_title" msgid="8676570486899483606">"重複"</string>
     <string name="cell_broadcast_settings" msgid="2416980110093867199">"無線緊急警示"</string>

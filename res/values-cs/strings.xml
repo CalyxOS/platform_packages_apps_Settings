@@ -5437,5 +5437,5 @@
     <string name="audio_streams_main_page_password_dialog_cannot_edit" msgid="9020898619297520153">"Heslo nelze upravit během sdílení. Pokud chcete změnit heslo, nejdříve vypněte sdílení zvuku."</string>
     <string name="audio_streams_qr_code_scanner_label" msgid="8799703301071378034">"Čtečka QR kódů"</string>
     <string name="audio_streams_qr_code_help_with_link" msgid="5542328067190486479"><annotation id="link">"Potřebujete poradit?"</annotation></string>
-    <string name="homepage_search" msgid="6759334912284663559">"Vyhledávat v nastavení"</string>
+    <string name="homepage_search" msgid="6759334912284663559">"Vyhledat v nastavení"</string>
 </resources>

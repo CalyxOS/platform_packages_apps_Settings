@@ -1797,7 +1797,7 @@
     <string name="application_size_label" msgid="6407051020651716729">"גודל האפליקציה"</string>
     <string name="external_code_size_label" msgid="7375146402660973743">"‏אפליקציה של אחסון USB"</string>
     <string name="data_size_label" msgid="7814478940141255234">"נתוני משתמש"</string>
-    <string name="uninstall_text" msgid="315764653029060126">"הסרת התקנה"</string>
+    <string name="uninstall_text" msgid="315764653029060126">"הסרה"</string>
     <string name="uninstall_all_users_text" msgid="5924715251087176474">"להסרת התקנה עבור כל המשתמשים"</string>
     <string name="install_text" msgid="4558333621516996473">"התקנה"</string>
     <string name="disable_text" msgid="5146002260857428005">"השבתה"</string>
@@ -2207,10 +2207,10 @@
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture" msgid="8078659880723370597">"יש להחליק למעלה בעזרת שתי אצבעות"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture_talkback" msgid="7422753388389160524">"יש להחליק למעלה בעזרת שלוש אצבעות"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software" msgid="6505512764022389951">"לחצן הנגישות"</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_floating_button" msgid="6266489864614886247">"צריך להקיש על הלחצן הצף"</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_floating_button" msgid="6266489864614886247">"הקשה על הלחצן הצף"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_by_gesture" msgid="4775049370625630546">"תנועה להפעלת תכונות הנגישות"</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software" msgid="8315934725362849788">"צריך להקיש על לחצן הנגישות <xliff:g id="ACCESSIBILITY_ICON">%s</xliff:g> בחלק התחתון של המסך. כדי לעבור בין תכונות, צריך ללחוץ לחיצה ארוכה על לחצן הנגישות."</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_gesture" msgid="2081123009255579884">"{count,plural, =1{מחליקים למעלה מהחלק התחתון של המסך. כדי לעבור בין תכונות, מחליקים למעלה ומחזיקים.}one{מחליקים למעלה עם # אצבעות מהחלק התחתון של המסך. כדי לעבור בין תכונות, מחליקים למעלה עם # אצבעות ומחזיקים.}two{מחליקים למעלה עם # אצבעות מהחלק התחתון של המסך. כדי לעבור בין תכונות, מחליקים למעלה עם # אצבעות ומחזיקים.}other{מחליקים למעלה עם # אצבעות מהחלק התחתון של המסך. כדי לעבור בין תכונות, מחליקים למעלה עם # אצבעות ומחזיקים.}}"</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_gesture" msgid="2081123009255579884">"{count,plural, =1{החלקה למעלה מהחלק התחתון של המסך. כדי לעבור בין תכונות, החלקה למעלה והחזקת האצבעות.}one{החלקה למעלה עם # אצבעות מהחלק התחתון של המסך. כדי לעבור בין תכונות, החלקה למעלה עם # אצבעות והשארה שלהן.}two{החלקה למעלה עם # אצבעות מהחלק התחתון של המסך. כדי לעבור בין תכונות, החלקה למעלה עם # אצבעות והשארה שלהן.}other{החלקה למעלה עם # אצבעות מהחלק התחתון של המסך. כדי לעבור בין תכונות, החלקה למעלה עם # אצבעות והשארה שלהן.}}"</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software_floating" msgid="4459254227203203324"><annotation id="link">"אפשרויות נוספות"</annotation></string>
     <string name="footer_learn_more_content_description" msgid="8843798273152131341">"מידע נוסף על <xliff:g id="SERVICE">%1$s</xliff:g>"</string>
     <string name="accessibility_shortcut_edit_dialog_title_quick_settings" msgid="140959604014177304">"הגדרות מהירות"</string>
@@ -2219,7 +2219,7 @@
     <string name="accessibility_feature_shortcut_setting_summary_quick_settings" msgid="7006526933552889373">"הגדרות מהירות"</string>
     <string name="accessibility_shortcut_edit_dialog_title_hardware" msgid="844089763968552142">"לחצני עוצמת הקול"</string>
     <string name="accessibility_shortcut_hardware_keyword" msgid="2483152542320987022">"לחצני עוצמת הקול"</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_hardware" msgid="2503134386397991634">"יש ללחוץ לחיצה ארוכה על שני הלחצנים של עוצמת הקול"</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_hardware" msgid="2503134386397991634">"לחיצה ארוכה על שני הלחצנים של עוצמת הקול"</string>
     <string name="accessibility_shortcut_edit_screen_title_two_finger_double_tap" msgid="8952595692906527694">"‏הקשה כפולה עם %1$d אצבעות"</string>
     <string name="accessibility_shortcut_edit_screen_summary_two_finger_double_tap" msgid="385404127425496362">"‏מקישים הקשה כפולה במהירות על המסך עם %1$d אצבעות"</string>
     <string name="accessibility_shortcut_edit_screen_title_triple_tap" msgid="3314488747597058942">"הקשה משולשת"</string>
@@ -2264,7 +2264,7 @@
     <string name="accessibility_force_invert_title" msgid="5015366813138748407">"הגדרת עיצוב כהה לכל האפליקציות"</string>
     <string name="accessibility_force_invert_summary" msgid="1882329675950887268">"רלוונטי לאפליקציות ללא עיצוב כהה משלהן. בחלק מהאפליקציות עשויות להיות בעיות תצוגה, כמו היפוך צבעים."</string>
     <string name="accessibility_disable_animations" msgid="2993529829457179058">"הסרת אנימציות"</string>
-    <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"הפחתת התנועה במסך"</string>
+    <string name="accessibility_disable_animations_summary" msgid="5828228669556554565">"יהיו פחות תנועות במסך"</string>
     <string name="accessibility_toggle_primary_mono_title" msgid="7587152099472946571">"אודיו במונו"</string>
     <string name="accessibility_toggle_primary_mono_summary" msgid="1935283927319407303">"שילוב ערוצים כאשר מפעילים אודיו"</string>
     <string name="accessibility_toggle_primary_balance_title" msgid="7332275200153366714">"איזון אודיו"</string>
@@ -3692,7 +3692,7 @@
     <string name="notif_listener_more_settings_desc" msgid="7995492074281663658">"הגדרות נוספות זמינות בתוך האפליקציה הזו"</string>
     <string name="notification_polite_title" msgid="6121016426991791557">"הפוגת התראות"</string>
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"שימוש בהפוגת התראות"</string>
-    <string name="notification_polite_description" msgid="5497748284893832854">"כשמתקבלות הרבה התראות בפרק זמן קצר, המכשיר ינמיך את עוצמת הקול ויצמצם את כמות ההתראות למשך עד שתי דקות. שיחות, התרעות ושיחות בעדיפות גבוהה לא מושפעות. \n\nניתן למצוא התראות שהתקבלו במהלך ההפוגה על ידי משיכה למטה מהחלק העליון של המסך."</string>
+    <string name="notification_polite_description" msgid="5497748284893832854">"אם קיבלת הרבה התראות תוך זמן קצר, המכשיר ינמיך את עוצמת הקול ויצמצם את ההפרעות למשך עד 2 דקות. ההפוגה לא חלה על שיחות, שעונים מעוררים ושיחות בעדיפות גבוהה. \n\nכדי למצוא את ההתראות שהתקבלו במהלך ההפוגה, מושכים למטה מראש המסך."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"הפעלה בפרופילי העבודה"</string>
     <string name="notification_polite_work_summary" msgid="5014189280132951378">"הפעלה באפליקציות של פרופיל העבודה"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"‏שירותי סיוע של VR"</string>
@@ -3818,7 +3818,7 @@
     <string name="zen_mode_messages_list" msgid="5431014101342361882">"הודעות"</string>
     <string name="zen_mode_messages_title" msgid="1777598523485334405">"הודעות"</string>
     <string name="zen_mode_messages_header" msgid="253721635061451577">"הודעות שיכולות להפריע"</string>
-    <string name="zen_mode_messages_footer" msgid="6002468050854126331">"כדי שבטוח יישמע צליל התראה כשייכנסו הודעות מורשות, צריך לוודא שהמכשיר נמצא במצב \'צלצול\'"</string>
+    <string name="zen_mode_messages_footer" msgid="6002468050854126331">"כדי שהמכשיר ישמיע צליל התראה כשמגיעות הודעות מורשות, צריך להעביר אותו למצב \'צלצול\'"</string>
     <string name="zen_mode_custom_messages_footer" msgid="7545180036949550830">"במצב \'<xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>\', הודעות נכנסות ייחסמו. ניתן לשנות את ההגדרות כדי לאפשר לחברים, לבני משפחה או לאנשי קשר אחרים ליצור איתך קשר."</string>
     <string name="zen_mode_all_messages_summary" msgid="3756267858343104554">"כל ההודעות יכולות להגיע אליך"</string>
     <string name="zen_mode_all_calls_summary" msgid="7337907849083824698">"כל השיחות יכולות להגיע אליך"</string>
@@ -3916,7 +3916,7 @@
     <string name="zen_mode_blurb_immersive" msgid="5884004861848687869">"חוסמים הסחות דעת והפרעות במכשיר ומתרכזים טוב יותר"</string>
     <string name="zen_mode_blurb_theater" msgid="2999237960059524225">"מסירים את כל הסחות דעת ונהנים מסביבה שקטה"</string>
     <string name="zen_mode_blurb_managed" msgid="5473921634985032149">"התאמה אישית של חווית המשתמש ושל ההגדרות במכשיר למשתמשים שונים"</string>
-    <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"מצמצמים הפרעות: אפשר לקבל התראות רק מאפליקציות מסוימות ומאנשים חשובים"</string>
+    <string name="zen_mode_blurb_generic" msgid="3041601339807075625">"פחות הסחות דעת: יתקבלו התראות רק מאפליקציות נבחרות ומאנשים חשובים"</string>
     <string name="zen_mode_inspiration_schedule_time" msgid="5596540503159096153">"הגדרת מצב עם לוח זמנים קבוע"</string>
     <string name="zen_mode_inspiration_schedule_calendar" msgid="3678727180860212700">"שמירה על סנכרון המכשיר עם האירועים של היום"</string>
     <string name="zen_mode_inspiration_bedtime" msgid="6294822414181670666">"מתעוררים עם תחושה שהכול מושלם"</string>
@@ -5345,7 +5345,7 @@
     <string name="audio_sharing_stream_name_title" msgid="8156859441897180940">"שם"</string>
     <string name="audio_sharing_stream_password_title" msgid="7026649168165764602">"סיסמה"</string>
     <string name="audio_sharing_stream_compatibility_title" msgid="5690947186724469918">"שיפור התאימות"</string>
-    <string name="audio_sharing_stream_compatibility_description" msgid="8170241188606110963">"ההגדרה הזו עוזרת למכשירים מסוימים, כמו מכשירי שמיעה, להתחבר על ידי הפחתת איכות האודיו"</string>
+    <string name="audio_sharing_stream_compatibility_description" msgid="8170241188606110963">"ההגדרה הזו מורידה את איכות האודיו כדי שמכשירים כמו מכשירי שמיעה יוכלו להתחבר"</string>
     <string name="audio_sharing_stream_compatibility_disabled_description" msgid="2586408353546825682">"ההגדרה הזו משביתה את שיתוף האודיו כדי להגדיר את התאימות"</string>
     <string name="audio_sharing_nearby_audio_title" msgid="4795438407040677177">"האזנה לאודיו בקרבת מקום"</string>
     <string name="audio_sharing_footer_description" msgid="4786942197840271680">"‏התכונה \'שיתוף אודיו\' תומכת ב-‎Auracast™‎"</string>

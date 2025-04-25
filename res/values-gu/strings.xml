@@ -1691,7 +1691,7 @@
     <string name="lockpassword_choose_your_pin_header_for_biometrics" msgid="9086039918921009380">"ચહેરા અથવા ફિંગરપ્રિન્ટનો ઉપયોગ કરવા માટે પિન સેટ કરો"</string>
     <string name="lockpassword_forgot_password" msgid="5730587692489737223">"તમારો પાસવર્ડ ભૂલી ગયાં?"</string>
     <string name="lockpassword_forgot_pattern" msgid="1196116549051927516">"તમારા પૅટર્નને ભૂલી ગયાં?"</string>
-    <string name="lockpassword_forgot_pin" msgid="7164232234705747672">"તમારો પિન ભૂલી ગયાં?"</string>
+    <string name="lockpassword_forgot_pin" msgid="7164232234705747672">"તમારો પિન ભૂલી ગયા?"</string>
     <string name="lockpassword_confirm_your_pattern_generic" msgid="7401165571170203743">"ચાલુ રાખવા માટે તમારી પૅટર્ન દોરો"</string>
     <string name="lockpassword_confirm_your_pin_generic" msgid="8990266101852808091">"ચાલુ રાખવા માટે તમારો પિન દાખલ કરો"</string>
     <string name="lockpassword_confirm_your_password_generic" msgid="8823867445451497224">"ચાલુ રાખવા માટે તમારો પાસવર્ડ દાખલ કરો"</string>

@@ -2528,7 +2528,7 @@
     <string name="manager_battery_usage_restricted_title" msgid="7702863764130323118">"పరిమితం చేయబడిన సెట్టింగ్‌లు"</string>
     <string name="manager_battery_usage_unrestricted_summary" msgid="6819279865465667692">"పరిమితులు పెట్టకుండా బ్యాటరీ వినియోగాన్ని బ్యాక్‌గ్రౌండ్‌లో అనుమతించండి. బహుశా ఎక్కువ బ్యాటరీని ఉపయోగించవచ్చు."</string>
     <string name="manager_battery_usage_optimized_summary" msgid="1332545476428039900">"మీ వినియోగం ఆధారంగా ఆప్టిమైజ్ చేయండి. చాలా యాప్‌ల కోసం సిఫార్సు చేయబడింది."</string>
-    <string name="manager_battery_usage_restricted_summary" msgid="8324695640704416905">"యాప్ బ్యాక్ గ్రౌండ్‌లో పని చేస్తున్నప్పుడు బ్యాటరీ వినియోగాన్ని పరిమితం చేయండి. యాప్ ఊహించిన విధంగా పని చేయకపోవచ్చు. నోటిఫికేషన్‌లు ఆలస్యం కావచ్చు."</string>
+    <string name="manager_battery_usage_restricted_summary" msgid="8324695640704416905">"యాప్, బ్యాక్ గ్రౌండ్‌లో పని చేస్తున్నప్పుడు బ్యాటరీ వినియోగాన్ని తగ్గించండి. ఇలా తగ్గించినప్పుడు, యాప్, ఆశించిన విధంగా పని చేయకపోవచ్చు. నోటిఫికేషన్‌లు కూడా ఆలస్యం అయ్యే అవకాశం ఉంది."</string>
     <string name="manager_battery_usage_footer" msgid="2635906573922553766">"ఒక యాప్‌ మీ బ్యాటరీని ఎలా వినియోగిస్తుందనే దానిపై దాని పనితీరు ప్రభావితం కావచ్చు."</string>
     <string name="manager_battery_usage_footer_limited" msgid="5180776148877306780">"ఈ యాప్‌నకు <xliff:g id="STATE">%1$s</xliff:g> బ్యాటరీ వినియోగం అవసరం."</string>
     <string name="manager_battery_usage_unrestricted_only" msgid="3646162131339418216">"అపరిమిత"</string>

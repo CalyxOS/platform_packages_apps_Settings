@@ -2207,7 +2207,7 @@
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture" msgid="8078659880723370597">"Pühkige kahe sõrmega üles"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture_talkback" msgid="7422753388389160524">"Pühkige kolme sõrmega üles"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software" msgid="6505512764022389951">"Juurdepääsetavuse nupp"</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_floating_button" msgid="6266489864614886247">"Puudutage hõljuvat nuppu"</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_floating_button" msgid="6266489864614886247">"Puudutage hõljuvat nuppu."</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_by_gesture" msgid="4775049370625630546">"Juurdepääsetavuse liigutus"</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software" msgid="8315934725362849788">"Puudutage ekraani allservas juurdepääsetavuse nuppu <xliff:g id="ACCESSIBILITY_ICON">%s</xliff:g>. Funktsioonide vahetamiseks puudutage ja hoidke juurdepääsetavuse nuppu."</string>
     <string name="accessibility_shortcut_edit_dialog_summary_gesture" msgid="2081123009255579884">"{count,plural, =1{Tõmmake sõrmega ekraani allservast üles. Funktsioonide vahetamiseks tõmmake sõrmega üles ja hoidke sõrme ekraanil.}other{Tõmmake # sõrmega ekraani allservast üles. Funktsioonide vahetamiseks tõmmake # sõrmega üles ja hoidke sõrmi ekraanil.}}"</string>
@@ -2219,7 +2219,7 @@
     <string name="accessibility_feature_shortcut_setting_summary_quick_settings" msgid="7006526933552889373">"Kiirseaded"</string>
     <string name="accessibility_shortcut_edit_dialog_title_hardware" msgid="844089763968552142">"Helitugevuse klahvid"</string>
     <string name="accessibility_shortcut_hardware_keyword" msgid="2483152542320987022">"helitugevuse klahvid"</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_hardware" msgid="2503134386397991634">"Hoidke all mõlemat helitugevuse klahvi"</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_hardware" msgid="2503134386397991634">"Hoidke all mõlemat helitugevuse klahvi."</string>
     <string name="accessibility_shortcut_edit_screen_title_two_finger_double_tap" msgid="8952595692906527694">"%1$d sõrmega topeltpuudutus"</string>
     <string name="accessibility_shortcut_edit_screen_summary_two_finger_double_tap" msgid="385404127425496362">"Puudutage ekraani %1$d sõrmega kiiresti kaks korda"</string>
     <string name="accessibility_shortcut_edit_screen_title_triple_tap" msgid="3314488747597058942">"Kolmikpuudutus"</string>
@@ -5129,7 +5129,7 @@
     <string name="wireless_debugging_main_switch_title" msgid="8463499572781441719">"Juhtmevaba silumise kasutamine"</string>
     <string name="graphics_driver_main_switch_title" msgid="6125172901855813790">"Graafikadraiveri eelistuste kasutamine"</string>
     <string name="night_light_main_switch_title" msgid="3428298022467805219">"Kasuta öövalgust"</string>
-    <string name="nfc_main_switch_title" msgid="6295839988954817432">"NFC kasutamine"</string>
+    <string name="nfc_main_switch_title" msgid="6295839988954817432">"Kasuta NFC-d"</string>
     <string name="adaptive_brightness_main_switch_title" msgid="2681666805191642737">"Kasuta kohanduvat eredust"</string>
     <string name="wifi_calling_main_switch_title" msgid="4070224008346815634">"WiFi-kõnede kasutamine"</string>
     <string name="default_see_all_apps_title" msgid="7481113230662612178">"Kuva kõik rakendused"</string>

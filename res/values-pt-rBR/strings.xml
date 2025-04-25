@@ -2193,7 +2193,7 @@
     <string name="accessibility_tutorial_dialog_twofinger_doubletap_instruction" msgid="1007756360115974649">"Para iniciar ou interromper a ampliação, toque duas vezes rapidamente com %1$d dedos na tela"</string>
     <string name="accessibility_tutorial_dialog_message_quick_setting" msgid="3715446725334547432">"{count,plural, =1{Para usar esse recurso, deslize de cima para baixo na tela. Depois, encontre o bloco {featureName}.}one{Para usar esse recurso, deslize com # dedo de cima para baixo na tela. Depois, encontre o bloco {featureName}.}other{Para usar esse recurso, deslize com # dedos de cima para baixo na tela. Depois, encontre o bloco {featureName}.}}"</string>
     <string name="accessibility_tutorial_dialog_shortcut_unavailable_in_suw" msgid="3847728530771929959">"Esse atalho vai estar disponível depois que você concluir a configuração do dispositivo."</string>
-    <string name="accessibility_tutorial_dialog_message_gesture" msgid="4148062210755434854">"Para usar esse recurso, deslize dois dedos na rela, de baixo para cima.\n\nPara mudar de recurso, deslize dois dedos de baixo para cima da tela e segure."</string>
+    <string name="accessibility_tutorial_dialog_message_gesture" msgid="4148062210755434854">"Para usar esse recurso, deslize dois dedos na tela, de baixo para cima.\n\nPara mudar de recurso, deslize dois dedos de baixo para cima da tela e segure."</string>
     <string name="accessibility_tutorial_dialog_gesture_shortcut_instruction" msgid="7349950768250852308">"{count,plural, =1{Para usar esse recurso, deslize de baixo para cima na tela}one{Para usar esse recurso, deslize com # dedo de baixo para cima na tela}other{Para usar esse recurso, deslize com # dedos de baixo para cima na tela}}"</string>
     <string name="accessibility_tutorial_dialog_message_gesture_talkback" msgid="8142847782708562793">"Para usar esse recurso, deslize de baixo para cima na tela com três dedos.\n\nPara mudar de recurso, deslize de baixo para cima com três dedos, sem soltar."</string>
     <string name="accessibility_tutorial_dialog_message_gesture_settings" msgid="40769674586981429">"Para usar um recurso de acessibilidade, deslize de baixo para cima na tela com dois dedos.\n\nPara alternar entre recursos, deslize de baixo para cima com dois dedos, sem soltar."</string>
@@ -2600,7 +2600,7 @@
     <string name="power_wifi" msgid="4614007837288250325">"Wi-Fi"</string>
     <string name="power_bluetooth" msgid="5085900180846238196">"Bluetooth"</string>
     <string name="power_cell" msgid="7793805106954398186">"Rede móvel"</string>
-    <string name="power_phone" msgid="2768396619208561670">"Chamadas de voz"</string>
+    <string name="power_phone" msgid="2768396619208561670">"Ligações"</string>
     <string name="battery_screen_usage" msgid="90008745183187461">"Uso da tela: <xliff:g id="TIME">^1</xliff:g>"</string>
     <string name="battery_used_by" msgid="6457305178016189330">"<xliff:g id="PERCENT">%1$s</xliff:g> de uso por <xliff:g id="APP">%2$s</xliff:g>"</string>
     <string name="battery_overall_usage" msgid="8940140259734182014">"<xliff:g id="PERCENT">%1$s</xliff:g> da bateria total"</string>
@@ -4917,7 +4917,7 @@
     <string name="bluetooth_header_battery_content_description" msgid="3804237436331504879">"Bateria"</string>
     <string name="settings_panel_title" msgid="346363079938069215">"Painel de configurações"</string>
     <string name="enable_desktop_mode" msgid="5644818402534562302">"Ativar janelas de forma livre"</string>
-    <string name="enable_desktop_mode_on_secondary_display" msgid="2609567824593768780">"Permitir janelas de forma livre na tela secundária"</string>
+    <string name="enable_desktop_mode_on_secondary_display" msgid="2609567824593768780">"Ativar janelas de forma livre na tela secundária"</string>
     <string name="enable_non_resizable_multi_window" msgid="6832903754625404477">"Ativar recursos não redimensionáveis em várias janelas"</string>
     <string name="enable_non_resizable_multi_window_summary" msgid="3275763753261901999">"Permitir que apps não redimensionáveis sejam usados em várias janelas"</string>
     <string name="hwui_force_dark_title" msgid="4256904905631994219">"Manter o recurso Forçar modo escuro ativado"</string>

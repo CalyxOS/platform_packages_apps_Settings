@@ -4660,7 +4660,7 @@
     <string name="my_device_info_account_preference_summary" msgid="3510582677937510545">"%d konti"</string>
     <string name="my_device_info_device_name_preference_title" msgid="8053298498727237971">"Enhedens navn"</string>
     <string name="my_device_info_basic_info_category_title" msgid="381963187269356548">"Grundlæggende oplysninger"</string>
-    <string name="my_device_info_legal_category_title" msgid="7732792841537995127">"Juridiske og lovmæssige oplysninger"</string>
+    <string name="my_device_info_legal_category_title" msgid="7732792841537995127">"Juridiske og regulatoriske oplysninger"</string>
     <string name="my_device_info_device_details_category_title" msgid="4848438695638348680">"Enhedsoplysninger"</string>
     <string name="my_device_info_device_identifiers_category_title" msgid="2197063484127704153">"Enheds-id\'er"</string>
     <string name="change_wifi_state_title" msgid="5629648102837821525">"Styring af Wi-Fi"</string>

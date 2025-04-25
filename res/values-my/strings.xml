@@ -3115,9 +3115,9 @@
     <string name="user_account_title" msgid="6389636876210834864">"မာတိကာ အကောင့်"</string>
     <string name="user_picture_title" msgid="7176437495107563321">"ဓာတ်ပုံ အမှတ်သညာ"</string>
     <string name="extreme_threats_title" msgid="1098958631519213856">"လွန်ကဲ အန္တရာယ်များ"</string>
-    <string name="extreme_threats_summary" msgid="3560742429496902008">"အသက် နှင့် အိမ်မြေများ အတွက် လွန်ကဲသည့် အန္တရာယ်များကို ရယူရန်"</string>
-    <string name="severe_threats_title" msgid="8962959394373974324">"လွန်ကဲသည့် အန္တရာယ်များ"</string>
-    <string name="severe_threats_summary" msgid="4982256198071601484">"အသက် နှင့် အိမ်မြေများ အတွက် လွန်ကဲသည့် အန္တရာယ်များကို ရယူရန်"</string>
+    <string name="extreme_threats_summary" msgid="3560742429496902008">"အသက်အိုးအိမ်အတွက် လွန်ကဲသည့်အန္တရာယ် သတိပေးချက်များ ရယူရန်"</string>
+    <string name="severe_threats_title" msgid="8962959394373974324">"ကြီးမားသော အန္တရာယ်များ"</string>
+    <string name="severe_threats_summary" msgid="4982256198071601484">"အသက်အိုးအိမ်အတွက် ကြီးမားသော အန္တရာယ်သတိပေးချက် ရယူရန်"</string>
     <string name="amber_alerts_title" msgid="5238275758191804575">"AMBER သတိပေးချက်"</string>
     <string name="amber_alerts_summary" msgid="5755221775246075883">"ကလေး လူခိုးမှုများ ဆိုင်ရာ သတင်းလွှာကို ရယူရန်"</string>
     <string name="repeat_title" msgid="8676570486899483606">"ထပ်လုပ်ရန်"</string>
@@ -4411,7 +4411,7 @@
     <string name="keywords_system_navigation" msgid="3131782378486554934">"စနစ် လမ်းညွှန်ခြင်း၊ ခလုတ် ၂ ခု ဖြင့် လမ်းညွှန်ခြင်း၊ ခလုတ် ၃ ခု ဖြင့် လမ်းညွှန်ခြင်း၊ လက်ဟန်ဖြင့် လမ်းညွှန်ခြင်း၊ ပွတ်ဆွဲခြင်း"</string>
     <string name="assistant_gesture_category_title" msgid="2478251256585807920">"ဒစ်ဂျစ်တယ်အထောက်အကူ"</string>
     <string name="assistant_corner_gesture_title" msgid="1895061522687002106">"Assistant ကို ညွှန်ကြားရန် ပွတ်ဆွဲခြင်း"</string>
-    <string name="assistant_corner_gesture_summary" msgid="5012534700233017955">"ဒစ်ဂျစ်တယ် Assistant အက်ပ်ကို ညွှန်ကြားရန် အောက်ခြေထောင့်မှ အပေါ်သို့ ပွတ်ဆွဲပါ"</string>
+    <string name="assistant_corner_gesture_summary" msgid="5012534700233017955">"ဒစ်ဂျစ်တယ် အထောက်အကူ အက်ပ်ကို ညွှန်ကြားရန် အောက်ခြေထောင့်မှ အပေါ်သို့ ပွတ်ဆွဲပါ"</string>
     <string name="assistant_long_press_home_gesture_title" msgid="4865972278738178753">"Assistant အတွက် ပင်မခလုတ် နှိပ်ထားခြင်း"</string>
     <string name="assistant_long_press_home_gesture_summary" msgid="592882226105081447">"ဒစ်ဂျစ်တယ်အထောက်အကူ အက်ပ်ကို ညွှန်ကြားရန် ပင်မခလုတ် နှိပ်ထားပါ။"</string>
     <string name="low_label" msgid="6525629096999711220">"နိမ့်"</string>

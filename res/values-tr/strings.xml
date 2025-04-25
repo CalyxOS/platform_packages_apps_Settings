@@ -3803,7 +3803,7 @@
     <string name="zen_mode_from_important_conversations_second" msgid="7588299891972136599">"öncelikli görüşmeler"</string>
     <string name="zen_mode_from_no_conversations" msgid="3924593219855567165">"Yok"</string>
     <string name="zen_mode_conversations_count" msgid="3199310723073707153">"{count,plural, =0{Yok}=1{1 görüşme}other{# görüşme}}"</string>
-    <string name="zen_mode_people_calls_messages_section_title" msgid="6815202112413762206">"Kimler kesintiye neden olabilir?"</string>
+    <string name="zen_mode_people_calls_messages_section_title" msgid="6815202112413762206">"Kimler rahatsız edebilir?"</string>
     <string name="zen_mode_people_footer" msgid="7710707353004137431">"Mesajlaşma veya arama uygulamaları size bildirim gönderemese bile burada seçtiğiniz kişiler bu uygulamalar üzerinden size erişebilirler"</string>
     <string name="zen_mode_calls_title" msgid="2078578043677037740">"Aramalar"</string>
     <string name="zen_mode_calls" msgid="7653245854493631095">"Aramalar"</string>
@@ -3818,7 +3818,7 @@
     <string name="zen_mode_messages_list" msgid="5431014101342361882">"mesajlar"</string>
     <string name="zen_mode_messages_title" msgid="1777598523485334405">"Mesajlar"</string>
     <string name="zen_mode_messages_header" msgid="253721635061451577">"Kesintiye neden olabilecek mesajlar"</string>
-    <string name="zen_mode_messages_footer" msgid="6002468050854126331">"İzin verilen mesajların ses çıkardığından emin olmak için cihazınızın çalmaya ayarlı olduğundan emin olun"</string>
+    <string name="zen_mode_messages_footer" msgid="6002468050854126331">"İzin verilen mesajlardan sesli uyarı alabilmek için için cihazınızın zil sesi çıkaracak şekilde ayarlı olduğundan emin olun"</string>
     <string name="zen_mode_custom_messages_footer" msgid="7545180036949550830">"\"<xliff:g id="SCHEDULE_NAME">%1$s</xliff:g>\" için gelen mesajlar engelleniyor. Arkadaşlarınız, aileniz veya diğer kişilerin size ulaşmasına izin vermek için ayarları düzenleyebilirsiniz."</string>
     <string name="zen_mode_all_messages_summary" msgid="3756267858343104554">"Tüm mesajlar size ulaşabilir"</string>
     <string name="zen_mode_all_calls_summary" msgid="7337907849083824698">"Tüm aramalar size ulaşabilir"</string>

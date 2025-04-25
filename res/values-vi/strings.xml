@@ -3367,7 +3367,7 @@
     <string name="spatial_summary_on_one" msgid="6239933399496282994">"Đang bật/<xliff:g id="OUTPUT_DEVICE">%1$s</xliff:g>"</string>
     <string name="spatial_summary_on_two" msgid="4526919818832483883">"Đang bật/<xliff:g id="OUTPUT_DEVICE_0">%1$s</xliff:g> và <xliff:g id="OUTPUT_DEVICE_1">%2$s</xliff:g>"</string>
     <string name="spatial_audio_footer_title" msgid="8775010547623606088">"Bạn cũng có thể bật chế độ Âm thanh không gian cho các thiết bị Bluetooth."</string>
-    <string name="spatial_audio_footer_learn_more_text" msgid="3826811708094366301">"Cài đặt thiết bị được kết nối"</string>
+    <string name="spatial_audio_footer_learn_more_text" msgid="3826811708094366301">"Cài đặt thiết bị đã kết nối"</string>
     <string name="spatial_audio_multi_toggle_title" msgid="6175786400035541273">"Âm thanh không gian"</string>
     <string name="spatial_audio_multi_toggle_off" msgid="2086359413991193164">"Đang tắt"</string>
     <string name="spatial_audio_multi_toggle_on" msgid="4204808183659033003">"Đã khắc phục"</string>
@@ -3744,7 +3744,7 @@
     <string name="no_channels" msgid="4716199078612071915">"Ứng dụng này chưa đăng bất kỳ thông báo nào"</string>
     <string name="no_recent_channels" msgid="5068574296267584043">"Hiện các danh mục không dùng đến"</string>
     <string name="app_settings_link" msgid="6725453466705333311">"Chế độ cài đặt bổ sung trong ứng dụng"</string>
-    <string name="show_unused_channels" msgid="4956292847964439078">"Hiện các danh mục không dùng"</string>
+    <string name="show_unused_channels" msgid="4956292847964439078">"Hiện các danh mục không dùng đến"</string>
     <string name="hide_unused_channels" msgid="2019739275175707170">"Ẩn các danh mục không dùng"</string>
     <string name="deleted_channels" msgid="8489800381509312964">"{count,plural, =1{# danh mục bị xoá}other{# danh mục bị xoá}}"</string>
     <string name="app_notification_block_title" msgid="3880322745749900296">"Chặn tất cả"</string>

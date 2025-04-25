@@ -706,7 +706,7 @@
     <string name="face_unlock_set_unlock_pin" msgid="9034912683791069602">"PIN • ଫେସ"</string>
     <string name="face_unlock_set_unlock_password" msgid="5874950853246424756">"ପାସୱାର୍ଡ • ଫେସ"</string>
     <string name="face_unlock_skip_face" msgid="189695556498300008">"ଫେସ୍ ଅନଲକ୍ ବିନା ଜାରି ରଖନ୍ତୁ"</string>
-    <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"ଟିପଚିହ୍ନ କିମ୍ବା ଫେସ ବିନା ଜାରି ରଖନ୍ତୁ"</string>
+    <string name="biometrics_unlock_skip_biometrics" msgid="7399882488272450182">"ଫିଙ୍ଗରପ୍ରିଣ୍ଟ କିମ୍ବା ଫେସ ବିନା ଜାରି ରଖନ୍ତୁ"</string>
     <string name="unlock_set_unlock_mode_off" msgid="4632139864722236359">"କିଛି ନାହିଁ"</string>
     <string name="unlock_set_unlock_mode_none" msgid="5596049938457028214">"ସ୍ୱାଇପ"</string>
     <string name="unlock_set_unlock_mode_pattern" msgid="1926480143883094896">"ପାଟର୍ନ"</string>
@@ -919,7 +919,7 @@
     <string name="show_hdr_sdr_ratio" msgid="4188007289024955585">"HDR/SDR ଅନୁପାତ ଦେଖାନ୍ତୁ"</string>
     <string name="show_hdr_sdr_ratio_summary" msgid="986292785096013733">"ବର୍ତ୍ତମାନର HDR/SDR ଅନୁପାତ ଦେଖାନ୍ତୁ"</string>
     <string name="nfc_quick_toggle_title" msgid="3607620705230351666">"NFC"</string>
-    <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC ପାଇଁ ଡିଭାଇସ୍ ଅନଲକ୍ ଆବଶ୍ୟକ"</string>
+    <string name="nfc_secure_settings_title" msgid="4906958426927741485">"NFC ପାଇଁ ଡିଭାଇସ ଅନଲକ ଆବଶ୍ୟକ"</string>
     <string name="android_beam_settings_title" msgid="2797963824490671295">"Android ବିମ୍‌"</string>
     <string name="android_beam_on_summary" msgid="6067720758437490896">"NFC ମାଧ୍ୟମରେ ଆପ୍‌ର କଣ୍ଟେଣ୍ଟ ପଠାଇବାକୁ ପ୍ରସ୍ତୁତ"</string>
     <string name="android_beam_off_summary" msgid="5693961375631325042">"ବନ୍ଦ"</string>
@@ -2201,7 +2201,7 @@
     <string name="accessibility_tutorial_dialog_button" msgid="2031773187678948436">"ବୁଝିଗଲି"</string>
     <string name="accessibility_tutorial_dialog_link_button" msgid="13364319079385020">"ବଟନକୁ କଷ୍ଟମାଇଜ କରନ୍ତୁ"</string>
     <string name="accessibility_tutorial_dialog_configure_software_shortcut_type" msgid="8041105223988170653">"ଅଧିକ ବିକଳ୍ପ"</string>
-    <string name="accessibility_shortcut_title" msgid="8125867833704517463">"<xliff:g id="SERVICE">%1$s</xliff:g> ସର୍ଟକଟ୍"</string>
+    <string name="accessibility_shortcut_title" msgid="8125867833704517463">"<xliff:g id="SERVICE">%1$s</xliff:g> ସର୍ଟକଟ"</string>
     <string name="accessibility_shortcut_edit_summary_software" msgid="48978719406821294">"ଆକ୍ସେସିବିଲିଟୀ ବଟନ"</string>
     <string name="accessibility_shortcut_edit_summary_software_gesture" msgid="7346399253904683940">"ଆକ୍ସେସିବିଲିଟୀ ଜେଶ୍ଚର୍"</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture" msgid="8078659880723370597">"2 ଆଙ୍ଗୁଠି ସାହାଯ୍ୟରେ ଉପରକୁ ସ୍ୱାଇପ୍ କରନ୍ତୁ"</string>
@@ -3079,7 +3079,7 @@
     <string name="apps_with_restrictions_settings_button" msgid="2648355133416902221">"ଆପ୍ଲିକେସନ ପାଇଁ ସେଟିଂସକୁ ବିସ୍ତାର କରନ୍ତୁ"</string>
     <string name="user_choose_copy_apps_to_another_user" msgid="5914037067347012870">"ଇନଷ୍ଟଲ୍ କରିବା ପାଇଁ ଆପଗୁଡ଼ିକୁ ବାଛନ୍ତୁ"</string>
     <string name="user_copy_apps_menu_title" msgid="5354300105759670300">"ଉପଲବ୍ଧ ଥିବା ଆପଗୁଡ଼ିକୁ ଇନଷ୍ଟଲ୍ କରନ୍ତୁ"</string>
-    <string name="nfc_payment_settings_title" msgid="2043139180030485500">"କଣ୍ଟାକ୍ଟଲେସ ପେମେଣ୍ଟଗୁଡ଼ିକ"</string>
+    <string name="nfc_payment_settings_title" msgid="2043139180030485500">"କଣ୍ଟାକ୍ଟଲେସ ପେମେଣ୍ଟ"</string>
     <string name="nfc_default_payment_settings_title" msgid="2150504446774382261">"ଡିଫଲ୍ଟ ପେମେଣ୍ଟ ଆପ"</string>
     <string name="nfc_default_payment_footer" msgid="978535088340021360">"ଏକ ପେମେଣ୍ଟ ଆପ ବ୍ୟବହାର କରି କୌଣସି ପେମେଣ୍ଟ କରିବାକୁ, ଏକ ପେମେଣ୍ଟ ଟର୍ମିନାଲରେ ଆପଣଙ୍କ ଡିଭାଇସର ପଛ ପଟକୁ ଧରି ରଖ"</string>
     <string name="nfc_more_details" msgid="1700713533074275233">"ଅଧିକ ଜାଣନ୍ତୁ"</string>
@@ -3202,7 +3202,7 @@
     <string name="connected_devices_dashboard_android_auto_no_driving_mode_summary" msgid="6426996842202276640">"ବ୍ଲୁଟୁଥ୍, Android Auto, NFC"</string>
     <string name="connected_devices_dashboard_android_auto_no_nfc_no_driving_mode" msgid="1672426693308438634">"ବ୍ଲୁଟୁଥ୍, Android Auto"</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary" msgid="7132040463607801625">"NFC ବନ୍ଦ ଥିବାରୁ ଅନୁପଲବ୍ଧ ଅଛି"</string>
-    <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"ବ୍ୟବହାର କରିବାକୁ, ପ୍ରଥମେ ଏକ ପେମେଣ୍ଟ ଆପ୍ ଇନଷ୍ଟଲ୍ କରନ୍ତୁ"</string>
+    <string name="nfc_and_payment_settings_no_payment_installed_summary" msgid="4879818114908207465">"ବ୍ୟବହାର କରିବାକୁ, ପ୍ରଥମେ ଏକ ପେମେଣ୍ଟ ଆପ ଇନଷ୍ଟଲ କରନ୍ତୁ"</string>
     <string name="app_and_notification_dashboard_summary" msgid="8047683010984186106">"ବର୍ତ୍ତମାନର ଆପଗୁଡ଼ିକ, ଡିଫଲ୍ଟ ଆପଗୁଡ଼ିକ"</string>
     <string name="notification_settings_work_profile" msgid="6076211850526353975">"ୱାର୍କ ପ୍ରୋଫାଇଲ୍‍ରେ ଆପ୍‍ସ ପାଇଁ ବିଜ୍ଞପ୍ତି ଆକ୍ସେସ ଉପଲବ୍ଧ ନାହିଁ."</string>
     <string name="account_dashboard_title" msgid="8228773251948253914">"ପାସୱାର୍ଡ ଏବଂ ଆକାଉଣ୍ଟଗୁଡ଼ିକ"</string>

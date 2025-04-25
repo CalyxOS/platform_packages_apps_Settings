@@ -2521,7 +2521,7 @@
     <string name="background_activity_disabled_dialog_text" msgid="4053170297325882494">"Non podes limitar a aplicación porque non se configurou para optimizar a batería.\n\nPrimeiro activa a optimización da batería."</string>
     <string name="manager_battery_usage_category_title" msgid="1493303237531629961">"Xestionar o uso da batería"</string>
     <string name="manager_battery_usage_allow_background_usage_settings_title" msgid="8150026934645052635">"Permitir o uso en segundo plano"</string>
-    <string name="manager_battery_usage_allow_background_usage_title" msgid="6294649996820358852">"Permitir o uso en segundo plano"</string>
+    <string name="manager_battery_usage_allow_background_usage_title" msgid="6294649996820358852">"Permitir uso en segundo plano"</string>
     <string name="manager_battery_usage_allow_background_usage_summary" msgid="8021153755201340819">"Actívase para actualizacións en tempo real; desactívase para aforrar batería"</string>
     <string name="manager_battery_usage_unrestricted_title" msgid="2426486290463258032">"Sen restricións"</string>
     <string name="manager_battery_usage_optimized_title" msgid="8080765739761921817">"Optimizado"</string>

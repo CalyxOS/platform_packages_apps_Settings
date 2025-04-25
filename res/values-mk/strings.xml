@@ -130,7 +130,7 @@
     <string name="connected_device_fast_pair_device_title" msgid="543124539265592392">"Поврзано со сметка"</string>
     <string name="connected_device_previously_associated_fast_pair_device_title" msgid="8353405823992023457">"Претходно користено со сметката"</string>
     <string name="connected_device_add_device_summary" msgid="8671009879957120802">"Bluetooth ќе се вклучи за спарување"</string>
-    <string name="connected_device_connections_title" msgid="4164120115341579170">"Поставки за врски"</string>
+    <string name="connected_device_connections_title" msgid="4164120115341579170">"Поставки за поврзување"</string>
     <string name="connected_device_previously_connected_screen_title" msgid="8823331744788100605">"Претходно поврзани"</string>
     <string name="connected_device_bluetooth_turned_on_toast" msgid="144664089794199928">"Bluetooth е вклучен"</string>
     <string name="previous_connected_see_all" msgid="7759413145713251328">"Прикажи ги сите"</string>

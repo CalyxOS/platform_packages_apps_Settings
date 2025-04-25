@@ -416,9 +416,9 @@
     <string name="identity_check_lockout_error_title" msgid="7486409651908283892">"Weryfikacja tożsamości jest włączona i nie może potwierdzić, że to Ty"</string>
     <string name="identity_check_lockout_error_description_1" msgid="4882147327291296884">"Podanie danych biometrycznych nie powiodło się zbyt wiele razy. Zablokuj i odblokuj urządzenie, aby spróbować ponownie."</string>
     <string name="identity_check_lockout_error_two_factor_auth_description_1" msgid="8369894114882274736">"Podanie danych biometrycznych nie powiodło się zbyt wiele razy. Spróbuj ponownie."</string>
-    <string name="identity_check_lockout_error_description_2" msgid="5512321457771307067">"Weryfikacją tożsamości można zarządzać w ustawieniach ochrony w razie kradzieży. Otwórz Ustawienia"</string>
-    <string name="identity_check_general_error_title" msgid="5073929400896102674">"Aby kontynuować, musisz użyć biometrii"</string>
-    <string name="identity_check_general_error_description_1" msgid="5260846996256699095">"Weryfikacja tożsamości jest włączona i wymaga danych biometrycznych, ale czujnik rozpoznawania twarzy lub czytnik linii papilarnych jest niedostępny\n"<ul><li>"Sprawdź, czy aparat jest włączony, i spróbuj ponownie"</li>\n<li>"Możesz wyłączyć weryfikację tożsamości na koncie Google"</li></ul></string>
+    <string name="identity_check_lockout_error_description_2" msgid="5512321457771307067">"Weryfikacją tożsamości można zarządzać w ustawieniach ochrony w razie kradzieży. Otwórz Ustawienia."</string>
+    <string name="identity_check_general_error_title" msgid="5073929400896102674">"Aby przejść dalej, musisz użyć biometrii"</string>
+    <string name="identity_check_general_error_description_1" msgid="5260846996256699095">"Weryfikacja tożsamości jest włączona i wymaga danych biometrycznych, ale czujnik rozpoznawania twarzy lub czytnik linii papilarnych jest niedostępny\n"<ul><li>"Sprawdź, czy aparat jest włączony, i spróbuj ponownie"</li>\n<li>"Weryfikację tożsamości możesz wyłączyć na koncie Google"</li></ul></string>
     <string name="identity_check_biometric_error_cancel" msgid="3353689146211669291">"Anuluj"</string>
     <string name="identity_check_biometric_error_ok" msgid="4535306787363107304">"OK"</string>
     <string name="go_to_identity_check" msgid="5215846637575231800">"Przejdź do weryfikacji tożsamości"</string>

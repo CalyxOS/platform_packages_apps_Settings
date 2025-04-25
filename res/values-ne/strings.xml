@@ -2490,7 +2490,7 @@
     <string name="print_feature_state_on" msgid="7132063461008624685">"अन छ"</string>
     <string name="print_feature_state_off" msgid="1466195699995209446">"बन्द"</string>
     <string name="print_menu_item_add_service" msgid="1549091062463044676">"सेवा हाल्नुहोस्"</string>
-    <string name="print_menu_item_add_printer" msgid="8711630848324870892">"प्रिन्टर थप्नुहोस्"</string>
+    <string name="print_menu_item_add_printer" msgid="8711630848324870892">"प्रिन्टर कनेक्ट गर्नुहोस्"</string>
     <string name="print_menu_item_search" msgid="5989979785203603169">"खोज्नुहोस्"</string>
     <string name="print_searching_for_printers" msgid="5401413178028348800">"प्रिन्टरहरू खोजिँदै छ"</string>
     <string name="print_service_disabled" msgid="9185935228930987786">"प्रिन्ट सेवा अफ गरिएको छ"</string>

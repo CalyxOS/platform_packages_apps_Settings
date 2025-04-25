@@ -3694,7 +3694,7 @@
     <string name="notification_polite_main_control_title" msgid="5812529809151927149">"Tumia mipangilio ya kutuliza arifa"</string>
     <string name="notification_polite_description" msgid="5497748284893832854">"Unapopokea arifa nyingi ndani ya muda mfupi, kifaa chako kitapunguza sauti na arifa kwa hadi dakika 2. Hali hii haitaathiri simu, kengele na mazungumzo ya kipaumbele. \n\nUnaweza kupata arifa ulizopokea wakati wa kutulizwa kwa arifa kwa kutelezesha kidole chini kutoka sehemu ya juu ya skrini."</string>
     <string name="notification_polite_work" msgid="8823596456640216391">"Tumia kwenye wasifu wa kazini"</string>
-    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Inatumika kwa programu zenye wasifu wa kazini"</string>
+    <string name="notification_polite_work_summary" msgid="5014189280132951378">"Tumia kwenye programu za wasifu wa kazini"</string>
     <string name="vr_listeners_title" msgid="4960357292472540964">"Huduma za kisaidizi cha Uhalisia Pepe"</string>
     <string name="no_vr_listeners" msgid="8442646085375949755">"Hakuna programu zilizosakinishwa ambazo zinaweza kutekeleza huduma za kisaidizi cha Uhalisia Pepe."</string>
     <string name="vr_listener_security_warning_title" msgid="7026351795627615177">"Ungependa kuruhusu huduma za Uhalisia Pepe katika <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
