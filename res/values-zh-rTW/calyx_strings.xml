@@ -9,7 +9,6 @@
     <string name="wifi_timeout_summary">如果未連接網路，Wi-Fi 將在 <xliff:g id="timeout_description">%1$s</xliff:g>後關閉</string>
     <string name="show_qs_on_secure_keyguard_title">快速設置</string>
     <string name="bluetooth_timeout_summary2">不自動關閉藍牙</string>
-    <string name="cleartext_network_policy_title">限制明文網路流量</string>
     <string name="data_usage_app_restrict_background_all">後台網路訪問</string>
     <string name="wifi_timeout_summary2">禁用</string>
     <string name="aosp_module_version">主線模組更新</string>
@@ -72,7 +71,6 @@
     <string name="strict_location_redaction_description">只有圖庫和檔管理員才能從您的照片和媒體中讀取位置數據。（第三方應用程式必須具有所有檔案存取權限或 媒體管理許可權。）</string>
     <string name="wifi_timeout">自動關閉Wi-Fi</string>
     <string name="bluetooth_timeout_summary">如果未連接任何裝置，藍牙將在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉</string>
-    <string name="cleartext_network_policy_summary">阻止所有非 TLS 網路流量。需要私有 DNS 配置。注意：如果沒有明確的排除，使用明文流量的應用可能無法正常運行</string>
     <string name="filter_hidden_apps">隱藏的應用程式</string>
     <string name="work_hours_end_notification_description">點按可關閉工作應用</string>
     <string name="cross_profile_sharing_summary">啟用應用程式內共用按鈕以在您的個人和工作資料夾中使用</string>
