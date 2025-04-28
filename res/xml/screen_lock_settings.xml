@@ -78,5 +78,5 @@
         android:summary="@string/strong_auth_timeout_ms_summary"
         android:entries="@array/strong_auth_timeout_ms_entries"
         android:entryValues="@array/strong_auth_timeout_ms_values"
-        android:defaultValue="0" />
+        android:defaultValue="9" />
 </PreferenceScreen>
