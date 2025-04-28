@@ -171,7 +171,6 @@
     </string-array>
 
     <string-array name="strong_auth_timeout_ms_entries" translatable="false">
-        <item>@string/never</item>
         <item>@string/timeout_summary_1hour</item>
         <item>@string/timeout_summary_2hours</item>
         <item>@string/timeout_summary_4hours</item>
@@ -185,8 +184,6 @@
 
     <!-- Do not translate. -->
     <string-array name="strong_auth_timeout_ms_values" translatable="false">
-        <!-- Do not translate. -->
-        <item>0</item>
         <!-- Do not translate. -->
         <item>3600000</item>
         <!-- Do not translate. -->
