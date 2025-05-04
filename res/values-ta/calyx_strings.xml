@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calyxos_version">CalyxOS பதிப்பு</string>
     <string name="panic_settings_summary">அவசர அச்சம் தூண்டுதலை செயல்படுத்தும் பவர் பொத்தான் விருப்பத்தைக் காண்பி.</string>
-    <string name="security_restrict_usb_title">யூ.எச்.பி.</string>
+    <string name="security_restrict_usb_title">யூஎச்பி தடு</string>
     <string name="security_restrict_usb_keyguard">திறக்கும்போது புதிய யூ.எச்.பி கேசெட்களை அனுமதிக்கவும்</string>
     <string name="security_restrict_usb_always">புதிய யூ.எச்.பி கேசெட்களை மறுக்கவும்</string>
     <string name="security_restrict_usb_summary">காதணிகள், சேமிப்பக சாதனங்கள் மற்றும் உள்ளீடு போன்ற யூ.எச்.பி கேசெட்களுக்கான கட்டுப்பாட்டு உதவி (சுட்டி, விசைப்பலகை, சாய்ச்டிக்)</string>
@@ -32,8 +32,6 @@
     <string name="wifi_timeout_summary2">முடக்கப்பட்டது</string>
     <string name="global_vpn_title">உலகளாவிய வி.பி.என்</string>
     <string name="device_reboot_timeout_summary">கடைசி <xliff:g id="timeout_description">%1$s</xliff:g> க்குள் திறக்கப்படாவிட்டால் சாதனம் தானாகவே மறுதொடக்கம் செய்யும்</string>
-    <string name="cleartext_network_policy_title">தெளிவான பிணையம் போக்குவரத்தை கட்டுப்படுத்தவும்</string>
-    <string name="cleartext_network_policy_summary">அனைத்து டி.எல்.எச் அல்லாத பிணையம் போக்குவரத்தையும் தடுக்கிறது. தனியார் டிஎன்எச் உள்ளமைவு தேவை. குறிப்பு: வெளிப்படையான விலக்குகள் இல்லாமல், கிளியர் டெக்ச்ட் போக்குவரத்தைப் பயன்படுத்தும் பயன்பாடுகள் செயல்படாது</string>
     <string name="unhide_app_desc">இந்த பயன்பாட்டை நீங்கள் மறந்துவிட்டால், அது மீண்டும் ஆண்ட்ராய்டு மற்றும் பிற பயன்பாடுகளுக்கு தெரியும்.</string>
     <string name="captive_portal_title">இணைப்பு சோதனை</string>
     <string name="keychords_title">பிழை அறிக்கை பொத்தான் சேர்க்கை</string>
@@ -70,7 +68,7 @@
     <string name="work_hours_title">வேலை நேரம்</string>
     <string name="data_usage_app_datura_firewall_summary">ஃபயர்வால் அமைப்புகள் புதிய ஃபயர்வால் பயன்பாட்டிற்கு மாற்றப்பட்டுள்ளன. திறக்க தட்டவும்.</string>
     <string name="work_hours_end_on_summary">பணி சுயவிவரத்தை <xliff:g id="end_time">%1$s</xliff:g> இல் அணைக்க அறிவிப்பைக் காட்டு</string>
-    <string name="work_hours_end_off_summary">பணி சுயவிவரத்தை அணைக்க நாள்தோறும் அறிவிப்பைக் காட்டு</string>
+    <string name="work_hours_end_off_summary">தானாகவே பணி சுயவிவரத்தை அணைக்கவும் அல்லது அவ்வாறு செய்ய அறிவிப்பைப் பெறவும்</string>
     <string name="work_hours_end_notification_title">வேலை நாளின் முடிவு</string>
     <string name="work_hours_end_notification_description">வேலை பயன்பாடுகளை அணைக்க தட்டவும்</string>
     <string name="detailed_security_patch">இயங்குதளம்: <xliff:g id="platform_level">%1$s</xliff:g>\nகர்னல்: <xliff:g id="kernel_level">%2$s</xliff:g>\nவிற்பனையாளர்: <xliff:g id="kernel_level">%3$s</xliff:g>\nஃபார்ம்வேர்: <xliff:g id="firmware_level">%4$s</xliff:g></string>
@@ -82,5 +80,21 @@
     <string name="hidden">மறைக்கப்பட்ட</string>
     <string name="strict_location_redaction_title">ஊடகங்களைப் பகிரும்போது இருப்பிட தரவை மாற்றியமைத்தல்</string>
     <string name="strict_location_redaction_description">காட்சியகங்கள் மற்றும் கோப்பு மேலாளர்கள் மட்டுமே உங்கள் புகைப்படங்கள் மற்றும் ஊடகங்களிலிருந்து இருப்பிட மெட்டாடேட்டாவைப் படிக்கலாம். (மூன்றாம் தரப்பு பயன்பாடுகளில் எல்லா கோப்புகளும் அணுகல் அல்லது ஊடக மேலாண்மை அனுமதிகள் இருக்க வேண்டும்.)</string>
-    <string name="private_space_hide_apps_summary_calyx">தனிப்பட்ட ஆப்ஸைத் தனி இடத்தில் மறைக்கலாம்/பூட்டலாம்.</string>
+    <string name="private_space_hide_apps_summary_calyx">தனிப்பட்ட பயன்பாடுகளைத் தனி இடத்தில் மறைக்கலாம்/பூட்டலாம்.</string>
+    <string name="update_info_channel_title">தகவலைப் புதுப்பிக்கவும்</string>
+    <string name="notify">அறிவிக்கவும்</string>
+    <string name="user_switch_on_lockscreen_summary">இந்த பயனர் பூட்டப்படும்போது மாறுவதற்கு அனுமதிக்கவும்</string>
+    <string name="user_switch_on_lockscreen">பூட்டுத் திரையில் இருந்து பயனர்களை மாற்றவும்</string>
+    <string name="update_info_channel_desc2">புதுப்பிப்புகள் பற்றிய முக்கியமான விவரங்களுடன் அறிவிப்புகள்</string>
+    <string name="update_info_title">கலிக்சோச் தகவல்களை புதுப்பிக்கவும்</string>
+    <string name="update_info_cleartext_removal_desc">உலகளாவிய கிளியர் டெக்ச்ட் கட்டுப்பாட்டை அகற்றுதல்</string>
+    <string name="maximum_failed_passwords_for_wipe_title">தோல்வியுற்ற திறத்தல் முயற்சிகளைத் துடைக்கவும்</string>
+    <string name="maximum_failed_passwords_for_wipe_summary">&lt;xliff: g அடையாளம் = \"தோல்வி_பாச் வேர்ட்ச்_ டெச்கிரிப்சன்\"&gt;%1$s &lt;/xliff: g&gt;</string>
+    <string name="turn_off">அணைக்கவும்</string>
+    <string name="update_info_cleartext_removal_desc_long">ஏப்ரல் 2025 அம்ச புதுப்பிப்பில், உலகளாவிய கிளியர் டெக்ச்ட் கட்டுப்பாடு அகற்றப்பட்டது. மேலும் அறிய தட்டவும்.</string>
+    <string name="work_hours_end_on_summary2">பணி சுயவிவரத்தை &lt;xliff: g அடையாளம் = \"end_time\"&gt;%1$s &lt;/xliff: g&gt; நாள்தோறும்</string>
+    <string name="private_space_separate_vpn_text"><b> பயன்பாடுகள் உங்கள் இருக்கும் VPN ஐப் பயன்படுத்த வேண்டாம் </b> \nஉங்கள் தனிப்பட்ட பயன்பாடுகள் ஒரு VPN ஐப் பயன்படுத்த, உங்கள் இடத்திலும் ஒன்றை அமைக்க வேண்டும். மாற்றாக, நீங்கள் உலகளாவிய VPN ஐ இயக்கலாம்</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">பூட்டுத் திரையில் இருந்து பயனர்களைச் சேர்க்க பயனர் ச்விட்சர் தேவை</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">5 தோல்வியுற்ற பிறகு அனைத்து தரவையும் அழிக்கவும்</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">திறத்தல் முயற்சிகள் தோல்வியுற்ற பிறகு எல்லா தரவையும் அழிக்கவும்</string>
 </resources>

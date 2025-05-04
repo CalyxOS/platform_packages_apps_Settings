@@ -18,7 +18,6 @@
     <string name="panic_settings_summary">Zobraziť tlačidlo napájania, ktoré aktivuje núdzový spúšťač.</string>
     <string name="wifi_timeout">Automatické vypnutie Wi-Fi</string>
     <string name="wifi_timeout_summary2">Vypnuté</string>
-    <string name="cleartext_network_policy_summary">Blokuje všetku sieťovú komunikáciu, ktorá nie je TLS. Vyžaduje súkromnú konfiguráciu DNS. Poznámka: Bez špecifických výnimiek nebudú aplikáce využívajúce prenos otvoreného textu fungovať</string>
     <string name="timeout_summary_2hours">2 hodiny</string>
     <string name="show_qs_on_secure_keyguard_title">Rýchle nastavenia</string>
     <string name="wifi_timeout_summary">Ak nie je pripojená žiadna sieť, Wi-Fi sa vypne po <xliff:g id="timeout_description"> %1$s </xliff:g></string>
@@ -49,7 +48,6 @@
     <string name="device_reboot_timeout_title">Automatické reštartovanie</string>
     <string name="device_reboot_timeout_summary">Zariadenie sa automaticky reštartuje, pokiaľ nebolo odomknuté počas posledných <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">Zariadenie sa automaticky nereštartuje</string>
-    <string name="cleartext_network_policy_title">Zakázať nešifrovanú komunikáciu po sieti</string>
     <string name="hide_app">Skryť aplikáciu</string>
     <string name="unhide_app_desc">Ak odkryjeťe túto aplikáciu, bude opäť viditeľná pre Android a ďalšie aplikácie.</string>
     <string name="system_dashboard_summary_calyx">Jazyky, gestá, čas, zálohovanie, používatelia, pracovný profil</string>

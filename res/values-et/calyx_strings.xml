@@ -2,4 +2,24 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="private_space_hide_apps_summary_calyx">Peitke või lukustage privaatsed rakendused eraldi ruumis.</string>
     <string name="calyxos_version">CalyxOS versioon</string>
+    <string name="timeout_summary_30secs">30 sekundit</string>
+    <string name="timeout_summary_15secs">15 sekundit</string>
+    <string name="timeout_summary_1min">1 minut</string>
+    <string name="timeout_summary_10mins">10 minutit</string>
+    <string name="timeout_summary_5mins">5 minutit</string>
+    <string name="show_qs_on_secure_keyguard_title">Kiirseaded</string>
+    <string name="show_qs_on_secure_keyguard_summary">Luba turvalisel lukustuskuval kiirseadete sisse- ja väljalülitamine</string>
+    <string name="timeout_summary_never">Mitte kunagi</string>
+    <string name="timeout_summary_2mins">2 minutit</string>
+    <string name="timeout_summary_30mins">30 minutit</string>
+    <string name="timeout_summary_1hour">1 tund</string>
+    <string name="timeout_summary_2hours">2 tundi</string>
+    <string name="timeout_summary_4hours">4 tundi</string>
+    <string name="timeout_summary_8hours">8 tundi</string>
+    <string name="timeout_summary_12hours">12 tundi</string>
+    <string name="timeout_summary_24hours">24 tundi</string>
+    <string name="timeout_summary_36hours">36 tundi</string>
+    <string name="device_reboot_timeout_summary">Seade taaskäivitub automaatselt, kui viimasest avamisest on möödunud <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">Seade ei taaskäivitu automaatselt</string>
+    <string name="device_reboot_timeout_title">Automaatne taaskäivitus</string>
 </resources>
