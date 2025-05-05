@@ -30,8 +30,6 @@
     <string name="show_qs_on_secure_keyguard_title">Szybkie ustawienia</string>
     <string name="aosp_module_version">Aktualizacja modułu głównego</string>
     <string name="wifi_timeout_summary">Sieć Wi-Fi wyłączy się po <xliff:g id="timeout_description">%1$s</xliff:g>, jeśli nie ma połączenia z siecią</string>
-    <string name="cleartext_network_policy_summary">Blokuje cały ruch sieciowy inny niż TLS. Wymaga konfiguracji prywatnego DNS\'a. Uwaga: Bez wyraźnych wyjątków, Tor i większość VPN\'ów nie będzie działać</string>
-    <string name="cleartext_network_policy_title">Ogranicz ruch sieciowy w postaci zwykłego tekstu</string>
     <string name="data_usage_app_restrict_background_all_summary">Włącz korzystanie z sieci w tle</string>
     <string name="timeout_summary_72hours">72 godziny</string>
     <string name="timeout_summary_48hours">48 godzin</string>
@@ -94,12 +92,12 @@
     <string name="user_switch_on_lockscreen_summary">Zezwalaj na przełączanie, gdy użytkownik jest zablokowany</string>
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">Przełącznik użytkowników jest potrzebny do dodawania użytkowników z poziomu blokady ekranu</string>
     <string name="update_info_channel_title">Informacje o aktualizacji</string>
-    <string name="update_info_channel_desc">Powiadomienia z ważnymi informacjami o nadchodzących aktualizacjach</string>
     <string name="update_info_title">Informacje o aktualizacji CalyxOS</string>
-    <string name="update_info_desc">Usunięcie globalnego ograniczenia cleartext</string>
-    <string name="update_info_desc_long">CalyxOS 6.5 będzie dostępny w trzecim tygodniu marca. W tej aktualizacji funkcji usunięte zostanie globalne ograniczenie czystego tekstu (cleartext). Dotknij, aby dowiedzieć się, dlaczego to robimy.</string>
     <string name="maximum_failed_passwords_for_wipe_title">Czyszczenie po nieudanych próbach odblokowania</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Usunięcie wszystkich danych po 5 nieudanych próbach odblokowania</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Usunięcie wszystkich danych po 10 nieudanych próbach odblokowania</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="update_info_cleartext_removal_desc">Usunięcie globalnego ograniczenia czystego tekstu (cleartext)</string>
+    <string name="update_info_channel_desc2">Powiadomienia z ważnymi informacjami o aktualizacjach</string>
+    <string name="update_info_cleartext_removal_desc_long">W aktualizacji funkcji z kwietnia 2025 r. usunięto globalne ograniczenie czystego tekstu (cleartext). Kliknij, aby dowiedzieć się więcej.</string>
 </resources>

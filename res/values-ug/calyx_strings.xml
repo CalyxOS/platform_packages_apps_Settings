@@ -24,8 +24,6 @@
     <string name="security_restrict_usb_disabled">ھەمىشە يېڭى USB ئۈسكۈنىسىگە يول قويىدۇ</string>
     <string name="device_reboot_timeout_title">ئۆزلۈكىدىن قايتا قوزغىتىدۇ</string>
     <string name="device_reboot_timeout_summary2">ئۈسكۈنە ئۆزلۈكىدىن قايتا قوزغىتىلمايدۇ</string>
-    <string name="cleartext_network_policy_title">ئوچۇق تېكىس تور ئېقىمىنى چەكلەيدۇ</string>
-    <string name="cleartext_network_policy_summary">بارلىق غەيرى TLS تور ئېقىمىنى توسىدۇ. شەخسىي DNS سەپلىمىسى زۆرۈر. ئەسكەرتىش: ئەگەر ئېنىق مۇستەسنا بولمىسا، ئوچۇق تېكىست ئېقىمنى ئىشلىتىدىغان ئەپ ئىشلىمەسلىكى مۇمكىن</string>
     <string name="network_dashboard_summary_mobile_calyx">كۆچمە سانلىق مەلۇمات، Wi‑Fi، قىزىق نۇقتا، VPN، شەخسىي DNS</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi، قىزىق نۇقتا، VPN، شەخسىي DNS</string>
     <string name="connected_devices_dashboard_summary_calyx">كۆكچىش، چۈپلەش، NFC</string>
@@ -91,12 +89,12 @@
     <string name="hide">يوشۇر</string>
     <string name="work_hours_end_on_summary">كۈندە <xliff:g id="end_time">%1$s</xliff:g> خىزمەت تەرجىمىھالىنى تاقاش ئۇقتۇرۇشىنى كۆرسىتىدۇ</string>
     <string name="update_info_channel_title">يېڭىلاش ئۇچۇرى</string>
-    <string name="update_info_desc_long">CalyxOS 6.5 مارتنىڭ ئۈچىنچى ھەپتىسى ئېلان قىلىنىدۇ. بۇ ئىقتىدار يېڭىلاشتا، ئومۇمىيەت ئوچۇق تېكىست چەكلىمىسى چىقىرىۋېتىلىدۇ. چېكىپ نېمە ئۈچۈن بۇنداق قىلغانلىقىمىزنى بىلەلەيسىز.</string>
     <string name="maximum_failed_passwords_for_wipe_title">قۇلۇپ ئېچىشنى سىناش مەغلۇپ بولسا سانلىق مەلۇماتلار ئۆچۈرۈلىدۇ</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">قۇلۇپ ئېچىش 5 قېتىم مەغلۇپ بولسا بارلىق سانلىق مەلۇمات ئۆچۈرۈلىدۇ</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">قۇلۇپ ئېچىشنى سىناش 10 قېتىم مەغلۇپ بولسا بارلىق سانلىق مەلۇمات ئۆچۈرۈلىدۇ</string>
-    <string name="update_info_desc">ئومۇمىيەت ئوچۇق تېكىست چەكلىمىسىنى چىقىرىۋېتىدۇ</string>
-    <string name="update_info_channel_desc">كەلگۈسى يېڭىلاش ھەققىدىكى مۇھىم تەپسىلاتنىڭ ئۇقتۇرۇشى</string>
     <string name="update_info_title">CalyxOS يېڭىلاش ئۇچۇرى</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="update_info_channel_desc2">مۇھىم تەپسىلاتى قوشۇلغان يېڭىلاش ھەققىدىكى ئۇقتۇرۇش</string>
+    <string name="update_info_cleartext_removal_desc">ئومۇمىيەت ئوچۇق تېكىست چەكلىمىسىنى چىقىرىۋېتىدۇ</string>
+    <string name="update_info_cleartext_removal_desc_long">2025-يىلى 4-ئايدىكى ئىقتىدار يېڭىلىنىشىدا، ئومۇمىيەت ئوچۇق تېكىست چەكلىمىسى چىقىرىۋېتىلدى. تېخىمۇ كۆپ بىلىم ئۈچۈن چېكىلىدۇ.</string>
 </resources>

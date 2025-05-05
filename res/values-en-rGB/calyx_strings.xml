@@ -17,13 +17,11 @@
     <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="wifi_timeout_summary2">Disabled</string>
     <string name="security_restrict_usb_always">Deny new USB gadgets</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, apps that use cleartext traffic may not work</string>
     <string name="calyxos_version">CalyxOS version</string>
     <string name="aosp_module_version">Mainline module update</string>
     <string name="panic_settings_title">Show Panic option</string>
     <string name="security_restrict_usb_title">Restrict USB</string>
     <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
-    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
     <string name="security_restrict_usb_keyguard">Allow new USB gadgets when unlocked</string>
     <string name="security_restrict_usb_summary">Control support for USB gadgets such as earphones, storage devices and input (mice, keyboards, joysticks)</string>
     <string name="security_restrict_usb_disabled">Allow new USB gadgets always</string>
@@ -87,10 +85,7 @@
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
     <string name="private_space_hide_apps_summary_calyx">Hide or lock private apps in a separate space.</string>
     <string name="update_info_channel_title">Update information</string>
-    <string name="update_info_channel_desc">Notifications with important details about upcoming updates</string>
     <string name="update_info_title">CalyxOS Update information</string>
-    <string name="update_info_desc_long">CalyxOS 6.5 will be available in the third week of March. In this feature update, global cleartext restriction will be removed. Tap to learn why we are doing this.</string>
-    <string name="update_info_desc">Removing the global cleartext restriction</string>
     <string name="work_hours_end_on_summary2">Turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
     <string name="notify">Notify</string>
     <string name="private_space_separate_vpn_text"><b>Apps don’t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>
