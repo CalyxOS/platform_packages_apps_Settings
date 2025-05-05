@@ -42,8 +42,6 @@
     <string name="global_vpn_summary_on">କାର୍ଯ୍ୟ ପ୍ରୋଫାଇଲ୍ ଏବଂ ଅନ୍ୟ ଉପଭୋକ୍ତାଙ୍କୁ ଅନ୍ତର୍ଭୁକ୍ତ କରି ଏହି ଭିପିଏନ୍ ମାଧ୍ୟମରେ ଡିଭାଇସର ସମସ୍ତ ଟ୍ରାଫିକ୍କୁ ବାଧ୍ୟ କରନ୍ତୁ | ଟିପ୍ପଣୀ: ଯେତେବେଳେ ଏହା ସକ୍ଷମ ଥିବ, ଆପଣ କାର୍ଯ୍ୟ ପ୍ରୋଫାଇଲରେ କିମ୍ବା ଅନ୍ୟ ଉପଭୋକ୍ତାମାନଙ୍କ ପାଇଁ ଏକ ପୃଥକ ଭିପିଏନ୍ ବ୍ୟବହାର କରିପାରିବେ ନାହିଁ</string>
     <string name="panic_settings_summary">ପାୱାର ବଟନ୍ ବିକଳ୍ପ ପ୍ରଦର୍ଶନ କରନ୍ତୁ ଯାହା ଏକ ଜରୁରୀକାଳୀନ ପ୍ୟାନିକ୍ ପ୍ରେରଣ ସକ୍ରିୟ କରିଥାଏ ।</string>
     <string name="network_dashboard_summary_mobile_calyx">ମୋବାଇଲ୍, ୱାଇ - ଫାଇ, ହଟସ୍ପଟ୍, ଭିପିଏନ୍, ବ୍ୟକ୍ତିଗତ ଡିଏନ୍ଏସ୍</string>
-    <string name="cleartext_network_policy_title">କ୍ଲିୟରଟେକ୍ସ ନେଟୱାର୍କ ଟ୍ରାଫିକକୁ ପ୍ରତିବନ୍ଧିତ କରନ୍ତୁ</string>
-    <string name="cleartext_network_policy_summary">ସମସ୍ତ ଅଣ- ଟିଏଲ୍ଏସ୍ ନେଟୱାର୍କ ଟ୍ରାଫିକକୁ ଅବରୋଧ କରନ୍ତୁ। ବ୍ୟକ୍ତିଗତ ଡିଏନ୍ଏସ୍ ସଂରଚନା ଆବଶ୍ୟକ। ଟିପ୍ପଣୀ: ସ୍ପଷ୍ଟ ଛାଡ ବିନା, କ୍ଲିୟରଟେକ୍ସ ଟ୍ରାଫିକ୍ ବ୍ୟବହାର କରୁଥିବା ଆପ୍ କାମ କରିନପାରନ୍ତି</string>
     <string name="network_dashboard_summary_no_mobile_calyx">ୱାଇ-ଫାଇ, ହଟସ୍ପଟ୍, ଭିପିଏନ୍, ବ୍ୟକ୍ତିଗତ ଡିଏନ୍ଏସ୍</string>
     <string name="connected_devices_dashboard_summary_calyx">ବ୍ଲୁଟୁଥ୍, ପେୟାରିଙ୍ଗ, ଏନ୍ ଏଫ୍ ସି</string>
     <string name="device_reboot_timeout_summary">ଡିଭାଇସ୍ ସ୍ୱୟଂଚାଳିତ ଭାବରେ ପୁନଃ ବୁଟ୍ ହେବ ଯଦି ଏହା ଶେଷ <xliff:g id="timeout_description">%1$s</xliff:g>ମଧ୍ୟରେ ଅନଲକ୍ ହୋଇନାହିଁ</string>
