@@ -14,10 +14,8 @@
     <string name="show_qs_on_secure_keyguard_summary">Dopusti uklj./isklj. brzih postavki na sigurnom zaključanom ekranu</string>
     <string name="wifi_timeout_summary2">Deaktivirano</string>
     <string name="timeout_summary_8hours">8 sati</string>
-    <string name="cleartext_network_policy_summary">Blokira sav mrežni promet koji nije TLS. Zahtijeva konfiguraciju privatnog DNS-a. Napomena: Bez eksplicitnih izuzeća, Tor i većina VPN-ova neće raditi</string>
     <string name="timeout_summary_1hour">1 sat</string>
     <string name="wifi_timeout_summary">Wi-Fi će se isključiti nakon <xliff:g id="timeout_description">%1$s</xliff:g> ako nijedna mreža nije povezana</string>
-    <string name="cleartext_network_policy_title">Ograniči mrežni promet otvorenog teksta</string>
     <string name="bluetooth_timeout_summary2">Nemoj automatski isključiti Bluetooth</string>
     <string name="timeout_summary_4hours">4 sata</string>
     <string name="show_qs_on_secure_keyguard_title">Brze postavke</string>

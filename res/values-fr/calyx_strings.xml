@@ -23,10 +23,8 @@
     <string name="bluetooth_timeout_summary2">Ne pas désactiver automatiquement le Bluetooth</string>
     <string name="bluetooth_timeout_summary">Le Bluetooth s\'éteindra après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun appareil n\'est connecté</string>
     <string name="bluetooth_timeout">Délai d\'attente Bluetooth</string>
-    <string name="cleartext_network_policy_summary">Bloque tout le trafic réseau non TLS. Nécessite de configurer un DNS privé. Remarque : sans exemptions explicites, les applications qui utilisent le trafic en clair peuvent ne pas fonctionner</string>
     <string name="show_qs_on_secure_keyguard_summary">Permettre de basculer les paramètres rapides sur l\'écran de verrouillage sécurisé</string>
     <string name="show_qs_on_secure_keyguard_title">Réglages rapides</string>
-    <string name="cleartext_network_policy_title">Restreindre le trafic réseau en clair</string>
     <string name="wifi_timeout_summary2">Désactivé</string>
     <string name="wifi_timeout_summary">Le Wi-Fi sera désactivé après <xliff:g id="timeout_description">%1$s</xliff:g> si aucun réseau n\'est connecté</string>
     <string name="wifi_timeout">Désactiver automatiquement le Wi-Fi</string>
@@ -87,10 +85,7 @@
     <string name="strict_location_redaction_description">Seuls les galeries et les gestionnaires de fichiers peuvent lire les métadonnées de localisation de vos photos et de vos médias. (Les applications tierces doivent disposer des autorisations Accès à tous les fichiers ou Gestion des médias.)</string>
     <string name="private_space_hide_apps_summary_calyx">Masquez ou verrouillez vos applis privées en les regroupant dans un espace séparé.</string>
     <string name="update_info_channel_title">Informations de mise à jour</string>
-    <string name="update_info_channel_desc">Notifications comprenant des détails importants concernant les futures mises à jour</string>
     <string name="update_info_title">Information de mise à jour CalyxOS</string>
-    <string name="update_info_desc">Suppression de la restriction globale de texte en clair</string>
-    <string name="update_info_desc_long">CalyxOS 6.5 sera disponible durant la troisième semaine de mars. Dans cette mise à jour, la restriction globale de texte en clair sera supprimée. Appuyez pour en savoir plus.</string>
     <string name="user_switch_on_lockscreen">Changer d\'utilisateur depuis l\'écran de verrouillage</string>
     <string name="user_switch_on_lockscreen_summary">Autoriser le changement lorsque cet utilisateur est verrouillé</string>
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">Activez le changement d\'utilisateur pour ajouter de nouveaux utilisateurs depuis l\'écran de verrouillage</string>
@@ -102,4 +97,7 @@
     <string name="turn_off">Eteindre</string>
     <string name="notify">Notifier</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="update_info_cleartext_removal_desc">Suppression de la restriction globale de texte en clair</string>
+    <string name="update_info_channel_desc2">Notifications avec des détails importants sur les mises à jour</string>
+    <string name="update_info_cleartext_removal_desc_long">Dans la mise à jour des fonctionnalités d\'avril 2025, la restriction globale de texte en clair a été supprimée. Touchez pour en savoir plus.</string>
 </resources>
