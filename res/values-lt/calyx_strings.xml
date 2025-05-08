@@ -15,7 +15,6 @@
     <string name="show_qs_on_secure_keyguard_title">Spartieji nustatymai</string>
     <string name="timeout_summary_1hour">1 valanda</string>
     <string name="timeout_summary_never">Niekada</string>
-    <string name="cleartext_network_policy_summary">Blokuoja visą ne TLS tinklo srautą. Reikalinga privataus DNS konfigūracija. Pastaba: jei nėra aiškių išimčių, programėlės, naudojančios nešifruoto teksto duomenų srautą, gali neveikti</string>
     <string name="data_usage_app_restrict_background_all">Foninė tinklo prieiga</string>
     <string name="wifi_timeout">Automatinis Wi-Fi išjungimas</string>
     <string name="panic_settings_summary">Ekrano įjungimo mygtuko parinktis, kuria įjungiamas kritinės padėties pavojaus signalas.</string>
@@ -29,7 +28,6 @@
     <string name="security_restrict_usb_title">Apriboti USB</string>
     <string name="timeout_summary_10mins">10 minučių</string>
     <string name="timeout_summary_15secs">15 sekundžių</string>
-    <string name="cleartext_network_policy_title">Apriboti neužšifruoto teksto tinklo duomenų srautą</string>
     <string name="aosp_module_version">Pagrindinio modulio atnaujinimas</string>
     <string name="timeout_summary_8hours">8 valandos</string>
     <string name="timeout_summary_4hours">4 valandos</string>

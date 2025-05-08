@@ -37,11 +37,9 @@
     <string name="global_vpn_title">Globální síť VPN</string>
     <string name="global_vpn_summary_any_vpn_active">Chcete-li tuto funkci povolit, musíte nejprve vypnout všechna aktivní připojení k VPN</string>
     <string name="global_vpn_summary_on">Vynutí, aby veškerý provoz v zařízení probíhal prostřednictvím této sítě VPN, včetně pracovního profilu a ostatních uživatelů. Upozornění: Pokud je tato funkce povolena, nebude možné používat samostatnou síť VPN v pracovním profilu ani u ostatních uživatelů</string>
-    <string name="cleartext_network_policy_summary">Zablokuje veškerou komunikaci po síti, která nebude šifrována TLS. Je potřeba mít nastavené Soukromé DNS. Pozor: Pokud jim nenastavíte výjimku, Tor a většina VPN nebude fungovat</string>
     <string name="device_reboot_timeout_title">Automatické restartování</string>
     <string name="device_reboot_timeout_summary">Zařízení se automaticky restartuje, pokud nebylo odemčeno během posledních <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">Zařízení se automaticky nerestartuje</string>
-    <string name="cleartext_network_policy_title">Zakázat nešifrovanou komunikaci po síti</string>
     <string name="cross_profile_sharing_title">Sdílení mezi profily</string>
     <string name="hide">Skrýt</string>
     <string name="unhide">Odhalit</string>
@@ -94,12 +92,12 @@
     <string name="turn_off">Vypnout</string>
     <string name="private_space_separate_vpn_text"><b>Aplikace nepoužívají vaší stávající VPN</b>\nAby vaše soukromé aplikace používaly VPN, budete ji muset nastavit i v soukromém profilu. Můžete také zapnout globální VPN</string>
     <string name="update_info_channel_title">Aktualizovat informace</string>
-    <string name="update_info_channel_desc">Oznámení s důležitými podrobnostmi ohledně nadcházejících aktualizací</string>
     <string name="update_info_title">Informace o aktualizaci CalyxOS</string>
-    <string name="update_info_desc">Odstraňování globálního omezení prostého textu</string>
-    <string name="update_info_desc_long">Systém CalyxOS 6.5 bude k dispozici ve třetím březnovém týdnu. V této aktualizaci funkcí bude odstraněno globální omezení prostého textu (cleartext). Klepnutím se dozvíte, proč to děláme.</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Vymazat všechna data po 5 neúspěšných pokusech o odemknutí</string>
     <string name="maximum_failed_passwords_for_wipe_title">Vymazat po neúspěšných pokusech o odemknutí</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Vymazat všechna data po 10 neúspěšných pokusech o odemknutí</string>
+    <string name="update_info_cleartext_removal_desc">Odstranění globálního omezení prostého textu</string>
+    <string name="update_info_channel_desc2">Oznámení s důležitými podrobnostmi ohledně aktualizací</string>
+    <string name="update_info_cleartext_removal_desc_long">V aktualizaci funkcí dubna 2025 bylo odstraněno globální omezení prostého textu. Klepněte pro více informací.</string>
 </resources>
