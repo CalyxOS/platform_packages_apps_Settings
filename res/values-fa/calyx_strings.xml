@@ -10,7 +10,6 @@
     <string name="calyxos_version">نسخه کالیکس او اس (CalyxOS)</string>
     <string name="private_space_hide_apps_summary_calyx">‏برنامه‌های خصوصی را در فضای جداگانه‌ای پنهان یا قفل کنید.</string>
     <string name="update_info_channel_title">بروزرسانی اطلاعات</string>
-    <string name="update_info_channel_desc">اعلان‌هایی با جزئیات مهم درباره به‌روزرسانی‌های آینده</string>
     <string name="update_info_title">اطلاعات بروزرسانی CalyxOS</string>
     <string name="wifi_timeout_summary2">غیر فعال</string>
     <string name="timeout_summary_15secs">15 ثانیه</string>
