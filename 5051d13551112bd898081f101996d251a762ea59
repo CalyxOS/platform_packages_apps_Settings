@@ -35,6 +35,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5a62994_d2ee9ff4",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-21T22:56:53Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d263302e_fd018c1f",
+      "revId": "5051d13551112bd898081f101996d251a762ea59",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e934c20a_fd6c0834",
@@ -48,6 +66,24 @@
       "writtenOn": "2025-05-21T18:42:24Z",
       "side": 1,
       "message": "I\u0027m not seeing it.",
+      "revId": "5051d13551112bd898081f101996d251a762ea59",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1df65de4_0e42f1f2",
+        "filename": "res/xml/privacy_controls_settings.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-21T22:56:53Z",
+      "side": 1,
+      "message": "Ack, done in Permission module: https://review.calyxos.org/c/CalyxOS/platform_packages_modules_Permission/+/39239",
+      "parentUuid": "e934c20a_fd6c0834",
       "revId": "5051d13551112bd898081f101996d251a762ea59",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
