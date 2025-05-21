@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d263302e_fd018c1f",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-21T18:42:24Z",
+      "side": 1,
+      "message": "Update this comment if it gets successfully moved to Security \u0026 Privacy \u003e Privacy controls.",
+      "revId": "5051d13551112bd898081f101996d251a762ea59",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e934c20a_fd6c0834",
+        "filename": "res/xml/privacy_controls_settings.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-21T18:42:24Z",
+      "side": 1,
+      "message": "I\u0027m not seeing it.",
+      "revId": "5051d13551112bd898081f101996d251a762ea59",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
