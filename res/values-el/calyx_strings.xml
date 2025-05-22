@@ -10,8 +10,6 @@
     <string name="security_restrict_usb_title">Περιορισμός USB</string>
     <string name="show_qs_on_secure_keyguard_summary">Να επιτρέπονται οι γρήγορες ρυθμίσεις σε ασφαλή οθόνη κλειδώματος</string>
     <string name="show_qs_on_secure_keyguard_title">Γρήγορες ρυθμίσεις</string>
-    <string name="cleartext_network_policy_summary">Αποκλείει όλη την κυκλοφορία δικτύου εκτός TLS. Απαιτεί ρύθμιση παραμέτρων ιδιωτικού DNS. Σημείωση: Χωρίς ρητές εξαιρέσεις, οι εφαρμογές που χρησιμοποιούν κυκλοφορία cleartext ενδέχεται να μην λειτουργούν</string>
-    <string name="cleartext_network_policy_title">Περιορισμός της κυκλοφορίας δικτύου cleartext</string>
     <string name="wifi_timeout_summary2">Απενεργοποιημένο</string>
     <string name="wifi_timeout_summary">Το Wi-Fi θα απενεργοποιηθεί μετά από <xliff:g id="timeout_description">%1$s</xliff:g> εάν δεν υπάρχει συνδεδεμένο δίκτυο</string>
     <string name="wifi_timeout">Αυτόματη απενεργοποίηση Wi-Fi</string>
@@ -94,12 +92,12 @@
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">Η εναλλαγή χρήστη πρέπει να είναι ενεργή για την προσθήκη χρηστών από την οθόνη κλειδώματος</string>
     <string name="turn_off">Απενεργοποίηση</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Διαγραφή όλων των δεδομένων μετά από 5 αποτυχημένες προσπάθειες ξεκλειδώματος</string>
-    <string name="update_info_channel_desc">Ειδοποιήσεις με σημαντικές λεπτομέρειες σχετικά με τις επερχόμενες ενημερώσεις</string>
     <string name="update_info_title">Πληροφορίες ενημέρωσης CalyxOS</string>
-    <string name="update_info_desc">Κατάργηση του καθολικού περιορισμού cleartext</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
-    <string name="update_info_desc_long">Το CalyxOS 6.5 θα είναι διαθέσιμο την τρίτη εβδομάδα του Μαρτίου. Σε αυτήν την ενημέρωση, ο καθολικός περιορισμός cleartext θα καταργηθεί. Πατήστε για να μάθετε γιατί το κάνουμε αυτό.</string>
     <string name="update_info_channel_title">Πληροφορίες ενημερώσεων</string>
     <string name="maximum_failed_passwords_for_wipe_title">Επαναφορά μετά από αποτυχημένες προσπάθειες ξεκλειδώματος</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Διαγραφή όλων των δεδομένων μετά από 10 αποτυχημένες προσπάθειες ξεκλειδώματος</string>
+    <string name="update_info_channel_desc2">Ειδοποιήσεις με σημαντικές λεπτομέρειες σχετικά με ενημερώσεις</string>
+    <string name="update_info_cleartext_removal_desc">Κατάργηση του καθολικού περιορισμού απλού κειμένου</string>
+    <string name="update_info_cleartext_removal_desc_long">Στην ενημέρωση δυνατοτήτων του Απριλίου 2025, ο καθολικός περιορισμός απλού κειμένου καταργήθηκε. Πατήστε για να μάθετε περισσότερα.</string>
 </resources>

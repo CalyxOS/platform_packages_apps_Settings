@@ -22,7 +22,6 @@
     <string name="security_restrict_usb_keyguard">Permite gadgeturi USB noi când dispozitivul este deblocat</string>
     <string name="security_restrict_usb_disabled">Permite mereu dispozitive USB noi</string>
     <string name="device_reboot_timeout_summary2">Dispozitivul nu va reporni automat</string>
-    <string name="cleartext_network_policy_summary">Blochează tot traficul de rețea non-TLS. Necesită configurație DNS privată. Notă: fără derogări explicite, este posibil ca aplicațiile care utilizează trafic text clar să nu funcționeze</string>
     <string name="filter_hidden_apps">Aplicații ascunse</string>
     <string name="unhide_app_desc">Dacă afișezi această aplicație, va fi vizibilă din nou pentru Android și pentru alte aplicații.</string>
     <string name="hide_app">Ascunde aplicația</string>
@@ -58,7 +57,6 @@
     <string name="security_restrict_usb_summary">Control de suport pentru dispozitive USB, cum ar fi căști, dispozitive de stocare și dispozitive de intrare (mouse, tastaturi, joystick-uri)</string>
     <string name="security_restrict_usb_always">Respinge noile gadgeturi USB</string>
     <string name="device_reboot_timeout_summary">Dispozitivul va reporni automat dacă nu a fost deblocat în ultimele <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="cleartext_network_policy_title">Restricționează traficul de rețea cu text clar</string>
     <string name="other_settings">Alte opțiuni</string>
     <string name="keychords_summary">Creează un raport de eroare ținând apăsat Volum Creștere, Reducere volum și Alimentare în același timp, chiar și atunci când dispozitivul este blocat</string>
     <string name="keychords_summary_adb_enabled">Întotdeauna activat când depanarea este activată</string>
@@ -87,7 +85,6 @@
     <string name="strict_location_redaction_description">Numai galeriile și managerii de fișiere pot citi metadatele locației din fotografii și media. (Aplicațiile de la terțe părți trebuie să aibă permisiuni Acces la toate fișierele sau Gestionare media.)</string>
     <string name="private_space_hide_apps_summary_calyx">Ascunde sau blochează aplicațiile private într-un spațiu separat.</string>
     <string name="update_info_channel_title">Informații</string>
-    <string name="update_info_channel_desc">Notificări cu detalii importante despre actualizările viitoare</string>
     <string name="update_info_title">Informații despre actualizările CalyxOS</string>
     <string name="work_hours_end_on_summary2">Oprește profilul de serviciu zilnic la <xliff:g id="end_time">%1$s</xliff:g></string>
     <string name="notify">Notifică</string>
@@ -100,5 +97,5 @@
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Șterge toate datele după 5 încercări de deblocare eșuate</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Șterge toate datele după 10 încercări de deblocare eșuate</string>
     <string name="turn_off">Oprește</string>
-    <string name="update_info_desc">Eliminarea restricției globale de limitare</string>
+    <string name="update_info_channel_desc2">Notificări cu detalii importante despre actualizări</string>
 </resources>

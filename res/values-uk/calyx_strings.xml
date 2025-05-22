@@ -15,7 +15,6 @@
     <string name="timeout_summary_1hour">1 година</string>
     <string name="timeout_summary_30mins">30 хвилин</string>
     <string name="bluetooth_timeout_summary2">Не вимикати Bluetooth автоматично</string>
-    <string name="cleartext_network_policy_summary">Блокує весь мережевий трафік, відмінний від TLS. Потрібна конфігурація приватного DNS. Примітка: Без явних винятків програми, які використовують відкритий трафік, можуть не працювати</string>
     <string name="timeout_summary_8hours">8 годин</string>
     <string name="timeout_summary_1min">1 хвилина</string>
     <string name="security_restrict_usb_keyguard">Дозволити нові USB-пристрої під час розблокування</string>
@@ -27,7 +26,6 @@
     <string name="timeout_summary_4hours">4 години</string>
     <string name="timeout_summary_15secs">15 секунд</string>
     <string name="show_qs_on_secure_keyguard_summary">Дозволити швидкі налаштування на екрані блокування</string>
-    <string name="cleartext_network_policy_title">Обмежити відкритий мережевий трафік</string>
     <string name="wifi_timeout">Вимкнення Wi-Fi автоматично</string>
     <string name="data_usage_app_restrict_background_all_summary">Увімкнути використання мережі у фоновому режимі</string>
     <string name="data_usage_app_restrict_background_all">Доступ до фонової мережі</string>
@@ -106,8 +104,8 @@
     <string name="maximum_failed_passwords_for_wipe_title">Стирання при невдалих спробах розблокування</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Видалити всі дані після 10 невдалих спроб розблокування</string>
-    <string name="update_info_desc_long">CalyxOS 6.5 буде доступна на третьому тижні березня. У цьому оновленні функції глобальне обмеження відкритого тексту буде знято. Натисніть, щоб дізнатися, чому ми це робимо.</string>
-    <string name="update_info_desc">Зняття глобального обмеження відкритого тексту</string>
-    <string name="update_info_channel_desc">Сповіщення з важливою інформацією про майбутні оновлення</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Видалити всі дані після 5 невдалих спроб розблокування</string>
+    <string name="update_info_channel_desc2">Сповіщення з важливою інформацією про оновлення</string>
+    <string name="update_info_cleartext_removal_desc">Зняття глобального обмеження відкритого тексту</string>
+    <string name="update_info_cleartext_removal_desc_long">У квітневому оновленні функцій від 2025 року було знято глобальне обмеження відкритого тексту. Торкніться, щоб дізнатися більше.</string>
 </resources>

@@ -51,8 +51,6 @@
     <string name="global_vpn_summary">Força tot el trànsit del dispositiu a través d\'aquesta VPN, inclosos el perfil de treball i altres usuaris.</string>
     <string name="device_reboot_timeout_summary">El dispositiu es reiniciarà automàticament si no s\'ha desbloquejat en l\'últim <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">El dispositiu no es reiniciarà automàticament</string>
-    <string name="cleartext_network_policy_title">Restringeix el trànsit de la xarxa de text clar</string>
-    <string name="cleartext_network_policy_summary">Bloqueja tot el trànsit de xarxa no TLS. Requereix la configuració DNS privada. Nota: Sense exempcions explícites, les aplicacions que utilitzen el trànsit de cleartext poden no funcionar</string>
     <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, punt d\'accés Wi-Fi, VPN, DNS privat</string>
     <string name="network_dashboard_summary_mobile_calyx">Mòbil, Wi-Fi, punt d\'accés Wi-Fi, VPN, DNS privat</string>
     <string name="system_dashboard_summary_calyx">Idiomes, gestos, temps, còpia de seguretat, usuaris, perfil de treball</string>

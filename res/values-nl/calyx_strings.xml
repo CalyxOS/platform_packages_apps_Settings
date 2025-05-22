@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="timeout_summary_30secs">30 Seconden</string>
-    <string name="cleartext_network_policy_title">beperk onbeveiligd netwerkverkeer</string>
     <string name="timeout_summary_10mins">10 minuten</string>
     <string name="security_restrict_usb_keyguard">Sta nieuwe USB-gadgets toe als het apparaat ontgrendeld is</string>
     <string name="timeout_summary_1hour">1 uur</string>
@@ -17,7 +16,6 @@
     <string name="panic_settings_summary">Laat aan-/uit knop optie zien die de paniek-knop activeerd.</string>
     <string name="security_restrict_usb_title">Beperk USB</string>
     <string name="wifi_timeout_summary">Wifi schakelt uit na <xliff:g id="timeout_description">%1$s</xliff:g> als geen netwerk verbonden is</string>
-    <string name="cleartext_network_policy_summary">Blokkeer alle niet-TLS netwerkverkeer. Vereist een Privé-DNS configuratie. NB: zonder expliciete uitzonderingen kunnen apps die cleartext-verkeer hebben niet werken</string>
     <string name="timeout_summary_2mins">2 minuten</string>
     <string name="timeout_summary_30mins">30 minuten</string>
     <string name="wifi_timeout">Zet wifi automatisch uit</string>

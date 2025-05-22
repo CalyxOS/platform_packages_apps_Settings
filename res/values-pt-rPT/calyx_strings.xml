@@ -14,24 +14,22 @@
     <string name="timeout_summary_15secs">15 segundos</string>
     <string name="timeout_summary_never">Nunca</string>
     <string name="bluetooth_timeout_summary2">Não desligar o Bluetooth automaticamente</string>
-    <string name="bluetooth_timeout_summary">Bluetooth irá desligar após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum aparelho estiver conectado</string>
-    <string name="bluetooth_timeout">timeout do Bluetooth</string>
+    <string name="bluetooth_timeout_summary">O Bluetooth irá desligar após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhum aparelho estiver conectado</string>
+    <string name="bluetooth_timeout">Desligar o Bluetooth automaticamente</string>
     <string name="security_restrict_usb_disabled">Sempre permitir novos aparelhos USB</string>
     <string name="security_restrict_usb_keyguard">Permitir novas conexões USB quando desbloqueado</string>
     <string name="security_restrict_usb_always">Negar novos aparelhos USB</string>
-    <string name="security_restrict_usb_summary">Controle o suporte às conexões USB como fones, dispositivos de armazenamento e de entrada (ratos, teclados, joysticks)</string>
+    <string name="security_restrict_usb_summary">Controle o suporte às conexões USB como fones, aparelhos de armazenamento e de entrada (ratos, teclados, joysticks)</string>
     <string name="security_restrict_usb_title">Restringir USB</string>
-    <string name="panic_settings_summary">Exibir a opção do botão liga/desliga que ativa um gatilho de pânico de emergência.</string>
+    <string name="panic_settings_summary">Exibir a opção do botão liga/desliga que ativa um pânico de emergência.</string>
     <string name="panic_settings_title">Mostrar opção de pânico</string>
-    <string name="cleartext_network_policy_title">Restringir o tráfego de texto claro na rede</string>
-    <string name="data_usage_app_restrict_background_all">Acesso a rede em segundo plano</string>
+    <string name="data_usage_app_restrict_background_all">Acesso à rede em segundo plano</string>
     <string name="wifi_timeout">Desligar o Wi-Fi automaticamente</string>
-    <string name="wifi_timeout_summary">Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
-    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS Privado. Nota: Sem isenções explícitas, aplicativos que usam tráfego de texto simples podem não funcionar</string>
-    <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
-    <string name="aosp_module_version">Atualização do módulo principal</string>
-    <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as configurações rápidas no ecrã de bloqueio seguro</string>
-    <string name="wifi_timeout_summary2">Desativada</string>
+    <string name="wifi_timeout_summary">O Wi-Fi será desligado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver conectado a nenhuma rede</string>
+    <string name="show_qs_on_secure_keyguard_title">Definições rápidas</string>
+    <string name="aosp_module_version">Atualização dos módulos Mainline</string>
+    <string name="show_qs_on_secure_keyguard_summary">Permitir utilizar as definições rápidas no ecrã de bloqueio seguro</string>
+    <string name="wifi_timeout_summary2">Desativado</string>
     <string name="data_usage_app_restrict_background_all_summary">Ativar uso da rede em segundo plano</string>
     <string name="timeout_summary_72hours">72 horas</string>
     <string name="timeout_summary_48hours">48 horas</string>
@@ -39,67 +37,62 @@
     <string name="timeout_summary_24hours">24 horas</string>
     <string name="timeout_summary_12hours">12 horas</string>
     <string name="device_reboot_timeout_summary2">O aparelho não irá reiniciar automaticamente</string>
-    <string name="device_reboot_timeout_summary">O aparelho será reiniciado automaticamente se não tiver sido desbloqueado nos últimos <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary">O aparelho será reiniciado automaticamente se não tiver sido desbloqueado nas últimas <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_title">Reinicialização automática</string>
-    <string name="global_vpn_summary_any_vpn_active">Você precisa primeiro desativar todas as conexões VPN para ativar essa</string>
+    <string name="global_vpn_summary_any_vpn_active">Você precisa primeiro desativar todas as conexões VPN para ativar isto</string>
     <string name="cross_profile_sharing_title">Compartilhamento entre perfis</string>
-    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g>
-\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
-\nFornecedor: <xliff:g id="kernel_level">%3$s</xliff:g>
-\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g> \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g> \nFabricante: <xliff:g id="kernel_level">%3$s</xliff:g> \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="global_vpn_title">VPN Global</string>
     <string name="global_vpn_summary">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores.</string>
     <string name="global_vpn_summary_on">Forçar todo o tráfego no aparelho a passar por esta VPN, incluindo perfil de trabalho e outros utilizadores. Nota: Quando ativado, não poderá utilizar uma VPN separada num perfil de trabalho ou outros utilizadores</string>
     <string name="hide">Ocultar</string>
     <string name="unhide">Mostrar</string>
     <string name="filter_hidden_apps">Apps ocultas</string>
-    <string name="hide_app">Ocultar apps</string>
-    <string name="cross_profile_sharing_summary">Permitir que botões de compartilhamento dentro de aplicativos funcionem entre seu perfil pessoal e de trabalho</string>
-    <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie apps privados num espaço separado.</string>
-    <string name="view_bugreports_summary_not_developer">Uma vez vistos, todos os relatórios de bugs continuarão acessíveis até que o dispositivo seja reiniciado</string>
+    <string name="hide_app">Ocultar app</string>
+    <string name="cross_profile_sharing_summary">Permitir que botões de compartilhamento dentro de aplicações funcionem entre seu perfil pessoal e de trabalho</string>
+    <string name="private_space_hide_apps_summary_calyx">Oculte ou bloqueie apps privadas num espaço separado.</string>
+    <string name="view_bugreports_summary_not_developer">Após visualizados, todos os relatórios de erros continuarão acessíveis até que o aparelho seja reiniciado</string>
     <string name="update_info_channel_title">Informações de atualização</string>
-    <string name="update_info_channel_desc">Notificações com pormenores importantes sobre atualizações futuras</string>
     <string name="update_info_title">Informações de atualização do CalyxOS</string>
-    <string name="update_info_desc">A remover a restrição global de redes sem-criptografia</string>
-    <string name="update_info_desc_long">O CalyxOS 6.5 estará disponível na terceira semana de Março. Nessa atualização de recursos, a restrição global de redes sem-criptografia será removida. Toque para saber o porquê estamos fazendo isto.</string>
     <string name="keychords_summary_adb_enabled">Sempre ativado quando a depuração está ativa</string>
     <string name="hidden">Oculto</string>
-    <string name="unhide_app_desc">Se revelar esta app, ficará visível para o Android e outras apps novamente.</string>
-    <string name="hide_app_desc">Se ocultar esta app, já não ficará visível para o Android e outras apps e eles podem não funcionar mais como deveriam. Tenha em mente que ao ocultar uma app, os seus dados são preservados, mas a app é de desativada e escondida no seu dispositivo.</string>
+    <string name="unhide_app_desc">Se mostrar esta app, ficará visível para o Android e outras apps novamente.</string>
+    <string name="hide_app_desc">Se ocultar esta app, já não ficará visível para o Android e outras apps e eles podem não funcionar mais como deveriam. Tenha em mente que ao ocultar uma app, os seus dados são preservados, mas a app é de desativada e escondida no seu aparelho.</string>
     <string name="security_settings_biometric_preference_title_calyx">Desbloqueio Biométrico</string>
     <string name="work_hours_title">Horário de trabalho</string>
-    <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente ás <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
+    <string name="work_hours_end_on_summary">Mostrar uma notificação diariamente às <xliff:g id="end_time">%1$s</xliff:g> para desativar o perfil de trabalho</string>
     <string name="work_hours_end_notification_title">Fim da jornada de trabalho</string>
     <string name="user_switch_on_lockscreen_summary">Permitir alternar mesmo quando o utilizador está bloqueado</string>
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">O alternador de utilizadores é necessário para adicionar utilizadores pela ecrã de bloqueio</string>
-    <string name="maximum_failed_passwords_for_wipe_title">Apagar ao errar a palavra-passe da ecrã de bloqueio</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Apagar ao errar o bloqueio de ecrã</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
-    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Apagar todos os dados após 5 tentativas de desbloqueio falhas</string>
-    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Apagar todos os dados após 10 tentativas de desbloqueio falhas</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Apagar todos os dados após 5 tentativas falhas</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Apagar todos os dados após 10 tentativas falhas</string>
     <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pareamento, NFC</string>
-    <string name="keychords_title">Combinação de botões para relatório de bugs</string>
+    <string name="keychords_title">Combinação de botões para relatório de erros</string>
     <string name="system_dashboard_summary_calyx">Idiomas, gestos, horário, backup, utilizadores, perfil de trabalho</string>
     <string name="captive_portal_title">Teste de conectividade</string>
-    <string name="keychords_summary">Capture um relatório de bugs segurando os dois botões de volume e o botão liga/desliga ao mesmo tempo, mesmo quando o dispositivo está bloqueado</string>
-    <string name="data_usage_app_datura_firewall_summary">Configurações de firewall foram movidas para a nova app Firewall. Toque para abri-la.</string>
+    <string name="keychords_summary">Capture um relatório de erros segurando os dois botões de volume e o botão liga/desliga ao mesmo tempo, mesmo quando o aparelho está bloqueado</string>
+    <string name="data_usage_app_datura_firewall_summary">Definições de firewall foram movidas para a nova app Firewall. Toque para abri-la.</string>
     <string name="work_hours_end_off_summary">Automaticamente desative o perfil de trabalho ou receba uma notificação para isso</string>
-    <string name="work_hours_end_notification_description">Toque para desligar os apps de trabalho</string>
+    <string name="work_hours_end_notification_description">Toque para desligar as apps de trabalho</string>
     <string name="strict_location_redaction_description">Somente galerias e gestores de ficheiros devem poder ler metadados das suas fotos e média. (Apps de terceiros devem ter o acesso à todos os ficheiros, ou permissões de gestão de média.)</string>
     <string name="private_space_separate_vpn_text"><b>Apps não usam a sua VPN existente</b>\nPara que as suas apps privadas usem uma VPN, também precisará de configurar uma no seu espaço. Alternativamente, também pode ativar a VPN Global</string>
-    <string name="unhide_app">Revelar app</string>
-    <string name="network_dashboard_summary_mobile_calyx">Redes móveis, Wi-Fi, ponto de acesso, VPN, DNS particular</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ponto de acesso, VPN, DNS particular</string>
-    <string name="security_dashboard_summary_calyx">Bloqueio de ecrã, configurações de pânico, restrições USB, segurança de apps</string>
-    <string name="captive_portal_summary">Determinar se o dispositivo consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detetar redes com páginas de login.</string>
-    <string name="bugreport_summary">Obter um relatório de bugs agora</string>
+    <string name="unhide_app">Mostrar app</string>
+    <string name="network_dashboard_summary_mobile_calyx">Redes móveis, Wi-Fi, zona Wi-Fi, VPN, DNS privado</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, zona Wi-Fi, VPN, DNS privado</string>
+    <string name="security_dashboard_summary_calyx">Bloqueio de ecrã, definições de pânico, restrições USB, segurança de apps</string>
+    <string name="captive_portal_summary">Determinar se o aparelho consegue se conectar à internet, através de uma conexão ao Google. Também é usado para detetar redes com páginas de login.</string>
+    <string name="bugreport_summary">Obter um relatório de erros agora</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueio Biométrico de trabalho</string>
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
-    <string name="work_hours_end_on_summary2">Desligar o perfil de trabalho diariamente ás <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="work_hours_end_on_summary2">Desligar o perfil de trabalho diariamente às <xliff:g id="end_time">%1$s</xliff:g></string>
     <string name="turn_off">Desligar</string>
     <string name="notify">Notificar</string>
     <string name="strict_location_redaction_title">Eliminar dados de localização ao partilhar média</string>
     <string name="user_switch_on_lockscreen">Alternar utilizadores pela ecrã de bloqueio</string>
-    <string name="quick_settings">Configurações rápidas</string>
-    <string name="view_bugreports_title">Ver relatórios de erros</string>
+    <string name="quick_settings">Definições rápidas</string>
+    <string name="view_bugreports_title">Visualizar relatórios de erros</string>
     <string name="other_settings">Outras opções</string>
+    <string name="update_info_channel_desc2">Notificações com detalhes importantes sobre atualizações</string>
 </resources>

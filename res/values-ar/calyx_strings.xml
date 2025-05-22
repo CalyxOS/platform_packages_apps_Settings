@@ -2,13 +2,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calyxos_version">إصدار CalyxOS</string>
     <string name="aosp_module_version">تحديث الوحدة الرئيسية</string>
-    <string name="detailed_security_patch">النظام الأساسي: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"platform_level\"&gt;
-\nنواة: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"kernel_level\"&gt;
-\nبائع: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"kernel_level\"&gt;
-\nالبرامج الثابتة: &lt;xliff:g xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\" id=\"firmware_level\"&gt;</string>
+    <string name="detailed_security_patch">النظام الأساسي: &lt;xliff:g id=\"platform_level\"&gt;%1$s&lt;/xliff:g\nنواة: &lt;xliff:g id=\"kernel_level\"&gt;%2$s&lt;/xliff:g&gt;\nبائع: &lt;xliff:g id=\"kernel_level\"&gt;%3$s&lt;/xliff:g&gt;\nالبرامج الثابتة: &lt;xliff:g id=\"firmware_level\"&gt;%4$s&lt;/xliff:g&gt;</string>
     <string name="bluetooth_timeout_summary2">لا تعطل البلوتوث تلقائيًا</string>
     <string name="wifi_timeout_summary">سيتم إيقاف تشغيل Wi-Fi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يكن هناك شبكة متصلة</string>
-    <string name="cleartext_network_policy_summary">حظر جميع حركات المرور التي لا تعتمد على شبكة TLS. يتطلب تكوين DNS خاص. ملاحظة: بدون استثناءات صريحة، قد لا تعمل التطبيقات التي تستخدم حركة مرور النص الواضح</string>
     <string name="panic_settings_title">إظهار خيار الذعر</string>
     <string name="show_qs_on_secure_keyguard_title">إعدادات السريعة</string>
     <string name="show_qs_on_secure_keyguard_summary">السماح بتبديل الإعدادات السريعة على شاشة القُفْل</string>
@@ -22,7 +18,6 @@
     <string name="cross_profile_sharing_summary">قم بتمكين أزرار المشاركة داخل التطبيق للعمل عبر ملفك الشخصي وملفك الشخصي للعمل</string>
     <string name="cross_profile_sharing_title">تبادل الملفات الشخصية</string>
     <string name="hide">إخفاء</string>
-    <string name="cleartext_network_policy_title">تقييد حركة مرور شبكة النص الواضح</string>
     <string name="panic_settings_summary">عرض خِيار زر الطاقة الذي ينشط حالة الذعر في حالات الطوارئ.</string>
     <string name="timeout_summary_never">أبداً</string>
     <string name="timeout_summary_15secs">15 ثانية</string>
