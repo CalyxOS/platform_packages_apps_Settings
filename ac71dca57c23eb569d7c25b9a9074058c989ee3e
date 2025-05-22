@@ -16,6 +16,24 @@
       "message": "Nit:\n\n```suggestion\nMove Legacy system updater to Other Options\n```\n\nAs that\u0027s the intended goal.",
       "revId": "ac71dca57c23eb569d7c25b9a9074058c989ee3e",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc63a04d_eb90c304",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-05-22T21:10:17Z",
+      "side": 1,
+      "message": "Oh, I am glad you mentioned that, because on a related note, I almost forgot we need to remove the internet from the old Updater...\n\nI\u0027m not sure how accurate \"Move\" is technically, but in practice...maybe? Feel free to apply the edit if you want.",
+      "parentUuid": "2d9a312a_87284fed",
+      "revId": "ac71dca57c23eb569d7c25b9a9074058c989ee3e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
