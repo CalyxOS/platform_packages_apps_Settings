@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "59450342_97b09e3d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-22T13:03:58Z",
+      "side": 1,
+      "message": "Commented there, it\u0027s a lot more code, whereas this approach is much leaner. I\u0027d say let\u0027s restore patch set 9 and we can ship that in May, since that should\u0027ve been working fine.",
+      "parentUuid": "1b3f616c_d0ef2eda",
+      "revId": "5051d13551112bd898081f101996d251a762ea59",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d263302e_fd018c1f",
         "filename": "res/values/calyx_strings.xml",
         "patchSetId": 10
