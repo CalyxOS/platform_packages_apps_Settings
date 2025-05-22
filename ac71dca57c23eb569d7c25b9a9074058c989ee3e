@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d9a312a_87284fed",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-22T21:08:22Z",
+      "side": 1,
+      "message": "Nit:\n\n```suggestion\nMove Legacy system updater to Other Options\n```\n\nAs that\u0027s the intended goal.",
+      "revId": "ac71dca57c23eb569d7c25b9a9074058c989ee3e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
