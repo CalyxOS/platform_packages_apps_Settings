@@ -52,6 +52,14 @@
             android:title="@string/view_bugreports_title"
             settings:controller="com.android.settings.other.ViewBugreportsPreferenceController" />
 
+        <Preference
+            android:key="legacy_system_update_settings"
+            android:title="@string/legacy_system_update_settings_list_item_title_calyx">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="app.seamlessupdate.client"
+                android:targetClass="app.seamlessupdate.client.Settings" />
+        </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory
