@@ -4,7 +4,6 @@
     <string name="system_dashboard_summary_calyx">ენები, ჟესტები, დრო, მარქაფი, მომხმარებლები, მუშაობის პროფილი</string>
     <string name="security_dashboard_summary_calyx">ეკრანის ჩაკეტვა, პანიკის მორგება, USB-ის შეზღუდვა, აპების დაცვა</string>
     <string name="show_qs_on_secure_keyguard_title">სწრაფი მორგება</string>
-    <string name="cleartext_network_policy_title">დაუშიფრავი ქსელის ტრაფიკის შეზღუდვა</string>
     <string name="aosp_module_version">მოდულის მთავარი ხაზის განახლება</string>
     <string name="panic_settings_summary">ჩართვის ღილაკის ჩვენება, რომელიც საწრაფო პანიკის ტრიგერს ააქტიურებს.</string>
     <string name="bluetooth_timeout_summary2">Bluetooth ავტომატურად არ გაითიშება</string>
@@ -27,7 +26,6 @@
     <string name="hide_app">აპის დამალვა</string>
     <string name="wifi_timeout_summary">თუ ქსელთან არ მივერთდებით, Wi-F <xliff:g id="timeout_description">%1$s</xliff:g>-ის შემდეგ გაითიშება</string>
     <string name="cross_profile_sharing_summary">პერსონალურსა და სამუშაო პროფილებს შორის გასაზიარებლად აპის შიდა-გაზიარების ღილაკი გამოიყენეთ</string>
-    <string name="cleartext_network_policy_summary">ყველა არა-TLS ტრაფიკის დაბლოკვა. მოითხოვს პირად DNS-ს. შენიშვნა: ხელით მითითების გარეშე, დაუშიფრავი ტრაფიკის მქონე აპებმა შეიძლება არ იმუშაონ</string>
     <string name="detailed_security_patch">პლატფორმა: <xliff:g id="platform_level">%1$s</xliff:g>
 \nბირთვი: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nმომწოდებელი: <xliff:g id="kernel_level">%3$s</xliff:g>

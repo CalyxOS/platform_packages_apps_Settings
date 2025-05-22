@@ -25,7 +25,6 @@
     <string name="bluetooth_timeout">Blåtannstidsavbrudd</string>
     <string name="wifi_timeout_summary2">Avskrudd</string>
     <string name="show_qs_on_secure_keyguard_title">Hurtiginnstillinger</string>
-    <string name="cleartext_network_policy_title">Begrens klartekst-nettverkstrafikk</string>
     <string name="show_qs_on_secure_keyguard_summary">Tillat veksling av hurtiginnstillinger på sikker låseskjerm</string>
     <string name="aosp_module_version">Oppdatering av hovedlinjemodulen</string>
     <string name="cross_profile_sharing_title">Deling på tvers av profiler</string>
@@ -50,7 +49,6 @@
 \nBrannmur: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="device_reboot_timeout_title">Automatisk omstart</string>
     <string name="device_reboot_timeout_summary">Enheten vil starte på ny automatisk hvis den ikke har blitt låst opp de siste <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="cleartext_network_policy_summary">Blokkerer all ikke-TLS-nettverkstrafikk. Krever privat DNS-oppsett. Merk: Uten eksplisitte unntak, kan det hende programmer som bruker klarteksttrafikk ikke virker.</string>
     <string name="wifi_timeout_summary">Wi-Fi vil bli skrudd av etter <xliff:g id="timeout_description">%1$s</xliff:g> hvis ikke tilknyttet et nettverk</string>
     <string name="global_vpn_summary_on">Tving all trafikk på enheten gjennom denne VPN-kanalen, inkludert arbeidsprofil og andre brukere. Merk: Når påskrudd, vil du ikke kunne bruke en egen VPN i en arbeidsprofil eller for andre brukere.</string>
     <string name="private_space_hide_apps_summary_calyx">Skjul eller lås private apper på et separat område.</string>
