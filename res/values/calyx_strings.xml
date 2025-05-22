@@ -165,4 +165,7 @@
     <!-- Describes the mic timeout [CHAR LIMIT=NONE] -->
     <string name="mic_timeout_description">Microphone access will turn off after %1$s if not in use</string>
     <string name="mic_timeout_description2">Microphone access will not turn off automatically</string>
+
+    <!-- Legacy system updater -->
+    <string name="legacy_system_update_settings_list_item_title_calyx">Legacy system updater</string>
 </resources>
