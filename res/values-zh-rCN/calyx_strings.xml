@@ -100,4 +100,6 @@
     <string name="update_info_cleartext_removal_desc">删除全局明文限制</string>
     <string name="update_info_channel_desc2">带更新重要详情的通知</string>
     <string name="update_info_cleartext_removal_desc_long">在 2025 年 4 月的功能更新中，全局明文限制已被去除。轻按了解更多信息。</string>
+    <string name="tethering_allow_vpn_upstreams_title_calyx">对已连接设备使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary_calyx">当该设备使用 VPN 时，所有连接到该热点的设备都使用相同的 VPN</string>
 </resources>
