@@ -39,7 +39,7 @@
     <string name="device_reboot_timeout_summary2">O aparelho não irá reiniciar automaticamente</string>
     <string name="device_reboot_timeout_summary">O aparelho será reiniciado automaticamente se não tiver sido desbloqueado nas últimas <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_title">Reinicialização automática</string>
-    <string name="global_vpn_summary_any_vpn_active">Você precisa primeiro desativar todas as conexões VPN para ativar isto</string>
+    <string name="global_vpn_summary_any_vpn_active">Todas as ligações de VPN devem estar desativadas para ativar isso</string>
     <string name="cross_profile_sharing_title">Compartilhamento entre perfis</string>
     <string name="detailed_security_patch">Plataforma: <xliff:g id="platform_level">%1$s</xliff:g> \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g> \nFabricante: <xliff:g id="kernel_level">%3$s</xliff:g> \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="global_vpn_title">VPN Global</string>
