@@ -97,4 +97,6 @@
     <string name="update_info_channel_desc2">مۇھىم تەپسىلاتى قوشۇلغان يېڭىلاش ھەققىدىكى ئۇقتۇرۇش</string>
     <string name="update_info_cleartext_removal_desc">ئومۇمىيەت ئوچۇق تېكىست چەكلىمىسىنى چىقىرىۋېتىدۇ</string>
     <string name="update_info_cleartext_removal_desc_long">2025-يىلى 4-ئايدىكى ئىقتىدار يېڭىلىنىشىدا، ئومۇمىيەت ئوچۇق تېكىست چەكلىمىسى چىقىرىۋېتىلدى. تېخىمۇ كۆپ بىلىم ئۈچۈن چېكىلىدۇ.</string>
+    <string name="tethering_allow_vpn_upstreams_title_calyx">باغلانغان ئۈسكۈنىگە VPN ئىشلىتىدۇ</string>
+    <string name="tethering_allow_vpn_upstreams_summary_calyx">بۇ ئۈسكۈنە VPN ئىشلىتىۋاتقاندا، قىزىق نۇقتىغا باغلانغان بارلىق ئۈسكۈنە ئوخشاش VPN نى ئىشلىتىدۇ</string>
 </resources>
