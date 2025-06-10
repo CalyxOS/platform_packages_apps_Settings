@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5ab4e34_8aa10e18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-06-10T16:52:35Z",
+      "side": 1,
+      "message": "35260: Partially Revert \"[Settings] Start SettingsDumpService to dump the db log after the db is\" | https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/35260 hehe",
+      "revId": "250e12af3d513642d70d94a944c61d674a719d51",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
