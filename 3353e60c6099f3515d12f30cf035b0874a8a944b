@@ -16,6 +16,24 @@
       "message": "Hold until 432577: New string for \"Hotspot VPN\" feature | https://review.lineageos.org/c/LineageOS/android_packages_apps_Settings/+/432577 is in and then pulled in via a lineage merge.\n\nNoticed it and figured I\u0027d leave the change up and open to avoid forgetting.",
       "revId": "3353e60c6099f3515d12f30cf035b0874a8a944b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05386ec5_de9b071f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-06-10T15:04:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2b6fcc4f_e698e576",
+      "revId": "3353e60c6099f3515d12f30cf035b0874a8a944b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
