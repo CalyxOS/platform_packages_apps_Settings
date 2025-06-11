@@ -82,7 +82,7 @@ public class WorkModePreferenceController extends BasePreferenceController
 
     @Override
     public final void updateState(Preference preference) {
-        mPreference.updateStatus(!mQuietModeEnabler.isQuietModeEnabled());
+        mPreference.setChecked(!mQuietModeEnabler.isQuietModeEnabled());
     }
 
     @Override
