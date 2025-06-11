@@ -23,14 +23,12 @@ import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 
 import android.app.settings.SettingsEnums;
 import android.content.ActivityNotFoundException;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivitySettingsManager;
 import android.os.UserHandle;
 import android.os.UserManager;
-import android.provider.Settings;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.method.LinkMovementMethod;
@@ -55,6 +53,7 @@ import com.android.settingslib.HelpUtils;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.common.net.InternetDomainName;
 
 import java.util.HashMap;
@@ -64,7 +63,7 @@ import java.util.Map;
  * Dialog to set the Private DNS
  */
 public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat implements
-        DialogInterface.OnClickListener, RadioGroup.OnCheckedChangeListener, TextWatcher {
+        RadioGroup.OnCheckedChangeListener, TextWatcher {
 
     public static final String ANNOTATION_URL = "url";
 
@@ -84,16 +83,9 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
     }
 
     @VisibleForTesting
-    static final String MODE_KEY = Settings.Global.PRIVATE_DNS_MODE;
+    TextInputLayout mHostnameLayout;
     @VisibleForTesting
-    static final String HOSTNAME_KEY = Settings.Global.PRIVATE_DNS_SPECIFIER;
-
-    public static String getHostnameFromSettings(ContentResolver cr) {
-        return Settings.Global.getString(cr, HOSTNAME_KEY);
-    }
-
-    @VisibleForTesting
-    EditText mEditText;
+    EditText mHostnameText;
     @VisibleForTesting
     RadioGroup mRadioGroup;
     @VisibleForTesting
@@ -140,13 +132,13 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
             // by the controller.
             holder.itemView.setEnabled(true);
         }
+
+        setSaveButtonListener();
     }
 
     @Override
     protected void onBindDialogView(View view) {
         final Context context = getContext();
-        final ContentResolver contentResolver = context.getContentResolver();
-
         mMode = ConnectivitySettingsManager.getPrivateDnsMode(context);
         if (mMode == PRIVATE_DNS_MODE_PROVIDER_HOSTNAME) {
             final String privateDnsHostname =
@@ -157,14 +149,9 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
                 mMode = PRIVATE_DNS_MODE_CLOUDFLARE;
             }
         }
-
-        mEditText = view.findViewById(R.id.private_dns_mode_provider_hostname);
-        mEditText.addTextChangedListener(this);
-        mEditText.setText(getHostnameFromSettings(contentResolver));
-
         mRadioGroup = view.findViewById(R.id.private_dns_radio_group);
-        mRadioGroup.setOnCheckedChangeListener(this);
         mRadioGroup.check(PRIVATE_DNS_MAP.getOrDefault(mMode, R.id.private_dns_mode_opportunistic));
+        mRadioGroup.setOnCheckedChangeListener(this);
 
         // Initial radio button text
         final RadioButton offRadioButton = view.findViewById(R.id.private_dns_mode_off);
@@ -179,6 +166,13 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         final RadioButton providerRadioButton = view.findViewById(R.id.private_dns_mode_provider);
         providerRadioButton.setText(com.android.settingslib.R.string.private_dns_mode_provider);
 
+        mHostnameLayout = view.findViewById(R.id.private_dns_mode_provider_hostname_layout);
+        mHostnameText = view.findViewById(R.id.private_dns_mode_provider_hostname);
+        if (mHostnameText != null) {
+            mHostnameText.setText(ConnectivitySettingsManager.getPrivateDnsHostname(context));
+            mHostnameText.addTextChangedListener(this);
+        }
+
         final TextView helpTextView = view.findViewById(R.id.private_dns_help_info);
         helpTextView.setMovementMethod(LinkMovementMethod.getInstance());
         final Intent helpIntent = HelpUtils.getHelpIntent(context,
@@ -192,28 +186,8 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         } else {
             helpTextView.setText("");
         }
-    }
 
-    @Override
-    public void onClick(DialogInterface dialog, int which) {
-        if (which == DialogInterface.BUTTON_POSITIVE) {
-            final Context context = getContext();
-            int modeToSet = mMode;
-            if (mMode == PRIVATE_DNS_MODE_PROVIDER_HOSTNAME) {
-                // Only clickable if hostname is valid, so we could save it safely
-                ConnectivitySettingsManager.setPrivateDnsHostname(context,
-                        mEditText.getText().toString());
-            } else if (mMode == PRIVATE_DNS_MODE_CLOUDFLARE) {
-                final String cloudflareHostname =
-                        context.getString(R.string.private_dns_hostname_cloudflare);
-                ConnectivitySettingsManager.setPrivateDnsHostname(context, cloudflareHostname);
-                modeToSet = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
-            }
-
-            FeatureFactory.getFeatureFactory().getMetricsFeatureProvider().action(context,
-                    SettingsEnums.ACTION_PRIVATE_DNS_MODE, modeToSet);
-            ConnectivitySettingsManager.setPrivateDnsMode(context, modeToSet);
-        }
+        updateDialogInfo();
     }
 
     @Override
@@ -265,24 +239,64 @@ public class PrivateDnsModeDialogPreference extends CustomDialogPreferenceCompat
         return getEnforcedAdmin() != null;
     }
 
-    private Button getSaveButton() {
-        final AlertDialog dialog = (AlertDialog) getDialog();
-        if (dialog == null) {
-            return null;
-        }
-        return dialog.getButton(DialogInterface.BUTTON_POSITIVE);
-    }
-
     private void updateDialogInfo() {
         final boolean modeProvider = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME == mMode;
-        if (mEditText != null) {
-            mEditText.setEnabled(modeProvider);
+        if (mHostnameLayout != null) {
+            mHostnameLayout.setEnabled(modeProvider);
+            mHostnameLayout.setErrorEnabled(false);
         }
-        final Button saveButton = getSaveButton();
-        if (saveButton != null) {
-            saveButton.setEnabled(modeProvider
-                    ? InternetDomainName.isValid(mEditText.getText().toString())
-                    : true);
+    }
+
+    private void setSaveButtonListener() {
+        View.OnClickListener onClickListener = v -> doSaveButton();
+        DialogInterface.OnShowListener onShowListener = dialog -> {
+            if (dialog == null) {
+                Log.e(TAG, "The DialogInterface is null!");
+                return;
+            }
+            Button saveButton = ((AlertDialog) dialog).getButton(DialogInterface.BUTTON_POSITIVE);
+            if (saveButton == null) {
+                Log.e(TAG, "Can't get the save button!");
+                return;
+            }
+            saveButton.setOnClickListener(onClickListener);
+        };
+        setOnShowListener(onShowListener);
+    }
+
+    @VisibleForTesting
+    void doSaveButton() {
+        Context context = getContext();
+        int modeToSet = mMode;
+        if (mMode == PRIVATE_DNS_MODE_PROVIDER_HOSTNAME) {
+            if (mHostnameLayout == null || mHostnameText == null) {
+                Log.e(TAG, "Can't find hostname resources!");
+                return;
+            }
+            if (mHostnameText.getText().isEmpty()) {
+                mHostnameLayout.setError(context.getString(R.string.private_dns_field_require));
+                Log.w(TAG, "The hostname is empty!");
+                return;
+            }
+            if (!InternetDomainName.isValid(mHostnameText.getText().toString())) {
+                mHostnameLayout.setError(context.getString(R.string.private_dns_hostname_invalid));
+                Log.w(TAG, "The hostname is invalid!");
+                return;
+            }
+
+            ConnectivitySettingsManager.setPrivateDnsHostname(context,
+                    mHostnameText.getText().toString());
+        } else if (mMode == PRIVATE_DNS_MODE_CLOUDFLARE) {
+            final String cloudflareHostname =
+                    context.getString(R.string.private_dns_hostname_cloudflare);
+            ConnectivitySettingsManager.setPrivateDnsHostname(context, cloudflareHostname);
+            modeToSet = PRIVATE_DNS_MODE_PROVIDER_HOSTNAME;
         }
+
+        ConnectivitySettingsManager.setPrivateDnsMode(context, modeToSet);
+
+        FeatureFactory.getFeatureFactory().getMetricsFeatureProvider()
+                .action(context, SettingsEnums.ACTION_PRIVATE_DNS_MODE, modeToSet);
+        getDialog().dismiss();
     }
 }

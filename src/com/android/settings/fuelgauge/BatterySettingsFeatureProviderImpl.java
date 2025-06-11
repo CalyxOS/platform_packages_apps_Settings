@@ -77,7 +77,7 @@ public class BatterySettingsFeatureProviderImpl implements BatterySettingsFeatur
     }
 
     @Override
-    public boolean isChargingOptimizationMode(@NonNull Context context) {
+    public boolean isChargingOptimizationMode(@NonNull Context context, boolean isLongLife) {
         return false;
     }
 
