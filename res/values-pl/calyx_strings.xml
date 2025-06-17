@@ -100,4 +100,6 @@
     <string name="update_info_cleartext_removal_desc">Usunięcie globalnego ograniczenia czystego tekstu (cleartext)</string>
     <string name="update_info_channel_desc2">Powiadomienia z ważnymi informacjami o aktualizacjach</string>
     <string name="update_info_cleartext_removal_desc_long">W aktualizacji funkcji z kwietnia 2025 r. usunięto globalne ograniczenie czystego tekstu (cleartext). Kliknij, aby dowiedzieć się więcej.</string>
+    <string name="tethering_allow_vpn_upstreams_title_calyx">Korzystanie z VPN dla podłączonych urządzeń</string>
+    <string name="tethering_allow_vpn_upstreams_summary_calyx">Gdy to urządzenie korzysta z VPN, wszystkie urządzenia podłączone do hotspotu będą korzystać z tej samej sieci VPN</string>
 </resources>
