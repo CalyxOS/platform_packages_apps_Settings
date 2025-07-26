@@ -9,14 +9,14 @@
     <string name="wifi_timeout_summary">Wi-Fi вимкнеться через <xliff:g id="timeout_description">%1$s</xliff:g> якщо не під\'єднано до жодної мережі</string>
     <string name="timeout_summary_2mins">2 хвилини</string>
     <string name="aosp_module_version">Оновлення основного модуля</string>
-    <string name="timeout_summary_30secs">30 секунд</string>
+    <string name="timeout_summary_30secs">30 секунди</string>
     <string name="wifi_timeout_summary2">Вимкнено</string>
     <string name="security_restrict_usb_summary">Підтримка управління для USB-пристроїв, таких як навушники, пристрої зберігання даних і пристрої введення (миші, клавіатури, джойстики)</string>
     <string name="timeout_summary_1hour">1 година</string>
     <string name="timeout_summary_30mins">30 хвилин</string>
     <string name="bluetooth_timeout_summary2">Не вимикати Bluetooth автоматично</string>
     <string name="timeout_summary_8hours">8 годин</string>
-    <string name="timeout_summary_1min">1 хвилина</string>
+    <string name="timeout_summary_1min">1 хвилинах</string>
     <string name="security_restrict_usb_keyguard">Дозволити нові USB-пристрої під час розблокування</string>
     <string name="security_restrict_usb_disabled">Завжди дозволяти нові USB-пристрої</string>
     <string name="show_qs_on_secure_keyguard_title">Швидкі налаштування</string>
@@ -108,4 +108,6 @@
     <string name="update_info_channel_desc2">Сповіщення з важливою інформацією про оновлення</string>
     <string name="update_info_cleartext_removal_desc">Зняття глобального обмеження відкритого тексту</string>
     <string name="update_info_cleartext_removal_desc_long">У квітневому оновленні функцій від 2025 року було знято глобальне обмеження відкритого тексту. Торкніться, щоб дізнатися більше.</string>
+    <string name="tethering_allow_vpn_upstreams_summary_calyx">Коли цей пристрій використовує VPN, усі пристрої, підключені до точки доступу, використовуватимуть ту саму VPN</string>
+    <string name="tethering_allow_vpn_upstreams_title_calyx">Використовуйте VPN для підключених пристроїв</string>
 </resources>
