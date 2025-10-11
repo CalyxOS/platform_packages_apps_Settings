@@ -98,6 +98,6 @@
     <string name="user_switch_on_lockscreen_summary">Bu kullanıcı kilitliyken kullanıcı değiştirmeye izin ver</string>
     <string name="update_info_title">CalyxOS Güncelleme bilgisi</string>
     <string name="update_info_channel_desc2">Güncellemeler hakkında önemli detayları içeren bildirimler</string>
-    <string name="tethering_allow_vpn_upstreams_title_calyx">Bağlı cihazlar için VPN kullan</string>
-    <string name="tethering_allow_vpn_upstreams_summary_calyx">Bu cihaz bir VPN kullanırken, kişisel erişim noktasına bağlı olan tüm cihazlar da aynı VPN\'i kullanacaktır</string>
+    <string name="update_info_cleartext_removal_desc">Genel açık metin kısıtlamasının kaldırılması</string>
+    <string name="update_info_cleartext_removal_desc_long">Nisan 2025 özellik güncellemesinde, genel açık metin kısıtlaması kaldırıldı. Daha fazla bilgi için dokunun.</string>
 </resources>
