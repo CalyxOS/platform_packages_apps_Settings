@@ -100,6 +100,4 @@
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Borrar todos los datos después de 5 intentos fallidos de desbloqueo</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Borrar todos los datos después de 10 intentos fallidos de desbloqueo</string>
-    <string name="tethering_allow_vpn_upstreams_title_calyx">Usar una VPN para los dispositivos conectados</string>
-    <string name="tethering_allow_vpn_upstreams_summary_calyx">Cuando este dispositivo utiliza una VPN, todos los dispositivos conectados al punto de acceso utilizarán la misma VPN</string>
 </resources>
