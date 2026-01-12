@@ -85,13 +85,10 @@
     <string name="notify">அறிவிக்கவும்</string>
     <string name="user_switch_on_lockscreen_summary">இந்த பயனர் பூட்டப்படும்போது மாறுவதற்கு அனுமதிக்கவும்</string>
     <string name="user_switch_on_lockscreen">பூட்டுத் திரையில் இருந்து பயனர்களை மாற்றவும்</string>
-    <string name="update_info_channel_desc2">புதுப்பிப்புகள் பற்றிய முக்கியமான விவரங்களுடன் அறிவிப்புகள்</string>
     <string name="update_info_title">கலிக்சோச் தகவல்களை புதுப்பிக்கவும்</string>
-    <string name="update_info_cleartext_removal_desc">உலகளாவிய கிளியர் டெக்ச்ட் கட்டுப்பாட்டை அகற்றுதல்</string>
     <string name="maximum_failed_passwords_for_wipe_title">தோல்வியுற்ற திறத்தல் முயற்சிகளைத் துடைக்கவும்</string>
     <string name="maximum_failed_passwords_for_wipe_summary">&lt;xliff: g அடையாளம் = \"தோல்வி_பாச் வேர்ட்ச்_ டெச்கிரிப்சன்\"&gt;%1$s &lt;/xliff: g&gt;</string>
     <string name="turn_off">அணைக்கவும்</string>
-    <string name="update_info_cleartext_removal_desc_long">ஏப்ரல் 2025 அம்ச புதுப்பிப்பில், உலகளாவிய கிளியர் டெக்ச்ட் கட்டுப்பாடு அகற்றப்பட்டது. மேலும் அறிய தட்டவும்.</string>
     <string name="work_hours_end_on_summary2">பணி சுயவிவரத்தை &lt;xliff: g அடையாளம் = \"end_time\"&gt;%1$s &lt;/xliff: g&gt; நாள்தோறும்</string>
     <string name="private_space_separate_vpn_text"><b> பயன்பாடுகள் உங்கள் இருக்கும் VPN ஐப் பயன்படுத்த வேண்டாம் </b> \nஉங்கள் தனிப்பட்ட பயன்பாடுகள் ஒரு VPN ஐப் பயன்படுத்த, உங்கள் இடத்திலும் ஒன்றை அமைக்க வேண்டும். மாற்றாக, நீங்கள் உலகளாவிய VPN ஐ இயக்கலாம்</string>
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">பூட்டுத் திரையில் இருந்து பயனர்களைச் சேர்க்க பயனர் ச்விட்சர் தேவை</string>

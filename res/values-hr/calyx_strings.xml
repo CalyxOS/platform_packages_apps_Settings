@@ -65,5 +65,33 @@
     <string name="work_hours_title">Radno vrijeme</string>
     <string name="work_hours_end_notification_title">Kraj radnog dana</string>
     <string name="work_hours_end_notification_description">Dodirni za isključivanje poslovnih aplikacija</string>
-    <string name="private_space_hide_apps_summary_calyx">Sakrijte ili zaključajte privatne aplikacije u zasebnom prostoru.</string>
+    <string name="private_space_hide_apps_summary_calyx">Sakrij ili zaključaj privatne aplikacije u zasebnom prostoru.</string>
+    <string name="update_info_channel_title">Informacije o aktualiziranjima</string>
+    <string name="update_info_title">Informacije o aktualiziranju CalyxOS-a</string>
+    <string name="global_vpn_summary_any_vpn_active">Za aktiviranje ovoga moraš najprije deaktivirati sve aktivne VPN veze</string>
+    <string name="bugreport_summary">Izradi izvještaj o grešci</string>
+    <string name="keychords_title">Kombinacijski gumb za prijavu grešaka</string>
+    <string name="keychords_summary">Snimi izvještaj o grešci istovremenim držanjem tipki za pojačavanje glasnoće, stišavanje glasnoće i uključivanje/isključivanje, čak i kada je uređaj zaključan</string>
+    <string name="keychords_summary_adb_enabled">Uvijek je aktivirano kada je otklanjanje grešaka uključeno</string>
+    <string name="view_bugreports_title">Prikaži izvještaje o greškama</string>
+    <string name="view_bugreports_summary_not_developer">Nakon pregleda, svi izvještaji o greškama će ostati dostupna do ponovnog pokretanja uređaja</string>
+    <string name="data_usage_app_datura_firewall">Datura vatrozid</string>
+    <string name="data_usage_app_datura_firewall_summary">Postavke vatrozida su premještene su novu aplikaciju „Vatrozid”. Dodirni za otvaranje.</string>
+    <string name="work_hours_end_on_summary">Prikaži obavijest za isključivanje radnog profila u <xliff:g id="end_time">%1$s</xliff:g> dnevno</string>
+    <string name="work_hours_end_on_summary2">Isključi radni profil u <xliff:g id="end_time">%1$s</xliff:g> dnevno</string>
+    <string name="work_hours_end_off_summary">Automatsko isključi radni profil ili primaj obavijesti o tome da ga isključiš</string>
+    <string name="turn_off">Isključi</string>
+    <string name="notify">Obavijesti</string>
+    <string name="strict_location_redaction_description">Samo galerije i upravitelji datoteka mogu čitati metapodatke lokacije tvojih fotografija i medija. (Aplikacije trećih strana moraju imati dozvolu „Pristup svim datotekama” ili „Dozvole za upravljanje medijima”.)</string>
+    <string name="private_space_separate_vpn_text"><b>Aplikacije ne koriste tvoj postojeći VPN</b>\nDa bi tvoje privatne aplikacije koristile VPN, moraš ga postaviti i u svom prostoru. Alternativno, možeš uključiti „Globalni VPN”</string>
+    <string name="user_switch_on_lockscreen">Zamijeni korisnike iz zaključanog ekrana</string>
+    <string name="user_switch_on_lockscreen_summary">Dozvoli zamjenu kada je ovaj korisnik zaključan</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Za dodavanje korisnika iz zaključanog zaslona potreban je mjenjač korisnika</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Izbriši pri neuspjelim pokušajima otključavanja</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Izbriši sve podatke nakon 5 neuspjelih pokušaja otključavanja</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Izbriši sve podatke nakon 10 neuspjelih pokušaja otključavanja</string>
+    <string name="global_vpn_summary">Prisilno usmjeri sav promet na uređaj putem ove VPN mreže, uključujući radni profil i ostale korisnike.</string>
+    <string name="global_vpn_summary_on">Prisilno usmjeri sav promet na uređaju putem ove VPN mreže, uključujući radni profil i druge korisnike. Napomena: Kada je aktivirano, nećeš moći koristiti zasebnu VPN mrežu u radnom profilu ili za druge korisnike</string>
+    <string name="hide_app_desc">Ako sakriješ ovu aplikaciju, ona neće biti vidljiva Androidu i drugim aplikacijama te možda više neće funkcionirati kako treba. Imaj na umu da skrivanjem aplikacije čuvaš njezine podatke. Skrivanjem isključuješ ovu aplikaciju i skrivaš je na svom uređaju.</string>
 </resources>

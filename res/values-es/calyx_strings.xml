@@ -84,4 +84,17 @@
     <string name="strict_location_redaction_title">Eliminar datos de ubicación al compartir contenido multimedia</string>
     <string name="strict_location_redaction_description">Solo las galerías y los administradores de archivos pueden leer los metadatos de ubicación de tus fotos y archivos multimedia. (Las aplicaciones de terceros deben tener permisos de acceso a todos los archivos o de administración de archivos multimedia)</string>
     <string name="private_space_hide_apps_summary_calyx">Oculta o bloquea las aplicaciones privadas en un espacio separado.</string>
+    <string name="update_info_channel_title">Actualizar información</string>
+    <string name="update_info_title">Información de la actualización de CalyxOS</string>
+    <string name="work_hours_end_on_summary2">Desactivar el perfil de trabajo a las <xliff:g id="end_time">%1$s</xliff:g> todos los días</string>
+    <string name="turn_off">Desactivar</string>
+    <string name="notify">Notificar</string>
+    <string name="private_space_separate_vpn_text"><b>Las apps no usan tu VPN existente</b>\nPara que tus apps privadas usen una VPN, necesitas configurar una también en tu espacio. Como alternativa, puedes activar Global VPN</string>
+    <string name="user_switch_on_lockscreen">Cambiar usuarios desde la pantalla de bloqueo</string>
+    <string name="user_switch_on_lockscreen_summary">Permitir el cambio cuando este usuario está bloqueado</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Es necesario permitir el cambio de usuario para agregar usuarios desde la pantalla de bloqueo</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Borrar tras varios intentos fallidos de desbloqueo</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Borrar todos los datos después de 5 intentos fallidos de desbloqueo</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Borrar todos los datos después de 10 intentos fallidos de desbloqueo</string>
 </resources>

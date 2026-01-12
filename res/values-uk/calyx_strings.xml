@@ -105,7 +105,4 @@
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Видалити всі дані після 10 невдалих спроб розблокування</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Видалити всі дані після 5 невдалих спроб розблокування</string>
-    <string name="update_info_channel_desc2">Сповіщення з важливою інформацією про оновлення</string>
-    <string name="update_info_cleartext_removal_desc">Зняття глобального обмеження відкритого тексту</string>
-    <string name="update_info_cleartext_removal_desc_long">У квітневому оновленні функцій від 2025 року було знято глобальне обмеження відкритого тексту. Торкніться, щоб дізнатися більше.</string>
 </resources>

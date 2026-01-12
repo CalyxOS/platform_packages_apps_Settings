@@ -95,4 +95,6 @@
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="work_hours_end_on_summary2">Arbeitsprofil täglich um <xliff:g id="end_time">%1$s</xliff:g> ausschalten</string>
     <string name="turn_off">Ausschalten</string>
+    <string name="private_space_separate_vpn_text"><b>Apps nutzen dein bestehendes VPN nicht</b>\nDamit deine privaten Apps ein VPN nutzen können, musst du auch eines in deinem Bereich einrichten. Alternativ kannst du auch Global VPN einschalten</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Benutzerumschalter wird benötigt, um Nutzer vom Sperrbildschirm aus hinzuzufügen</string>
 </resources>

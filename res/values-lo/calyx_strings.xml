@@ -1,4 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="private_space_hide_apps_summary_calyx">ເຊື່ອງ ຫຼື ລັອກແອັບສ່ວນຕົວໃນພື້ນທີ່ແຍກຕ່າງຫາກ.</string>
+    <string name="calyxos_version">ເວີຊັນ CalyxOS</string>
+    <string name="detailed_security_patch">ແພລດຟອມ: <xliff:g id="platform_level">%1$s</xliff:g>\nເຄີເນວ: <xliff:g id="kernel_level">%2$s</xliff:g>\nຜູ້ຜະລິດ: <xliff:g id="kernel_level">%3$s</xliff:g>\nເຟີມແວ: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="aosp_module_version">ອັບເດດໂມດູນຫຼັກ</string>
+    <string name="panic_settings_title">ສະແດງຕົວເລືອກ Panic</string>
+    <string name="panic_settings_summary">ສະແດງຕົວເລືອກໃນປຸ່ມເປີດ-ປິດເຄື່ອງທີ່ເປີດໃຊ້ງານການແຈ້ງເຕືອນສຸກເສີນ.</string>
+    <string name="show_qs_on_secure_keyguard_title">ການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="show_qs_on_secure_keyguard_summary">ອະນຸຍາດໃຫ້ເປີດ-ປິດການຕັ້ງຄ່າດ່ວນເທິງໜ້າຈໍລັອກທີ່ປອດໄພ</string>
+    <string name="timeout_summary_never">ບໍ່ເລີຍ</string>
+    <string name="timeout_summary_15secs">15 ວິນາທີ</string>
+    <string name="timeout_summary_30secs">30 ວິນາທີ</string>
+    <string name="timeout_summary_1min">1 ນາທີ</string>
+    <string name="timeout_summary_2mins">2 ນາທີ</string>
+    <string name="timeout_summary_5mins">5 ນາທີ</string>
+    <string name="timeout_summary_10mins">10 ນາທີ</string>
+    <string name="timeout_summary_30mins">30 ນາທີ</string>
+    <string name="timeout_summary_1hour">1 ຊົ່ວໂມງ</string>
+    <string name="timeout_summary_2hours">2 ຊົ່ວໂມງ</string>
+    <string name="timeout_summary_4hours">4 ຊົ່ວໂມງ</string>
+    <string name="timeout_summary_8hours">8 ຊົ່ວໂມງ</string>
+    <string name="timeout_summary_12hours">12 ຊົ່ວໂມງ</string>
+    <string name="timeout_summary_24hours">24 ຊົ່ວໂມງ</string>
+    <string name="timeout_summary_36hours">36 ຊົ່ວໂມງ</string>
+    <string name="timeout_summary_48hours">48 ຊົ່ວໂມງ</string>
+    <string name="timeout_summary_72hours">72 ຊົ່ວໂມງ</string>
+    <string name="bluetooth_timeout">ໝົດເວລາ Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Bluetooth ຈະປິດເອງພາຍຫຼັງ <xliff:g id="timeout_description">%1$s</xliff:g> ຖ້າບໍ່ມີອຸປະກອນເຊື່ອມຕໍ່</string>
+    <string name="bluetooth_timeout_summary2">ບໍ່ຕ້ອງປິດ Bluetooth ອັດຕະໂນມັດ</string>
+    <string name="wifi_timeout">ປິດ Wi-Fi ອັດຕະໂນມັດ</string>
+    <string name="wifi_timeout_summary">Wi-Fi ຈະປິດເອງພາຍຫຼັງ <xliff:g id="timeout_description">%1$s</xliff:g> ຖ້າບໍ່ມີເຄືອຂ່າຍເຊື່ອມຕໍ່</string>
+    <string name="wifi_timeout_summary2">ປິດໃຊ້ງານ</string>
+    <string name="global_vpn_title">VPN ທົ່ວລະບົບ</string>
+    <string name="global_vpn_summary">ບັງຄັບການຈະລາຈອນທັງໝົດໃນອຸປະກອນໃຫ້ຜ່ານ VPN ນີ້, ລວມທັງໂປຣໄຟລ໌ບ່ອນເຮັດວຽກ ແລະ ຜູ້ໃຊ້ອື່ນໆ.</string>
+    <string name="global_vpn_summary_on">ບັງຄັບການຈະລາຈອນທັງໝົດໃນອຸປະກອນໃຫ້ຜ່ານ VPN ນີ້, ລວມທັງໂປຣໄຟລ໌ບ່ອນເຮັດວຽກ ແລະ ຜູ້ໃຊ້ອື່ນໆ. ໝາຍເຫດ: ເມື່ອເປີດໃຊ້ງານ, ທ່ານຈະບໍ່ສາມາດໃຊ້ VPN ແຍກຕ່າງຫາກໃນໂປຣໄຟລ໌ບ່ອນເຮັດວຽກ ຫຼື ຜູ້ໃຊ້ອື່ນໆໄດ້</string>
+    <string name="global_vpn_summary_any_vpn_active">ທ່ານຈຳເປັນຕ້ອງປິດການເຊື່ອມຕໍ່ VPN ທີ່ໃຊ້ງານຢູ່ທັງໝົດກ່ອນ ເພື່ອເປີດໃຊ້ງານຄຸນສົມບັດນີ້</string>
+    <string name="security_restrict_usb_title">ຈຳກັດ USB</string>
+    <string name="security_restrict_usb_summary">ຄວບຄຸມການຮອງຮັບອຸປະກອນເສີມ USB ເຊັ່ນ: ຫູຟັງ, ອຸປະກອນຈັດເກັບຂໍ້ມູນ ແລະ ອຸປະກອນປ້ອນຂໍ້ມູນ (ເມົ້າ, ຄີບອດ, ຈອຍສະຕິກ)</string>
+    <string name="security_restrict_usb_always">ປະຕິເສດອຸປະກອນເສີມ USB ໃໝ່</string>
+    <string name="security_restrict_usb_keyguard">ອະນຸຍາດອຸປະກອນເສີມ USB ໃໝ່ເມື່ອປົດລັອກແລ້ວ</string>
+    <string name="security_restrict_usb_disabled">ອະນຸຍາດອຸປະກອນເສີມ USB ໃໝ່ສະເໝີ</string>
+    <string name="device_reboot_timeout_title">ຣີບູດອັດຕະໂນມັດ</string>
+    <string name="device_reboot_timeout_summary">ອຸປະກອນຈະຣີບູດອັດຕະໂນມັດ ຖ້າຫາກບໍ່ໄດ້ຖືກປົດລັອກພາຍໃນ <xliff:g id="timeout_description">%1$s</xliff:g> ທີ່ຜ່ານມາ</string>
+    <string name="device_reboot_timeout_summary2">ອຸປະກອນຈະບໍ່ຣີບູດອັດຕະໂນມັດ</string>
+    <string name="update_info_channel_title">ຂໍ້ມູນການອັບເດດ</string>
+    <string name="update_info_title">ຂໍ້ມູນການອັບເດດ CalyxOS</string>
+    <string name="network_dashboard_summary_mobile_calyx">ມືຖື, Wi-Fi, ຮັອດສະປອດ, VPN, DNS ສ່ວນຕົວ</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, ຮັອດສະປອດ, VPN, DNS ສ່ວນຕົວ</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, ການຈັບຄູ່, NFC</string>
+    <string name="security_dashboard_summary_calyx">ການລັອກໜ້າຈໍ, ການຕັ້ງຄ່າ panic, ການຈຳກັດ USB, ຄວາມປອດໄພຂອງແອັບ</string>
+    <string name="system_dashboard_summary_calyx">ພາສາ, ທ່າທາງ, ເວລາ, ການສຳຮອງຂໍ້ມູນ, ຜູ້ໃຊ້, ໂປຣໄຟລ໌ບ່ອນເຮັດວຽກ</string>
+    <string name="data_usage_app_restrict_background_all">ການເຂົ້າເຖິງເຄືອຂ່າຍເບື້ອງຫຼັງ</string>
+    <string name="data_usage_app_restrict_background_all_summary">ເປີດໃຊ້ງານການໃຊ້ເຄືອຂ່າຍໃນເບື້ອງຫຼັງ</string>
+    <string name="captive_portal_title">ກວດສອບການເຊື່ອມຕໍ່</string>
+    <string name="captive_portal_summary">ກວດສອບວ່າອຸປະກອນສາມາດເຊື່ອມຕໍ່ອິນເຕີເນັດໄດ້ຫຼືບໍ່ ໂດຍການຕິດຕໍ່ຫາ Google. ນອກຈາກນີ້ຍັງໃຊ້ເພື່ອກວດຈັບ Captive Portal.</string>
+    <string name="other_settings">ຕົວເລືອກອື່ນໆ</string>
+    <string name="quick_settings">ການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="bugreport_summary">ສ້າງລາຍງານຂໍ້ຜິດພາດດຽວນີ້</string>
+    <string name="keychords_title">ປຸ່ມລັດລາຍງານຂໍ້ຜິດພາດ</string>
+    <string name="keychords_summary">ສ້າງລາຍງານຂໍ້ຜິດພາດໂດຍການກົດປຸ່ມເພີ່ມສຽງ, ຫຼຸດສຽງ ແລະ ປຸ່ມເປີດ-ປິດເຄື່ອງຄ້າງໄວ້ພ້ອມກັນ, ເຖິງແມ່ນວ່າອຸປະກອນຈະລັອກຢູ່ກໍຕາມ</string>
+    <string name="keychords_summary_adb_enabled">ເປີດໃຊ້ງານສະເໝີເມື່ອການດີບັກເປີດຢູ່</string>
+    <string name="view_bugreports_title">ເບິ່ງລາຍງານຂໍ້ຜິດພາດ</string>
+    <string name="view_bugreports_summary_not_developer">ເມື່ອເບິ່ງແລ້ວ, ລາຍງານຂໍ້ຜິດພາດທັງໝົດຈະຍັງຄົງເຂົ້າເຖິງໄດ້ຈົນກວ່າທ່ານຈະຣີສະຕາດອຸປະກອນ</string>
+    <string name="hide">ເຊື່ອງ</string>
+    <string name="hidden">ເຊື່ອງໄວ້ແລ້ວ</string>
+    <string name="unhide">ຍົກເລີກການເຊື່ອງ</string>
+    <string name="hide_app">ເຊື່ອງແອັບ</string>
+    <string name="unhide_app">ຍົກເລີກການເຊື່ອງແອັບ</string>
+    <string name="unhide_app_desc">ຖ້າທ່ານຍົກເລີກການເຊື່ອງແອັບນີ້, ມັນຈະກັບມາສະແດງໃຫ້ Android ແລະ ແອັບອື່ນໆເຫັນອີກຄັ້ງ.</string>
+    <string name="hide_app_desc">ຖ້າທ່ານເຊື່ອງແອັບນີ້, ມັນຈະບໍ່ສະແດງໃຫ້ Android ແລະ ແອັບອື່ນໆເຫັນ, ແລະ ພວກມັນອາດຈະບໍ່ສາມາດເຮັດວຽກໄດ້ຕາມທີ່ຕັ້ງໃຈໄວ້. ຈົ່ງຈື່ໄວ້ວ່າ, ການເຊື່ອງແອັບຈະຍັງຄົງຮັກສາຂໍ້ມູນຂອງມັນໄວ້. ການເຊື່ອງຄືການປິດແອັບນີ້ ແລະ ເຊື່ອງມັນໄວ້ໃນອຸປະກອນຂອງທ່ານ.</string>
+    <string name="filter_hidden_apps">ແອັບທີ່ເຊື່ອງໄວ້</string>
+    <string name="security_settings_biometric_preference_title_calyx">ການປົດລັອກດ້ວຍຊີວະມິຕິ</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">ການປົດລັອກດ້ວຍຊີວະມິຕິສຳລັບບ່ອນເຮັດວຽກ</string>
+    <string name="cross_profile_sharing_title">ການແບ່ງປັນຂ້າມໂປຣໄຟລ໌</string>
+    <string name="cross_profile_sharing_summary">ເປີດໃຊ້ງານປຸ່ມແບ່ງປັນໃນແອັບເພື່ອໃຫ້ເຮັດວຽກຂ້າມໂປຣໄຟລ໌ສ່ວນຕົວ ແລະ ໂປຣໄຟລ໌ບ່ອນເຮັດວຽກຂອງທ່ານ</string>
+    <string name="data_usage_app_datura_firewall">ໄຟລ໌ວໍ Datura</string>
+    <string name="data_usage_app_datura_firewall_summary">ການຕັ້ງຄ່າໄຟລ໌ວໍໄດ້ຖືກຍ້າຍໄປທີ່ແອັບໄຟລ໌ວໍໃໝ່ແລ້ວ. ແຕະເພື່ອເປີດ.</string>
+    <string name="work_hours_title">ຊົ່ວໂມງເຮັດວຽກ</string>
+    <string name="work_hours_end_on_summary">ສະແດງການແຈ້ງເຕືອນເພື່ອປິດໂປຣໄຟລ໌ບ່ອນເຮັດວຽກໃນເວລາ <xliff:g id="end_time">%1$s</xliff:g> ທຸກມື້</string>
+    <string name="work_hours_end_on_summary2">ປິດໂປຣໄຟລ໌ບ່ອນເຮັດວຽກໃນເວລາ <xliff:g id="end_time">%1$s</xliff:g> ທຸກມື້</string>
+    <string name="work_hours_end_off_summary">ປິດໂປຣໄຟລ໌ບ່ອນເຮັດວຽກອັດຕະໂນມັດ ຫຼື ຮັບການແຈ້ງເຕືອນເພື່ອປິດ</string>
+    <string name="work_hours_end_notification_title">ໝົດເວລາເຮັດວຽກ</string>
+    <string name="work_hours_end_notification_description">ແຕະເພື່ອປິດແອັບບ່ອນເຮັດວຽກ</string>
+    <string name="turn_off">ປິດ</string>
+    <string name="notify">ແຈ້ງເຕືອນ</string>
+    <string name="strict_location_redaction_title">ລຶບຂໍ້ມູນຕຳແໜ່ງອອກເມື່ອແບ່ງປັນມີເດຍ</string>
+    <string name="strict_location_redaction_description">ສະເພາະແອັບຄັງຮູບ ແລະ ແອັບຈັດການໄຟລ໌ເທົ່ານັ້ນທີ່ສາມາດອ່ານຂໍ້ມູນຕຳແໜ່ງຈາກຮູບພາບ ແລະ ມີເດຍຂອງທ່ານໄດ້. (ແອັບຂອງບຸກຄົນທີສາມຕ້ອງໄດ້ຮັບສິດ \'ເຂົ້າເຖິງໄຟລ໌ທັງໝົດ\' ຫຼື \'ການຈັດການມີເດຍ\'.)</string>
+    <string name="private_space_separate_vpn_text"><b>ແອັບຕ່າງໆບໍ່ໄດ້ໃຊ້ VPN ທີ່ມີຢູ່ຂອງທ່ານ</b>\nເພື່ອໃຫ້ແອັບສ່ວນຕົວຂອງທ່ານໃຊ້ VPN, ທ່ານຈຳເປັນຕ້ອງຕັ້ງຄ່າ VPN ໃນພື້ນທີ່ຂອງທ່ານເຊັ່ນກັນ. ອີກທາງເລືອກໜຶ່ງ, ທ່ານສາມາດເປີດໃຊ້ VPN ທົ່ວລະບົບ</string>
+    <string name="user_switch_on_lockscreen">ສະຫຼັບຜູ້ໃຊ້ຈາກໜ້າຈໍລັອກ</string>
+    <string name="user_switch_on_lockscreen_summary">ອະນຸຍາດໃຫ້ສະຫຼັບເມື່ອຜູ້ໃຊ້ນີ້ລັອກຢູ່</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">ຈຳເປັນຕ້ອງມີຕົວສະຫຼັບຜູ້ໃຊ້ເພື່ອເພີ່ມຜູ້ໃຊ້ຈາກໜ້າຈໍລັອກ</string>
+    <string name="maximum_failed_passwords_for_wipe_title">ລຶບຂໍ້ມູນເມື່ອປົດລັອກບໍ່ສຳເລັດ</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">ລຶບຂໍ້ມູນທັງໝົດຫຼັງຈາກປົດລັອກບໍ່ສຳເລັດ 5 ຄັ້ງ</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">ລຶບຂໍ້ມູນທັງໝົດຫຼັງຈາກປົດລັອກບໍ່ສຳເລັດ 10 ຄັ້ງ</string>
 </resources>

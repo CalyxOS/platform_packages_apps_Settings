@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="security_restrict_usb_always">Tolak gadget USB baru</string>
+    <string name="security_restrict_usb_always">Tolak perangkat USB baru</string>
     <string name="panic_settings_summary">Tampilkan opsi tombol daya yang mengaktifkan pemicu panik darurat.</string>
-    <string name="security_restrict_usb_disabled">Izinkan selalu gadget USB baru</string>
-    <string name="security_restrict_usb_keyguard">Izinkan gadget USB baru saat tidak terkunci</string>
-    <string name="security_restrict_usb_summary">Kontrol dukungan untuk gadget USB seperti earphone, perangkat penyimpanan dan input (mouse, keyboard, joystick)</string>
+    <string name="security_restrict_usb_disabled">Selalu izinkan perangkat USB baru</string>
+    <string name="security_restrict_usb_keyguard">Izinkan perangkat USB baru saat tidak terkunci</string>
+    <string name="security_restrict_usb_summary">Kontrol dukungan untuk perangkat USB seperti earphone, perangkat penyimpanan, dan input (mouse, keyboard, joystick)</string>
     <string name="security_restrict_usb_title">Batasi USB</string>
     <string name="panic_settings_title">Tampilkan opsi Panik</string>
     <string name="calyxos_version">versi CalyxOS</string>
@@ -35,14 +35,63 @@
     <string name="timeout_summary_24hours">24 jam</string>
     <string name="timeout_summary_36hours">36 jam</string>
     <string name="device_reboot_timeout_title">Mulai ulang otomatis</string>
-    <string name="device_reboot_timeout_summary2">Perangkat tidak akan mulai ulang secara otomatis</string>
+    <string name="device_reboot_timeout_summary2">Perangkat tidak akan memulai ulang secara otomatis</string>
     <string name="device_reboot_timeout_summary">Perangkat akan secara otomatis memulai ulang jika belum dibuka dalam<xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="timeout_summary_48hours">48 jam</string>
     <string name="timeout_summary_72hours">72 jam</string>
     <string name="global_vpn_summary_any_vpn_active">Anda perlu menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengatkfikan VPN Global</string>
     <string name="global_vpn_title">VPN Global</string>
-    <string name="private_space_hide_apps_summary_calyx">Sembunyikan atau kunci aplikasi pribadi di ruang terpisah.</string>
+    <string name="private_space_hide_apps_summary_calyx">Sembunyikan atau kunci aplikasi privat di ruang terpisah.</string>
     <string name="update_info_channel_title">Perbarui informasi</string>
     <string name="update_info_title">Informasi pembaruan CalyxOS</string>
     <string name="global_vpn_summary">Paksa lalu lintas pada perangkat melalui VPN ini, termasuk profil pekerjaan dan pengguna lainnya.</string>
+    <string name="global_vpn_summary_on">Paksa semua lalu lintas pada perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain. Catatan: Jika diaktifkan, Anda tidak akan dapat menggunakan VPN terpisah di profil kerja atau pada pengguna lain</string>
+    <string name="network_dashboard_summary_mobile_calyx">Seluler, Wi‑Fi, hotspot, VPN, DNS Pribadi</string>
+    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, DNS Pribadi</string>
+    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pemasangan, NFC</string>
+    <string name="security_dashboard_summary_calyx">Kunci layar, setelan panik, pembatasan USB, keamanan aplikasi</string>
+    <string name="system_dashboard_summary_calyx">Bahasa, gestur, waktu, cadangan, pengguna, profil kerja</string>
+    <string name="captive_portal_title">Pemeriksaan konektivitas</string>
+    <string name="captive_portal_summary">Menentukan apakah perangkat dapat terhubung ke internet dengan menghubungi Google. Juga digunakan untuk mendeteksi portal captive.</string>
+    <string name="other_settings">Opsi lain</string>
+    <string name="quick_settings">Setelan Cepat</string>
+    <string name="bugreport_summary">Ambil laporan bug sekarang</string>
+    <string name="keychords_title">Kombinasi tombol laporan bug</string>
+    <string name="keychords_summary">Ambil laporan bug dengan menahan Volume Naik, Volume Turun, dan Daya secara bersamaan, bahkan saat perangkat terkunci</string>
+    <string name="keychords_summary_adb_enabled">Selalu diaktifkan saat debugging aktif</string>
+    <string name="view_bugreports_title">Lihat laporan bug</string>
+    <string name="view_bugreports_summary_not_developer">Setelah dilihat, semua laporan bug akan tetap dapat diakses hingga Anda memulai ulang perangkat</string>
+    <string name="hide">Sembunyikan</string>
+    <string name="hidden">Disembunyikan</string>
+    <string name="unhide">Tampilkan kembali</string>
+    <string name="hide_app">Sembunyikan aplikasi</string>
+    <string name="unhide_app">Tampilkan kembali aplikasi</string>
+    <string name="unhide_app_desc">Jika Anda menampilkan kembali aplikasi ini, aplikasi tersebut akan kembali terlihat oleh Android dan aplikasi lain.</string>
+    <string name="hide_app_desc">Jika Anda menyembunyikan aplikasi ini, aplikasi tersebut tidak akan terlihat oleh Android dan aplikasi lain, dan aplikasi lain mungkin tidak lagi berfungsi sebagaimana mestinya. Perlu diingat, menyembunyikan aplikasi akan mempertahankan datanya. Dengan menyembunyikan, Anda menonaktifkan aplikasi ini dan menyembunyikannya di perangkat Anda.</string>
+    <string name="filter_hidden_apps">Aplikasi yang disembunyikan</string>
+    <string name="security_settings_biometric_preference_title_calyx">Buka kunci biometrik</string>
+    <string name="security_settings_work_biometric_preference_title_calyx">Buka kunci biometrik untuk kerja</string>
+    <string name="cross_profile_sharing_title">Berbagi lintas profil</string>
+    <string name="cross_profile_sharing_summary">Aktifkan tombol berbagi di dalam aplikasi agar berfungsi di seluruh profil pribadi dan profil kerja Anda</string>
+    <string name="data_usage_app_datura_firewall">Firewall Datura</string>
+    <string name="data_usage_app_datura_firewall_summary">Setelan firewall telah dipindahkan ke aplikasi Firewall yang baru. Ketuk untuk membuka.</string>
+    <string name="work_hours_title">Jam kerja</string>
+    <string name="work_hours_end_on_summary">Tampilkan notifikasi untuk mematikan profil kerja pada <xliff:g id="end_time">%1$s</xliff:g> setiap hari</string>
+    <string name="work_hours_end_on_summary2">Matikan profil kerja pada <xliff:g id="end_time">%1$s</xliff:g> setiap hari</string>
+    <string name="work_hours_end_off_summary">Matikan profil kerja secara otomatis atau terima notifikasi untuk melakukannya</string>
+    <string name="work_hours_end_notification_title">Akhir hari kerja</string>
+    <string name="work_hours_end_notification_description">Ketuk untuk mematikan aplikasi kerja</string>
+    <string name="turn_off">Matikan</string>
+    <string name="notify">Beri tahu</string>
+    <string name="strict_location_redaction_title">Samarkan data lokasi saat membagikan media</string>
+    <string name="strict_location_redaction_description">Hanya galeri dan pengelola file yang boleh membaca metadata lokasi dari foto dan media Anda. (Aplikasi pihak ketiga harus memiliki akses Semua File atau izin Pengelolaan Media.)</string>
+    <string name="private_space_separate_vpn_text"><b>Aplikasi tidak menggunakan VPN Anda yang sudah ada</b>\nAgar aplikasi privat Anda dapat menggunakan VPN, Anda juga perlu menyiapkannya di ruang Anda. Alternatifnya, Anda dapat mengaktifkan VPN Global</string>
+    <string name="user_switch_on_lockscreen">Ganti pengguna dari layar kunci</string>
+    <string name="user_switch_on_lockscreen_summary">Izinkan beralih saat pengguna ini terkunci</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Pengalih pengguna diperlukan untuk menambahkan pengguna dari layar kunci</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Hapus data setelah upaya buka kunci gagal</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Hapus semua data setelah 5 kali upaya buka kunci gagal</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Hapus semua data setelah 10 kali upaya buka kunci gagal</string>
+    <string name="detailed_security_patch">Platform: <xliff:g id="platform_level">%1$s</xliff:g>\nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>\nVendor: <xliff:g id="kernel_level">%3$s</xliff:g>\nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
 </resources>
