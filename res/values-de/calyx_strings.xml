@@ -100,6 +100,4 @@
     <string name="update_info_cleartext_removal_desc_long">Mit dem Funktionsupdate vom April 2025 wurde die globale Klartextbeschränkung aufgehoben. Antippen, um mehr zu erfahren.</string>
     <string name="private_space_separate_vpn_text"><b>Apps nutzen dein bestehendes VPN nicht</b>\nDamit deine privaten Apps ein VPN nutzen können, musst du auch eines in deinem Bereich einrichten. Alternativ kannst du auch Global VPN einschalten</string>
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">Benutzerumschalter wird benötigt, um Nutzer vom Sperrbildschirm aus hinzuzufügen</string>
-    <string name="tethering_allow_vpn_upstreams_title_calyx">VPN für verbundene Geräte verwenden</string>
-    <string name="tethering_allow_vpn_upstreams_summary_calyx">Wenn dieses Gerät ein VPN verwendet, verwenden alle Geräte, die mit dem Hotspot verbunden sind, dasselbe VPN</string>
 </resources>
