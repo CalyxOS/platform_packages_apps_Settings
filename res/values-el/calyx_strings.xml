@@ -97,7 +97,4 @@
     <string name="update_info_channel_title">Πληροφορίες ενημερώσεων</string>
     <string name="maximum_failed_passwords_for_wipe_title">Επαναφορά μετά από αποτυχημένες προσπάθειες ξεκλειδώματος</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Διαγραφή όλων των δεδομένων μετά από 10 αποτυχημένες προσπάθειες ξεκλειδώματος</string>
-    <string name="update_info_channel_desc2">Ειδοποιήσεις με σημαντικές λεπτομέρειες σχετικά με ενημερώσεις</string>
-    <string name="update_info_cleartext_removal_desc">Κατάργηση του καθολικού περιορισμού απλού κειμένου</string>
-    <string name="update_info_cleartext_removal_desc_long">Στην ενημέρωση δυνατοτήτων του Απριλίου 2025, ο καθολικός περιορισμός απλού κειμένου καταργήθηκε. Πατήστε για να μάθετε περισσότερα.</string>
 </resources>

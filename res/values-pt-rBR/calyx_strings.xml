@@ -94,7 +94,4 @@
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Apagar todos os dados após 10 tentativas falhas</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_title">Apagar ao errar a senha da tela de bloqueio</string>
-    <string name="update_info_channel_desc2">Notificações com detalhes importantes sobre atualizações</string>
-    <string name="update_info_cleartext_removal_desc">Remoção da restrição de tráfego de rede sem criptografia</string>
-    <string name="update_info_cleartext_removal_desc_long">Na atualização de recursos de abril de 2025, a restrição de tráfego de rede sem criptografia foi removida. Toque aqui para saber mais.</string>
 </resources>

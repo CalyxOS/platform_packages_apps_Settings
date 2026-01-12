@@ -97,7 +97,4 @@
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Vymazat všechna data po 5 neúspěšných pokusech o odemknutí</string>
     <string name="maximum_failed_passwords_for_wipe_title">Vymazat po neúspěšných pokusech o odemknutí</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Vymazat všechna data po 10 neúspěšných pokusech o odemknutí</string>
-    <string name="update_info_cleartext_removal_desc">Odstranění globálního omezení prostého textu</string>
-    <string name="update_info_channel_desc2">Oznámení s důležitými podrobnostmi ohledně aktualizací</string>
-    <string name="update_info_cleartext_removal_desc_long">V aktualizaci funkcí dubna 2025 bylo odstraněno globální omezení prostého textu. Klepněte pro více informací.</string>
 </resources>

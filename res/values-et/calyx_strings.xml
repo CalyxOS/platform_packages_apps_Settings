@@ -23,8 +23,6 @@
     <string name="device_reboot_timeout_summary2">Seade ei taaskäivitu automaatselt</string>
     <string name="device_reboot_timeout_title">Automaatne taaskäivitus</string>
     <string name="data_usage_app_restrict_background_all">Taustal võrgule juurdepääs</string>
-    <string name="update_info_channel_desc2">Olulise värskenduste kohta käiva teabega märguanded</string>
-    <string name="update_info_cleartext_removal_desc_long">2025. aasta aprilli funktsioonivärskenduses eemaldati globaalne lihtteksti piirang. Lisateabe saamiseks puuduta.</string>
     <string name="captive_portal_title">Ühenduvuse kontroll</string>
     <string name="hidden">Peidetud</string>
     <string name="cross_profile_sharing_title">Profiilidevaheline jagamine</string>
@@ -64,7 +62,6 @@
     <string name="filter_hidden_apps">Peidetud rakendused</string>
     <string name="security_settings_biometric_preference_title_calyx">Biomeetriline avamine</string>
     <string name="security_settings_work_biometric_preference_title_calyx">Biomeetriline avamine tööprofiili jaoks</string>
-    <string name="update_info_cleartext_removal_desc">Globaalse lihtteksti piirangu eemaldamine</string>
     <string name="data_usage_app_datura_firewall">Datura tulemüür</string>
     <string name="data_usage_app_datura_firewall_summary">Tulemüüri seaded on teisaldatud uude tulemüüri rakendusse. Puuduta avamiseks.</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Kustuta kõik andmed pärast 5 ebaõnnestunud avamiskatset</string>

@@ -97,5 +97,4 @@
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Șterge toate datele după 5 încercări de deblocare eșuate</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Șterge toate datele după 10 încercări de deblocare eșuate</string>
     <string name="turn_off">Oprește</string>
-    <string name="update_info_channel_desc2">Notificări cu detalii importante despre actualizări</string>
 </resources>

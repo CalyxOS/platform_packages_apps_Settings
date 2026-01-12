@@ -97,7 +97,4 @@
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Usunięcie wszystkich danych po 5 nieudanych próbach odblokowania</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Usunięcie wszystkich danych po 10 nieudanych próbach odblokowania</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
-    <string name="update_info_cleartext_removal_desc">Usunięcie globalnego ograniczenia czystego tekstu (cleartext)</string>
-    <string name="update_info_channel_desc2">Powiadomienia z ważnymi informacjami o aktualizacjach</string>
-    <string name="update_info_cleartext_removal_desc_long">W aktualizacji funkcji z kwietnia 2025 r. usunięto globalne ograniczenie czystego tekstu (cleartext). Kliknij, aby dowiedzieć się więcej.</string>
 </resources>
