@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67625fb8_cb437eb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-23T17:11:10Z",
+      "side": 1,
+      "message": "Setting a time one minute from now, neither gives me a notification nor turns off the work profile when time has come.",
+      "revId": "2d7fc34716da0c73570ae331b3b53879732cc9cc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
