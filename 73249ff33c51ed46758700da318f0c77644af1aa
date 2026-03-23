@@ -16,6 +16,23 @@
       "message": "is this correct? this is work hours ticket?",
       "revId": "73249ff33c51ed46758700da318f0c77644af1aa",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b72d4917_8e3732c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-23T17:18:35Z",
+      "side": 1,
+      "message": "Ah so this is just work hours feature, but with the extra that it stops the work profile user. took me some time to figure out. in that case, work profile isn\u0027t stopped.",
+      "revId": "73249ff33c51ed46758700da318f0c77644af1aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
