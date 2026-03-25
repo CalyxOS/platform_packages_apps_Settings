@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3fe5c31c_9e3ac647",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-25T21:09:54Z",
+      "side": 1,
+      "message": "Mine doesn\u0027t say `, NFC` and the end",
+      "revId": "0b06aa081e2044481316e8011e49264d81ff0c31",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e492a10_37bb2aee",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-25T21:09:54Z",
+      "side": 1,
+      "message": "Not seeing this, but we should remove panic settings anyway.",
+      "revId": "0b06aa081e2044481316e8011e49264d81ff0c31",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e0095f3_7dc14933",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-25T21:09:54Z",
+      "side": 1,
+      "message": "Not sure where this is supposed to show up.",
+      "revId": "0b06aa081e2044481316e8011e49264d81ff0c31",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
