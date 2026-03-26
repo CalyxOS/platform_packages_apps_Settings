@@ -16,6 +16,24 @@
       "message": "We already install F-Droid Basic, why also try to install the full one we aren\u0027t even shipping anymore?",
       "revId": "ccd4c2e2a4f98b806ae5452a4c4c138bcfe55319",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a66f1b4_97fa5c4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-03-26T22:06:36Z",
+      "side": 1,
+      "message": "It was kept in case someone uses it instead of basic, since without an app store you can\u0027t really install anything in private space.",
+      "parentUuid": "0f2882ea_ad7cb674",
+      "revId": "ccd4c2e2a4f98b806ae5452a4c4c138bcfe55319",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
