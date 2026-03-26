@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0810bff5_4e12715e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-26T21:01:31Z",
+      "side": 1,
+      "message": "the private space I set up as F-Droid Basic and Aurora Store as the only apps.",
+      "revId": "66b409bc39ee3b2ec835975d0ffe4a7b02c47444",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
