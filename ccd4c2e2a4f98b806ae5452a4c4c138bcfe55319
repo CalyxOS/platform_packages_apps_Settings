@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f2882ea_ad7cb674",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-26T21:02:59Z",
+      "side": 1,
+      "message": "We already install F-Droid Basic, why also try to install the full one we aren\u0027t even shipping anymore?",
+      "revId": "ccd4c2e2a4f98b806ae5452a4c4c138bcfe55319",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
