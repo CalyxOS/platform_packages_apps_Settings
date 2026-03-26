@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eaf7028f_2b63a4bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-26T20:49:49Z",
+      "side": 1,
+      "message": "The \"use VPN for connected devices\" setting is present in settings UI.",
+      "revId": "355358ac8e57f2174a0f2b25111db140eb7fd508",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
