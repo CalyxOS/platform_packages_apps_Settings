@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c079624_941cfa49",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T19:19:43Z",
+      "side": 1,
+      "message": "I can see the setting in other options, but the text is long and super technical. Even I need to read it carefully to understand.",
+      "revId": "d345db58f1988debbc8b9a70bb59879275baa2b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
