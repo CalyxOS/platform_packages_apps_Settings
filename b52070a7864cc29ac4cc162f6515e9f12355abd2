@@ -16,6 +16,24 @@
       "message": "Not sure how to test this. Is this about SetupWizard? I think this doesn\u0027t let you add fingerprints without a screenlock. Or is this for people somehow manually launching that activity with adb?",
       "revId": "b52070a7864cc29ac4cc162f6515e9f12355abd2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28360610_c737f2d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-03-27T19:56:04Z",
+      "side": 1,
+      "message": "It\u0027s for garlic level setup",
+      "parentUuid": "500275a4_60cf8929",
+      "revId": "b52070a7864cc29ac4cc162f6515e9f12355abd2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
