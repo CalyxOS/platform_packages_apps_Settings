@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c553b40_b7f4bc17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T19:15:12Z",
+      "side": 1,
+      "message": "bellis can use app and content access in work profile. however, not sure I understand the code the the special provisions for microG.",
+      "revId": "a89032b916287778951e9d380057a2e8b93a9355",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
