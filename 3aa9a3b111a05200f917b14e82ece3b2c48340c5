@@ -16,6 +16,24 @@
       "message": "I am not finding this setting. It is not in non-carrier data usage and not in app data usage of sim card.",
       "revId": "3aa9a3b111a05200f917b14e82ece3b2c48340c5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a444432_34ad9c1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-03-27T19:58:19Z",
+      "side": 1,
+      "message": "It is under any app in Settings -\u003e Apps -\u003e Wi-Fi data usage",
+      "parentUuid": "720358ab_5a8f2042",
+      "revId": "3aa9a3b111a05200f917b14e82ece3b2c48340c5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
