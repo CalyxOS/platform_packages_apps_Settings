@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65df442f_b5575153",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T19:34:00Z",
+      "side": 1,
+      "message": "I can see the setting. it is always enabled, because I have dev options on. greyed out.",
+      "revId": "d7af049b1bff035c4f0c548a2769ce319f4d8b2f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
