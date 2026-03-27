@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83da9dec_9d3a909b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T19:11:02Z",
+      "side": 1,
+      "message": "Hiding apps work and they can be found by using a dropdown in All Apps. However, I am not sure what the difference between all apps and installed apps is. Even the installed apps show the hidden apps.",
+      "revId": "80fa525f6880bbf85f2d2c54e7942b96af4b3eae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
