@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78e7012f_c4105cb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T19:18:23Z",
+      "side": 1,
+      "message": "I am not in US or Canada, but I see a \"Turn on Wi-Fi automatically\" setting at the top of network preferences. I guess whatever our change touches isn\u0027t used anymore and maybe the feature will now work for all users?",
+      "revId": "953cf93d6ceea79bcd3fb2cd261cc07d8ecc3865",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
