@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00936af9_b27b6c5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T18:30:06Z",
+      "side": 1,
+      "message": "I can see the \"Apps don\u0027t use your existing VPN\" paragraph when setting up a private space. However, there\u0027s so much text on that screen that I am not sure someone will read all of it.",
+      "revId": "7b258019fca737e59a3b4445cef86e5ce29e69c1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
