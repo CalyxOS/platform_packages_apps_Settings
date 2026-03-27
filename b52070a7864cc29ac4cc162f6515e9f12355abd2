@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "500275a4_60cf8929",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T18:31:59Z",
+      "side": 1,
+      "message": "Not sure how to test this. Is this about SetupWizard? I think this doesn\u0027t let you add fingerprints without a screenlock. Or is this for people somehow manually launching that activity with adb?",
+      "revId": "b52070a7864cc29ac4cc162f6515e9f12355abd2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
