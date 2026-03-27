@@ -16,6 +16,24 @@
       "message": "I can see the option to view bug reports. it opens files app and shows lots of files, not very user friendly.\n\nAlso, it suggested the app manager app besides files. If I do this, the intent is intercepted. Maybe Files should be hardcoded.",
       "revId": "7176fd6e9357e89ac415a0821649c9146023037b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "354e8c01_51e0678d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-03-27T20:04:49Z",
+      "side": 1,
+      "message": "Look at https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Settings/+/44961/2/src/com/android/settings/other/ViewBugreportsPreferenceController.java#97",
+      "parentUuid": "755afe42_ec8ee165",
+      "revId": "7176fd6e9357e89ac415a0821649c9146023037b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
