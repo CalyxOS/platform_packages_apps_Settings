@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "755afe42_ec8ee165",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T19:33:04Z",
+      "side": 1,
+      "message": "I can see the option to view bug reports. it opens files app and shows lots of files, not very user friendly.\n\nAlso, it suggested the app manager app besides files. If I do this, the intent is intercepted. Maybe Files should be hardcoded.",
+      "revId": "7176fd6e9357e89ac415a0821649c9146023037b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
