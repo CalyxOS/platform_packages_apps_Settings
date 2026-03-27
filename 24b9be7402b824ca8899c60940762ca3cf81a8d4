@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46d00f76_c289921d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T19:56:43Z",
+      "side": 1,
+      "message": "I can see the setting to take a bug report now and it works after auth.",
+      "revId": "24b9be7402b824ca8899c60940762ca3cf81a8d4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
