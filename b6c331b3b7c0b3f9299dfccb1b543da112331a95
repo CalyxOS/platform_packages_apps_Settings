@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5eab2f21_1164b7f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-27T18:43:04Z",
+      "side": 1,
+      "message": "sharing stuff to the work profile and from the work profile to owner works as expected",
+      "revId": "b6c331b3b7c0b3f9299dfccb1b543da112331a95",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
