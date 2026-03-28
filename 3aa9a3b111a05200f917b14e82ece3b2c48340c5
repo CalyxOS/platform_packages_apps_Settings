@@ -34,6 +34,24 @@
       "parentUuid": "720358ab_5a8f2042",
       "revId": "3aa9a3b111a05200f917b14e82ece3b2c48340c5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5ae171b_35660ba9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-03-28T17:00:11Z",
+      "side": 1,
+      "message": "Alright, in the app settings page under \"Mobile data \u0026 Wi-Fi\" I do find a fake setting for \"Datura firewall\" which brings me to Datura and the app in question. Also, the background network access toggle is there.",
+      "parentUuid": "2a444432_34ad9c1c",
+      "revId": "3aa9a3b111a05200f917b14e82ece3b2c48340c5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
