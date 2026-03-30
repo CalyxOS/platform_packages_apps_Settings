@@ -34,6 +34,24 @@
       "parentUuid": "403b631f_8cbbbf25",
       "revId": "2e138b44966c43619a1fce93632112165e876f45",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66743abc_5e9be6dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-03-30T17:15:55Z",
+      "side": 1,
+      "message": "After fixing the device tree the option appears, however you can\u0027t enter it until you enable development settings.",
+      "parentUuid": "e2c12d96_1a6bc4c9",
+      "revId": "2e138b44966c43619a1fce93632112165e876f45",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
