@@ -52,6 +52,24 @@
       "parentUuid": "e2c12d96_1a6bc4c9",
       "revId": "2e138b44966c43619a1fce93632112165e876f45",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "804af33a_a798d465",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-03-31T14:25:44Z",
+      "side": 1,
+      "message": "https://gitlab.com/CalyxOS/calyxos/-/work_items/3348",
+      "parentUuid": "66743abc_5e9be6dd",
+      "revId": "2e138b44966c43619a1fce93632112165e876f45",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
