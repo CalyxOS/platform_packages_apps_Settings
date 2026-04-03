@@ -16,6 +16,24 @@
       "message": "I can see the setting in other options, but the text is long and super technical. Even I need to read it carefully to understand.",
       "revId": "d345db58f1988debbc8b9a70bb59879275baa2b9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71feac5e_7dc6f4c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000136
+      },
+      "writtenOn": "2026-04-03T02:47:03Z",
+      "side": 1,
+      "message": "A suggestion for the setting title and summary strings to clarify what non-persistent MAC randomization:\n\nTitle: \"New MAC address for every connection\"\nSummary: \"Get a fresh MAC address every time that you connect to any Wi-FI network, including networks you\u0027ve used before\".",
+      "parentUuid": "2c079624_941cfa49",
+      "revId": "d345db58f1988debbc8b9a70bb59879275baa2b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
