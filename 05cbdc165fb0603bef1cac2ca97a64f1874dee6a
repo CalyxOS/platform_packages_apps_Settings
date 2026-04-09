@@ -34,6 +34,24 @@
       "parentUuid": "6023810c_bd0fffd4",
       "revId": "05cbdc165fb0603bef1cac2ca97a64f1874dee6a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c42ecce_72651d61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-09T18:10:35Z",
+      "side": 1,
+      "message": "How did you get it to say something? I tried again and it just makes UI sounds, but no talking.",
+      "parentUuid": "aae0d663_2649c106",
+      "revId": "05cbdc165fb0603bef1cac2ca97a64f1874dee6a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
