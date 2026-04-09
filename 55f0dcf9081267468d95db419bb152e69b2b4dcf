@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5256a005_2c6a2f93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-09T20:20:32Z",
+      "side": 1,
+      "message": "turn off wifi automatically is in wifi settings and it does work.\n\nhowever, above and below are icons now, so we should consider adding an icon here as well. because otherwise our setting in the middle looks odd.",
+      "revId": "55f0dcf9081267468d95db419bb152e69b2b4dcf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
