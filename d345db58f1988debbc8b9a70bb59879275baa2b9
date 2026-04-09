@@ -34,6 +34,24 @@
       "parentUuid": "2c079624_941cfa49",
       "revId": "d345db58f1988debbc8b9a70bb59879275baa2b9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f69af2a1_edcc5a77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-09T18:41:01Z",
+      "side": 1,
+      "message": "suggestion sounds good to me, I just won\u0027t make the change to prevent all the votes in this long chain getting reset. Not sure if Michael can apply this before merging or we open a ticket for it?",
+      "parentUuid": "71feac5e_7dc6f4c9",
+      "revId": "d345db58f1988debbc8b9a70bb59879275baa2b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
