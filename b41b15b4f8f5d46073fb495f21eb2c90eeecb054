@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89a95b09_816853d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-09T20:12:38Z",
+      "side": 1,
+      "message": "If I go to an app\u0027s page in settings and then go to \"Mobile data usage\" I can see the expected strings regarding Background network access.",
+      "revId": "b41b15b4f8f5d46073fb495f21eb2c90eeecb054",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
