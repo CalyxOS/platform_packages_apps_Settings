@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0956228_0ff0f4b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-09T19:11:10Z",
+      "side": 1,
+      "message": "I see this in other options at the end and it is disabled by default. If I enable it, the quick settings tile squeezes itself in the first position.\n\nSo I wonder why we need a setting for this and can\u0027t just show this in the list of tiles by default?",
+      "revId": "66c489d50ee8ed1c7e968f93905fac7fc37adbe8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
