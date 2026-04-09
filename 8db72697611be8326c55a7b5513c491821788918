@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48c778e0_1693a0b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-09T20:14:28Z",
+      "side": 1,
+      "message": "restrict usb is present in security settings and it is a list preference",
+      "revId": "8db72697611be8326c55a7b5513c491821788918",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
