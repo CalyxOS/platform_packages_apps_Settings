@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9feb08d6_919acb1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-09T16:55:26Z",
+      "side": 1,
+      "message": "at least android auto is off by default in secondary users and work profile. not sure what else this change is supposed to fix",
+      "revId": "b7ed1f65b9b529f6663ba8d817191dc390a7e55f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
