@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d30e2d3f_a5b15bed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-09T19:13:42Z",
+      "side": 1,
+      "message": "Toggle for connectivity check is there. However, I did not test whether it is functional.",
+      "revId": "b4d8b713d116422ebb3479413f0ef539b8e27f8d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
