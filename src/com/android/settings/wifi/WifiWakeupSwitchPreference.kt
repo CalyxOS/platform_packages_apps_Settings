@@ -35,6 +35,7 @@ import com.android.settings.wifi.utils.wifiManager
 import com.android.settingslib.datastore.AbstractKeyedDataObservable
 import com.android.settingslib.datastore.KeyValueStore
 import com.android.settingslib.datastore.Permissions
+import com.android.settingslib.metadata.PreferenceAvailabilityProvider
 import com.android.settingslib.metadata.PreferenceChangeReason
 import com.android.settingslib.metadata.PreferenceLifecycleContext
 import com.android.settingslib.metadata.PreferenceLifecycleProvider
@@ -49,6 +50,7 @@ class WifiWakeupSwitchPreference :
     SwitchPreference(KEY, R.string.wifi_wakeup),
     SwitchPreferenceBinding,
     PreferenceSummaryProvider,
+    PreferenceAvailabilityProvider,
     PreferenceLifecycleProvider {
 
     override val icon: Int
@@ -187,6 +189,10 @@ class WifiWakeupSwitchPreference :
             dialogFragment.show(it, TAG)
         }
         return true
+    }
+
+    override fun isAvailable(context: Context): Boolean {
+        return context.getResources().getBoolean(R.bool.config_wifi_wakeup)
     }
 
     companion object {
