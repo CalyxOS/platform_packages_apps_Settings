@@ -52,6 +52,24 @@
       "parentUuid": "71feac5e_7dc6f4c9",
       "revId": "d345db58f1988debbc8b9a70bb59879275baa2b9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f98949b_73f6cfdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-14T23:01:58Z",
+      "side": 1,
+      "message": "This is currently using the strings from Developer options which has been the case since we added it in Android 13. Filed https://gitlab.com/CalyxOS/calyxos/-/work_items/3472 for further improvements",
+      "parentUuid": "f69af2a1_edcc5a77",
+      "revId": "d345db58f1988debbc8b9a70bb59879275baa2b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
