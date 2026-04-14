@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "2701eb01_029cf402",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-14T23:16:18Z",
+      "side": 1,
+      "message": "As explained in further comments, yes",
+      "parentUuid": "e4c595ef_eb66197e",
+      "revId": "73249ff33c51ed46758700da318f0c77644af1aa",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "b72d4917_8e3732c8",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 3
