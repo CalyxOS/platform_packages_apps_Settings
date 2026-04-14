@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af4c883f_bce27ae7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-04-14T17:45:22Z",
+      "side": 1,
+      "message": "feature appears in settings and allows for setting the expected intervals",
+      "revId": "bcdc08f8099d131df0daeb89fb3ac118ca2a92b9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
