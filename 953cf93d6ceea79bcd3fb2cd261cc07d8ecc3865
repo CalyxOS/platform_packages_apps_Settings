@@ -16,6 +16,24 @@
       "message": "I am not in US or Canada, but I see a \"Turn on Wi-Fi automatically\" setting at the top of network preferences. I guess whatever our change touches isn\u0027t used anymore and maybe the feature will now work for all users?",
       "revId": "953cf93d6ceea79bcd3fb2cd261cc07d8ecc3865",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23be1b1d_730a59d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-14T23:23:07Z",
+      "side": 1,
+      "message": "Setting was migrated to kotlin, fixed by updating the new file instead.",
+      "parentUuid": "78e7012f_c4105cb6",
+      "revId": "953cf93d6ceea79bcd3fb2cd261cc07d8ecc3865",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
