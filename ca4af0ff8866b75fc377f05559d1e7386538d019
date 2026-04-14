@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6bd1a6a_ecc88eb3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-14T23:03:19Z",
+      "side": 1,
+      "message": "This is still left unsquashed until we test/pick the alternative fix that\u0027s been suggested on lineage",
+      "revId": "ca4af0ff8866b75fc377f05559d1e7386538d019",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
