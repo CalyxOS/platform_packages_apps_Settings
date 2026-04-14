@@ -16,6 +16,24 @@
       "message": "I see this in other options at the end and it is disabled by default. If I enable it, the quick settings tile squeezes itself in the first position.\n\nSo I wonder why we need a setting for this and can\u0027t just show this in the list of tiles by default?",
       "revId": "66c489d50ee8ed1c7e968f93905fac7fc37adbe8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a78e640_44a8f69f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-14T22:57:56Z",
+      "side": 1,
+      "message": "This is how it\u0027s been behaving since it was added in Android 13 and also how developer options equivalent works. Filed https://gitlab.com/CalyxOS/calyxos/-/work_items/3471 for further improvements which we may or may not want before our first builds.",
+      "parentUuid": "a0956228_0ff0f4b3",
+      "revId": "66c489d50ee8ed1c7e968f93905fac7fc37adbe8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
