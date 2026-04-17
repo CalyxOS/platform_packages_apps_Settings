@@ -52,6 +52,24 @@
       "parentUuid": "aae0d663_2649c106",
       "revId": "05cbdc165fb0603bef1cac2ca97a64f1874dee6a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3f87686_8cce0768",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-17T16:59:01Z",
+      "side": 1,
+      "message": "This change is only for our own compiled google talkback. From what I understand, talkback is required, does not work standalone and is able to work together with espeak-ng used as its voice engine. We can merge this change right now and it is irrelevant to any TTS issues.",
+      "parentUuid": "0c42ecce_72651d61",
+      "revId": "05cbdc165fb0603bef1cac2ca97a64f1874dee6a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
