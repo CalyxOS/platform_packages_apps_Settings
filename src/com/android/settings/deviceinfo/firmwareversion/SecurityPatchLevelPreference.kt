@@ -63,7 +63,7 @@ class SecurityPatchLevelPreference :
         val vendorPatch = parseDate(SystemProperties.get(KEY_VENDOR_SECURITY_PATCH, currentPatch))
         val kernelPatch = parseDate(SystemProperties.get(KEY_KERNEL_SECURITY_PATCH, vendorPatch))
         val firmwarePatch =
-            parseDate(SystemProperties.get(KEY_FIRMWARE_SECURITY_PATCH, kernelPatch))
+            parseDate(SystemProperties.get(KEY_FIRMWARE_SECURITY_PATCH, vendorPatch))
 
         return if (TextUtils.equals(currentPatch, vendorPatch)) {
             currentPatch
