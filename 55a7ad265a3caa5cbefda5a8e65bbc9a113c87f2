@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fc26c3f_7c2f9257",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-04-25T13:17:24Z",
+      "side": 1,
+      "message": "This matches the behaviour before the kotlin rewrite",
+      "revId": "55a7ad265a3caa5cbefda5a8e65bbc9a113c87f2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
