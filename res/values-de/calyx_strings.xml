@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="panic_settings_title">Panik-Optionen anzeigen</string>
-    <string name="panic_settings_summary">Anzeige der Ein-/Ausschalttastenoption, die einen Notfall-Panikauslöser aktiviert.</string>
     <string name="security_restrict_usb_summary">Unterstützung für USB-Gadgets wie Kopfhörer, Speichergeräte und Eingabegeräte (Mäuse, Tastaturen, Joysticks) kontrollieren</string>
     <string name="security_restrict_usb_disabled">Neue USB-Gadgets immer zulassen</string>
     <string name="security_restrict_usb_keyguard">Neue USB-Gadgets zulassen, wenn entsperrt</string>
@@ -30,7 +28,6 @@
     <string name="wifi_timeout_summary">WLAN schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn kein Netzwerk verbunden ist</string>
     <string name="wifi_timeout">WLAN automatisch ausschalten</string>
     <string name="data_usage_app_restrict_background_all_summary">Aktivieren der Netzwerknutzung im Hintergrund</string>
-    <string name="aosp_module_version">Mainline-Modul-Aktualisierung</string>
     <string name="timeout_summary_72hours">72 Stunden</string>
     <string name="timeout_summary_48hours">48 Stunden</string>
     <string name="timeout_summary_36hours">36 Stunden</string>
@@ -51,11 +48,6 @@
     <string name="cross_profile_sharing_title">Profilübergreifende Freigabe</string>
     <string name="hide">Ausblenden</string>
     <string name="unhide">Einblenden</string>
-    <string name="network_dashboard_summary_mobile_calyx">Mobil, WLAN, Hotspot, VPN, Privates DNS</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">WLAN, Hotspot, VPN, Privates DNS</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, Kopplung, NFC</string>
-    <string name="security_dashboard_summary_calyx">Bildschirmsperre, Panikeinstellungen, USB-Beschränkungen, App-Sicherheit</string>
-    <string name="system_dashboard_summary_calyx">Sprachen, Gesten, Zeit, Backup, Benutzer, Arbeitsprofil</string>
     <string name="unhide_app">App einblenden</string>
     <string name="hide_app_desc">Wenn du diese App ausblendest, ist sie für Android und andere Apps nicht mehr sichtbar, und sie funktioniert möglicherweise nicht mehr wie vorgesehen. Denke daran, dass durch das Ausblenden einer App deren Daten erhalten bleiben. Durch Ausblenden schaltest du diese App aus und versteckst sie auf deinem Gerät.</string>
     <string name="unhide_app_desc">Wenn du diese App wieder einblendest, wird sie für Android und andere Apps wieder sichtbar.</string>
@@ -71,8 +63,6 @@
     <string name="keychords_title">Tastenkombination für Fehlerbericht</string>
     <string name="keychords_summary">Erfasse einen Fehlerbericht, indem du die Tasten Lauter, Leiser und Ein/Aus gleichzeitig gedrückt hältst, auch wenn das Gerät gesperrt ist</string>
     <string name="view_bugreports_summary_not_developer">Nach dem Anzeigen bleiben alle Fehlerberichte zugänglich, bis du das Gerät neu startest</string>
-    <string name="security_settings_biometric_preference_title_calyx">Biometrisches Entsperren</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Biometrisches Entsperren für das Arbeitsprofil</string>
     <string name="hidden">Ausgeblendet</string>
     <string name="data_usage_app_datura_firewall">Datura Firewall</string>
     <string name="data_usage_app_datura_firewall_summary">Firewall-Einstellungen wurden in die neue Firewall-App verschoben. Zum Öffnen antippen.</string>
@@ -84,8 +74,6 @@
     <string name="strict_location_redaction_title">Standortdaten beim Teilen von Medien entfernen</string>
     <string name="strict_location_redaction_description">Nur Galerien und Dateimanager können Standort-Metadaten von deinen Fotos und Medien lesen. (Apps von Drittanbietern müssen über die Berechtigung „Zugriff auf alle Dateien“ oder „Medienverwaltung“ verfügen.)</string>
     <string name="private_space_hide_apps_summary_calyx">Verstecke oder sperre private Apps in einem separaten Bereich.</string>
-    <string name="update_info_channel_title">Aktualisierungsinformationen</string>
-    <string name="update_info_title">CalyxOS Aktualisierungsinformation</string>
     <string name="user_switch_on_lockscreen">Benutzer vom Sperrbildschirm aus wechseln</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Alle Daten nach 5 fehlgeschlagenen Entsperrungsversuchen löschen</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Alle Daten nach 10 fehlgeschlagenen Entsperrungsversuchen löschen</string>

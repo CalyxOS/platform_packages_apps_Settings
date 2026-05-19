@@ -5,8 +5,6 @@
     <string name="security_restrict_usb_always">Blocca nuove periferiche USB</string>
     <string name="security_restrict_usb_summary">Controlla il supporto per dispositivi USB quali cuffie, memorie e input (mouse, tastiere, joystick)</string>
     <string name="security_restrict_usb_title">Limita nuovi dispositivi USB</string>
-    <string name="panic_settings_summary">Visualizza l\'opzione nel menu di spegimento che genera un panic d\'emergenza.</string>
-    <string name="panic_settings_title">Mostra l\'opzione Panic</string>
     <string name="calyxos_version">Versione di CalyxOS</string>
     <string name="bluetooth_timeout_summary">Il Bluetooth si spegnera\' dopo <xliff:g id="timeout_description">%1$s</xliff:g> se non e\' connesso nessun dispositivo</string>
     <string name="timeout_summary_8hours">8 ore</string>
@@ -30,7 +28,6 @@
     <string name="wifi_timeout_summary2">Disabilitato</string>
     <string name="data_usage_app_restrict_background_all">Accesso rete in background</string>
     <string name="show_qs_on_secure_keyguard_summary">Consenti di attivare/disattivare le impostazioni rapide sulla schermata di blocco</string>
-    <string name="aosp_module_version">Aggiornamento del modulo principale</string>
     <string name="cross_profile_sharing_summary">Abilitate i pulsanti di condivisione nell\'app per funzionare sui vostri profili personale e professionale</string>
     <string name="detailed_security_patch">Piattaforma: <xliff:g id="platform_level">%1$s</xliff:g>
 \nNocciolo: <xliff:g id="kernel_level">%2$s</xliff:g>
@@ -52,11 +49,6 @@
     <string name="cross_profile_sharing_title">Condivisione tra i profili</string>
     <string name="unhide">Mostra</string>
     <string name="captive_portal_summary">Determina se il dispositivo può connettersi a internet, contattando Google. Utilizzato anche per rilevare i portali captive.</string>
-    <string name="network_dashboard_summary_mobile_calyx">Mobili, Wi-Fi, hotspot, VPN, DNS Privato</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, hotspot, VPN, DNS Privato</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, accoppiamento, NFC</string>
-    <string name="security_dashboard_summary_calyx">Blocco schermo, impostazioni di panico, restrizioni USB, sicurezza app</string>
-    <string name="system_dashboard_summary_calyx">Lingue, gesti, ora, backup, utenti, profilo di lavoro</string>
     <string name="other_settings">Altre opzioni</string>
     <string name="quick_settings">Impostazioni rapide</string>
     <string name="captive_portal_title">Controllo della connettività</string>
@@ -70,8 +62,6 @@
     <string name="keychords_title">Combinazione di pulsanti per la segnalazione di bug</string>
     <string name="work_hours_title">Orario di lavoro</string>
     <string name="work_hours_end_off_summary">Mostra una notifica ogni giorno per disattivare il profilo di lavoro</string>
-    <string name="security_settings_biometric_preference_title_calyx">Sblocco biometrico</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Sblocco biometrico per lavoro</string>
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
     <string name="data_usage_app_datura_firewall_summary">Le impostazioni del firewall sono state spostate nella nuova app Firewall. Tocca per aprire.</string>
     <string name="bugreport_summary">Segnala subito un bug</string>

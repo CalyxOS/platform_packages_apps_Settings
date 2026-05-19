@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="panic_settings_summary">Vis av/på-knapp som aktiverer panikkforetagende i nødsfall.</string>
-    <string name="panic_settings_title">Vis panikk-alternativ</string>
     <string name="calyxos_version">CalyxOS versjon</string>
     <string name="security_restrict_usb_disabled">Alltid tillat nye USB-enheter</string>
     <string name="security_restrict_usb_keyguard">Tillat nye USB-enheter når opplåst</string>
@@ -26,7 +24,6 @@
     <string name="wifi_timeout_summary2">Avskrudd</string>
     <string name="show_qs_on_secure_keyguard_title">Hurtiginnstillinger</string>
     <string name="show_qs_on_secure_keyguard_summary">Tillat veksling av hurtiginnstillinger på sikker låseskjerm</string>
-    <string name="aosp_module_version">Oppdatering av hovedlinjemodulen</string>
     <string name="cross_profile_sharing_title">Deling på tvers av profiler</string>
     <string name="cross_profile_sharing_summary">Skru på delingsknapp i programmer i din arbeids- og personlige profil</string>
     <string name="hide">Skjul</string>

@@ -5,8 +5,6 @@
     <string name="security_restrict_usb_always">Hafna nýjum USB tækjum</string>
     <string name="security_restrict_usb_summary">Stjórna stuðningi við USB tengdan búnað, t.d. heyrnartól, geymslumiðla og ílagstæki (mýs, lyklaborð o.s.frv.)</string>
     <string name="security_restrict_usb_title">Hamla USB</string>
-    <string name="panic_settings_summary">Sýna ræsihnappsmöguleika sem virkjar neyðarviðbragð</string>
-    <string name="panic_settings_title">Sýna neyðarvalkost</string>
     <string name="calyxos_version">CalyxOS útgáfa</string>
     <string name="timeout_summary_8hours">8 klukkustundir</string>
     <string name="timeout_summary_4hours">4 klukkustundir</string>
