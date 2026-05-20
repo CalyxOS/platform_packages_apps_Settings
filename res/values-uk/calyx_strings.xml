@@ -3,12 +3,10 @@
     <string name="timeout_summary_5mins">5 хвилин</string>
     <string name="timeout_summary_never">Ніколи</string>
     <string name="bluetooth_timeout">Час вимикання Bluetooth</string>
-    <string name="panic_settings_summary">Відображення опції кнопки живлення, яка задіює тривожну кнопку.</string>
     <string name="security_restrict_usb_title">Обмежити USB</string>
     <string name="timeout_summary_10mins">10 хвилин</string>
     <string name="wifi_timeout_summary">Wi-Fi вимкнеться через <xliff:g id="timeout_description">%1$s</xliff:g> якщо не під\'єднано до жодної мережі</string>
     <string name="timeout_summary_2mins">2 хвилини</string>
-    <string name="aosp_module_version">Оновлення основного модуля</string>
     <string name="timeout_summary_30secs">30 секунд</string>
     <string name="wifi_timeout_summary2">Вимкнено</string>
     <string name="security_restrict_usb_summary">Підтримка управління для USB-пристроїв, таких як навушники, пристрої зберігання даних і пристрої введення (миші, клавіатури, джойстики)</string>
@@ -22,7 +20,6 @@
     <string name="show_qs_on_secure_keyguard_title">Швидкі налаштування</string>
     <string name="bluetooth_timeout_summary">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо жоден пристрій не під\'єднано</string>
     <string name="security_restrict_usb_always">Заборонити нові USB-присторої</string>
-    <string name="panic_settings_title">Показати опцію \"Тривожна кнопка\"</string>
     <string name="timeout_summary_4hours">4 години</string>
     <string name="timeout_summary_15secs">15 секунд</string>
     <string name="show_qs_on_secure_keyguard_summary">Дозволити швидкі налаштування на екрані блокування</string>
@@ -39,11 +36,6 @@
     <string name="device_reboot_timeout_summary">Пристрій автоматично перезавантажиться, якщо його не розблоковано протягом останніх/останньої <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_summary2">Пристрій не перезавантажиться автоматично</string>
     <string name="device_reboot_timeout_title">Автоматичне перезавантаження</string>
-    <string name="network_dashboard_summary_mobile_calyx">Мобільний інтернет, Wi-Fi, точка доступу, VPN, приватний DNS</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, точка доступу, VPN, приватний DNS</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, з\'єднання, NFC</string>
-    <string name="security_dashboard_summary_calyx">Блокування екрана, налаштування паніки, обмеження USB, безпека програм</string>
-    <string name="system_dashboard_summary_calyx">Мови, жести, час, резервне копіювання, користувачі, робочий профіль</string>
     <string name="hide">Приховати</string>
     <string name="unhide">Показати</string>
     <string name="captive_portal_title">Перевірка підключення</string>
@@ -79,10 +71,8 @@
     <string name="keychords_summary">Зробити звіт про помилку, утримуючи одночасно кнопки збільшення гучності, зменшення гучності та живлення, навіть якщо пристрій заблоковано</string>
     <string name="keychords_summary_adb_enabled">Завжди увімкнено, коли ввімкнено налагодження</string>
     <string name="view_bugreports_title">Перегляд звітів про помилки</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Біометричне розблокування для роботи</string>
     <string name="work_hours_end_on_summary">Показувати сповіщення про вимкнення робочого профілю о <xliff:g id="end_time">%1$s</xliff:g> годині щодня</string>
     <string name="hidden">Приховане</string>
-    <string name="security_settings_biometric_preference_title_calyx">Біометричне розблокування</string>
     <string name="data_usage_app_datura_firewall_summary">Налаштування брандмауера було перенесено до нової програми Firewall. Торкніться, щоб відкрити.</string>
     <string name="data_usage_app_datura_firewall">Брандмауер Datura</string>
     <string name="work_hours_title">Час роботи</string>
@@ -99,8 +89,6 @@
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">Перемикач користувачів потрібен, щоб додавати користувачів із заблокованого екрана</string>
     <string name="private_space_separate_vpn_text"><b>Програми не використовують існуючу мережу VPN</b>\nЩоб ваші приватні програми використовували VPN, вам також потрібно налаштувати його у своєму просторі. Крім того, ви можете ввімкнути Global VPN</string>
     <string name="work_hours_end_on_summary2">Щодня вимикайте робочий профіль у <xliff:g id="end_time">%1$s</xliff:g></string>
-    <string name="update_info_channel_title">Оновлення інформації</string>
-    <string name="update_info_title">Інформація про оновлення CalyxOS</string>
     <string name="maximum_failed_passwords_for_wipe_title">Стирання при невдалих спробах розблокування</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Видалити всі дані після 10 невдалих спроб розблокування</string>

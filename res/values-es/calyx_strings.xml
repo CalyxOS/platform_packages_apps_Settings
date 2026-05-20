@@ -2,8 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="security_restrict_usb_summary">Soporte de control para gadgets USB como auriculares, dispositivos de almacenamiento y entrada (ratones, teclados, joysticks)</string>
     <string name="security_restrict_usb_title">Restringir USB</string>
-    <string name="panic_settings_summary">Mostrar una opción de botón de encendido que activa una alerta de emergencia.</string>
-    <string name="panic_settings_title">Mostrar opción de pánico</string>
     <string name="calyxos_version">Versión de CalyxOS</string>
     <string name="security_restrict_usb_disabled">Permitir nuevos dispositivos USB siempre</string>
     <string name="security_restrict_usb_keyguard">Permitir nuevos gadgets USB cuando se desbloquean</string>
@@ -30,7 +28,6 @@
     <string name="wifi_timeout">Apagar el Wi-Fi automáticamente</string>
     <string name="data_usage_app_restrict_background_all_summary">Habilitar el uso de la red en segundo plano</string>
     <string name="data_usage_app_restrict_background_all">Acceso a la red en segundo plano</string>
-    <string name="aosp_module_version">Actualización del módulo principal</string>
     <string name="device_reboot_timeout_title">Reinicio automático</string>
     <string name="device_reboot_timeout_summary2">El dispositivo no se reiniciará automáticamente</string>
     <string name="timeout_summary_12hours">12 horas</string>
@@ -51,11 +48,6 @@
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="global_vpn_summary_on">Forzar todo el tráfico en el dispositivo a través de esta VPN, incluido el perfil de trabajo y otros usuarios. Nota: cuando está habilitado, no podrá usar una VPN separada en un perfil de trabajo u otros usuarios</string>
     <string name="global_vpn_summary_any_vpn_active">Primero debe deshabilitar todas las conexiones VPN activas para habilitar esto</string>
-    <string name="network_dashboard_summary_mobile_calyx">Móvil, Wi‑Fi, punto de acceso, VPN, DNS privado</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, punto de acceso, VPN, DNS privado</string>
-    <string name="system_dashboard_summary_calyx">Idiomas, gestos, tiempo, copia de seguridad, usuarios, perfil de trabajo</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, emparejamiento, NFC</string>
-    <string name="security_dashboard_summary_calyx">Bloqueo de pantalla, configuraciones de pánico, restricciones de USB, seguridad de aplicaciones</string>
     <string name="unhide_app">Mostrar aplicación</string>
     <string name="unhide_app_desc">Si muestra esta aplicación, será visible para Android y otras aplicaciones nuevamente.</string>
     <string name="hide_app_desc">Si oculta esta aplicación, no será visible para Android y otras aplicaciones, y es posible que ya no funcionen según lo previsto. Tenga en cuenta que ocultar una aplicación conserva sus datos. Al ocultar, apaga esta aplicación y la oculta en su dispositivo.</string>
@@ -72,10 +64,8 @@
     <string name="view_bugreports_summary_not_developer">Una vez visualizados, todos los informes de errores permanecerán accesibles hasta que reinicies el dispositivo</string>
     <string name="keychords_summary">Captura un informe de error manteniendo pulsados los botones: Subir volumen, Bajar volumen y Encendido al mismo tiempo, incluso cuando el dispositivo está bloqueado</string>
     <string name="hidden">Oculto</string>
-    <string name="security_settings_biometric_preference_title_calyx">Desbloqueo biométrico</string>
     <string name="data_usage_app_datura_firewall">Cortafuegos de datos</string>
     <string name="data_usage_app_datura_firewall_summary">Los ajustes del cortafuegos se han trasladado a la nueva aplicación Cortafuegos. Toca para abrirla.</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Desbloqueo biométrico para funcionar</string>
     <string name="work_hours_end_off_summary">Mostrar una notificación diaria para desactivar el perfil de trabajo</string>
     <string name="work_hours_end_on_summary">Mostrar una notificación para desactivar el perfil de trabajo diario a <xliff:g id="end_time">%1$s</xliff:g></string>
     <string name="work_hours_end_notification_description">Toque para desactivar las aplicaciones de trabajo</string>
@@ -84,8 +74,6 @@
     <string name="strict_location_redaction_title">Eliminar datos de ubicación al compartir contenido multimedia</string>
     <string name="strict_location_redaction_description">Solo las galerías y los administradores de archivos pueden leer los metadatos de ubicación de tus fotos y archivos multimedia. (Las aplicaciones de terceros deben tener permisos de acceso a todos los archivos o de administración de archivos multimedia)</string>
     <string name="private_space_hide_apps_summary_calyx">Oculta o bloquea las aplicaciones privadas en un espacio separado.</string>
-    <string name="update_info_channel_title">Actualizar información</string>
-    <string name="update_info_title">Información de la actualización de CalyxOS</string>
     <string name="work_hours_end_on_summary2">Desactivar el perfil de trabajo a las <xliff:g id="end_time">%1$s</xliff:g> todos los días</string>
     <string name="turn_off">Desactivar</string>
     <string name="notify">Notificar</string>
