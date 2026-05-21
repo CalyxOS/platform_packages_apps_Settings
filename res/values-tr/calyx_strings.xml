@@ -5,8 +5,6 @@
     <string name="security_restrict_usb_always">Yeni USB aygıtlarını reddet</string>
     <string name="security_restrict_usb_summary">Kulaklıklar, depolama aygıtları ve girişler (fareler, klavyeler, oyun çubukları) gibi USB aygıtları için destekleme seçeneklerini denetleyin</string>
     <string name="security_restrict_usb_title">USB\'yi kısıtla</string>
-    <string name="panic_settings_summary">Acil durum panik tetikleyicisini etkinleştiren güç düğmesi seçeneğini görüntüleyin.</string>
-    <string name="panic_settings_title">Panik seçeneğini göster</string>
     <string name="calyxos_version">CalyxOS sürümü</string>
     <string name="timeout_summary_8hours">8 saat</string>
     <string name="timeout_summary_4hours">4 saat</string>
@@ -30,7 +28,6 @@
     <string name="wifi_timeout">Wi-Fi\'yi otomatik olarak kapat</string>
     <string name="data_usage_app_restrict_background_all_summary">Arka planda ağ kullanımını etkinleştir</string>
     <string name="data_usage_app_restrict_background_all">Arka planda ağ erişimi</string>
-    <string name="aosp_module_version">Ana hat modül güncellemesi</string>
     <string name="timeout_summary_72hours">72 saat</string>
     <string name="timeout_summary_48hours">48 saat</string>
     <string name="timeout_summary_36hours">36 saat</string>
@@ -51,11 +48,6 @@
     <string name="cross_profile_sharing_summary">Kişisel ve iş profiliniz arasında çalışması için uygulama içi paylaşım düğmelerini etkinleştirin</string>
     <string name="unhide">Göster</string>
     <string name="hide">Gizle</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, ortak erişim noktası, VPN, Gizli DNS</string>
-    <string name="system_dashboard_summary_calyx">Diller, hareketler, zaman, yedekleme, kullanıcılar, iş profili</string>
-    <string name="network_dashboard_summary_mobile_calyx">Mobil, Wi‑Fi, ortak erişim noktası, VPN, Gizli DNS</string>
-    <string name="security_dashboard_summary_calyx">Ekran kilidi, acil durum ayarları, USB kısıtlamaları, uygulama güvenliği</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, eşleştirme, NFC</string>
     <string name="hide_app_desc">Bu uygulamayı gizlerseniz, Android ve diğer uygulamalar tarafından görülemez ve artık amaçlandığı gibi çalışmayabilir. Unutmayın, bir uygulamayı gizlemek o uygulamanın verilerini korur. Gizleyerek, bu uygulamayı kapatır ve aygıtınızda gizlersiniz.</string>
     <string name="filter_hidden_apps">Gizli uygulamalar</string>
     <string name="hide_app">Uygulamayı gizle</string>
@@ -72,8 +64,6 @@
     <string name="keychords_summary_adb_enabled">Hata ayıklama açıkken her zaman etkin</string>
     <string name="view_bugreports_summary_not_developer">Görüntülendikten sonra, tüm hata raporları siz aygıtı yeniden başlatana kadar erişilebilir kalacaktır</string>
     <string name="hidden">Gizli</string>
-    <string name="security_settings_biometric_preference_title_calyx">Biyometrik Kilit Açma</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">İş için Biyometrik Kilit Açma</string>
     <string name="data_usage_app_datura_firewall">Datura Güvenlik Duvarı</string>
     <string name="data_usage_app_datura_firewall_summary">Güvenlik duvarı ayarları yeni Güvenlik Duvarı uygulamasına taşındı. Açmak için dokunun.</string>
     <string name="work_hours_end_off_summary">Çalışma profilini otomatik olarak kapat ya da kapatmak için bildirim al</string>
@@ -84,7 +74,6 @@
     <string name="strict_location_redaction_title">Medya paylaşırken konum verilerini gizle</string>
     <string name="strict_location_redaction_description">Yalnızca galeriler ve dosya yöneticileri fotoğraflarınızdan ve medyanızdan konum üst verilerini okuyabilir. (Üçüncü taraf uygulamaların Tüm Dosyalara Erişim veya Medya Yönetimi izinlerine sahip olması gerekir.)</string>
     <string name="private_space_hide_apps_summary_calyx">Özel uygulamaları ayrı bir alanda gizleyin veya kilitleyin.</string>
-    <string name="update_info_channel_title">Güncelleme bilgisi</string>
     <string name="work_hours_end_on_summary2">İş profilini her gün <xliff:g id="end_time">%1$s</xliff:g> zamanında kapat</string>
     <string name="notify">Bildir</string>
     <string name="private_space_separate_vpn_text"><b>Uygulamalar varolan VPN\'nizi kullanmıyor</b>\nÖzel uygulamalarınızın VPN kullanması için, boşluğunuzda da kurmanız gerekli. Alternatif olarak, Küresel VPN\'i açabilirsiniz</string>
@@ -96,5 +85,4 @@
     <string name="turn_off">Kapat</string>
     <string name="user_switch_on_lockscreen">Kilit ekranından kullanıcı değiştirin</string>
     <string name="user_switch_on_lockscreen_summary">Bu kullanıcı kilitliyken kullanıcı değiştirmeye izin ver</string>
-    <string name="update_info_title">CalyxOS Güncelleme bilgisi</string>
 </resources>
