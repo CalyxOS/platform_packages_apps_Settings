@@ -24,11 +24,6 @@
     <string name="security_restrict_usb_disabled">ھەمىشە يېڭى USB ئۈسكۈنىسىگە يول قويىدۇ</string>
     <string name="device_reboot_timeout_title">ئۆزلۈكىدىن قايتا قوزغىتىدۇ</string>
     <string name="device_reboot_timeout_summary2">ئۈسكۈنە ئۆزلۈكىدىن قايتا قوزغىتىلمايدۇ</string>
-    <string name="network_dashboard_summary_mobile_calyx">كۆچمە سانلىق مەلۇمات، Wi‑Fi، قىزىق نۇقتا، VPN، شەخسىي DNS</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi، قىزىق نۇقتا، VPN، شەخسىي DNS</string>
-    <string name="connected_devices_dashboard_summary_calyx">كۆكچىش، چۈپلەش، NFC</string>
-    <string name="security_dashboard_summary_calyx">ئېكران قۇلۇپى، جىددىي ئۇقتۇرۇش تەڭشىكى، USB چەكلىمىسى، ئەپ بىخەتەرلىكى</string>
-    <string name="system_dashboard_summary_calyx">تىل، قول ئىشارىتى، ۋاقىت، زاپاسلاش، ئىشلەتكۈچى، خىزمەت تەرجىمىھالى</string>
     <string name="data_usage_app_restrict_background_all">ئارقا سۇپا تور زىيارىتى</string>
     <string name="data_usage_app_restrict_background_all_summary">ئارقا سۇپىدا تور ئىشلىتىشنى قوزغىتىدۇ</string>
     <string name="captive_portal_title">باغلىنىش تەكشۈرۈش</string>
@@ -45,8 +40,6 @@
     <string name="unhide_app_desc">ئەگەر بۇ ئەپنى ئاشكارىلىسىڭىز، ئۇ Android ۋە باشقا ئەپلەرگە قايتا كۆرۈنىدۇ.</string>
     <string name="hide_app_desc">ئەگەر بۇ ئەپنى يوشۇرسىڭىز، ئۇ Android ۋە باشقا ئەپلەردە كۆرۈنمەيدۇ ۋە ئۇلار ئويلىغاندەك ئىجرا بولماسلىقى مۇمكىن. ئېسىڭىزدە بولسۇن، ئەپ يوشۇرۇلسا ئۇنىڭ سانلىق مەلۇماتى ساقلاپ قېلىنىدۇ. يوشۇرۇش ئارقىلىق، ئەپنى تاقاپ ۋە ئۇنى ئۈسكۈنىڭىزدە يوشۇرالايسىز.</string>
     <string name="filter_hidden_apps">يوشۇرۇن ئەپ</string>
-    <string name="security_settings_biometric_preference_title_calyx">بىيولوگىيەلىك خاسلىقتا قۇلۇپ ئېچىش</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">خىزمەت ئۈچۈن بىيولوگىيەلىك خاسلىقتا قۇلۇپ ئېچىش</string>
     <string name="cross_profile_sharing_title">سەپلىمە ھۆججەت ئاتلاپ ھەمبەھىرلەش</string>
     <string name="cross_profile_sharing_summary">ئەپ ئىچىدىكى ھەمبەھىر توپچە قوزغىتىلسا شەخسىي ۋە خىزمەت تەرجىمىھالىدا ئىشلەيدۇ</string>
     <string name="data_usage_app_datura_firewall">Datura مۇداپىئە تام</string>
@@ -66,9 +59,6 @@
     <string name="user_switch_on_lockscreen_summary">ئىشلەتكۈچى قۇلۇپلانغاندا ئالماشتۇرۇشقا يول قويىدۇ</string>
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">ئىشلەتكۈچى ئالماشتۇرغۇچ قۇلۇپ ئېكراندىن ئىشلەتكۈچى قوشۇشى كېرەك</string>
     <string name="calyxos_version">CalyxOS نەشرى</string>
-    <string name="aosp_module_version">ئاساسلىق بۆلەك يېڭىلاش</string>
-    <string name="panic_settings_title">ئاگاھلاندۇرۇش تاللانمىسىنى كۆرسىتىدۇ</string>
-    <string name="panic_settings_summary">جىددىي ئاگاھلاندۇرۇش قوزغىتىلغاندا توك مەنبە توپچە تاللانمىسىنى كۆرسىتىدۇ.</string>
     <string name="show_qs_on_secure_keyguard_title">تېز تەڭشەك</string>
     <string name="show_qs_on_secure_keyguard_summary">بىخەتەر قۇلۇپ ئېكراندا تېز تەڭشەكنى ئالماشتۇرۇشقا يول قويىدۇ</string>
     <string name="timeout_summary_never">ھەرگىز</string>
@@ -88,10 +78,8 @@
     <string name="view_bugreports_summary_not_developer">بىر قېتىم كۆرۈلسىلا، ئۈسكۈنىنى قايتا قوزغىتىشتىن ئىلگىرى بارلىق كەمتۈكلۈك دوكلاتىنى زىيارەت قىلغىلى بولىدۇ</string>
     <string name="hide">يوشۇر</string>
     <string name="work_hours_end_on_summary">كۈندە <xliff:g id="end_time">%1$s</xliff:g> خىزمەت تەرجىمىھالىنى تاقاش ئۇقتۇرۇشىنى كۆرسىتىدۇ</string>
-    <string name="update_info_channel_title">يېڭىلاش ئۇچۇرى</string>
     <string name="maximum_failed_passwords_for_wipe_title">قۇلۇپ ئېچىشنى سىناش مەغلۇپ بولسا سانلىق مەلۇماتلار ئۆچۈرۈلىدۇ</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">قۇلۇپ ئېچىش 5 قېتىم مەغلۇپ بولسا بارلىق سانلىق مەلۇمات ئۆچۈرۈلىدۇ</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">قۇلۇپ ئېچىشنى سىناش 10 قېتىم مەغلۇپ بولسا بارلىق سانلىق مەلۇمات ئۆچۈرۈلىدۇ</string>
-    <string name="update_info_title">CalyxOS يېڭىلاش ئۇچۇرى</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
 </resources>

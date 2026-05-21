@@ -25,12 +25,9 @@
     <string name="timeout_summary_30secs">30 秒</string>
     <string name="timeout_summary_15secs">15 秒</string>
     <string name="security_restrict_usb_title">USB の制御</string>
-    <string name="panic_settings_title">パニック 設定を表示する</string>
     <string name="calyxos_version">CalyxOS のバージョン</string>
-    <string name="panic_settings_summary">緊急時のパニックトリガーを作動させる電源ボタンオプションを表示する。</string>
     <string name="show_qs_on_secure_keyguard_summary">セキュアロック画面でのクイック設定の切り替えを許可する</string>
     <string name="security_restrict_usb_summary">イヤホン、ストレージデバイス、入力機器（マウス、キーボード、ジョイスティック）などの USB ガジェットのサポートを制御します</string>
-    <string name="aosp_module_version">メインラインモジュールの更新</string>
     <string name="device_reboot_timeout_title">自動再起動</string>
     <string name="device_reboot_timeout_summary2">デバイスは自動的に再起動しません</string>
     <string name="device_reboot_timeout_summary"><xliff:g id="timeout_description">%1$s</xliff:g>、ロック解除されていない場合、自動的に再起動します</string>
