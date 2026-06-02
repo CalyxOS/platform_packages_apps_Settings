@@ -4,7 +4,6 @@
     <string name="security_restrict_usb_always">Neleisti naujų USB įtaisų</string>
     <string name="calyxos_version">CalyxOS versija</string>
     <string name="bluetooth_timeout_summary2">Automatiškai neišjungti Bluetooth</string>
-    <string name="panic_settings_title">Rodyti panikos parinktį</string>
     <string name="security_restrict_usb_summary">Valdykite USB įtaisų, tokių kaip ausinės, atminties įrenginiai ir įvestis (pelės, klaviatūros, vairasvirtės), palaikymą</string>
     <string name="timeout_summary_2hours">2 valandos</string>
     <string name="timeout_summary_1min">1 minutė</string>
@@ -17,7 +16,6 @@
     <string name="timeout_summary_never">Niekada</string>
     <string name="data_usage_app_restrict_background_all">Foninė tinklo prieiga</string>
     <string name="wifi_timeout">Automatinis Wi-Fi išjungimas</string>
-    <string name="panic_settings_summary">Ekrano įjungimo mygtuko parinktis, kuria įjungiamas kritinės padėties pavojaus signalas.</string>
     <string name="bluetooth_timeout">Bluetooth laiko limitas</string>
     <string name="show_qs_on_secure_keyguard_summary">Leisti perjungti sparčiuosius nustatymus saugiame užrakinimo ekrane</string>
     <string name="wifi_timeout_summary2">Išjungta</string>
@@ -28,7 +26,6 @@
     <string name="security_restrict_usb_title">Apriboti USB</string>
     <string name="timeout_summary_10mins">10 minučių</string>
     <string name="timeout_summary_15secs">15 sekundžių</string>
-    <string name="aosp_module_version">Pagrindinio modulio atnaujinimas</string>
     <string name="timeout_summary_8hours">8 valandos</string>
     <string name="timeout_summary_4hours">4 valandos</string>
     <string name="timeout_summary_72hours">72 valandos</string>
@@ -39,17 +36,12 @@
     <string name="device_reboot_timeout_summary2">Įrenginys nebus automatiškai perkraunamas</string>
     <string name="device_reboot_timeout_summary">Įrenginys bus automatiškai perkrautas, jei jis nebuvo atrakintas per <xliff:g id="timeout_description">%1$s</xliff:g></string>
     <string name="device_reboot_timeout_title">Automatinis perkrovimas</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, prieigos taškas, VPN, privatus DNS</string>
-    <string name="security_dashboard_summary_calyx">Ekrano užraktas, panikos nustatymai, USB apribojimai, programėlių saugumas</string>
-    <string name="network_dashboard_summary_mobile_calyx">Mobilusis ryšys, Wi-Fi, prieigos taškas, VPN, privatus DNS</string>
     <string name="cross_profile_sharing_title">Dalijimasis tarp profilių</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, susiejimas, NFC</string>
     <string name="hide">Slėpti</string>
     <string name="unhide">Neslėpti</string>
     <string name="filter_hidden_apps">Paslėptos programėlės</string>
     <string name="hide_app">Slėpti programėlę</string>
     <string name="unhide_app">Neslėpti programėlės</string>
-    <string name="system_dashboard_summary_calyx">Kalbos, gestai, laikas, atsarginė kopija, naudotojai, darbo profilis</string>
     <string name="cross_profile_sharing_summary">Įgalinkite programėlėje esančius bendrinimo mygtukus, kad jie veiktų jūsų asmeniniame ir darbiniame profiliuose</string>
     <string name="global_vpn_summary_any_vpn_active">Norėdami įjungti šią funkciją, pirmiausia turite išjungti visus aktyvius VPN ryšius</string>
     <string name="captive_portal_title">Ryšio patikra</string>

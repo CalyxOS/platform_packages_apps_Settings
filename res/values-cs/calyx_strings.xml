@@ -20,8 +20,6 @@
     <string name="security_restrict_usb_always">Odmítnout nové USB zařízení</string>
     <string name="security_restrict_usb_summary">Kontrolovat možnosti USB zařízení jako jsou sluchátka, paměťová a vstupní (myš, klávesnice, joystick) zařízení</string>
     <string name="security_restrict_usb_title">Omezit USB</string>
-    <string name="panic_settings_summary">Zobrazovat v nabídce nápánení tlačítko, které aktivuje nouzovou proceduru pro případ paniky.</string>
-    <string name="panic_settings_title">Zobrazit možnosti paniky</string>
     <string name="calyxos_version">Verze CalyxOS</string>
     <string name="timeout_summary_12hours">12 hodin</string>
     <string name="timeout_summary_36hours">36 hodin</string>
@@ -49,18 +47,12 @@
 \nProdejce: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
     <string name="data_usage_app_restrict_background_all">Přístup k síti na pozadí</string>
-    <string name="network_dashboard_summary_mobile_calyx">Mobil, Wi-Fi, hotspot, VPN, Soukromé DNS</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, párování, NFC</string>
     <string name="hide_app">Skrýt aplikaci</string>
     <string name="filter_hidden_apps">Skryté aplikace</string>
     <string name="unhide_app">Odhalit aplikaci</string>
     <string name="unhide_app_desc">Pokud odhalíte tuto aplikaci, bude opět viditelná pro Android a další aplikace.</string>
     <string name="hide_app_desc">Pokud tuto aplikaci skryjete, nebude pro systém Android a ostatní aplikace viditelná a nemusí fungovat tak, jak má. Mějte na paměti, že skrytí aplikace zachovává její data. Skrytím tuto aplikaci vypnete a skryjete ji ve svém zařízení.</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi-Fi, hotspot, VPN, Soukromé DNS</string>
-    <string name="security_dashboard_summary_calyx">Zámek obrazovky, nastavení paniky, USB omezení, zabezpečení aplikací</string>
-    <string name="system_dashboard_summary_calyx">Jazyky, gesta, čas, zálohování, uživatelé, pracovní profil</string>
     <string name="cross_profile_sharing_summary">Povolit tlačítku sdílení v aplikacích sdílení mezi osobním a pracovním profilem</string>
-    <string name="aosp_module_version">Číslo aktualizace modulu Mainline</string>
     <string name="keychords_title">Kombinace tlačítek pro hlášení chyb</string>
     <string name="view_bugreports_title">Zobrazit hlášení chyb</string>
     <string name="keychords_summary_adb_enabled">Vždy povoleno, když je zapnuto ladění</string>
@@ -72,8 +64,6 @@
     <string name="other_settings">Další možnosti</string>
     <string name="quick_settings">Rychlá nastavení</string>
     <string name="hidden">Skryté</string>
-    <string name="security_settings_biometric_preference_title_calyx">Biometrické odemčení</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Biometrické odemčení pro práci</string>
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
     <string name="data_usage_app_datura_firewall_summary">Nastavení firewallu byla přesunuta do nové aplikace Firewall. Klepněte pro její otevření.</string>
     <string name="work_hours_title">Pracovní hodiny</string>
@@ -91,8 +81,6 @@
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">Pro přidávání uživatelů ze zamykací obrazovky je potřeba přepínač uživatelů</string>
     <string name="turn_off">Vypnout</string>
     <string name="private_space_separate_vpn_text"><b>Aplikace nepoužívají vaší stávající VPN</b>\nAby vaše soukromé aplikace používaly VPN, budete ji muset nastavit i v soukromém profilu. Můžete také zapnout globální VPN</string>
-    <string name="update_info_channel_title">Aktualizovat informace</string>
-    <string name="update_info_title">Informace o aktualizaci CalyxOS</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Vymazat všechna data po 5 neúspěšných pokusech o odemknutí</string>
     <string name="maximum_failed_passwords_for_wipe_title">Vymazat po neúspěšných pokusech o odemknutí</string>

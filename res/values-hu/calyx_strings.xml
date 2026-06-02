@@ -16,13 +16,10 @@
     <string name="timeout_summary_24hours">24 óra</string>
     <string name="wifi_timeout_summary">A Wi-Fi kikapcsol, ha <xliff:g id="timeout_description">%1$s</xliff:g> ideig nincs csatlakoztatott hálózat</string>
     <string name="wifi_timeout_summary2">Letiltva</string>
-    <string name="panic_settings_title">Pánik opció megjelenítése</string>
-    <string name="panic_settings_summary">A kikapcsolási opcióknál új opcióként jelenik meg a vészhelyzeti pánik kioldó.</string>
     <string name="calyxos_version">CalyxOS verzió</string>
     <string name="show_qs_on_secure_keyguard_title">Gyorsbeállítások</string>
     <string name="bluetooth_timeout">Bluetooth időtúllépés</string>
     <string name="show_qs_on_secure_keyguard_summary">Gyorsgombokkal való interakciók engedélyezése lezárt képernyőn</string>
-    <string name="aosp_module_version">Fő modul frissítése</string>
     <string name="wifi_timeout">Wi-Fi automatikus kikapcsolása</string>
     <string name="bluetooth_timeout_summary2">Ne kapcsolja ki automatikusan a Bluetooth-t</string>
     <string name="bluetooth_timeout_summary">A Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> múlva kikapcsol, ha nincsenek eszközök csatlakoztatva</string>
@@ -48,18 +45,12 @@
     <string name="security_restrict_usb_always">Új USB eszközök elutasítása</string>
     <string name="bugreport_summary">Küldjön be egy hiba jelentést most</string>
     <string name="keychords_title">Hiba jelentés gomb kombináció</string>
-    <string name="update_info_title">ClayxOS Frissítés információ</string>
-    <string name="network_dashboard_summary_mobile_calyx">Mobiladat, Wi-Fi, hotspot, VPN, Privát DNS</string>
-    <string name="update_info_channel_title">Információ frissítése</string>
-    <string name="security_dashboard_summary_calyx">Képernyőzár, pánik beállítások, USB korlátozások, app biztonság</string>
-    <string name="system_dashboard_summary_calyx">Nyelvek, gesztusok, idő, biztonsági mentés, felhasználók, munka profil</string>
     <string name="data_usage_app_restrict_background_all">Hálózati elérés a háttérben</string>
     <string name="data_usage_app_restrict_background_all_summary">Hálózat hozzáférés engedélyezése háttérben futás közben</string>
     <string name="view_bugreports_title">Hiba jelentések megtekintése</string>
     <string name="hidden">Elrejtve</string>
     <string name="hide_app">App elrejtése</string>
     <string name="unhide_app">App mutatása</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Biometrikás feloldás munkához</string>
     <string name="cross_profile_sharing_title">Profilok közötti megosztás</string>
     <string name="data_usage_app_datura_firewall">Datura Tűzfal</string>
     <string name="cross_profile_sharing_summary">Kapcsolja be az appon belüli megosztás gombot, hogy áthidalja munka és magán profilokat</string>
@@ -77,7 +68,6 @@
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Minden adat törlése 10 sikertelen feloldást követően</string>
     <string name="captive_portal_title">Kapcsolódási ellenőrzés</string>
     <string name="unhide">Megmutat</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, párosítás, NFC</string>
     <string name="captive_portal_summary">Ellenőrzi, hogy az eszköz online e, azáltal, hogy kapcsolódik a Google-höz. Captive Portálokhoz feltárásához is használt.</string>
     <string name="keychords_summary_adb_enabled">Mindig bekapcsolva, ha a hibakereső aktív</string>
     <string name="view_bugreports_summary_not_developer">Egyszeri megtekintés után elérhető marad az eszköz újraindításáig</string>
@@ -87,14 +77,12 @@
     <string name="strict_location_redaction_title">Lokációs adat szerkesztése média megosztásakor</string>
     <string name="user_switch_on_lockscreen">Felhasználók váltása képernyőzáron</string>
     <string name="keychords_summary">Vegyen fel egy hiba jelentést a Hangerő FEL, Hangerő LE, és a Bekapcsoló gomb egyszerre való lenyomásával, akár lezárt készülék esetén is</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, Privát DNS</string>
     <string name="unhide_app_desc">Ha elrejtés után megjeleníti, láthatóvá válik az Android és más appok számára.</string>
     <string name="work_hours_end_on_summary">Jelenítsen meg egy értesítőt a munka profil kikapcsolására minden nap <xliff:g id="end_time">%1$s</xliff:g> órakor</string>
     <string name="work_hours_end_on_summary2">munka profil kikapcsolása minden nap <xliff:g id="end_time">%1$s</xliff:g> órakor</string>
     <string name="filter_hidden_apps">Elrejtett appok</string>
     <string name="hide_app_desc">Ha elrejti ezt az appot, nem lesz látható az Android vagy más appok számára, és nem feltétlenül fognak megfelelően működni. Tartsa azonban észben, hogy az elrejtéssel megvédheti adatát. Az elrejtéssel kikapcsolja az appot és elrejti a rendszer elől.</string>
     <string name="work_hours_end_off_summary">Automatikusan kikapcsolja a munka profilt vagy értesítőt küld a kikapcsolásáról</string>
-    <string name="security_settings_biometric_preference_title_calyx">Biometrikus Feloldás</string>
     <string name="work_hours_title">Munkaidő</string>
     <string name="strict_location_redaction_description">Csak a galéria és a fájl managerek férhetnek hozzá a fotók és más médiák lokációs meta-adatihoz. (Harmadik féltől származó appoknak szükséges a Minden Fájlhoz Hozzáférés vagy a Média Management engedély.)</string>
 </resources>

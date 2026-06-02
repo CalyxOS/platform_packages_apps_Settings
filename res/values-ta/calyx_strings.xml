@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="calyxos_version">CalyxOS பதிப்பு</string>
-    <string name="panic_settings_summary">அவசர அச்சம் தூண்டுதலை செயல்படுத்தும் பவர் பொத்தான் விருப்பத்தைக் காண்பி.</string>
     <string name="security_restrict_usb_title">யூஎச்பி தடு</string>
     <string name="security_restrict_usb_keyguard">திறக்கும்போது புதிய யூ.எச்.பி கேசெட்களை அனுமதிக்கவும்</string>
     <string name="security_restrict_usb_always">புதிய யூ.எச்.பி கேசெட்களை மறுக்கவும்</string>
     <string name="security_restrict_usb_summary">காதணிகள், சேமிப்பக சாதனங்கள் மற்றும் உள்ளீடு போன்ற யூ.எச்.பி கேசெட்களுக்கான கட்டுப்பாட்டு உதவி (சுட்டி, விசைப்பலகை, சாய்ச்டிக்)</string>
-    <string name="panic_settings_title">பீதி விருப்பத்தைக் காட்டு</string>
-    <string name="network_dashboard_summary_mobile_calyx">மொபைல், வை - ஃபை, ஆட்ச்பாட், வி.பி.என், தனியார் டி.என்.எச்</string>
-    <string name="connected_devices_dashboard_summary_calyx">ஊடலை, இணைத்தல், என்எப்சி</string>
-    <string name="security_dashboard_summary_calyx">திரை பூட்டு, அச்சம் அமைப்புகள், யூ.எச்.பி கட்டுப்பாடுகள், பயன்பாட்டு பாதுகாப்பு</string>
     <string name="bugreport_summary">இப்போது பிழை அறிக்கையை எடுத்துக் கொள்ளுங்கள்</string>
     <string name="bluetooth_timeout_summary2">புளூடூத்தை தானாக அணைக்க வேண்டாம்</string>
     <string name="bluetooth_timeout">ஊடலை நேரம் முடிந்தது</string>
     <string name="hide">மறை</string>
-    <string name="aosp_module_version">மெயின்லைன் தொகுதி புதுப்பிப்பு</string>
     <string name="show_qs_on_secure_keyguard_title">விரைவான அமைப்புகள்</string>
     <string name="timeout_summary_15secs">15 வினாடிகள்</string>
     <string name="timeout_summary_30secs">30 வினாடிகள்</string>
@@ -46,8 +40,6 @@
     <string name="global_vpn_summary_on">பணி சுயவிவரம் மற்றும் பிற பயனர்கள் உட்பட இந்த வி.பி.என் மூலம் சாதனத்தில் உள்ள அனைத்து போக்குவரத்தையும் கட்டாயப்படுத்தவும். குறிப்பு: இயக்கப்பட்டால், நீங்கள் ஒரு பணி சுயவிவரத்தில் அல்லது பிற பயனர்களில் தனி VPN ஐப் பயன்படுத்த முடியாது</string>
     <string name="device_reboot_timeout_title">ஆட்டோ மறுதொடக்கம்</string>
     <string name="device_reboot_timeout_summary2">சாதனம் தானாக மறுதொடக்கம் செய்யாது</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi - fi, ஆட்ச்பாட், வி.பி.என், தனியார் டி.என்.எச்</string>
-    <string name="system_dashboard_summary_calyx">மொழிகள், சைகைகள், நேரம், காப்புப்பிரதி, பயனர்கள், பணி சுயவிவரம்</string>
     <string name="data_usage_app_restrict_background_all">பின்னணி பிணைய அணுகல்</string>
     <string name="data_usage_app_restrict_background_all_summary">பின்னணியில் பிணைய பயன்பாட்டை இயக்கவும்</string>
     <string name="captive_portal_summary">Google ஐ தொடர்புகொள்வதன் மூலம் சாதனம் இணையத்துடன் இணைக்க முடியுமா என்பதை தீர்மானிக்கவும். சிறைப்பிடிக்கப்பட்ட போர்ட்டல்களைக் கண்டறியவும் பயன்படுத்தப்படுகிறது.</string>
@@ -60,8 +52,6 @@
     <string name="unhide_app">அதே பயன்பாடு</string>
     <string name="hide_app_desc">இந்த பயன்பாட்டை நீங்கள் மறைத்தால், அது ஆண்ட்ராய்டு மற்றும் பிற பயன்பாடுகளுக்குத் தெரியாது, மேலும் அவை இனி செயல்படாது. நினைவில் கொள்ளுங்கள், ஒரு பயன்பாட்டை மறைப்பது அதை தரவைப் பாதுகாக்கிறது. மறைப்பதன் மூலம், இந்த பயன்பாட்டை அணைத்து உங்கள் சாதனத்தில் மறைக்கவும்.</string>
     <string name="filter_hidden_apps">மறைக்கப்பட்ட பயன்பாடுகள்</string>
-    <string name="security_settings_biometric_preference_title_calyx">பயோமெட்ரிக் திறத்தல்</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">வேலைக்கு பயோமெட்ரிக் திறத்தல்</string>
     <string name="cross_profile_sharing_title">குறுக்கு சுயவிவர பகிர்வு</string>
     <string name="cross_profile_sharing_summary">உங்கள் தனிப்பட்ட மற்றும் பணி சுயவிவரத்தில் செயல்பட பயன்பாட்டில் உள்ள பங்கு பொத்தான்களை இயக்கவும்</string>
     <string name="data_usage_app_datura_firewall">டதுரா ஃபயர்வால்</string>
@@ -81,11 +71,9 @@
     <string name="strict_location_redaction_title">ஊடகங்களைப் பகிரும்போது இருப்பிட தரவை மாற்றியமைத்தல்</string>
     <string name="strict_location_redaction_description">காட்சியகங்கள் மற்றும் கோப்பு மேலாளர்கள் மட்டுமே உங்கள் புகைப்படங்கள் மற்றும் ஊடகங்களிலிருந்து இருப்பிட மெட்டாடேட்டாவைப் படிக்கலாம். (மூன்றாம் தரப்பு பயன்பாடுகளில் எல்லா கோப்புகளும் அணுகல் அல்லது ஊடக மேலாண்மை அனுமதிகள் இருக்க வேண்டும்.)</string>
     <string name="private_space_hide_apps_summary_calyx">தனிப்பட்ட பயன்பாடுகளைத் தனி இடத்தில் மறைக்கலாம்/பூட்டலாம்.</string>
-    <string name="update_info_channel_title">தகவலைப் புதுப்பிக்கவும்</string>
     <string name="notify">அறிவிக்கவும்</string>
     <string name="user_switch_on_lockscreen_summary">இந்த பயனர் பூட்டப்படும்போது மாறுவதற்கு அனுமதிக்கவும்</string>
     <string name="user_switch_on_lockscreen">பூட்டுத் திரையில் இருந்து பயனர்களை மாற்றவும்</string>
-    <string name="update_info_title">கலிக்சோச் தகவல்களை புதுப்பிக்கவும்</string>
     <string name="maximum_failed_passwords_for_wipe_title">தோல்வியுற்ற திறத்தல் முயற்சிகளைத் துடைக்கவும்</string>
     <string name="maximum_failed_passwords_for_wipe_summary">&lt;xliff: g அடையாளம் = \"தோல்வி_பாச் வேர்ட்ச்_ டெச்கிரிப்சன்\"&gt;%1$s &lt;/xliff: g&gt;</string>
     <string name="turn_off">அணைக்கவும்</string>
