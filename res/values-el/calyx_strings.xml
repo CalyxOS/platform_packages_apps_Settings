@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="panic_settings_title">Εμφάνιση επιλογής Πανικού</string>
-    <string name="panic_settings_summary">Εμφάνιση επιλογής κουμπιού λειτουργίας που ενεργοποιεί μια ενέργεια πανικού έκτακτης ανάγκης.</string>
     <string name="calyxos_version">Έκδοση CalyxOS</string>
     <string name="security_restrict_usb_always">Να μην επιτρέπονται νέες συσκευές USB</string>
     <string name="security_restrict_usb_disabled">Να επιτρέπονται πάντα νέες συσκευές USB</string>
@@ -34,7 +32,6 @@
 \nKernel: <xliff:g id="kernel_level">%2$s</xliff:g>
 \nΚατασκευαστής: <xliff:g id="kernel_level">%3$s</xliff:g>
 \nFirmware: <xliff:g id="firmware_level">%4$s</xliff:g></string>
-    <string name="aosp_module_version">Ενημέρωση μονάδων Mainline</string>
     <string name="timeout_summary_36hours">36 ώρες</string>
     <string name="timeout_summary_48hours">48 ώρες</string>
     <string name="global_vpn_summary">Εξαναγκάστε όλη την κίνηση δικτύου της συσκευής μέσω αυτού του VPN, συμπεριλαμβανομένων των προφίλ εργασίας και άλλων χρηστών.</string>
@@ -51,13 +48,8 @@
     <string name="cross_profile_sharing_title">Κοινή χρήση μεταξύ προφίλ</string>
     <string name="hide">Απόκρυψη</string>
     <string name="unhide">Επανεμφάνιση</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, ιδιωτικό DNS</string>
-    <string name="network_dashboard_summary_mobile_calyx">Κινητό, Wi‑Fi, hotspot, VPN, ιδιωτικό DNS</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, σύζευξη, NFC</string>
-    <string name="security_dashboard_summary_calyx">Κλείδωμα οθόνης, ρυθμίσεις πανικού, περιορισμοί USB, ασφάλεια εφαρμογών</string>
     <string name="hide_app">Απόκρυψη εφαρμογής</string>
     <string name="unhide_app">Επανεμφάνιση εφαρμογής</string>
-    <string name="system_dashboard_summary_calyx">Γλώσσες, χειρονομίες, ώρα, αντίγραφα ασφαλείας, χρήστες, προφίλ εργασίας</string>
     <string name="unhide_app_desc">Εάν επανεμφανίσετε αυτήν την εφαρμογή, θα είναι ξανά ορατή στο Android και σε άλλες εφαρμογές.</string>
     <string name="hide_app_desc">Εάν αποκρύψετε αυτήν την εφαρμογή, δεν θα είναι ορατή στο Android και σε άλλες εφαρμογές και ενδέχεται να μην λειτουργούν πλέον όπως θα έπρεπε. Λάβετε υπόψη ότι η απόκρυψη μιας εφαρμογής διατηρεί τα δεδομένα της. Με την απόκρυψη, απενεργοποιείτε αυτήν την εφαρμογή και την αποκρύπτετε στη συσκευή σας.</string>
     <string name="filter_hidden_apps">Κρυφές εφαρμογές</string>
@@ -71,8 +63,6 @@
     <string name="view_bugreports_title">Προβολή αναφορών σφαλμάτων</string>
     <string name="view_bugreports_summary_not_developer">Μόλις προβληθούν, όλες οι αναφορές σφαλμάτων θα παραμείνουν προσβάσιμες μέχρι να επανεκκινήσετε τη συσκευή</string>
     <string name="keychords_summary">Καταγράψτε μια αναφορά σφαλμάτων κρατώντας ταυτόχρονα πατημένα τα πλήκτρα αύξησης και μείωσης της έντασης ήχου και του πλήκτρου λειτουργίας, ακόμη και όταν η συσκευή είναι κλειδωμένη</string>
-    <string name="security_settings_biometric_preference_title_calyx">Βιομετρικό ξεκλείδωμα</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Βιομετρικό ξεκλείδωμα εργασίας</string>
     <string name="data_usage_app_datura_firewall">Τείχος προστασίας Datura</string>
     <string name="data_usage_app_datura_firewall_summary">Οι ρυθμίσεις του τείχους προστασίας έχουν μετακινηθεί στη νέα εφαρμογή Τείχος προστασίας. Πατήστε για άνοιγμα.</string>
     <string name="hidden">Κρυφή</string>
@@ -92,9 +82,7 @@
     <string name="user_add_on_lockscreen_menu_summary_no_switcher">Η εναλλαγή χρήστη πρέπει να είναι ενεργή για την προσθήκη χρηστών από την οθόνη κλειδώματος</string>
     <string name="turn_off">Απενεργοποίηση</string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Διαγραφή όλων των δεδομένων μετά από 5 αποτυχημένες προσπάθειες ξεκλειδώματος</string>
-    <string name="update_info_title">Πληροφορίες ενημέρωσης CalyxOS</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
-    <string name="update_info_channel_title">Πληροφορίες ενημερώσεων</string>
     <string name="maximum_failed_passwords_for_wipe_title">Επαναφορά μετά από αποτυχημένες προσπάθειες ξεκλειδώματος</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Διαγραφή όλων των δεδομένων μετά από 10 αποτυχημένες προσπάθειες ξεκλειδώματος</string>
 </resources>

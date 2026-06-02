@@ -18,8 +18,6 @@
     <string name="wifi_timeout_summary2">Disabled</string>
     <string name="security_restrict_usb_always">Deny new USB gadgets</string>
     <string name="calyxos_version">CalyxOS version</string>
-    <string name="aosp_module_version">Mainline module update</string>
-    <string name="panic_settings_title">Show Panic option</string>
     <string name="security_restrict_usb_title">Restrict USB</string>
     <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
     <string name="security_restrict_usb_keyguard">Allow new USB gadgets when unlocked</string>
@@ -27,7 +25,6 @@
     <string name="security_restrict_usb_disabled">Allow new USB gadgets always</string>
     <string name="device_reboot_timeout_title">Auto reboot</string>
     <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="panic_settings_summary">Display power button option that activates an emergency panic trigger.</string>
     <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
     <string name="timeout_summary_30secs">30 seconds</string>
     <string name="timeout_summary_1min">1 minute</string>
@@ -45,9 +42,6 @@
     <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
-    <string name="network_dashboard_summary_mobile_calyx">Mobile, Wi‑Fi, hotspot, VPN, Private DNS</string>
-    <string name="system_dashboard_summary_calyx">Languages, gestures, time, backup, users, work profile</string>
-    <string name="security_dashboard_summary_calyx">Screen lock, panic settings, USB restrictions, app security</string>
     <string name="data_usage_app_restrict_background_all">Background network access</string>
     <string name="cross_profile_sharing_summary">Enable in-app share buttons to work across your personal and work profile</string>
     <string name="captive_portal_title">Connectivity check</string>
@@ -61,8 +55,6 @@
     <string name="other_settings">Other options</string>
     <string name="quick_settings">Quick Settings</string>
     <string name="hidden">Hidden</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, Private DNS</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pairing, NFC</string>
     <string name="data_usage_app_restrict_background_all_summary">Enable network usage in the background</string>
     <string name="bugreport_summary">Take a bug report now</string>
     <string name="keychords_title">Bug report button combination</string>
@@ -73,8 +65,6 @@
     <string name="unhide_app_desc">If you unhide this app, it will be visible to Android and other apps again.</string>
     <string name="hide_app_desc">If you hide this app, it will not be visible to Android and other apps, and they may no longer function as intended. Keep in mind, hiding an app preserves it data. By hiding, you turn this app off and hide it on your device.</string>
     <string name="filter_hidden_apps">Hidden apps</string>
-    <string name="security_settings_biometric_preference_title_calyx">Biometric Unlock</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Biometric Unlock for work</string>
     <string name="cross_profile_sharing_title">Cross-profile sharing</string>
     <string name="data_usage_app_datura_firewall">Datura Firewall</string>
     <string name="data_usage_app_datura_firewall_summary">Firewall settings have been moved to the new Firewall app. Tap to open.</string>
@@ -84,8 +74,6 @@
     <string name="work_hours_end_notification_title">End of work day</string>
     <string name="work_hours_end_notification_description">Tap to turn off work apps</string>
     <string name="private_space_hide_apps_summary_calyx">Hide or lock private apps in a separate space.</string>
-    <string name="update_info_channel_title">Update information</string>
-    <string name="update_info_title">CalyxOS Update information</string>
     <string name="work_hours_end_on_summary2">Turn off the work profile at <xliff:g id="end_time">%1$s</xliff:g> daily</string>
     <string name="notify">Notify</string>
     <string name="private_space_separate_vpn_text"><b>Apps don’t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>

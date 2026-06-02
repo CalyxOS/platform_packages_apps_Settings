@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, შეწყვილება, NFC</string>
-    <string name="system_dashboard_summary_calyx">ენები, ჟესტები, დრო, მარქაფი, მომხმარებლები, მუშაობის პროფილი</string>
-    <string name="security_dashboard_summary_calyx">ეკრანის ჩაკეტვა, პანიკის მორგება, USB-ის შეზღუდვა, აპების დაცვა</string>
     <string name="show_qs_on_secure_keyguard_title">სწრაფი მორგება</string>
-    <string name="aosp_module_version">მოდულის მთავარი ხაზის განახლება</string>
-    <string name="panic_settings_summary">ჩართვის ღილაკის ჩვენება, რომელიც საწრაფო პანიკის ტრიგერს ააქტიურებს.</string>
     <string name="bluetooth_timeout_summary2">Bluetooth ავტომატურად არ გაითიშება</string>
-    <string name="panic_settings_title">პანიკის პარამეტრის ჩვენება</string>
     <string name="calyxos_version">CalyxOS -ის ვერსია</string>
     <string name="wifi_timeout">Wi-Fi-ის ავტომატური გამორთვა</string>
     <string name="show_qs_on_secure_keyguard_summary">დაცულ ჩაკეტილ ეკრანზე სწრაფი პარამეტრების გადართვა</string>
@@ -15,7 +9,6 @@
     <string name="data_usage_app_restrict_background_all_summary">ქსელის ფონური გამოყენების ნების დართვა</string>
     <string name="cross_profile_sharing_title">პროფილთაშორისი გაზიარება</string>
     <string name="timeout_summary_12hours">12 საათი</string>
-    <string name="network_dashboard_summary_mobile_calyx">მობილური, Wi‑Fi, hotspot, VPN, პირადი DNS</string>
     <string name="timeout_summary_24hours">24 საათი</string>
     <string name="timeout_summary_36hours">36 საათი</string>
     <string name="timeout_summary_48hours">48 საათი</string>
@@ -47,7 +40,6 @@
     <string name="timeout_summary_never">არასოდეს</string>
     <string name="filter_hidden_apps">დამალული აპები</string>
     <string name="unhide_app">აპის გამოჩენა</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, პირადი DNS</string>
     <string name="unhide_app_desc">თუ ამ აპს გამოაჩენთ, ის Android-ისა და სხვა აპებისთვის კიდევ ერთხელ გახდება ხილული.</string>
     <string name="private_space_hide_apps_summary_calyx">დამალეთ ან ჩაკეტეთ პირადი აპები ცალკე სივრცეში.</string>
 </resources>
