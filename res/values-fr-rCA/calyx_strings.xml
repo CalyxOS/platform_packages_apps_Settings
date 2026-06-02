@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="network_dashboard_summary_mobile_calyx">Mobile, Wi‑Fi, hotspot, VPN, DNS privé</string>
-    <string name="security_dashboard_summary_calyx">Verrouillage de l\'écran, paramètres de panique, restrictions USB, sécurité des applications</string>
     <string name="show_qs_on_secure_keyguard_summary">Autoriser le basculement des paramètres rapides sur l\'écran de verrouillage sécurisé</string>
-    <string name="aosp_module_version">Mise à jour du module principal</string>
     <string name="calyxos_version">Version CalyxOS</string>
     <string name="hide">Cacher</string>
     <string name="unhide">Afficher</string>
     <string name="captive_portal_title">Vérification de la connectivité</string>
     <string name="captive_portal_summary">Déterminez si l\'appareil peut se connecter à Internet en contactant Google. Également utilisé pour détecter les portails captifs.</string>
-    <string name="panic_settings_title">Afficher l\'option Panique</string>
-    <string name="panic_settings_summary">Afficher l\'option du bouton d\'alimentation qui active un déclencheur de panique d\'urgence.</string>
     <string name="show_qs_on_secure_keyguard_title">Réglages rapides</string>
     <string name="timeout_summary_never">Jamais</string>
     <string name="timeout_summary_1min">1 minute</string>
@@ -43,9 +38,6 @@
     <string name="unhide_app">Afficher l\'application</string>
     <string name="unhide_app_desc">Si vous affichez cette application, elle sera à nouveau visible pour Android et d\'autres applications.</string>
     <string name="hide_app_desc">Si vous masquez cette application, elle ne sera pas visible pour Android et les autres applications, et elles pourraient ne plus fonctionner comme prévu. N\'oubliez pas que le masquage d\'une application préserve ses données. En vous cachant, vous désactivez cette application et la masquez sur votre appareil.</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, DNS privé</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, appairage, NFC</string>
-    <string name="system_dashboard_summary_calyx">Langues, gestes, heure, sauvegarde, utilisateurs, profil professionnel</string>
     <string name="data_usage_app_restrict_background_all">Accès au réseau en arrière-plan</string>
     <string name="data_usage_app_restrict_background_all_summary">Activer l\'utilisation du réseau en arrière-plan</string>
     <string name="cross_profile_sharing_title">Partage entre profils</string>

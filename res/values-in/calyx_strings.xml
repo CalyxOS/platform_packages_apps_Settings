@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="security_restrict_usb_always">Tolak perangkat USB baru</string>
-    <string name="panic_settings_summary">Tampilkan opsi tombol daya yang mengaktifkan pemicu panik darurat.</string>
     <string name="security_restrict_usb_disabled">Selalu izinkan perangkat USB baru</string>
     <string name="security_restrict_usb_keyguard">Izinkan perangkat USB baru saat tidak terkunci</string>
     <string name="security_restrict_usb_summary">Kontrol dukungan untuk perangkat USB seperti earphone, perangkat penyimpanan, dan input (mouse, keyboard, joystick)</string>
     <string name="security_restrict_usb_title">Batasi USB</string>
-    <string name="panic_settings_title">Tampilkan opsi Panik</string>
     <string name="calyxos_version">versi CalyxOS</string>
     <string name="timeout_summary_8hours">8 jam</string>
     <string name="timeout_summary_4hours">4 jam</string>
@@ -30,7 +28,6 @@
     <string name="data_usage_app_restrict_background_all_summary">Aktifkan penggunaan jaringan di latar belakang</string>
     <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
     <string name="wifi_timeout_summary2">Nonaktif</string>
-    <string name="aosp_module_version">Pembaruan modul utama</string>
     <string name="timeout_summary_12hours">12 jam</string>
     <string name="timeout_summary_24hours">24 jam</string>
     <string name="timeout_summary_36hours">36 jam</string>
@@ -42,15 +39,8 @@
     <string name="global_vpn_summary_any_vpn_active">Anda perlu menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengatkfikan VPN Global</string>
     <string name="global_vpn_title">VPN Global</string>
     <string name="private_space_hide_apps_summary_calyx">Sembunyikan atau kunci aplikasi privat di ruang terpisah.</string>
-    <string name="update_info_channel_title">Perbarui informasi</string>
-    <string name="update_info_title">Informasi pembaruan CalyxOS</string>
     <string name="global_vpn_summary">Paksa lalu lintas pada perangkat melalui VPN ini, termasuk profil pekerjaan dan pengguna lainnya.</string>
     <string name="global_vpn_summary_on">Paksa semua lalu lintas pada perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain. Catatan: Jika diaktifkan, Anda tidak akan dapat menggunakan VPN terpisah di profil kerja atau pada pengguna lain</string>
-    <string name="network_dashboard_summary_mobile_calyx">Seluler, Wi‑Fi, hotspot, VPN, DNS Pribadi</string>
-    <string name="network_dashboard_summary_no_mobile_calyx">Wi‑Fi, hotspot, VPN, DNS Pribadi</string>
-    <string name="connected_devices_dashboard_summary_calyx">Bluetooth, pemasangan, NFC</string>
-    <string name="security_dashboard_summary_calyx">Kunci layar, setelan panik, pembatasan USB, keamanan aplikasi</string>
-    <string name="system_dashboard_summary_calyx">Bahasa, gestur, waktu, cadangan, pengguna, profil kerja</string>
     <string name="captive_portal_title">Pemeriksaan konektivitas</string>
     <string name="captive_portal_summary">Menentukan apakah perangkat dapat terhubung ke internet dengan menghubungi Google. Juga digunakan untuk mendeteksi portal captive.</string>
     <string name="other_settings">Opsi lain</string>
@@ -69,8 +59,6 @@
     <string name="unhide_app_desc">Jika Anda menampilkan kembali aplikasi ini, aplikasi tersebut akan kembali terlihat oleh Android dan aplikasi lain.</string>
     <string name="hide_app_desc">Jika Anda menyembunyikan aplikasi ini, aplikasi tersebut tidak akan terlihat oleh Android dan aplikasi lain, dan aplikasi lain mungkin tidak lagi berfungsi sebagaimana mestinya. Perlu diingat, menyembunyikan aplikasi akan mempertahankan datanya. Dengan menyembunyikan, Anda menonaktifkan aplikasi ini dan menyembunyikannya di perangkat Anda.</string>
     <string name="filter_hidden_apps">Aplikasi yang disembunyikan</string>
-    <string name="security_settings_biometric_preference_title_calyx">Buka kunci biometrik</string>
-    <string name="security_settings_work_biometric_preference_title_calyx">Buka kunci biometrik untuk kerja</string>
     <string name="cross_profile_sharing_title">Berbagi lintas profil</string>
     <string name="cross_profile_sharing_summary">Aktifkan tombol berbagi di dalam aplikasi agar berfungsi di seluruh profil pribadi dan profil kerja Anda</string>
     <string name="data_usage_app_datura_firewall">Firewall Datura</string>
