@@ -32,6 +32,9 @@ class CalyxOSVersionPreference :
     override val key: String
         get() = "calyx_os_version"
 
+    override val purpose: Int
+        get() = R.string.os_firmware_version_purpose
+
     override val title: Int
         get() = R.string.calyxos_version
 
