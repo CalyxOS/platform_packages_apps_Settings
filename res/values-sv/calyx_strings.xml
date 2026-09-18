@@ -28,4 +28,58 @@
     <string name="timeout_summary_1hour">1 timme</string>
     <string name="wifi_timeout">Stäng av Wi-Fi automatiskt</string>
     <string name="private_space_hide_apps_summary_calyx">Dölj eller lås privata appar i ett separat område.</string>
+    <string name="bluetooth_timeout">Tidsgräns för Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Bluetooth stängs av efter <xliff:g id="timeout_description">%1$s</xliff:g> om inga enheter är anslutna</string>
+    <string name="bluetooth_timeout_summary2">Stäng inte av Bluetooth automatiskt</string>
+    <string name="data_usage_app_restrict_background_all">Nätverksåtkomst i bakgrunden</string>
+    <string name="data_usage_app_restrict_background_all_summary">Tillåt nätverksanvändning i bakgrunden</string>
+    <string name="wifi_timeout_summary">Wi-Fi stängs av efter <xliff:g id="timeout_description">%1$s</xliff:g> om inget nätverk är anslutet</string>
+    <string name="show_qs_on_secure_keyguard_title">Snabbinställningar</string>
+    <string name="show_qs_on_secure_keyguard_summary">Tillåt ändringar av snabbinställningar på låsskärmen</string>
+    <string name="detailed_security_patch">Plattform: <xliff:g id="platform_level">%1$s</xliff:g>\nKärna: <xliff:g id="kernel_level">%2$s</xliff:g>\nLeverantör: <xliff:g id="kernel_level">%3$s</xliff:g>\nFast programvara: <xliff:g id="firmware_level">%4$s</xliff:g></string>
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">Tvinga all trafik på enheten genom detta VPN, inklusive arbetsprofil och andra användare.</string>
+    <string name="global_vpn_summary_on">Tvinga all trafik på enheten genom detta VPN, inklusive arbetsprofil och andra användare. Obs! När detta är aktiverat kan du inte använda ett separat VPN i en arbetsprofil eller för andra användare.</string>
+    <string name="global_vpn_summary_any_vpn_active">Du måste först inaktivera alla aktiva VPN-anslutningar för att aktivera detta</string>
+    <string name="security_restrict_usb_summary">Styr stöd för USB-enheter som hörlurar, lagringsenheter och inmatningsenheter (möss, tangentbord, styrspakar)</string>
+    <string name="security_restrict_usb_always">Neka nya USB-enheter</string>
+    <string name="security_restrict_usb_keyguard">Tillåt nya USB-enheter när enheten är upplåst</string>
+    <string name="security_restrict_usb_disabled">Tillåt alltid nya USB-enheter</string>
+    <string name="device_reboot_timeout_title">Automatisk omstart</string>
+    <string name="device_reboot_timeout_summary">Enheten startas om automatiskt om den inte har låsts upp under de senaste <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">Enheten startas inte om automatiskt</string>
+    <string name="cross_profile_sharing_title">Delning mellan profiler</string>
+    <string name="cross_profile_sharing_summary">Aktivera delningsknappar i appar så att de fungerar mellan din privata profil och arbetsprofil</string>
+    <string name="unhide_app_desc">Om du visar den här appen igen blir den synlig för Android och andra appar.</string>
+    <string name="hide_app_desc">Om du döljer den här appen blir den osynlig för Android och andra appar, som då kanske inte längre fungerar som avsett. Att dölja en app bevarar dess data. Appen stängs av och döljs på enheten.</string>
+    <string name="captive_portal_title">Anslutningskontroll</string>
+    <string name="captive_portal_summary">Avgör om enheten kan ansluta till internet genom att kontakta Google. Används också för att upptäcka inloggningssidor för nätverk.</string>
+    <string name="quick_settings">Snabbinställningar</string>
+    <string name="bugreport_summary">Skapa en felrapport nu</string>
+    <string name="keychords_title">Knappkombination för felrapport</string>
+    <string name="keychords_summary">Skapa en felrapport genom att hålla ned volym upp, volym ned och strömknappen samtidigt, även när enheten är låst</string>
+    <string name="keychords_summary_adb_enabled">Alltid aktiverad när felsökning är på</string>
+    <string name="view_bugreports_title">Visa felrapporter</string>
+    <string name="view_bugreports_summary_not_developer">När de har visats är alla felrapporter tillgängliga tills du startar om enheten</string>
+    <string name="hidden">Dold</string>
+    <string name="data_usage_app_datura_firewall">Datura-brandvägg</string>
+    <string name="data_usage_app_datura_firewall_summary">Brandväggsinställningarna har flyttats till den nya brandväggsappen. Tryck för att öppna den.</string>
+    <string name="work_hours_title">Arbetstid</string>
+    <string name="work_hours_end_on_summary">Visa dagligen en avisering om att stänga av arbetsprofilen klockan <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="work_hours_end_off_summary">Stäng av arbetsprofilen automatiskt eller få en avisering om att göra det</string>
+    <string name="work_hours_end_notification_title">Arbetsdagen är slut</string>
+    <string name="work_hours_end_notification_description">Tryck för att stänga av arbetsappar</string>
+    <string name="strict_location_redaction_title">Ta bort platsdata när media delas</string>
+    <string name="strict_location_redaction_description">Endast gallerier och filhanterare får läsa platsmetadata från dina foton och medier. (Tredjepartsappar måste ha behörigheten åtkomst till alla filer eller mediehantering.)</string>
+    <string name="work_hours_end_on_summary2">Stäng av arbetsprofilen dagligen klockan <xliff:g id="end_time">%1$s</xliff:g></string>
+    <string name="turn_off">Stäng av</string>
+    <string name="notify">Avisera</string>
+    <string name="private_space_separate_vpn_text"><b>Appar använder inte ditt befintliga VPN</b>\nFör att dina privata appar ska använda ett VPN behöver du konfigurera ett i din privata miljö också. Du kan även aktivera Global VPN.</string>
+    <string name="user_switch_on_lockscreen">Byt användare från låsskärmen</string>
+    <string name="user_switch_on_lockscreen_summary">Tillåt byte när den här användaren är låst</string>
+    <string name="user_add_on_lockscreen_menu_summary_no_switcher">Användarväxlaren krävs för att lägga till användare från låsskärmen</string>
+    <string name="maximum_failed_passwords_for_wipe_title">Radera vid misslyckade upplåsningsförsök</string>
+    <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Radera alla data efter 5 misslyckade upplåsningsförsök</string>
+    <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Radera alla data efter 10 misslyckade upplåsningsförsök</string>
 </resources>
