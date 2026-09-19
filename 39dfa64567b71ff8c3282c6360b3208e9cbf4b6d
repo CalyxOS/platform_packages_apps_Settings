@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03e6a751_ad6f68a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-19T23:29:59Z",
+      "side": 1,
+      "message": "Like previous versions, still keeping this separate until we test the upstream lineage proposed fixes.",
+      "revId": "39dfa64567b71ff8c3282c6360b3208e9cbf4b6d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
