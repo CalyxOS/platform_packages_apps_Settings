@@ -16,6 +16,23 @@
       "message": "Don\u0027t know if this is the best approach",
       "revId": "48aa3e9e7ed07b5aafaea55abfb9cfb95685ebc6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd2395c4_17615753",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000235
+      },
+      "writtenOn": "2026-09-23T06:20:46Z",
+      "side": 1,
+      "message": "Do not want to remove this setting, maybe we can move seedvault backup preference from system to here",
+      "revId": "48aa3e9e7ed07b5aafaea55abfb9cfb95685ebc6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
