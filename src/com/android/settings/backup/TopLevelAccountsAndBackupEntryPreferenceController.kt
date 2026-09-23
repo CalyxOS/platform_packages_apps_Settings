@@ -17,6 +17,7 @@
 package com.android.settings.backup
 
 import android.content.Context
+import android.content.pm.PackageManager
 import com.android.settings.core.BasePreferenceController
 import com.android.settings.flags.Flags
 
@@ -24,6 +25,16 @@ class TopLevelAccountsAndBackupEntryPreferenceController(context: Context, key: 
     BasePreferenceController(context, key) {
 
     override fun getAvailabilityStatus(): Int {
-        return if (Flags.enableAccountsAndBackupScreen()) AVAILABLE else CONDITIONALLY_UNAVAILABLE
+        val isSeedvaultInstalled = runCatching {
+            mContext.packageManager.getPackageInfo("com.stevesoltys.seedvault", 0)
+        }.isSuccess
+
+        return if (isSeedvaultInstalled) {
+            CONDITIONALLY_UNAVAILABLE
+        } else if (Flags.enableAccountsAndBackupScreen()) {
+            AVAILABLE
+        } else {
+            CONDITIONALLY_UNAVAILABLE
+        }
     }
 }
