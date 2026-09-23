@@ -308,7 +308,7 @@ private fun getCatalystScreenConfigs() =
         PerScreenCatalystConfig(enabled = true, screenKey = LanguageAndRegionScreen.KEY),
         PerScreenCatalystConfig(enabled = true, screenKey = LanguageAndRegionApiFirstScreen.KEY),
         PerScreenCatalystConfig(enabled = true, screenKey = RegionPickerApiFirstScreen.KEY),
-        PerScreenCatalystConfig(enabled = true, screenKey = ModuleLicensesScreen.KEY),
+        PerScreenCatalystConfig(enabled = false, screenKey = ModuleLicensesScreen.KEY),
         PerScreenCatalystConfig(enabled = true, screenKey = LegalSettingsScreen.KEY),
         PerScreenCatalystConfig(enabled = true, screenKey = LocationServicesScreen.KEY),
         PerScreenCatalystConfig(enabled = true, screenKey = LocationScreen.KEY),
