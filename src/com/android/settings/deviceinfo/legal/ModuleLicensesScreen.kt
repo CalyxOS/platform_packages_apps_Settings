@@ -72,8 +72,15 @@ open class ModuleLicensesScreen :
         return modules.any {
             try {
                 ModuleLicenseProvider.getPackageAssetManager(context.packageManager, it.packageName)
-                    .list("")
-                    ?.contains(ModuleLicenseProvider.GZIPPED_LICENSE_FILE_NAME) == true
+                    .let { assets ->
+                        assets
+                            .list("")
+                            ?.contains(ModuleLicenseProvider.GZIPPED_LICENSE_FILE_NAME) == true &&
+                            assets.open(ModuleLicenseProvider.GZIPPED_LICENSE_FILE_NAME).use {
+                                stream ->
+                                stream.read() != -1
+                            }
+                    }
             } catch (e: Exception) {
                 false
             }
@@ -84,8 +91,8 @@ open class ModuleLicensesScreen :
     override fun bind(preference: Preference, metadata: PreferenceMetadata) {
         super.bind(preference, metadata)
         if (isFlagEnabled(preference.context)) {
-            preference.isEnabled = true
-            preference.isVisible = true
+            preference.isEnabled = isAvailable(preference.context)
+            preference.isVisible = isAvailable(preference.context)
         }
     }
 
