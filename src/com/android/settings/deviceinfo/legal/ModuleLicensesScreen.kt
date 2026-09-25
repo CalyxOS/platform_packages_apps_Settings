@@ -71,9 +71,12 @@ open class ModuleLicensesScreen :
         val modules = context.packageManager.getInstalledModules(/* flags= */ 0)
         return modules.any {
             try {
-                ModuleLicenseProvider.getPackageAssetManager(context.packageManager, it.packageName)
-                    .list("")
-                    ?.contains(ModuleLicenseProvider.GZIPPED_LICENSE_FILE_NAME) == true
+                ModuleLicenseProvider.getPackageAssetManager(context.packageManager, it.packageName).let { assets ->
+                    assets.list("")?.contains(ModuleLicenseProvider.GZIPPED_LICENSE_FILE_NAME) == true &&
+                            assets.open(ModuleLicenseProvider.GZIPPED_LICENSE_FILE_NAME).use { stream ->
+                                stream.read() != -1
+                            }
+                }
             } catch (e: Exception) {
                 false
             }
