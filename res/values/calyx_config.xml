@@ -17,4 +17,6 @@
 <resources>
      <!-- Turn on Wi-Fi automatically -->
      <bool name="config_wifi_wakeup" translatable="false">false</bool>
+     <!-- MicroG Installed -->
+     <bool name="config_has_microg_installed" translatable="false">true</bool>
 </resources>
