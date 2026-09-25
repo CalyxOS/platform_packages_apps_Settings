@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "466e87cd_dd131d8a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2026-09-25T15:46:15Z",
+      "side": 1,
+      "message": "Ran ktfmt in isAvailable",
+      "revId": "6ae7972b9912b4a417e3153ac8f04553b2b9ac85",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
