@@ -85,4 +85,10 @@
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">10 次失败的解锁尝试后擦除数据</string>
     <string name="maximum_failed_passwords_for_wipe_title">若解锁尝试失败擦除数据</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
+    <string name="camera_timeout_title">相机超时</string>
+    <string name="mic_timeout_description">如不使用将在 %1$s 后关闭麦克风权限</string>
+    <string name="mic_timeout_description2">麦克风权限不会自动关闭</string>
+    <string name="camera_timeout_description">如不使用将在 %1$s 后关闭相机权限</string>
+    <string name="camera_timeout_description2">相机权限不会自动关闭</string>
+    <string name="mic_timeout_title">麦克风超时</string>
 </resources>

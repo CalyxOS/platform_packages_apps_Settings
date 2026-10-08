@@ -85,4 +85,10 @@
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Șterge toate datele după 5 încercări de deblocare eșuate</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Șterge toate datele după 10 încercări de deblocare eșuate</string>
     <string name="turn_off">Oprește</string>
+    <string name="camera_timeout_title">Expirare cameră</string>
+    <string name="camera_timeout_description">Accesul la cameră se va dezactiva după %1$s dacă nu este utilizată</string>
+    <string name="camera_timeout_description2">Accesul la cameră nu se va dezactiva automat</string>
+    <string name="mic_timeout_title">Expirare microfon</string>
+    <string name="mic_timeout_description">Accesul la microfon se va dezactiva după %1$s dacă nu este utilizat</string>
+    <string name="mic_timeout_description2">Accesul la microfon nu se va dezactiva automat</string>
 </resources>
