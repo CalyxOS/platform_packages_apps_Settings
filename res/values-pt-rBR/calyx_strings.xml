@@ -82,4 +82,10 @@
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Apagar todos os dados após 10 tentativas falhas</string>
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_title">Apagar ao errar a senha da tela de bloqueio</string>
+    <string name="camera_timeout_title">Bloquear câmera automaticamente</string>
+    <string name="camera_timeout_description">O acesso à câmera será bloqueado após %1$s se não estiver em uso</string>
+    <string name="camera_timeout_description2">O acesso à camera não será bloqueado automaticamente</string>
+    <string name="mic_timeout_title">Bloquear microfone automaticamente</string>
+    <string name="mic_timeout_description">O acesso ao microfone será bloqueado após %1$s se não estiver em uso</string>
+    <string name="mic_timeout_description2">O acesso ao microfone não será bloqueado automaticamente</string>
 </resources>
