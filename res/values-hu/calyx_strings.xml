@@ -85,4 +85,10 @@
     <string name="work_hours_end_off_summary">Automatikusan kikapcsolja a munka profilt vagy értesítőt küld a kikapcsolásáról</string>
     <string name="work_hours_title">Munkaidő</string>
     <string name="strict_location_redaction_description">Csak a galéria és a fájl managerek férhetnek hozzá a fotók és más médiák lokációs meta-adatihoz. (Harmadik féltől származó appoknak szükséges a Minden Fájlhoz Hozzáférés vagy a Média Management engedély.)</string>
+    <string name="camera_timeout_title">Kamera időtúllépés</string>
+    <string name="camera_timeout_description">A kamera hozzáférés kikapcsolásra kerül, ha %1$s ideig nem használja</string>
+    <string name="camera_timeout_description2">A kamera hozzáférés nem kerül kikapcsolásra automatikusan</string>
+    <string name="mic_timeout_title">Mikrofon időtúllépés</string>
+    <string name="mic_timeout_description">A mikrofon hozzáférés kikapcsolásra kerül, ha %1$s ideig nem használja</string>
+    <string name="mic_timeout_description2">A mikrofon hozzáférés nem kerül kikapcsolásra automatikusan</string>
 </resources>

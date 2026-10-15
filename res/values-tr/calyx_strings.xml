@@ -85,4 +85,10 @@
     <string name="turn_off">Kapat</string>
     <string name="user_switch_on_lockscreen">Kilit ekranından kullanıcı değiştirin</string>
     <string name="user_switch_on_lockscreen_summary">Bu kullanıcı kilitliyken kullanıcı değiştirmeye izin ver</string>
+    <string name="camera_timeout_title">Kamera zaman aşımı</string>
+    <string name="camera_timeout_description">Kamera, kullanılmadığı zaman %1$s sonra kapanacaktır</string>
+    <string name="camera_timeout_description2">Kamera erişimi otomatik olarak kapanmayacak</string>
+    <string name="mic_timeout_title">Mikrofon zaman aşımı</string>
+    <string name="mic_timeout_description">Mikrofon erişimi, kullanılmadığı zaman %1$s sonra kapanacaktır</string>
+    <string name="mic_timeout_description2">Mikrofon erişimi otomatik olarak kapanmayacak</string>
 </resources>

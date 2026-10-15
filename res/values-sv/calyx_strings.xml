@@ -82,4 +82,10 @@
     <string name="maximum_failed_passwords_for_wipe_summary"><xliff:g id="failed_passwords_description">%1$s</xliff:g></string>
     <string name="maximum_failed_passwords_for_wipe_summary_5_attempts">Radera alla data efter 5 misslyckade upplåsningsförsök</string>
     <string name="maximum_failed_passwords_for_wipe_summary_10_attempts">Radera alla data efter 10 misslyckade upplåsningsförsök</string>
+    <string name="camera_timeout_title">Tidsgräns för kamera</string>
+    <string name="camera_timeout_description">Kameraåtkomst stängs av efter %1$s om den inte används</string>
+    <string name="camera_timeout_description2">Kameraåtkomst stängs inte av automatiskt</string>
+    <string name="mic_timeout_title">Tidsgräns för mikrofon</string>
+    <string name="mic_timeout_description">Mikrofonåtkomst stängs av efter %1$s om den inte används</string>
+    <string name="mic_timeout_description2">Mikrofonåtkomst stängs inte av automatiskt</string>
 </resources>
