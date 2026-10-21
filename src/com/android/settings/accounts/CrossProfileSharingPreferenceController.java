@@ -105,8 +105,11 @@ public class CrossProfileSharingPreferenceController extends TogglePreferenceCon
         intentFilter.addAction(Intent.ACTION_SEND);
         intentFilter.addAction(Intent.ACTION_SEND_MULTIPLE);
         intentFilter.addCategory(Intent.CATEGORY_DEFAULT);
+        IntentFilter intentViewFilter = new IntentFilter();
+        intentViewFilter.addAction(Intent.ACTION_VIEW);
         try {
             intentFilter.addDataType("*/*");
+            intentViewFilter.addDataScheme("geo");
             ComponentName profileOwner =
                     mDevicePolicyManager.getProfileOwnerAsUser(mManagedProfile);
             String ownerPackage = null;
@@ -118,10 +121,18 @@ public class CrossProfileSharingPreferenceController extends TogglePreferenceCon
                         mParentUser.getIdentifier(), mManagedProfile.getIdentifier(), 0);
                 mPackageManager.addCrossProfileIntentFilter(intentFilter, ownerPackage,
                         mManagedProfile.getIdentifier(), mParentUser.getIdentifier(), 0);
+                mPackageManager.addCrossProfileIntentFilter(intentViewFilter, ownerPackage,
+                        mParentUser.getIdentifier(), mManagedProfile.getIdentifier(), 0);
+                mPackageManager.addCrossProfileIntentFilter(intentViewFilter, ownerPackage,
+                        mManagedProfile.getIdentifier(), mParentUser.getIdentifier(), 0);
             } else {
                 mPackageManager.removeCrossProfileIntentFilter(intentFilter, ownerPackage,
                         mParentUser.getIdentifier(), mManagedProfile.getIdentifier(), 0);
                 mPackageManager.removeCrossProfileIntentFilter(intentFilter, ownerPackage,
+                        mManagedProfile.getIdentifier(), mParentUser.getIdentifier(), 0);
+                mPackageManager.removeCrossProfileIntentFilter(intentViewFilter, ownerPackage,
+                        mParentUser.getIdentifier(), mManagedProfile.getIdentifier(), 0);
+                mPackageManager.removeCrossProfileIntentFilter(intentViewFilter, ownerPackage,
                         mManagedProfile.getIdentifier(), mParentUser.getIdentifier(), 0);
             }
             return true;
