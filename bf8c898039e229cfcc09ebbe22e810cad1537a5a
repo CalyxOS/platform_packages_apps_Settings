@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b758e46_e4675365",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-10-22T13:12:09Z",
+      "side": 1,
+      "message": "On existing builds, users that want this, need to disable cross profile sharing and enable it again.\n\nAlso note that this only works for geo: links. If we want to support others, we need to do the same dance again. So maybe worth thinking about already adding other schemes. For example, do we want https? So links tapped in one profile can open the browser in another?",
+      "revId": "bf8c898039e229cfcc09ebbe22e810cad1537a5a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
